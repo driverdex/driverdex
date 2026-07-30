@@ -1,0 +1,17 @@
+2026-06-24 17:15:35 | DEBUG   | MainThread   | Auto thread detection: 8 logical CPUs.
+2026-06-24 17:15:35 | INFO    | MainThread   | Launching 1 job(s) with 1 worker(s).
+2026-06-24 17:15:35 | INFO    | worker_0     | === Job 'atmelcor-syst-x64-03.00.00.1.7z.0001' starting ===
+2026-06-24 17:15:35 | INFO    | worker_0     | Volume sequence OK: 1 parts (atmelcor-syst-x64-03.00.00.1.7z.0001 - atmelcor-syst-x64-03.00.00.1.7z.0001), total 90.34 KB
+2026-06-24 17:15:35 | DEBUG   | worker_0     | Volume 1 OK: atmelcor-syst-x64-03.00.00.1.7z.0001 (90.34 KB)
+2026-06-24 17:15:36 | INFO    | worker_0     | Safety check passed: 245.74 KB uncompressed across archive contents.
+2026-06-24 17:15:36 | INFO    | worker_0     | Extracting 5 file(s) to C:\Users\546493.UNIMAS\Downloads\DriverDex-Drivers\Atmel Corp-System-03.00.00.16
+2026-06-24 17:15:36 | INFO    | worker_0     | Computing SHA256 for verification...
+2026-06-24 17:15:37 | DEBUG   | worker_0     | SHA256 ad02fc9aef0e2b1bf54462d531135f5eede0b78edc7bb2fa002b8968ccdac71b  AtmelTpm.cat
+2026-06-24 17:15:37 | DEBUG   | worker_0     | SHA256 74b687642f92d114addc4a1527756460eb3d74e6fb73b8e3f0cefd2b5a86842b  atmeltpm.inf
+2026-06-24 17:15:37 | DEBUG   | worker_0     | SHA256 d5de3dd7c793dce9a4daf53d3ccb65889b73735ea1adbcd70161dcf540233e5c  atmeltpm64.sys
+2026-06-24 17:15:37 | DEBUG   | worker_0     | SHA256 90b62e0a3cf8683ed3dfafd29b128ccede071eb480d743f568560cffdba2f298  TPMDDL.dll
+2026-06-24 17:15:37 | DEBUG   | worker_0     | SHA256 3018a43323d581ad7da2e4de7546fbf85dd8563bd1f5fd548a1bf160c2e314c0  TPMDDL64.dll
+2026-06-24 17:15:37 | INFO    | worker_0     | Verification complete: 5 file digests computed.
+2026-06-24 17:15:37 | INFO    | worker_0     | === Job 'atmelcor-syst-x64-03.00.00.1.7z.0001' DONE: 5 files in 1.04s ===
+2026-06-24 17:15:37 | INFO    | MainThread   | ------------------------------------------------------------
+2026-06-24 17:15:37 | INFO    | MainThread   | SUMMARY: 1/1 jobs succeeded, 5 files, 1.05s total.
