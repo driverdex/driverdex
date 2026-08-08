@@ -65,7 +65,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 # ── Must match driverdex-reset.py exactly ────────────────────────────────────
-REPO_OWNER          = "rhshourav"
+REPO_OWNER          = "driverdex"
 REPO_NAME           = "driverdex"
 GH_BRANCH           = "main"
 MANIFEST_DIR        = "manifests"

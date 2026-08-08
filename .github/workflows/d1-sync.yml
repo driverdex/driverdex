@@ -1,0 +1,541 @@
+name: D1 Sync & Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.manifest*.json'
+      - 'schema.sql'
+      - 'migrate_to_d1.py'
+      - 'search-worker/**'
+      - 'site/**'
+      - '.github/workflows/d1-sync.yml'
+  workflow_dispatch:
+    inputs:
+      force_enabled:
+        description: >
+          Override enabled=false for all drivers in the manifests.
+          Use when newly-added drivers are not showing up due to a
+          bad "enabled" flag in the source manifest.
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+      since_date:
+        description: >
+          Manual date filter: only sync drivers with date_added >= this date (YYYY-MM-DD).
+          Leave blank: on push, auto-incremental (since last SyncLog entry); on workflow_dispatch, full re-sync.
+          Example: 2025-06-01
+        required: false
+        default: ''
+        type: string
+      debug_ids:
+        description: >
+          Comma-separated driver_ids to emit extra log output for.
+          Leave blank for normal operation.
+        required: false
+        default: ''
+        type: string
+      dry_run:
+        description: >
+          Generate SQL chunks but do NOT apply them to D1.
+          Useful for inspecting what would change before committing.
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+# Prevent two pushes from racing each other's writes against the same D1 DB
+# or stepping on each other's Worker deploys.
+concurrency:
+  group: d1-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      D1_DB_NAME: driverdex-index   # must match database_name in every wrangler.toml below
+
+    steps:
+      # ------------------------------------------------------------------
+      # 0. Checkout + toolchain
+      # ------------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install ijson
+
+      - name: Set up Node (for Wrangler)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Wrangler
+        # Install locally so both the `wrangler` global alias AND `npx wrangler`
+        # (used inside migrate_to_d1.py subprocesses) resolve to the same binary
+        # without an npx registry round-trip on every invocation.
+        # Wrangler 4 is required: site/wrangler.toml uses the route-pattern array
+        # form of [assets].run_worker_first (["/api/*","/i/*"]), which Wrangler 3
+        # rejects ("Expected ... to be of type boolean").
+        run: npm install wrangler@4
+
+      - name: Verify Cloudflare credentials are present
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::CLOUDFLARE_API_TOKEN and/or CLOUDFLARE_ACCOUNT_ID repository secrets are not set."
+            exit 1
+          fi
+          npx wrangler whoami
+
+      # ------------------------------------------------------------------
+      # 1. Idempotently ensure the D1 database exists
+      # ------------------------------------------------------------------
+      - name: Ensure D1 database exists (auto-create on first run)
+        run: |
+          python migrate_to_d1.py --ensure-db --db-name "$D1_DB_NAME" \
+            --write-database-id-to wrangler.toml \
+            --input-dir . --output-dir ./d1_import
+
+      # ------------------------------------------------------------------
+      # 1a. Propagate database_id into BOTH worker wrangler.toml files.
+      #     The root wrangler.toml is already patched by --write-database-id-to
+      #     above. This step patches search-worker/ and site/ so all three
+      #     files always hold the same real UUID before any deploy runs.
+      # ------------------------------------------------------------------
+      - name: Propagate database_id into search-worker and site wrangler.toml files
+        run: |
+          # Resolve the real database_id from the live Cloudflare API.
+          # Written to a temp file to avoid Python IndentationError caused by
+          # YAML block-scalar indentation being inherited in inline python3 -c calls.
+          printf '%s\n' \
+            'import json, sys, os' \
+            'dbs = json.load(sys.stdin)' \
+            'name = os.environ["D1_DB_NAME"]' \
+            'match = next((d for d in dbs if d.get("name") == name), None)' \
+            'if not match:' \
+            '    print("::error::Could not resolve database_id for " + name, file=sys.stderr)' \
+            '    sys.exit(1)' \
+            'print(match.get("uuid") or match.get("database_id"))' \
+            > /tmp/_resolve_db_id.py
+
+          DB_ID=$(npx wrangler d1 list --json | python3 /tmp/_resolve_db_id.py)
+          echo "Resolved database_id=$DB_ID"
+
+          # Patch the [[d1_databases]] database_id line in both worker configs.
+          printf '%s\n' \
+            'import sys' \
+            'from pathlib import Path' \
+            'db_id = sys.argv[1]' \
+            'NL = chr(10)' \
+            'for toml_path in ["search-worker/wrangler.toml", "site/wrangler.toml"]:' \
+            '    p = Path(toml_path)' \
+            '    lines = p.read_text().splitlines(keepends=True)' \
+            '    out, in_block = [], False' \
+            '    for line in lines:' \
+            '        stripped = line.strip()' \
+            '        if stripped.startswith("[[d1_databases]]"):' \
+            '            in_block = True' \
+            '        elif stripped.startswith("[") and not stripped.startswith("[[d1_databases]]"):' \
+            '            in_block = False' \
+            '        if in_block and stripped.startswith("database_id"):' \
+            '            indent = line[: len(line) - len(line.lstrip())]' \
+            '            line = indent + "database_id = " + chr(34) + db_id + chr(34) + NL' \
+            '        out.append(line)' \
+            '    p.write_text("".join(out))' \
+            '    print("Patched database_id into " + toml_path)' \
+            > /tmp/_patch_db_id.py
+          python3 /tmp/_patch_db_id.py "$DB_ID"
+
+      # ------------------------------------------------------------------
+      # 1b. Resolve (or auto-create) the INSTALL_LINKS KV namespace, then
+      #     propagate its id into both worker wrangler.toml files.
+      #
+      #     Zero manual setup required. Resolution order:
+      #       1. If the KV_INSTALL_LINKS_ID repo secret is set, use it as-is
+      #          (lets you pin a specific namespace / override auto-discovery).
+      #       2. Otherwise look for an existing namespace whose title ends in
+      #          "INSTALL_LINKS" and reuse it (idempotent across runs).
+      #       3. Otherwise create one with
+      #          `npx wrangler kv namespace create INSTALL_LINKS` and use the
+      #          newly minted id.
+      #     Both workers MUST share the same namespace: driverdex-check writes
+      #     install tokens, driverdex (site worker) reads them via /i/:token.
+      # ------------------------------------------------------------------
+      - name: Resolve / create INSTALL_LINKS KV namespace and patch wrangler.toml
+        run: |
+          KV_ID="${{ secrets.KV_INSTALL_LINKS_ID }}"
+          if [ -z "$KV_ID" ]; then
+            echo "KV_INSTALL_LINKS_ID secret not set -- auto-resolving the INSTALL_LINKS namespace."
+            KV_ID=$(npx wrangler kv namespace list 2>/dev/null \
+              | jq -r '.[] | select(.title | endswith("INSTALL_LINKS")) | .id' | head -n1)
+            if [ -z "$KV_ID" ] || [ "$KV_ID" = "null" ]; then
+              echo "No INSTALL_LINKS namespace found -- creating it now."
+              CREATE_OUT=$(npx wrangler kv namespace create INSTALL_LINKS 2>&1 || true)
+              echo "$CREATE_OUT"
+              KV_ID=$(printf '%s' "$CREATE_OUT" | grep -oE '[0-9a-f]{32}' | head -n1)
+              if [ -z "$KV_ID" ]; then
+                # Namespace may have already existed -- re-list to pick up its id.
+                KV_ID=$(npx wrangler kv namespace list 2>/dev/null \
+                  | jq -r '.[] | select(.title | endswith("INSTALL_LINKS")) | .id' | head -n1)
+              fi
+            fi
+          fi
+          if [ -z "$KV_ID" ] || [ "$KV_ID" = "null" ]; then
+            echo "::error::Could not resolve or create the INSTALL_LINKS KV namespace."
+            exit 1
+          fi
+          echo "Using INSTALL_LINKS KV namespace id: $KV_ID"
+
+          printf '%s\n' \
+            'import sys' \
+            'from pathlib import Path' \
+            'kv_id = sys.argv[1]' \
+            'NL = chr(10)' \
+            'for toml_path in ["search-worker/wrangler.toml", "site/wrangler.toml"]:' \
+            '    p = Path(toml_path)' \
+            '    lines = p.read_text().splitlines(keepends=True)' \
+            '    out, in_kv_block, binding_matches, patched = [], False, False, False' \
+            '    for line in lines:' \
+            '        stripped = line.strip()' \
+            '        if stripped.startswith("[[kv_namespaces]]"):' \
+            '            in_kv_block = True' \
+            '            binding_matches = False' \
+            '        elif stripped.startswith("[") and not stripped.startswith("[[kv_namespaces]]"):' \
+            '            in_kv_block = False' \
+            '        if in_kv_block and stripped.startswith("binding") and "INSTALL_LINKS" in stripped:' \
+            '            binding_matches = True' \
+            '        if in_kv_block and binding_matches and stripped.startswith("id"):' \
+            '            indent = line[: len(line) - len(line.lstrip())]' \
+            '            line = indent + "id      = " + chr(34) + kv_id + chr(34) + NL' \
+            '            patched = True' \
+            '        out.append(line)' \
+            '    if not patched:' \
+            '        print("::error::Could not find [[kv_namespaces]] INSTALL_LINKS id line in " + toml_path)' \
+            '        sys.exit(1)' \
+            '    p.write_text("".join(out))' \
+            '    print("Patched KV id into " + toml_path)' \
+            > /tmp/_patch_kv_id.py
+          python3 /tmp/_patch_kv_id.py "$KV_ID"
+
+      # ------------------------------------------------------------------
+      # 1c. Resolve this account's workers.dev subdomain and patch
+      #     PUBLIC_BASE_URL in both wrangler.toml files so the install
+      #     one-liner and the search UI always point at the correct host
+      #     for THIS account (never a stale hardcoded subdomain).
+      #
+      #     NOTE: this requires the account to have a workers.dev subdomain
+      #     registered. If none exists, Wrangler cannot create one in CI --
+      #     register it once at https://dash.cloudflare.com → Workers & Pages
+      #     (you'll be prompted to pick a subdomain on first visit).
+      # ------------------------------------------------------------------
+      - name: Resolve workers.dev subdomain and patch PUBLIC_BASE_URL
+        run: |
+          SUBDOMAIN=$(curl -s \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/workers/subdomain" \
+            | jq -r '.result.subdomain // empty')
+          if [ -z "$SUBDOMAIN" ]; then
+            echo "::error::No workers.dev subdomain is registered for this account."
+            echo "::error::Register one once at https://dash.cloudflare.com -> Workers & Pages,"
+            echo "::error::then re-run this workflow. (Wrangler cannot register it in CI.)"
+            exit 1
+          fi
+          # The site worker is named "app"; the search API worker is "driverdex-check".
+          # PUBLIC_BASE_URL must point at the SITE worker (it serves /i/:token), so both
+          # tomls get the app URL. Tokens' install one-liner resolves against this host.
+          BASE_URL="https://app.${SUBDOMAIN}.workers.dev"
+          echo "Using PUBLIC_BASE_URL: $BASE_URL"
+          for toml in search-worker/wrangler.toml site/wrangler.toml; do
+            sed -i -E "s#^PUBLIC_BASE_URL = .*#PUBLIC_BASE_URL = \"${BASE_URL}\"#" "$toml"
+            echo "Patched PUBLIC_BASE_URL into $toml"
+          done
+          # Export for later steps (e.g. the run summary).
+          {
+            echo "WORKERS_SUBDOMAIN=${SUBDOMAIN}"
+            echo "SITE_URL=${BASE_URL}"
+            echo "SEARCH_API_URL=https://driverdex-check.${SUBDOMAIN}.workers.dev"
+          } >> "$GITHUB_ENV"
+
+      # ------------------------------------------------------------------
+      # 2. One-time schema apply (fully idempotent)
+      # ------------------------------------------------------------------
+      - name: Apply schema (idempotent -- IF NOT EXISTS everywhere)
+        run: npx wrangler d1 execute "$D1_DB_NAME" --remote --file=schema.sql
+
+      # CREATE TABLE IF NOT EXISTS above is a no-op on a database that
+      # already has SyncLog from before this column existed, so the new
+      # column needs its own idempotent migration. SQLite/D1 has no
+      # "ADD COLUMN IF NOT EXISTS", so we just attempt the ALTER and
+      # swallow the one expected failure mode (column already there) --
+      # any other error still fails the build.
+      - name: Ensure SyncLog has drivers_null_enabled column
+        run: |
+          OUTPUT=$(npx wrangler d1 execute "$D1_DB_NAME" --remote \
+            --command "ALTER TABLE SyncLog ADD COLUMN drivers_null_enabled INTEGER NOT NULL DEFAULT 0;" 2>&1) \
+            && echo "$OUTPUT" \
+            || {
+              echo "$OUTPUT";
+              if echo "$OUTPUT" | grep -qi "duplicate column name"; then
+                echo "::notice::drivers_null_enabled column already exists -- skipping";
+              else
+                echo "::error::Failed to add drivers_null_enabled column to SyncLog";
+                exit 1;
+              fi
+            }
+
+      # ------------------------------------------------------------------
+      # 3. Storage guardrail
+      # ------------------------------------------------------------------
+      - name: Check D1 storage usage against free-plan 5GB limit
+        run: |
+          python migrate_to_d1.py --check-storage --db-name "$D1_DB_NAME" \
+            --storage-warn-pct 80 --storage-fail-pct 95 \
+            --input-dir . --output-dir ./d1_import
+
+      # ------------------------------------------------------------------
+      # 4. Generate SQL chunks
+      #    - On a push event: incremental (since last SyncLog entry)
+      #    - On workflow_dispatch: honours all manual input flags below
+      # ------------------------------------------------------------------
+      - name: Resolve migration flags
+        id: flags
+        run: |
+          FORCE_ENABLED_FLAG=""
+          SINCE_FLAG=""
+          DEBUG_IDS_FLAG=""
+          DRY_RUN_FLAG=""
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ inputs.force_enabled }}" = "true" ]; then
+              FORCE_ENABLED_FLAG="--force-enabled"
+              echo "::notice::force-enabled is ON -- overriding enabled=false for all drivers"
+            fi
+            if [ -n "${{ inputs.since_date }}" ]; then
+              SINCE_FLAG="--since ${{ inputs.since_date }}"
+              echo "::notice::Date filter active: only drivers with date_added >= ${{ inputs.since_date }}"
+            fi
+            if [ -n "${{ inputs.debug_ids }}" ]; then
+              DEBUG_IDS_FLAG="--debug-ids ${{ inputs.debug_ids }}"
+              echo "::notice::Debug-ID watch: ${{ inputs.debug_ids }}"
+            fi
+            if [ "${{ inputs.dry_run }}" = "true" ]; then
+              DRY_RUN_FLAG="--dry-run"
+              echo "::notice::Dry-run mode -- SQL will be generated but NOT applied to D1"
+            fi
+          fi
+
+          echo "force_enabled_flag=$FORCE_ENABLED_FLAG" >> "$GITHUB_OUTPUT"
+          echo "since_flag=$SINCE_FLAG"                 >> "$GITHUB_OUTPUT"
+          echo "debug_ids_flag=$DEBUG_IDS_FLAG"         >> "$GITHUB_OUTPUT"
+          echo "dry_run_flag=$DRY_RUN_FLAG"             >> "$GITHUB_OUTPUT"
+
+      - name: Determine sync mode (incremental vs full)
+        id: sync_mode
+        run: |
+          SYNC_SINCE=""
+          if [ "${{ github.event_name }}" = "push" ]; then
+            printf '%s\n' \
+              'import json, sys, datetime' \
+              'try:' \
+              '    data = json.load(sys.stdin)' \
+              '    rows = data[0]["results"] if data else []' \
+              '    if rows and rows[0].get("DATE(run_at)"):' \
+              '        print(rows[0]["DATE(run_at)"])' \
+              '    else:' \
+              '        print((datetime.date.today() - datetime.timedelta(days=3650)).isoformat())' \
+              'except Exception:' \
+              '    print((datetime.date.today() - datetime.timedelta(days=3650)).isoformat())' \
+              > /tmp/_last_sync.py
+
+            LAST_SYNC=$(npx wrangler d1 execute "$D1_DB_NAME" --remote \
+              --command "SELECT DATE(run_at) FROM SyncLog ORDER BY id DESC LIMIT 1;" \
+              --json 2>/dev/null | python3 /tmp/_last_sync.py 2>/dev/null)
+
+            if [ -n "$LAST_SYNC" ]; then
+              echo "::notice::Incremental sync mode: only syncing drivers with date_added >= $LAST_SYNC (since last run)"
+              SYNC_SINCE="--since $LAST_SYNC"
+            else
+              echo "::notice::Full sync mode (no prior SyncLog entry found)"
+            fi
+          fi
+          echo "sync_since=$SYNC_SINCE" >> "$GITHUB_OUTPUT"
+
+      - name: Run migration script (generate add-only SQL chunks)
+        run: |
+          # ADD-ONLY SYNC: --clean is intentionally NOT passed. The D1 database
+          # is never diffed against local state and no DELETE-diff is emitted,
+          # so existing rows / old manifests are always preserved. Combined with
+          # the incremental --since window below, each run only upserts drivers
+          # newly added since the last successful sync.
+          #
+          # sync_since (auto-incremental, push-only) and since_flag (manual,
+          # workflow_dispatch-only) are mutually exclusive by event type, but
+          # we resolve explicitly here to never pass --since twice.
+          SINCE_ARG="${{ steps.flags.outputs.since_flag }}"
+          if [ -z "$SINCE_ARG" ]; then
+            SINCE_ARG="${{ steps.sync_mode.outputs.sync_since }}"
+          fi
+
+          python migrate_to_d1.py \
+            --input-dir . \
+            --output-dir ./d1_import \
+            --db-name "$D1_DB_NAME" \
+            --commit-sha "${{ github.sha }}" \
+            ${{ steps.flags.outputs.force_enabled_flag }} \
+            $SINCE_ARG \
+            ${{ steps.flags.outputs.debug_ids_flag }} \
+            ${{ steps.flags.outputs.dry_run_flag }}
+
+      - name: Verify SQL chunks were generated
+        run: |
+          shopt -s nullglob
+          chunks=(./d1_import/d1_import_part_*.sql)
+          if [ ${#chunks[@]} -eq 0 ]; then
+            echo "::error::No SQL chunks were generated - aborting."
+            exit 1
+          fi
+          echo "Generated ${#chunks[@]} import chunk(s):"
+          printf '%s\n' "${chunks[@]}"
+
+      # ------------------------------------------------------------------
+      # 5. Apply import chunks, then cleanup chunks
+      #    Skipped entirely in dry-run mode.
+      # ------------------------------------------------------------------
+      - name: Apply import chunks to D1 (sequential, fail-fast)
+        if: ${{ inputs.dry_run != 'true' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          set -e
+          shopt -s nullglob
+          for file in ./d1_import/d1_import_part_*.sql; do
+            echo "Applying $file ..."
+            if ! npx wrangler d1 execute "$D1_DB_NAME" --remote --file="$file"; then
+              echo "::error::Failed applying $file"
+              exit 1
+            fi
+            echo "OK: $file"
+          done
+
+      # NOTE: The "Apply cleanup chunks" step has been intentionally removed.
+      # This sync is ADD-ONLY: it never deletes rows or purges old manifests.
+      # migrate_to_d1.py is run without --clean, so no d1_cleanup_part_*.sql
+      # files are ever generated, and nothing existing in D1 is removed.
+
+      # ------------------------------------------------------------------
+      # 5b. Post-sync verification
+      # ------------------------------------------------------------------
+      - name: Verify sync landed in D1
+        if: ${{ inputs.dry_run != 'true' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          echo "=== Latest SyncLog entry ==="
+          printf '%s\n' \
+            'import json, sys' \
+            'data = json.load(sys.stdin)' \
+            'rows = data[0]["results"] if data else []' \
+            'if not rows:' \
+            '    print("::warning::SyncLog is empty -- nothing was written!")' \
+            '    sys.exit(0)' \
+            'r = rows[0]' \
+            'print("  run_at             : " + str(r.get("run_at")))' \
+            'print("  manifests_processed: " + str(r.get("manifests_processed")))' \
+            'print("  drivers_upserted   : " + str(r.get("drivers_upserted")))' \
+            'print("  hwids_upserted     : " + str(r.get("hwids_upserted")))' \
+            'print("  drivers_skipped    : " + str(r.get("drivers_skipped")))' \
+            'print("  drivers_null_enabled: " + str(r.get("drivers_null_enabled")))' \
+            'print("  commit_sha         : " + str(r.get("commit_sha")))' \
+            'if int(r.get("drivers_upserted") or 0) == 0:' \
+            '    print("::error::drivers_upserted = 0 -- no drivers landed in D1!")' \
+            '    sys.exit(1)' \
+            'null_enabled = int(r.get("drivers_null_enabled") or 0)' \
+            'if null_enabled > 0:' \
+            '    print("::notice::" + str(null_enabled) + " driver(s) had enabled:null -- normalized to enabled=1 (expected).")' \
+            > /tmp/_verify_synclog.py
+          npx wrangler d1 execute "$D1_DB_NAME" --remote \
+            --command "SELECT run_at, manifests_processed, drivers_upserted, hwids_upserted, drivers_skipped, drivers_null_enabled, commit_sha FROM SyncLog ORDER BY id DESC LIMIT 1;" \
+            --json | python3 /tmp/_verify_synclog.py
+
+          echo "=== Enabled driver count ==="
+          printf '%s\n' \
+            'import json, sys' \
+            'data = json.load(sys.stdin)' \
+            'rows = data[0]["results"] if data else []' \
+            'n = rows[0].get("enabled_drivers", 0) if rows else 0' \
+            'print("  enabled_drivers: " + str(n))' \
+            'if int(n) == 0:' \
+            '    print("::error::No enabled drivers in DB after sync!")' \
+            '    sys.exit(1)' \
+            > /tmp/_verify_drvcount.py
+          npx wrangler d1 execute "$D1_DB_NAME" --remote \
+            --command "SELECT COUNT(*) AS enabled_drivers FROM Drivers WHERE enabled=1;" \
+            --json | python3 /tmp/_verify_drvcount.py
+
+      - name: Upload generated SQL as build artifact (debugging)
+        if: always()
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          name: d1-sql-chunks
+          path: ./d1_import/*.sql
+          retention-days: 7
+
+      # ------------------------------------------------------------------
+      # 6. Deploy Workers (skipped in dry-run mode)
+      # ------------------------------------------------------------------
+      - name: Deploy search API Worker (driverdex-check)
+        if: ${{ inputs.dry_run != 'true' || github.event_name != 'workflow_dispatch' }}
+        working-directory: search-worker
+        # Retry to absorb the Cloudflare propagation race: immediately after a
+        # brand-new script is uploaded, the /workers/scripts/<name>/subdomain
+        # API call to enable workers.dev can return 10007 ("This Worker does not
+        # exist") because the script isn't queryable yet. A short backoff fixes it.
+        run: |
+          for attempt in 1 2 3 4 5; do
+            echo "Deploy attempt #$attempt ..."
+            if npx wrangler deploy; then
+              echo "Deploy succeeded on attempt #$attempt"
+              exit 0
+            fi
+            echo "Attempt #$attempt failed; waiting before retry ..."
+            sleep $((attempt * 10))
+          done
+          echo "::error::wrangler deploy failed after 5 attempts."
+          exit 1
+
+      - name: Deploy search UI Worker (app)
+        if: ${{ inputs.dry_run != 'true' || github.event_name != 'workflow_dispatch' }}
+        working-directory: site
+        run: |
+          for attempt in 1 2 3 4 5; do
+            echo "Deploy attempt #$attempt ..."
+            if npx wrangler deploy; then
+              echo "Deploy succeeded on attempt #$attempt"
+              exit 0
+            fi
+            echo "Attempt #$attempt failed; waiting before retry ..."
+            sleep $((attempt * 10))
+          done
+          echo "::error::wrangler deploy failed after 5 attempts."
+          exit 1
+
+      - name: Summary
+        run: |
+          DRY="$( [ "${{ inputs.dry_run }}" = "true" ] && echo " (DRY RUN -- not applied)" || echo "" )"
+          echo "## D1 Sync & Deploy complete${DRY}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Database : \`$D1_DB_NAME\`"          >> "$GITHUB_STEP_SUMMARY"
+          echo "- Commit   : \`${{ github.sha }}\`"    >> "$GITHUB_STEP_SUMMARY"
+          echo "- Trigger  : \`${{ github.event_name }}\`" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "- force-enabled: \`${{ inputs.force_enabled }}\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "- since        : \`${{ inputs.since_date || 'all' }}\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "- dry-run      : \`${{ inputs.dry_run }}\`" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "- Search API: ${SEARCH_API_URL:-https://driverdex-check.<subdomain>.workers.dev}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Search UI : ${SITE_URL:-https://app.<subdomain>.workers.dev}"                   >> "$GITHUB_STEP_SUMMARY"
