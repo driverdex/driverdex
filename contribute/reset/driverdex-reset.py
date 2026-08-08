@@ -3,8 +3,8 @@
 #  DriverDex Builder  --  Driver & Installer Manifest Builder / GitHub Uploader
 #  Author  : rhshourav
 #  Version : 6.1.1-rest
-#  Repo    : https://github.com/rhshourav/driverdex
-#  Part of : Windows-Scripts  --  github.com/rhshourav/Windows-Scripts
+#  Repo    : https://github.com/driverdex/driverdex
+#  Part of : Windows-Scripts  --  github.com/shouravx/Windows-Scripts
 #
 #  Changes in v6.1.1-rest  (fix: category manifests could be silently
 #  overwritten/deleted when drivedex_index.json was unreadable)
@@ -499,13 +499,13 @@ _APP_DIR = _get_app_dir()
 
 # ── constants ─────────────────────────────────────────────────────────────────
 # Manifests (+ README / index) live in the "driverdex" repo under manifests/.
-REPO_OWNER          = "rhshourav"
+REPO_OWNER          = "driverdex"
 REPO_NAME           = "driverdex"
 
 # Driver archives now live in a SEPARATE dedicated repo, at its ROOT — i.e.
-# github.com/rhshourav/drivers/<Type>/DP_<Pack>/…  (NOT under a nested
+# github.com/driverdex/drivers/<Type>/DP_<Pack>/…  (NOT under a nested
 # "drivers/" sub-folder, and NOT inside the driverdex repo anymore).
-DRIVERS_REPO_OWNER  = "rhshourav"
+DRIVERS_REPO_OWNER  = "driverdex"
 DRIVERS_REPO_NAME   = "drivers"
 
 GH_BRANCH           = "main"
@@ -521,7 +521,7 @@ APP_VER             = "6.1.1"
 # or by a network-level content filter sitting in front of it — both of
 # which have been observed serving a "looks like scraping" block page for
 # bare-urllib traffic hitting raw.githubusercontent.com in bulk.
-HTTP_USER_AGENT     = f"DriverDexBuilder/{APP_VER} (+https://github.com/rhshourav/driverdex)"
+HTTP_USER_AGENT     = f"DriverDexBuilder/{APP_VER} (+https://github.com/driverdex/driverdex)"
 COMMIT_EMAIL        = "driverdex-builder@noreply.local"
 COMMIT_NAME         = "DriverDex-Builder"
 
@@ -1616,7 +1616,7 @@ def show_banner() -> None:
     div   = _T(_DIVIDER + "\n", style="dim cyan")
     sub   = _T(f"  Driver & Installer Builder  ", style="bold white")
     ver   = _T(f"v{APP_VER}\n", style="bold bright_cyan")
-    auth  = _T(f"  Author   : ", style="dim white") + _T("rhshourav\n", style="cyan")
+    auth  = _T(f"  Author   : ", style="dim white") + _T("shouravx\n", style="cyan")
     repo  = _T(f"  Repo     : ", style="dim white") + _T(f"github.com/{REPO_OWNER}/{REPO_NAME}\n", style="bright_cyan")
     ws    = _T(f"  Workspace: ", style="dim white") + _T(str(WORKSPACE_DIR), style="dim green")
     C.print(
