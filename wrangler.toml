@@ -1,0 +1,30 @@
+# ============================================================================
+# wrangler.toml (repo root)
+# ----------------------------------------------------------------------------
+# This file exists mainly so `wrangler d1 execute --local` and friends have
+# something to anchor to. It is NOT required for `--remote` D1 execute calls
+# (those resolve the database by name directly against the Cloudflare API),
+# and it is NOT the config used to deploy the search Worker -- that lives at
+# search-worker/wrangler.toml, which has its own [[d1_databases]] block.
+#
+# The `database_id` below starts as a placeholder. You never need to fill it
+# in by hand: the very first GitHub Actions run of d1-sync.yml calls
+#   python migrate_to_d1.py --ensure-db --db-name driverdex-index \
+#       --write-database-id-to wrangler.toml ...
+# which creates the D1 database (if it doesn't already exist) and patches
+# the real UUID into this file's matching [[d1_databases]] block in place.
+# That patch only lives in the CI runner's checkout, though (the workflow
+# never commits back to the repo -- see d1-sync.yml's permissions comment) --
+# so on every run it re-resolves the id fresh via `wrangler d1 list`. If you
+# ever want a permanent copy for local dev, run:
+#   npx wrangler d1 list
+# and paste the printed uuid in below.
+# ============================================================================
+
+name = "driverdex-d1-sync"
+compatibility_date = "2026-06-01"
+
+[[d1_databases]]
+binding       = "DB"
+database_name = "driverdex-index"
+database_id   = "00000000-0000-0000-0000-000000000000"   # placeholder -- auto-patched by CI, see above
