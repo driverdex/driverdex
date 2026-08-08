@@ -1,0 +1,2440 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DriverDex &mdash; Driver Index</title>
+<meta name="description" content="Search the DriverDex driver mirror by hardware ID, provider, or device name." />
+<meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#F7F4EE" media="(prefers-color-scheme: light)" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230B0E11%22/><text x=%2250%22 y=%2266%22 font-size=%2254%22 font-family=%22monospace%22 fill=%22%23FFB454%22 text-anchor=%22middle%22>L</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- set theme before paint to avoid flash-of-wrong-theme -->
+<script>
+  (function(){
+    try{
+      var stored = localStorage.getItem('ldc-theme');
+      var theme = stored || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    }catch(e){
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
+
+<style>
+  /* ============================================================ tokens */
+  :root{
+    /* dark (default) */
+    --bg:        #0B0E11;
+    --bg-raised: #11151A;
+    --bg-input:  #14181E;
+    --line:      #1F252D;
+    --line-soft: #181C22;
+    --text:      #E8EAED;
+    --text-dim:  #9AA3AF;
+    --text-faint:#5B6470;
+    --accent:    #FFB454;
+    --accent-2:  #FF9D3D;
+    --accent-dim:#8A6A3A;
+    --accent-glow: rgba(255,180,84,0.16);
+    --accent-soft: rgba(255,180,84,0.07);
+    --ok:        #6FCF97;
+    --ok-glow:   rgba(111,207,151,0.10);
+    --ok-line:   rgba(111,207,151,0.25);
+    --danger:    #F87171;
+    --danger-glow: rgba(248,113,113,0.10);
+    --danger-line: rgba(248,113,113,0.25);
+    --warn:      #F4C26A;
+    --warn-glow: rgba(244,194,106,0.10);
+    --warn-line: rgba(244,194,106,0.28);
+    --old:       #A78BFA;
+    --old-glow:  rgba(167,139,250,0.10);
+    --old-line:  rgba(167,139,250,0.28);
+    --line-hover:#2A323D;
+
+    /* surfaces / shadows */
+    --shadow-row: 0 1px 2px rgba(0,0,0,0.30);
+    --shadow-row-hover: 0 8px 28px rgba(0,0,0,0.45);
+    --shadow-pop: 0 14px 40px rgba(0,0,0,0.55);
+
+    /* ambient background hues */
+    --amb-a: rgba(255,180,84,0.20);
+    --amb-b: rgba(72,120,168,0.18);
+    --amb-c: rgba(255,157,61,0.14);
+    --amb-opacity: 0.85;
+    --net-rgb: 255,180,84;
+    --net-alpha: 0.55;
+    --amb-d: rgba(124,196,255,0.12);
+    --amb-e: rgba(255,196,120,0.10);
+    --aurora-1: rgba(255,180,84,0.18);
+    --aurora-2: rgba(80,150,210,0.16);
+    --aurora-3: rgba(255,140,70,0.12);
+    --grid-rgb: 255,255,255;
+    --grid-alpha: 0.025;
+
+    /* liquid glass */
+    --glass-bg:        rgba(20,25,32,0.55);
+    --glass-bg-strong: rgba(16,20,26,0.74);
+    --glass-border:    rgba(255,255,255,0.09);
+    --glass-hi:        rgba(255,255,255,0.12);
+    --glass-blur:      14px;
+    --glass-shadow:    0 8px 32px rgba(0,0,0,0.40), inset 0 1px 0 rgba(255,255,255,0.05);
+
+    --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --radius: 8px;
+    --radius-sm: 5px;
+
+    /* motion system */
+    --ease-snappy: cubic-bezier(0.2, 0.8, 0.2, 1);
+    --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+    --t-micro: 140ms;
+    --t-mid: 240ms;
+    --t-entrance: 380ms;
+  }
+
+  html[data-theme="light"]{
+    --bg:        #F7F4EE;
+    --bg-raised: #FFFFFF;
+    --bg-input:  #FFFFFF;
+    --line:      #E3DDD1;
+    --line-soft: #ECE7DC;
+    --text:      #232323;
+    --text-dim:  #5C6068;
+    --text-faint:#8A8F98;
+    --accent:    #B26A00;
+    --accent-2:  #C7791A;
+    --accent-dim:#D7A256;
+    --accent-glow: rgba(178,106,0,0.14);
+    --accent-soft: rgba(178,106,0,0.06);
+    --ok:        #1F8A4C;
+    --ok-glow:   rgba(31,138,76,0.10);
+    --ok-line:   rgba(31,138,76,0.28);
+    --danger:    #C23B3B;
+    --danger-glow: rgba(194,59,59,0.09);
+    --danger-line: rgba(194,59,59,0.28);
+    --warn:      #A07000;
+    --warn-glow: rgba(160,112,0,0.09);
+    --warn-line: rgba(160,112,0,0.28);
+    --old:       #6D4FC2;
+    --old-glow:  rgba(109,79,194,0.09);
+    --old-line:  rgba(109,79,194,0.28);
+    --line-hover:#CFC7B6;
+
+    --shadow-row: 0 1px 2px rgba(60,50,30,0.06);
+    --shadow-row-hover: 0 10px 30px rgba(80,65,35,0.14);
+    --shadow-pop: 0 16px 44px rgba(80,65,35,0.18);
+
+    --amb-a: rgba(178,106,0,0.12);
+    --amb-b: rgba(90,130,175,0.10);
+    --amb-c: rgba(199,121,26,0.10);
+    --amb-opacity: 0.7;
+    --net-rgb: 178,106,0;
+    --net-alpha: 0.30;
+    --amb-d: rgba(110,160,210,0.10);
+    --amb-e: rgba(214,150,70,0.10);
+    --aurora-1: rgba(214,150,70,0.14);
+    --aurora-2: rgba(120,165,205,0.12);
+    --aurora-3: rgba(199,121,26,0.10);
+    --grid-rgb: 120,100,60;
+    --grid-alpha: 0.035;
+
+    --glass-bg:        rgba(255,255,255,0.55);
+    --glass-bg-strong: rgba(255,255,255,0.76);
+    --glass-border:    rgba(80,65,35,0.12);
+    --glass-hi:        rgba(255,255,255,0.70);
+    --glass-blur:      14px;
+    --glass-shadow:    0 8px 30px rgba(80,65,35,0.14), inset 0 1px 0 rgba(255,255,255,0.65);
+  }
+
+  *{box-sizing:border-box;}
+  [hidden]{ display:none !important; }
+  html,body{margin:0;padding:0;}
+  html{ background:var(--bg); }
+  body{
+    background:transparent;
+    color:var(--text);
+    font-family:var(--sans);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+    transition:background-color var(--t-mid) var(--ease-smooth), color var(--t-mid) var(--ease-smooth);
+    padding:
+      env(safe-area-inset-top)
+      env(safe-area-inset-right)
+      env(safe-area-inset-bottom)
+      env(safe-area-inset-left);
+  }
+  ::selection{ background:var(--accent-glow); color:var(--accent); }
+
+  a{ color:var(--accent); text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+
+  *{ scrollbar-color: var(--line-hover) transparent; }
+  ::-webkit-scrollbar{ width:10px; height:10px; }
+  ::-webkit-scrollbar-thumb{ background:var(--line-hover); border-radius:8px; border:2px solid var(--bg); }
+  ::-webkit-scrollbar-track{ background:transparent; }
+
+  .skip-link{
+    position:absolute; left:-999px; top:0; background:var(--accent); color:var(--bg);
+    padding:8px 14px; z-index:200; border-radius:0 0 6px 0; font-weight:600;
+  }
+  .skip-link:focus{ left:0; }
+
+  /* ============================================================ ambient bg */
+  .ambient{
+    position:fixed; inset:0; z-index:-2; overflow:hidden; pointer-events:none;
+    opacity:var(--amb-opacity);
+    transition:opacity var(--t-mid) var(--ease-smooth);
+  }
+  .ambient .blob{
+    position:absolute; border-radius:50%;
+    filter:blur(70px);
+    will-change:transform, opacity;
+  }
+  .ambient .b1{ width:46vw; height:46vw; min-width:340px; min-height:340px; top:-12vh; left:-6vw; background:var(--amb-a); animation:drift1 26s var(--ease-smooth) infinite alternate; }
+  .ambient .b2{ width:40vw; height:40vw; min-width:300px; min-height:300px; top:18vh; right:-10vw; background:var(--amb-b); animation:drift2 32s var(--ease-smooth) infinite alternate; }
+  .ambient .b3{ width:34vw; height:34vw; min-width:260px; min-height:260px; bottom:-14vh; left:24vw; background:var(--amb-c); animation:drift3 30s var(--ease-smooth) infinite alternate; }
+  .ambient .b4{ width:30vw; height:30vw; min-width:240px; min-height:240px; top:42vh; left:38vw; background:var(--amb-d); animation:drift4 38s var(--ease-smooth) infinite alternate; }
+  .ambient .b5{ width:26vw; height:26vw; min-width:220px; min-height:220px; bottom:6vh; right:14vw; background:var(--amb-e); animation:drift5 34s var(--ease-smooth) infinite alternate; }
+  @keyframes drift1{ from{ transform:translate3d(0,0,0) scale(1); } to{ transform:translate3d(6vw,5vh,0) scale(1.12); } }
+  @keyframes drift2{ from{ transform:translate3d(0,0,0) scale(1.05); } to{ transform:translate3d(-5vw,7vh,0) scale(0.92); } }
+  @keyframes drift3{ from{ transform:translate3d(0,0,0) scale(0.95); } to{ transform:translate3d(4vw,-6vh,0) scale(1.1); } }
+  @keyframes drift4{ from{ transform:translate3d(0,0,0) scale(1); } to{ transform:translate3d(-7vw,-4vh,0) scale(1.15); } }
+  @keyframes drift5{ from{ transform:translate3d(0,0,0) scale(1.08); } to{ transform:translate3d(5vw,4vh,0) scale(0.9); } }
+
+  .ambient .aurora{
+    position:absolute; inset:-30%;
+    background:
+      conic-gradient(from 0deg at 30% 30%, transparent, var(--aurora-1), transparent 35%),
+      conic-gradient(from 180deg at 70% 60%, transparent, var(--aurora-2), transparent 40%),
+      conic-gradient(from 90deg at 50% 80%, transparent, var(--aurora-3), transparent 30%);
+    filter:blur(60px); mix-blend-mode:screen; will-change:transform;
+    animation:auroraSpin 50s linear infinite;
+  }
+  html[data-theme="light"] .ambient .aurora{ mix-blend-mode:multiply; }
+  @keyframes auroraSpin{ to{ transform:rotate(360deg); } }
+
+  .ambient .grid{
+    position:absolute; inset:-2px;
+    background-image:
+      linear-gradient(to right, rgba(var(--grid-rgb),var(--grid-alpha)) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(var(--grid-rgb),var(--grid-alpha)) 1px, transparent 1px);
+    background-size:46px 46px;
+    -webkit-mask-image:radial-gradient(ellipse at 50% 40%, #000 30%, transparent 78%);
+            mask-image:radial-gradient(ellipse at 50% 40%, #000 30%, transparent 78%);
+    animation:gridShift 24s linear infinite;
+  }
+  @keyframes gridShift{ to{ background-position:46px 46px, 46px 46px; } }
+
+  #net-canvas{
+    position:fixed; inset:0; z-index:-1; pointer-events:none;
+    opacity:0; transition:opacity 600ms var(--ease-smooth);
+  }
+  #net-canvas.on{ opacity:1; }
+
+  body.anim-paused .ambient .blob,
+  body.anim-paused .ambient .aurora,
+  body.anim-paused .ambient .grid{ animation-play-state:paused; }
+
+  /* ============================================================ shell */
+  .shell{
+    max-width:920px;
+    margin:0 auto;
+    padding:48px 20px 96px;
+    position:relative; z-index:1;
+  }
+
+  header.top{
+    display:flex; align-items:flex-start; justify-content:space-between;
+    gap:20px; margin-bottom:36px; flex-wrap:wrap;
+  }
+  .brand{ display:flex; align-items:center; gap:13px; }
+  .brand-mark{
+    width:42px; height:42px; border-radius:11px;
+    background:var(--glass-bg-strong);
+    -webkit-backdrop-filter:blur(10px) saturate(150%); backdrop-filter:blur(10px) saturate(150%);
+    border:1px solid var(--glass-border);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--mono); font-weight:700; color:var(--accent); font-size:19px;
+    box-shadow: var(--glass-shadow), 0 0 24px var(--accent-soft);
+    position:relative; overflow:hidden;
+  }
+  .brand-mark::after{
+    content:""; position:absolute; inset:0; border-radius:inherit;
+    box-shadow: inset 0 0 0 1px rgba(255,180,84,0.10);
+  }
+  .brand-text h1{ font-size:18px; margin:0; font-weight:800; letter-spacing:-0.01em; }
+  .brand-text .sub{ font-size:12px; color:var(--text-faint); font-family:var(--mono); margin-top:3px; }
+
+  .head-right{ display:flex; align-items:flex-start; gap:14px; }
+
+  .stats-line{
+    font-family:var(--mono); font-size:12px; color:var(--text-dim);
+    text-align:right; line-height:1.8;
+  }
+  .stats-line .n{ color:var(--accent); font-weight:600; }
+  .stats-line .lbl{ color:var(--text-faint); }
+
+  /* ---------------------------------------------------------- theme toggle */
+  .theme-toggle{
+    flex:0 0 auto;
+    width:44px; height:44px; border-radius:11px;
+    display:inline-flex; align-items:center; justify-content:center;
+    background:var(--glass-bg); border:1px solid var(--glass-border); color:var(--text-dim);
+    -webkit-backdrop-filter:blur(10px) saturate(150%); backdrop-filter:blur(10px) saturate(150%);
+    box-shadow:var(--glass-shadow);
+    cursor:pointer; position:relative; overflow:hidden;
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  .theme-toggle:hover{ border-color:var(--accent-dim); color:var(--accent); box-shadow:0 0 0 3px var(--accent-glow); }
+  .theme-toggle:active{ transform:scale(0.92); }
+  .theme-toggle:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .theme-toggle svg{ position:absolute; width:20px; height:20px; transition:opacity var(--t-mid) var(--ease-smooth), transform var(--t-mid) var(--ease-smooth); }
+  .theme-toggle .i-sun{ opacity:0; transform:rotate(-90deg) scale(0.5); }
+  .theme-toggle .i-moon{ opacity:1; transform:rotate(0deg) scale(1); }
+  html[data-theme="light"] .theme-toggle .i-sun{ opacity:1; transform:rotate(0deg) scale(1); }
+  html[data-theme="light"] .theme-toggle .i-moon{ opacity:0; transform:rotate(90deg) scale(0.5); }
+
+  /* ============================================================ search */
+  .prompt{
+    font-family:var(--mono); font-size:12px; color:var(--text-faint);
+    margin-bottom:9px; display:flex; align-items:center; gap:8px;
+  }
+  .prompt .caret{
+    display:inline-block; width:7px; height:14px; background:var(--accent);
+    animation:blink 1.1s steps(1) infinite; border-radius:1px;
+  }
+  @keyframes blink{ 50%{ opacity:0; } }
+
+  .search-bar{
+    position:relative;
+    background:var(--glass-bg-strong);
+    -webkit-backdrop-filter:blur(var(--glass-blur)) saturate(160%);
+            backdrop-filter:blur(var(--glass-blur)) saturate(160%);
+    border:1px solid var(--glass-border);
+    border-radius:var(--radius);
+    display:flex; align-items:center;
+    padding:0 6px 0 16px;
+    box-shadow:var(--glass-shadow);
+    overflow:hidden;
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy);
+  }
+  .search-bar::before{
+    content:""; position:absolute; left:0; right:0; top:0; height:50%;
+    background:linear-gradient(180deg, var(--glass-hi), transparent);
+    opacity:0.6; pointer-events:none; border-radius:inherit;
+  }
+  .search-bar:focus-within{
+    border-color:var(--accent-dim);
+    box-shadow:0 0 0 4px var(--accent-glow), var(--glass-shadow);
+  }
+  .search-bar > *{ position:relative; z-index:1; }
+  .search-bar .s-icon{ flex:0 0 auto; color:var(--text-faint); display:flex; transition:color var(--t-micro); }
+  .search-bar:focus-within .s-icon{ color:var(--accent); }
+  .search-bar.searching .s-icon{ color:var(--accent); animation:iconPulse 0.9s var(--ease-smooth) infinite; }
+  @keyframes iconPulse{ 0%,100%{ opacity:1; transform:scale(1); } 50%{ opacity:0.45; transform:scale(0.86); } }
+  .search-bar input{
+    flex:1; background:none; border:none; outline:none;
+    color:var(--text); font-family:var(--mono); font-size:16px;
+    padding:15px 10px; min-width:0;
+  }
+  .search-bar input::placeholder{ color:var(--text-faint); }
+  .mode-pill{
+    font-family:var(--mono); font-size:10.5px; font-weight:600; letter-spacing:0.05em;
+    padding:6px 10px; border-radius:5px; white-space:nowrap;
+    background:var(--glass-bg); color:var(--text-faint); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+    text-transform:uppercase;
+    transition:color var(--t-mid) var(--ease-snappy),
+               border-color var(--t-mid) var(--ease-snappy),
+               background-color var(--t-mid) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  .mode-pill.active-hwid{
+    color:var(--accent); border-color:var(--accent-dim); background:var(--accent-soft);
+    transform:scale(1.05);
+  }
+  .mode-pill.active-id{
+    color:var(--ok); border-color:var(--ok-line); background:var(--ok-glow);
+    transform:scale(1.05);
+  }
+
+  .hint-row{
+    display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+    margin-top:11px; font-size:12px; color:var(--text-faint); font-family:var(--mono);
+  }
+  .hint-row code{
+    background:var(--bg-raised); border:1px solid var(--line-soft); border-radius:4px;
+    padding:1px 6px; color:var(--text-dim); font-family:var(--mono);
+  }
+  .hint-sep{ color:var(--line-hover); }
+  .hint-row span{ white-space:nowrap; }
+
+  /* ============================================================ filter row */
+  .filter-row{
+    display:flex; gap:8px; margin-top:18px; flex-wrap:wrap; align-items:center;
+  }
+  select{
+    appearance:none; -webkit-appearance:none;
+    background:var(--glass-bg); color:var(--text-dim);
+    -webkit-backdrop-filter:blur(10px) saturate(150%); backdrop-filter:blur(10px) saturate(150%);
+    border:1px solid var(--glass-border); border-radius:var(--radius-sm);
+    font-family:var(--sans); font-size:13px; font-weight:500;
+    padding:9px 30px 9px 12px; min-height:40px;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238A8F98'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:right 12px center;
+    cursor:pointer;
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  select:hover{ border-color:var(--line-hover); color:var(--text); }
+  select:focus-visible{ outline:none; border-color:var(--accent-dim); box-shadow:0 0 0 3px var(--accent-glow); }
+  select:active{ transform:scale(0.98); }
+
+  /* ---- "show old drivers" toggle pill ---- */
+  .toggle-pill{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:8px 12px; border-radius:var(--radius-sm);
+    font-family:var(--mono); font-size:12px; font-weight:600; letter-spacing:0.03em;
+    color:var(--text-faint); background:var(--glass-bg); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    cursor:pointer; user-select:none; white-space:nowrap;
+    transition:color var(--t-micro) var(--ease-snappy),
+               border-color var(--t-micro) var(--ease-snappy),
+               background-color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+    -webkit-tap-highlight-color:transparent; min-height:40px;
+  }
+  .toggle-pill:hover{ border-color:var(--line-hover); color:var(--text); }
+  .toggle-pill:active{ transform:scale(0.96); }
+  .toggle-pill:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .toggle-pill.active{
+    color:var(--old); border-color:var(--old-line); background:var(--old-glow);
+    box-shadow:0 0 0 3px rgba(167,139,250,0.12);
+  }
+  /* the little track+thumb inside the pill */
+  .toggle-track{
+    width:28px; height:16px; border-radius:8px;
+    background:var(--line-hover); border:1px solid var(--glass-border);
+    position:relative; flex:0 0 auto;
+    transition:background var(--t-micro) var(--ease-snappy);
+  }
+  .toggle-thumb{
+    position:absolute; top:2px; left:2px;
+    width:10px; height:10px; border-radius:50%;
+    background:var(--text-faint);
+    transition:transform var(--t-micro) var(--ease-snappy),
+               background var(--t-micro) var(--ease-snappy);
+  }
+  .toggle-pill.active .toggle-track{ background:var(--old-glow); border-color:var(--old-line); }
+  .toggle-pill.active .toggle-thumb{ transform:translateX(12px); background:var(--old); }
+
+  /* ============================================================ results */
+  .results-meta{
+    margin:28px 0 12px; font-family:var(--mono); font-size:12px; color:var(--text-faint);
+    display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap;
+    animation:fadeUp var(--t-entrance) var(--ease-smooth) both;
+  }
+  .results-meta #results-count{ color:var(--text-dim); }
+
+  .row{
+    border:1px solid var(--glass-border);
+    border-radius:var(--radius);
+    margin-bottom:10px;
+    background:var(--glass-bg);
+    -webkit-backdrop-filter:blur(var(--glass-blur)) saturate(150%);
+            backdrop-filter:blur(var(--glass-blur)) saturate(150%);
+    box-shadow:var(--glass-shadow);
+    overflow:hidden;
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-mid) var(--ease-smooth),
+               transform var(--t-micro) var(--ease-snappy);
+    animation:rowIn var(--t-entrance) var(--ease-smooth) both;
+  }
+  @keyframes rowIn{ from{ opacity:0; transform:translateY(10px); } to{ opacity:1; transform:translateY(0); } }
+  .row:nth-child(1){ animation-delay:20ms; }
+  .row:nth-child(2){ animation-delay:55ms; }
+  .row:nth-child(3){ animation-delay:90ms; }
+  .row:nth-child(4){ animation-delay:125ms; }
+  .row:nth-child(5){ animation-delay:160ms; }
+  .row:nth-child(6){ animation-delay:195ms; }
+  .row:nth-child(7){ animation-delay:230ms; }
+  .row:nth-child(8){ animation-delay:265ms; }
+  .row:nth-child(9){ animation-delay:300ms; }
+  .row:nth-child(10){ animation-delay:330ms; }
+  .row:nth-child(n+11){ animation-delay:360ms; }
+
+  .row:hover{ border-color:var(--line-hover); box-shadow:var(--shadow-row-hover); transform:translateY(-1px); }
+  .row.open{ border-color:var(--accent-dim); box-shadow:var(--shadow-row-hover); }
+  /* superseded/disabled rows get a purple tint */
+  .row.is-old{ border-color:var(--old-line); }
+  .row.is-old .row-head:hover{ background:var(--old-glow); }
+
+  .row-head{
+    display:flex; align-items:center; gap:14px;
+    padding:15px 16px; cursor:pointer; user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    transition:background-color var(--t-micro) var(--ease-snappy);
+  }
+  .row-head:hover{ background:var(--accent-soft); }
+  .row-head:focus-visible{ outline:2px solid var(--accent); outline-offset:-2px; border-radius:var(--radius); }
+  .row-head.tapped{ animation:tapFlash 360ms var(--ease-smooth); }
+  @keyframes tapFlash{ 0%{ background:var(--accent-glow); } 100%{ background:transparent; } }
+
+  .row-chevron{
+    color:var(--text-faint); flex:0 0 auto;
+    transition:transform var(--t-mid) var(--ease-snappy), color var(--t-mid) var(--ease-snappy);
+  }
+  .row.open .row-chevron{ transform:rotate(90deg); color:var(--accent); }
+
+  .row-main{ flex:1; min-width:0; }
+  .row-title{
+    font-size:14.5px; font-weight:600; color:var(--text);
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+  .row-sub{
+    font-family:var(--mono); font-size:12px; color:var(--text-faint); margin-top:4px;
+    display:flex; gap:10px; flex-wrap:wrap;
+  }
+  .row-sub .tag{ color:var(--text-dim); }
+  .row-sub .dot{ color:var(--line-hover); }
+
+  .row-badges{ display:flex; gap:4px; align-items:center; flex:0 0 auto; }
+  .badge{
+    font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:0.05em;
+    padding:4px 8px; border-radius:5px; text-transform:uppercase; flex:0 0 auto;
+  }
+  .badge.ok{
+    color:var(--ok); background:var(--ok-glow); border:1px solid var(--ok-line);
+    animation:okPulse 3.4s var(--ease-smooth) infinite;
+  }
+  @keyframes okPulse{
+    0%,100%{ box-shadow:0 0 0 0 rgba(111,207,151,0.0); }
+    50%{ box-shadow:0 0 14px 0 rgba(111,207,151,0.22); }
+  }
+  .badge.off{ color:var(--danger); background:var(--danger-glow); border:1px solid var(--danger-line); }
+  .badge.warn{ color:var(--warn); background:var(--warn-glow); border:1px solid var(--warn-line); }
+  .badge.old{ color:var(--old); background:var(--old-glow); border:1px solid var(--old-line); }
+
+  /* smooth expand/collapse */
+  .row-body{
+    max-height:0; overflow:hidden; opacity:0;
+    padding:0 16px;
+    border-top:1px solid transparent;
+    background:var(--bg);
+    transition:max-height var(--t-mid) var(--ease-smooth),
+               opacity var(--t-mid) var(--ease-smooth),
+               padding var(--t-mid) var(--ease-smooth),
+               border-color var(--t-mid) var(--ease-smooth);
+  }
+  .row.open .row-body{
+    max-height:4800px; opacity:1;
+    padding:16px;
+    border-top-color:var(--line-soft);
+  }
+
+  .field-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:12px 24px;
+    margin-bottom:16px; font-size:12.5px;
+  }
+  @media (max-width:600px){ .field-grid{ grid-template-columns:1fr; } }
+  .field dt{ color:var(--text-faint); font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:3px; }
+  .field dd{ margin:0; color:var(--text); word-break:break-word; }
+
+  .section-label{
+    font-family:var(--mono); font-size:11px; color:var(--text-faint);
+    text-transform:uppercase; letter-spacing:0.06em; margin:16px 0 9px;
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+  }
+
+  /* ============================================================ version timeline */
+  .version-timeline{
+    position:relative; padding-left:20px; margin-bottom:4px;
+  }
+  .version-timeline::before{
+    content:""; position:absolute; left:6px; top:8px; bottom:8px; width:2px;
+    background:linear-gradient(to bottom, var(--accent-dim), var(--old-line));
+    border-radius:1px; opacity:0.5;
+  }
+  .vt-entry{
+    position:relative; padding:10px 12px; margin-bottom:6px;
+    background:var(--bg-input); border:1px solid var(--line-soft); border-radius:var(--radius-sm);
+    font-family:var(--mono); font-size:12px;
+    display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               background-color var(--t-micro) var(--ease-snappy);
+  }
+  .vt-entry:hover{ border-color:var(--line-hover); background:var(--bg-raised); }
+  .vt-dot{
+    position:absolute; left:-17px; top:50%; transform:translateY(-50%);
+    width:10px; height:10px; border-radius:50%; border:2px solid var(--bg);
+    flex:0 0 auto;
+  }
+  .vt-dot.current{ background:var(--ok); box-shadow:0 0 8px var(--ok); }
+  .vt-dot.old{ background:var(--old); }
+  .vt-dot.disabled{ background:var(--danger); }
+  .vt-meta{ flex:1; min-width:0; }
+  .vt-ver{ color:var(--accent); font-weight:600; }
+  .vt-date{ color:var(--text-faint); margin-left:8px; }
+  .vt-name{ color:var(--text-dim); margin-top:2px; font-size:11px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .vt-badges{ display:flex; gap:4px; flex:0 0 auto; }
+  .vt-link{
+    color:var(--accent); font-size:11px; font-weight:600; flex:0 0 auto; cursor:pointer;
+    padding:4px 8px; border-radius:4px; background:var(--accent-soft); border:1px solid transparent;
+    transition:border-color var(--t-micro), background-color var(--t-micro);
+    text-decoration:none;
+  }
+  .vt-link:hover{ border-color:var(--accent-dim); background:var(--accent-glow); text-decoration:none; }
+  .vt-entry.is-current{
+    border-color:var(--ok-line); background:var(--ok-glow);
+  }
+  .vt-entry.is-current .vt-date{ color:var(--text-dim); }
+  .vt-loading{ color:var(--text-faint); font-size:12px; font-family:var(--mono); padding:8px 0; }
+
+  /* ============================================================ hwid stack */
+  .hwid-stack{ display:flex; flex-direction:column; gap:6px; }
+  .hwid-stack .hwid-item{
+    font-family:var(--mono); font-size:12.5px; color:var(--text-dim);
+    background:var(--bg-input); border:1px solid var(--line-soft);
+    border-radius:var(--radius-sm); padding:8px 10px;
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    transition:border-color var(--t-micro) var(--ease-snappy);
+  }
+  .hwid-stack .hwid-item:hover{ border-color:var(--line-hover); }
+  .hwid-stack .hwid-item > span{ min-width:0; overflow-x:auto; white-space:nowrap; scrollbar-width:none; }
+  .hwid-stack .hwid-item > span::-webkit-scrollbar{ display:none; }
+  .hwid-stack .hwid-item.generic{ color:var(--text-faint); }
+  .hwid-stack .hwid-item .copy-btn{
+    background:var(--bg-raised); border:1px solid var(--line-soft); color:var(--text-faint); cursor:pointer;
+    font-family:var(--sans); font-size:11px; font-weight:600; padding:5px 9px; border-radius:5px; flex:0 0 auto;
+    min-height:30px; -webkit-tap-highlight-color:transparent;
+    transition:color var(--t-micro) var(--ease-snappy),
+               background-color var(--t-micro) var(--ease-snappy),
+               border-color var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  .hwid-stack .hwid-item .copy-btn:hover{ color:var(--accent); background:var(--accent-glow); border-color:var(--accent-dim); }
+  .hwid-stack .hwid-item .copy-btn:active{ transform:scale(0.9); }
+  .hwid-stack .hwid-item .copy-btn.copied{
+    color:var(--ok); background:var(--ok-glow); border-color:var(--ok-line);
+    animation:copiedPop 360ms var(--ease-snappy);
+  }
+  @keyframes copiedPop{ 0%{ transform:scale(0.8); } 55%{ transform:scale(1.12); } 100%{ transform:scale(1); } }
+  /* When a driver declares a huge HWID set, the expanded list is scroll-capped
+     so it can't push the rest of the page miles down. */
+  .hwid-stack.scrollable{ max-height:340px; overflow-y:auto; padding-right:4px; }
+  .hwid-show-all{
+    margin-top:8px; width:100%; font-family:var(--sans); font-size:12px; font-weight:600;
+    color:var(--accent); background:var(--accent-glow); border:1px solid var(--accent-dim);
+    border-radius:var(--radius-sm); padding:9px 10px; cursor:pointer;
+    transition:background-color var(--t-micro) var(--ease-snappy), border-color var(--t-micro) var(--ease-snappy);
+  }
+  .hwid-show-all:hover{ background:var(--accent-soft); border-color:var(--accent); }
+
+  /* ============================================================ parts */
+  .parts-list{ display:flex; flex-direction:column; gap:6px; }
+  .part-row{
+    display:flex; align-items:center; gap:10px; font-family:var(--mono); font-size:12px;
+    background:var(--bg-input); border:1px solid var(--line-soft); border-radius:var(--radius-sm); padding:9px 10px;
+    transition:border-color var(--t-micro) var(--ease-snappy);
+  }
+  .part-row:hover{ border-color:var(--line-hover); }
+  .part-row .pn{ color:var(--accent); flex:0 0 auto; font-weight:600; }
+  .part-row .fn{ color:var(--text-dim); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .part-row .sz{ color:var(--text-faint); flex:0 0 auto; }
+  .part-row a{ flex:0 0 auto; font-size:11px; font-weight:600; }
+
+  /* ============================================================ states */
+  .empty, .loading, .error-state{
+    text-align:center; padding:64px 20px; color:var(--text-faint);
+    animation:fadeUp var(--t-entrance) var(--ease-smooth) both;
+  }
+  @keyframes fadeUp{ from{ opacity:0; transform:translateY(8px); } to{ opacity:1; transform:translateY(0); } }
+  .empty .glyph, .loading .glyph, .error-state .glyph{
+    font-family:var(--mono); font-size:13px; color:var(--accent); margin-bottom:12px; display:inline-block;
+  }
+  .loading .glyph{ position:relative; }
+  .loading .glyph::after{
+    content:"_"; display:inline-block; margin-left:2px; color:var(--accent);
+    animation:blink 1s steps(1) infinite;
+  }
+  .empty h3, .error-state h3{ color:var(--text); font-size:15px; margin:0 0 6px; }
+  .empty p, .error-state p{ font-size:13px; max-width:380px; margin:0 auto; line-height:1.6; }
+
+  .skel-wrap{ max-width:920px; margin:0 auto; }
+  .skel{
+    height:62px; border:1px solid var(--line); border-radius:var(--radius);
+    background:var(--bg-raised); margin-bottom:10px; position:relative; overflow:hidden;
+  }
+  .skel::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(90deg, transparent, var(--accent-soft), transparent);
+    transform:translateX(-100%);
+    animation:scan 1.25s var(--ease-smooth) infinite;
+  }
+  @keyframes scan{ to{ transform:translateX(100%); } }
+
+  /* ============================================================ pager */
+  .pager{
+    display:flex; justify-content:center; align-items:center; gap:14px;
+    margin-top:24px; font-family:var(--mono); font-size:12.5px; color:var(--text-dim);
+    animation:fadeUp var(--t-entrance) var(--ease-smooth) both;
+  }
+  .pager button{
+    background:var(--glass-bg); border:1px solid var(--glass-border); color:var(--text);
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    box-shadow:var(--glass-shadow);
+    border-radius:var(--radius-sm); padding:9px 16px; cursor:pointer;
+    font-family:var(--mono); font-size:12.5px; min-height:40px;
+    -webkit-tap-highlight-color:transparent;
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  .pager button:hover:not(:disabled){ border-color:var(--accent-dim); color:var(--accent); box-shadow:0 0 0 3px var(--accent-glow); }
+  .pager button:active:not(:disabled){ transform:scale(0.94); }
+  .pager button:disabled{ opacity:0.3; cursor:default; }
+
+  /* ============================================================ footer */
+  footer{
+    margin-top:64px; padding-top:20px; border-top:1px solid var(--line-soft);
+    font-family:var(--mono); font-size:11.5px; color:var(--text-faint);
+    display:flex; flex-direction:column; gap:16px;
+  }
+  footer .foot-row{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+  footer .credit{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  footer .credit .by{ color:var(--text-faint); }
+  footer .credit .by a{ color:var(--text-dim); font-weight:600; }
+  footer .credit .by a:hover{ color:var(--accent); }
+  .repo-link{
+    display:inline-flex; align-items:center; gap:7px;
+    padding:7px 12px; border-radius:999px;
+    color:var(--text-dim); font-weight:600; text-decoration:none;
+    background:var(--glass-bg); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:blur(10px) saturate(150%); backdrop-filter:blur(10px) saturate(150%);
+    box-shadow:var(--glass-shadow);
+    transition:color var(--t-micro) var(--ease-snappy),
+               border-color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  .repo-link:hover{
+    color:var(--accent); border-color:var(--accent-dim); text-decoration:none;
+    box-shadow:0 0 0 3px var(--accent-glow), var(--glass-shadow); transform:translateY(-1px);
+  }
+  .repo-link:active{ transform:scale(0.96); }
+  .repo-link svg{ flex:0 0 auto; }
+
+  /* ============================================================ responsive */
+  @media (max-width:768px){
+    :root{ --amb-opacity:0.55; }
+    .shell{ padding:32px 16px 80px; }
+    header.top{ flex-direction:column; align-items:stretch; gap:16px; margin-bottom:28px; }
+    .head-right{ width:100%; align-items:center; justify-content:space-between; }
+    .stats-line{ text-align:left; }
+    .search-bar input{ font-size:16px; }
+  }
+  @media (max-width:600px){
+    .filter-row{
+      flex-wrap:nowrap; overflow-x:auto; scroll-snap-type:x proximity;
+      -webkit-overflow-scrolling:touch; padding-bottom:4px;
+      scrollbar-width:none;
+      -webkit-mask-image:linear-gradient(90deg, transparent, #000 14px, #000 calc(100% - 14px), transparent);
+              mask-image:linear-gradient(90deg, transparent, #000 14px, #000 calc(100% - 14px), transparent);
+    }
+    .filter-row::-webkit-scrollbar{ display:none; }
+    .filter-row select, .filter-row .toggle-pill{ flex:0 0 auto; scroll-snap-align:start; }
+  }
+  @media (max-width:430px){
+    .row-head{ flex-wrap:wrap; }
+    .row-main{ flex-basis:100%; order:2; }
+    .row-chevron{ order:1; }
+    .badge{ order:1; margin-left:auto; }
+    .row-badges{ order:1; margin-left:auto; display:flex; gap:4px; flex-wrap:wrap; justify-content:flex-end; }
+    footer{ flex-direction:column; }
+  }
+  @media (max-width:390px){
+    .brand-text h1{ font-size:16px; }
+    .search-bar input{ padding:14px 8px; }
+  }
+
+
+  /* ============================================================ cart / selection */
+
+  /* checkbox on each row */
+  .row-select{
+    flex:0 0 auto; width:20px; height:20px; position:relative;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .row-select input[type="checkbox"]{
+    appearance:none; -webkit-appearance:none;
+    width:18px; height:18px; border-radius:5px; cursor:pointer;
+    border:1.5px solid var(--line-hover); background:var(--bg-input);
+    transition:border-color var(--t-micro) var(--ease-snappy),
+               background-color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy);
+    flex:0 0 auto;
+  }
+  .row-select input[type="checkbox"]:hover{
+    border-color:var(--accent-dim); box-shadow:0 0 0 3px var(--accent-glow);
+  }
+  .row-select input[type="checkbox"]:checked{
+    background:var(--accent); border-color:var(--accent);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='10' viewBox='0 0 12 10'%3E%3Cpath d='M1 5l3.5 3.5L11 1' stroke='%230B0E11' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:center;
+  }
+  .row-select input[type="checkbox"]:focus-visible{
+    outline:2px solid var(--accent); outline-offset:2px;
+  }
+  .row.selected{
+    border-color:var(--accent-dim) !important;
+    box-shadow:0 0 0 2px var(--accent-glow), var(--glass-shadow) !important;
+  }
+
+  /* floating cart tray */
+  #cart-tray{
+    position:fixed; bottom:28px; left:50%; transform:translateX(-50%) translateY(120px);
+    z-index:100; pointer-events:none;
+    transition:transform 420ms var(--ease-smooth), opacity 420ms var(--ease-smooth);
+    opacity:0;
+  }
+  #cart-tray.visible{
+    transform:translateX(-50%) translateY(0);
+    opacity:1; pointer-events:all;
+  }
+  .cart-inner{
+    display:flex; align-items:center; gap:12px;
+    background:var(--glass-bg-strong);
+    -webkit-backdrop-filter:blur(20px) saturate(180%);
+            backdrop-filter:blur(20px) saturate(180%);
+    border:1px solid var(--glass-border);
+    border-radius:999px;
+    padding:10px 10px 10px 18px;
+    box-shadow:0 16px 48px rgba(0,0,0,0.55), inset 0 1px 0 var(--glass-hi);
+    min-width:320px; max-width:92vw;
+    position:relative; overflow:hidden;
+  }
+  .cart-inner::before{
+    content:""; position:absolute; left:0; right:0; top:0; height:50%;
+    background:linear-gradient(180deg, var(--glass-hi), transparent);
+    opacity:0.5; pointer-events:none;
+  }
+  .cart-icon{
+    flex:0 0 auto; position:relative; color:var(--accent);
+  }
+  .cart-badge{
+    position:absolute; top:-6px; right:-7px;
+    min-width:17px; height:17px; border-radius:999px;
+    background:var(--accent); color:var(--bg);
+    font-family:var(--mono); font-size:10px; font-weight:700;
+    display:flex; align-items:center; justify-content:center;
+    padding:0 4px; line-height:1;
+    box-shadow:0 2px 8px rgba(0,0,0,0.4);
+    animation:badgePop 240ms var(--ease-snappy);
+  }
+  @keyframes badgePop{
+    0%{ transform:scale(0.4); } 70%{ transform:scale(1.25); } 100%{ transform:scale(1); }
+  }
+  .cart-label{
+    flex:1; font-family:var(--mono); font-size:12px; color:var(--text-dim);
+    position:relative; z-index:1; white-space:nowrap;
+  }
+  .cart-label strong{ color:var(--text); font-weight:700; }
+  .cart-actions{ display:flex; gap:8px; align-items:center; position:relative; z-index:1; }
+
+  .cart-btn{
+    display:inline-flex; align-items:center; gap:7px;
+    padding:9px 16px; border-radius:999px; cursor:pointer;
+    font-family:var(--mono); font-size:12px; font-weight:700; letter-spacing:0.02em;
+    border:none; transition:transform var(--t-micro) var(--ease-snappy),
+                             box-shadow var(--t-micro) var(--ease-snappy),
+                             background-color var(--t-micro) var(--ease-snappy);
+    -webkit-tap-highlight-color:transparent;
+  }
+  .cart-btn:active{ transform:scale(0.93); }
+  .cart-btn.primary{
+    background:var(--accent); color:var(--bg);
+    box-shadow:0 4px 16px var(--accent-glow);
+  }
+  .cart-btn.primary:hover{ background:var(--accent-2); box-shadow:0 6px 20px var(--accent-glow); }
+  .cart-btn.secondary{
+    background:transparent; color:var(--text-faint);
+    border:1px solid var(--glass-border);
+    padding:8px 13px;
+  }
+  .cart-btn.secondary:hover{ color:var(--danger); border-color:var(--danger-line); }
+
+  /* download spinner inside button */
+  .cart-btn.downloading .dl-icon{ animation:spin 0.7s linear infinite; }
+  .cart-btn.installing .ci-icon{ animation:spin 0.7s linear infinite; }
+  .cart-btn:disabled{ opacity:0.7; pointer-events:none; }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+
+  /* select-all bar */
+  .select-bar{
+    display:none; align-items:center; gap:10px; margin-bottom:8px;
+    font-family:var(--mono); font-size:12px; color:var(--text-faint);
+    animation:fadeUp 200ms var(--ease-smooth) both;
+  }
+  .select-bar.visible{ display:flex; }
+  .select-bar label{ display:flex; align-items:center; gap:6px; cursor:pointer; user-select:none; }
+  .select-bar label:hover{ color:var(--text-dim); }
+  .select-bar input[type="checkbox"]{
+    appearance:none; -webkit-appearance:none;
+    width:15px; height:15px; border-radius:4px;
+    border:1.5px solid var(--line-hover); background:var(--bg-input); cursor:pointer;
+    transition:border-color var(--t-micro), background-color var(--t-micro);
+  }
+  .select-bar input[type="checkbox"]:checked{
+    background:var(--accent); border-color:var(--accent);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8' viewBox='0 0 10 8'%3E%3Cpath d='M1 4l2.5 2.5L9 1' stroke='%230B0E11' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:center;
+  }
+  .select-bar .sel-count{ color:var(--accent); font-weight:600; }
+
+  /* ============================================================ HWID help panel */
+  .help-panel{
+    margin-bottom:16px;
+    background:var(--glass-bg); border:1px solid var(--glass-border); border-radius:var(--radius);
+    -webkit-backdrop-filter:blur(10px) saturate(150%); backdrop-filter:blur(10px) saturate(150%);
+    box-shadow:var(--glass-shadow); overflow:hidden;
+  }
+  .help-toggle{
+    width:100%; display:flex; align-items:center; gap:10px;
+    background:none; border:none; cursor:pointer; text-align:left;
+    padding:13px 15px; color:var(--text-dim); font-family:var(--sans); font-size:13.5px; font-weight:600;
+    transition:color var(--t-micro) var(--ease-snappy);
+  }
+  .help-toggle:hover{ color:var(--text); }
+  .help-toggle:focus-visible{ outline:2px solid var(--accent); outline-offset:-2px; }
+  .help-toggle .help-q{
+    flex:0 0 auto; width:20px; height:20px; border-radius:50%;
+    display:inline-flex; align-items:center; justify-content:center;
+    background:var(--accent-soft); color:var(--accent); font-family:var(--mono); font-weight:700; font-size:12px;
+  }
+  .help-toggle .help-label{ flex:1; }
+  .help-toggle .help-chevron{
+    flex:0 0 auto; color:var(--text-faint);
+    transition:transform var(--t-mid) var(--ease-snappy);
+  }
+  .help-panel.open .help-toggle .help-chevron{ transform:rotate(180deg); }
+  .help-body{
+    max-height:0; overflow:hidden;
+    transition:max-height var(--t-mid) var(--ease-smooth);
+  }
+  .help-panel.open .help-body{ max-height:760px; }
+  .help-inner{
+    padding:4px 16px 18px; color:var(--text-dim); font-size:13.5px; line-height:1.6;
+    border-top:1px solid var(--line-soft);
+  }
+  .help-inner h3{ font-size:14px; color:var(--text); margin:14px 0 8px; font-weight:700; }
+  .help-inner ol{ margin:0 0 8px; padding-left:20px; }
+  .help-inner ol li{ margin-bottom:7px; }
+  .help-inner code{
+    background:var(--bg-raised); border:1px solid var(--line-soft); border-radius:4px;
+    padding:1px 6px; color:var(--accent); font-family:var(--mono); font-size:12.5px;
+    overflow-wrap:anywhere;
+  }
+  .help-inner strong{ color:var(--text); }
+  .help-pwsh{
+    margin-top:12px; background:var(--bg-input); border:1px solid var(--line-soft);
+    border-radius:var(--radius-sm); padding:12px;
+    display:flex; align-items:flex-start; gap:10px;
+  }
+  .help-pwsh code{
+    flex:1; min-width:0; background:none; border:none; padding:0; color:var(--text-dim);
+    font-family:var(--mono); font-size:12px; line-height:1.5; white-space:pre-wrap; overflow-wrap:anywhere;
+  }
+  .help-pwsh .copy-btn{
+    flex:0 0 auto; background:var(--bg-raised); border:1px solid var(--line-soft); color:var(--text-faint);
+    cursor:pointer; font-family:var(--sans); font-size:11px; font-weight:600; padding:6px 10px;
+    border-radius:5px; min-height:30px;
+    transition:color var(--t-micro), background-color var(--t-micro), border-color var(--t-micro), transform var(--t-micro);
+  }
+  .help-pwsh .copy-btn:hover{ color:var(--accent); background:var(--accent-glow); border-color:var(--accent-dim); }
+  .help-pwsh .copy-btn:active{ transform:scale(0.92); }
+  .help-pwsh .copy-btn.copied{ color:var(--ok); background:var(--ok-glow); border-color:var(--ok-line); }
+
+  /* ============================================================ install button (result card) */
+  .row-actions{
+    display:flex; flex-wrap:wrap; gap:10px; align-items:center;
+    margin-top:14px; padding-top:14px; border-top:1px solid var(--line-soft);
+  }
+  .install-btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--accent); color:var(--bg); border:1px solid var(--accent);
+    font-family:var(--sans); font-size:13px; font-weight:700; cursor:pointer;
+    padding:9px 15px; border-radius:var(--radius-sm); min-height:38px;
+    -webkit-tap-highlight-color:transparent;
+    transition:background-color var(--t-micro) var(--ease-snappy),
+               box-shadow var(--t-micro) var(--ease-snappy),
+               transform var(--t-micro) var(--ease-snappy);
+  }
+  .install-btn:hover{ background:var(--accent-2); box-shadow:0 6px 20px var(--accent-glow); }
+  .install-btn:active{ transform:scale(0.96); }
+  .install-btn:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .install-btn[disabled]{
+    background:var(--bg-input); color:var(--text-faint); border-color:var(--line-soft);
+    cursor:not-allowed; box-shadow:none;
+  }
+  .install-btn.loading{ pointer-events:none; opacity:0.8; }
+  .install-btn svg{ flex:0 0 auto; }
+  .install-btn .ib-spin{ animation:spin 0.7s linear infinite; }
+  .install-note{ font-family:var(--mono); font-size:11px; color:var(--text-faint); }
+
+  /* ============================================================ install modal */
+  .modal-overlay{
+    position:fixed; inset:0; z-index:300; display:none;
+    align-items:center; justify-content:center; padding:20px;
+    background:rgba(0,0,0,0.55);
+    -webkit-backdrop-filter:blur(4px); backdrop-filter:blur(4px);
+  }
+  .modal-overlay.visible{ display:flex; animation:overlayIn 200ms var(--ease-smooth) both; }
+  @keyframes overlayIn{ from{ opacity:0; } to{ opacity:1; } }
+  .modal{
+    width:100%; max-width:540px;
+    background:var(--glass-bg-strong); border:1px solid var(--glass-border); border-radius:var(--radius);
+    -webkit-backdrop-filter:blur(var(--glass-blur)) saturate(160%); backdrop-filter:blur(var(--glass-blur)) saturate(160%);
+    box-shadow:var(--shadow-pop); padding:22px;
+    animation:modalIn var(--t-mid) var(--ease-smooth) both;
+  }
+  @keyframes modalIn{ from{ opacity:0; transform:translateY(12px) scale(0.98); } to{ opacity:1; transform:translateY(0) scale(1); } }
+  .modal-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:6px; }
+  .modal-title{ font-size:16px; font-weight:800; letter-spacing:-0.01em; }
+  .modal-sub{ font-family:var(--mono); font-size:12px; color:var(--text-faint); margin-top:3px; }
+  .modal-close{
+    flex:0 0 auto; width:32px; height:32px; border-radius:8px;
+    display:inline-flex; align-items:center; justify-content:center;
+    background:var(--glass-bg); border:1px solid var(--glass-border); color:var(--text-dim); cursor:pointer;
+    transition:color var(--t-micro), border-color var(--t-micro), transform var(--t-micro);
+  }
+  .modal-close:hover{ color:var(--danger); border-color:var(--danger-line); }
+  .modal-close:active{ transform:scale(0.9); }
+  .modal-close:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .cmd-label{
+    font-family:var(--mono); font-size:11px; color:var(--text-faint);
+    text-transform:uppercase; letter-spacing:0.06em; margin:16px 0 8px;
+  }
+  .cmd-box{
+    display:flex; align-items:center; gap:10px;
+    background:var(--bg-input); border:1px solid var(--line); border-radius:var(--radius-sm);
+    padding:12px 12px 12px 14px;
+    transition:opacity var(--t-mid), border-color var(--t-micro);
+  }
+  .cmd-box code{
+    flex:1; min-width:0; font-family:var(--mono); font-size:12.5px; color:var(--text);
+    overflow-x:auto; white-space:nowrap; scrollbar-width:none;
+  }
+  .cmd-box code::-webkit-scrollbar{ display:none; }
+  .cmd-box.expired{ opacity:0.5; }
+  .cmd-copy{
+    flex:0 0 auto; display:inline-flex; align-items:center; gap:6px;
+    background:var(--accent); color:var(--bg); border:1px solid var(--accent); cursor:pointer;
+    font-family:var(--sans); font-size:12px; font-weight:700; padding:8px 12px; border-radius:5px; min-height:34px;
+    transition:background-color var(--t-micro), transform var(--t-micro);
+  }
+  .cmd-copy:hover{ background:var(--accent-2); }
+  .cmd-copy:active{ transform:scale(0.93); }
+  .cmd-copy.copied{ background:var(--ok); border-color:var(--ok); }
+  .cmd-copy:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .countdown-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
+    margin-top:14px; font-family:var(--mono); font-size:12px;
+  }
+  .countdown{ display:inline-flex; align-items:center; gap:7px; color:var(--ok); }
+  .countdown .cd-dot{ width:8px; height:8px; border-radius:50%; background:var(--ok); box-shadow:0 0 8px var(--ok); }
+  .countdown.warn{ color:var(--warn); }
+  .countdown.warn .cd-dot{ background:var(--warn); box-shadow:0 0 8px var(--warn); animation:cdPulse 1s steps(2) infinite; }
+  .countdown.dead{ color:var(--danger); }
+  .countdown.dead .cd-dot{ background:var(--danger); box-shadow:none; }
+  @keyframes cdPulse{ 50%{ opacity:0.4; } }
+  .regen-btn{
+    display:none; align-items:center; gap:7px;
+    background:var(--glass-bg); color:var(--accent); border:1px solid var(--accent-dim); cursor:pointer;
+    font-family:var(--sans); font-size:12px; font-weight:700; padding:8px 12px; border-radius:5px; min-height:34px;
+    transition:background-color var(--t-micro), transform var(--t-micro);
+  }
+  .regen-btn.visible{ display:inline-flex; }
+  .regen-btn:hover{ background:var(--accent-glow); }
+  .regen-btn:active{ transform:scale(0.93); }
+  .regen-btn:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .modal-caption{
+    margin-top:16px; padding-top:14px; border-top:1px solid var(--line-soft);
+    font-size:12.5px; color:var(--text-dim); line-height:1.55;
+  }
+  .modal-credit{
+    margin-top:8px; font-family:var(--mono); font-size:11px; color:var(--text-faint);
+  }
+  .modal-credit a{ color:var(--accent); }
+
+  /* ============================================================ reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    *{ transition:none !important; animation:none !important; }
+    .caret, .skel::after{ animation:none !important; }
+    .ambient, #net-canvas{ opacity:0 !important; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#search-input">Skip to search</a>
+
+<div class="ambient" aria-hidden="true">
+  <div class="aurora"></div>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="blob b4"></div>
+  <div class="blob b5"></div>
+  <div class="grid"></div>
+</div>
+<canvas id="net-canvas" aria-hidden="true"></canvas>
+
+<div class="shell">
+
+  <header class="top">
+    <div class="brand">
+      <div class="brand-mark">L</div>
+      <div class="brand-text">
+        <h1>DriverDex Driver Index</h1>
+        <div class="sub">local driver-cache &middot; mirror search</div>
+      </div>
+    </div>
+    <div class="head-right">
+      <div class="stats-line" id="stats-line" aria-live="polite">
+        loading index&hellip;
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle theme">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- HWID help panel: collapsible, sits right above the search box -->
+  <div class="help-panel" id="help-panel">
+    <button class="help-toggle" id="help-toggle" type="button" aria-expanded="false" aria-controls="help-body">
+      <span class="help-q" aria-hidden="true">?</span>
+      <span class="help-label">Need help finding your device&rsquo;s Hardware ID?</span>
+      <svg class="help-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="help-body" id="help-body" role="region" aria-label="How to find your Hardware ID">
+      <div class="help-inner">
+        <h3>Don&rsquo;t know your device&rsquo;s Hardware ID? Here&rsquo;s how to find it.</h3>
+        <ol>
+          <li>Press <strong>Win + X</strong> &rarr; click <strong>Device Manager</strong> (or press <strong>Win + R</strong>, type <code>devmgmt.msc</code>, hit Enter).</li>
+          <li>Look for a device with a <strong>yellow warning triangle</strong>, or expand <strong>Other devices</strong> at the bottom of the list.</li>
+          <li>Right-click the device &rarr; <strong>Properties</strong> &rarr; <strong>Details</strong> tab.</li>
+          <li>In the <strong>Property</strong> dropdown, choose <strong>Hardware Ids</strong>.</li>
+          <li>Copy the <strong>top line</strong> (it&rsquo;s the most specific match) &mdash; it looks like:<br /><code>PCI\VEN_10DE&amp;DEV_1C8D&amp;SUBSYS_37871462&amp;REV_A1</code></li>
+          <li>Paste that whole string into the search box below.</li>
+        </ol>
+        <h3>Power-user shortcut</h3>
+        <p>Get every problem device&rsquo;s HWID in one shot, in PowerShell:</p>
+        <div class="help-pwsh">
+          <code id="help-pwsh-cmd">Get-PnpDevice -Status Error,Unknown | Select-Object FriendlyName, InstanceId, HardwareID</code>
+          <button class="copy-btn" type="button" data-copy-target="help-pwsh-cmd">copy</button>
+        </div>
+        <p style="margin-top:10px;font-size:12.5px;color:var(--text-faint);">Copy the <code>HardwareID</code> value for the device you care about and search with that. Works the same on Windows 10 and 11.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="prompt"><span class="caret"></span> search by hardware ID, device name, driver ID, pack, or manifest</div>
+
+  <div class="search-bar">
+    <span class="s-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span>
+    <input
+      id="search-input"
+      type="text"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="PCI\VEN_10DE&DEV_2782, &quot;RTX 4070&quot;, Realtek, drv-536c01b4, RazerInc_HIDClass_x64 &hellip;"
+      aria-label="Search drivers"
+    />
+    <span class="mode-pill" id="mode-pill">text</span>
+  </div>
+
+  <div class="hint-row">
+    <span>Hardware ID <code>PCI\VEN_10DE&DEV_2782</code></span>
+    <span class="hint-sep">&middot;</span>
+    <span>Driver ID <code>drv-536c01b4</code></span>
+    <span class="hint-sep">&middot;</span>
+    <span>Pack <code>RazerInc_HIDClass_x64</code></span>
+    <span class="hint-sep">&middot;</span>
+    <span>Manifest <code>Ports.manifest.json</code></span>
+  </div>
+
+  <div class="filter-row">
+    <select id="filter-category" aria-label="Filter by category"><option value="">All categories</option></select>
+    <select id="filter-provider" aria-label="Filter by provider"><option value="">All providers</option></select>
+    <select id="filter-arch" aria-label="Filter by architecture"><option value="">All architectures</option></select>
+    <!-- Show old/superseded drivers toggle -->
+    <button
+      class="toggle-pill"
+      id="toggle-old"
+      type="button"
+      role="switch"
+      aria-checked="false"
+      title="Include disabled and superseded (old) driver versions in results"
+    >
+      <span class="toggle-track"><span class="toggle-thumb"></span></span>
+      <span class="toggle-label">show old versions</span>
+    </button>
+  </div>
+
+  <div class="results-meta" id="results-meta" hidden>
+    <span id="results-count"></span>
+    <span id="results-mode"></span>
+  </div>
+
+  <!-- select-all bar (shown when results are present) -->
+  <div class="select-bar" id="select-bar">
+    <label>
+      <input type="checkbox" id="select-all" title="Select / deselect all on this page" />
+      <span>select all</span>
+    </label>
+    <span class="sel-count" id="sel-count-bar"></span>
+  </div>
+
+  <div id="results"></div>
+
+  <!-- floating cart tray -->
+  <div id="cart-tray" role="region" aria-label="Selected drivers" aria-live="polite">
+    <div class="cart-inner">
+      <span class="cart-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-badge" id="cart-badge">0</span>
+      </span>
+      <span class="cart-label"><strong id="cart-count-label">0 drivers</strong> selected</span>
+      <div class="cart-actions">
+        <button class="cart-btn secondary" id="cart-clear" title="Clear selection" aria-label="Clear all selected drivers">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          clear
+        </button>
+        <button class="cart-btn" id="cart-download" aria-label="Download JSON for selected drivers">
+          <svg class="dl-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          export JSON
+        </button>
+        <button class="cart-btn primary" id="cart-install" aria-label="Generate one install command for all selected drivers">
+          <svg class="ci-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/></svg>
+          install all
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="pager" id="pager" hidden>
+    <button id="prev-page">&larr; prev</button>
+    <span id="page-indicator">page 1</span>
+    <button id="next-page">next &rarr;</button>
+  </div>
+
+  <!-- install-script modal -->
+  <div class="modal-overlay" id="install-modal" role="dialog" aria-modal="true" aria-labelledby="install-modal-title" hidden>
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <div class="modal-title" id="install-modal-title">One-click install script</div>
+          <div class="modal-sub" id="install-modal-sub">&nbsp;</div>
+        </div>
+        <button class="modal-close" id="install-modal-close" type="button" aria-label="Close dialog">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="cmd-label">Run this in an elevated PowerShell window</div>
+      <div class="cmd-box" id="install-cmd-box">
+        <code id="install-cmd">&nbsp;</code>
+        <button class="cmd-copy" id="install-copy" type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          copy
+        </button>
+      </div>
+
+      <div class="countdown-row">
+        <span class="countdown" id="install-countdown" aria-live="polite">
+          <span class="cd-dot" aria-hidden="true"></span>
+          <span id="install-countdown-text">Expires in 5:00</span>
+        </span>
+        <button class="regen-btn" id="install-regen" type="button">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Regenerate
+        </button>
+      </div>
+
+      <p class="modal-caption">
+        Run this on the PC that needs the driver. The link is <strong>single-use</strong> and dies after 5 minutes &mdash; whichever comes first. The script downloads the driver, verifies each part&rsquo;s checksum, extracts it, and offers to install it.
+      </p>
+      <p class="modal-caption" style="margin-top:8px;">
+        Prefer to run it manually? <a href="https://raw.githubusercontent.com/rhshourav/driverdex/refs/heads/main/extractor/extractor.exe" target="_blank" rel="noopener">Download extractor.exe</a> &mdash; the same tool the script fetches to unpack the driver archives.
+      </p>
+      <div class="modal-credit">
+        Generated by DriverDex &mdash; <a href="https://github.com/rhshourav/driverdex" target="_blank" rel="noopener">github.com/rhshourav/driverdex</a> &middot; by rhshourav
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="foot-row">
+      <span id="last-sync">&nbsp;</span>
+      <span>API: <a href="/api" target="_blank" rel="noopener">/api</a></span>
+    </div>
+    <div class="credit">
+      <span class="by">built by
+        <a href="https://github.com/rhshourav" target="_blank" rel="noopener noreferrer">rhshourav</a>
+      </span>
+      <a class="repo-link" href="https://github.com/rhshourav/driverdex" target="_blank" rel="noopener noreferrer" aria-label="View DriverDex source on GitHub">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1-.02-1.96-3.2.69-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.05.78 2.12 0 1.53-.01 2.77-.01 3.15 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+        <span>rhshourav/DriverDex</span>
+      </a>
+    </div>
+  </footer>
+
+</div>
+
+<!-- ============================================================ theme + ambient bg controller -->
+<script>
+(function(){
+  "use strict";
+  var root = document.documentElement;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  var toggle = document.getElementById('theme-toggle');
+  function setTheme(t){
+    root.setAttribute('data-theme', t);
+    try{ localStorage.setItem('ldc-theme', t); }catch(e){}
+    if(toggle) toggle.setAttribute('aria-pressed', String(t === 'light'));
+  }
+  if(toggle){
+    toggle.setAttribute('aria-pressed', String(root.getAttribute('data-theme') === 'light'));
+    toggle.addEventListener('click', function(){
+      setTheme(root.getAttribute('data-theme') === 'light' ? 'dark' : 'light');
+    });
+  }
+
+  var canvas = document.getElementById('net-canvas');
+  if(!canvas || reduce.matches) return;
+  var ctx = canvas.getContext('2d');
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+  var W = 0, H = 0, nodes = [], particles = [], gridCells = [], raf = null, running = false;
+  var SQUARE = 80;
+  var coarse = window.matchMedia('(hover: none) and (pointer: coarse)');
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)');
+  var mouse = { x: -9999, y: -9999, active: false };
+
+  function nodeCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var mobile = window.innerWidth <= 768 || coarse.matches;
+    var density = mobile ? 18000 : 11000;
+    var cap = mobile ? 26 : 70;
+    return Math.max(10, Math.min(cap, Math.round(area / density)));
+  }
+  function linkDist(){ return (window.innerWidth <= 768) ? 96 : 140; }
+  function particleCount(){
+    var area = window.innerWidth * window.innerHeight;
+    var mobile = window.innerWidth <= 768 || coarse.matches;
+    var density = mobile ? 42000 : 26000;
+    var cap = mobile ? 22 : 60;
+    return Math.max(8, Math.min(cap, Math.round(area / density)));
+  }
+  function makeParticle(rand){
+    return {
+      x: Math.random()*W,
+      y: rand ? Math.random()*H : H + Math.random()*40,
+      r: 0.8 + Math.random()*2.2,
+      vy: -(0.15 + Math.random()*0.5),
+      drift: (Math.random()-0.5)*0.25,
+      sway: Math.random()*Math.PI*2,
+      swaySpeed: 0.004 + Math.random()*0.01,
+      tw: Math.random()*Math.PI*2,
+      twSpeed: 0.01 + Math.random()*0.03,
+      baseA: 0.25 + Math.random()*0.55
+    };
+  }
+  function buildParticles(){
+    var n = particleCount(); particles = [];
+    for(var i=0;i<n;i++){ particles.push(makeParticle(true)); }
+  }
+  function buildGrid(){
+    gridCells = [];
+    for(var x=0; x<W; x+=SQUARE){
+      for(var y=0; y<H; y+=SQUARE){
+        gridCells.push({ x:x, y:y, alpha:0, fading:false, lastTouched:0 });
+      }
+    }
+  }
+  function touchGridAt(mx, my){
+    if(mx < 0 || my < 0) return;
+    var cx = Math.floor(mx/SQUARE)*SQUARE, cy = Math.floor(my/SQUARE)*SQUARE;
+    for(var i=0;i<gridCells.length;i++){
+      var c = gridCells[i];
+      if(c.x === cx && c.y === cy){
+        if(c.alpha === 0){ c.alpha = 1; c.fading = false; }
+        c.lastTouched = Date.now(); return;
+      }
+    }
+  }
+  function resize(){
+    W = window.innerWidth; H = window.innerHeight;
+    canvas.width = W*DPR; canvas.height = H*DPR;
+    canvas.style.width = W+'px'; canvas.style.height = H+'px';
+    ctx.setTransform(DPR,0,0,DPR,0,0);
+    build(); buildParticles(); buildGrid();
+  }
+  function build(){
+    var n = nodeCount(); nodes = [];
+    for(var i=0;i<n;i++){
+      nodes.push({ x:Math.random()*W, y:Math.random()*H, vx:(Math.random()-0.5)*0.18, vy:(Math.random()-0.5)*0.18 });
+    }
+  }
+  function netColor(a){
+    var cs = getComputedStyle(root);
+    var rgb = (cs.getPropertyValue('--net-rgb')||'255,180,84').trim();
+    var base = parseFloat(cs.getPropertyValue('--net-alpha'))||0.5;
+    return 'rgba('+rgb+','+(a*base).toFixed(3)+')';
+  }
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    var maxD = linkDist();
+    var doParallax = fine.matches && mouse.active;
+    if(mouse.active){ touchGridAt(mouse.x, mouse.y); }
+    var now = Date.now();
+    for(var gi=0; gi<gridCells.length; gi++){
+      var cell = gridCells[gi];
+      if(cell.alpha > 0 && !cell.fading && now - cell.lastTouched > 500){ cell.fading = true; }
+      if(cell.fading){ cell.alpha -= 0.02; if(cell.alpha <= 0){ cell.alpha = 0; cell.fading = false; } }
+      if(cell.alpha > 0){
+        var gcx = cell.x+SQUARE/2, gcy = cell.y+SQUARE/2;
+        var grad = ctx.createRadialGradient(gcx,gcy,5,gcx,gcy,SQUARE);
+        grad.addColorStop(0, netColor(cell.alpha*3.2)); grad.addColorStop(1, netColor(0));
+        ctx.strokeStyle = grad; ctx.lineWidth = 1.6;
+        ctx.strokeRect(cell.x+0.5, cell.y+0.5, SQUARE-1, SQUARE-1);
+      }
+    }
+    var isLight = root.getAttribute('data-theme') === 'light';
+    ctx.globalCompositeOperation = isLight ? 'source-over' : 'lighter';
+    for(var k=0;k<particles.length;k++){
+      var q = particles[k];
+      q.sway += q.swaySpeed; q.tw += q.twSpeed;
+      q.y += q.vy; q.x += q.drift + Math.sin(q.sway)*0.3;
+      if(q.y < -10 || q.x < -20 || q.x > W+20){ particles[k] = makeParticle(false); continue; }
+      var twinkle = 0.55 + 0.45*Math.sin(q.tw);
+      var alpha = q.baseA * twinkle;
+      var halo = q.r*4;
+      var g = ctx.createRadialGradient(q.x,q.y,0,q.x,q.y,halo);
+      g.addColorStop(0, netColor(alpha)); g.addColorStop(1, netColor(0));
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(q.x,q.y,halo,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.arc(q.x,q.y,q.r,0,Math.PI*2);
+      ctx.fillStyle = netColor(Math.min(1, alpha*1.6)); ctx.fill();
+    }
+    ctx.globalCompositeOperation = 'source-over';
+    for(var i=0;i<nodes.length;i++){
+      var p = nodes[i];
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < -20) p.x = W+20; if(p.x > W+20) p.x = -20;
+      if(p.y < -20) p.y = H+20; if(p.y > H+20) p.y = -20;
+      var dx0 = p.x, dy0 = p.y;
+      if(doParallax){
+        var mdx = mouse.x-p.x, mdy = mouse.y-p.y;
+        var md = Math.sqrt(mdx*mdx+mdy*mdy);
+        if(md < 160){ var f = (160-md)/160*0.6; dx0 += mdx*f*0.08; dy0 += mdy*f*0.08; }
+      }
+      ctx.beginPath(); ctx.arc(dx0,dy0,1.4,0,Math.PI*2);
+      ctx.fillStyle = netColor(0.9); ctx.fill();
+      p._dx = dx0; p._dy = dy0;
+    }
+    for(var a=0;a<nodes.length;a++){
+      for(var b=a+1;b<nodes.length;b++){
+        var dx = nodes[a]._dx-nodes[b]._dx, dy = nodes[a]._dy-nodes[b]._dy;
+        var d = Math.sqrt(dx*dx+dy*dy);
+        if(d < maxD){
+          ctx.strokeStyle = netColor(0.55*(1-d/maxD)); ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(nodes[a]._dx,nodes[a]._dy); ctx.lineTo(nodes[b]._dx,nodes[b]._dy); ctx.stroke();
+        }
+      }
+    }
+    raf = requestAnimationFrame(draw);
+  }
+  function start(){
+    if(running || reduce.matches || document.hidden) return;
+    running = true; canvas.classList.add('on'); document.body.classList.remove('anim-paused');
+    raf = requestAnimationFrame(draw);
+  }
+  function stop(){
+    running = false; if(raf) cancelAnimationFrame(raf); raf = null;
+    document.body.classList.add('anim-paused');
+  }
+  window.addEventListener('mousemove', function(e){ mouse.x=e.clientX; mouse.y=e.clientY; mouse.active=true; }, { passive:true });
+  window.addEventListener('mouseout', function(){ mouse.active=false; });
+  window.addEventListener('touchmove', function(e){
+    if(e.touches&&e.touches[0]){ mouse.x=e.touches[0].clientX; mouse.y=e.touches[0].clientY; mouse.active=true; }
+  }, { passive:true });
+  window.addEventListener('touchend', function(){ mouse.active=false; });
+  window.addEventListener('resize', resize, { passive:true });
+  document.addEventListener('visibilitychange', function(){ document.hidden ? stop() : start(); });
+  reduce.addEventListener && reduce.addEventListener('change', function(e){ e.matches ? (stop(), canvas.classList.remove('on')) : start(); });
+  resize(); start();
+})();
+</script>
+
+<!-- ============================================================ app logic -->
+<script>
+(function(){
+  "use strict";
+
+  const API = ""; // same-origin proxy -> ldc-check
+
+  const $input         = document.getElementById('search-input');
+  const $modePill      = document.getElementById('mode-pill');
+  const $searchBar     = document.querySelector('.search-bar');
+  const $results       = document.getElementById('results');
+  const $resultsMeta   = document.getElementById('results-meta');
+  const $resultsCount  = document.getElementById('results-count');
+  const $resultsMode   = document.getElementById('results-mode');
+  const $statsLine     = document.getElementById('stats-line');
+  const $lastSync      = document.getElementById('last-sync');
+  const $filterCategory= document.getElementById('filter-category');
+  const $filterProvider= document.getElementById('filter-provider');
+  const $filterArch    = document.getElementById('filter-arch');
+  const $toggleOld     = document.getElementById('toggle-old');
+  const $pager         = document.getElementById('pager');
+  const $prevPage      = document.getElementById('prev-page');
+  const $nextPage      = document.getElementById('next-page');
+  const $pageIndicator = document.getElementById('page-indicator');
+
+  let state = {
+    q: '', category: '', provider: '', arch: '',
+    page: 1, total: 0, pageSize: 25,
+    showOld: false,   // false = enabledOnly=1 (default), true = enabledOnly=0
+  };
+  let debounceTimer = null;
+  let lastFetchToken = 0;
+
+  // Cart: persists across pages — Map<driver_id, enriched driver object>
+  const cart = new Map();
+
+  // ---- helpers -------------------------------------------------------
+
+  function looksLikeHwid(q){ return /VEN_|DEV_|SUBSYS_|\\/i.test(q); }
+  function looksLikeDriverId(q){ return /^drv-[0-9a-f]{6,}/i.test(q.trim()); }
+  function normalizeHwidQuery(q){ return q.replace(/\\\\/g, '\\'); }
+
+  function escapeHtml(s){
+    return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+  function fmtBytes(n){
+    if(!n && n !== 0) return '\u2014';
+    const u = ['B','KB','MB','GB']; let i=0, v=n;
+    while(v >= 1024 && i < u.length-1){ v/=1024; i++; }
+    return v.toFixed(v < 10 && i>0 ? 1 : 0) + ' ' + u[i];
+  }
+  function fmtDate(s){
+    if(!s) return '\u2014';
+    try{ return new Date(s.replace(' ','T')+'Z').toISOString().slice(0,10); }catch(e){ return s; }
+  }
+
+  // ---- "show old" toggle -----------------------------------------------
+
+  $toggleOld.addEventListener('click', () => {
+    state.showOld = !state.showOld;
+    $toggleOld.classList.toggle('active', state.showOld);
+    $toggleOld.setAttribute('aria-checked', String(state.showOld));
+    state.page = 1;
+    runSearch();
+  });
+
+  // ---- stats + facets -------------------------------------------------
+
+  async function loadFacetsAndStats(){
+    try{
+      const [stats, facets] = await Promise.all([
+        fetch(API + '/api/stats').then(r => r.json()),
+        fetch(API + '/api/facets').then(r => r.json()),
+      ]);
+
+      const noHwidCount = stats.drivers_no_hwid || 0;
+      const disabledCount = stats.drivers_disabled || 0;
+      const noHwidNote = noHwidCount > 0
+        ? ' &middot; <span class="n" title="drivers without hardware IDs">' + noHwidCount.toLocaleString() + '</span> <span class="lbl">no-hwid</span>'
+        : '';
+      const disabledNote = disabledCount > 0
+        ? ' &middot; <span class="n" title="disabled / superseded drivers">' + disabledCount.toLocaleString() + '</span> <span class="lbl">old</span>'
+        : '';
+
+      $statsLine.innerHTML =
+        '<span class="n">' + stats.drivers.toLocaleString() + '</span> <span class="lbl">drivers</span> &middot; ' +
+        '<span class="n">' + stats.hwids.toLocaleString() + '</span> <span class="lbl">hwids</span> &middot; ' +
+        '<span class="n">' + stats.providers + '</span> <span class="lbl">vendors</span>' +
+        noHwidNote + disabledNote;
+
+      if(stats.lastSync){
+        $lastSync.textContent = 'last sync ' + fmtDate(stats.lastSync.run_at) +
+          (stats.lastSync.commit_sha ? '  @' + stats.lastSync.commit_sha.slice(0,7) : '');
+      } else {
+        $lastSync.textContent = 'no sync recorded yet';
+      }
+
+      for(const c of facets.categories){
+        const opt = document.createElement('option');
+        opt.value = c.category; opt.textContent = c.category + ' (' + c.n + ')';
+        $filterCategory.appendChild(opt);
+      }
+      for(const p of facets.providers){
+        const opt = document.createElement('option');
+        opt.value = p.provider; opt.textContent = p.provider + ' (' + p.n + ')';
+        $filterProvider.appendChild(opt);
+      }
+      for(const a of facets.archs){
+        const opt = document.createElement('option');
+        opt.value = a.arch; opt.textContent = a.arch + ' (' + a.n + ')';
+        $filterArch.appendChild(opt);
+      }
+    }catch(e){
+      $statsLine.textContent = 'index unreachable';
+      console.error(e);
+    }
+  }
+
+  // ---- render states --------------------------------------------------
+
+  function renderEmpty(){
+    $results.innerHTML =
+      '<div class="empty">' +
+        '<span class="glyph">&gt; no results</span>' +
+        '<h3>Nothing matched that query</h3>' +
+        '<p>Try a device name, vendor (<em>Realtek</em>), hardware ID (<code>PCI\\VEN_10DE</code>), ' +
+        'driver ID (<code>drv-536c01b4</code>), pack name (<code>RazerInc_HIDClass_x64</code>), or manifest (<code>Ports.manifest.json</code>).' +
+        (state.showOld ? '' : ' You can also enable <strong>show old versions</strong> to include superseded drivers.') +
+        '</p>' +
+      '</div>';
+  }
+  function renderInitial(){
+    $results.innerHTML =
+      '<div class="empty">' +
+        '<span class="glyph">&gt; idle</span>' +
+        '<h3>Search the driver mirror</h3>' +
+        '<p>Search by device name, vendor, hardware ID, driver ID, pack name, or source manifest filename.</p>' +
+      '</div>';
+  }
+  function renderError(){
+    $results.innerHTML =
+      '<div class="error-state">' +
+        '<span class="glyph">&gt; error</span>' +
+        '<h3>Could not reach the index</h3>' +
+        '<p>The search API did not respond. It may still be syncing &mdash; try again shortly.</p>' +
+      '</div>';
+  }
+  function renderLoading(){
+    $results.innerHTML =
+      '<div class="loading"><span class="glyph">&gt; querying index</span></div>' +
+      '<div class="skel-wrap" aria-hidden="true">' +
+        '<div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div>' +
+      '</div>';
+  }
+
+  // ---- row template --------------------------------------------------
+
+  function rowTemplate(d, idx){
+    // A driver is "old" if it's explicitly disabled OR if it has a superseded_by link
+    const isOld = !d.enabled || !!d.superseded_by;
+    const isCurrent = d.enabled && !d.superseded_by;
+
+    let statusBadge = '';
+    if(isCurrent){
+      statusBadge = '<span class="badge ok">enabled</span>';
+    } else if(!d.enabled && d.superseded_by){
+      statusBadge = '<span class="badge old" title="superseded by ' + escapeHtml(d.superseded_by) + '">superseded</span>';
+    } else if(!d.enabled){
+      statusBadge = '<span class="badge off">disabled</span>';
+    } else if(d.superseded_by){
+      statusBadge = '<span class="badge old" title="superseded by ' + escapeHtml(d.superseded_by) + '">old</span>';
+    }
+
+    const hasHwids = (d.hwid_count != null ? d.hwid_count > 0 : d.hwid_string != null);
+    const noHwidBadge = !hasHwids
+      ? '<span class="badge warn" title="No hardware IDs — not matchable by device scan">no hwid</span>'
+      : '';
+
+    // Show "has versions" hint if this driver supersedes something or is superseded
+    const hasVersionChain = d.supersedes || d.superseded_by;
+    const versionHint = hasVersionChain
+      ? ' &middot; <span style="color:var(--old);font-size:11px;">&#x21C6; versions</span>'
+      : '';
+
+    const sub = [
+      d.provider ? escapeHtml(d.provider) : null,
+      d.category ? escapeHtml(d.category) : null,
+      d.version  ? 'v' + escapeHtml(d.version) : null,
+      d.arch     ? escapeHtml(d.arch) : null,
+    ].filter(Boolean).join('<span class="dot"> &middot; </span>');
+
+    return (
+      '<div class="row' + (isOld ? ' is-old' : '') + (cart.has(d.driver_id) ? ' selected' : '') + '" data-driver-id="' + escapeHtml(d.driver_id) + '" data-idx="' + idx + '" data-display-name="' + escapeHtml(d.display_name || d.driver_id) + '" data-version="' + escapeHtml(d.version || '') + '" data-provider="' + escapeHtml(d.provider || '') + '" data-category="' + escapeHtml(d.category || '') + '" data-arch="' + escapeHtml(d.arch || '') + '" data-primary-url="' + escapeHtml(d.primary_url || '') + '" data-zip-parts="' + escapeHtml(String(d.zip_parts || '')) + '" data-date-added="' + escapeHtml(d.date_added || '') + '">' +
+        '<div class="row-head" role="button" tabindex="0" aria-expanded="false">' +
+          '<span class="row-select" onclick="event.stopPropagation()">' +
+            '<input type="checkbox" aria-label="Select ' + escapeHtml(d.display_name || d.driver_id) + '"' + (cart.has(d.driver_id) ? ' checked' : '') + ' data-driver-id="' + escapeHtml(d.driver_id) + '" class="row-checkbox" />' +
+          '</span>' +
+          '<svg class="row-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>' +
+          '<div class="row-main">' +
+            '<div class="row-title">' + escapeHtml(d.display_name || d.driver_id) + '</div>' +
+            '<div class="row-sub"><span class="tag">' + sub + versionHint + '</span></div>' +
+          '</div>' +
+          '<div class="row-badges">' + noHwidBadge + statusBadge + '</div>' +
+        '</div>' +
+        '<div class="row-body" id="body-' + idx + '"></div>' +
+      '</div>'
+    );
+  }
+
+  // ---- version timeline template ------------------------------------
+
+  function versionTimelineTemplate(versionsData){
+    if(!versionsData || !versionsData.versions || versionsData.versions.length <= 1){
+      return ''; // no timeline to show if single version
+    }
+
+    const entries = versionsData.versions.map(v => {
+      let dotClass = 'old';
+      let badgeHtml = '';
+      if(v.is_current){
+        dotClass = 'current';
+        badgeHtml = '<span class="badge ok" style="font-size:9px;padding:3px 6px;">current</span>';
+      } else if(!v.enabled){
+        dotClass = 'disabled';
+        badgeHtml = '<span class="badge off" style="font-size:9px;padding:3px 6px;">disabled</span>';
+      } else {
+        badgeHtml = '<span class="badge old" style="font-size:9px;padding:3px 6px;">old</span>';
+      }
+
+      return (
+        '<div class="vt-entry' + (v.is_current ? ' is-current' : '') + '">' +
+          '<span class="vt-dot ' + dotClass + '"></span>' +
+          '<div class="vt-meta">' +
+            '<div>' +
+              '<span class="vt-ver">' + escapeHtml(v.version || v.driver_id) + '</span>' +
+              '<span class="vt-date">' + fmtDate(v.date_added) + '</span>' +
+            '</div>' +
+            (v.display_name && v.display_name !== versionsData.display_name
+              ? '<div class="vt-name">' + escapeHtml(v.display_name) + '</div>'
+              : '') +
+          '</div>' +
+          '<div class="vt-badges">' + badgeHtml + '</div>' +
+          (!v.is_current
+            ? '<button class="vt-link" data-jump-driver="' + escapeHtml(v.driver_id) + '" title="View this version">view</button>'
+            : '') +
+        '</div>'
+      );
+    }).join('');
+
+    return (
+      '<div class="section-label">' +
+        '<span>version history (' + versionsData.versions.length + ')</span>' +
+      '</div>' +
+      '<div class="version-timeline">' + entries + '</div>'
+    );
+  }
+
+  // ---- hwid rendering (capped) -------------------------------------
+  // Drivers can declare thousands of hardware IDs (e.g. broad chipset packs).
+  // Rendering all of them at once floods the DOM and breaks the card layout,
+  // so we render a capped slice up front and reveal the rest on demand into a
+  // scroll-capped container. Full lists are stashed by driver_id for the
+  // "show all" click handler.
+  const HWID_RENDER_CAP = 50;
+  const hwidStore = new Map();
+
+  function hwidItemHtml(h){
+    return '<div class="hwid-item' + (h.is_generic ? ' generic' : '') + '">' +
+      '<span>' + escapeHtml(h.hwid_string) + (h.is_generic ? ' <span style="opacity:.6">(generic)</span>' : '') + '</span>' +
+      '<button class="copy-btn" data-copy="' + escapeHtml(h.hwid_string) + '">copy</button>' +
+    '</div>';
+  }
+
+  function hwidStackHtml(driverId, hwids){
+    if(!hwids || hwids.length === 0){
+      return '<div class="hwid-stack"><div class="hwid-item generic">no hardware IDs recorded</div></div>';
+    }
+    hwidStore.set(driverId, hwids);
+    const shown = hwids.slice(0, HWID_RENDER_CAP).map(hwidItemHtml).join('');
+    const remaining = hwids.length - HWID_RENDER_CAP;
+    const stack = '<div class="hwid-stack" data-hwid-driver="' + escapeHtml(driverId) + '">' + shown + '</div>';
+    if(remaining <= 0) return stack;
+    return stack +
+      '<button class="hwid-show-all" type="button" data-hwid-driver="' + escapeHtml(driverId) + '">' +
+        'show all ' + hwids.length.toLocaleString() + ' hardware ids' +
+      '</button>';
+  }
+
+  // ---- detail template ---------------------------------------------
+
+  function detailTemplate(detail, versionsData){
+    const partItems = (detail.parts || []).map(p =>
+      '<div class="part-row">' +
+        '<span class="pn">' + String(p.part_num).padStart(2,'0') + '</span>' +
+        '<span class="fn">' + escapeHtml(p.filename) + '</span>' +
+        '<span class="sz">' + fmtBytes(p.size_bytes) + '</span>' +
+        (p.url ? '<a href="' + escapeHtml(p.url) + '" target="_blank" rel="noopener">download</a>' : '') +
+      '</div>'
+    ).join('') || (detail.primary_url
+        ? '<div class="part-row"><span class="fn">' + escapeHtml(detail.primary_url) + '</span><a href="' + escapeHtml(detail.primary_url) + '" target="_blank" rel="noopener">download</a></div>'
+        : '<div class="part-row"><span class="fn">no archive parts recorded</span></div>');
+
+    // Version history timeline (inline)
+    const timelineHtml = versionTimelineTemplate(versionsData);
+
+    return (
+      '<dl class="field-grid">' +
+        '<div class="field"><dt>driver id</dt><dd>' + escapeHtml(detail.driver_id) + '</dd></div>' +
+        '<div class="field"><dt>pack</dt><dd>' + escapeHtml(detail.pack || '\u2014') + '</dd></div>' +
+        '<div class="field"><dt>date added</dt><dd>' + fmtDate(detail.date_added) + '</dd></div>' +
+        '<div class="field"><dt>os targets</dt><dd>' + escapeHtml((detail.os_targets||[]).join(', ') || '\u2014') + '</dd></div>' +
+        (detail.supersedes ? '<div class="field"><dt>supersedes</dt><dd><span style="color:var(--old);font-family:var(--mono);font-size:12px;">' + escapeHtml(detail.supersedes) + '</span></dd></div>' : '') +
+        (detail.superseded_by ? '<div class="field"><dt>superseded by</dt><dd><span style="color:var(--accent);font-family:var(--mono);font-size:12px;">' + escapeHtml(detail.superseded_by) + '</span></dd></div>' : '') +
+        '<div class="field"><dt>source manifest</dt><dd>' + escapeHtml(detail.source_manifest || '\u2014') + '</dd></div>' +
+        '<div class="field"><dt>notes</dt><dd>' + escapeHtml(detail.notes || '\u2014') + '</dd></div>' +
+      '</dl>' +
+      timelineHtml +
+      '<div class="section-label">hardware ids (' + (detail.hwids||[]).length.toLocaleString() + ')</div>' +
+      hwidStackHtml(detail.driver_id, detail.hwids || []) +
+      '<div class="section-label">archive parts</div>' +
+      '<div class="parts-list">' + partItems + '</div>' +
+      installActionTemplate(detail)
+    );
+  }
+
+  // ---- "Generate Install Script" action row ------------------------------
+  // Rendered at the bottom of each expanded card. Disabled (with an
+  // explanatory note) for superseded / disabled drivers.
+  function installActionTemplate(detail){
+    const disabled = !detail.enabled;
+    const btn = disabled
+      ? '<button class="install-btn" disabled title="This driver is disabled or superseded">' +
+          installIconSvg() + 'Generate Install Script' +
+        '</button>' +
+        '<span class="install-note">disabled / superseded &mdash; not installable</span>'
+      : '<button class="install-btn" data-install-driver="' + escapeHtml(detail.driver_id) + '" ' +
+          'data-install-name="' + escapeHtml(detail.display_name || detail.driver_id) + '">' +
+          installIconSvg() + 'Generate Install Script' +
+        '</button>' +
+        '<span class="install-note">one-line PowerShell command, single-use, 5-min expiry</span>';
+    return '<div class="section-label">install</div><div class="row-actions">' + btn + '</div>';
+  }
+
+  function installIconSvg(){
+    return '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/></svg>';
+  }
+
+  // ---- row expand/collapse -----------------------------------------
+
+  async function toggleRow(rowEl){
+    const isOpen = rowEl.classList.contains('open');
+    if(isOpen){
+      rowEl.classList.remove('open');
+      rowEl.querySelector('.row-head').setAttribute('aria-expanded', 'false');
+      return;
+    }
+    rowEl.classList.add('open');
+    rowEl.querySelector('.row-head').setAttribute('aria-expanded', 'true');
+
+    const body = rowEl.querySelector('.row-body');
+    if(body.dataset.loaded) return;
+
+    body.innerHTML = '<div class="loading"><span class="glyph">&gt; loading detail</span></div>';
+
+    try{
+      const driverId = rowEl.getAttribute('data-driver-id');
+
+      // Fetch both the full detail and the version history in parallel
+      const [detail, versionsData] = await Promise.all([
+        fetch(API + '/api/driver/' + encodeURIComponent(driverId)).then(r => r.json()),
+        fetch(API + '/api/driver/' + encodeURIComponent(driverId) + '/versions')
+          .then(r => r.ok ? r.json() : null)
+          .catch(() => null),
+      ]);
+
+      body.innerHTML = detailTemplate(detail, versionsData);
+      body.dataset.loaded = '1';
+    }catch(e){
+      body.innerHTML = '<div class="error-state"><p>Could not load detail for this driver.</p></div>';
+    }
+  }
+
+  // ---- event delegation -------------------------------------------
+
+  $results.addEventListener('click', (e) => {
+    // "show all N hardware ids" — reveal the full list into a scroll-capped stack
+    const showAllBtn = e.target.closest('.hwid-show-all');
+    if(showAllBtn){
+      const id = showAllBtn.dataset.hwidDriver;
+      const all = hwidStore.get(id) || [];
+      const stack = showAllBtn.previousElementSibling;
+      if(stack && stack.classList.contains('hwid-stack')){
+        stack.innerHTML = all.map(hwidItemHtml).join('');
+        stack.classList.add('scrollable');
+      }
+      showAllBtn.remove();
+      return;
+    }
+
+    // Copy button
+    const copyBtn = e.target.closest('.copy-btn');
+    if(copyBtn){
+      navigator.clipboard?.writeText(copyBtn.dataset.copy || '');
+      const original = copyBtn.dataset.label || (copyBtn.dataset.label = copyBtn.textContent);
+      copyBtn.textContent = 'copied';
+      copyBtn.classList.add('copied');
+      clearTimeout(copyBtn._t);
+      copyBtn._t = setTimeout(() => { copyBtn.textContent = original; copyBtn.classList.remove('copied'); }, 1200);
+      return;
+    }
+
+    // "Generate Install Script" button
+    const installBtn = e.target.closest('[data-install-driver]');
+    if(installBtn){
+      openInstallModal(installBtn);
+      return;
+    }
+
+    // "view" link in version timeline — jump to that driver row or search for it
+    const jumpBtn = e.target.closest('[data-jump-driver]');
+    if(jumpBtn){
+      const targetId = jumpBtn.dataset.jumpDriver;
+      // Check if the driver is already in the list
+      const existing = document.querySelector('.row[data-driver-id="' + CSS.escape(targetId) + '"]');
+      if(existing){
+        existing.scrollIntoView({ behavior:'smooth', block:'center' });
+        if(!existing.classList.contains('open')) toggleRow(existing);
+      } else {
+        // Search for it by putting its id in the search box
+        $input.value = targetId;
+        state.q = targetId;
+        state.page = 1;
+        state.showOld = true;
+        $toggleOld.classList.add('active');
+        $toggleOld.setAttribute('aria-checked', 'true');
+        runSearch();
+      }
+      return;
+    }
+
+    // Row toggle
+    const head = e.target.closest('.row-head');
+    if(head){
+      head.classList.remove('tapped'); void head.offsetWidth; head.classList.add('tapped');
+      toggleRow(head.closest('.row'));
+    }
+  });
+
+  $results.addEventListener('keydown', (e) => {
+    if((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('row-head')){
+      e.preventDefault();
+      toggleRow(e.target.closest('.row'));
+    }
+  });
+
+  // ---- main search -------------------------------------------------
+
+  async function runSearch(){
+    const token = ++lastFetchToken;
+    const hwidMode = state.q && looksLikeHwid(state.q);
+    const drvIdMode = !hwidMode && state.q && looksLikeDriverId(state.q);
+    $modePill.textContent = hwidMode ? 'hwid' : drvIdMode ? 'id' : 'text';
+    $modePill.classList.toggle('active-hwid', !!hwidMode);
+    $modePill.classList.toggle('active-id', !!drvIdMode);
+
+    if(!state.q && !state.category && !state.provider && !state.arch){
+      renderInitial();
+      $resultsMeta.hidden = true;
+      $pager.hidden = true;
+      syncSelectBar(false);
+      if($searchBar) $searchBar.classList.remove('searching');
+      return;
+    }
+
+    if($searchBar) $searchBar.classList.add('searching');
+    renderLoading();
+    $resultsMeta.hidden = true;
+    $pager.hidden = true;
+
+    const params = new URLSearchParams();
+    const qToSend = looksLikeHwid(state.q) ? normalizeHwidQuery(state.q) : state.q;
+    if(qToSend) params.set('q', qToSend);
+    if(state.category) params.set('category', state.category);
+    if(state.provider) params.set('provider', state.provider);
+    if(state.arch) params.set('arch', state.arch);
+    // Pass enabledOnly=0 when user wants to see old/superseded drivers
+    if(state.showOld) params.set('enabledOnly', '0');
+    params.set('page', state.page);
+    params.set('pageSize', state.pageSize);
+
+    try{
+      const data = await fetch(API + '/api/search?' + params.toString()).then(r => r.json());
+      if(token !== lastFetchToken) return;
+      if($searchBar) $searchBar.classList.remove('searching');
+
+      if(!data.results || data.results.length === 0){
+        renderEmpty();
+        $resultsMeta.hidden = true;
+        $pager.hidden = true;
+        syncSelectBar(false);
+        return;
+      }
+
+      $results.innerHTML = data.results.map((d, i) => rowTemplate(d, i)).join('');
+      syncSelectBar(true);
+      // Restore checkbox state for any cart items still in view
+      document.querySelectorAll('.row-checkbox').forEach(cb => {
+        if(cart.has(cb.getAttribute('data-driver-id'))) cb.checked = true;
+      });
+      updateCartUI();
+
+      $resultsMeta.hidden = false;
+      const modeLabel = data.mode === 'hwid'
+        ? 'exact hardware-id match'
+        : drvIdMode ? 'driver-id lookup' : 'text search';
+      $resultsMode.textContent = modeLabel;
+      state.total = data.total || data.results.length;
+      const totalPages = Math.max(1, Math.ceil(state.total / state.pageSize));
+
+      if(data.mode === 'hwid'){
+        $resultsCount.textContent = state.total.toLocaleString() + ' match' + (state.total === 1 ? '' : 'es');
+        $pager.hidden = totalPages <= 1;
+      } else {
+        $resultsCount.textContent = state.total.toLocaleString() + ' result' + (state.total === 1 ? '' : 's');
+        $pager.hidden = totalPages <= 1;
+        $pageIndicator.textContent = 'page ' + state.page + ' / ' + totalPages;
+        $prevPage.disabled = state.page <= 1;
+        $nextPage.disabled = state.page >= totalPages;
+      }
+
+      // Tack on a note when showing old results
+      if(state.showOld){
+        $resultsMode.innerHTML += ' <span style="color:var(--old);margin-left:6px;">&#x21C6; incl. old</span>';
+      }
+
+    }catch(e){
+      if(token !== lastFetchToken) return;
+      if($searchBar) $searchBar.classList.remove('searching');
+      renderError();
+      console.error(e);
+    }
+  }
+
+  // ---- input wiring ------------------------------------------------
+
+  $input.addEventListener('input', () => {
+    state.q = $input.value.trim();
+    state.page = 1;
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(runSearch, 220);
+  });
+
+  [$filterCategory, $filterProvider, $filterArch].forEach($el => {
+    $el.addEventListener('change', () => {
+      state.category = $filterCategory.value;
+      state.provider = $filterProvider.value;
+      state.arch     = $filterArch.value;
+      state.page = 1;
+      runSearch();
+    });
+  });
+
+  $prevPage.addEventListener('click', () => {
+    if(state.page > 1){ state.page--; runSearch(); window.scrollTo({top:0,behavior:'smooth'}); }
+  });
+  $nextPage.addEventListener('click', () => {
+    state.page++; runSearch(); window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  // ---- cart state -----------------------------------------------
+  // Map<driver_id, {driver_id, display_name, version, provider, category, arch, primary_url, zip_parts, date_added, parts?}>
+  // (cart Map is declared near state above for hoisting)
+
+  const $cartTray      = document.getElementById('cart-tray');
+  const $cartBadge     = document.getElementById('cart-badge');
+  const $cartCountLabel= document.getElementById('cart-count-label');
+  const $cartClear     = document.getElementById('cart-clear');
+  const $cartDownload  = document.getElementById('cart-download');
+  const $cartInstall   = document.getElementById('cart-install');
+  const $selectBar     = document.getElementById('select-bar');
+  const $selectAll     = document.getElementById('select-all');
+  const $selCountBar   = document.getElementById('sel-count-bar');
+
+  function updateCartUI(){
+    const n = cart.size;
+    $cartBadge.textContent = n;
+    $cartCountLabel.textContent = n + (n === 1 ? ' driver' : ' drivers');
+    if(n > 0){
+      $cartTray.classList.add('visible');
+    } else {
+      $cartTray.classList.remove('visible');
+    }
+    // update select-all indeterminate state
+    const allCbs = document.querySelectorAll('.row-checkbox');
+    const checkedCbs = document.querySelectorAll('.row-checkbox:checked');
+    $selectAll.indeterminate = checkedCbs.length > 0 && checkedCbs.length < allCbs.length;
+    $selectAll.checked = allCbs.length > 0 && checkedCbs.length === allCbs.length;
+    // count bar
+    if(n > 0){
+      $selCountBar.textContent = n + ' selected';
+    } else {
+      $selCountBar.textContent = '';
+    }
+  }
+
+  function cartAdd(driverEl){
+    const id   = driverEl.getAttribute('data-driver-id');
+    if(!id) return;
+    cart.set(id, {
+      driver_id:    id,
+      display_name: driverEl.getAttribute('data-display-name') || id,
+      version:      driverEl.getAttribute('data-version') || null,
+      provider:     driverEl.getAttribute('data-provider') || null,
+      category:     driverEl.getAttribute('data-category') || null,
+      arch:         driverEl.getAttribute('data-arch') || null,
+      primary_url:  driverEl.getAttribute('data-primary-url') || null,
+      zip_parts:    parseInt(driverEl.getAttribute('data-zip-parts') || '0', 10) || null,
+      date_added:   driverEl.getAttribute('data-date-added') || null,
+      parts:        null, // filled lazily from /api/driver detail if available
+    });
+    driverEl.classList.add('selected');
+  }
+
+  function cartRemove(driverEl){
+    const id = driverEl.getAttribute('data-driver-id');
+    if(!id) return;
+    cart.delete(id);
+    driverEl.classList.remove('selected');
+  }
+
+  function cartToggle(driverEl){
+    const id = driverEl.getAttribute('data-driver-id');
+    if(cart.has(id)) cartRemove(driverEl); else cartAdd(driverEl);
+    updateCartUI();
+  }
+
+  // Listen for checkbox clicks (row-checkbox class, event-delegated on $results)
+  $results.addEventListener('change', (e) => {
+    const cb = e.target.closest('.row-checkbox');
+    if(!cb) return;
+    const rowEl = cb.closest('.row');
+    if(!rowEl) return;
+    if(cb.checked){
+      cartAdd(rowEl);
+    } else {
+      cartRemove(rowEl);
+    }
+    updateCartUI();
+  });
+
+  // Select-all
+  $selectAll.addEventListener('change', () => {
+    const allRows = document.querySelectorAll('.row[data-driver-id]');
+    allRows.forEach(rowEl => {
+      const cb = rowEl.querySelector('.row-checkbox');
+      if($selectAll.checked){
+        cartAdd(rowEl);
+        if(cb) cb.checked = true;
+      } else {
+        cartRemove(rowEl);
+        if(cb) cb.checked = false;
+      }
+    });
+    updateCartUI();
+  });
+
+  // Clear cart
+  $cartClear.addEventListener('click', () => {
+    const allRows = document.querySelectorAll('.row[data-driver-id]');
+    allRows.forEach(rowEl => {
+      cartRemove(rowEl);
+      const cb = rowEl.querySelector('.row-checkbox');
+      if(cb) cb.checked = false;
+    });
+    cart.clear();
+    updateCartUI();
+  });
+
+  // Install all (bulk install command for the whole cart)
+  if($cartInstall){
+    $cartInstall.addEventListener('click', () => openBulkInstallModal());
+  }
+
+  // Export JSON
+  $cartDownload.addEventListener('click', async () => {
+    if(cart.size === 0) return;
+    $cartDownload.classList.add('downloading');
+
+    // For entries where parts is null, try to enrich with /api/driver/:id
+    const entries = Array.from(cart.values());
+    await Promise.all(entries.map(async entry => {
+      if(entry.parts === null){
+        try{
+          const detail = await fetch(API + '/api/driver/' + encodeURIComponent(entry.driver_id)).then(r => r.json());
+          if(detail && detail.parts){
+            // Merge detail into cart entry
+            cart.set(entry.driver_id, {
+              ...entry,
+              hwids:       detail.hwids || [],
+              descriptions:detail.descriptions || [],
+              os_targets:  detail.os_targets || [],
+              notes:       detail.notes || null,
+              source_manifest: detail.source_manifest || null,
+              supersedes:  detail.supersedes || null,
+              superseded_by: detail.superseded_by || null,
+              pack:        detail.pack || null,
+              parts:       detail.parts || [],
+            });
+          }
+        }catch(err){ /* silently keep what we have */ }
+      }
+    }));
+
+    $cartDownload.classList.remove('downloading');
+
+    const payload = {
+      exported_at: new Date().toISOString(),
+      driver_count: cart.size,
+      drivers: Array.from(cart.values()),
+    };
+
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = 'ldc-drivers-' + new Date().toISOString().slice(0,10) + '.json';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 1000);
+  });
+
+  // Show / hide select-all bar based on results presence
+  function syncSelectBar(hasResults){
+    if(hasResults){
+      $selectBar.classList.add('visible');
+    } else {
+      $selectBar.classList.remove('visible');
+    }
+  }
+
+  // ---- HWID help panel --------------------------------------------
+  const $helpPanel  = document.getElementById('help-panel');
+  const $helpToggle = document.getElementById('help-toggle');
+  if($helpPanel && $helpToggle){
+    $helpToggle.addEventListener('click', () => {
+      const open = $helpPanel.classList.toggle('open');
+      $helpToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  // Generic "copy text from an element by id" button (used in the help panel).
+  // The existing .copy-btn handler in $results uses data-copy; this one copies
+  // the textContent of the element named in data-copy-target.
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-copy-target]');
+    if(!btn) return;
+    const target = document.getElementById(btn.dataset.copyTarget);
+    if(!target) return;
+    navigator.clipboard?.writeText(target.textContent.trim());
+    const original = btn.dataset.label || (btn.dataset.label = btn.textContent);
+    btn.textContent = 'copied';
+    btn.classList.add('copied');
+    clearTimeout(btn._t);
+    btn._t = setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 1200);
+  });
+
+  // ---- install-script modal ---------------------------------------
+  const $installModal     = document.getElementById('install-modal');
+  const $installModalSub  = document.getElementById('install-modal-sub');
+  const $installModalClose= document.getElementById('install-modal-close');
+  const $installCmdBox    = document.getElementById('install-cmd-box');
+  const $installCmd       = document.getElementById('install-cmd');
+  const $installCopy      = document.getElementById('install-copy');
+  const $installCountdown = document.getElementById('install-countdown');
+  const $installCountText = document.getElementById('install-countdown-text');
+  const $installRegen     = document.getElementById('install-regen');
+
+  let installTimer = null;
+  let installExpiresAt = 0;
+  let installLastBtn = null; // the .install-btn that opened the modal, for Regenerate
+  let installRegenHandler = null; // what the Regenerate button re-runs (single or bulk)
+
+  function fmtCountdown(sec){
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return m + ':' + String(s).padStart(2, '0');
+  }
+
+  function stopInstallTimer(){
+    if(installTimer){ clearInterval(installTimer); installTimer = null; }
+  }
+
+  function setExpiredState(){
+    stopInstallTimer();
+    $installCmdBox.classList.add('expired');
+    $installCopy.disabled = true;
+    $installCountdown.classList.remove('warn');
+    $installCountdown.classList.add('dead');
+    $installCountText.textContent = 'Link expired';
+    $installRegen.classList.add('visible');
+  }
+
+  function tickCountdown(){
+    const remaining = Math.max(0, Math.round((installExpiresAt - Date.now()) / 1000));
+    if(remaining <= 0){ setExpiredState(); return; }
+    $installCountText.textContent = 'Expires in ' + fmtCountdown(remaining);
+    $installCountdown.classList.toggle('warn', remaining <= 60);
+  }
+
+  function closeInstallModal(){
+    stopInstallTimer();
+    $installModal.classList.remove('visible');
+    $installModal.hidden = true;
+    installLastBtn = null;
+  }
+
+  async function requestInstallLink(driverId){
+    const res = await fetch(API + '/api/install/create', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ driver_id: driverId }),
+    });
+    if(!res.ok){
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || ('Request failed (' + res.status + ')'));
+    }
+    return res.json();
+  }
+
+  // Shared: drop a freshly minted link (single or bulk) into the modal and
+  // start the expiry countdown.
+  function populateInstallModal(data, subText){
+    $installModalSub.textContent = subText;
+    $installCmd.textContent = data.command;
+    $installCmdBox.classList.remove('expired');
+    $installCopy.disabled = false;
+    $installCopy.classList.remove('copied');
+    $installCountdown.classList.remove('dead', 'warn');
+    $installRegen.classList.remove('visible');
+
+    installExpiresAt = Date.now() + (data.expires_in_seconds || 300) * 1000;
+    tickCountdown();
+    stopInstallTimer();
+    installTimer = setInterval(tickCountdown, 1000);
+
+    $installModal.hidden = false;
+    void $installModal.offsetWidth; // force reflow so the visible animation runs
+    $installModal.classList.add('visible');
+    $installModalClose.focus();
+  }
+
+  async function openInstallModal(btn){
+    const driverId = btn.dataset.installDriver;
+    const name = btn.dataset.installName || driverId;
+    if(!driverId) return;
+    installLastBtn = btn;
+    installRegenHandler = () => { const b = btn; closeInstallModal(); openInstallModal(b); };
+
+    // button busy state
+    btn.classList.add('loading');
+    const restore = btn.innerHTML;
+    btn.innerHTML = '<svg class="ib-spin" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>Generating&hellip;';
+
+    try{
+      const data = await requestInstallLink(driverId);
+      populateInstallModal(data, name);
+    }catch(err){
+      alert('Could not generate an install link: ' + err.message);
+    }finally{
+      btn.classList.remove('loading');
+      btn.innerHTML = restore;
+    }
+  }
+
+  // Cart "install all": mint ONE bulk token for every selected driver, then
+  // show the same modal with the combined `irm | iex` command.
+  async function openBulkInstallModal(){
+    if(cart.size === 0) return;
+    const driverIds = Array.from(cart.keys());
+
+    installLastBtn = null;
+    installRegenHandler = () => { closeInstallModal(); openBulkInstallModal(); };
+
+    $cartInstall.classList.add('installing');
+    $cartInstall.disabled = true;
+
+    try{
+      const res = await fetch(API + '/api/install/create-bulk', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ driver_ids: driverIds }),
+      });
+      if(!res.ok){
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.error || ('Request failed (' + res.status + ')'));
+      }
+      const data = await res.json();
+      const n = data.driver_count || driverIds.length;
+      let sub = n + (n === 1 ? ' driver' : ' drivers') + ' — one command installs them all';
+      if(data.skipped > 0) sub += ' (' + data.skipped + ' unavailable, skipped)';
+      populateInstallModal(data, sub);
+    }catch(err){
+      alert('Could not generate a bulk install link: ' + err.message);
+    }finally{
+      $cartInstall.classList.remove('installing');
+      $cartInstall.disabled = false;
+    }
+  }
+
+  if($installModal){
+    $installCopy.addEventListener('click', () => {
+      if($installCopy.disabled) return;
+      navigator.clipboard?.writeText($installCmd.textContent.trim());
+      $installCopy.classList.add('copied');
+      const svg = $installCopy.querySelector('svg');
+      $installCopy.childNodes[$installCopy.childNodes.length - 1].textContent = ' copied';
+      clearTimeout($installCopy._t);
+      $installCopy._t = setTimeout(() => {
+        $installCopy.classList.remove('copied');
+        $installCopy.childNodes[$installCopy.childNodes.length - 1].textContent = ' copy';
+      }, 1200);
+    });
+
+    $installRegen.addEventListener('click', () => {
+      if(installRegenHandler){
+        installRegenHandler();
+      } else if(installLastBtn){
+        const btn = installLastBtn;
+        closeInstallModal();
+        openInstallModal(btn);
+      }
+    });
+
+    $installModalClose.addEventListener('click', closeInstallModal);
+    $installModal.addEventListener('click', (e) => {
+      if(e.target === $installModal) closeInstallModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && $installModal.classList.contains('visible')) closeInstallModal();
+    });
+  }
+
+  // ---- boot --------------------------------------------------------
+  loadFacetsAndStats();
+  renderInitial();
+})();
+</script>
+</body>
+</html>

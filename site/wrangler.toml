@@ -1,0 +1,61 @@
+# ============================================================================
+# site/wrangler.toml
+# ----------------------------------------------------------------------------
+# Deploys the DriverDex search UI as its own Worker (app).
+# database_id and the KV namespace id are both placeholders here --
+# d1-sync.yml patches them on every CI run before deploying, so there is
+# exactly one source of truth (the live Cloudflare API) and the values
+# in this file can never drift between the two worker configs.
+#
+# `run_worker_first` routes /api/* and /i/* through src/index.js, which
+# proxies /api/* to driverdex-check over a Service Binding (zero-hop, no CORS)
+# and handles /i/:token install-link fetches directly from D1.
+# ============================================================================
+
+name = "app"
+main = "src/index.js"
+compatibility_date = "2026-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+workers_dev = true
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*", "/i/*"]
+
+# Zero-latency same-account call to the search API worker -- no public
+# network hop and no CORS needed since both workers share the same origin
+# from the browser's perspective.
+[[services]]
+binding = "SEARCH_API"
+service = "driverdex-check"
+
+# D1 binding -- the /i/:token handler reads driver + parts rows directly so
+# the generated install script always reflects the live DB state.
+# database_id is auto-patched by CI; paste the real UUID here for local dev.
+[[d1_databases]]
+binding       = "DB"
+database_name = "driverdex-index"
+database_id   = "00000000-0000-0000-0000-000000000000"   # placeholder -- auto-patched by CI
+
+# Shared KV namespace for ephemeral install-link tokens. MUST be the same
+# namespace id as search-worker/wrangler.toml -- driverdex-check writes tokens,
+# app reads them. CI patches this value automatically on every run.
+[[kv_namespaces]]
+binding = "INSTALL_LINKS"
+id      = "REPLACE_WITH_INSTALL_LINKS_KV_ID"
+
+# Pinned to this worker's own public URL so the `irm <url> | iex` one-liner
+# baked into install tokens always points at the correct host.
+# Must match search-worker/wrangler.toml exactly.
+[vars]
+PUBLIC_BASE_URL = "https://app.rhshourav0.workers.dev"
+
+[observability]
+enabled = true
+
+[observability.logs]
+invocation_logs = true
+head_sampling_rate = 1
