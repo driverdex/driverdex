@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LDC Search API</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 600px; margin: 4rem auto; padding: 0 1.5rem; color: #c9d1d9; background: #0d1117; }
+    h1 { font-size: 1.4rem; color: #e6edf3; }
+    code { background: #161b22; padding: .15em .4em; border-radius: 4px; font-size: .9em; }
+    a { color: #58a6ff; }
+    ul { line-height: 2; }
+  </style>
+</head>
+<body>
+  <h1>LDC Search API</h1>
+  <p>This host serves the <strong>ldc-check</strong> search API — it has no UI of its own.</p>
+  <p>Looking for the driver search UI? Visit <a href="https://ldc.workers.dev/">ldc.workers.dev</a>.</p>
+  <p>Available API endpoints:</p>
+  <ul>
+    <li><code>GET /api/search?q=…</code></li>
+    <li><code>GET /api/driver/:driver_id</code></li>
+    <li><code>GET /api/hwid/:hwid</code></li>
+    <li><code>GET /api/stats</code></li>
+    <li><code>GET /api/facets</code></li>
+  </ul>
+</body>
+</html>

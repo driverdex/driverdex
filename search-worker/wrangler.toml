@@ -1,0 +1,44 @@
+# ============================================================================
+# search-worker/wrangler.toml
+# ----------------------------------------------------------------------------
+# Deploys the DriverDex search API as a Cloudflare Worker (driverdex-check).
+# database_id and the KV namespace id are both placeholders here --
+# d1-sync.yml patches them on every CI run before deploying, so there is
+# exactly one source of truth (the live Cloudflare API) and the values
+# in this file can never drift between the two worker configs.
+# ============================================================================
+
+name = "driverdex-check"
+main = "src/index.js"
+compatibility_date = "2026-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+workers_dev = true
+
+[[d1_databases]]
+binding       = "DB"
+database_name = "driverdex-index"
+database_id   = "00000000-0000-0000-0000-000000000000"   # placeholder -- auto-patched by CI
+
+# Ephemeral install-link tokens minted by POST /api/install/create, and the
+# per-IP rate-limit counter. MUST be the SAME namespace the `site` Worker binds
+# as INSTALL_LINKS, so /i/:token (served by `site`) can read what this Worker
+# wrote. Create once with:
+#   npx wrangler kv namespace create INSTALL_LINKS
+# then add the printed id as a repo secret named KV_INSTALL_LINKS_ID.
+# CI patches this value automatically on every run.
+[[kv_namespaces]]
+binding = "INSTALL_LINKS"
+id      = "REPLACE_WITH_INSTALL_LINKS_KV_ID"
+
+# Install links are fetched from /i/:token on the SITE worker (app), so both
+# workers must agree on this value. Must match site/wrangler.toml exactly.
+[vars]
+PUBLIC_BASE_URL = "https://app.rhshourav0.workers.dev"
+
+[observability]
+enabled = true
+
+[observability.logs]
+invocation_logs = true
+head_sampling_rate = 1
