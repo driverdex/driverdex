@@ -42,7 +42,7 @@ import sys
 import urllib.error
 import urllib.request
 
-REPO_OWNER  = "rhshourav"
+REPO_OWNER  = "driverdex"
 REPO_NAME   = "driverdex"
 BRANCH      = "main"
 FILE_PATH   = "manifests/installers.manifest.json"
