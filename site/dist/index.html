@@ -5,9 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>DriverDex &mdash; Driver Index</title>
 <meta name="description" content="Search the DriverDex driver mirror by hardware ID, provider, or device name." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DriverDex — Driver Index" />
+<meta property="og:description" content="Search the DriverDex driver mirror by hardware ID, provider, or device name." />
+<meta property="og:image" content="banner.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="DriverDex — Driver Index" />
+<meta name="twitter:description" content="Search the DriverDex driver mirror by hardware ID, provider, or device name." />
+<meta name="twitter:image" content="banner.png" />
 <meta name="theme-color" content="#0B0E11" media="(prefers-color-scheme: dark)" />
 <meta name="theme-color" content="#F7F4EE" media="(prefers-color-scheme: light)" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%230B0E11%22/><text x=%2250%22 y=%2266%22 font-size=%2254%22 font-family=%22monospace%22 fill=%22%23FFB454%22 text-anchor=%22middle%22>L</text></svg>" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="favicon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -37,11 +46,11 @@
     --text:      #E8EAED;
     --text-dim:  #9AA3AF;
     --text-faint:#5B6470;
-    --accent:    #FFB454;
-    --accent-2:  #FF9D3D;
-    --accent-dim:#8A6A3A;
-    --accent-glow: rgba(255,180,84,0.16);
-    --accent-soft: rgba(255,180,84,0.07);
+    --accent:    #6FDC3B;
+    --accent-2:  #60D11F;
+    --accent-dim:#4B6D3B;
+    --accent-glow: rgba(111,220,59,0.16);
+    --accent-soft: rgba(111,220,59,0.07);
     --ok:        #6FCF97;
     --ok-glow:   rgba(111,207,151,0.10);
     --ok-line:   rgba(111,207,151,0.25);
@@ -62,17 +71,17 @@
     --shadow-pop: 0 14px 40px rgba(0,0,0,0.55);
 
     /* ambient background hues */
-    --amb-a: rgba(255,180,84,0.20);
+    --amb-a: rgba(111,220,59,0.20);
     --amb-b: rgba(72,120,168,0.18);
-    --amb-c: rgba(255,157,61,0.14);
+    --amb-c: rgba(96,209,31,0.14);
     --amb-opacity: 0.85;
-    --net-rgb: 255,180,84;
+    --net-rgb: 111,220,59;
     --net-alpha: 0.55;
     --amb-d: rgba(124,196,255,0.12);
-    --amb-e: rgba(255,196,120,0.10);
-    --aurora-1: rgba(255,180,84,0.18);
+    --amb-e: rgba(145,236,81,0.10);
+    --aurora-1: rgba(111,220,59,0.18);
     --aurora-2: rgba(80,150,210,0.16);
-    --aurora-3: rgba(255,140,70,0.12);
+    --aurora-3: rgba(96,209,31,0.12);
     --grid-rgb: 255,255,255;
     --grid-alpha: 0.025;
 
@@ -106,11 +115,11 @@
     --text:      #232323;
     --text-dim:  #5C6068;
     --text-faint:#8A8F98;
-    --accent:    #B26A00;
-    --accent-2:  #C7791A;
-    --accent-dim:#D7A256;
-    --accent-glow: rgba(178,106,0,0.14);
-    --accent-soft: rgba(178,106,0,0.06);
+    --accent:    #2A7515;
+    --accent-2:  #296C13;
+    --accent-dim:#79BF63;
+    --accent-glow: rgba(42,117,21,0.14);
+    --accent-soft: rgba(42,117,21,0.06);
     --ok:        #1F8A4C;
     --ok-glow:   rgba(31,138,76,0.10);
     --ok-line:   rgba(31,138,76,0.28);
@@ -129,18 +138,18 @@
     --shadow-row-hover: 0 10px 30px rgba(80,65,35,0.14);
     --shadow-pop: 0 16px 44px rgba(80,65,35,0.18);
 
-    --amb-a: rgba(178,106,0,0.12);
+    --amb-a: rgba(42,117,21,0.12);
     --amb-b: rgba(90,130,175,0.10);
-    --amb-c: rgba(199,121,26,0.10);
+    --amb-c: rgba(41,108,19,0.10);
     --amb-opacity: 0.7;
-    --net-rgb: 178,106,0;
+    --net-rgb: 42,117,21;
     --net-alpha: 0.30;
     --amb-d: rgba(110,160,210,0.10);
-    --amb-e: rgba(214,150,70,0.10);
-    --aurora-1: rgba(214,150,70,0.14);
+    --amb-e: rgba(94,178,52,0.10);
+    --aurora-1: rgba(94,178,52,0.14);
     --aurora-2: rgba(120,165,205,0.12);
-    --aurora-3: rgba(199,121,26,0.10);
-    --grid-rgb: 120,100,60;
+    --aurora-3: rgba(41,108,19,0.10);
+    --grid-rgb: 95,105,85;
     --grid-alpha: 0.035;
 
     --glass-bg:        rgba(255,255,255,0.55);
@@ -254,18 +263,21 @@
   }
   .brand{ display:flex; align-items:center; gap:13px; }
   .brand-mark{
-    width:42px; height:42px; border-radius:11px;
-    background:var(--glass-bg-strong);
-    -webkit-backdrop-filter:blur(10px) saturate(150%); backdrop-filter:blur(10px) saturate(150%);
-    border:1px solid var(--glass-border);
+    width:42px; height:42px; border-radius:11px; flex:0 0 auto;
+    background:linear-gradient(155deg, #171C22, #090B0D);
+    border:1px solid rgba(255,255,255,0.08);
     display:flex; align-items:center; justify-content:center;
-    font-family:var(--mono); font-weight:700; color:var(--accent); font-size:19px;
-    box-shadow: var(--glass-shadow), 0 0 24px var(--accent-soft);
+    box-shadow: var(--glass-shadow), 0 0 20px var(--accent-soft);
     position:relative; overflow:hidden;
+  }
+  .brand-mark img{
+    width:27px; height:27px; object-fit:contain; display:block;
+    filter:drop-shadow(0 1px 1px rgba(0,0,0,0.35));
   }
   .brand-mark::after{
     content:""; position:absolute; inset:0; border-radius:inherit;
-    box-shadow: inset 0 0 0 1px rgba(255,180,84,0.10);
+    box-shadow: inset 0 0 0 1px rgba(111,220,59,0.16), inset 0 1px 0 rgba(255,255,255,0.06);
+    pointer-events:none;
   }
   .brand-text h1{ font-size:18px; margin:0; font-weight:800; letter-spacing:-0.01em; }
   .brand-text .sub{ font-size:12px; color:var(--text-faint); font-family:var(--mono); margin-top:3px; }
@@ -1105,7 +1117,7 @@
 
   <header class="top">
     <div class="brand">
-      <div class="brand-mark">L</div>
+      <div class="brand-mark"><img src="driverdex-icon.png" alt="DriverDex" width="27" height="27" /></div>
       <div class="brand-text">
         <h1>DriverDex Driver Index</h1>
         <div class="sub">local driver-cache &middot; mirror search</div>
@@ -1401,7 +1413,7 @@
   }
   function netColor(a){
     var cs = getComputedStyle(root);
-    var rgb = (cs.getPropertyValue('--net-rgb')||'255,180,84').trim();
+    var rgb = (cs.getPropertyValue('--net-rgb')||'111,220,59').trim();
     var base = parseFloat(cs.getPropertyValue('--net-alpha'))||0.5;
     return 'rgba('+rgb+','+(a*base).toFixed(3)+')';
   }
