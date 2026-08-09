@@ -7,7 +7,7 @@
  * pipes through `irm <url> | iex`. Everything the script needs is interpolated
  * server-side from the live D1 row — the client never supplies a URL, filename,
  * or hash. Each part is SHA256-verified before extraction, the script credits
- * `rhshourav` in its banner and footer, and the install step follows the
+ * `driverdex` in its banner and footer, and the install step follows the
  * per-package logic from the spec (silent pnputil for INF-only packages, prompt
  * before a vendor setup.exe/msi, else point at Device Manager).
  *
@@ -20,13 +20,13 @@
  */
 
 export const EXTRACTOR_URL =
-  "https://raw.githubusercontent.com/rhshourav/driverdex/refs/heads/main/extractor/extractor.exe";
+  "https://raw.githubusercontent.com/driverdex/driverdex/refs/heads/main/extractor/extractor.exe";
 
-const GITHUB_URL = "https://github.com/rhshourav/driverdex";
-const AUTHOR = "rhshourav";
+const GITHUB_URL = "https://github.com/driverdex/driverdex";
+const AUTHOR = "shouravx";
 
 /** Git LFS batch endpoint for the public repo (download needs no auth). */
-const LFS_BATCH_URL = "https://github.com/rhshourav/driverdex.git/info/lfs/objects/batch";
+const LFS_BATCH_URL = "https://github.com/driverdex/driverdex.git/info/lfs/objects/batch";
 
 /**
  * Reusable PowerShell helper injected into every generated script.
