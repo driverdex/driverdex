@@ -1,0 +1,4097 @@
+{
+  "schema": "3.0",
+  "category": "Ports",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-a5b3ee61dc559ecc",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Advanced Micro Devices, Inc",
+      "category": "Ports",
+      "version": "1.0.0.41",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\AMDI0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\AMDI0021"
+      ],
+      "descriptions": [
+        "Advanced Micro Devices, Inc",
+        "AMD Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/advanced-port-x64-1.0.0.41.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-port-x64-1.0.0.41.7z.0001",
+          "size_bytes": 48527,
+          "sha256": "52932ce5a53c3430374fa8856556c6593812ff2d1b5ea7b195d7fa71c763fafa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/advanced-port-x64-1.0.0.41.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0373f6200ccfc02b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Advanced Micro Devices, Inc",
+      "category": "Ports",
+      "version": "1.0.0.41",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\AMDI0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\AMDI0021"
+      ],
+      "descriptions": [
+        "Advanced Micro Devices, Inc",
+        "AMD Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/advanced-port-x86-1.0.0.41.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-port-x86-1.0.0.41.7z.0001",
+          "size_bytes": 45424,
+          "sha256": "5cef3aa87feef9469188a61a8768ba1feb8ec5258c548f3536a60aaca8a6de30",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/advanced-port-x86-1.0.0.41.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ddb779d1c98035bb",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino Srl (www.arduino.org)",
+      "category": "Ports",
+      "version": "1.1.1.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03EB&PID_2111&MI_01",
+        "USB\\VID_03EB&PID_6124",
+        "USB\\VID_1B4F&PID_9207",
+        "USB\\VID_1B4F&PID_9208&MI_00",
+        "USB\\VID_2A03&PID_0010",
+        "USB\\VID_2A03&PID_002F",
+        "USB\\VID_2A03&PID_0036",
+        "USB\\VID_2A03&PID_0037",
+        "USB\\VID_2A03&PID_0038",
+        "USB\\VID_2A03&PID_0039",
+        "USB\\VID_2A03&PID_003A",
+        "USB\\VID_2A03&PID_003B",
+        "USB\\VID_2A03&PID_003C",
+        "USB\\VID_2A03&PID_003D",
+        "USB\\VID_2A03&PID_003E&MI_00",
+        "USB\\VID_2A03&PID_0040",
+        "USB\\VID_2A03&PID_0041",
+        "USB\\VID_2A03&PID_0042",
+        "USB\\VID_2A03&PID_0043",
+        "USB\\VID_2A03&PID_0044",
+        "USB\\VID_2A03&PID_004D",
+        "USB\\VID_2A03&PID_0050",
+        "USB\\VID_2A03&PID_8036&MI_00",
+        "USB\\VID_2A03&PID_8037&MI_00",
+        "USB\\VID_2A03&PID_8038&MI_00",
+        "USB\\VID_2A03&PID_8039&MI_00",
+        "USB\\VID_2A03&PID_803A&MI_00",
+        "USB\\VID_2A03&PID_803C&MI_00",
+        "USB\\VID_2A03&PID_8040&MI_00",
+        "USB\\VID_2A03&PID_8041&MI_00",
+        "USB\\VID_2A03&PID_804D",
+        "USB\\VID_2A03&PID_8050&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino Srl (www.arduino.org)",
+        "Bossa Program Port",
+        "Arduino Due Programming Port",
+        "Arduino Due",
+        "Arduino Esplora bootloader",
+        "Arduino Esplora",
+        "Arduino Leonardo bootloader",
+        "Arduino Leonardo",
+        "Arduino Leonardo ETH bootloader",
+        "Arduino Leonardo ETH"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinos-port-x64-1.1.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinos-port-x64-1.1.1.0.7z.0001",
+          "size_bytes": 6717,
+          "sha256": "843c1f9f908576481e1abf6e2c29fc766adb774ebd57e65f367224e0901a5875",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinos-port-x64-1.1.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2362506cf5467e21",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_003D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Due Programming Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.0.0.0.7z.0001",
+          "size_bytes": 11467,
+          "sha256": "047bc6a62231606dc9b26d24423bbaa16135027d5e0d4378955a271aa705a279",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-df415a0c8dd79937",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_003E&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Due"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.0.0.0.7z.0001",
+          "size_bytes": 11467,
+          "sha256": "047bc6a62231606dc9b26d24423bbaa16135027d5e0d4378955a271aa705a279",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3a1b82cb4c4f3a8a",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03EB&PID_6124",
+        "USB\\VID_1B4F&PID_9207",
+        "USB\\VID_1B4F&PID_9208&MI_00",
+        "USB\\VID_2341&PID_0001",
+        "USB\\VID_2341&PID_0010",
+        "USB\\VID_2341&PID_0036",
+        "USB\\VID_2341&PID_0037",
+        "USB\\VID_2341&PID_0038",
+        "USB\\VID_2341&PID_0039",
+        "USB\\VID_2341&PID_003B",
+        "USB\\VID_2341&PID_003C",
+        "USB\\VID_2341&PID_003D",
+        "USB\\VID_2341&PID_003E&MI_00",
+        "USB\\VID_2341&PID_003F",
+        "USB\\VID_2341&PID_0042",
+        "USB\\VID_2341&PID_0043",
+        "USB\\VID_2341&PID_0044",
+        "USB\\VID_2341&PID_8036&MI_00",
+        "USB\\VID_2341&PID_8037&MI_00",
+        "USB\\VID_2341&PID_8038&MI_00",
+        "USB\\VID_2341&PID_8039&MI_00",
+        "USB\\VID_2341&PID_803C&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Bossa Program Port",
+        "Arduino Due Programming Port",
+        "Arduino Due",
+        "Arduino Esplora bootloader",
+        "Arduino Esplora",
+        "Arduino Leonardo bootloader",
+        "Arduino Leonardo",
+        "Arduino LilyPad USB bootloader",
+        "Arduino LilyPad USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.0.0.0.7z.0001",
+          "size_bytes": 11467,
+          "sha256": "047bc6a62231606dc9b26d24423bbaa16135027d5e0d4378955a271aa705a279",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4847c099c8b4f5d1",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "ShumaTech",
+      "category": "Ports",
+      "version": "1.0                                        ; Driver version",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03EB&PID_6124"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ShumaTech",
+        "BOSSA Program Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.0.0.0.7z.0001",
+          "size_bytes": 11467,
+          "sha256": "047bc6a62231606dc9b26d24423bbaa16135027d5e0d4378955a271aa705a279",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2df987bd055911d0",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Linino",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2A03&PID_0001",
+        "USB\\VID_2A03&PID_0001&MI_00",
+        "USB\\VID_2A03&PID_8001&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Linino",
+        "Linino ONE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.0.0.0.7z.0001",
+          "size_bytes": 11467,
+          "sha256": "047bc6a62231606dc9b26d24423bbaa16135027d5e0d4378955a271aa705a279",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fd7fc1f5edd3f873",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Adafruit Industries LLC",
+      "category": "Ports",
+      "version": "6.2.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_239A&PID_0011",
+        "USB\\VID_239A&PID_8011&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Adafruit Industries LLC",
+        "Adafruit Circuit Playground"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.2.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.2.3.0.7z.0001",
+          "size_bytes": 191892,
+          "sha256": "699e74348b7479ef475fd82cd2830d19955a2ea59659d955a0fe42368ba5b6b5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.2.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9fbf143b80f6b25",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "1.2.3.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03EB&PID_2157&MI_01",
+        "USB\\VID_03EB&PID_6124",
+        "USB\\VID_1B4F&PID_9207",
+        "USB\\VID_1B4F&PID_9208&MI_00",
+        "USB\\VID_2341&PID_0001",
+        "USB\\VID_2341&PID_0010",
+        "USB\\VID_2341&PID_0036",
+        "USB\\VID_2341&PID_0037",
+        "USB\\VID_2341&PID_0038",
+        "USB\\VID_2341&PID_0039",
+        "USB\\VID_2341&PID_003B",
+        "USB\\VID_2341&PID_003C",
+        "USB\\VID_2341&PID_003D",
+        "USB\\VID_2341&PID_003E&MI_00",
+        "USB\\VID_2341&PID_003F",
+        "USB\\VID_2341&PID_0041",
+        "USB\\VID_2341&PID_0042",
+        "USB\\VID_2341&PID_0043",
+        "USB\\VID_2341&PID_0044",
+        "USB\\VID_2341&PID_004D",
+        "USB\\VID_2341&PID_004E",
+        "USB\\VID_2341&PID_8036&MI_00",
+        "USB\\VID_2341&PID_8037&MI_00",
+        "USB\\VID_2341&PID_8038&MI_00",
+        "USB\\VID_2341&PID_8039&MI_00",
+        "USB\\VID_2341&PID_803C&MI_00",
+        "USB\\VID_2341&PID_8041&MI_00",
+        "USB\\VID_2341&PID_804D&MI_00",
+        "USB\\VID_2341&PID_804E&MI_00",
+        "USB\\VID_2341&PID_E001",
+        "USB\\VID_2341&PID_E002&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Bossa Program Port",
+        "Arduino Due Programming Port",
+        "Arduino Due",
+        "Arduino Esplora bootloader",
+        "Arduino Esplora",
+        "Arduino Leonardo bootloader",
+        "Arduino Leonardo",
+        "Arduino LilyPad USB bootloader",
+        "Arduino LilyPad USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.2.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.2.3.0.7z.0001",
+          "size_bytes": 191892,
+          "sha256": "699e74348b7479ef475fd82cd2830d19955a2ea59659d955a0fe42368ba5b6b5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.2.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-175bed5632e4c3f5",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "libusb-win32",
+      "category": "\"libusb-win32 devices\"",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\%DEVICEID%"
+      ],
+      "compatible_ids": [
+        "USB\\%DEVICEID%"
+      ],
+      "descriptions": [
+        "Arduino LLC",
+        "Arduino Gemma"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.2.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.2.3.0.7z.0001",
+          "size_bytes": 191892,
+          "sha256": "699e74348b7479ef475fd82cd2830d19955a2ea59659d955a0fe42368ba5b6b5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.2.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6fd088e9b58ccd85",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_003C",
+        "USB\\VID_2341&PID_803C&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Esplora"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f5cdef29e0c90216",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0036",
+        "USB\\VID_2341&PID_8036&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Leonardo"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-840fd5e2a267bffe",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0042"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Mega 2560 R3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9e27a9cc3445271",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0010"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Mega 2560"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-26cb927f6dd9c768",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0044"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Mega ADK R3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-781ac25505f349d3",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_003F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Mega ADK"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bc8473d6ede61c67",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0037",
+        "USB\\VID_2341&PID_8037&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino Micro"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c86e18c72a7b40b2",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0043"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino UNO R3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2f5dda8d886e3f96",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "http://www.arduino.cc",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "http://www.arduino.cc",
+        "Communications Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3d4be146eff2c2af",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_003B"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Arduino UNO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-908355a6fc4f60c5",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "SparkFun Electronics",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1B4F&PID_9207",
+        "USB\\VID_1B4F&PID_9208&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "SparkFun Electronics",
+        "SparkFun LilyPadUSB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-5.1.2600.0.7z.0001",
+          "size_bytes": 5681,
+          "sha256": "340f829f650084db80d29f9296b38ebe7a241eea58d62010933792c684282209",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1492a84326a603f9",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Arduino LLC (www.arduino.cc)",
+      "category": "Ports",
+      "version": "1.0.3.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2341&PID_0237",
+        "USB\\VID_2341&PID_0242",
+        "USB\\VID_2341&PID_0243",
+        "USB\\VID_2341&PID_024D",
+        "USB\\VID_2341&PID_024E",
+        "USB\\VID_2341&PID_8237&MI_00",
+        "USB\\VID_2341&PID_824D&MI_00",
+        "USB\\VID_2341&PID_824E&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Arduino LLC (www.arduino.cc)",
+        "Genuino Mega 2560",
+        "Genuino Micro bootloader",
+        "Genuino Micro",
+        "Genuino MKR1000",
+        "Genuino MKR1000 bootloader",
+        "Genuino Uno",
+        "Genuino Zero",
+        "Genuino Zero bootloader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arduinol-port-x64-1.0.3.0.7z.0001",
+          "size_bytes": 6967,
+          "sha256": "dfb4e8aca53ec24d6486d88ce0f01562285d33f2614958406080f96edc0f9f0c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/arduinol-port-x64-1.0.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7ced8c07e393872",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Atmel Corp.",
+      "category": "Ports",
+      "version": "6.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03EB&PID_2111&MI_01",
+        "USB\\VID_03EB&PID_2157&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Atmel Corp.",
+        "EDBG Virtual COM Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/atmelcor-port-x64-6.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atmelcor-port-x64-6.1.0.0.7z.0001",
+          "size_bytes": 5676,
+          "sha256": "bfbb92d453986ccef95f6f789eb04570e0d866232844f90682d56fc9a633fe50",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/atmelcor-port-x64-6.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-63bc837fb58341ac",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Gemalto",
+      "category": "Ports",
+      "version": "6.0.2600.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_08E6&PID_424C",
+        "USB\\VID_08E6&PID_424C%",
+        "USB\\VID_17F9&PID_0001",
+        "USB\\VID_17F9&PID_0001%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Gemalto-GIE SESAM-Vitale",
+        "%USB\\VID_17F9&PID_0001%",
+        "%USB\\VID_08E6&PID_424C%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/gemalto-port-x64-6.0.2600.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "gemalto-port-x64-6.0.2600.1.7z.0001",
+          "size_bytes": 6361,
+          "sha256": "927bab8a2c6bd6a21957774352ca1ca07036c393900402c0cb27be76f3ed2b68",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/gemalto-port-x64-6.0.2600.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f11226e846101c9b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Gemalto",
+      "category": "Ports",
+      "version": "1.2.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_08E6&PID_4010",
+        "USB\\VID_08E6&PID_4010%",
+        "USB\\VID_08E6&PID_4011",
+        "USB\\VID_08E6&PID_4011%",
+        "USB\\VID_08E6&PID_4012",
+        "USB\\VID_08E6&PID_4012%",
+        "USB\\VID_08E6&PID_4013",
+        "USB\\VID_08E6&PID_4013%",
+        "USB\\VID_08E6&PID_4014",
+        "USB\\VID_08E6&PID_4014%",
+        "USB\\VID_08E6&PID_4015",
+        "USB\\VID_08E6&PID_4015%",
+        "USB\\VID_08E6&PID_4016",
+        "USB\\VID_08E6&PID_4016%",
+        "USB\\VID_08E6&PID_4017",
+        "USB\\VID_08E6&PID_4017%",
+        "USB\\VID_08E6&PID_4018",
+        "USB\\VID_08E6&PID_4018%",
+        "USB\\VID_08E6&PID_4019",
+        "USB\\VID_08E6&PID_4019%",
+        "USB\\VID_08E6&PID_401A",
+        "USB\\VID_08E6&PID_401A%",
+        "USB\\VID_08E6&PID_401B",
+        "USB\\VID_08E6&PID_401B%",
+        "USB\\VID_08E6&PID_401C",
+        "USB\\VID_08E6&PID_401C%",
+        "USB\\VID_08E6&PID_401D",
+        "USB\\VID_08E6&PID_401D%",
+        "USB\\VID_08E6&PID_401E",
+        "USB\\VID_08E6&PID_401E%",
+        "USB\\VID_08E6&PID_401F",
+        "USB\\VID_08E6&PID_401F%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Gemalto",
+        "%USB\\VID_08E6&PID_4010%",
+        "%USB\\VID_08E6&PID_4011%",
+        "%USB\\VID_08E6&PID_4012%",
+        "%USB\\VID_08E6&PID_4013%",
+        "%USB\\VID_08E6&PID_4014%",
+        "%USB\\VID_08E6&PID_4015%",
+        "%USB\\VID_08E6&PID_4016%",
+        "%USB\\VID_08E6&PID_4017%",
+        "%USB\\VID_08E6&PID_4018%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/gemalto-port-x64-1.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "gemalto-port-x64-1.2.0.0.7z.0001",
+          "size_bytes": 5436,
+          "sha256": "4148930dd30601b6064c596505491f28b1ebf694741b3909e5ede9b9550a047e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/gemalto-port-x64-1.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7bee7e2ec7277d27",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Hilscher GmbH",
+      "category": "Ports",
+      "version": "6.0.11.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1939&PID_0001",
+        "USB\\VID_1939&PID_0002",
+        "USB\\VID_1939&PID_0003",
+        "USB\\VID_1939&PID_0004",
+        "USB\\VID_1939&PID_0005",
+        "USB\\VID_1939&PID_0006",
+        "USB\\VID_1939&PID_0007",
+        "USB\\VID_1939&PID_0008",
+        "USB\\VID_1939&PID_0009",
+        "USB\\VID_1939&PID_000A",
+        "USB\\VID_1939&PID_000B",
+        "USB\\VID_1939&PID_000C",
+        "USB\\VID_1939&PID_000D",
+        "USB\\VID_1939&PID_000F",
+        "USB\\VID_1939&PID_0010",
+        "USB\\VID_1939&PID_0011",
+        "USB\\VID_1939&PID_0012",
+        "USB\\VID_1939&PID_0013",
+        "USB\\VID_1939&PID_0015",
+        "USB\\VID_1939&PID_0016",
+        "USB\\VID_1939&PID_0017",
+        "USB\\VID_1939&PID_0018",
+        "USB\\VID_1939&PID_0019",
+        "USB\\VID_1939&PID_001A",
+        "USB\\VID_1939&PID_001B",
+        "USB\\VID_1939&PID_001C",
+        "USB\\VID_1939&PID_001D",
+        "USB\\VID_1939&PID_0100",
+        "USB\\VID_1939&PID_0130&MI_00",
+        "USB\\VID_1939&PID_0131&MI_00",
+        "USB\\VID_1939&PID_0132&MI_00",
+        "USB\\VID_1939&PID_0133&MI_00",
+        "USB\\VID_1939&PID_0200&MI_00",
+        "USB\\VID_1939&PID_0FFF"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hilscher GmbH",
+        "Hilscher netTAP",
+        "Hilscher netX boot monitor",
+        "Hilscher netX proxy device",
+        "Hilscher NXHX500-RE",
+        "Hilscher NXHX500-ETM",
+        "Hilscher NXHX50-RE",
+        "Hilscher NXHX50-ETM",
+        "Hilscher NXSTK50-RE",
+        "Hilscher NXSTK50-FB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-port-x64-6.0.11.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hilscher-port-x64-6.0.11.0.7z.0001",
+          "size_bytes": 7545,
+          "sha256": "2ef7e7fc04d9b5d470bcb5c5320df3f21a0a92b1310274845f78ee2ec5625e81",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-port-x64-6.0.11.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-89785217d439e40c",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Hilscher GmbH",
+      "category": "Ports",
+      "version": "2.4.7",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_1939&PID_0002",
+        "USB\\VID_1939&PID_0018&MI_00",
+        "USB\\VID_1939&PID_0019&MI_00",
+        "USB\\VID_1939&PID_0020&MI_00",
+        "USB\\VID_1939&PID_002A&MI_00",
+        "USB\\VID_1939&PID_002B&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hilscher Gesellschaft für Systemautomation mbH",
+        "netX50 Bootmonitor (CDC)",
+        "netX51 Bootmonitor (CDC)",
+        "netX52 Bootmonitor (CDC)",
+        "netX4000 Relaxed Bootmonitor (CDC)",
+        "netX4000 Full Bootmonitor (CDC)",
+        "netX4100 Small Bootmonitor (CDC)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-univ-x86-2.4.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hilscher-univ-x86-2.4.7.7z.0001",
+          "size_bytes": 4754605,
+          "sha256": "a063c3a29139ece423c89d3c296e6b9e6d91afdd9a21399158319aaf672c8327",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-univ-x86-2.4.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2e90b122d9e6b557",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Hilscher GmbH",
+      "category": "\"Universal Serial Bus devices\"",
+      "version": "2.4.7",
+      "arch": "x86",
+      "hwids": [
+        "USB\\%DEVICEID_NETX10ROM%",
+        "USB\\%DEVICEID_NETX10SOFT%",
+        "USB\\%DEVICEID_NETX4000FULLROM%",
+        "USB\\%DEVICEID_NETX4000RLXDROM%",
+        "USB\\%DEVICEID_NETX4100SMALLROM%",
+        "USB\\%DEVICEID_NETX500ROM%",
+        "USB\\%DEVICEID_NETX500SOFT%",
+        "USB\\%DEVICEID_NETX51ROM%",
+        "USB\\%DEVICEID_NETX51SOFT%",
+        "USB\\%DEVICEID_NETX52ROM%",
+        "USB\\%DEVICEID_NETX52SOFT%"
+      ],
+      "compatible_ids": [
+        "USB\\%DEVICEID_NETX10ROM%",
+        "USB\\%DEVICEID_NETX10SOFT%",
+        "USB\\%DEVICEID_NETX4000FULLROM%",
+        "USB\\%DEVICEID_NETX4000RLXDROM%",
+        "USB\\%DEVICEID_NETX4100SMALLROM%",
+        "USB\\%DEVICEID_NETX500ROM%",
+        "USB\\%DEVICEID_NETX500SOFT%",
+        "USB\\%DEVICEID_NETX51ROM%",
+        "USB\\%DEVICEID_NETX51SOFT%",
+        "USB\\%DEVICEID_NETX52ROM%",
+        "USB\\%DEVICEID_NETX52SOFT%"
+      ],
+      "descriptions": [
+        "Hilscher Gesellschaft für Systemautomation mbH",
+        "netX500 USB Bootmonitor (ROM)",
+        "netX500 USB Bootmonitor (V2)",
+        "netX10 USB Bootmonitor (ROM)",
+        "netX10 USB Bootmonitor (V2)",
+        "netX51 USB Bootmonitor (ROM)",
+        "netX51 USB Bootmonitor (V2)",
+        "netX52 USB Bootmonitor (ROM)",
+        "netX52 USB Bootmonitor (V2)",
+        "netX4000 Relaxed USB Bootmonitor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-univ-x86-2.4.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hilscher-univ-x86-2.4.7.7z.0001",
+          "size_bytes": 4754605,
+          "sha256": "a063c3a29139ece423c89d3c296e6b9e6d91afdd9a21399158319aaf672c8327",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-univ-x86-2.4.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-44b703188f705e4b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Hilscher GmbH",
+      "category": "Ports",
+      "version": "6.0.9.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_1939&PID_0101",
+        "USB\\VID_1939&PID_0110",
+        "USB\\VID_1939&PID_0111",
+        "USB\\VID_1939&PID_0112"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hilscher GmbH",
+        "Hilscher netX 10",
+        "Hilscher comX 10",
+        "Hilscher netJACK 10",
+        "Hilscher netRAPID 10"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-port-x86-6.0.9.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hilscher-port-x86-6.0.9.0.7z.0001",
+          "size_bytes": 3110524,
+          "sha256": "2d679df2d9aa37c1e9a0e587d5675553dd3eaa1ab332836a55eb78bca7987506",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/hilscher-port-x86-6.0.9.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c2d6ba1e9eef35ba",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel Corporation",
+      "category": "Ports",
+      "version": "1.2.3.1010",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_0F0A",
+        "PCI\\VEN_8086&DEV_0F0C",
+        "PCI\\VEN_8086&DEV_228A",
+        "PCI\\VEN_8086&DEV_228C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Atom(TM)/Celeron(R)/Pentium(R) Processor UART Host Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intelcor-port-x64-1.2.3.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-port-x64-1.2.3.1010.7z.0001",
+          "size_bytes": 1584161,
+          "sha256": "ed18c2ca297d6ea47514e605a2be0ed7d627711c3880d7c00df594103db0f2ac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intelcor-port-x64-1.2.3.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8b4ab58171d37ce3",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel Corporation",
+      "category": "Ports",
+      "version": "1.2.3.1010",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_0F0A",
+        "PCI\\VEN_8086&DEV_0F0C",
+        "PCI\\VEN_8086&DEV_228A",
+        "PCI\\VEN_8086&DEV_228C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Atom(TM)/Celeron(R)/Pentium(R) Processor UART Host Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intelcor-port-x86-1.2.3.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-port-x86-1.2.3.1010.7z.0001",
+          "size_bytes": 1483698,
+          "sha256": "378ac942e5908d62d5f6489e64da1e22d31a0b88f20020f0e40465803dbe40c2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intelcor-port-x86-1.2.3.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7cf178cb4ad04be2",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "2543.9.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_02E3&CC_0700",
+        "PCI\\VEN_8086&DEV_06E3&CC_0700",
+        "PCI\\VEN_8086&DEV_1BE3&CC_0700",
+        "PCI\\VEN_8086&DEV_34E3&CC_0700",
+        "PCI\\VEN_8086&DEV_3DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_43E3&CC_0700",
+        "PCI\\VEN_8086&DEV_4D73&CC_0700",
+        "PCI\\VEN_8086&DEV_51E3&CC_0700",
+        "PCI\\VEN_8086&DEV_54E3&CC_0700",
+        "PCI\\VEN_8086&DEV_6E6B&CC_0700",
+        "PCI\\VEN_8086&DEV_7773&CC_0700",
+        "PCI\\VEN_8086&DEV_7A6B&CC_0700",
+        "PCI\\VEN_8086&DEV_7AEB&CC_0700",
+        "PCI\\VEN_8086&DEV_7E73&CC_0700",
+        "PCI\\VEN_8086&DEV_7F6B&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_A0E3&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700",
+        "PCI\\VEN_8086&DEV_A1BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A23D&CC_0700",
+        "PCI\\VEN_8086&DEV_A2BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A363&CC_0700",
+        "PCI\\VEN_8086&DEV_A3BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A873&CC_0700",
+        "PCI\\VEN_8086&DEV_D273&CC_0700",
+        "PCI\\VEN_8086&DEV_D373&CC_0700",
+        "PCI\\VEN_8086&DEV_E373&CC_0700",
+        "PCI\\VEN_8086&DEV_E473&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-2543.9.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x64-2543.9.0.0.7z.0001",
+          "size_bytes": 8798,
+          "sha256": "5d266baa4953e3718d2d0a83ad51d8a1ab1e2cf3e9fe61e1bbeec36d820c82c9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-2543.9.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1e67d2032113ff15",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "1744.12.0.1071",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_9CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700",
+        "PCI\\VEN_8086&DEV_A1BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A23D&CC_0700",
+        "PCI\\VEN_8086&DEV_A2BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A363&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-1744.12.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-1744.12.0.7z.0001",
+          "size_bytes": 7703,
+          "sha256": "0ddfc9dd17c225c95078824d87f6b5d69057ad52502eedf21bbb1036ea5afdaa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-1744.12.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f395aed8c159b662",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "1843.12.0.1169",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_9CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700",
+        "PCI\\VEN_8086&DEV_A1BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A23D&CC_0700",
+        "PCI\\VEN_8086&DEV_A2BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A363&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-1843.12.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x64-1843.12.0.7z.0001",
+          "size_bytes": 7806,
+          "sha256": "ba6e18bdc67efe764682d1878303ecec3638073dd1beb1e3b851fd0419878fd3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-1843.12.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a183c2a2d499ce46",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "2316.5.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_02E3&CC_0700",
+        "PCI\\VEN_8086&DEV_06E3&CC_0700",
+        "PCI\\VEN_8086&DEV_1BE3&CC_0700",
+        "PCI\\VEN_8086&DEV_34E3&CC_0700",
+        "PCI\\VEN_8086&DEV_3DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_43E3&CC_0700",
+        "PCI\\VEN_8086&DEV_51E3&CC_0700",
+        "PCI\\VEN_8086&DEV_54E3&CC_0700",
+        "PCI\\VEN_8086&DEV_7A6B&CC_0700",
+        "PCI\\VEN_8086&DEV_7AEB&CC_0700",
+        "PCI\\VEN_8086&DEV_7E73&CC_0700",
+        "PCI\\VEN_8086&DEV_7F6B&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_A0E3&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700",
+        "PCI\\VEN_8086&DEV_A1BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A23D&CC_0700",
+        "PCI\\VEN_8086&DEV_A2BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A363&CC_0700",
+        "PCI\\VEN_8086&DEV_A3BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A873&CC_0700",
+        "PCI\\VEN_8086&DEV_E373&CC_0700",
+        "PCI\\VEN_8086&DEV_E473&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-2316.5.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x64-2316.5.0.0.7z.0001",
+          "size_bytes": 8853,
+          "sha256": "afd2fae4dc5a9701f1cb5491ba19684c976bd542680af0b15b930f29f96920d4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-2316.5.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-37d31138d4e63c4e",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "11.0.0.1136",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_1D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1DBD&CC_0700",
+        "PCI\\VEN_8086&DEV_1E3D&CC_0700",
+        "PCI\\VEN_8086&DEV_8C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_8D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-11.0.0.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-11.0.0.113.7z.0001",
+          "size_bytes": 7210,
+          "sha256": "09db83542888c003d01490185b55be470ac6083f62baa81998e740e78a7ed7ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-11.0.0.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-46dcd599aca0bfef",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "11.6.0.1009",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_8C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_8D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700",
+        "PCI\\VEN_8086&DEV_A1BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A23D&CC_0700",
+        "PCI\\VEN_8086&DEV_A2BD&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-11.6.0.100.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-11.6.0.100.7z.0001",
+          "size_bytes": 10791,
+          "sha256": "de8fa954c2e3ad81c7fa43d5e8a63b1b545174ed8a69200e6500fe61bcbc1a79",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-11.6.0.100.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ba5a9d9e98c706d8",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "2219.3.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_02E3&CC_0700",
+        "PCI\\VEN_8086&DEV_06E3&CC_0700",
+        "PCI\\VEN_8086&DEV_1BE3&CC_0700",
+        "PCI\\VEN_8086&DEV_34E3&CC_0700",
+        "PCI\\VEN_8086&DEV_3DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_43E3&CC_0700",
+        "PCI\\VEN_8086&DEV_51E3&CC_0700",
+        "PCI\\VEN_8086&DEV_54E3&CC_0700",
+        "PCI\\VEN_8086&DEV_7A6B&CC_0700",
+        "PCI\\VEN_8086&DEV_7AEB&CC_0700",
+        "PCI\\VEN_8086&DEV_7E73&CC_0700",
+        "PCI\\VEN_8086&DEV_7F6B&CC_0700",
+        "PCI\\VEN_8086&DEV_9D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9DE3&CC_0700",
+        "PCI\\VEN_8086&DEV_A0E3&CC_0700",
+        "PCI\\VEN_8086&DEV_A13D&CC_0700",
+        "PCI\\VEN_8086&DEV_A1BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A23D&CC_0700",
+        "PCI\\VEN_8086&DEV_A2BD&CC_0700",
+        "PCI\\VEN_8086&DEV_A363&CC_0700",
+        "PCI\\VEN_8086&DEV_A3BD&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-2219.3.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x64-2219.3.0.0.7z.0001",
+          "size_bytes": 8714,
+          "sha256": "ca33a5c509f11a5c06cddf5f857854904f31b29eba0dac9a01d3d00af690677d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-2219.3.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d5da9d7d5880083f",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "7.1.21.1154",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1D3D&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.1.21.115.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-7.1.21.115.7z.0001",
+          "size_bytes": 38219,
+          "sha256": "999d2c697b28db3d8f0f15798979d72971420c63b391e7a75e5c5bc0f9beb232",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.1.21.115.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0bc5495a0914fbec",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "7.1.21.1154",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1D3D&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.1.21.115.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-7.1.21.115.7z.0001",
+          "size_bytes": 38219,
+          "sha256": "999d2c697b28db3d8f0f15798979d72971420c63b391e7a75e5c5bc0f9beb232",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.1.21.115.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ef3eb902cd795461",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "8.1.10.1275",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_1D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1DBD&CC_0700",
+        "PCI\\VEN_8086&DEV_1E3D&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-8.1.10.127.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-8.1.10.127.7z.0001",
+          "size_bytes": 6886,
+          "sha256": "731438e0360567e35f0bdc375356db800f1736a05386ab9d64761ddc4a421198",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-8.1.10.127.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-61de471885d67583",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "9.0.0.1287",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1CBD&CC_0700",
+        "PCI\\VEN_8086&DEV_1D3D&CC_0700",
+        "PCI\\VEN_8086&DEV_1DBD&CC_0700",
+        "PCI\\VEN_8086&DEV_1E3D&CC_0700",
+        "PCI\\VEN_8086&DEV_8C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_9C3D&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-9.0.0.1287.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-9.0.0.1287.7z.0001",
+          "size_bytes": 6882,
+          "sha256": "866d1eede20f82789ad3ac5166f757768f84daef239bc86e2c47acc8af2dc124",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-9.0.0.1287.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ed1b92df6871fd8e",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.4.1.1051",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_28B7&CC_0700",
+        "PCI\\VEN_8086&DEV_28C7&CC_0700",
+        "PCI\\VEN_8086&DEV_28D7&CC_0700",
+        "PCI\\VEN_8086&DEV_28E7&CC_0700",
+        "PCI\\VEN_8086&DEV_28F7&CC_0700",
+        "PCI\\VEN_8086&DEV_29B7&CC_0700",
+        "PCI\\VEN_8086&DEV_29C7&CC_0700",
+        "PCI\\VEN_8086&DEV_29D7&CC_0700",
+        "PCI\\VEN_8086&DEV_29E7&CC_0700",
+        "PCI\\VEN_8086&DEV_29F7&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1051.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.4.1.1051.7z.0001",
+          "size_bytes": 37640,
+          "sha256": "2fdaa730c7643c53ca4ebd05013337e59c72087617746d8aaa2b9d31c6778c2b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1051.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-adbb78d6b6384348",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.4.1.1051",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_28B7&CC_0700",
+        "PCI\\VEN_8086&DEV_28C7&CC_0700",
+        "PCI\\VEN_8086&DEV_28D7&CC_0700",
+        "PCI\\VEN_8086&DEV_28E7&CC_0700",
+        "PCI\\VEN_8086&DEV_28F7&CC_0700",
+        "PCI\\VEN_8086&DEV_29B7&CC_0700",
+        "PCI\\VEN_8086&DEV_29C7&CC_0700",
+        "PCI\\VEN_8086&DEV_29D7&CC_0700",
+        "PCI\\VEN_8086&DEV_29E7&CC_0700",
+        "PCI\\VEN_8086&DEV_29F7&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1051.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.4.1.1051.7z.0001",
+          "size_bytes": 37640,
+          "sha256": "2fdaa730c7643c53ca4ebd05013337e59c72087617746d8aaa2b9d31c6778c2b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1051.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-68aca0d5ed26c7d8",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.3.0.1083",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_2987&CC_0700",
+        "PCI\\VEN_8086&DEV_2997&CC_0700",
+        "PCI\\VEN_8086&DEV_2A07&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.3.0.1083.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.3.0.1083.7z.0001",
+          "size_bytes": 38629,
+          "sha256": "fe46d2dba03af07c580e4a494e7bfd9269836f1b08353507927bf5f00446c6cf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.3.0.1083.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2770d229a6e18137",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.3.0.1083",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_2987&CC_0700",
+        "PCI\\VEN_8086&DEV_2997&CC_0700",
+        "PCI\\VEN_8086&DEV_2A07&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.3.0.1083.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.3.0.1083.7z.0001",
+          "size_bytes": 38629,
+          "sha256": "fe46d2dba03af07c580e4a494e7bfd9269836f1b08353507927bf5f00446c6cf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.3.0.1083.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-40f6734ceb3a8381",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.4.1.1016",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_2A47&CC_0700",
+        "PCI\\VEN_8086&DEV_2A57&CC_0700",
+        "PCI\\VEN_8086&DEV_2A67&CC_0700",
+        "PCI\\VEN_8086&DEV_2A77&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1016.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.4.1.1016.7z.0001",
+          "size_bytes": 37569,
+          "sha256": "09731a1fd89c7b01fe9e3d0e730eacb9b0f6bbfa072e6467ef6d3165ef721301",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1016.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a9985bc9c9184b19",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.4.1.1016",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_2A47&CC_0700",
+        "PCI\\VEN_8086&DEV_2A57&CC_0700",
+        "PCI\\VEN_8086&DEV_2A67&CC_0700",
+        "PCI\\VEN_8086&DEV_2A77&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1016.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.4.1.1016.7z.0001",
+          "size_bytes": 37569,
+          "sha256": "09731a1fd89c7b01fe9e3d0e730eacb9b0f6bbfa072e6467ef6d3165ef721301",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.4.1.1016.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f094c7eeba5bc863",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.5.1.1012",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_2E07&CC_0700",
+        "PCI\\VEN_8086&DEV_2E17&CC_0700",
+        "PCI\\VEN_8086&DEV_2E27&CC_0700",
+        "PCI\\VEN_8086&DEV_2E37&CC_0700",
+        "PCI\\VEN_8086&DEV_2E97&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.5.1.1012.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.5.1.1012.7z.0001",
+          "size_bytes": 38259,
+          "sha256": "6911fa5fac895f26a7d1a7356ae7e483ede78a28f0f7b6188ed624ecf2a5039c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.5.1.1012.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-23d56074e3dec926",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "5.5.1.1012",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_2E07&CC_0700",
+        "PCI\\VEN_8086&DEV_2E17&CC_0700",
+        "PCI\\VEN_8086&DEV_2E27&CC_0700",
+        "PCI\\VEN_8086&DEV_2E37&CC_0700",
+        "PCI\\VEN_8086&DEV_2E97&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.5.1.1012.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-5.5.1.1012.7z.0001",
+          "size_bytes": 38259,
+          "sha256": "6911fa5fac895f26a7d1a7356ae7e483ede78a28f0f7b6188ed624ecf2a5039c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-5.5.1.1012.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-da303451be38e70b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "6.2.50.1060",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3B67&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-6.2.50.106.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-6.2.50.106.7z.0001",
+          "size_bytes": 38159,
+          "sha256": "cdff2b117ceea8639d3ff1fce4f096036ef7f60b11c18669795f465281a64c94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-6.2.50.106.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a3f15ad43ad0375b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "6.2.50.1060",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3B67&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-6.2.50.106.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-6.2.50.106.7z.0001",
+          "size_bytes": 38159,
+          "sha256": "cdff2b117ceea8639d3ff1fce4f096036ef7f60b11c18669795f465281a64c94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-6.2.50.106.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-12c3cee810c41412",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "7.0.0.1109",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_3B67&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.0.0.1109.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-7.0.0.1109.7z.0001",
+          "size_bytes": 37570,
+          "sha256": "afa766277bcd8aa4739b426e4a290b60677f65f11a8acd86057f356424fbe99d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.0.0.1109.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d11db74756412745",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "7.0.0.1109",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1C3D&CC_0700",
+        "PCI\\VEN_8086&DEV_3B67&CC_0700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Active Management Technology - SOL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.0.0.1109.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x86-7.0.0.1109.7z.0001",
+          "size_bytes": 37570,
+          "sha256": "afa766277bcd8aa4739b426e4a290b60677f65f11a8acd86057f356424fbe99d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x86-7.0.0.1109.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-45f89dd31036fd79",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Intel",
+      "category": "Ports",
+      "version": "123.1.3.1006",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INT3511",
+        "ACPI\\INT3512"
+      ],
+      "compatible_ids": [
+        "ACPI\\INT3511",
+        "ACPI\\INT3512"
+      ],
+      "descriptions": [
+        "Intel",
+        "UartSub Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-123.1.3.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-port-x64-123.1.3.10.7z.0001",
+          "size_bytes": 26840,
+          "sha256": "162742fcf82aa02c7e706a5c6ae8a469490912f2204ed499955faac11a27d847",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/intel-port-x64-123.1.3.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1cf7fc63e61bcb46",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "ITE Tech.Inc.",
+      "category": "Ports",
+      "version": "2.8.2.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ITE5782",
+        "ACPI\\ITE8528",
+        "ACPI\\ITE8786"
+      ],
+      "compatible_ids": [
+        "ACPI\\ITE5782",
+        "ACPI\\ITE8528",
+        "ACPI\\ITE8786"
+      ],
+      "descriptions": [
+        "ITE Tech.Inc.",
+        "ITEIO Com Port for HighSpeed",
+        "ITEEC Com Port for HighSpeed",
+        "ITEEC2 Com Port for HighSpeed"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/itetechi-port-x64-2.8.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "itetechi-port-x64-2.8.2.0.7z.0001",
+          "size_bytes": 138488,
+          "sha256": "b3c071fdb68c68285343506c4b14bc5aa9f2c95b7d82e375211f7c618d3185ba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/itetechi-port-x64-2.8.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dbeed7410a248634",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Integrated Technology Express, INC.",
+      "category": "MultiportSerial",
+      "version": "3.50.0000",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1283&DEV_8872"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ITE 887x PCI Multi-I/O Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/integrat-mult-x64-3.50.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "integrat-mult-x64-3.50.0000.7z.0001",
+          "size_bytes": 34215,
+          "sha256": "7adc9bd301cefb1f56eecde0c7c1a51cd2677addf93dd956b6e1b299008dde05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/integrat-mult-x64-3.50.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7c7787536aecdb6d",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Integrated Technology Express, INC.",
+      "category": "Ports",
+      "version": "3.50.0000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ITE887x PCI Serial Port 1",
+        "ITE887x PCI Serial Port 2",
+        "ITE887x PCI Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/integrat-mult-x64-3.50.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "integrat-mult-x64-3.50.0000.7z.0001",
+          "size_bytes": 34215,
+          "sha256": "7adc9bd301cefb1f56eecde0c7c1a51cd2677addf93dd956b6e1b299008dde05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/integrat-mult-x64-3.50.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a9142fdaf9a84a87",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Moxa Inc.",
+      "category": "MultiPortSerial",
+      "version": "1.22",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1393&DEV_1020",
+        "PCI\\VEN_1393&DEV_1020&SUBSYS_10201393",
+        "PCI\\VEN_1393&DEV_1020&SUBSYS_10201393&REV_02",
+        "PCI\\VEN_1393&DEV_1021",
+        "PCI\\VEN_1393&DEV_1021&SUBSYS_10211393",
+        "PCI\\VEN_1393&DEV_1021&SUBSYS_10211393&REV_00",
+        "PCI\\VEN_1393&DEV_1022",
+        "PCI\\VEN_1393&DEV_1022&SUBSYS_10221393",
+        "PCI\\VEN_1393&DEV_1022&SUBSYS_10221393&REV_00",
+        "PCI\\VEN_1393&DEV_1023",
+        "PCI\\VEN_1393&DEV_1023&SUBSYS_10231393",
+        "PCI\\VEN_1393&DEV_1023&SUBSYS_10231393&REV_00",
+        "PCI\\VEN_1393&DEV_1024",
+        "PCI\\VEN_1393&DEV_1024&SUBSYS_10241393",
+        "PCI\\VEN_1393&DEV_1024&SUBSYS_10241393&REV_00",
+        "PCI\\VEN_1393&DEV_1025",
+        "PCI\\VEN_1393&DEV_1025&SUBSYS_10251393",
+        "PCI\\VEN_1393&DEV_1025&SUBSYS_10251393&REV_00",
+        "PCI\\VEN_1393&DEV_1040",
+        "PCI\\VEN_1393&DEV_1040&SUBSYS_00000000&REV_02",
+        "PCI\\VEN_1393&DEV_1041",
+        "PCI\\VEN_1393&DEV_1041&SUBSYS_10411393",
+        "PCI\\VEN_1393&DEV_1041&SUBSYS_10411393&REV_00",
+        "PCI\\VEN_1393&DEV_1041&SUBSYS_10411393&REV_02",
+        "PCI\\VEN_1393&DEV_1042",
+        "PCI\\VEN_1393&DEV_1042&SUBSYS_10421393",
+        "PCI\\VEN_1393&DEV_1042&SUBSYS_10421393&REV_00",
+        "PCI\\VEN_1393&DEV_1042&SUBSYS_10421393&REV_02",
+        "PCI\\VEN_1393&DEV_1043",
+        "PCI\\VEN_1393&DEV_1043&SUBSYS_10431393",
+        "PCI\\VEN_1393&DEV_1043&SUBSYS_10431393&REV_00",
+        "PCI\\VEN_1393&DEV_1044",
+        "PCI\\VEN_1393&DEV_1044&SUBSYS_10441393",
+        "PCI\\VEN_1393&DEV_1044&SUBSYS_10441393&REV_00",
+        "PCI\\VEN_1393&DEV_1045",
+        "PCI\\VEN_1393&DEV_1045&SUBSYS_10451393",
+        "PCI\\VEN_1393&DEV_1045&SUBSYS_10451393&REV_00",
+        "PCI\\VEN_1393&DEV_1080",
+        "PCI\\VEN_1393&DEV_1080&SUBSYS_10801393",
+        "PCI\\VEN_1393&DEV_1080&SUBSYS_10801393&REV_02",
+        "PCI\\VEN_1393&DEV_1120",
+        "PCI\\VEN_1393&DEV_1120&SUBSYS_11201393",
+        "PCI\\VEN_1393&DEV_1120&SUBSYS_11201393&REV_00",
+        "PCI\\VEN_1393&DEV_1140",
+        "PCI\\VEN_1393&DEV_1140&SUBSYS_00000000&REV_02",
+        "PCI\\VEN_1393&DEV_1141",
+        "PCI\\VEN_1393&DEV_1141&SUBSYS_00000000&REV_02",
+        "PCI\\VEN_1393&DEV_1142",
+        "PCI\\VEN_1393&DEV_1142&SUBSYS_11421393",
+        "PCI\\VEN_1393&DEV_1142&SUBSYS_11421393&REV_02",
+        "PCI\\VEN_1393&DEV_1143",
+        "PCI\\VEN_1393&DEV_1143&SUBSYS_11431393",
+        "PCI\\VEN_1393&DEV_1143&SUBSYS_11431393&REV_00",
+        "PCI\\VEN_1393&DEV_1144",
+        "PCI\\VEN_1393&DEV_1144&SUBSYS_11441393",
+        "PCI\\VEN_1393&DEV_1144&SUBSYS_11441393&REV_00",
+        "PCI\\VEN_1393&DEV_1160",
+        "PCI\\VEN_1393&DEV_1160&SUBSYS_11601393",
+        "PCI\\VEN_1393&DEV_1160&SUBSYS_11601393&REV_00",
+        "PCI\\VEN_1393&DEV_1161",
+        "PCI\\VEN_1393&DEV_1161&SUBSYS_11611393",
+        "PCI\\VEN_1393&DEV_1161&SUBSYS_11611393&REV_00",
+        "PCI\\VEN_1393&DEV_1180",
+        "PCI\\VEN_1393&DEV_1180&SUBSYS_11801393",
+        "PCI\\VEN_1393&DEV_1180&SUBSYS_11801393&REV_00",
+        "PCI\\VEN_1393&DEV_1181",
+        "PCI\\VEN_1393&DEV_1181&SUBSYS_11811393",
+        "PCI\\VEN_1393&DEV_1181&SUBSYS_11811393&REV_00",
+        "PCI\\VEN_1393&DEV_1182",
+        "PCI\\VEN_1393&DEV_1182&SUBSYS_11821393",
+        "PCI\\VEN_1393&DEV_1182&SUBSYS_11821393&REV_00",
+        "PCI\\VEN_1393&DEV_1183",
+        "PCI\\VEN_1393&DEV_1183&SUBSYS_11831393",
+        "PCI\\VEN_1393&DEV_1183&SUBSYS_11831393&REV_00",
+        "PCI\\VEN_1393&DEV_1320",
+        "PCI\\VEN_1393&DEV_1320&SUBSYS_00000000&REV_02",
+        "PCI\\VEN_1393&DEV_1321",
+        "PCI\\VEN_1393&DEV_1321&SUBSYS_13211393",
+        "PCI\\VEN_1393&DEV_1321&SUBSYS_13211393&REV_00",
+        "PCI\\VEN_1393&DEV_1321&SUBSYS_13211393&REV_02",
+        "PCI\\VEN_1393&DEV_1322",
+        "PCI\\VEN_1393&DEV_1322&SUBSYS_13221393",
+        "PCI\\VEN_1393&DEV_1322&SUBSYS_13221393&REV_00",
+        "PCI\\VEN_1393&DEV_1340",
+        "PCI\\VEN_1393&DEV_1340&SUBSYS_13401393",
+        "PCI\\VEN_1393&DEV_1340&SUBSYS_13401393&REV_00",
+        "PCI\\VEN_1393&DEV_1340&SUBSYS_13401393&REV_02",
+        "PCI\\VEN_1393&DEV_1341",
+        "PCI\\VEN_1393&DEV_1341&SUBSYS_13411393",
+        "PCI\\VEN_1393&DEV_1341&SUBSYS_13411393&REV_02",
+        "PCI\\VEN_1393&DEV_1342",
+        "PCI\\VEN_1393&DEV_1342&SUBSYS_13421393",
+        "PCI\\VEN_1393&DEV_1342&SUBSYS_13421393&REV_00",
+        "PCI\\VEN_1393&DEV_1380",
+        "PCI\\VEN_1393&DEV_1380&SUBSYS_13801393",
+        "PCI\\VEN_1393&DEV_1380&SUBSYS_13801393&REV_00",
+        "PCI\\VEN_1393&DEV_1381",
+        "PCI\\VEN_1393&DEV_1381&SUBSYS_13811393",
+        "PCI\\VEN_1393&DEV_1381&SUBSYS_13811393&REV_00",
+        "PCI\\VEN_1393&DEV_1680",
+        "PCI\\VEN_1393&DEV_1680&SUBSYS_00000000&REV_02",
+        "PCI\\VEN_1393&DEV_1681",
+        "PCI\\VEN_1393&DEV_1681&SUBSYS_16811393",
+        "PCI\\VEN_1393&DEV_1681&SUBSYS_16811393&REV_00",
+        "PCI\\VEN_1393&DEV_1681&SUBSYS_16811393&REV_02",
+        "PCI\\VEN_1393&DEV_1682",
+        "PCI\\VEN_1393&DEV_1682&SUBSYS_16821393",
+        "PCI\\VEN_1393&DEV_1682&SUBSYS_16821393&REV_00",
+        "PCI\\VEN_1393&DEV_1683",
+        "PCI\\VEN_1393&DEV_1683&SUBSYS_16831393",
+        "PCI\\VEN_1393&DEV_1683&SUBSYS_16831393&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Moxa Inc.",
+        "MOXA C168 Series (ISA Bus)",
+        "MOXA C104 Series (ISA Bus)",
+        "MOXA C102 Series (ISA Bus)",
+        "MOXA CI-134 Series (ISA Bus)",
+        "MOXA CI-132 Series (ISA Bus)",
+        "MOXA C114HI Series (ISA Bus)",
+        "MOXA CI-104J Series (ISA Bus)",
+        "MOXA CP-102 Series (PCI Bus)",
+        "MOXA CP-102UL Series (PCI Bus)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/moxainc-mult-x64-1.22.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "moxainc-mult-x64-1.22.7z.0001",
+          "size_bytes": 126303,
+          "sha256": "2091e61311c6cb571c42dd128776c056888b2621c8749a32ca688412eb92082a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/moxainc-mult-x64-1.22.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0426d272d099a59f",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Moxa Inc.",
+      "category": "Ports",
+      "version": "1.22",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Moxa Inc.",
+        "MOXA Port 0",
+        "MOXA Port 1",
+        "MOXA Port 2",
+        "MOXA Port 3",
+        "MOXA Port 4",
+        "MOXA Port 5",
+        "MOXA Port 6",
+        "MOXA Port 7",
+        "MOXA Port 8"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/moxainc-mult-x64-1.22.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "moxainc-mult-x64-1.22.7z.0001",
+          "size_bytes": 126303,
+          "sha256": "2091e61311c6cb571c42dd128776c056888b2621c8749a32ca688412eb92082a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/moxainc-mult-x64-1.22.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-78198b01d2e1aca3",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "Ports",
+      "version": "6.5.1.5",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_8403",
+        "PCI\\VEN_1415&DEV_9513",
+        "PCI\\VEN_1415&DEV_9523"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Enhanced ports)",
+        "%VEN_1415&DEV_9513.DeviceDesc_2K%",
+        "%VEN_1415&DEV_8403.DeviceDesc_2K%",
+        "%VEN_1415&DEV_9523.DeviceDesc_2K%",
+        "%VEN_1415&DEV_9513.DeviceDesc_XP%",
+        "%VEN_1415&DEV_8403.DeviceDesc_XP%",
+        "%VEN_1415&DEV_9523.DeviceDesc_XP%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-6.5.1.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-6.5.1.5.7z.0001",
+          "size_bytes": 270906,
+          "sha256": "e7debc5e6aa1378ae4e172b41c1a3aad530d86734f74157209b0386b459ee39d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-6.5.1.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3a1e8e193707eb5c",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "MultiFunction",
+      "version": "6.5.1.5",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_135A&DEV_0881.DEVICEDESC",
+        "PCI\\VEN_135A&DEV_0881.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_8401",
+        "PCI\\VEN_1415&DEV_8401.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_8401.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9500",
+        "PCI\\VEN_1415&DEV_9500.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9500.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9501",
+        "PCI\\VEN_1415&DEV_9501.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9501.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9504",
+        "PCI\\VEN_1415&DEV_9504.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9504.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9505",
+        "PCI\\VEN_1415&DEV_9505.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9505.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_950A",
+        "PCI\\VEN_1415&DEV_950A.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_950A.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_950B",
+        "PCI\\VEN_1415&DEV_950B.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_950B.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9510",
+        "PCI\\VEN_1415&DEV_9510.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9510.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9511",
+        "PCI\\VEN_1415&DEV_9511.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9511.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9512",
+        "PCI\\VEN_1415&DEV_9512.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9512.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9521",
+        "PCI\\VEN_1415&DEV_9521.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9521.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9538",
+        "PCI\\VEN_1415&DEV_9538.DEVICEDESC"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Enhanced ports)",
+        "%PCI\\VEN_1415&DEV_9504.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9505.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9501.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9511.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_950A.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_950B.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_8401.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9521.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9512.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-6.5.1.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-6.5.1.5.7z.0001",
+          "size_bytes": 270906,
+          "sha256": "e7debc5e6aa1378ae4e172b41c1a3aad530d86734f74157209b0386b459ee39d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-6.5.1.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-710db4745172f8ec",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "Ports",
+      "version": "6.5.1.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Enhanced ports)",
+        "PCI Communications Port",
+        "High Speed Communications Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-6.5.1.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-6.5.1.5.7z.0001",
+          "size_bytes": 270906,
+          "sha256": "e7debc5e6aa1378ae4e172b41c1a3aad530d86734f74157209b0386b459ee39d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-6.5.1.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eaef8d2168ed3b2c",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "Ports",
+      "version": "5.1.2",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_8403",
+        "PCI\\VEN_1415&DEV_9513",
+        "PCI\\VEN_1415&DEV_9523"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Enhanced ports)",
+        "%VEN_1415&DEV_9513.DeviceDesc_2K%",
+        "%VEN_1415&DEV_8403.DeviceDesc_2K%",
+        "%VEN_1415&DEV_9523.DeviceDesc_2K%",
+        "%VEN_1415&DEV_9513.DeviceDesc_98%",
+        "%VEN_1415&DEV_8403.DeviceDesc_98%",
+        "%VEN_1415&DEV_9523.DeviceDesc_98%",
+        "%VEN_1415&DEV_9513.DeviceDesc_XP%",
+        "%VEN_1415&DEV_8403.DeviceDesc_XP%",
+        "%VEN_1415&DEV_9523.DeviceDesc_XP%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-5.1.2.7z.0001",
+          "size_bytes": 148802,
+          "sha256": "7ed049de724e8b7ef76bb373359e169a33ba62c0956208543f3e86dac0183405",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-517000431467218c",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "Ports",
+      "version": "5.1.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "PCI Parallel Port",
+        "PCI EPP/ECP Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-5.1.2.7z.0001",
+          "size_bytes": 148802,
+          "sha256": "7ed049de724e8b7ef76bb373359e169a33ba62c0956208543f3e86dac0183405",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-08a6b20d1726747b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "MultiFunction",
+      "version": "5.1.2",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_8401",
+        "PCI\\VEN_1415&DEV_8401.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_8401.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9500",
+        "PCI\\VEN_1415&DEV_9500.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9500.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9501",
+        "PCI\\VEN_1415&DEV_9501.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9501.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9504",
+        "PCI\\VEN_1415&DEV_9504.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9504.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9505",
+        "PCI\\VEN_1415&DEV_9505.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9505.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_950A",
+        "PCI\\VEN_1415&DEV_950A.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_950A.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_950B",
+        "PCI\\VEN_1415&DEV_950B.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_950B.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9510",
+        "PCI\\VEN_1415&DEV_9510.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9510.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9511",
+        "PCI\\VEN_1415&DEV_9511.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9511.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9512",
+        "PCI\\VEN_1415&DEV_9512.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9512.DEVICEDESC%",
+        "PCI\\VEN_1415&DEV_9521",
+        "PCI\\VEN_1415&DEV_9521.DEVICEDESC",
+        "PCI\\VEN_1415&DEV_9521.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%PCI\\VEN_1415&DEV_9504.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9505.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9501.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9511.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_950A.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_950B.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_8401.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9521.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9512.DeviceDesc%",
+        "%PCI\\VEN_1415&DEV_9500.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-5.1.2.7z.0001",
+          "size_bytes": 148802,
+          "sha256": "7ed049de724e8b7ef76bb373359e169a33ba62c0956208543f3e86dac0183405",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9aae85ebbb10b072",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "(Enhanced ports)",
+      "category": "Ports",
+      "version": "6.3.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Enhanced ports)",
+        "PCcard OX16CF950"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "enhanced-mult-x64-5.1.2.7z.0001",
+          "size_bytes": 148802,
+          "sha256": "7ed049de724e8b7ef76bb373359e169a33ba62c0956208543f3e86dac0183405",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/enhanced-mult-x64-5.1.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c4d4ee83308400f4",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "MultiportSerial",
+      "version": "1.00.0000.12",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_C11B",
+        "PCI\\VEN_1415&DEV_C11F",
+        "PCI\\VEN_1415&DEV_C138",
+        "PCI\\VEN_1415&DEV_C13D",
+        "PCI\\VEN_1415&DEV_C158",
+        "PCI\\VEN_1415&DEV_C15D",
+        "PCI\\VEN_1415&DEV_C208",
+        "PCI\\VEN_1415&DEV_C20D",
+        "PCI\\VEN_1415&DEV_C308",
+        "PCI\\VEN_1415&DEV_C30D",
+        "PCI\\VEN_1415&DEV_C40B",
+        "PCI\\VEN_1415&DEV_C40F",
+        "PCI\\VEN_1415&DEV_C41B",
+        "PCI\\VEN_1415&DEV_C41F",
+        "PCI\\VEN_1415&DEV_C42B",
+        "PCI\\VEN_1415&DEV_C42F",
+        "PCI\\VEN_1415&DEV_C43B",
+        "PCI\\VEN_1415&DEV_C43F",
+        "PCI\\VEN_1415&DEV_C44B",
+        "PCI\\VEN_1415&DEV_C44F",
+        "PCI\\VEN_1415&DEV_C45B",
+        "PCI\\VEN_1415&DEV_C45F",
+        "PCI\\VEN_1415&DEV_C46B",
+        "PCI\\VEN_1415&DEV_C46F",
+        "PCI\\VEN_1415&DEV_C47B",
+        "PCI\\VEN_1415&DEV_C47F",
+        "PCI\\VEN_1415&DEV_C48B",
+        "PCI\\VEN_1415&DEV_C48F",
+        "PCI\\VEN_1415&DEV_C49B",
+        "PCI\\VEN_1415&DEV_C49F",
+        "PCI\\VEN_1415&DEV_C4AB",
+        "PCI\\VEN_1415&DEV_C4AF",
+        "PCI\\VEN_1415&DEV_C4BB",
+        "PCI\\VEN_1415&DEV_C4BF",
+        "PCI\\VEN_1415&DEV_C4CB",
+        "PCI\\VEN_1415&DEV_C4CF"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express Multiport Serial Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-1.00.0000.7z.0001",
+          "size_bytes": 2006162,
+          "sha256": "3a4eb256d7b5cfb02fcd1cb80c980d5fed87697ab30b8d79ec0bc65ef0285323",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0d151ce312a14546",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "1.00.0000.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express UART Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-1.00.0000.7z.0001",
+          "size_bytes": 2006162,
+          "sha256": "3a4eb256d7b5cfb02fcd1cb80c980d5fed87697ab30b8d79ec0bc65ef0285323",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6e58f09f89aeda61",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "MultiportSerial",
+      "version": "1.03.0000.02",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_C11B",
+        "PCI\\VEN_1415&DEV_C11F",
+        "PCI\\VEN_1415&DEV_C138",
+        "PCI\\VEN_1415&DEV_C13D",
+        "PCI\\VEN_1415&DEV_C158",
+        "PCI\\VEN_1415&DEV_C15D",
+        "PCI\\VEN_1415&DEV_C208",
+        "PCI\\VEN_1415&DEV_C20D",
+        "PCI\\VEN_1415&DEV_C308",
+        "PCI\\VEN_1415&DEV_C30D",
+        "PCI\\VEN_1415&DEV_C43B",
+        "PCI\\VEN_1415&DEV_C43F",
+        "PCI\\VEN_1415&DEV_C44B",
+        "PCI\\VEN_1415&DEV_C44F",
+        "PCI\\VEN_1415&DEV_C46B",
+        "PCI\\VEN_1415&DEV_C46F",
+        "PCI\\VEN_1415&DEV_C47B",
+        "PCI\\VEN_1415&DEV_C47F",
+        "PCI\\VEN_1415&DEV_C4AB",
+        "PCI\\VEN_1415&DEV_C4AF",
+        "PCI\\VEN_1415&DEV_C4BB",
+        "PCI\\VEN_1415&DEV_C4BF",
+        "PCI\\VEN_1415&DEV_C4CB",
+        "PCI\\VEN_1415&DEV_C4CF"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express Multiport Serial Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.03.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-1.03.0000.7z.0001",
+          "size_bytes": 3471743,
+          "sha256": "862a4fb94946dd7b9ee49b2b1a3875832b92ea773e6c1ea73cbc8866c1831cb5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.03.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b18ff9751355c911",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "1.03.0000.02",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express UART Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.03.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-1.03.0000.7z.0001",
+          "size_bytes": 3471743,
+          "sha256": "862a4fb94946dd7b9ee49b2b1a3875832b92ea773e6c1ea73cbc8866c1831cb5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-1.03.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7f9b904a26f557f4",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "MultiportSerial",
+      "version": "7.00.0000.15",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_9500",
+        "PCI\\VEN_1415&DEV_9501",
+        "PCI\\VEN_1415&DEV_9504",
+        "PCI\\VEN_1415&DEV_9505",
+        "PCI\\VEN_1415&DEV_950B",
+        "PCI\\VEN_1415&DEV_9510",
+        "PCI\\VEN_1415&DEV_9511",
+        "PCI\\VEN_1415&DEV_9512",
+        "PCI\\VEN_1415&DEV_9521",
+        "PCI\\VEN_1415&DEV_9538"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "Serial Bus Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-7.00.0000.7z.0001",
+          "size_bytes": 1636147,
+          "sha256": "502ce7d1871b70766e275ecdb4aae5c7e7c116b991249d5c6d2af87cb6ba153e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fbe9562681f1a23f",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "7.00.0000.08",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_8403",
+        "PCI\\VEN_1415&DEV_9513",
+        "PCI\\VEN_1415&DEV_9523"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-7.00.0000.7z.0001",
+          "size_bytes": 1636147,
+          "sha256": "502ce7d1871b70766e275ecdb4aae5c7e7c116b991249d5c6d2af87cb6ba153e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6a3139eadbab8157",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "7.00.0000.15",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "Enhanced Communication Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x64-7.00.0000.7z.0001",
+          "size_bytes": 1636147,
+          "sha256": "502ce7d1871b70766e275ecdb4aae5c7e7c116b991249d5c6d2af87cb6ba153e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x64-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0bdce746e379360a",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "MultiportSerial",
+      "version": "1.00.0000.12",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_C11B",
+        "PCI\\VEN_1415&DEV_C11F",
+        "PCI\\VEN_1415&DEV_C138",
+        "PCI\\VEN_1415&DEV_C13D",
+        "PCI\\VEN_1415&DEV_C158",
+        "PCI\\VEN_1415&DEV_C15D",
+        "PCI\\VEN_1415&DEV_C208",
+        "PCI\\VEN_1415&DEV_C20D",
+        "PCI\\VEN_1415&DEV_C308",
+        "PCI\\VEN_1415&DEV_C30D",
+        "PCI\\VEN_1415&DEV_C40B",
+        "PCI\\VEN_1415&DEV_C40F",
+        "PCI\\VEN_1415&DEV_C41B",
+        "PCI\\VEN_1415&DEV_C41F",
+        "PCI\\VEN_1415&DEV_C42B",
+        "PCI\\VEN_1415&DEV_C42F",
+        "PCI\\VEN_1415&DEV_C43B",
+        "PCI\\VEN_1415&DEV_C43F",
+        "PCI\\VEN_1415&DEV_C44B",
+        "PCI\\VEN_1415&DEV_C44F",
+        "PCI\\VEN_1415&DEV_C45B",
+        "PCI\\VEN_1415&DEV_C45F",
+        "PCI\\VEN_1415&DEV_C46B",
+        "PCI\\VEN_1415&DEV_C46F",
+        "PCI\\VEN_1415&DEV_C47B",
+        "PCI\\VEN_1415&DEV_C47F",
+        "PCI\\VEN_1415&DEV_C48B",
+        "PCI\\VEN_1415&DEV_C48F",
+        "PCI\\VEN_1415&DEV_C49B",
+        "PCI\\VEN_1415&DEV_C49F",
+        "PCI\\VEN_1415&DEV_C4AB",
+        "PCI\\VEN_1415&DEV_C4AF",
+        "PCI\\VEN_1415&DEV_C4BB",
+        "PCI\\VEN_1415&DEV_C4BF",
+        "PCI\\VEN_1415&DEV_C4CB",
+        "PCI\\VEN_1415&DEV_C4CF"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express Multiport Serial Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-1.00.0000.7z.0001",
+          "size_bytes": 1498778,
+          "sha256": "cb2b1b57a33d82f8bc35604378709c866a3aa2694a622f13a8048b2eb385e8d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-faf22e7163676274",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "1.00.0000.12",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express UART Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-1.00.0000.7z.0001",
+          "size_bytes": 1498778,
+          "sha256": "cb2b1b57a33d82f8bc35604378709c866a3aa2694a622f13a8048b2eb385e8d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3cb216a95565de1d",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "MultiportSerial",
+      "version": "1.03.0000.02",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_C11B",
+        "PCI\\VEN_1415&DEV_C11F",
+        "PCI\\VEN_1415&DEV_C138",
+        "PCI\\VEN_1415&DEV_C13D",
+        "PCI\\VEN_1415&DEV_C158",
+        "PCI\\VEN_1415&DEV_C15D",
+        "PCI\\VEN_1415&DEV_C208",
+        "PCI\\VEN_1415&DEV_C20D",
+        "PCI\\VEN_1415&DEV_C308",
+        "PCI\\VEN_1415&DEV_C30D",
+        "PCI\\VEN_1415&DEV_C43B",
+        "PCI\\VEN_1415&DEV_C43F",
+        "PCI\\VEN_1415&DEV_C44B",
+        "PCI\\VEN_1415&DEV_C44F",
+        "PCI\\VEN_1415&DEV_C46B",
+        "PCI\\VEN_1415&DEV_C46F",
+        "PCI\\VEN_1415&DEV_C47B",
+        "PCI\\VEN_1415&DEV_C47F",
+        "PCI\\VEN_1415&DEV_C4AB",
+        "PCI\\VEN_1415&DEV_C4AF",
+        "PCI\\VEN_1415&DEV_C4BB",
+        "PCI\\VEN_1415&DEV_C4BF",
+        "PCI\\VEN_1415&DEV_C4CB",
+        "PCI\\VEN_1415&DEV_C4CF"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express Multiport Serial Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.03.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-1.03.0000.7z.0001",
+          "size_bytes": 2582518,
+          "sha256": "e8acb70e0836514b8468d1330528f2f4194c302e66fea79b085ad46973dbd7ca",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.03.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-efd82f76d9d650d2",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "1.03.0000.02",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Express UART Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.03.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-1.03.0000.7z.0001",
+          "size_bytes": 2582518,
+          "sha256": "e8acb70e0836514b8468d1330528f2f4194c302e66fea79b085ad46973dbd7ca",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-1.03.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-20eb01840ffbc8b5",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "MultiportSerial",
+      "version": "7.00.0000.15",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_9500",
+        "PCI\\VEN_1415&DEV_9501",
+        "PCI\\VEN_1415&DEV_9504",
+        "PCI\\VEN_1415&DEV_9505",
+        "PCI\\VEN_1415&DEV_950B",
+        "PCI\\VEN_1415&DEV_9510",
+        "PCI\\VEN_1415&DEV_9511",
+        "PCI\\VEN_1415&DEV_9512",
+        "PCI\\VEN_1415&DEV_9521",
+        "PCI\\VEN_1415&DEV_9538"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "Serial Bus Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-7.00.0000.7z.0001",
+          "size_bytes": 1244165,
+          "sha256": "992a620d57b074eac8a6e47ec510dbeb92cb0aaaf6817181623123c244b79c4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a5bfb0e7dd5a888c",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "7.00.0000.08",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1415&DEV_8403",
+        "PCI\\VEN_1415&DEV_9513",
+        "PCI\\VEN_1415&DEV_9523"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "PCI Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-7.00.0000.7z.0001",
+          "size_bytes": 1244165,
+          "sha256": "992a620d57b074eac8a6e47ec510dbeb92cb0aaaf6817181623123c244b79c4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f8016ba68cdfd242",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "System",
+      "version": "7.00.0000.08",
+      "arch": "x86",
+      "hwids": [
+        "LPTENUM\\MICROSOFTRAWPORT958A"
+      ],
+      "compatible_ids": [
+        "LPTENUM\\MICROSOFTRAWPORT958A"
+      ],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "Printer Port Logical Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-7.00.0000.7z.0001",
+          "size_bytes": 1244165,
+          "sha256": "992a620d57b074eac8a6e47ec510dbeb92cb0aaaf6817181623123c244b79c4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1ddf259138112f4b",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Oxford Semiconductor Inc",
+      "category": "Ports",
+      "version": "7.00.0000.15",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oxford Semiconductor Inc",
+        "Enhanced Communication Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oxfordse-mult-x86-7.00.0000.7z.0001",
+          "size_bytes": 1244165,
+          "sha256": "992a620d57b074eac8a6e47ec510dbeb92cb0aaaf6817181623123c244b79c4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/oxfordse-mult-x86-7.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-79b8bfb9f3500784",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Pericom",
+      "category": "MultiPortSerial",
+      "version": "1.02.1024.2016",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_12D8&DEV_7951",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795112D8",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795112D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7952",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795212D8",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795212D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7954",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795412D8",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795412D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7958",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795812D8",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795812D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8951",
+        "PCI\\VEN_12D8&DEV_8951&SUBSYS_895012D8",
+        "PCI\\VEN_12D8&DEV_8951&SUBSYS_895012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8951&SUBSYS_895112D8",
+        "PCI\\VEN_12D8&DEV_8951&SUBSYS_895112D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8952",
+        "PCI\\VEN_12D8&DEV_8952&SUBSYS_895012D8",
+        "PCI\\VEN_12D8&DEV_8952&SUBSYS_895012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8952&SUBSYS_895212D8",
+        "PCI\\VEN_12D8&DEV_8952&SUBSYS_895212D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8954",
+        "PCI\\VEN_12D8&DEV_8954&SUBSYS_895012D8",
+        "PCI\\VEN_12D8&DEV_8954&SUBSYS_895012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8954&SUBSYS_895412D8",
+        "PCI\\VEN_12D8&DEV_8954&SUBSYS_895412D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8958",
+        "PCI\\VEN_12D8&DEV_8958&SUBSYS_895012D8",
+        "PCI\\VEN_12D8&DEV_8958&SUBSYS_895012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_8958&SUBSYS_895812D8",
+        "PCI\\VEN_12D8&DEV_8958&SUBSYS_895812D8&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Pericom",
+        "Pericom PI7C9X7958 PCI Express UART Device (8 ports)",
+        "Pericom PI7C9X7954 PCI Express UART Device (4 ports)",
+        "Pericom PI7C9X7952 PCI Express UART Device (2 ports)",
+        "Pericom PI7C9X7951 PCI Express UART Device (1 port)",
+        "Pericom PI7C9X8958 PCI UART Device (8 ports)",
+        "Pericom PI7C9X8954 PCI UART Device (4 ports)",
+        "Pericom PI7C9X8952 PCI UART Device (2 ports)",
+        "Pericom PI7C9X8951 PCI UART Device (1 port)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.1024.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pericom-mult-x64-1.02.1024.7z.0001",
+          "size_bytes": 92998,
+          "sha256": "8dac8b795b488b7a9db965f81db3604438e03c0b389379edf2dcfa6dd158a051",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.1024.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6e36cda1bd603292",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Pericom",
+      "category": "Ports",
+      "version": "1.02.1024.2016",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Pericom",
+        "Pericom Serial Port Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.1024.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pericom-mult-x64-1.02.1024.7z.0001",
+          "size_bytes": 92998,
+          "sha256": "8dac8b795b488b7a9db965f81db3604438e03c0b389379edf2dcfa6dd158a051",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.1024.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3799caf74b2d6f10",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Pericom",
+      "category": "MultiPortSerial",
+      "version": "1.02.0426.2014",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_12D8&DEV_7951",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795112D8",
+        "PCI\\VEN_12D8&DEV_7951&SUBSYS_795112D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7952",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795212D8",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_795212D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_CCCCCCCC",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_CCCCCCCC&REV_00",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_DDDDDDDD",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_DDDDDDDD&REV_00",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_EEEEEEEE",
+        "PCI\\VEN_12D8&DEV_7952&SUBSYS_EEEEEEEE&REV_00",
+        "PCI\\VEN_12D8&DEV_7954",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795412D8",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_795412D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_CCCCCCCC",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_CCCCCCCC&REV_00",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_DDDDDDDD",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_DDDDDDDD&REV_00",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_EEEEEEEE",
+        "PCI\\VEN_12D8&DEV_7954&SUBSYS_EEEEEEEE&REV_00",
+        "PCI\\VEN_12D8&DEV_7958",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795012D8",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795012D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795812D8",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_795812D8&REV_00",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_CCCCCCCC",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_CCCCCCCC&REV_00",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_DDDDDDDD",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_DDDDDDDD&REV_00",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_EEEEEEEE",
+        "PCI\\VEN_12D8&DEV_7958&SUBSYS_EEEEEEEE&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Pericom",
+        "Pericom PI7C9X7958 PCI Express UART Device (8 ports)",
+        "Pericom PI7C9X7954 PCI Express UART Device (4 ports)",
+        "Pericom PI7C9X7952 PCI Express UART Device (2 ports)",
+        "Pericom PI7C9X7951 PCI Express UART Device (1 port)",
+        "PCIe/PCI-UART Device",
+        "Express card/CardBus-UART Device",
+        "High speed Multi-UART Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.0426.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pericom-mult-x64-1.02.0426.7z.0001",
+          "size_bytes": 82952,
+          "sha256": "48a0e511645a6c8b99030dc54dfd533efe9a7c38e2e9b34fdc63b785a4a9e825",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.0426.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2177beda1bd115c3",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Pericom",
+      "category": "Ports",
+      "version": "1.02.0426.2014",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Pericom",
+        "Pericom Serial Port Device",
+        "Generic Serial Port Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.0426.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pericom-mult-x64-1.02.0426.7z.0001",
+          "size_bytes": 82952,
+          "sha256": "48a0e511645a6c8b99030dc54dfd533efe9a7c38e2e9b34fdc63b785a4a9e825",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/pericom-mult-x64-1.02.0426.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-58cc12349804e340",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "SUNIX Co., Ltd.",
+      "category": "Ports",
+      "version": "1.0.4.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SUNIX Co., Ltd.",
+        "SUNIX COM Port",
+        "SUNIX Printer Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/sunixcol-port-x86-1.0.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sunixcol-port-x86-1.0.4.0.7z.0001",
+          "size_bytes": 177915,
+          "sha256": "ece61e0e56e8fa7568558232dfdaf9e753d7d553186580c1156be3856141da75",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/sunixcol-port-x86-1.0.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-774c3d424a22af37",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Texas Instruments, Inc",
+      "category": "Ports",
+      "version": "6.7.5.4",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0451&PID_2FA0",
+        "USB\\VID_0451&PID_3410",
+        "USB\\VID_0451&PID_341A",
+        "USB\\VID_0451&PID_F430",
+        "USB\\VID_0451&PID_F500"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Texas Instruments",
+        "TUSB3410 Device",
+        "TUSB3410 UART EVM",
+        "TLC59xxEVM",
+        "MSP-FET430UIF - VCP",
+        "MSP-EXP430F5438 USB - Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-6.7.5.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-port-x86-6.7.5.4.7z.0001",
+          "size_bytes": 1478744,
+          "sha256": "ffaf53a0e1c5f08cc0bb7bd2c1534eab7e34afd15bead97d19c0aa29219d5e35",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-6.7.5.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-55ada59b251c4fdf",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Texas Instruments, Inc",
+      "category": "Ports",
+      "version": "6.5.9011.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_1028&PID_0204"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Texas Instruments",
+        "TUSB3410 Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-6.5.9011.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-port-x86-6.5.9011.0.7z.0001",
+          "size_bytes": 1473358,
+          "sha256": "ed445aa90f94a9f371070e01d2e239b2b95f84d45f2ea17ffbd7d22539d4375f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-6.5.9011.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1ce19ae66eb14c27",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Texas Instruments",
+      "category": "Ports",
+      "version": "1.2.11.03",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "USB - Serial Port",
+        "USB - 1st Serial Port",
+        "USB - 2nd Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-mult-x64-1.2.11.03.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-mult-x64-1.2.11.03.7z.0001",
+          "size_bytes": 44757,
+          "sha256": "0d06c2bb1bb0c70b1b9018ba54b0629f06659a279c9fb26237edba19f25d34fb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-mult-x64-1.2.11.03.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bdbd27fe68509a7d",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Texas Instruments, Inc",
+      "category": "MultiportSerial",
+      "version": "1.2.11.03",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0451&PID_3410",
+        "USB\\VID_0451&PID_341A",
+        "USB\\VID_0451&PID_5052",
+        "USB\\VID_0451&PID_505A",
+        "USB\\VID_0451&PID_505F",
+        "USB\\VID_0451&PID_5152",
+        "USB\\VID_0451&PID_515F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TUSB3410 Device",
+        "TUSB3410UART EVM",
+        "TUSB5052 Loader",
+        "TUSB5052"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-mult-x64-1.2.11.03.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-mult-x64-1.2.11.03.7z.0001",
+          "size_bytes": 44757,
+          "sha256": "0d06c2bb1bb0c70b1b9018ba54b0629f06659a279c9fb26237edba19f25d34fb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-mult-x64-1.2.11.03.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d7bfbfc0e9fbb3fa",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Texas Instruments, Inc",
+      "category": "Ports",
+      "version": "6.7.4.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0451&PID_2FA0",
+        "USB\\VID_0451&PID_3410",
+        "USB\\VID_0451&PID_341A",
+        "USB\\VID_0451&PID_F430",
+        "USB\\VID_0451&PID_F500"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Texas Instruments",
+        "TUSB3410 Device",
+        "TUSB3410 UART EVM",
+        "TLC59xxEVM",
+        "MSP-FET430UIF - VCP",
+        "MSP-EXP430F5438 USB - Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-6.7.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-port-x86-6.7.4.0.7z.0001",
+          "size_bytes": 1724217,
+          "sha256": "ed708415846633c07af279a6246a8bebdb2e163f1f94738dab145a2c330af871",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-6.7.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b814639e61ed98d",
+      "pack": "INTEL_System_x64",
+      "type": "Ports",
+      "provider": "Texas Instruments",
+      "category": "Ports",
+      "version": "1.2.0.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0451&PID_16A6"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Texas Instruments",
+        "TI CC1111 Low-Power RF to USB CDC Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-1.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-port-x86-1.2.0.0.7z.0001",
+          "size_bytes": 5488,
+          "sha256": "403683450805edb2d7dbb9441a36a17a2899297d9b77590ad1a8faa64b2e7ccb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_INTEL_System_x64/texasins-port-x86-1.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}

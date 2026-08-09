@@ -3,48 +3,90 @@
   "updated": "2026-08-09",
   "manifest_shards": [
     {
+      "filename": "manifests/Audio.manifest.json",
+      "size_bytes": 30794,
+      "active": true,
+      "note": "active"
+    },
+    {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 16851,
+      "size_bytes": 6636650,
+      "active": true,
+      "note": "active"
+    },
+    {
+      "filename": "manifests/Display.manifest.json",
+      "size_bytes": 3439,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 15799,
+      "size_bytes": 167989,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Imaging.manifest.json",
-      "size_bytes": 12042,
+      "size_bytes": 62507,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 608870,
+      "size_bytes": 809171,
+      "active": true,
+      "note": "active"
+    },
+    {
+      "filename": "manifests/Net.manifest.json",
+      "size_bytes": 13497735,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Other.manifest.json",
-      "size_bytes": 6863,
+      "size_bytes": 60096,
+      "active": true,
+      "note": "active"
+    },
+    {
+      "filename": "manifests/Ports.manifest.json",
+      "size_bytes": 140795,
+      "active": true,
+      "note": "active"
+    },
+    {
+      "filename": "manifests/Security.manifest.json",
+      "size_bytes": 44510,
+      "active": true,
+      "note": "active"
+    },
+    {
+      "filename": "manifests/Storage.manifest.json",
+      "size_bytes": 342818,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/USB.manifest.json",
-      "size_bytes": 168996,
+      "size_bytes": 399834,
       "active": true,
       "note": "active"
     }
   ],
   "category_summary": {
-    "Chipset": 11,
-    "Firmware": 13,
-    "Imaging": 7,
-    "Input": 438,
-    "Other": 5,
-    "USB": 91
+    "Audio": 22,
+    "Chipset": 2120,
+    "Display": 3,
+    "Firmware": 91,
+    "Imaging": 35,
+    "Input": 604,
+    "Net": 967,
+    "Other": 42,
+    "Ports": 94,
+    "Security": 36,
+    "Storage": 111,
+    "USB": 213
   }
 }

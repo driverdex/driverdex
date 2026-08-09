@@ -351,6 +351,1321 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-579295afb2521646",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "ACS",
+      "category": "Image",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1DCC&PID_481A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ACS",
+        "TripPak SCANNING 467"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/acs-imag-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acs-imag-x64-1.0.0.1.7z.0001",
+          "size_bytes": 477099,
+          "sha256": "209b887aef0d26a5a46daac5bc924efc4e05510637fcac28a27548b867a6bca7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/acs-imag-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0aa0f3ff3be489d2",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Advanced Micro Devices, Inc",
+      "category": "Camera",
+      "version": "11.04.02.1482",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Advanced Micro Devices, Inc",
+        "AMD Camera Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/advanced-came-x64-11.04.02.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-came-x64-11.04.02.1.7z.0001",
+          "size_bytes": 5854411,
+          "sha256": "8a29573dc7252c7075ef1009d7db73b3d8a070241f07aa4a055106ca3c804f45",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/advanced-came-x64-11.04.02.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2135229b068c0cc4",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "21.10586.6069.2007",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-21.10586.6.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x64-21.10586.6.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "f8d6581b4ecf98a7efec93f126fd2656f3ef7a98812d2a8f49dc59483bfee876",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-21.10586.6.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-imag-x64-21.10586.6.7z.0002",
+          "size_bytes": 8405573,
+          "sha256": "a6a4fa81f6376043040b6bcec0b6e75e939fa84995bfdee749e012a990bfbe72",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-21.10586.6.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-587fbd373013bfdc",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "30.18305.6.5127",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INT3470"
+      ],
+      "compatible_ids": [
+        "ACPI\\INT3470"
+      ],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera 2500"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-30.18305.6.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-30.18305.6.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c2a717a612ae157d30c57027177fc31d6cf3452bfbcc936964b8633142bb2a25",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-30.18305.6.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-30.18305.6.7z.0002",
+          "size_bytes": 7120682,
+          "sha256": "581849f5ad45dfb205a1ae483488724369c8f84af6d128c73f1712bde8c46329",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-30.18305.6.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-28f52b0d3c1f0873",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "42.18362.3.16827",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_01",
+        "PCI\\VEN_8086&DEV_5A19&REV_5C",
+        "PCI\\VEN_8086&DEV_5A19&REV_8E",
+        "PCI\\VEN_8086&DEV_5A19&REV_8F",
+        "PCI\\VEN_8086&DEV_8A19"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera",
+        "Intel(R) CNL AVStream Camera",
+        "Intel(R) ICL AVStream Camera",
+        "Intel(R) ICL HAPS AVStream Camera",
+        "Intel(R) ICL SIMICS AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-42.18362.3.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-42.18362.3.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "37cb49d8b849cbadafdc359ad0fbee3d8ff5088c15a6284fdd73061755382748",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-42.18362.3.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-42.18362.3.7z.0002",
+          "size_bytes": 15399918,
+          "sha256": "456db580debf3df86cc57fb240988d9ac671b4d31c3d2062a4a36430adc07fea",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-42.18362.3.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-125d604622b18c62",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "42.18362.3.3541",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_01",
+        "PCI\\VEN_8086&DEV_5A19&REV_5C",
+        "PCI\\VEN_8086&DEV_5A19&REV_8E",
+        "PCI\\VEN_8086&DEV_5A19&REV_8F",
+        "PCI\\VEN_8086&DEV_8A19"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera",
+        "Intel(R) CNL AVStream Camera",
+        "Intel(R) ICL AVStream Camera",
+        "Intel(R) ICL HAPS AVStream Camera",
+        "Intel(R) ICL SIMICS AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-42.18362.3.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-42.18362.3.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "751a21a29d7a7c755dfe7f815caab047c420071683b46651d121cce4067525bb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-42.18362.3.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-42.18362.3.7z.0002",
+          "size_bytes": 15286710,
+          "sha256": "ffec2f7e58e6919815444914aee436450a17eda0a06f1e223bb1ea725e9ed79b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-42.18362.3.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-22fa336ea0c33ee6",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "60.19041.1.2806",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_15",
+        "PCI\\VEN_8086&DEV_9A19"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) TGL AVStream Camera",
+        "Intel(R) TGL HAPS AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-60.19041.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "6fc25a0fcba38fed02fe6c873b8beed7ad0c20f93f71bd751ed770b9910d9349",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-60.19041.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "52b965aa00675a133ad47dc1557f0795ec995fc337acb6ff9a20a54f775baa78",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-60.19041.1.7z.0003",
+          "size_bytes": 15563602,
+          "sha256": "0462157d5d530f6dff148ed14819142439354cd592f6d27142c22a774a746a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-32ef10a9e7c8daa6",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "60.22000.6.6324",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_15",
+        "PCI\\VEN_8086&DEV_9A19",
+        "PCI\\VEN_8086&DEV_9A39"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) TGL AVStream Camera",
+        "Intel(R) TGL HAPS AVStream Camera",
+        "Intel(R) TGL-H AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.6.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-60.22000.6.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0d2a9704b3efbadc06a877a907d4d6c9a9ed607f777e5f32ab0459fc23d6de1b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.6.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-60.22000.6.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f895dbb6daf8cca57a6be5849ff5a494057d5c76af9a3c39a572c0f15775b6db",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.6.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-60.22000.6.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "8c2a5a4cbdc63199cbcdd1309c8c4a53fe44bdd41c08a4460fdcf59b73121c17",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.6.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-60.22000.6.7z.0004",
+          "size_bytes": 15525912,
+          "sha256": "1b058292263a1bac65186320ace09fd704b74b1280a4fac51cf71fbdedd47013",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.6.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b4fae9f634c859b6",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "63.22000.10.18461",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_9A39"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-63.22000.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c373f095cd31f68cfd4c0b759fa281194ed192ad3ca88401a0c69b07ce2ee18a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-63.22000.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "e20b32055cd486bd03dc8cc76dc44a80456bac22faa8766eb4783f8609bed96e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-63.22000.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "3463e9965d42264482258cc8c0cae8ad1ae46520ace64e98ce55469c63f571b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-63.22000.1.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "9923a3497349fab82405822b4efa151a999d2783a361ca70534a5b0c163ffe06",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-came-x64-63.22000.1.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "6c93a18c31d2e38ee55e279b5b3ae35e3d421070b5ed1a89994ee77eb7041206",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intel-came-x64-63.22000.1.7z.0006",
+          "size_bytes": 14204324,
+          "sha256": "d1f9d058d866528c1841467e75b9577a85443f603859f3c9d52d49f92b461917",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0bd5e927ab83e1d9",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "63.22000.10.17154",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_9A39"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-63.22000.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "2109758afb6116e06257d037520947311f03d574e7c73b3cc5de6f9231dee220",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-63.22000.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "cc264d73f4618b9216f68649435378f8d50cb8c029f14eee3a8e66986641f12b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-63.22000.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "eba9bd02817af8f1484dbf43dde67eaf038ffb16b33d0182922fe8153e8b4d3c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-63.22000.1.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "742edb8b794280044854b4317c1f5036aab25a7ac498466f7b7c5786ee0f027f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-came-x64-63.22000.1.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "79a0c7daebb857b42ae1f8775db93422d071e5377ec91ed766f57b388b717056",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intel-came-x64-63.22000.1.7z.0006",
+          "size_bytes": 14263432,
+          "sha256": "fc846132fb1065aecd2ef5bddd7e3a39338f77b8c6befaae3e72573d11d28aa0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-63.22000.1.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-777eefb1d8f98841",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "71.26100.0.20439",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_B05D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) PTL AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-71.26100.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-71.26100.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "217e49e0ec608630291f456af275a413001f8a181e3c4d210f97686eba55845d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-71.26100.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-71.26100.0.7z.0002",
+          "size_bytes": 12296107,
+          "sha256": "659065fa41e69cd8752416b982578c7cd172bfb77e7a05f2e08674df1eee259d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-71.26100.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5e38b9910ec8788d",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "70.26100.2.18597",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_15"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) LNL AVStream Camera",
+        "Intel(R) LNL HAPS AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-70.26100.2.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "e9d5cb2d403c9498db45f20fe305f6331140d54a7db954fc9cc5c32865ae9c99",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-70.26100.2.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "6cf84f274f4565bcbf023180912bf6fbe777a7d43f5879d468b19e45031d6422",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-70.26100.2.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "2bb4ba4bde3fc474451e1d707617475c1a01eeff3da3a5b55167e44cb17c51d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-70.26100.2.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "6f04f9cd95dc77db673c5ff1f1bf5573a6581a921b0920b5d6ec2c4bb1b54dcf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-came-x64-70.26100.2.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "53dccdc0f8056a968d00b84ebf0d6b99d0c710a6927aa295ab6e4c4b506fce6d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intel-came-x64-70.26100.2.7z.0006",
+          "size_bytes": 8124185,
+          "sha256": "7b89326282215ecd427d93fb64affec46d699618d5ff4421323df511b6fe0e60",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6231ecb41bc5a50f",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "70.26100.2.18211",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_15"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) LNL AVStream Camera",
+        "Intel(R) LNL HAPS AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-70.26100.2.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "13f762244a1065d512f6588d9164eb4b13e7490989f1cd1aaf9c42a5d1854b23",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-70.26100.2.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "83467be9438e45b4344914ebfba1d3661dda9e76b71e8981e54b40e67cc69442",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-70.26100.2.7z.0003",
+          "size_bytes": 13425288,
+          "sha256": "996f80b7cb412f03501f2f0512f41eaec4da4c8e269b80bfaedb8fbdd9a93a94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-70.26100.2.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-590c443e6274947b",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "64.26100.13.16990",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0001",
+      "zip_parts": 7,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-64.26100.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d4447494d2fea7d9db0500c9a114cf7a2b32d7e376df7620e927a0ff4d62ad2d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-64.26100.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "7321bf9b1e9c241322fb2660f6cbb0880692b58478c2e31f4df514ca8e97e06f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-64.26100.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "17924169270003c5497a22fc3b745f4811c4906e7ddba3dca3b312789fb91e11",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-64.26100.1.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "c761c02fec37d1eda28419d10886a33411a5a109e3ab2fa90c749d480e64f0ae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-came-x64-64.26100.1.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "cf1a4e3584dbcc3e99349d9144754354f16ca72bcd63f4156cae3d5e6a0195f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intel-came-x64-64.26100.1.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "770a0f7261f3cd239d412da149be42b8ea3260e48f5185b0c9a12c1a20d0d61d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intel-came-x64-64.26100.1.7z.0007",
+          "size_bytes": 5920707,
+          "sha256": "33393058fed1bdd6284d01aa19a3877a8ee01df90b76febce96ddd6e13c63af7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0007"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c0c9982dfa92e343",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "64.26100.13.19321",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-64.26100.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fcd283ec20ecb3d2ce9be1f2fd41cfc87f91481bff391b4e35ea3d5be50dc1bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-64.26100.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "24abcde6ec31425b5e4e67e7e1cc561b92d569ff15ea44f05150931a79cd806a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-64.26100.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "f4c784fedd0179b0e35bf9b3d1db201a28b6fe8b81d2169921a2ca636dafb113",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-64.26100.1.7z.0004",
+          "size_bytes": 2286555,
+          "sha256": "fd144549a0d843cbfb3eef7256181de76ae8511444fc9e285ef38c6b1ab2644a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-97b4c597c01a1dc0",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "64.26100.13.19816",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-64.26100.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d22ef2a645f92954eba8a79e752244d80b535fba7d2310a6bfcdbe9c200f1ab9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-64.26100.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "1190b3cff22ffc2d40a5f22eee417f3fd89d09bfcea22aa5a551137a93c1a250",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-64.26100.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "ff0b9c7a6f1581361351e3e47ecadcc63c3e8f8615cf46508b5be06e45636731",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-64.26100.1.7z.0004",
+          "size_bytes": 2754907,
+          "sha256": "7c92cad6c693fafa9e577265d8ef2061edbf4eb7f10cb9c2f54e928d546d4bae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.26100.1.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1ff11ae1e250c5a3",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "64.25982.13.15388",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.25982.1.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-64.25982.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "9a58e7b957912cedc9d099aac675d0525b5250855570705e738ba6447b51e135",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.25982.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-64.25982.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "5e316852eda04e3c3350c80096590e8976f46566951dfe604202f1ebc199239a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.25982.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-64.25982.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "4a30f70cc2f93a9f1fa503a0311f19021978c6d6532b6100dface98615ea8367",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.25982.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-64.25982.1.7z.0004",
+          "size_bytes": 5092725,
+          "sha256": "49fcb4ce6f7870929406e20c757c43a6ccf3c0ffbaa01ad5450ba8ff5b11c30b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-64.25982.1.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f24695f95c0275af",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "60.22000.5.15512",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_5A19&REV_15",
+        "PCI\\VEN_8086&DEV_9A19"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) TGL AVStream Camera",
+        "Intel(R) TGL HAPS AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.5.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-60.22000.5.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "23b55f78849b8b7d704a1483c377cdea319470618ffec1f09fc0813f86aadbee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.5.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-60.22000.5.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "d695b6d6e6ac73852b1d0e37d21abd85c1cb14a931b8918069de7f958189a69e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.5.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-60.22000.5.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "3c0b4ca7507f95a8ed330434a3bcaca5788c559cb3ef1e81e84ee65fdd6c7edf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.5.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-60.22000.5.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "d605dac48c42a4f4e60a3dcdadf8cd75e6accf9da0090da6b4daf4ea65c6326b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.5.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-came-x64-60.22000.5.7z.0005",
+          "size_bytes": 15101723,
+          "sha256": "f82aa62c4d520639539b88888755a3dc80e3ad7e9e7ca87d001251f8aa4bba40",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.22000.5.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c6200e6d0c2eb6c8",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Camera",
+      "version": "60.19041.1.4939",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) TGL AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-came-x64-60.19041.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ef140eddc268186c878ecbb4cb189c937788afce91f6a37b04f4dfd1d1585c3b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-came-x64-60.19041.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "ede33225d159c2b13c35207ef5b9a7125cf92eba79a0b73f89760cc0f45abdd9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-came-x64-60.19041.1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "ba8986864eb6e4b6d1a99c01d48bb2b11bb649201ecd8d47080bfc333fcb33f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-came-x64-60.19041.1.7z.0004",
+          "size_bytes": 1051118,
+          "sha256": "c7c597256b5b189dcc83f4af36f7ca5109c21be62caf8b5ef1d58cce6bc4ce1c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-came-x64-60.19041.1.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-df91ddff8985497d",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "40.14393.9853.4345",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-40.14393.9.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x64-40.14393.9.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "934757e7ccfdcd20c693649e20b97e0f720a2861b31841b285c5649a93bda256",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-40.14393.9.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-imag-x64-40.14393.9.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "c02d3a6d76390499ec575d648656865a37cc5b169574a24d064e30a530581685",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-40.14393.9.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-imag-x64-40.14393.9.7z.0003",
+          "size_bytes": 1082942,
+          "sha256": "c9e2d549ba08f9cc447a8ca3dc48d452d47d208401c28ebcb3d9bbecce14258f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-40.14393.9.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1fda864e324dae2c",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "20.10154.5745.778",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-20.10154.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x86-20.10154.5.7z.0001",
+          "size_bytes": 10345094,
+          "sha256": "e0f88c86561345c710634428d81413ae25489e535ea5c35d178fa1ff56362481",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-20.10154.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-91f6bb4b396d0626",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "21.10586.6069.2007",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-21.10586.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x86-21.10586.6.7z.0001",
+          "size_bytes": 12649644,
+          "sha256": "f0baa9a73548005e9f6113c1402249923dd33008d0bdf2db51ca84a43638a396",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-21.10586.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ebd9bcc420b3fee1",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "6.0.0.38",
+      "arch": "x64",
+      "hwids": [
+        "USB\\FRIENDLYNAMEFROMINTELCAMERA",
+        "USB\\FRIENDLYNAMEFROMINTELCAMERA%",
+        "USB\\VID_0733&PID_0401",
+        "USB\\VID_0733&PID_0401.DEVICEDESC",
+        "USB\\VID_0733&PID_0401.DEVICEDESC%"
+      ],
+      "compatible_ids": [
+        "USB\\FRIENDLYNAMEFROMINTELCAMERA",
+        "USB\\FRIENDLYNAMEFROMINTELCAMERA%"
+      ],
+      "descriptions": [
+        "%USB\\VID_0733&PID_0401.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-6.0.0.38.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x64-6.0.0.38.7z.0001",
+          "size_bytes": 737912,
+          "sha256": "343cfb4b0a3b8b44a02ffc6b00cb8dd91802cf16e1c3b269721682d6c7edf05a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-6.0.0.38.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e5a7b908b65efda8",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "6.8.32.367",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Imaging Signal Processor 2400"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-6.8.32.367.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x64-6.8.32.367.7z.0001",
+          "size_bytes": 7640109,
+          "sha256": "7505840d4b6379e649ac6834389f2903a81e66c0d5d0038775b532a59710d1db",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x64-6.8.32.367.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4cb3a0ebc483722c",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "13.56.6.184",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Imaging Signal Processor 2400"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-13.56.6.18.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x86-13.56.6.18.7z.0001",
+          "size_bytes": 4082754,
+          "sha256": "33fa9121bcdb890a208a7824a27e7d810afb9e7c451ae15abc746c1db9685c01",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-13.56.6.18.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ea04be5283cc7186",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel Corporation",
+      "category": "Image",
+      "version": "6.2.9200.34861",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_08D0&SUBSYS_00000000"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Imaging Signal Processor 2300"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intelcor-imag-x86-6.2.9200.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-imag-x86-6.2.9200.3.7z.0001",
+          "size_bytes": 784567,
+          "sha256": "31551594588a0f4c6c7efd9f5250eaae9ca7187827289b26d3ed747634b9e1f4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intelcor-imag-x86-6.2.9200.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8e947d999b690994",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "20.10154.5740.705",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-20.10154.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x86-20.10154.5.7z.0001",
+          "size_bytes": 10335692,
+          "sha256": "fc1e637b556105ad3921b447c45a72142ce7240f62cfb80c54b2ad72d8763006",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-20.10154.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-69954aeff131a507",
+      "pack": "INTEL_System_x64",
+      "type": "Imaging",
+      "provider": "Intel",
+      "category": "Image",
+      "version": "21.10154.6023.441",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-21.10154.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-imag-x86-21.10154.6.7z.0001",
+          "size_bytes": 10522611,
+          "sha256": "bacf10b5b66c5e4e0f2ff0b31ef43bd7d8fa1ffcd8b7ada23b9c2ffb8c1c8db3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_INTEL_System_x64/intel-imag-x86-21.10154.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {}

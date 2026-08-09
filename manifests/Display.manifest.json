@@ -1,0 +1,107 @@
+{
+  "schema": "3.0",
+  "category": "Display",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-b91f49bf4e5e6446",
+      "pack": "INTEL_System_x64",
+      "type": "Display",
+      "provider": "Intel",
+      "category": "Display",
+      "version": "8.14.01.0000",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_INTEL_System_x64/intel-disp-x86-8.14.01.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-disp-x86-8.14.01.00.7z.0001",
+          "size_bytes": 607715,
+          "sha256": "1a5a6faa5a8d66b9c7b8d5d075b00c93f16db9007ef987481fdd02a01a9c6394",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_INTEL_System_x64/intel-disp-x86-8.14.01.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-801a15cdfd7013b8",
+      "pack": "INTEL_System_x64",
+      "type": "Display",
+      "provider": "INTEL",
+      "category": "Display",
+      "version": "5.0.0.2119",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "INTEL",
+        "DVServerUMD Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_INTEL_System_x64/intel-syst-x64-5.0.0.2119.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-5.0.0.2119.7z.0001",
+          "size_bytes": 103160,
+          "sha256": "518298a070f3a003683445c01c9c1c9201e536f21a0dc19b8ff96c483a39fef6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_INTEL_System_x64/intel-syst-x64-5.0.0.2119.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9bf4c0d9c01deefb",
+      "pack": "INTEL_System_x64",
+      "type": "Display",
+      "provider": "Intel",
+      "category": "System",
+      "version": "5.0.0.2119",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1050&CC_030000"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "DVServerKMD Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_INTEL_System_x64/intel-syst-x64-5.0.0.2119.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-5.0.0.2119.7z.0001",
+          "size_bytes": 103160,
+          "sha256": "518298a070f3a003683445c01c9c1c9201e536f21a0dc19b8ff96c483a39fef6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_INTEL_System_x64/intel-syst-x64-5.0.0.2119.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}

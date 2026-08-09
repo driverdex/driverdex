@@ -1,0 +1,883 @@
+{
+  "schema": "3.0",
+  "category": "Audio",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-bf85ca29306e9bc0",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "2.0.0.38",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-2.0.0.38.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-2.0.0.38.7z.0001",
+          "size_bytes": 1294557,
+          "sha256": "1d673717e1d19e41411bb408614950a340ad79c8fd44872f1541d7b41ba682ac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-2.0.0.38.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2d2ae578ad719659",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "2.0.0.56",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-2.0.0.56.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-2.0.0.56.7z.0001",
+          "size_bytes": 1574602,
+          "sha256": "12b0ca36b9bed45224e383de589f327db11f89c610fe21273fdc3bc25b0d4cf5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-2.0.0.56.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb256c6c1e189e47",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.0.1.7z.0001",
+          "size_bytes": 1675996,
+          "sha256": "02767042a0bd0a89291360ab595d0cecb6060ba96b847101fc53a70427f66c77",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-66589263a91b851a",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.0.45",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.45.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.0.45.7z.0001",
+          "size_bytes": 1938951,
+          "sha256": "9f0f52ae860007d66edec05002dca0fc14c0797bab679fe6d822580269b1a052",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.45.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f5c52a4f05ecaabf",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.0.59",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.59.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.0.59.7z.0001",
+          "size_bytes": 1989829,
+          "sha256": "fbcbaa84462632f0bc30b49c22bfab4bceaba71f2db494a1d00f0bf5456c1d35",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.59.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f78a11168f760c94",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.2.59",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.2.59.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.2.59.7z.0001",
+          "size_bytes": 1989972,
+          "sha256": "c805b31ad9ed562e3225d8e1f925fcb81549563493efe3662d4acbee6b16c6fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.2.59.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fa95becdcbb826fe",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.3.62",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.3.62.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.3.62.7z.0001",
+          "size_bytes": 1992284,
+          "sha256": "bf2a17bc38c461550738f46937bbdea1f243ccfafa5bbd7d3fa05c00995da388",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.3.62.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-071bbd15943c929d",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "MEDIA",
+      "version": "6.0.0.34",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Bluetooth Audio Device",
+        "AMD Bluetooth LE Render Audio Device",
+        "AMD Bluetooth LE Capture Audio Device",
+        "AMD Bluetooth Render Audio Device",
+        "AMD Bluetooth Capture Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.34.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.0.34.7z.0001",
+          "size_bytes": 210495,
+          "sha256": "9244c5634f8727f429cf54566cdf6225edc5be51fbef885fb7d1775204365a4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.34.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dcc1eb9d8b79bcc9",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.0.44",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD BT Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.44.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.0.44.7z.0001",
+          "size_bytes": 122284,
+          "sha256": "b15f1f963825e86285bc47f048caa3ca8251ebf8bd8b28ebce7d1d5f43041667",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.44.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ca47f46ce9c2fd0e",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "MEDIA",
+      "version": "6.0.3.40",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Bluetooth Audio Device",
+        "AMD Bluetooth LE Render Audio Device",
+        "AMD Bluetooth LE Capture Audio Device",
+        "AMD Bluetooth Render Audio Device",
+        "AMD Bluetooth Capture Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.3.40.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.3.40.7z.0001",
+          "size_bytes": 233257,
+          "sha256": "e77e42f7d0739ef50333494950435a6045383060d2062c2b4ce5e9ce1c3f27bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.3.40.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7759986688e30418",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "Advanced Micro Devices",
+      "category": "MEDIA",
+      "version": "1.0.0.23",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\I2SC1002"
+      ],
+      "compatible_ids": [
+        "ACPI\\I2SC1002"
+      ],
+      "descriptions": [
+        "Advanced Micro Devices",
+        "AMD I2S Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/advanced-medi-x86-1.0.0.23.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-medi-x86-1.0.0.23.7z.0001",
+          "size_bytes": 467830,
+          "sha256": "c897847ee1c0113fc1cf1714669a60b302f30bed1a5475230dcbc013cbd8d62d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/advanced-medi-x86-1.0.0.23.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5840f4df29542c75",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "Advanced Micro Devices",
+      "category": "MEDIA",
+      "version": "1.0.0.22",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\I2SC1002"
+      ],
+      "compatible_ids": [
+        "ACPI\\I2SC1002"
+      ],
+      "descriptions": [
+        "Advanced Micro Devices",
+        "AMD I2S Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/advanced-medi-x86-1.0.0.22.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-medi-x86-1.0.0.22.7z.0001",
+          "size_bytes": 433454,
+          "sha256": "0079f8a9402106538b54ea7c953e63f4234d1369438b119b25554c478c7c9677",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/advanced-medi-x86-1.0.0.22.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4b975b7460e19529",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "1.0.0.3",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD I2STDM Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x86-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x86-1.0.0.3.7z.0001",
+          "size_bytes": 111666,
+          "sha256": "9b9ea14a2d7a57833dd2407d0a3f60e5e332eee2c7cc1eed53534df983b173cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x86-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4b167eb869beeece",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "2.0.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD I2STDM Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x86-2.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x86-2.0.0.1.7z.0001",
+          "size_bytes": 111305,
+          "sha256": "e3a523bf2fbee0dec7950e92a095f65e0c8a074cae41551f8892ad9c9c61736a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x86-2.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-19472e5a622025d0",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "MEDIA",
+      "version": "1.0.0.14",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\AMDI0203",
+        "ROOT\\AMDSAFD&FUN_01&REV_01"
+      ],
+      "compatible_ids": [
+        "ACPI\\AMDI0203"
+      ],
+      "descriptions": [
+        "AMD",
+        "AMD Streaming Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-1.0.0.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-1.0.0.14.7z.0001",
+          "size_bytes": 60808,
+          "sha256": "0f72259e69aa0a648b3f9615b389ae43b3395fb5a0b68d4eb7a8308c0b050d70",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-1.0.0.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4a5834e79eeb52a8",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "MEDIA",
+      "version": "1.0.0.8",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\AMDSAFD&FUN_01&REV_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Streaming Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-1.0.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-1.0.0.8.7z.0001",
+          "size_bytes": 57147,
+          "sha256": "507e4dc4e3e29ee30c86af66a718cf856ce0d8bbc97f67124dad87dc1695f04a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-1.0.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9a4f1849b1abd06e",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "10.0.0.9",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD Sound Wire Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x86-10.0.0.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x86-10.0.0.9.7z.0001",
+          "size_bytes": 127685,
+          "sha256": "f21be1397c2735bcbccad463136ac9bbec7e4296dffcfcf97ad63b5a191dbcd4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x86-10.0.0.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3ed861f50de37277",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.0.37",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD USB Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.37.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.0.37.7z.0001",
+          "size_bytes": 95187,
+          "sha256": "22e24795bd516c277f675890d0aaa8abfb2d5a99585d66a91c758350e2b24510",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.0.37.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-50dffdc9f967776b",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "AMD",
+      "category": "Media",
+      "version": "6.0.3.41",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD USB Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.3.41.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-medi-x64-6.0.3.41.7z.0001",
+          "size_bytes": 97097,
+          "sha256": "0f4e02afe207e54f9570fc3888965bee928404ebbefb2c0fe2ffdb7f0b5be154",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/amd-medi-x64-6.0.3.41.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-662cdf1fa6bccc15",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "Hercules",
+      "category": "MEDIA",
+      "version": "5.12.01.4102",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_005014AF",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_00501681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_00511681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_00521681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_00531681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_00541681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_A0101681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_A0111681",
+        "PCI\\VEN_1013&DEV_6003&SUBSYS_A0121681"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hercules",
+        "Hercules Game Theater(tm) XP 7.1",
+        "Hercules Gamesurround Fortissimo III(tm) 7.1",
+        "Hercules DigiFire(tm) 7.1",
+        "Hercules Gamesurround Fortissimo(tm) II",
+        "Hercules Game Theater(tm) XP 7.1 WDM Interface",
+        "Hercules Gamesurround Fortissimo III(tm) 7.1 WDM Interface",
+        "Hercules Gamesurround Fortissimo(tm) II WDM Interface",
+        "Hercules DigiFire(tm) 7.1 WDM Interface",
+        "Hercules (R) Game Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/hercules-medi-x64-5.12.01.41.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hercules-medi-x64-5.12.01.41.7z.0001",
+          "size_bytes": 2349272,
+          "sha256": "5cc21882d458d5feca6c369b3142691b19518f2354ed08951c72cdbd88a0f63b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/hercules-medi-x64-5.12.01.41.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-57711f02be5461ba",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "Texas Instruments",
+      "category": "Media",
+      "version": "3.0.22.2",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_TIAS&DEV_2781",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA2234",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA2235",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA2326",
+        "ACPI\\VEN_TXNW&DEV_2781",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA2234",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA2235",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA2326"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Texas Instruments",
+        "TI Smart Amplifier Driver for Speakers"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/texasins-medi-x64-3.0.22.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-medi-x64-3.0.22.2.7z.0001",
+          "size_bytes": 65299,
+          "sha256": "eae273db317ae48d57bb21445119cf7b7b9355c685259fc6d37bf7ee254ddbb8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/texasins-medi-x64-3.0.22.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5e3f2bdb079fd696",
+      "pack": "INTEL_System_x64",
+      "type": "Audio",
+      "provider": "Texas Instruments",
+      "category": "Media",
+      "version": "3.1.23.4",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10280C94",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10280C96",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8B92",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8C70",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8C71",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8C72",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8DAA",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8DE8",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_103C8DE9",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_104310A4",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10431154",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10431204",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10431214",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10431384",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10431394",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_104313A4",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10431EB3",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433E30",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433EE0",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433EF0",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433F00",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433F10",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433F20",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_10433F30",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA2234",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA2235",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA2326",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA387D",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA387E",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA387F",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3880",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3881",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3882",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3884",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3886",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38A5",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38A7",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38A8",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38B8",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38B9",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38BA",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38BB",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38BE",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38BF",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38C3",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38CB",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38CD",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38D3",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38D4",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38D5",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38D6",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38DF",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38E0",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38F8",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA38FD",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA391F",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3920",
+        "ACPI\\VEN_TIAS&DEV_2781&SUBSYS_17AA3C22",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10280C94",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10280C96",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8B92",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8C70",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8C71",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8C72",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8DAA",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8DE8",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_103C8DE9",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_104310A4",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10431154",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10431204",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10431214",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10431384",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10431394",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_104313A4",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10431EB3",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433E30",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433EE0",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433EF0",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433F00",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433F10",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433F20",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_10433F30",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA2234",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA2235",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA2326",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA387D",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA387E",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA387F",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3880",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3881",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3882",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3884",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3886",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38A5",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38A7",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38A8",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38B8",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38B9",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38BA",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38BB",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38BE",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38BF",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38C3",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38CB",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38CD",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38D3",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38D4",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38D5",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38D6",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38DF",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38E0",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38F8",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA38FD",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA391F",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3920",
+        "ACPI\\VEN_TXNW&DEV_2781&SUBSYS_17AA3C22"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Texas Instruments",
+        "TI Smart Amplifier Driver for Speakers"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/texasins-medi-x64-3.1.23.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "texasins-medi-x64-3.1.23.4.7z.0001",
+          "size_bytes": 124544,
+          "sha256": "fcee770be0b2b95c3a09840b261373bdc2554d2465a5cbc5868d4177a3c5eda0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_INTEL_System_x64/texasins-medi-x64-3.1.23.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}

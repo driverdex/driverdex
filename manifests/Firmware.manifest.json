@@ -98,10 +98,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-a4a30e0c47f9c877",
+      "notes": " | Superseded by drv-f3fe02c3ba3f5139 on 2026-08-09 | Superseded by drv-a4a30e0c47f9c877 on 2026-08-09"
     },
     {
       "id": "drv-bc732955e24c9f95",
@@ -409,10 +409,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-b9e75ed52ff15451",
+      "notes": " | Superseded by drv-a9486d0a65a98c1e on 2026-08-09 | Superseded by drv-2c0f269163067f2e on 2026-08-09 | Superseded by drv-f7aa793601c6b969 on 2026-08-09 | Superseded by drv-f7aa793601c6b969 on 2026-08-09 | Superseded by drv-f7aa793601c6b969 on 2026-08-09 | Superseded by drv-a9486d0a65a98c1e on 2026-08-09 | Superseded by drv-2c0f269163067f2e on 2026-08-09 | Superseded by drv-f7aa793601c6b969 on 2026-08-09 | Superseded by drv-fba698c037b01704 on 2026-08-09 | Superseded by drv-2aea325ad76964a4 on 2026-08-09 | Superseded by drv-1f97d1b86c85e2fd on 2026-08-09 | Superseded by drv-d60f4a717ab7ba9f on 2026-08-09 | Superseded by drv-93de50715a6f255d on 2026-08-09 | Superseded by drv-bb7dbac7c5ef4516 on 2026-08-09 | Superseded by drv-a48be9850339d4ab on 2026-08-09 | Superseded by drv-2fefdf41cd600f47 on 2026-08-09 | Superseded by drv-2fefdf41cd600f47 on 2026-08-09 | Superseded by drv-5d388071d131e113 on 2026-08-09 | Superseded by drv-a9ae7b3e113dd07e on 2026-08-09 | Superseded by drv-99074e46ef8f8921 on 2026-08-09 | Superseded by drv-5dbc834b7ff1c660 on 2026-08-09 | Superseded by drv-ce3b25ebc2fbfbd0 on 2026-08-09 | Superseded by drv-ce3b25ebc2fbfbd0 on 2026-08-09 | Superseded by drv-ce3b25ebc2fbfbd0 on 2026-08-09 | Superseded by drv-ce3b25ebc2fbfbd0 on 2026-08-09 | Superseded by drv-6d9b40a280aba9ae on 2026-08-09 | Superseded by drv-035c429ac417035a on 2026-08-09 | Superseded by drv-cb6fa38540634540 on 2026-08-09 | Superseded by drv-4e1d405c426f6969 on 2026-08-09 | Superseded by drv-d28867e1b8ffcd74 on 2026-08-09 | Superseded by drv-35c92aa6171d6fc5 on 2026-08-09 | Superseded by drv-8a8a118bc2e3bc9b on 2026-08-09 | Superseded by drv-dbaa8c87b2fa9294 on 2026-08-09 | Superseded by drv-42bcab5107044382 on 2026-08-09 | Superseded by drv-2df3349a7e4bdefb on 2026-08-09 | Superseded by drv-be43437ed639c3eb on 2026-08-09 | Superseded by drv-b9e75ed52ff15451 on 2026-08-09"
     },
     {
       "id": "drv-6f3f41bf9d698f46",
@@ -449,7 +449,4457 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-dc88f7e5dd7d1289",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "AMD",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD AFD Device Component Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/amd-soft-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-soft-x64-1.0.0.7.7z.0001",
+          "size_bytes": 129869,
+          "sha256": "dad296cfbbaea52e56aa5c04271e87e2d83cd8c2d4641fd7ac6e424f73280f2f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/amd-soft-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8ea9ff13f62d3896",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Advanced Micro Devices, Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.2310.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Advanced Micro Devices, Inc.",
+        "AMD-Dynamic Audio Noise Supression"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.0.2310.3.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-soft-x64-1.0.2310.3.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "1529641127cb7c3b9d55f07145da0b5e2211470cc5e183b526a8b7d2eb887093",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.0.2310.3.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "advanced-soft-x64-1.0.2310.3.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "9620d6e4082368dbec8c46b872b63e15397c79c16f1c15d303d44fd5e0c92987",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.0.2310.3.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "advanced-soft-x64-1.0.2310.3.7z.0003",
+          "size_bytes": 794580,
+          "sha256": "9593548ce0d2e292d8504935980b3338686aaf100bcc81a485a676009fa05505",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.0.2310.3.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-28dbaebc687353cc",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Advanced Micro Devices, Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.4.40.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Advanced Micro Devices, Inc.",
+        "AMD-Dynamic Audio Noise Supression"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.4.40.0.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-soft-x64-1.4.40.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "645d154b32166e9adf8b8b797bed7753a5d53cb8c39473a32932e4c678dffd94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.4.40.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "advanced-soft-x64-1.4.40.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2265d23155d338737ad10f299744bc726bf09bb45736dfdc6abaf7a0e5d94928",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.4.40.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "advanced-soft-x64-1.4.40.0.7z.0003",
+          "size_bytes": 12654891,
+          "sha256": "e796efd8e6c5794b0669e69104f2daa27d58ea7f979981087c3b38cbd6fb96f8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-1.4.40.0.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a9486d0a65a98c1e",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Advanced Micro Devices, Inc.",
+      "category": "SoftwareComponent",
+      "version": "31.0.21923.11000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Advanced Micro Devices, Inc.",
+        "AMD-OpenCL User Mode Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-soft-x64-31.0.21923.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "bc716069fe76a9af7d8215c070dcb5819335158a78f479d49067079c04162720",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "advanced-soft-x64-31.0.21923.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "6be24cb2cfdcbf24d2eb3d6838170bd12ac0fdf4dd0b460b17b75ba63e7d25ee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "advanced-soft-x64-31.0.21923.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "869e80c388feab879b484553a1e1f261ece0b8a789a3948999e53fc785fea843",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "advanced-soft-x64-31.0.21923.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "4be97cad9f88b0de1d4e2ba2d6ae7677ed67823429e7e78501e03d6b71b32f1a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "advanced-soft-x64-31.0.21923.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "db38fd53acbfaadd52aecf2fd2330fd0b646377b241b489bfefe709a43797282",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "advanced-soft-x64-31.0.21923.7z.0006",
+          "size_bytes": 9942359,
+          "sha256": "e39c77d9e5635b334b72eeec0dcf962a7403296a7fa6c41e3bfab5a4b2a761ab",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-31.0.21923.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c0f269163067f2e",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Advanced Micro Devices, Inc.",
+      "category": "SoftwareComponent",
+      "version": "32.0.21043.12001",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Advanced Micro Devices, Inc.",
+        "AMD-OpenCL User Mode Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0001",
+      "zip_parts": 7,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "e7f8dd8813c8d0c712306609b0bde07a9a4c3a9b0c594ddb59c603d7328b3118",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "797c5b1c23c1cc2d527b501e2a38e763c931de2cb72104d70bd14dd146540382",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "168e4a07b37c79716048564ffd22b70cd96b0ec038dcb04b26cbd0f0b1069b53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "4fd4dabbfba73a2ef7caf39393e8189932309b097862f5343b841ae91e6ef2bb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "1281dde9c9c7f2f9297dac604b71f6245362e615e630cd1748bfe2e2ac5a2a34",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "53823dfb597804b7cb5c24913b74227be2b3eef54f0b159a6f98a9a972bafd68",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "advanced-soft-x64-32.0.21043.7z.0007",
+          "size_bytes": 7414918,
+          "sha256": "4db5f05febca48bfed9accd04b668e03fd6e9fb4c19a317dd6055f42d9d74b71",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.21043.7z.0007"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f7aa793601c6b969",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Advanced Micro Devices, Inc.",
+      "category": "SoftwareComponent",
+      "version": "32.0.31019.2002",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Advanced Micro Devices, Inc.",
+        "AMD-OpenCL User Mode Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.31019.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-soft-x64-32.0.31019.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "50945cd0f0e97fc456347d91b00d464f1a4a5b41cfa828c4a0448ceb3e5af7e2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.31019.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "advanced-soft-x64-32.0.31019.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "e96c591d9b2716146fda4c7daef8d45664612e5a09055c58294cb15ca0ab938c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.31019.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "advanced-soft-x64-32.0.31019.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "0db727fd2ba5f23c2fbd142195e9418c32845a079d6031f86ac29149112d7b99",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.31019.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "advanced-soft-x64-32.0.31019.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "74b025d560894c6cacc217eadd3120b5647f014d758110d3649b845ce5d3dff0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.31019.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "advanced-soft-x64-32.0.31019.7z.0005",
+          "size_bytes": 3588487,
+          "sha256": "7cd7d8ba86ca8705c69452d9a706d96ebf533e97a4db9ec54acd2cb48ee88e14",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/advanced-soft-x64-32.0.31019.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5ef1b3c4af32f8ff",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "STMicroelectronics Inc.",
+      "category": "Firmware",
+      "version": "1.0.0.18",
+      "arch": "x86",
+      "hwids": [
+        "UEFI\\RES_{%RES_GUID%}"
+      ],
+      "compatible_ids": [
+        "UEFI\\RES_{%RES_GUID%}"
+      ],
+      "descriptions": [
+        "STMicroelectronics Inc.",
+        "Sensor Hub Firmware Rev_A029"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/stmicroe-firm-x86-1.0.0.18.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "stmicroe-firm-x86-1.0.0.18.7z.0001",
+          "size_bytes": 97043,
+          "sha256": "dcfbce3566398102d387272c2953c8868a23ec9290e37d58c1e37374886939d4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/stmicroe-firm-x86-1.0.0.18.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-49fb12dae7649a2d",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.44.2023.0710",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Application Loader Host Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.44.2023.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.44.2023.7z.0001",
+          "size_bytes": 503546,
+          "sha256": "1c42f18ad3fed5eebb13d3fdb720fb70c64262383f9598a95569425b2c7c7fc8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.44.2023.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a4045915c0a862c0",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.46.2024.0221",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Application Loader Host Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.46.2024.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.46.2024.7z.0001",
+          "size_bytes": 509718,
+          "sha256": "95e625b586189f32ae8ab5101039e3c176db8f806d54a396ab40ceb76bad97a7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.46.2024.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fba698c037b01704",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9999.99.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Application Loader Host Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9999.99.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9999.99.0.7z.0001",
+          "size_bytes": 583201,
+          "sha256": "8816d5c69413683e9400a703d5c667312249bb686df64d8fd7d41c692453063d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9999.99.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b2297475db4793b",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2.1.10300.0031",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Context Sensing Technology Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10300.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-2.1.10300.7z.0001",
+          "size_bytes": 12936691,
+          "sha256": "d105e95d971fe9190ad48bb6a5f1f61ac30e8d2966aac4bf20c4e705f278c232",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10300.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-167374d4c743b7d7",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2.1.10500.0007",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Context Sensing Technology Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10500.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-2.1.10500.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "7daf2ee4b03960567799eb01dbe6c7720392043a1d93b727660ffabaccee44d7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10500.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-2.1.10500.7z.0002",
+          "size_bytes": 10650259,
+          "sha256": "6f616eb58dc2e64dc4e7a4c15085c3d86f9ef04d8d5d415ffc673d70925299f8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10500.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d60f4a717ab7ba9f",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.0.11202.31222",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11202.7z.0001",
+          "size_bytes": 5443717,
+          "sha256": "bccd7fff39f480cba3e1f723848733a17ba57c2d0c5d9f7dffedec4f44c5fe53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dccd3b6edb20dcdc",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "1.0.11202.33203",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1041",
+        "ACPI\\INTC1046",
+        "ACPI\\INTC1048",
+        "ACPI\\INTC1049",
+        "ACPI\\INTC1060",
+        "ACPI\\INTC1061",
+        "ACPI\\INTC10A0",
+        "ACPI\\INTC10A1",
+        "ACPI\\INTC10A2",
+        "ACPI\\INTC10A3",
+        "ACPI\\INTC10A4",
+        "ACPI\\INTC10A5"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1041",
+        "ACPI\\INTC1046",
+        "ACPI\\INTC1048",
+        "ACPI\\INTC1049",
+        "ACPI\\INTC1060",
+        "ACPI\\INTC1061",
+        "ACPI\\INTC10A0",
+        "ACPI\\INTC10A1",
+        "ACPI\\INTC10A2",
+        "ACPI\\INTC10A3",
+        "ACPI\\INTC10A4",
+        "ACPI\\INTC10A5"
+      ],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Manager",
+        "Intel(R) Innovation Platform Framework Generic Participant",
+        "Intel(R) Innovation Platform Framework Fan Participant",
+        "Intel(R) Innovation Platform Framework PCH ACPI Participant",
+        "Intel(R) Innovation Platform Framework Power Participant",
+        "Intel(R) Innovation Platform Framework Battery Participant"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11202.7z.0001",
+          "size_bytes": 5443717,
+          "sha256": "bccd7fff39f480cba3e1f723848733a17ba57c2d0c5d9f7dffedec4f44c5fe53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1a2608d3143ae6e9",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "1.0.11202.33203",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3258",
+        "PCI\\VEN_8086&DEV_461D",
+        "PCI\\VEN_8086&DEV_A71D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Processor Participant"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11202.7z.0001",
+          "size_bytes": 5443717,
+          "sha256": "bccd7fff39f480cba3e1f723848733a17ba57c2d0c5d9f7dffedec4f44c5fe53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-81f5df78efe9a4a2",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2.0.10302.4",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Extensible Framework"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11202.7z.0001",
+          "size_bytes": 5443717,
+          "sha256": "bccd7fff39f480cba3e1f723848733a17ba57c2d0c5d9f7dffedec4f44c5fe53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11202.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bb7dbac7c5ef4516",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.0.11403.39038",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11403.7z.0001",
+          "size_bytes": 6799195,
+          "sha256": "1fcd88cca07ddc155eb64f9eef350d89deadcf7c1aed686efc2e166457e1c364",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-231a88b6b799cc31",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "1.0.11403.38401",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1041",
+        "ACPI\\INTC1042",
+        "ACPI\\INTC1046",
+        "ACPI\\INTC1048",
+        "ACPI\\INTC1049",
+        "ACPI\\INTC1060",
+        "ACPI\\INTC1061",
+        "ACPI\\INTC1062",
+        "ACPI\\INTC1063",
+        "ACPI\\INTC1064",
+        "ACPI\\INTC1065",
+        "ACPI\\INTC1066",
+        "ACPI\\INTC1067",
+        "ACPI\\INTC10A0",
+        "ACPI\\INTC10A1",
+        "ACPI\\INTC10A2",
+        "ACPI\\INTC10A3",
+        "ACPI\\INTC10A4",
+        "ACPI\\INTC10A5"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1041",
+        "ACPI\\INTC1042",
+        "ACPI\\INTC1046",
+        "ACPI\\INTC1048",
+        "ACPI\\INTC1049",
+        "ACPI\\INTC1060",
+        "ACPI\\INTC1061",
+        "ACPI\\INTC1062",
+        "ACPI\\INTC1063",
+        "ACPI\\INTC1064",
+        "ACPI\\INTC1065",
+        "ACPI\\INTC1066",
+        "ACPI\\INTC1067",
+        "ACPI\\INTC10A0",
+        "ACPI\\INTC10A1",
+        "ACPI\\INTC10A2",
+        "ACPI\\INTC10A3",
+        "ACPI\\INTC10A4",
+        "ACPI\\INTC10A5"
+      ],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Manager",
+        "Intel(R) Innovation Platform Framework Generic Participant",
+        "Intel(R) Innovation Platform Framework Fan Participant",
+        "Intel(R) Innovation Platform Framework PCH ACPI Participant",
+        "Intel(R) Innovation Platform Framework Power Participant",
+        "Intel(R) Innovation Platform Framework Battery Participant"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11403.7z.0001",
+          "size_bytes": 6799195,
+          "sha256": "1fcd88cca07ddc155eb64f9eef350d89deadcf7c1aed686efc2e166457e1c364",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c0ff54678807cd2a",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "1.0.11403.38401",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3258",
+        "PCI\\VEN_8086&DEV_461D",
+        "PCI\\VEN_8086&DEV_7D03",
+        "PCI\\VEN_8086&DEV_A71D",
+        "PCI\\VEN_8086&DEV_AD03"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Processor Participant"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11403.7z.0001",
+          "size_bytes": 6799195,
+          "sha256": "1fcd88cca07ddc155eb64f9eef350d89deadcf7c1aed686efc2e166457e1c364",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-abdb1a58bc06fe82",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2.1.10102.8",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Extensible Framework"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-1.0.11403.7z.0001",
+          "size_bytes": 6799195,
+          "sha256": "1fcd88cca07ddc155eb64f9eef350d89deadcf7c1aed686efc2e166457e1c364",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-syst-x64-1.0.11403.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a48be9850339d4ab",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.0.11404.39881",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11404.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.0.11404.7z.0001",
+          "size_bytes": 4303441,
+          "sha256": "736eb300fc0471f114ce4ae7f9fc77ad204a312d772b953e719ebddcaa92a8ef",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11404.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2fefdf41cd600f47",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.0.11405.42569",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11405.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.0.11405.7z.0001",
+          "size_bytes": 4348626,
+          "sha256": "042a76eafe9103ed535950c93574f47d7a05a74b516a2770ae4226f5e3891c2b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11405.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5d388071d131e113",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.0.11700.43962",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11700.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.0.11700.7z.0001",
+          "size_bytes": 4883679,
+          "sha256": "ca79558e69bf26f4b8ae1ececce473fde72dfdbae2048e93f0dd42d4b6fadcde",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11700.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a9ae7b3e113dd07e",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.1.10001.173",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10001.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "bdd4760fbf6a9aad6dc107642facec83a7c8b00a2bd7d96b77717b4fdbd25b0b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-9.1.10001.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "917ca858e2d7ecac78a5c65e6c9d12cc9ea09e39db4e7afcca42814f4d09804e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-9.1.10001.7z.0003",
+          "size_bytes": 14790376,
+          "sha256": "8f636f90fa12b02006ca0c5d0235a6851fd9319fb632c54e32eeb0060a21f435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6cb5612336543e40",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "9.1.10001.173",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Application Optimization Driver Component Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10001.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "bdd4760fbf6a9aad6dc107642facec83a7c8b00a2bd7d96b77717b4fdbd25b0b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-9.1.10001.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "917ca858e2d7ecac78a5c65e6c9d12cc9ea09e39db4e7afcca42814f4d09804e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-9.1.10001.7z.0003",
+          "size_bytes": 14790376,
+          "sha256": "8f636f90fa12b02006ca0c5d0235a6851fd9319fb632c54e32eeb0060a21f435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10001.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-99074e46ef8f8921",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.0.11905.54373",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology User Interface Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11905.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.0.11905.7z.0001",
+          "size_bytes": 1049030,
+          "sha256": "8549c65e2c60601543670ab96682df2744fbbdae90d85196b18a4cc1b4127036",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.0.11905.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5dbc834b7ff1c660",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "16.1.0.257",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) IGCL IPF Providers"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-16.1.0.257.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-16.1.0.257.7z.0001",
+          "size_bytes": 290921,
+          "sha256": "6cb2f124e479c7f58582c631343b9c93f411cad884a64fa1a2484fa864702568",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-16.1.0.257.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6d9b40a280aba9ae",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "21.0.0003.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) IPF Providers for Device Management"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-21.0.0003.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-21.0.0003.7z.0001",
+          "size_bytes": 1752405,
+          "sha256": "eea4fa7cec3d0ffa233a7b4a3d1f174036d4994ce1300dca586d8ec21d529cf9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-21.0.0003.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9cecfbd54dafdd31",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2.1.10601.0004",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Context Sensing Technology Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10601.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-2.1.10601.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "9b51f35ffb041ff4a882ee258a4bc5f89510b0bf54b7599f3b38df59b6592c96",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10601.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-2.1.10601.7z.0002",
+          "size_bytes": 10402234,
+          "sha256": "ee17c576fe97298d883f190c73bf14762f05ddff12c0e363d0e7cbc9a1a5da7f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2.1.10601.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-035c429ac417035a",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.1.10004.800",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10004.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a821e135e7dc107ece4abe1765c231522dab45b6b2133da0dfc313807c5d61bb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-9.1.10004.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "46ddb2db7fcbd5c4d01ace546bb01e3bf76945ef53c1927c2b135351f282e158",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-9.1.10004.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "ff719d336949a5d7cccf2fa2672a0b1dffc32893f1cdd81c312fcaa294fab76c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-soft-x64-9.1.10004.7z.0004",
+          "size_bytes": 14640265,
+          "sha256": "a7df18ac0380864d42f676aed22beddb1f2bd0a789a3fc9ce7cb54dd1fe5f14f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-aae67033269e37ff",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "9.1.10004.800",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Application Optimization Driver Component Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10004.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a821e135e7dc107ece4abe1765c231522dab45b6b2133da0dfc313807c5d61bb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-9.1.10004.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "46ddb2db7fcbd5c4d01ace546bb01e3bf76945ef53c1927c2b135351f282e158",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-9.1.10004.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "ff719d336949a5d7cccf2fa2672a0b1dffc32893f1cdd81c312fcaa294fab76c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-soft-x64-9.1.10004.7z.0004",
+          "size_bytes": 14640265,
+          "sha256": "a7df18ac0380864d42f676aed22beddb1f2bd0a789a3fc9ce7cb54dd1fe5f14f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10004.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb6fa38540634540",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.1.10009.1745",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology",
+        "Intel(R) Dynamic Tuning Technology Updater Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10009.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "21013659c7d750ba6d1d2e33b4df00746977c4517e507707c3a395f4c7195ee6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-9.1.10009.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2faf16d3670e1a465ad2f096394fe85449afccbaf74f753fdd7a46f6dd6a739f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-9.1.10009.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "23bcf20d7dc07ba861bc1dd2a1b2081c85d68112f94cde8bb0dcbf8be8310b24",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-soft-x64-9.1.10009.7z.0004",
+          "size_bytes": 4814277,
+          "sha256": "93c5215b40217a9bf0ec8f5018cc00639eba0d1bd588eb9fbb0173b3483ebe91",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8988608b488f49bd",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "System",
+      "version": "9.1.10009.1745",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Application Optimization Driver Component Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10009.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "21013659c7d750ba6d1d2e33b4df00746977c4517e507707c3a395f4c7195ee6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-9.1.10009.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2faf16d3670e1a465ad2f096394fe85449afccbaf74f753fdd7a46f6dd6a739f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-9.1.10009.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "23bcf20d7dc07ba861bc1dd2a1b2081c85d68112f94cde8bb0dcbf8be8310b24",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-soft-x64-9.1.10009.7z.0004",
+          "size_bytes": 4814277,
+          "sha256": "93c5215b40217a9bf0ec8f5018cc00639eba0d1bd588eb9fbb0173b3483ebe91",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10009.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4e1d405c426f6969",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "9.1.10005.898",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Dynamic Tuning Technology User Interface Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10005.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-9.1.10005.7z.0001",
+          "size_bytes": 1080322,
+          "sha256": "509213ea28336c11a5b77a3cd03a0869ff156ef9a8729a2d26b481d43d5f3a2a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-9.1.10005.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d28867e1b8ffcd74",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "21.0.0005.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) IPF Providers for Device Management"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-21.0.0005.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-21.0.0005.7z.0001",
+          "size_bytes": 1756341,
+          "sha256": "4c60e8edbda4869fda9870ccea1cd0fac3cbb810841a14c427dab7897a18f898",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-21.0.0005.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7d2b12fe32246dd",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareDevice",
+      "version": "1.13.100.4",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\SGXLCDEVICE_DCAP"
+      ],
+      "compatible_ids": [
+        "ROOT\\SGXLCDEVICE_DCAP"
+      ],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Software Guard Extensions DCAP Components Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-1.13.100.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-1.13.100.4.7z.0001",
+          "size_bytes": 1485714,
+          "sha256": "c210505e7bd5a7b961ccd138bcd04e785a6296002b2f7f15398e02144b33feae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-1.13.100.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dcabbdefcfd4723c",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.22.100.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-1.22.100.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-1.22.100.3.7z.0001",
+          "size_bytes": 295812,
+          "sha256": "31a6e8603194dc69b0e7d606c400d77500920e243f2f5d51e4e1ca3ec1a30838",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-1.22.100.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7d50c11f04e42430",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.24.100.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-1.24.100.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-1.24.100.2.7z.0001",
+          "size_bytes": 298530,
+          "sha256": "8238dcd1689ec06902e9072a57e9f322e3154cec72352dcd7bad09b8b98072ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-1.24.100.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f7aaeda1bd680a46",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "2.27.100.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-2.27.100.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-2.27.100.1.7z.0001",
+          "size_bytes": 11910556,
+          "sha256": "6ac6143356e791120993f5306a7c59e438d7403a479703dba27cfb375a381af8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-2.27.100.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4356ff4f843ab23c",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.62.321.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) iCLS Client"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x86-1.62.321.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x86-1.62.321.1.7z.0001",
+          "size_bytes": 14705223,
+          "sha256": "d1d36de7e8717cc1dc2edee1ef5e0be6cc34c7ed3e3155e4adc8c785d6574690",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x86-1.62.321.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ed4f6e4d8d9bd07b",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.67.548.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) iCLS Client"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.67.548.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.67.548.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d4ebe5ada2e754157016ba43fffedc0d1a7b93c2de7269a5a048a7a8b5ee38b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.67.548.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-1.67.548.0.7z.0002",
+          "size_bytes": 436302,
+          "sha256": "8ab9f76a671b53b5e2e6ec8839cbb1597ca6707f3f8615a8964f7a5dc95988e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.67.548.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4e9fbebbe21a8b26",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.74.210.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) iCLS Client"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.74.210.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.74.210.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a0f34633383a44236523dbb901801d457a969f63e42b36b710abde2ced78c7a5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.74.210.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-1.74.210.0.7z.0002",
+          "size_bytes": 1381031,
+          "sha256": "6d17b70c89c3dee59caeaaf5e002db72c0210fd393acf40de2fcb49ef6bf9b13",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.74.210.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7aa50b1884253c25",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.80.173.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) iCLS Client"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.80.173.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.80.173.0.7z.0001",
+          "size_bytes": 14963204,
+          "sha256": "16017130f4cac5f10351b28f45af41cc206cb3a3b13a5e2d16b086ef718aac25",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.80.173.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-36b89086ac5f9899",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "4.1024.1009.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Connectivity Performance Suite"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-4.1024.100.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-4.1024.100.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "2d1a40ae8cff88154f7102e7e98b174c0b9a54561c8e92d5f0eef0b29633e8fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-4.1024.100.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelcor-soft-x64-4.1024.100.7z.0002",
+          "size_bytes": 2905755,
+          "sha256": "65b31a6feb737e3a7d94318f990f45264dc165f409df6f70ea4578b3ff4f7c00",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-4.1024.100.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-35c92aa6171d6fc5",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "50.25.1015.183",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Connectivity Performance Suite"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-50.25.1015.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-50.25.1015.7z.0001",
+          "size_bytes": 6437921,
+          "sha256": "dfecc11b815eea15cf19215947d39474b2a9d96e1a639dd9704b266e65a22f3b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-50.25.1015.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8a8a118bc2e3bc9b",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2316.5.1.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Management and Security Application Local Management"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2316.5.1.1.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-2316.5.1.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "415a6ac52db18bae3a25e634b1e5453e178038d681026ce3995d87419dd511cd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2316.5.1.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-2316.5.1.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "3c3dd4c86812fc63b7c69d79819a55f2a467e285b8f74b1d4f5b919a09012385",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2316.5.1.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-2316.5.1.1.7z.0003",
+          "size_bytes": 5432604,
+          "sha256": "32744111f91557df541f8fa07dfc0dc4bc53691d421eb9917b3fe56385ac7940",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2316.5.1.1.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dbaa8c87b2fa9294",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2613.9.7.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Management and Security Application Local Management"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2613.9.7.0.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-2613.9.7.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "43ea1463ba11ec09c8dfa3c29b1cbb9b640f30aad88d79315831aec998104fa1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2613.9.7.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-2613.9.7.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "60021e20a894c89db26ae58366b89a31e67f226d58b4346d498a4cbbe0a30303",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2613.9.7.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-2613.9.7.0.7z.0003",
+          "size_bytes": 4064784,
+          "sha256": "e269c7f3caa6530a576dc9ad6741a1c0fee63cabc0efedc44a40dbe0c27a681c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2613.9.7.0.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7cf703677293c7b2",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.0.00000.147",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) PPM Provisioning Package"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.0.00000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.0.00000.7z.0001",
+          "size_bytes": 282739,
+          "sha256": "0502faeb79c4b171b76c71c1a1e7795c110e19412ca05238cb155ea75f303e4f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.0.00000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-12c63bca22eb85c1",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.0.00000.233",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) PPM Provisioning Package"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.0.00000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.0.00000.7z.0001",
+          "size_bytes": 304470,
+          "sha256": "1412cd24b6eac87bfe938ff1342000ed644912e7a77071d757da4dfcb17dedec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.0.00000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4f8f3168b7524cc7",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "1.0.00000.255",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) PPM Provisioning Package"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.0.00000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-1.0.00000.7z.0001",
+          "size_bytes": 303390,
+          "sha256": "170b5e1caeec283359046a2c4e1b9aee54d97dfcf6872f7e726b32c3b2663a26",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-1.0.00000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eb23574c0462f4a1",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.9.000.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "SmartScaling Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-soft-x64-1.9.000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-soft-x64-1.9.000.0.7z.0001",
+          "size_bytes": 216117,
+          "sha256": "71e1bfc0cc9ca2aca005fe9fa263bd88ea95a778cb5a41016a262f6ed048fecb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-soft-x64-1.9.000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b419c5ed0a5522cb",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "1.41.1134.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1134",
+        "PCI\\VEN_8086&DEV_1137",
+        "PCI\\VEN_8086&DEV_1575&CC_0880",
+        "PCI\\VEN_8086&DEV_1577&CC_0880",
+        "PCI\\VEN_8086&DEV_15BF&CC_0880",
+        "PCI\\VEN_8086&DEV_15D2&CC_0880",
+        "PCI\\VEN_8086&DEV_15D9&CC_0880",
+        "PCI\\VEN_8086&DEV_15DC&CC_0880",
+        "PCI\\VEN_8086&DEV_15DD&CC_0880",
+        "PCI\\VEN_8086&DEV_15DE&CC_0880",
+        "PCI\\VEN_8086&DEV_15E8&CC_0880",
+        "PCI\\VEN_8086&DEV_15EB&CC_0880",
+        "PCI\\VEN_8086&DEV_463E&CC_0C03",
+        "PCI\\VEN_8086&DEV_464E&CC_0C03",
+        "PCI\\VEN_8086&DEV_465E&CC_0C03",
+        "PCI\\VEN_8086&DEV_466D&CC_0C03",
+        "PCI\\VEN_8086&DEV_467D&CC_0C03",
+        "PCI\\VEN_8086&DEV_468D&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EB2&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EC2&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EC3&CC_0C03",
+        "PCI\\VEN_8086&DEV_8A0D&CC_0880",
+        "PCI\\VEN_8086&DEV_8A17&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA3&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB3&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1B&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1B&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A1D&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1D&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A1F&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1F&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A21&CC_0880",
+        "PCI\\VEN_8086&DEV_9A21&CC_0C03"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Controller - 1575",
+        "Thunderbolt(TM) Controller - 1577",
+        "Thunderbolt(TM) Controller - 15BF",
+        "Thunderbolt(TM) Controller - 15D2",
+        "Thunderbolt(TM) Controller - 15D9",
+        "Thunderbolt(TM) Controller - 15E8",
+        "Thunderbolt(TM) Controller - 15EB",
+        "Thunderbolt(TM) Controller - 1137",
+        "Thunderbolt(TM) Controller - 1134"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1134.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1134.7z.0001",
+          "size_bytes": 1002741,
+          "sha256": "68cc7fd851f18fd4ab9c9ba1abc79ed0421a5bbd532dd309fe8c588d154a04d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1134.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-21c8022e222ffbda",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.41.1134.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1134.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1134.7z.0001",
+          "size_bytes": 1002741,
+          "sha256": "68cc7fd851f18fd4ab9c9ba1abc79ed0421a5bbd532dd309fe8c588d154a04d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1134.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-96b19aa95905ebac",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "Net",
+      "version": "1.41.1134.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Networking"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1134.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1134.7z.0001",
+          "size_bytes": 1002741,
+          "sha256": "68cc7fd851f18fd4ab9c9ba1abc79ed0421a5bbd532dd309fe8c588d154a04d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1134.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-11350a8aaf73e94e",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "1.41.1155.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1134",
+        "PCI\\VEN_8086&DEV_1137",
+        "PCI\\VEN_8086&DEV_1575&CC_0880",
+        "PCI\\VEN_8086&DEV_1577&CC_0880",
+        "PCI\\VEN_8086&DEV_15BF&CC_0880",
+        "PCI\\VEN_8086&DEV_15D2&CC_0880",
+        "PCI\\VEN_8086&DEV_15D9&CC_0880",
+        "PCI\\VEN_8086&DEV_15DC&CC_0880",
+        "PCI\\VEN_8086&DEV_15DD&CC_0880",
+        "PCI\\VEN_8086&DEV_15DE&CC_0880",
+        "PCI\\VEN_8086&DEV_15E8&CC_0880",
+        "PCI\\VEN_8086&DEV_15EB&CC_0880",
+        "PCI\\VEN_8086&DEV_463E",
+        "PCI\\VEN_8086&DEV_466D",
+        "PCI\\VEN_8086&DEV_7EB2",
+        "PCI\\VEN_8086&DEV_7EC2",
+        "PCI\\VEN_8086&DEV_7EC3",
+        "PCI\\VEN_8086&DEV_8A0D&CC_0880",
+        "PCI\\VEN_8086&DEV_8A17&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA3&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB3&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1B",
+        "PCI\\VEN_8086&DEV_9A1B&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1D",
+        "PCI\\VEN_8086&DEV_9A1D&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1F",
+        "PCI\\VEN_8086&DEV_9A1F&CC_0880",
+        "PCI\\VEN_8086&DEV_9A21",
+        "PCI\\VEN_8086&DEV_9A21&CC_0880"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Controller - 1575",
+        "Thunderbolt(TM) Controller - 1577",
+        "Thunderbolt(TM) Controller - 15BF",
+        "Thunderbolt(TM) Controller - 15D2",
+        "Thunderbolt(TM) Controller - 15D9",
+        "Thunderbolt(TM) Controller - 15E8",
+        "Thunderbolt(TM) Controller - 15EB",
+        "Thunderbolt(TM) Controller - 1137",
+        "Thunderbolt(TM) Controller - 1134"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1155.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1155.7z.0001",
+          "size_bytes": 1012279,
+          "sha256": "d44c7c203ee49e121aa54dcab28ab4ca3f4291cc56e1ce8f3e46b6c174c67594",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1155.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6792a8de59d1bc03",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.41.1155.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1155.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1155.7z.0001",
+          "size_bytes": 1012279,
+          "sha256": "d44c7c203ee49e121aa54dcab28ab4ca3f4291cc56e1ce8f3e46b6c174c67594",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1155.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7c93c6fc762e9258",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "Net",
+      "version": "1.41.1155.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Networking"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1155.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1155.7z.0001",
+          "size_bytes": 1012279,
+          "sha256": "d44c7c203ee49e121aa54dcab28ab4ca3f4291cc56e1ce8f3e46b6c174c67594",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1155.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-904b70343956fa7b",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "1.41.1229.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1134",
+        "PCI\\VEN_8086&DEV_1137",
+        "PCI\\VEN_8086&DEV_1575&CC_0880",
+        "PCI\\VEN_8086&DEV_1577&CC_0880",
+        "PCI\\VEN_8086&DEV_15BF&CC_0880",
+        "PCI\\VEN_8086&DEV_15D2&CC_0880",
+        "PCI\\VEN_8086&DEV_15D9&CC_0880",
+        "PCI\\VEN_8086&DEV_15DC&CC_0880",
+        "PCI\\VEN_8086&DEV_15DD&CC_0880",
+        "PCI\\VEN_8086&DEV_15DE&CC_0880",
+        "PCI\\VEN_8086&DEV_15E8&CC_0880",
+        "PCI\\VEN_8086&DEV_15EB&CC_0880",
+        "PCI\\VEN_8086&DEV_463E&CC_0C03",
+        "PCI\\VEN_8086&DEV_466D&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EB2&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EC2&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EC3&CC_0C03",
+        "PCI\\VEN_8086&DEV_8A0D&CC_0880",
+        "PCI\\VEN_8086&DEV_8A17&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA3&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB3&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1B&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1B&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A1D&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1D&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A1F&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1F&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A21&CC_0880",
+        "PCI\\VEN_8086&DEV_9A21&CC_0C03"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Controller - 1575",
+        "Thunderbolt(TM) Controller - 1577",
+        "Thunderbolt(TM) Controller - 15BF",
+        "Thunderbolt(TM) Controller - 15D2",
+        "Thunderbolt(TM) Controller - 15D9",
+        "Thunderbolt(TM) Controller - 15E8",
+        "Thunderbolt(TM) Controller - 15EB",
+        "Thunderbolt(TM) Controller - 1137",
+        "Thunderbolt(TM) Controller - 1134"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1229.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1229.7z.0001",
+          "size_bytes": 1064500,
+          "sha256": "6265bdaf8fd676f87e3cf1f01b88033a7c8eced31d851585bc6504ddf433a04e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1229.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7670e7fb742311f",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.41.1229.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1229.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1229.7z.0001",
+          "size_bytes": 1064500,
+          "sha256": "6265bdaf8fd676f87e3cf1f01b88033a7c8eced31d851585bc6504ddf433a04e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1229.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5ad7732814e774af",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "Net",
+      "version": "1.41.1229.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Networking"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1229.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1229.7z.0001",
+          "size_bytes": 1064500,
+          "sha256": "6265bdaf8fd676f87e3cf1f01b88033a7c8eced31d851585bc6504ddf433a04e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1229.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c5ffbc3e5e0b96ad",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "1.41.1379.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1134",
+        "PCI\\VEN_8086&DEV_1137",
+        "PCI\\VEN_8086&DEV_1575&CC_0880",
+        "PCI\\VEN_8086&DEV_1577&CC_0880",
+        "PCI\\VEN_8086&DEV_15BF&CC_0880",
+        "PCI\\VEN_8086&DEV_15D2&CC_0880",
+        "PCI\\VEN_8086&DEV_15D9&CC_0880",
+        "PCI\\VEN_8086&DEV_15DC&CC_0880",
+        "PCI\\VEN_8086&DEV_15DD&CC_0880",
+        "PCI\\VEN_8086&DEV_15DE&CC_0880",
+        "PCI\\VEN_8086&DEV_15E8&CC_0880",
+        "PCI\\VEN_8086&DEV_15EB&CC_0880",
+        "PCI\\VEN_8086&DEV_463E&CC_0C03",
+        "PCI\\VEN_8086&DEV_466D&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EB2&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EC2&CC_0C03",
+        "PCI\\VEN_8086&DEV_7EC3&CC_0C03",
+        "PCI\\VEN_8086&DEV_8A0D&CC_0880",
+        "PCI\\VEN_8086&DEV_8A17&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AA3&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB0&CC_0880",
+        "PCI\\VEN_8086&DEV_8AB3&CC_0880",
+        "PCI\\VEN_8086&DEV_9A1B&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A1D&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A1F&CC_0C03",
+        "PCI\\VEN_8086&DEV_9A21&CC_0C03",
+        "PCI\\VEN_8086&DEV_A73E&CC_0C03",
+        "PCI\\VEN_8086&DEV_A76D&CC_0C03",
+        "PCI\\VEN_8086&DEV_A833&CC_0C03",
+        "PCI\\VEN_8086&DEV_A834&CC_0C03"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Controller - 1575",
+        "Thunderbolt(TM) Controller - 1577",
+        "Thunderbolt(TM) Controller - 15BF",
+        "Thunderbolt(TM) Controller - 15D2",
+        "Thunderbolt(TM) Controller - 15D9",
+        "Thunderbolt(TM) Controller - 15E8",
+        "Thunderbolt(TM) Controller - 15EB",
+        "Thunderbolt(TM) Controller - 1137",
+        "Thunderbolt(TM) Controller - 1134"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1379.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1379.7z.0001",
+          "size_bytes": 1116210,
+          "sha256": "b67875f2f3a23e07545d4bc5ec93bb727c90e0bdc1ae571cc036511c25f657bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1379.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e6962d937002b409",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.41.1379.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1379.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1379.7z.0001",
+          "size_bytes": 1116210,
+          "sha256": "b67875f2f3a23e07545d4bc5ec93bb727c90e0bdc1ae571cc036511c25f657bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1379.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3b46900f78ad0db2",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "Net",
+      "version": "1.41.1379.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Thunderbolt(TM) Networking"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1379.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-1.41.1379.7z.0001",
+          "size_bytes": 1116210,
+          "sha256": "b67875f2f3a23e07545d4bc5ec93bb727c90e0bdc1ae571cc036511c25f657bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelrco-syst-x64-1.41.1379.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42bcab5107044382",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "246.80.204.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Wireless Manageability"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-246.80.204.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-246.80.204.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "b7e07bf1023c97bb5936e955de9d8ddabe285b113479958043c174b811c98809",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-246.80.204.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-246.80.204.7z.0002",
+          "size_bytes": 6588668,
+          "sha256": "a57be98402108351e817672f160467e5110380c644ddc0337ed0968ca43243f8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-246.80.204.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2df3349a7e4bdefb",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2543.98.178.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Wireless Manageability"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2543.98.17.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-2543.98.17.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "84481bf41d1f16695a28503f8ac5979a7bd053f264ad0aed10dfd5f339bcc80a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2543.98.17.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-2543.98.17.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "5e7aa875b15a188b980d42a1ceee948cf7e933c768dbff4509a45fc5276fd33b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2543.98.17.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-2543.98.17.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "b326b182eaa4d28389621d33c9b4dbf5d25a922064813b7781662f74c62f9628",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2543.98.17.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-soft-x64-2543.98.17.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "2c6d47882fc8aa075229346bbba145eb7ae70a753490e5c17574ba229286d3b3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2543.98.17.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-soft-x64-2543.98.17.7z.0005",
+          "size_bytes": 8097121,
+          "sha256": "a3b0fef092a5686036593d7ac47ef841b7e3c2d25163cdb5319a35e52b3b1b81",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-2543.98.17.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-be43437ed639c3eb",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "267.102.85.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Wireless Manageability"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-267.102.85.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a62092693f15b481e22d83a8e7cd8cb2efeabda099aa04e951888122df8f2b61",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intel-soft-x64-267.102.85.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "79f4af90cbfd0a56bc3f3725cc1313d4690b5192ccc65c0f3a12b1805c122872",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intel-soft-x64-267.102.85.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "55a6645caddfb49aeed6e7e0fac0cc6241b08d3333a322cd26903e41407ef257",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intel-soft-x64-267.102.85.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "2bccdf2b8f0d8917ae68ce0af99ab5144a4577488a603791c85db8ed2492e5ba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intel-soft-x64-267.102.85.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "3e5cb1e687152a29f3237ffd6c038e9abb7f8a5abd7df15aec5f8388eaca760c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intel-soft-x64-267.102.85.7z.0006",
+          "size_bytes": 14212443,
+          "sha256": "5588eabfdc9fa8d0ecde3576b0d9d3e0b1aba9ead271c403f59f9778d63148ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x64-267.102.85.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f3fe02c3ba3f5139",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2408.5.4.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Management Engine WMI Provider"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x86-2408.5.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x86-2408.5.4.0.7z.0001",
+          "size_bytes": 916297,
+          "sha256": "41e9086e761b1c9fce0464ac4cb6cef26b7306212e6e3b958c406310a70f54e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x86-2408.5.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-7d1d8dd10e665edb",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a4a30e0c47f9c877",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2546.9.2.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Management Engine WMI Provider"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x86-2546.9.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x86-2546.9.2.0.7z.0001",
+          "size_bytes": 929231,
+          "sha256": "48856171af264ec6e0f010494cc03e5cfaf4661d46bcef62502b5111cfdabc61",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intel-soft-x86-2546.9.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-7d1d8dd10e665edb",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0779c2c2de81e865",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "namazso",
+      "category": "SoftwareDevice",
+      "version": "2.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\PAWNIO"
+      ],
+      "compatible_ids": [
+        "ROOT\\PAWNIO"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/namazso-soft-x64-2.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "namazso-soft-x64-2.1.0.0.7z.0001",
+          "size_bytes": 40970,
+          "sha256": "5e7580bcad77585197ba37c022430c660d7acd67d4ee9d94150f6127812c10a1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/namazso-soft-x64-2.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ff0acfea3af1cec6",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "NVIDIA",
+      "category": "SoftwareDevice",
+      "version": "32.0.16.1029",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\NVDA0820"
+      ],
+      "compatible_ids": [
+        "ACPI\\NVDA0820"
+      ],
+      "descriptions": [
+        "NVIDIA",
+        "NVIDIA Platform Controllers and Framework"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/nvidia-soft-x64-32.0.16.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "nvidia-soft-x64-32.0.16.10.7z.0001",
+          "size_bytes": 141948,
+          "sha256": "efbcb4bd6ecac669852162c8d47834736235c835f1ecb3ffd998a3cc0f7b49c3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/nvidia-soft-x64-32.0.16.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3ff68dc839132158",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Parade Technologies, Ltd.",
+      "category": "Firmware",
+      "version": "1.0.008.00",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VID_045E&UP"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Parade Technologies, Ltd.",
+        "PS8830 Firmware Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/paradete-firm-x64-1.0.008.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "paradete-firm-x64-1.0.008.00.7z.0001",
+          "size_bytes": 191620,
+          "sha256": "3d605abb21871ead08d75d74d5d2f64da23d6cc82e596f29283bb3a345db74aa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/paradete-firm-x64-1.0.008.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1213fa3ad43dcd06",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Parade Technologies, Ltd.",
+      "category": "Firmware",
+      "version": "1.0.017.00",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PS883008",
+        "ACPI\\PS883010",
+        "ACPI\\PS883018",
+        "ACPI\\PS883020",
+        "ACPI\\PS883028",
+        "ACPI\\PS883030",
+        "ACPI\\PS883038",
+        "ACPI\\PS883040",
+        "ACPI\\PS883308",
+        "ACPI\\PS883310",
+        "ACPI\\PS883318",
+        "ACPI\\PS883320",
+        "ACPI\\PS883328",
+        "ACPI\\PS883330",
+        "ACPI\\PS883338",
+        "ACPI\\PS883340",
+        "ACPI\\PS883508",
+        "ACPI\\PS883510",
+        "ACPI\\PS883518",
+        "ACPI\\PS883520",
+        "ACPI\\PS883528",
+        "ACPI\\PS883530",
+        "ACPI\\PS883538",
+        "ACPI\\PS883540",
+        "ACPI\\PS883608",
+        "ACPI\\PS883610",
+        "ACPI\\PS883618",
+        "ACPI\\PS883620",
+        "ACPI\\PS883628",
+        "ACPI\\PS883630",
+        "ACPI\\PS883638",
+        "ACPI\\PS883640",
+        "ACPI\\PS883708",
+        "ACPI\\PS883710",
+        "ACPI\\PS883718",
+        "ACPI\\PS883720",
+        "ACPI\\PS883728",
+        "ACPI\\PS883730",
+        "ACPI\\PS883738",
+        "ACPI\\PS883740",
+        "ACPI\\PS883808",
+        "ACPI\\PS883810",
+        "ACPI\\PS883818",
+        "ACPI\\PS883820",
+        "ACPI\\PS883828",
+        "ACPI\\PS883830",
+        "ACPI\\PS883838",
+        "ACPI\\PS883840"
+      ],
+      "compatible_ids": [
+        "ACPI\\PS883008",
+        "ACPI\\PS883010",
+        "ACPI\\PS883018",
+        "ACPI\\PS883020",
+        "ACPI\\PS883028",
+        "ACPI\\PS883030",
+        "ACPI\\PS883038",
+        "ACPI\\PS883040",
+        "ACPI\\PS883308",
+        "ACPI\\PS883310",
+        "ACPI\\PS883318",
+        "ACPI\\PS883320",
+        "ACPI\\PS883328",
+        "ACPI\\PS883330",
+        "ACPI\\PS883338",
+        "ACPI\\PS883340",
+        "ACPI\\PS883508",
+        "ACPI\\PS883510",
+        "ACPI\\PS883518",
+        "ACPI\\PS883520",
+        "ACPI\\PS883528",
+        "ACPI\\PS883530",
+        "ACPI\\PS883538",
+        "ACPI\\PS883540",
+        "ACPI\\PS883608",
+        "ACPI\\PS883610",
+        "ACPI\\PS883618",
+        "ACPI\\PS883620",
+        "ACPI\\PS883628",
+        "ACPI\\PS883630",
+        "ACPI\\PS883638",
+        "ACPI\\PS883640",
+        "ACPI\\PS883708",
+        "ACPI\\PS883710",
+        "ACPI\\PS883718",
+        "ACPI\\PS883720",
+        "ACPI\\PS883728",
+        "ACPI\\PS883730",
+        "ACPI\\PS883738",
+        "ACPI\\PS883740",
+        "ACPI\\PS883808",
+        "ACPI\\PS883810",
+        "ACPI\\PS883818",
+        "ACPI\\PS883820",
+        "ACPI\\PS883828",
+        "ACPI\\PS883830",
+        "ACPI\\PS883838",
+        "ACPI\\PS883840"
+      ],
+      "descriptions": [
+        "Parade Technologies, Ltd.",
+        "PRHidDrv10 PS883008 Peripheral Driver",
+        "PRHidDrv20 PS883010 Peripheral Driver",
+        "PRHidDrv30 PS883018 Peripheral Driver",
+        "PRHidDrv40 PS883020 Peripheral Driver",
+        "PRHidDrv50 PS883028 Peripheral Driver",
+        "PRHidDrv60 PS883030 Peripheral Driver",
+        "PRHidDrv70 PS883038 Peripheral Driver",
+        "PRHidDrv80 PS883040 Peripheral Driver",
+        "PRHidDrv10 PS883308 Peripheral Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/paradete-firm-x64-1.0.017.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "paradete-firm-x64-1.0.017.00.7z.0001",
+          "size_bytes": 90890,
+          "sha256": "23e2349b39e6882c7e86811e6b544ad213f83350ff6636bb3d30440fc755c9d1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/paradete-firm-x64-1.0.017.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c8c221523731058",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Parade Technologies, Ltd.",
+      "category": "Firmware",
+      "version": "1.0.018.00",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PS883009",
+        "ACPI\\PS88300A",
+        "ACPI\\PS88300B",
+        "ACPI\\PS88300C",
+        "ACPI\\PS88300D",
+        "ACPI\\PS88300E",
+        "ACPI\\PS88300F",
+        "ACPI\\PS883011",
+        "ACPI\\PS883012",
+        "ACPI\\PS883013",
+        "ACPI\\PS883014",
+        "ACPI\\PS883015",
+        "ACPI\\PS883016",
+        "ACPI\\PS883017",
+        "ACPI\\PS883019",
+        "ACPI\\PS88301A",
+        "ACPI\\PS88301B",
+        "ACPI\\PS88301C",
+        "ACPI\\PS88301D",
+        "ACPI\\PS88301E",
+        "ACPI\\PS88301F",
+        "ACPI\\PS883021",
+        "ACPI\\PS883022",
+        "ACPI\\PS883023",
+        "ACPI\\PS883024",
+        "ACPI\\PS883025",
+        "ACPI\\PS883026",
+        "ACPI\\PS883027",
+        "ACPI\\PS883029",
+        "ACPI\\PS88302A",
+        "ACPI\\PS88302B",
+        "ACPI\\PS88302C",
+        "ACPI\\PS88302D",
+        "ACPI\\PS88302E",
+        "ACPI\\PS88302F",
+        "ACPI\\PS883031",
+        "ACPI\\PS883032",
+        "ACPI\\PS883033",
+        "ACPI\\PS883034",
+        "ACPI\\PS883035",
+        "ACPI\\PS883036",
+        "ACPI\\PS883037",
+        "ACPI\\PS883039",
+        "ACPI\\PS88303A",
+        "ACPI\\PS88303B",
+        "ACPI\\PS88303C",
+        "ACPI\\PS88303D",
+        "ACPI\\PS88303E",
+        "ACPI\\PS88303F",
+        "ACPI\\PS883041",
+        "ACPI\\PS883042",
+        "ACPI\\PS883043",
+        "ACPI\\PS883044",
+        "ACPI\\PS883045",
+        "ACPI\\PS883046",
+        "ACPI\\PS883047",
+        "ACPI\\PS883049",
+        "ACPI\\PS88304A",
+        "ACPI\\PS88304B",
+        "ACPI\\PS88304C",
+        "ACPI\\PS88304D",
+        "ACPI\\PS88304E",
+        "ACPI\\PS88304F",
+        "ACPI\\PS883309",
+        "ACPI\\PS88330A",
+        "ACPI\\PS88330B",
+        "ACPI\\PS88330C",
+        "ACPI\\PS88330D",
+        "ACPI\\PS88330E",
+        "ACPI\\PS88330F",
+        "ACPI\\PS883311",
+        "ACPI\\PS883312",
+        "ACPI\\PS883313",
+        "ACPI\\PS883314",
+        "ACPI\\PS883315",
+        "ACPI\\PS883316",
+        "ACPI\\PS883317",
+        "ACPI\\PS883319",
+        "ACPI\\PS88331A",
+        "ACPI\\PS88331B",
+        "ACPI\\PS88331C",
+        "ACPI\\PS88331D",
+        "ACPI\\PS88331E",
+        "ACPI\\PS88331F",
+        "ACPI\\PS883321",
+        "ACPI\\PS883322",
+        "ACPI\\PS883323",
+        "ACPI\\PS883324",
+        "ACPI\\PS883325",
+        "ACPI\\PS883326",
+        "ACPI\\PS883327",
+        "ACPI\\PS883329",
+        "ACPI\\PS88332A",
+        "ACPI\\PS88332B",
+        "ACPI\\PS88332C",
+        "ACPI\\PS88332D",
+        "ACPI\\PS88332E",
+        "ACPI\\PS88332F",
+        "ACPI\\PS883331",
+        "ACPI\\PS883332",
+        "ACPI\\PS883333",
+        "ACPI\\PS883334",
+        "ACPI\\PS883335",
+        "ACPI\\PS883336",
+        "ACPI\\PS883337",
+        "ACPI\\PS883339",
+        "ACPI\\PS88333A",
+        "ACPI\\PS88333B",
+        "ACPI\\PS88333C",
+        "ACPI\\PS88333D",
+        "ACPI\\PS88333E",
+        "ACPI\\PS88333F",
+        "ACPI\\PS883341",
+        "ACPI\\PS883342",
+        "ACPI\\PS883343",
+        "ACPI\\PS883344",
+        "ACPI\\PS883345",
+        "ACPI\\PS883346",
+        "ACPI\\PS883347",
+        "ACPI\\PS883349",
+        "ACPI\\PS88334A",
+        "ACPI\\PS88334B",
+        "ACPI\\PS88334C",
+        "ACPI\\PS88334D",
+        "ACPI\\PS88334E",
+        "ACPI\\PS88334F",
+        "ACPI\\PS883509",
+        "ACPI\\PS88350A",
+        "ACPI\\PS88350B",
+        "ACPI\\PS88350C",
+        "ACPI\\PS88350D",
+        "ACPI\\PS88350E",
+        "ACPI\\PS88350F",
+        "ACPI\\PS883511",
+        "ACPI\\PS883512",
+        "ACPI\\PS883513",
+        "ACPI\\PS883514",
+        "ACPI\\PS883515",
+        "ACPI\\PS883516",
+        "ACPI\\PS883517",
+        "ACPI\\PS883519",
+        "ACPI\\PS88351A",
+        "ACPI\\PS88351B",
+        "ACPI\\PS88351C",
+        "ACPI\\PS88351D",
+        "ACPI\\PS88351E",
+        "ACPI\\PS88351F",
+        "ACPI\\PS883521",
+        "ACPI\\PS883522",
+        "ACPI\\PS883523",
+        "ACPI\\PS883524",
+        "ACPI\\PS883525",
+        "ACPI\\PS883526",
+        "ACPI\\PS883527",
+        "ACPI\\PS883529",
+        "ACPI\\PS88352A",
+        "ACPI\\PS88352B",
+        "ACPI\\PS88352C",
+        "ACPI\\PS88352D",
+        "ACPI\\PS88352E",
+        "ACPI\\PS88352F",
+        "ACPI\\PS883531",
+        "ACPI\\PS883532",
+        "ACPI\\PS883533",
+        "ACPI\\PS883534",
+        "ACPI\\PS883535",
+        "ACPI\\PS883536",
+        "ACPI\\PS883537",
+        "ACPI\\PS883539",
+        "ACPI\\PS88353A",
+        "ACPI\\PS88353B",
+        "ACPI\\PS88353C",
+        "ACPI\\PS88353D",
+        "ACPI\\PS88353E",
+        "ACPI\\PS88353F",
+        "ACPI\\PS883541",
+        "ACPI\\PS883542",
+        "ACPI\\PS883543",
+        "ACPI\\PS883544",
+        "ACPI\\PS883545",
+        "ACPI\\PS883546",
+        "ACPI\\PS883547",
+        "ACPI\\PS883549",
+        "ACPI\\PS88354A",
+        "ACPI\\PS88354B",
+        "ACPI\\PS88354C",
+        "ACPI\\PS88354D",
+        "ACPI\\PS88354E",
+        "ACPI\\PS88354F",
+        "ACPI\\PS883609",
+        "ACPI\\PS88360A",
+        "ACPI\\PS88360B",
+        "ACPI\\PS88360C",
+        "ACPI\\PS88360D",
+        "ACPI\\PS88360E",
+        "ACPI\\PS88360F",
+        "ACPI\\PS883611",
+        "ACPI\\PS883612",
+        "ACPI\\PS883613",
+        "ACPI\\PS883614",
+        "ACPI\\PS883615",
+        "ACPI\\PS883616",
+        "ACPI\\PS883617",
+        "ACPI\\PS883619",
+        "ACPI\\PS88361A",
+        "ACPI\\PS88361B",
+        "ACPI\\PS88361C",
+        "ACPI\\PS88361D",
+        "ACPI\\PS88361E",
+        "ACPI\\PS88361F",
+        "ACPI\\PS883621",
+        "ACPI\\PS883622",
+        "ACPI\\PS883623",
+        "ACPI\\PS883624",
+        "ACPI\\PS883625",
+        "ACPI\\PS883626",
+        "ACPI\\PS883627",
+        "ACPI\\PS883629",
+        "ACPI\\PS88362A",
+        "ACPI\\PS88362B",
+        "ACPI\\PS88362C",
+        "ACPI\\PS88362D",
+        "ACPI\\PS88362E",
+        "ACPI\\PS88362F",
+        "ACPI\\PS883631",
+        "ACPI\\PS883632",
+        "ACPI\\PS883633",
+        "ACPI\\PS883634",
+        "ACPI\\PS883635",
+        "ACPI\\PS883636",
+        "ACPI\\PS883637",
+        "ACPI\\PS883639",
+        "ACPI\\PS88363A",
+        "ACPI\\PS88363B",
+        "ACPI\\PS88363C",
+        "ACPI\\PS88363D",
+        "ACPI\\PS88363E",
+        "ACPI\\PS88363F",
+        "ACPI\\PS883641",
+        "ACPI\\PS883642",
+        "ACPI\\PS883643",
+        "ACPI\\PS883644",
+        "ACPI\\PS883645",
+        "ACPI\\PS883646",
+        "ACPI\\PS883647",
+        "ACPI\\PS883649",
+        "ACPI\\PS88364A",
+        "ACPI\\PS88364B",
+        "ACPI\\PS88364C",
+        "ACPI\\PS88364D",
+        "ACPI\\PS88364E",
+        "ACPI\\PS88364F",
+        "ACPI\\PS883709",
+        "ACPI\\PS88370A",
+        "ACPI\\PS88370B",
+        "ACPI\\PS88370C",
+        "ACPI\\PS88370D",
+        "ACPI\\PS88370E",
+        "ACPI\\PS88370F",
+        "ACPI\\PS883711",
+        "ACPI\\PS883712",
+        "ACPI\\PS883713",
+        "ACPI\\PS883714",
+        "ACPI\\PS883715",
+        "ACPI\\PS883716",
+        "ACPI\\PS883717",
+        "ACPI\\PS883719",
+        "ACPI\\PS88371A",
+        "ACPI\\PS88371B",
+        "ACPI\\PS88371C",
+        "ACPI\\PS88371D",
+        "ACPI\\PS88371E",
+        "ACPI\\PS88371F",
+        "ACPI\\PS883721",
+        "ACPI\\PS883722",
+        "ACPI\\PS883723",
+        "ACPI\\PS883724",
+        "ACPI\\PS883725",
+        "ACPI\\PS883726",
+        "ACPI\\PS883727",
+        "ACPI\\PS883729",
+        "ACPI\\PS88372A",
+        "ACPI\\PS88372B",
+        "ACPI\\PS88372C",
+        "ACPI\\PS88372D",
+        "ACPI\\PS88372E",
+        "ACPI\\PS88372F",
+        "ACPI\\PS883731",
+        "ACPI\\PS883732",
+        "ACPI\\PS883733",
+        "ACPI\\PS883734",
+        "ACPI\\PS883735",
+        "ACPI\\PS883736",
+        "ACPI\\PS883737",
+        "ACPI\\PS883739",
+        "ACPI\\PS88373A",
+        "ACPI\\PS88373B",
+        "ACPI\\PS88373C",
+        "ACPI\\PS88373D",
+        "ACPI\\PS88373E",
+        "ACPI\\PS88373F",
+        "ACPI\\PS883741",
+        "ACPI\\PS883742",
+        "ACPI\\PS883743",
+        "ACPI\\PS883744",
+        "ACPI\\PS883745",
+        "ACPI\\PS883746",
+        "ACPI\\PS883747",
+        "ACPI\\PS883749",
+        "ACPI\\PS88374A",
+        "ACPI\\PS88374B",
+        "ACPI\\PS88374C",
+        "ACPI\\PS88374D",
+        "ACPI\\PS88374E",
+        "ACPI\\PS88374F",
+        "ACPI\\PS883809",
+        "ACPI\\PS88380A",
+        "ACPI\\PS88380B",
+        "ACPI\\PS88380C",
+        "ACPI\\PS88380D",
+        "ACPI\\PS88380E",
+        "ACPI\\PS88380F",
+        "ACPI\\PS883811",
+        "ACPI\\PS883812",
+        "ACPI\\PS883813",
+        "ACPI\\PS883814",
+        "ACPI\\PS883815",
+        "ACPI\\PS883816",
+        "ACPI\\PS883817",
+        "ACPI\\PS883819",
+        "ACPI\\PS88381A",
+        "ACPI\\PS88381B",
+        "ACPI\\PS88381C",
+        "ACPI\\PS88381D",
+        "ACPI\\PS88381E",
+        "ACPI\\PS88381F",
+        "ACPI\\PS883821",
+        "ACPI\\PS883822",
+        "ACPI\\PS883823",
+        "ACPI\\PS883824",
+        "ACPI\\PS883825",
+        "ACPI\\PS883826",
+        "ACPI\\PS883827",
+        "ACPI\\PS883829",
+        "ACPI\\PS88382A",
+        "ACPI\\PS88382B",
+        "ACPI\\PS88382C",
+        "ACPI\\PS88382D",
+        "ACPI\\PS88382E",
+        "ACPI\\PS88382F",
+        "ACPI\\PS883831",
+        "ACPI\\PS883832",
+        "ACPI\\PS883833",
+        "ACPI\\PS883834",
+        "ACPI\\PS883835",
+        "ACPI\\PS883836",
+        "ACPI\\PS883837",
+        "ACPI\\PS883839",
+        "ACPI\\PS88383A",
+        "ACPI\\PS88383B",
+        "ACPI\\PS88383C",
+        "ACPI\\PS88383D",
+        "ACPI\\PS88383E",
+        "ACPI\\PS88383F",
+        "ACPI\\PS883841",
+        "ACPI\\PS883842",
+        "ACPI\\PS883843",
+        "ACPI\\PS883844",
+        "ACPI\\PS883845",
+        "ACPI\\PS883846",
+        "ACPI\\PS883847",
+        "ACPI\\PS883849",
+        "ACPI\\PS88384A",
+        "ACPI\\PS88384B",
+        "ACPI\\PS88384C",
+        "ACPI\\PS88384D",
+        "ACPI\\PS88384E",
+        "ACPI\\PS88384F",
+        "ACPI\\PX883008",
+        "ACPI\\PX883010",
+        "ACPI\\PX883018",
+        "ACPI\\PX883020",
+        "ACPI\\PX883028",
+        "ACPI\\PX883030",
+        "ACPI\\PX883038",
+        "ACPI\\PX883040",
+        "ACPI\\PX883048",
+        "ACPI\\PX883308",
+        "ACPI\\PX883310",
+        "ACPI\\PX883318",
+        "ACPI\\PX883320",
+        "ACPI\\PX883328",
+        "ACPI\\PX883330",
+        "ACPI\\PX883338",
+        "ACPI\\PX883340",
+        "ACPI\\PX883348",
+        "ACPI\\PX883508",
+        "ACPI\\PX883510",
+        "ACPI\\PX883518",
+        "ACPI\\PX883520",
+        "ACPI\\PX883528",
+        "ACPI\\PX883530",
+        "ACPI\\PX883538",
+        "ACPI\\PX883540",
+        "ACPI\\PX883548",
+        "ACPI\\PX883608",
+        "ACPI\\PX883610",
+        "ACPI\\PX883618",
+        "ACPI\\PX883620",
+        "ACPI\\PX883628",
+        "ACPI\\PX883630",
+        "ACPI\\PX883638",
+        "ACPI\\PX883640",
+        "ACPI\\PX883648",
+        "ACPI\\PX883708",
+        "ACPI\\PX883710",
+        "ACPI\\PX883718",
+        "ACPI\\PX883720",
+        "ACPI\\PX883728",
+        "ACPI\\PX883730",
+        "ACPI\\PX883738",
+        "ACPI\\PX883740",
+        "ACPI\\PX883748",
+        "ACPI\\PX883808",
+        "ACPI\\PX883810",
+        "ACPI\\PX883818",
+        "ACPI\\PX883820",
+        "ACPI\\PX883828",
+        "ACPI\\PX883830",
+        "ACPI\\PX883838",
+        "ACPI\\PX883840",
+        "ACPI\\PX883848"
+      ],
+      "compatible_ids": [
+        "ACPI\\PS883009",
+        "ACPI\\PS88300A",
+        "ACPI\\PS88300B",
+        "ACPI\\PS88300C",
+        "ACPI\\PS88300D",
+        "ACPI\\PS88300E",
+        "ACPI\\PS88300F",
+        "ACPI\\PS883011",
+        "ACPI\\PS883012",
+        "ACPI\\PS883013",
+        "ACPI\\PS883014",
+        "ACPI\\PS883015",
+        "ACPI\\PS883016",
+        "ACPI\\PS883017",
+        "ACPI\\PS883019",
+        "ACPI\\PS88301A",
+        "ACPI\\PS88301B",
+        "ACPI\\PS88301C",
+        "ACPI\\PS88301D",
+        "ACPI\\PS88301E",
+        "ACPI\\PS88301F",
+        "ACPI\\PS883021",
+        "ACPI\\PS883022",
+        "ACPI\\PS883023",
+        "ACPI\\PS883024",
+        "ACPI\\PS883025",
+        "ACPI\\PS883026",
+        "ACPI\\PS883027",
+        "ACPI\\PS883029",
+        "ACPI\\PS88302A",
+        "ACPI\\PS88302B",
+        "ACPI\\PS88302C",
+        "ACPI\\PS88302D",
+        "ACPI\\PS88302E",
+        "ACPI\\PS88302F",
+        "ACPI\\PS883031",
+        "ACPI\\PS883032",
+        "ACPI\\PS883033",
+        "ACPI\\PS883034",
+        "ACPI\\PS883035",
+        "ACPI\\PS883036",
+        "ACPI\\PS883037",
+        "ACPI\\PS883039",
+        "ACPI\\PS88303A",
+        "ACPI\\PS88303B",
+        "ACPI\\PS88303C",
+        "ACPI\\PS88303D",
+        "ACPI\\PS88303E",
+        "ACPI\\PS88303F",
+        "ACPI\\PS883041",
+        "ACPI\\PS883042",
+        "ACPI\\PS883043",
+        "ACPI\\PS883044",
+        "ACPI\\PS883045",
+        "ACPI\\PS883046",
+        "ACPI\\PS883047",
+        "ACPI\\PS883049",
+        "ACPI\\PS88304A",
+        "ACPI\\PS88304B",
+        "ACPI\\PS88304C",
+        "ACPI\\PS88304D",
+        "ACPI\\PS88304E",
+        "ACPI\\PS88304F",
+        "ACPI\\PS883309",
+        "ACPI\\PS88330A",
+        "ACPI\\PS88330B",
+        "ACPI\\PS88330C",
+        "ACPI\\PS88330D",
+        "ACPI\\PS88330E",
+        "ACPI\\PS88330F",
+        "ACPI\\PS883311",
+        "ACPI\\PS883312",
+        "ACPI\\PS883313",
+        "ACPI\\PS883314",
+        "ACPI\\PS883315",
+        "ACPI\\PS883316",
+        "ACPI\\PS883317",
+        "ACPI\\PS883319",
+        "ACPI\\PS88331A",
+        "ACPI\\PS88331B",
+        "ACPI\\PS88331C",
+        "ACPI\\PS88331D",
+        "ACPI\\PS88331E",
+        "ACPI\\PS88331F",
+        "ACPI\\PS883321",
+        "ACPI\\PS883322",
+        "ACPI\\PS883323",
+        "ACPI\\PS883324",
+        "ACPI\\PS883325",
+        "ACPI\\PS883326",
+        "ACPI\\PS883327",
+        "ACPI\\PS883329",
+        "ACPI\\PS88332A",
+        "ACPI\\PS88332B",
+        "ACPI\\PS88332C",
+        "ACPI\\PS88332D",
+        "ACPI\\PS88332E",
+        "ACPI\\PS88332F",
+        "ACPI\\PS883331",
+        "ACPI\\PS883332",
+        "ACPI\\PS883333",
+        "ACPI\\PS883334",
+        "ACPI\\PS883335",
+        "ACPI\\PS883336",
+        "ACPI\\PS883337",
+        "ACPI\\PS883339",
+        "ACPI\\PS88333A",
+        "ACPI\\PS88333B",
+        "ACPI\\PS88333C",
+        "ACPI\\PS88333D",
+        "ACPI\\PS88333E",
+        "ACPI\\PS88333F",
+        "ACPI\\PS883341",
+        "ACPI\\PS883342",
+        "ACPI\\PS883343",
+        "ACPI\\PS883344",
+        "ACPI\\PS883345",
+        "ACPI\\PS883346",
+        "ACPI\\PS883347",
+        "ACPI\\PS883349",
+        "ACPI\\PS88334A",
+        "ACPI\\PS88334B",
+        "ACPI\\PS88334C",
+        "ACPI\\PS88334D",
+        "ACPI\\PS88334E",
+        "ACPI\\PS88334F",
+        "ACPI\\PS883509",
+        "ACPI\\PS88350A",
+        "ACPI\\PS88350B",
+        "ACPI\\PS88350C",
+        "ACPI\\PS88350D",
+        "ACPI\\PS88350E",
+        "ACPI\\PS88350F",
+        "ACPI\\PS883511",
+        "ACPI\\PS883512",
+        "ACPI\\PS883513",
+        "ACPI\\PS883514",
+        "ACPI\\PS883515",
+        "ACPI\\PS883516",
+        "ACPI\\PS883517",
+        "ACPI\\PS883519",
+        "ACPI\\PS88351A",
+        "ACPI\\PS88351B",
+        "ACPI\\PS88351C",
+        "ACPI\\PS88351D",
+        "ACPI\\PS88351E",
+        "ACPI\\PS88351F",
+        "ACPI\\PS883521",
+        "ACPI\\PS883522",
+        "ACPI\\PS883523",
+        "ACPI\\PS883524",
+        "ACPI\\PS883525",
+        "ACPI\\PS883526",
+        "ACPI\\PS883527",
+        "ACPI\\PS883529",
+        "ACPI\\PS88352A",
+        "ACPI\\PS88352B",
+        "ACPI\\PS88352C",
+        "ACPI\\PS88352D",
+        "ACPI\\PS88352E",
+        "ACPI\\PS88352F",
+        "ACPI\\PS883531",
+        "ACPI\\PS883532",
+        "ACPI\\PS883533",
+        "ACPI\\PS883534",
+        "ACPI\\PS883535",
+        "ACPI\\PS883536",
+        "ACPI\\PS883537",
+        "ACPI\\PS883539",
+        "ACPI\\PS88353A",
+        "ACPI\\PS88353B",
+        "ACPI\\PS88353C",
+        "ACPI\\PS88353D",
+        "ACPI\\PS88353E",
+        "ACPI\\PS88353F",
+        "ACPI\\PS883541",
+        "ACPI\\PS883542",
+        "ACPI\\PS883543",
+        "ACPI\\PS883544",
+        "ACPI\\PS883545",
+        "ACPI\\PS883546",
+        "ACPI\\PS883547",
+        "ACPI\\PS883549",
+        "ACPI\\PS88354A",
+        "ACPI\\PS88354B",
+        "ACPI\\PS88354C",
+        "ACPI\\PS88354D",
+        "ACPI\\PS88354E",
+        "ACPI\\PS88354F",
+        "ACPI\\PS883609",
+        "ACPI\\PS88360A",
+        "ACPI\\PS88360B",
+        "ACPI\\PS88360C",
+        "ACPI\\PS88360D",
+        "ACPI\\PS88360E",
+        "ACPI\\PS88360F",
+        "ACPI\\PS883611",
+        "ACPI\\PS883612",
+        "ACPI\\PS883613",
+        "ACPI\\PS883614",
+        "ACPI\\PS883615",
+        "ACPI\\PS883616",
+        "ACPI\\PS883617",
+        "ACPI\\PS883619",
+        "ACPI\\PS88361A",
+        "ACPI\\PS88361B",
+        "ACPI\\PS88361C",
+        "ACPI\\PS88361D",
+        "ACPI\\PS88361E",
+        "ACPI\\PS88361F",
+        "ACPI\\PS883621",
+        "ACPI\\PS883622",
+        "ACPI\\PS883623",
+        "ACPI\\PS883624",
+        "ACPI\\PS883625",
+        "ACPI\\PS883626",
+        "ACPI\\PS883627",
+        "ACPI\\PS883629",
+        "ACPI\\PS88362A",
+        "ACPI\\PS88362B",
+        "ACPI\\PS88362C",
+        "ACPI\\PS88362D",
+        "ACPI\\PS88362E",
+        "ACPI\\PS88362F",
+        "ACPI\\PS883631",
+        "ACPI\\PS883632",
+        "ACPI\\PS883633",
+        "ACPI\\PS883634",
+        "ACPI\\PS883635",
+        "ACPI\\PS883636",
+        "ACPI\\PS883637",
+        "ACPI\\PS883639",
+        "ACPI\\PS88363A",
+        "ACPI\\PS88363B",
+        "ACPI\\PS88363C",
+        "ACPI\\PS88363D",
+        "ACPI\\PS88363E",
+        "ACPI\\PS88363F",
+        "ACPI\\PS883641",
+        "ACPI\\PS883642",
+        "ACPI\\PS883643",
+        "ACPI\\PS883644",
+        "ACPI\\PS883645",
+        "ACPI\\PS883646",
+        "ACPI\\PS883647",
+        "ACPI\\PS883649",
+        "ACPI\\PS88364A",
+        "ACPI\\PS88364B",
+        "ACPI\\PS88364C",
+        "ACPI\\PS88364D",
+        "ACPI\\PS88364E",
+        "ACPI\\PS88364F",
+        "ACPI\\PS883709",
+        "ACPI\\PS88370A",
+        "ACPI\\PS88370B",
+        "ACPI\\PS88370C",
+        "ACPI\\PS88370D",
+        "ACPI\\PS88370E",
+        "ACPI\\PS88370F",
+        "ACPI\\PS883711",
+        "ACPI\\PS883712",
+        "ACPI\\PS883713",
+        "ACPI\\PS883714",
+        "ACPI\\PS883715",
+        "ACPI\\PS883716",
+        "ACPI\\PS883717",
+        "ACPI\\PS883719",
+        "ACPI\\PS88371A",
+        "ACPI\\PS88371B",
+        "ACPI\\PS88371C",
+        "ACPI\\PS88371D",
+        "ACPI\\PS88371E",
+        "ACPI\\PS88371F",
+        "ACPI\\PS883721",
+        "ACPI\\PS883722",
+        "ACPI\\PS883723",
+        "ACPI\\PS883724",
+        "ACPI\\PS883725",
+        "ACPI\\PS883726",
+        "ACPI\\PS883727",
+        "ACPI\\PS883729",
+        "ACPI\\PS88372A",
+        "ACPI\\PS88372B",
+        "ACPI\\PS88372C",
+        "ACPI\\PS88372D",
+        "ACPI\\PS88372E",
+        "ACPI\\PS88372F",
+        "ACPI\\PS883731",
+        "ACPI\\PS883732",
+        "ACPI\\PS883733",
+        "ACPI\\PS883734",
+        "ACPI\\PS883735",
+        "ACPI\\PS883736",
+        "ACPI\\PS883737",
+        "ACPI\\PS883739",
+        "ACPI\\PS88373A",
+        "ACPI\\PS88373B",
+        "ACPI\\PS88373C",
+        "ACPI\\PS88373D",
+        "ACPI\\PS88373E",
+        "ACPI\\PS88373F",
+        "ACPI\\PS883741",
+        "ACPI\\PS883742",
+        "ACPI\\PS883743",
+        "ACPI\\PS883744",
+        "ACPI\\PS883745",
+        "ACPI\\PS883746",
+        "ACPI\\PS883747",
+        "ACPI\\PS883749",
+        "ACPI\\PS88374A",
+        "ACPI\\PS88374B",
+        "ACPI\\PS88374C",
+        "ACPI\\PS88374D",
+        "ACPI\\PS88374E",
+        "ACPI\\PS88374F",
+        "ACPI\\PS883809",
+        "ACPI\\PS88380A",
+        "ACPI\\PS88380B",
+        "ACPI\\PS88380C",
+        "ACPI\\PS88380D",
+        "ACPI\\PS88380E",
+        "ACPI\\PS88380F",
+        "ACPI\\PS883811",
+        "ACPI\\PS883812",
+        "ACPI\\PS883813",
+        "ACPI\\PS883814",
+        "ACPI\\PS883815",
+        "ACPI\\PS883816",
+        "ACPI\\PS883817",
+        "ACPI\\PS883819",
+        "ACPI\\PS88381A",
+        "ACPI\\PS88381B",
+        "ACPI\\PS88381C",
+        "ACPI\\PS88381D",
+        "ACPI\\PS88381E",
+        "ACPI\\PS88381F",
+        "ACPI\\PS883821",
+        "ACPI\\PS883822",
+        "ACPI\\PS883823",
+        "ACPI\\PS883824",
+        "ACPI\\PS883825",
+        "ACPI\\PS883826",
+        "ACPI\\PS883827",
+        "ACPI\\PS883829",
+        "ACPI\\PS88382A",
+        "ACPI\\PS88382B",
+        "ACPI\\PS88382C",
+        "ACPI\\PS88382D",
+        "ACPI\\PS88382E",
+        "ACPI\\PS88382F",
+        "ACPI\\PS883831",
+        "ACPI\\PS883832",
+        "ACPI\\PS883833",
+        "ACPI\\PS883834",
+        "ACPI\\PS883835",
+        "ACPI\\PS883836",
+        "ACPI\\PS883837",
+        "ACPI\\PS883839",
+        "ACPI\\PS88383A",
+        "ACPI\\PS88383B",
+        "ACPI\\PS88383C",
+        "ACPI\\PS88383D",
+        "ACPI\\PS88383E",
+        "ACPI\\PS88383F",
+        "ACPI\\PS883841",
+        "ACPI\\PS883842",
+        "ACPI\\PS883843",
+        "ACPI\\PS883844",
+        "ACPI\\PS883845",
+        "ACPI\\PS883846",
+        "ACPI\\PS883847",
+        "ACPI\\PS883849",
+        "ACPI\\PS88384A",
+        "ACPI\\PS88384B",
+        "ACPI\\PS88384C",
+        "ACPI\\PS88384D",
+        "ACPI\\PS88384E",
+        "ACPI\\PS88384F",
+        "ACPI\\PX883008",
+        "ACPI\\PX883010",
+        "ACPI\\PX883018",
+        "ACPI\\PX883020",
+        "ACPI\\PX883028",
+        "ACPI\\PX883030",
+        "ACPI\\PX883038",
+        "ACPI\\PX883040",
+        "ACPI\\PX883048",
+        "ACPI\\PX883308",
+        "ACPI\\PX883310",
+        "ACPI\\PX883318",
+        "ACPI\\PX883320",
+        "ACPI\\PX883328",
+        "ACPI\\PX883330",
+        "ACPI\\PX883338",
+        "ACPI\\PX883340",
+        "ACPI\\PX883348",
+        "ACPI\\PX883508",
+        "ACPI\\PX883510",
+        "ACPI\\PX883518",
+        "ACPI\\PX883520",
+        "ACPI\\PX883528",
+        "ACPI\\PX883530",
+        "ACPI\\PX883538",
+        "ACPI\\PX883540",
+        "ACPI\\PX883548",
+        "ACPI\\PX883608",
+        "ACPI\\PX883610",
+        "ACPI\\PX883618",
+        "ACPI\\PX883620",
+        "ACPI\\PX883628",
+        "ACPI\\PX883630",
+        "ACPI\\PX883638",
+        "ACPI\\PX883640",
+        "ACPI\\PX883648",
+        "ACPI\\PX883708",
+        "ACPI\\PX883710",
+        "ACPI\\PX883718",
+        "ACPI\\PX883720",
+        "ACPI\\PX883728",
+        "ACPI\\PX883730",
+        "ACPI\\PX883738",
+        "ACPI\\PX883740",
+        "ACPI\\PX883748",
+        "ACPI\\PX883808",
+        "ACPI\\PX883810",
+        "ACPI\\PX883818",
+        "ACPI\\PX883820",
+        "ACPI\\PX883828",
+        "ACPI\\PX883830",
+        "ACPI\\PX883838",
+        "ACPI\\PX883840",
+        "ACPI\\PX883848"
+      ],
+      "descriptions": [
+        "Parade Technologies, Ltd.",
+        "PX883008 Peripheral Driver",
+        "PS883009 Peripheral Driver",
+        "PS88300A Peripheral Driver",
+        "PS88300B Peripheral Driver",
+        "PS88300C Peripheral Driver",
+        "PS88300D Peripheral Driver",
+        "PS88300E Peripheral Driver",
+        "PS88300F Peripheral Driver",
+        "PX883010 Peripheral Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/paradete-firm-x64-1.0.018.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "paradete-firm-x64-1.0.018.00.7z.0001",
+          "size_bytes": 42550,
+          "sha256": "5af8e274404cbc88a05cc5de3303ea122576103ee73353db6f1ae460d58c5771",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/paradete-firm-x64-1.0.018.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-15b97e00565929ee",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "3.1523.1205.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Killer Networking Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1523.120.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-3.1523.120.7z.0001",
+          "size_bytes": 4253221,
+          "sha256": "1196a658c4229d6b588b3c723f3e0d198f9acf963e2e313a1875cfd2e60058f5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1523.120.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d067b4a09e759981",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "3.1624.1204.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Killer Networking Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1624.120.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-3.1624.120.7z.0001",
+          "size_bytes": 4187364,
+          "sha256": "115f596e78090760410f1649a1176404a4e68d5c3c1475c91e5827fc39673144",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1624.120.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7b3085080c84f8bf",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "3.1625.211.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Killer Networking Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1625.211.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-3.1625.211.7z.0001",
+          "size_bytes": 4195475,
+          "sha256": "6e8d8bc4f5e9db9d537c167a75bc41c9e288eda368b3d37186c413773aec28ec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1625.211.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-abb56ddc882df819",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "3.1625.326.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Killer Networking Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1625.326.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-3.1625.326.7z.0001",
+          "size_bytes": 4262074,
+          "sha256": "0289dc01f59a5fd302b1a83fb997141a02b448cb4f3a2e90ccadc01e2b769995",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-3.1625.326.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9e75ed52ff15451",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "40.26.403.223",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Killer Networking Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-40.26.403.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-40.26.403.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ad265324fb570e08cfc4904bc373d55b695f3ee896ddf691515de3ba36986f6b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-40.26.403.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelcor-soft-x64-40.26.403.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "6bb3fa2eef926edd43e4fdf4f09c38da56974f98282a603809cd22016fde75e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-40.26.403.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelcor-soft-x64-40.26.403.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "25b7a891d52b1d0964522c37c9bf3af9f2b1cfd4744ff1b42cb0220eb1009c4c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-40.26.403.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelcor-soft-x64-40.26.403.7z.0004",
+          "size_bytes": 12256574,
+          "sha256": "2ff6dcc5e4257c5e75217e7a2bb0f51fae9b02c3ab579ddb6b10e52a6622bdd5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/intelcor-soft-x64-40.26.403.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-82e9e4b44d56eedb",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Rohm",
+      "category": "SoftwareComponent",
+      "version": "1.1.1.6",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Rohm",
+        "HingeAngle Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/kionixin-sens-x64-1.1.1.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "kionixin-sens-x64-1.1.1.6.7z.0001",
+          "size_bytes": 131827,
+          "sha256": "f824e743a9902aa277aa465f36b2feb01550de165a946925868ce1337a133fdf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/kionixin-sens-x64-1.1.1.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f1b69cc143b8ab3b",
+      "pack": "INTEL_System_x64",
+      "type": "Firmware",
+      "provider": "Kionix, Inc.",
+      "category": "Sensor",
+      "version": "1.1.1.6",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\KIOX010A",
+        "ACPI\\KIOX020A"
+      ],
+      "compatible_ids": [
+        "ACPI\\KIOX010A",
+        "ACPI\\KIOX020A"
+      ],
+      "descriptions": [
+        "Kionix, Inc.",
+        "Kionix 3-axis accelerometer",
+        "Kionix 3-axis accelerometer in Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/kionixin-sens-x64-1.1.1.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "kionixin-sens-x64-1.1.1.6.7z.0001",
+          "size_bytes": 131827,
+          "sha256": "f824e743a9902aa277aa465f36b2feb01550de165a946925868ce1337a133fdf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_INTEL_System_x64/kionixin-sens-x64-1.1.1.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
-  "version_history": {}
+  "version_history": {
+    "x64|softwarecomponent|": [
+      {
+        "id": "drv-a9486d0a65a98c1e",
+        "version": "31.0.21923.11000",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2c0f269163067f2e",
+        "version": "32.0.21043.12001",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-f7aa793601c6b969",
+        "version": "32.0.31019.2002",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-f7aa793601c6b969",
+        "version": "32.0.31019.2002",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-f7aa793601c6b969",
+        "version": "32.0.31019.2002",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-a9486d0a65a98c1e",
+        "version": "31.0.21923.11000",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2c0f269163067f2e",
+        "version": "32.0.21043.12001",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-f7aa793601c6b969",
+        "version": "32.0.31019.2002",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-fba698c037b01704",
+        "version": "9999.99.0.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2aea325ad76964a4",
+        "version": "9.0.10900.26658",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-1f97d1b86c85e2fd",
+        "version": "9.0.11000.27915",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-d60f4a717ab7ba9f",
+        "version": "9.0.11202.31222",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-93de50715a6f255d",
+        "version": "9.0.11401.39039",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-bb7dbac7c5ef4516",
+        "version": "9.0.11403.39038",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-a48be9850339d4ab",
+        "version": "9.0.11404.39881",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2fefdf41cd600f47",
+        "version": "9.0.11405.42569",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2fefdf41cd600f47",
+        "version": "9.0.11405.42569",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-5d388071d131e113",
+        "version": "9.0.11700.43962",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-a9ae7b3e113dd07e",
+        "version": "9.1.10001.173",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-99074e46ef8f8921",
+        "version": "9.0.11905.54373",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-5dbc834b7ff1c660",
+        "version": "16.1.0.257",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-ce3b25ebc2fbfbd0",
+        "version": "18.0.0017.2",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-ce3b25ebc2fbfbd0",
+        "version": "18.0.0017.2",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-ce3b25ebc2fbfbd0",
+        "version": "18.0.0017.2",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-ce3b25ebc2fbfbd0",
+        "version": "18.0.0017.2",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-6d9b40a280aba9ae",
+        "version": "21.0.0003.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-035c429ac417035a",
+        "version": "9.1.10004.800",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-cb6fa38540634540",
+        "version": "9.1.10009.1745",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-4e1d405c426f6969",
+        "version": "9.1.10005.898",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-d28867e1b8ffcd74",
+        "version": "21.0.0005.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-35c92aa6171d6fc5",
+        "version": "50.25.1015.183",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-8a8a118bc2e3bc9b",
+        "version": "2316.5.1.12",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-dbaa8c87b2fa9294",
+        "version": "2613.9.7.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-42bcab5107044382",
+        "version": "246.80.204.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2df3349a7e4bdefb",
+        "version": "2543.98.178.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-be43437ed639c3eb",
+        "version": "267.102.85.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-b9e75ed52ff15451",
+        "version": "40.26.403.223",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      }
+    ],
+    "x86|softwarecomponent|": [
+      {
+        "id": "drv-f3fe02c3ba3f5139",
+        "version": "2408.5.4.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-a4a30e0c47f9c877",
+        "version": "2546.9.2.0",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      }
+    ]
+  }
 }

@@ -194,6 +194,1492 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-92120c6e933c93aa",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "EMVSCARD DS",
+      "category": "Multifunction",
+      "version": "1.0.0.13",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_058F&PID_9522",
+        "USB\\VID_058F&PID_9526"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "EMVSCARD DS"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/emvscard-mult-x64-1.0.0.13.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "emvscard-mult-x64-1.0.0.13.7z.0001",
+          "size_bytes": 27736,
+          "sha256": "ae02c020b5d298a9fa879cb1d3cce3ea6418c1aeb4e881597249333c23ce8be6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/emvscard-mult-x64-1.0.0.13.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42e21714b1ecad4b",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "EMVSCARD DS",
+      "category": "SmartCardReader",
+      "version": "1.0.0.17",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "EMVSCARD DS"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/emvscard-mult-x64-1.0.0.13.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "emvscard-mult-x64-1.0.0.13.7z.0001",
+          "size_bytes": 27736,
+          "sha256": "ae02c020b5d298a9fa879cb1d3cce3ea6418c1aeb4e881597249333c23ce8be6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/emvscard-mult-x64-1.0.0.13.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8f4fb5f822dfae3c",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "AMD",
+      "category": "Extension",
+      "version": "32.2.2025.2",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_17F01022",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_381B17AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_381D17AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_382117AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_382317AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_383F17AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_384617AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_384717AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_384817AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_384917AA",
+        "PCI\\VEN_1022&DEV_17F0&SUBSYS_384B17AA"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD MEP Enumerator"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/amd-exte-x64-32.2.2025.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-exte-x64-32.2.2025.7z.0001",
+          "size_bytes": 7994,
+          "sha256": "0ba07eff8afdb86686babe6fab3267c8c0b82db46bc3f0abfc245f8c366f6e6e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/amd-exte-x64-32.2.2025.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-72be055b20a259b2",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Advanced Micro Devices, Inc.",
+      "category": "SSG",
+      "version": "1.00.2016.05106",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\AMDSSG"
+      ],
+      "compatible_ids": [
+        "ROOT\\AMDSSG"
+      ],
+      "descriptions": [
+        "Advanced Micro Devices, Inc.",
+        "Radeon Pro SSG"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/advanced-ssg-x64-1.00.2016.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-ssg-x64-1.00.2016.7z.0001",
+          "size_bytes": 77914,
+          "sha256": "3ea9315a3bf86ef3b4d22d60831c2b1acfa02fc507861d8a04161c4a8053331c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/advanced-ssg-x64-1.00.2016.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ebdc5b1e8deacfa2",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "MultiFunction",
+      "version": "2.20.3.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_1000A000&REV_00",
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_2000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to Multifunction Peripheral Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.20.3.0.7z.0001",
+          "size_bytes": 178264,
+          "sha256": "685735c1af0ae1a62092b6f59e7333356b907e2813c34983c8eff6f379817b44",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a541cf12e4eb3348",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "2.20.3.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.20.3.0.7z.0001",
+          "size_bytes": 178264,
+          "sha256": "685735c1af0ae1a62092b6f59e7333356b907e2813c34983c8eff6f379817b44",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-afb1a09486536756",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "2.20.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to High Speed Serial Port",
+        "ASIX PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.20.3.0.7z.0001",
+          "size_bytes": 178264,
+          "sha256": "685735c1af0ae1a62092b6f59e7333356b907e2813c34983c8eff6f379817b44",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1123ed8cff794318",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "MultiFunction",
+      "version": "2.20.2.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_1000A000&REV_00",
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_2000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to Multifunction Peripheral Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.20.2.0.7z.0001",
+          "size_bytes": 162261,
+          "sha256": "a60b91755587e0e2344862e68f5280d235ae4eadd77d9dfa129ba0b220b76888",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-522c6924e53e669b",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "2.20.2.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.20.2.0.7z.0001",
+          "size_bytes": 162261,
+          "sha256": "a60b91755587e0e2344862e68f5280d235ae4eadd77d9dfa129ba0b220b76888",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ea6acb1495fc8082",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "2.20.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to High Speed Serial Port",
+        "ASIX PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.20.2.0.7z.0001",
+          "size_bytes": 162261,
+          "sha256": "a60b91755587e0e2344862e68f5280d235ae4eadd77d9dfa129ba0b220b76888",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.20.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-468c3cd7b3339c90",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "MultiFunction",
+      "version": "2.22.2.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_1000A000&REV_00",
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_2000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to Multifunction Peripheral Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.22.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.22.2.0.7z.0001",
+          "size_bytes": 169371,
+          "sha256": "a31f422f9cdce952f67e6b5a0eed759c972806beaa703d1a5ffaa6487ef0b0e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.22.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-83e0b62db373e378",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "2.22.2.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.22.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.22.2.0.7z.0001",
+          "size_bytes": 169371,
+          "sha256": "a31f422f9cdce952f67e6b5a0eed759c972806beaa703d1a5ffaa6487ef0b0e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.22.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-53e9e43447b83391",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "2.22.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "ASIX PCIe to High Speed Serial Port",
+        "ASIX PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.22.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-2.22.2.0.7z.0001",
+          "size_bytes": 169371,
+          "sha256": "a31f422f9cdce952f67e6b5a0eed759c972806beaa703d1a5ffaa6487ef0b0e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-2.22.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3f7e473327ab85fa",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "MultiFunction",
+      "version": "1.18.5.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_1000A000&REV_00",
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_2000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to Multifunction Peripheral Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.18.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-1.18.5.0.7z.0001",
+          "size_bytes": 160992,
+          "sha256": "aacf797e3ca8593ae4d1b1cb10c08c34601e39e3f3c962bb73be2bb2adf53e42",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.18.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e91d40d91fe606d1",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "1.18.5.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.18.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-1.18.5.0.7z.0001",
+          "size_bytes": 160992,
+          "sha256": "aacf797e3ca8593ae4d1b1cb10c08c34601e39e3f3c962bb73be2bb2adf53e42",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.18.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-316552a948f07151",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "1.18.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to High Speed Serial Port",
+        "AX99100 PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.18.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-1.18.5.0.7z.0001",
+          "size_bytes": 160992,
+          "sha256": "aacf797e3ca8593ae4d1b1cb10c08c34601e39e3f3c962bb73be2bb2adf53e42",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.18.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4c45a443de8cb7a5",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "MultiFunction",
+      "version": "1.12.3.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_1000A000&REV_00",
+        "PCI\\VEN_125B&DEV_9100&SUBSYS_2000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to Multifunction Peripheral Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.12.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-1.12.3.0.7z.0001",
+          "size_bytes": 155552,
+          "sha256": "1bc7b6c6efd6b1958ef19ad075b6804b5cf562b17c506bf982d1b2f44c0f54c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.12.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-85a67cb72a4f84ca",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "1.12.3.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.12.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-1.12.3.0.7z.0001",
+          "size_bytes": 155552,
+          "sha256": "1bc7b6c6efd6b1958ef19ad075b6804b5cf562b17c506bf982d1b2f44c0f54c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.12.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bb75d50d7cb0be3f",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "1.12.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to High Speed Serial Port",
+        "AX99100 PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.12.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-mult-x64-1.12.3.0.7z.0001",
+          "size_bytes": 155552,
+          "sha256": "1bc7b6c6efd6b1958ef19ad075b6804b5cf562b17c506bf982d1b2f44c0f54c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/asix-mult-x64-1.12.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-95efa35e9c497343",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Athena",
+      "category": "MicroSD SmartCard Readers",
+      "version": "1.2.1.242",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\MICROSDSMARTCARDBUS"
+      ],
+      "compatible_ids": [
+        "ROOT\\MICROSDSMARTCARDBUS"
+      ],
+      "descriptions": [
+        "Athena",
+        "Athena MicroSD SmartCard Bus"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/athena-micr-x64-1.2.1.242.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "athena-micr-x64-1.2.1.242.7z.0001",
+          "size_bytes": 16932,
+          "sha256": "60f988332109cf1aeebbae3163dfdaa7b5eaf63afd28fae30df0c7b89d895ff6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/athena-micr-x64-1.2.1.242.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9d5c33795ef627b3",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Intel Corporation",
+      "category": "BERTREADER",
+      "version": "21.26.57.880",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\BERTREADER"
+      ],
+      "compatible_ids": [
+        "ROOT\\BERTREADER"
+      ],
+      "descriptions": [
+        "Intel Corporation",
+        "BERT Reader Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intelcor-bert-x64-21.26.57.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-bert-x64-21.26.57.8.7z.0001",
+          "size_bytes": 1730363,
+          "sha256": "f53edc2220bfd77172080f409c461d8a08dc29e443f09076c299524168e27fa1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intelcor-bert-x64-21.26.57.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f9d606bf7b7defd4",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Intel",
+      "category": "SEMADriver Devices",
+      "version": "2.4.2.32",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\SEMAHWID"
+      ],
+      "compatible_ids": [
+        "ROOT\\SEMAHWID"
+      ],
+      "descriptions": [
+        "Intel",
+        "SEMADriver Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intelcor-bert-x64-21.26.57.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-bert-x64-21.26.57.8.7z.0001",
+          "size_bytes": 1730363,
+          "sha256": "f53edc2220bfd77172080f409c461d8a08dc29e443f09076c299524168e27fa1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intelcor-bert-x64-21.26.57.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb8d4efb5163d251",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Intel",
+      "category": "Extension",
+      "version": "63.22000.0.17",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) ADL AVStream Camera"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-63.22000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-exte-x64-63.22000.0.7z.0001",
+          "size_bytes": 9280,
+          "sha256": "1af35b9695989d621bc0ae5e19ada54a6c1bd9abde7a2875ade16e5cc1a11044",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-63.22000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ddd4b76ea37898c8",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Intel",
+      "category": "Extension",
+      "version": "18.0.0017.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Manageability AMT Provider"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-18.0.0017.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-exte-x64-18.0.0017.7z.0001",
+          "size_bytes": 479855,
+          "sha256": "13b7bb481bb1ff4b499c2464eb9d08ee02ae2be0e6373c6cce0bfd3052c2a3bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-18.0.0017.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ce3b25ebc2fbfbd0",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "18.0.0017.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Manageability AMT Provider"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-18.0.0017.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-exte-x64-18.0.0017.7z.0001",
+          "size_bytes": 479855,
+          "sha256": "13b7bb481bb1ff4b499c2464eb9d08ee02ae2be0e6373c6cce0bfd3052c2a3bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-18.0.0017.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-299caca65f22faaf",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4b117c9fd4bd529f",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Intel",
+      "category": "Extension",
+      "version": "581.0.7783.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "IshHeciExtension Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-581.0.7783.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-exte-x64-581.0.7783.7z.0001",
+          "size_bytes": 503551,
+          "sha256": "e5dcaff0e25aca95d44a0c6f2a92265d011cc425947e8c8442b808c337929218",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/intel-exte-x64-581.0.7783.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a6e1f3bca931ad3d",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "ITE Tech. Inc.",
+      "category": "Infrared",
+      "version": "1.02.0000.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ITE Tech. Inc.",
+        "IrDA Fast Infrared Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/itetechi-infr-x64-1.02.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "itetechi-infr-x64-1.02.0000.7z.0001",
+          "size_bytes": 21638,
+          "sha256": "b1a97247949d3d0585939597e8761b119a81f0deb1e9adbaa978dbf4d765b0c9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/itetechi-infr-x64-1.02.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b00fdbbc7bc7ebe1",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "(Standard Infrared Port)",
+      "category": "Infrared",
+      "version": "6.0.6001.18000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Standard Infrared Port)",
+        "ACTiSYS",
+        "AMP",
+        "Extended Systems",
+        "IBM",
+        "Parallax",
+        "Tekram",
+        "Puma Technologies",
+        "Vishay Telefunken",
+        "Greenwich Instruments Ltd"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/standard-infr-x64-6.0.6001.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "standard-infr-x64-6.0.6001.1.7z.0001",
+          "size_bytes": 21317,
+          "sha256": "ea5a33a1432a29445cea4471fa593fd07cdd4c904ebdf4ae3fe97ed7bb7f70a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/standard-infr-x64-6.0.6001.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dc5019a9266829ce",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "(Standard Infrared Port)",
+      "category": "Infrared",
+      "version": "6.0.6000.16386",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Standard Infrared Port)",
+        "ACTiSYS",
+        "AMP",
+        "Extended Systems",
+        "IBM",
+        "Parallax",
+        "Tekram",
+        "Puma Technologies",
+        "Vishay Telefunken",
+        "Greenwich Instruments Ltd"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/standard-infr-x86-6.0.6000.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "standard-infr-x86-6.0.6000.1.7z.0001",
+          "size_bytes": 18611,
+          "sha256": "226f7d7cc9fe44e548de108d8883b883c8bb5995dbc728b6b6a1fd7b0eef951c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/standard-infr-x86-6.0.6000.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-625157b6ff8bf38f",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Oberthur Technologies",
+      "category": "\"Smart Cards\"",
+      "version": "1.0.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Oberthur Technologies",
+        "IDOneClassic Minidriver (Cosmo v7.0n)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/oberthur-smar-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oberthur-smar-x86-1.0.0.0.7z.0001",
+          "size_bytes": 345636,
+          "sha256": "09242d4d1d216a2acd8ea34ca5cd2c5b41f4e5e85526c1f4b7ac3285ea70f950",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/oberthur-smar-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0a009eebf424f919",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "",
+      "category": "",
+      "version": "",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\TAPNORDVPN"
+      ],
+      "compatible_ids": [
+        "ROOT\\TAPNORDVPN"
+      ],
+      "descriptions": [
+        "%Provider%",
+        "%DeviceDescription%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/drv-misc-x86.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-misc-x86.7z.0001",
+          "size_bytes": 29167,
+          "sha256": "d430cc3834b8f9f33687dcb46ee59365a3dc48c3d2bcfbb06f288a98bd9bb25f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/drv-misc-x86.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-59cee7486f374711",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "",
+      "category": "",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\TAPWINDSCRIBE0901"
+      ],
+      "compatible_ids": [
+        "ROOT\\TAPWINDSCRIBE0901"
+      ],
+      "descriptions": [
+        "%Provider%",
+        "%DeviceDescription%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/drv-misc-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-misc-x64.7z.0001",
+          "size_bytes": 31613,
+          "sha256": "56f17e9c307e07018502bcd307e5cc1af685239eb836badca3f3c01b84a8cd7c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/drv-misc-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c55df1965f6d56f8",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "SUNIX Co., Ltd.",
+      "category": "MultiFunction",
+      "version": "10.3.1.0",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_00021409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_16001409&REV_00",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_19251409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40271409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40371409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40551409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40661409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40891409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40961409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50271409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50371409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50661409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50791409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_60561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_81381409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_81561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_81661409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_91381409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_91561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_91661409&REV_01",
+        "PCI\\VEN_1409&DEV_7268&SUBSYS_01031409&REV_01",
+        "PCI\\VEN_1409&DEV_7268&SUBSYS_010317AA&REV_01",
+        "PCI\\VEN_1409&DEV_7268&SUBSYS_01041409&REV_01",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10020001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10040001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10080001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10160001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_20020001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_20040001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_20080001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_30020001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_30040001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_30080001&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00001FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00031FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00051FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00061FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00071FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00091FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000A1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000B1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000C1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000D1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000E1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000F1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00101FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00811FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00821FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00841FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00881FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_010017AA&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01001FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01011FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01021FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01031FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01041FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01051FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01061FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01071FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01081FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01091FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_010A1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02001FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02011FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02021FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02031FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02041FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02051FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02061FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02071FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02081FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_03001FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_03101FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_04001FD4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "SUNIX Co., Ltd.",
+        "SUNIX 1-Port Serial Card",
+        "SUNIX 2-Port Serial Card",
+        "SUNIX 3-Port Serial Card",
+        "SUNIX 4-Port Serial Card",
+        "SUNIX 5-Port Serial Card",
+        "SUNIX 6-Port Serial Card",
+        "SUNIX 7-Port Serial Card",
+        "SUNIX 8-Port Serial Card",
+        "SUNIX 9-Port Serial Card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x86-10.3.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sunixcol-mult-x86-10.3.1.0.7z.0001",
+          "size_bytes": 644393,
+          "sha256": "2a9f96187caa16bd8ed15f4b9d6464fc766e58d8ade6d32a6ae1b725cf046b3d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x86-10.3.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-68fbc3bd1de454b7",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "SUNIX Co., Ltd.",
+      "category": "Ports",
+      "version": "10.3.1.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SUNIX Co., Ltd.",
+        "SUNIX COM Port",
+        "SUNIX LPT Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x86-10.3.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sunixcol-mult-x86-10.3.1.0.7z.0001",
+          "size_bytes": 644393,
+          "sha256": "2a9f96187caa16bd8ed15f4b9d6464fc766e58d8ade6d32a6ae1b725cf046b3d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x86-10.3.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8a570e91f0f33044",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "SUNIX Co., Ltd.",
+      "category": "MultiFunction",
+      "version": "8.2.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_00021409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_16001409&REV_00",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_19251409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40271409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40371409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40551409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40661409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40891409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_40961409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50271409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50371409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50661409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_50791409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_60561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_81381409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_81561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_81661409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_91381409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_91561409&REV_01",
+        "PCI\\VEN_1409&DEV_7168&SUBSYS_91661409&REV_01",
+        "PCI\\VEN_1409&DEV_7268&SUBSYS_01031409&REV_01",
+        "PCI\\VEN_1409&DEV_7268&SUBSYS_010317AA&REV_01",
+        "PCI\\VEN_1409&DEV_7268&SUBSYS_01041409&REV_01",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10020001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10040001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10080001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_10160001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_20020001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_20040001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_20080001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_30020001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_30040001&REV_00",
+        "PCI\\VEN_1FD4&DEV_0001&SUBSYS_30080001&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00001FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00011FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00021FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00031FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00041FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00051FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00061FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00071FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_08",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_10",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_30",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_50",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00081FD4&REV_88",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00091FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000A1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000B1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000C1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000D1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000E1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_000F1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00101FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00811FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00821FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00841FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_00881FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_010017AA&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01001FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01011FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01021FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01031FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01041FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01051FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01061FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01071FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01081FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_01091FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_010A1FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02001FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02011FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02021FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02031FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02041FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02051FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02061FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02071FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_02081FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_03001FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_03101FD4&REV_00",
+        "PCI\\VEN_1FD4&DEV_1999&SUBSYS_04001FD4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "SUNIX Co., Ltd.",
+        "SUNIX 1-Port Serial Card",
+        "SUNIX 2-Port Serial Card",
+        "SUNIX 3-Port Serial Card",
+        "SUNIX 4-Port Serial Card",
+        "SUNIX 5-Port Serial Card",
+        "SUNIX 6-Port Serial Card",
+        "SUNIX 7-Port Serial Card",
+        "SUNIX 8-Port Serial Card",
+        "SUNIX 9-Port Serial Card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x64-8.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sunixcol-mult-x64-8.2.0.0.7z.0001",
+          "size_bytes": 257946,
+          "sha256": "e7e76379ae46745356cf09d84f31c44a0b57cfefc44902655514a1fb526df87f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x64-8.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9cbd3d66ce7510d3",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "SUNIX Co., Ltd.",
+      "category": "Ports",
+      "version": "8.2.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SUNIX Co., Ltd.",
+        "SUNIX COM Port",
+        "SUNIX LPT Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x64-8.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sunixcol-mult-x64-8.2.0.0.7z.0001",
+          "size_bytes": 257946,
+          "sha256": "e7e76379ae46745356cf09d84f31c44a0b57cfefc44902655514a1fb526df87f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/sunixcol-mult-x64-8.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-36abf123fb4e70f6",
+      "pack": "INTEL_System_x64",
+      "type": "Other",
+      "provider": "Vector Informatik GmbH",
+      "category": "Vector-Hardware",
+      "version": "8.7.16.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Vector Informatik GmbH",
+        "ETAS GmbH",
+        "CANcardXL",
+        "CAN-Link II",
+        "ES580"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/vectorin-vect-x64-8.7.16.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vectorin-vect-x64-8.7.16.0.7z.0001",
+          "size_bytes": 177031,
+          "sha256": "2c52a9742e5f752a9398ed8de0b3b3e0c86c9c97bba0920da57b9bcbad21d84d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_INTEL_System_x64/vectorin-vect-x64-8.7.16.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {}
