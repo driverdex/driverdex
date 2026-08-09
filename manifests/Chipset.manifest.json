@@ -1,0 +1,473 @@
+{
+  "schema": "3.0",
+  "category": "Chipset",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-ed1e5f72dc576aeb",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "SmartCardReader",
+      "version": "1.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_08C3&PID_0401",
+        "USB\\VID_08C3&PID_0402",
+        "USB\\VID_08C3&PID_0405",
+        "USB\\VID_08C3&PID_0406"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise Biometrics",
+        "Precise 250 MC",
+        "Precise 200 MC",
+        "Precise 250 MC Upgrade",
+        "Precise 200 MC Upgrade"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-smar-x64-1.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-smar-x64-1.1.0.0.7z.0001",
+          "size_bytes": 3198798,
+          "sha256": "9d8d680de377b3de9cc25edeef16d757db7ebb3b1a13f31ece462c00960f9dba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-smar-x64-1.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dfbcc484ed804290",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "Biometric",
+      "version": "1.1.1.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise Biometrics",
+        "Precise 250 MC Fingerprint Reader",
+        "Precise 200 MC Fingerprint Reader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-smar-x64-1.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-smar-x64-1.1.0.0.7z.0001",
+          "size_bytes": 3198798,
+          "sha256": "9d8d680de377b3de9cc25edeef16d757db7ebb3b1a13f31ece462c00960f9dba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-smar-x64-1.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4149ac1e9b96e058",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "SmartCardReader",
+      "version": "1.1.1.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_08C3&PID_0401",
+        "USB\\VID_08C3&PID_0402"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise Biometrics",
+        "Precise 250 MC Smart Card Reader",
+        "Precise 200 MC Smart Card Reader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-smar-x64-1.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-smar-x64-1.1.0.0.7z.0001",
+          "size_bytes": 3198798,
+          "sha256": "9d8d680de377b3de9cc25edeef16d757db7ebb3b1a13f31ece462c00960f9dba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-smar-x64-1.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0cb54f6e7d19c43b",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "USB",
+      "version": "3.0.1.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_08C3&PID_0001&REV_0001",
+        "USB\\VID_08C3&PID_0001&REV_0002",
+        "USB\\VID_08C3&PID_0002&REV_0002",
+        "USB\\VID_08C3&PID_0003&REV_0002",
+        "USB\\VID_08C3&PID_0003&REV_0100",
+        "USB\\VID_08C3&PID_0006&REV_0100",
+        "USB\\VID_08C3&PID_0100",
+        "USB\\VID_08C3&PID_0101",
+        "USB\\VID_08C3&PID_0300"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise 100 SC",
+        "Precise 100 A",
+        "Precise 100 SC BioKeyboard",
+        "Precise 100 A BioKeyboard",
+        "Precise 100 MC ISP",
+        "Precise 100 MC",
+        "Precise 100 AX"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-75760e5a81c07b88",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "USB",
+      "version": "01.13.00.01",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise 100 MC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0092f809bc974951",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "SmartCardReader",
+      "version": "01.13.00.01",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_08C3&PID_0200"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise 100 MC Smart Card Reader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e3eb721e91098803",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "SmartCardReader",
+      "version": "3.0.1.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise 100 MC Smart Card Reader",
+        "Precise 100 SC Smart Card Reader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ade528667da4545f",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "SmartCardReader",
+      "version": "1.0.4.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_08C3&PID_0400",
+        "USB\\VID_08C3&PID_0401",
+        "USB\\VID_08C3&PID_0402",
+        "USB\\VID_08C3&PID_0404",
+        "USB\\VID_08C3&PID_0405",
+        "USB\\VID_08C3&PID_0406"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise 200 SC",
+        "Precise 250 MC",
+        "Precise 200 MC",
+        "Precise 200 SC Upgrade",
+        "Precise 250 MC Upgrade",
+        "Precise 200 MC Upgrade"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f58074fc9bf95b00",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "Biometric",
+      "version": "1.1.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise Biometrics",
+        "Precise 250 MC Fingerprint Reader",
+        "Precise 200 MC Fingerprint Reader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d7d0dc54be0ea038",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "Precise Biometrics",
+      "category": "USB",
+      "version": "1.0.0.7",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_08C3&PID_0600",
+        "USB\\VID_08C3&PID_0600.DEVICEDESC",
+        "USB\\VID_08C3&PID_0600.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0601",
+        "USB\\VID_08C3&PID_0601.DEVICEDESC",
+        "USB\\VID_08C3&PID_0601.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0602",
+        "USB\\VID_08C3&PID_0602.DEVICEDESC",
+        "USB\\VID_08C3&PID_0602.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0603",
+        "USB\\VID_08C3&PID_0603.DEVICEDESC",
+        "USB\\VID_08C3&PID_0603.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0604",
+        "USB\\VID_08C3&PID_0604.DEVICEDESC",
+        "USB\\VID_08C3&PID_0604.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0605",
+        "USB\\VID_08C3&PID_0605.DEVICEDESC",
+        "USB\\VID_08C3&PID_0605.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0611",
+        "USB\\VID_08C3&PID_0611.DEVICEDESC",
+        "USB\\VID_08C3&PID_0611.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0613",
+        "USB\\VID_08C3&PID_0613.DEVICEDESC",
+        "USB\\VID_08C3&PID_0613.DEVICEDESC%",
+        "USB\\VID_08C3&PID_0615",
+        "USB\\VID_08C3&PID_0615.DEVICEDESC",
+        "USB\\VID_08C3&PID_0615.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Precise Biometrics",
+        "%USB\\VID_08c3&PID_0600.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0601.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0602.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0603.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0604.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0605.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0611.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0613.DeviceDesc%",
+        "%USB\\VID_08c3&PID_0615.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "preciseb-usb-x64-1.0.0.7.7z.0001",
+          "size_bytes": 3913033,
+          "sha256": "5951eaff76390c5cab18842b11cf69741900e8c0883f2b1fbdbe1ef97187a293",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/preciseb-usb-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5d474d1ee1cc809e",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Chipset",
+      "provider": "STMicroelectronics",
+      "category": "SmartCardReader",
+      "version": "3.1.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0483&PID_2015",
+        "USB\\VID_0483&PID_2015&MI_00",
+        "USB\\VID_0483&PID_2015&MI_00.DEVICEDESC",
+        "USB\\VID_0483&PID_2015&MI_00.DEVICEDESC%",
+        "USB\\VID_0483&PID_2015&MI_01",
+        "USB\\VID_0483&PID_2015&MI_01.DEVICEDESC",
+        "USB\\VID_0483&PID_2015&MI_01.DEVICEDESC%",
+        "USB\\VID_0483&PID_2015.DEVICEDESC",
+        "USB\\VID_0483&PID_2015.DEVICEDESC%",
+        "USB\\VID_0483&PID_2017",
+        "USB\\VID_0483&PID_2017&MI_00",
+        "USB\\VID_0483&PID_2017&MI_00.DEVICEDESC",
+        "USB\\VID_0483&PID_2017&MI_00.DEVICEDESC%",
+        "USB\\VID_0483&PID_2017&MI_01",
+        "USB\\VID_0483&PID_2017&MI_01.DEVICEDESC",
+        "USB\\VID_0483&PID_2017&MI_01.DEVICEDESC%",
+        "USB\\VID_0483&PID_2017.DEVICEDESC",
+        "USB\\VID_0483&PID_2017.DEVICEDESC%",
+        "USB\\VID_0483&PID_2018",
+        "USB\\VID_0483&PID_2018&MI_00",
+        "USB\\VID_0483&PID_2018&MI_00.DEVICEDESC",
+        "USB\\VID_0483&PID_2018&MI_00.DEVICEDESC%",
+        "USB\\VID_0483&PID_2018&MI_01",
+        "USB\\VID_0483&PID_2018&MI_01.DEVICEDESC",
+        "USB\\VID_0483&PID_2018&MI_01.DEVICEDESC%",
+        "USB\\VID_0483&PID_2018.DEVICEDESC",
+        "USB\\VID_0483&PID_2018.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "STMicroelectronics",
+        "%USB\\VID_0483&PID_2015&MI_00.DeviceDesc%",
+        "%USB\\VID_0483&PID_2015&MI_01.DeviceDesc%",
+        "%USB\\VID_0483&PID_2017&MI_00.DeviceDesc%",
+        "%USB\\VID_0483&PID_2017&MI_01.DeviceDesc%",
+        "%USB\\VID_0483&PID_2018&MI_00.DeviceDesc%",
+        "%USB\\VID_0483&PID_2018&MI_01.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/stmicroe-smar-x64-3.1.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "stmicroe-smar-x64-3.1.0.1.7z.0001",
+          "size_bytes": 50842,
+          "sha256": "7476cc5ebd62ce6e6ec1e40707b571487b893009cfbcfaf87a870f3732febfa8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SynapticsIncor_Biometric_x64/stmicroe-smar-x64-3.1.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}

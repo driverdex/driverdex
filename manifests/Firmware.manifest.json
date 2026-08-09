@@ -1,0 +1,455 @@
+{
+  "schema": "3.0",
+  "category": "Firmware",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-5d4855715bcbfc81",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "ELAN",
+      "category": "SoftwareComponent",
+      "version": "5.4.32720.10502",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELAN",
+        "ELAN Firmware Support Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/elan-soft-x64-5.4.32720.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elan-soft-x64-5.4.32720.7z.0001",
+          "size_bytes": 1899925,
+          "sha256": "e033b338c5f99c5f4e936ce7d1eef6d50bc9956df6d0bc84533bad5599589850",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/elan-soft-x64-5.4.32720.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-26369028a9f220a5",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "ELAN",
+      "category": "SoftwareComponent",
+      "version": "5.4.32630.10401",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELAN",
+        "ELAN Firmware Support Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/elan-soft-x64-5.4.32630.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elan-soft-x64-5.4.32630.7z.0001",
+          "size_bytes": 3987866,
+          "sha256": "4a1c065a5e20cc717d1153b194a78c2e4a9eb4e21c84d836919b9a5b58e51820",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/elan-soft-x64-5.4.32630.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7d1d8dd10e665edb",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "19.6.15.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Device HSA Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-soft-x86-19.6.15.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x86-19.6.15.1.7z.0001",
+          "size_bytes": 8153,
+          "sha256": "6f9195976f88d53e55dbcf1c5b70a83d66fafcdd95ff9b5208773a19263335fb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-soft-x86-19.6.15.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bc732955e24c9f95",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "SoftwareComponent",
+      "version": "6.0.17.1167",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UMDF Util App Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.17.116.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.17.116.7z.0001",
+          "size_bytes": 1678154,
+          "sha256": "987698365872ee041f2fb289c8bfff49d9df61f31544505771ab715d35a3ad79",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.17.116.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-94253574e89debae",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "Biometric",
+      "version": "6.0.17.1167",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06CB&PID_019D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UWP WBDI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.17.116.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.17.116.7z.0001",
+          "size_bytes": 1678154,
+          "sha256": "987698365872ee041f2fb289c8bfff49d9df61f31544505771ab715d35a3ad79",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.17.116.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5a9c07501ecb834f",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "SoftwareComponent",
+      "version": "6.0.60.1136",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UMDF Util App Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.60.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.60.113.7z.0001",
+          "size_bytes": 1756496,
+          "sha256": "69c5094ddee96069cd8f324b9cf03133e323490e5fa3bbeed165802a8ff0f8f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.60.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-98015d2a1bbfcbe1",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "Biometric",
+      "version": "6.0.60.1136",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06CB&PID_00F9",
+        "USB\\VID_06CB&PID_00FB",
+        "USB\\VID_06CB&PID_00FC",
+        "USB\\VID_06CB&PID_0126",
+        "USB\\VID_06CB&PID_0129",
+        "USB\\VID_06CB&PID_016D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UWP WBDI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.60.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.60.113.7z.0001",
+          "size_bytes": 1756496,
+          "sha256": "69c5094ddee96069cd8f324b9cf03133e323490e5fa3bbeed165802a8ff0f8f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.60.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e877df71664c96e1",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "SoftwareComponent",
+      "version": "6.0.65.1136",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UMDF Util App Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.65.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.65.113.7z.0001",
+          "size_bytes": 1759074,
+          "sha256": "0fa9c64fdde0003b5d5ae15770b74bd9856063767bad843ce14d45796209c995",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.65.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0dc512765e4fa3df",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "Biometric",
+      "version": "6.0.65.1136",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06CB&PID_00F9",
+        "USB\\VID_06CB&PID_00FB",
+        "USB\\VID_06CB&PID_00FC",
+        "USB\\VID_06CB&PID_0126",
+        "USB\\VID_06CB&PID_0129",
+        "USB\\VID_06CB&PID_016D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UWP WBDI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.65.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.65.113.7z.0001",
+          "size_bytes": 1759074,
+          "sha256": "0fa9c64fdde0003b5d5ae15770b74bd9856063767bad843ce14d45796209c995",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.65.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-32bc4bd7fb0d63c8",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "SoftwareComponent",
+      "version": "6.0.67.1136",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UMDF Util App Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.67.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.67.113.7z.0001",
+          "size_bytes": 1770657,
+          "sha256": "46b1c75420a1ffd80ad1e8ff1cd375b5296232e05a1c2f3a8f9e4d8b3c431db5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.67.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e31ed87a9950e741",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "Biometric",
+      "version": "6.0.67.1136",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06CB&PID_00F9",
+        "USB\\VID_06CB&PID_00FB",
+        "USB\\VID_06CB&PID_00FC",
+        "USB\\VID_06CB&PID_0126",
+        "USB\\VID_06CB&PID_0129",
+        "USB\\VID_06CB&PID_016D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UWP WBDI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.67.113.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.67.113.7z.0001",
+          "size_bytes": 1770657,
+          "sha256": "46b1c75420a1ffd80ad1e8ff1cd375b5296232e05a1c2f3a8f9e4d8b3c431db5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.67.113.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-299caca65f22faaf",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "SoftwareComponent",
+      "version": "6.0.72.1105",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UMDF Util App Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.72.110.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.72.110.7z.0001",
+          "size_bytes": 1751893,
+          "sha256": "058c9661242796553f0da8f5b923a8456060b00479fe2b000f3dd7c72afd07a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.72.110.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6f3f41bf9d698f46",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Firmware",
+      "provider": "Synaptics Incorporated",
+      "category": "Biometric",
+      "version": "6.0.72.1105",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06CB&PID_00BD",
+        "USB\\VID_06CB&PID_00C2",
+        "USB\\VID_06CB&PID_0123"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics Incorporated",
+        "Synaptics UWP WBDI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.72.110.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-biom-x64-6.0.72.110.7z.0001",
+          "size_bytes": 1751893,
+          "sha256": "058c9661242796553f0da8f5b923a8456060b00479fe2b000f3dd7c72afd07a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SynapticsIncor_Biometric_x64/synaptic-biom-x64-6.0.72.110.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}

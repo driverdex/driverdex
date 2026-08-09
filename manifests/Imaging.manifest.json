@@ -1,0 +1,357 @@
+{
+  "schema": "3.0",
+  "category": "Imaging",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-92d622cff880bf13",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "BioVision",
+      "category": "Image",
+      "version": "2.1.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0100&PID_C031",
+        "USB\\VID_0100&PID_C031.DEVICEDESC",
+        "USB\\VID_0100&PID_C031.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_0100&PID_C031.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/biovisio-imag-x64-2.1.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "biovisio-imag-x64-2.1.0.1.7z.0001",
+          "size_bytes": 196572,
+          "sha256": "f4870b290e33b2607d9d68451aff68e3f09742d432e452a5be718eeceacf3a3e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/biovisio-imag-x64-2.1.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-efa190f0b40814e1",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "Cogent Systems Inc.",
+      "category": "Image",
+      "version": "1.12.220.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0547&PID_2100",
+        "USB\\VID_0547&PID_2102",
+        "USB\\VID_0547&PID_210F",
+        "USB\\VID_0547&PID_2110",
+        "USB\\VID_0547&PID_2120",
+        "USB\\VID_0547&PID_2130",
+        "USB\\VID_0547&PID_2140",
+        "USB\\VID_0547&PID_2150",
+        "USB\\VID_0547&PID_2160",
+        "USB\\VID_1E25&PID_2100",
+        "USB\\VID_1E25&PID_2101",
+        "USB\\VID_1E25&PID_2102",
+        "USB\\VID_1E25&PID_2103",
+        "USB\\VID_1E25&PID_2104",
+        "USB\\VID_1E25&PID_2105",
+        "USB\\VID_1E25&PID_2106",
+        "USB\\VID_1E25&PID_2107",
+        "USB\\VID_1E25&PID_2108",
+        "USB\\VID_1E25&PID_2109",
+        "USB\\VID_1E25&PID_210A",
+        "USB\\VID_1E25&PID_210B",
+        "USB\\VID_1E25&PID_210C",
+        "USB\\VID_1E25&PID_210D",
+        "USB\\VID_1E25&PID_210E",
+        "USB\\VID_1E25&PID_2110",
+        "USB\\VID_1E25&PID_2111",
+        "USB\\VID_1E25&PID_2112",
+        "USB\\VID_1E25&PID_2113",
+        "USB\\VID_1E25&PID_2115",
+        "USB\\VID_1E25&PID_2116",
+        "USB\\VID_1E25&PID_2117",
+        "USB\\VID_1E25&PID_2118",
+        "USB\\VID_1E25&PID_2119",
+        "USB\\VID_1E25&PID_211A",
+        "USB\\VID_1E25&PID_211B",
+        "USB\\VID_1E25&PID_211C",
+        "USB\\VID_1E25&PID_211D",
+        "USB\\VID_1E25&PID_211E",
+        "USB\\VID_1E25&PID_2120",
+        "USB\\VID_1E25&PID_2121",
+        "USB\\VID_1E25&PID_2130",
+        "USB\\VID_1E25&PID_2131",
+        "USB\\VID_1E25&PID_2140",
+        "USB\\VID_1E25&PID_2141",
+        "USB\\VID_1E25&PID_2142",
+        "USB\\VID_1E25&PID_2143",
+        "USB\\VID_1E25&PID_2144",
+        "USB\\VID_1E25&PID_2145",
+        "USB\\VID_1E25&PID_2146",
+        "USB\\VID_1E25&PID_2147",
+        "USB\\VID_1E25&PID_2148",
+        "USB\\VID_1E25&PID_2149",
+        "USB\\VID_1E25&PID_2150",
+        "USB\\VID_1E25&PID_2151",
+        "USB\\VID_1E25&PID_2152",
+        "USB\\VID_1E25&PID_2153",
+        "USB\\VID_1E25&PID_2158",
+        "USB\\VID_1E25&PID_2160",
+        "USB\\VID_1E25&PID_2161",
+        "USB\\VID_1E25&PID_2162",
+        "USB\\VID_1E25&PID_2170",
+        "USB\\VID_1E25&PID_2171",
+        "USB\\VID_1E25&PID_2172",
+        "USB\\VID_1E25&PID_2173",
+        "USB\\VID_1E25&PID_2174",
+        "USB\\VID_1E25&PID_2175",
+        "USB\\VID_1E25&PID_2176",
+        "USB\\VID_1E25&PID_2177",
+        "USB\\VID_1E25&PID_2178",
+        "USB\\VID_1E25&PID_2179",
+        "USB\\VID_1E25&PID_217A",
+        "USB\\VID_1E25&PID_2201"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cogent CSD200",
+        "Cogent CSD200i",
+        "Cogent CSD200x",
+        "Cogent CSD100",
+        "Cogent CSD330",
+        "Cogent CS500i",
+        "Cogent CS500e",
+        "Cogent CS500ps",
+        "Cogent CS500t",
+        "Cogent CS1000p (TP)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/cogentsy-imag-x64-1.12.220.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cogentsy-imag-x64-1.12.220.1.7z.0001",
+          "size_bytes": 36808,
+          "sha256": "80c83b116c5adf0a18e23a0b2c6ad11d2c6c9968d48ab2c52ab8901eaacfe765",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/cogentsy-imag-x64-1.12.220.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6d5ff01ba807d1d2",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "Cogent Systems Inc.",
+      "category": "Image",
+      "version": "1.3.8.0",
+      "arch": "x64",
+      "hwids": [
+        "1394\\COGENT&CS1000E-FIREWIRE",
+        "1394\\COGENT&CS1000P-FIREWIRE",
+        "1394\\COGENT&CS1000P-FLAT-FIREWIRE",
+        "1394\\COGENT&CS1000P-II-FIREWIRE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cogent Systems Inc.",
+        "%CS1000e-Firewire.DeviceDesc%",
+        "%CS1000p-Flat-Firewire.DeviceDesc%",
+        "%CS1000p-Firewire.DeviceDesc%",
+        "%CS1000p-II-Firewire.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/cogentsy-imag-x64-1.12.220.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cogentsy-imag-x64-1.12.220.1.7z.0001",
+          "size_bytes": 36808,
+          "sha256": "80c83b116c5adf0a18e23a0b2c6ad11d2c6c9968d48ab2c52ab8901eaacfe765",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/cogentsy-imag-x64-1.12.220.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6f37190ed76e5e98",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "Finger Printer Solution",
+      "category": "Image",
+      "version": "1.9.0.13",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_093A&PID_0017"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Finger Printer Solution"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/fingerpr-imag-x86-1.9.0.13.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fingerpr-imag-x86-1.9.0.13.7z.0001",
+          "size_bytes": 37082,
+          "sha256": "bc5d15ff52b3a185775d48501692c61b34b46c333ae7a7cb34c87b74cfd70123",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/fingerpr-imag-x86-1.9.0.13.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b942d705239b09c7",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "Hongda",
+      "category": "IMAGE",
+      "version": "1.3.0.8",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_7D45&PID_1003",
+        "USB\\VID_7D45&PID_1004",
+        "USB\\VID_7D45&PID_1007",
+        "USB\\VID_7D45&PID_1008",
+        "USB\\VID_7D45&PID_1009",
+        "USB\\VID_7D45&PID_100A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hongda",
+        "%VID_7D45&PID_1003.DeviceDesc%",
+        "%VID_7D45&PID_1004.DeviceDesc%",
+        "%VID_7D45&PID_1007.DeviceDesc%",
+        "%VID_7D45&PID_1008.DeviceDesc%",
+        "%VID_7D45&PID_1009.DeviceDesc%",
+        "%VID_7D45&PID_100a.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/hongda-imag-x86-1.3.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hongda-imag-x86-1.3.0.8.7z.0001",
+          "size_bytes": 29574,
+          "sha256": "1efbd182649f0bf5a9038a50d01d0b0e0ec27c3443b7a03de82ac2f9cee899ee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/hongda-imag-x86-1.3.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1a57a6b021cb22a8",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "Hongda",
+      "category": "IMAGE",
+      "version": "1.0.0.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04B4&PID_8613",
+        "USB\\VID_7D45&PID_100D",
+        "USB\\VID_7D45&PID_100E"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hongda",
+        "%VID_7D45&PID_100B.DeviceDesc%",
+        "%VID_7D45&PID_100C.DeviceDesc%",
+        "%VID_04b4&PID_8613.DeviceDesc%",
+        "%VID_7D45&PID_100D.DeviceDesc%",
+        "%VID_7D45&PID_100E.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/hongda-imag-x86-1.3.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hongda-imag-x86-1.3.0.8.7z.0001",
+          "size_bytes": 29574,
+          "sha256": "1efbd182649f0bf5a9038a50d01d0b0e0ec27c3443b7a03de82ac2f9cee899ee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/hongda-imag-x86-1.3.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7643a2b972ba0873",
+      "pack": "SynapticsIncor_Biometric_x64",
+      "type": "Imaging",
+      "provider": "Hongda",
+      "category": "IMAGE",
+      "version": "6.0.6000",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_7D45&PID_1001",
+        "USB\\VID_7D45&PID_1002",
+        "USB\\VID_7D45&PID_1005",
+        "USB\\VID_7D45&PID_1006"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hongda",
+        "%VID_7D45&PID_1001.DeviceDesc%",
+        "%VID_7D45&PID_1002.DeviceDesc%",
+        "%VID_7D45&PID_1005.DeviceDesc%",
+        "%VID_7D45&PID_1006.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/hongda-imag-x86-6.0.6000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hongda-imag-x86-6.0.6000.7z.0001",
+          "size_bytes": 49715,
+          "sha256": "ecef261ff7c9396dde438e058961bc6589853f73449e4c45bd4350469839f385",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SynapticsIncor_Biometric_x64/hongda-imag-x86-6.0.6000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}
