@@ -1,0 +1,558 @@
+{
+  "schema": "3.0",
+  "category": "Printer",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-08-09",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-a44aacce47241347",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "CUSTOM",
+      "category": "Printer",
+      "version": "2.00.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\VID_0DD4&PID_021D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-2.00.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "custom-prin-x64-2.00.0.0.7z.0001",
+          "size_bytes": 396537,
+          "sha256": "8d8f070ec8da457f7cd96d17032c6ffc45bb85aaca1a362e973acbf2b1bddb9c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-2.00.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a66eaf0d2e4e2918",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "CUSTOM",
+      "category": "Printer",
+      "version": "2.01.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\VID_0DD4&PID_014A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-2.01.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "custom-prin-x64-2.01.0.0.7z.0001",
+          "size_bytes": 388559,
+          "sha256": "a05544662377e03685b2442fc750429ba3824331924e51e8f46b09b323b0782e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-2.01.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f6b060d5982ffd85",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "CUSTOM",
+      "category": "Printer",
+      "version": "3.51.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\VID_0DD4&PID_0205"
+      ],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-3.51.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "custom-prin-x64-3.51.0.0.7z.0001",
+          "size_bytes": 524716,
+          "sha256": "a6489ff6ae1d7e5c8372aba3816a65b15c1cccb19180206cafbaddad649e49bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-3.51.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-90fd6da15bd93843",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "CUSTOM",
+      "category": "Printer",
+      "version": "3.02.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\VID_0DD4&PID_0205"
+      ],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-3.02.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "custom-prin-x64-3.02.0.0.7z.0001",
+          "size_bytes": 544373,
+          "sha256": "e2c350e066202809ec4b5b5b39cf765e8ffb07a1f38a9a40e83ac1a48d0db6a2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/custom-prin-x64-3.02.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e2bde1c221a19858",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "Dremel",
+      "category": "Printer",
+      "version": "14.22.46.20",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dremel",
+        "Dremel 3D Idea Builder"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dremel-prin-x64-14.22.46.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dremel-prin-x64-14.22.46.2.7z.0001",
+          "size_bytes": 516771,
+          "sha256": "4f3dc931f8bb67afc83fa2129a8c691ed3ce3fcef22758598d20b53fe43a1698",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dremel-prin-x64-14.22.46.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-810b8293ffa5f083",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "DYMO",
+      "category": "Printer",
+      "version": "8.5.0.542",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\DYMODYM00074739",
+        "USBPRINT\\DYMODYM00084379",
+        "USBPRINT\\DYMODYM000983B8",
+        "USBPRINT\\DYMODYM00101779",
+        "USBPRINT\\DYMODYM0012D6F8",
+        "USBPRINT\\DYMOLABELMANAGER_280B638",
+        "USBPRINT\\DYMOLABELMANAGER_4206497",
+        "USBPRINT\\DYMOLABELMANAGER_4503198",
+        "USBPRINT\\DYMOLABELMANAGER_5002B5B",
+        "USBPRINT\\DYMOLABELMANAGER_PC_F6B7",
+        "USBPRINT\\DYMOLABELMANAGER_PNPE0A6",
+        "USBPRINT\\DYMOLABELMANAGER_WIR9DBD",
+        "USBPRINT\\DYMOLABELPOINT_3501312",
+        "USBPRINT\\DYMOLABELWRITER_31009EF",
+        "USBPRINT\\DYMOLABELWRITER_3150A2F",
+        "USBPRINT\\DYMOLABELWRITER_320F9EF",
+        "USBPRINT\\DYMOLABELWRITER_33069EE",
+        "USBPRINT\\DYMOLABELWRITER_330_B0AE",
+        "USBPRINT\\DYMOLABELWRITER_400585F",
+        "USBPRINT\\DYMOLABELWRITER_400_95C8",
+        "USBPRINT\\DYMOLABELWRITER_450085C",
+        "USBPRINT\\DYMOLABELWRITER_450_5F1A",
+        "USBPRINT\\DYMOLABELWRITER_450_6EB9",
+        "USBPRINT\\DYMOLABELWRITER_450_AA08",
+        "USBPRINT\\DYMOLABELWRITER_450_E15E",
+        "USBPRINT\\DYMOLABELWRITER_4XL7971",
+        "USBPRINT\\DYMOLABELWRITER_DUO_409B",
+        "USBPRINT\\DYMOLABELWRITER_DUO_4D60",
+        "USBPRINT\\DYMOLABELWRITER_DUO_8381",
+        "USBPRINT\\DYMOLABELWRITER_SE458BE0",
+        "USBPRINT\\DYMOLABELWRITER_TWINEE98"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\DYMODYM00074739",
+        "USBPRINT\\DYMODYM00084379",
+        "USBPRINT\\DYMODYM000983B8",
+        "USBPRINT\\DYMODYM00101779",
+        "USBPRINT\\DYMODYM0012D6F8",
+        "USBPRINT\\DYMOLABELMANAGER_280B638",
+        "USBPRINT\\DYMOLABELMANAGER_4206497",
+        "USBPRINT\\DYMOLABELMANAGER_4503198",
+        "USBPRINT\\DYMOLABELMANAGER_5002B5B",
+        "USBPRINT\\DYMOLABELMANAGER_PC_F6B7",
+        "USBPRINT\\DYMOLABELMANAGER_PNPE0A6",
+        "USBPRINT\\DYMOLABELMANAGER_WIR9DBD",
+        "USBPRINT\\DYMOLABELPOINT_3501312",
+        "USBPRINT\\DYMOLABELWRITER_31009EF",
+        "USBPRINT\\DYMOLABELWRITER_3150A2F",
+        "USBPRINT\\DYMOLABELWRITER_320F9EF",
+        "USBPRINT\\DYMOLABELWRITER_33069EE",
+        "USBPRINT\\DYMOLABELWRITER_330_B0AE",
+        "USBPRINT\\DYMOLABELWRITER_400585F",
+        "USBPRINT\\DYMOLABELWRITER_400_95C8",
+        "USBPRINT\\DYMOLABELWRITER_450085C",
+        "USBPRINT\\DYMOLABELWRITER_450_5F1A",
+        "USBPRINT\\DYMOLABELWRITER_450_6EB9",
+        "USBPRINT\\DYMOLABELWRITER_450_AA08",
+        "USBPRINT\\DYMOLABELWRITER_450_E15E",
+        "USBPRINT\\DYMOLABELWRITER_4XL7971",
+        "USBPRINT\\DYMOLABELWRITER_DUO_409B",
+        "USBPRINT\\DYMOLABELWRITER_DUO_4D60",
+        "USBPRINT\\DYMOLABELWRITER_DUO_8381",
+        "USBPRINT\\DYMOLABELWRITER_SE458BE0",
+        "USBPRINT\\DYMOLABELWRITER_TWINEE98"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-8.5.0.542.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dymo-prin-x86-8.5.0.542.7z.0001",
+          "size_bytes": 124250,
+          "sha256": "08069f73dc96da0ebebf2e9dd50e19866400e9d1637e639817b95e2b72b34641",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-8.5.0.542.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-580c6bc290a9fe0f",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "DYMO",
+      "category": "Printer",
+      "version": "1.0.0.121",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\DYMOMOBILELABELER45D5"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\DYMOMOBILELABELER45D5"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.0.0.121.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dymo-prin-x86-1.0.0.121.7z.0001",
+          "size_bytes": 40953,
+          "sha256": "4b48612e11a54f82463fd382710378f1d4a29a79352a8eb7305007f594671626",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.0.0.121.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ac7e821c29e245f7",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "DYMO",
+      "category": "Printer",
+      "version": "1.1.0.147",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\DYMOLABELWRITER_550C80D",
+        "USBPRINT\\DYMOLABELWRITER_550_0FEC",
+        "USBPRINT\\DYMOLABELWRITER_550_3A05",
+        "USBPRINT\\DYMOLABELWRITER_550_C240",
+        "USBPRINT\\DYMOLABELWRITER_5XLB920",
+        "USBPRINT\\DYMOLABELWRITER_5XL_78B5"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\DYMOLABELWRITER_550C80D",
+        "USBPRINT\\DYMOLABELWRITER_550_0FEC",
+        "USBPRINT\\DYMOLABELWRITER_550_3A05",
+        "USBPRINT\\DYMOLABELWRITER_550_C240",
+        "USBPRINT\\DYMOLABELWRITER_5XLB920",
+        "USBPRINT\\DYMOLABELWRITER_5XL_78B5"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.1.0.147.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dymo-prin-x86-1.1.0.147.7z.0001",
+          "size_bytes": 740436,
+          "sha256": "c785b40742a84d5bed00904e821e8736e04c2df763354cf47815ff0e206bd77a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.1.0.147.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-905f512a462203b5",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "DYMO",
+      "category": "Printer",
+      "version": "1.0.1.114",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\DYMOLABELWRITER_DAA1",
+        "USBPRINT\\DYMOLABELWRITER_WIREC782"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\DYMOLABELWRITER_DAA1",
+        "USBPRINT\\DYMOLABELWRITER_WIREC782"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.0.1.114.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dymo-prin-x86-1.0.1.114.7z.0001",
+          "size_bytes": 499717,
+          "sha256": "84448edcedc6ecdd26caa890c387f19078e3f59f3270bf8afa0e2457257a925a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.0.1.114.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-64899d84fbc59cc9",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "DYMO",
+      "category": "Printer",
+      "version": "1.2.0.829",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\DYMORHINO_600040BE",
+        "USBPRINT\\DYMORHINO_650041AE"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\DYMORHINO_600040BE",
+        "USBPRINT\\DYMORHINO_650041AE"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.2.0.829.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dymo-prin-x86-1.2.0.829.7z.0001",
+          "size_bytes": 43847,
+          "sha256": "7417115049eca058951b4b8dfe3c0217daa750a2b9bbd25f5d516ad896b52fc4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.2.0.829.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2ddc704c5bb95b46",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "DYMO",
+      "category": "Printer",
+      "version": "1.0.0.202",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\DYMOXTL_3005A95",
+        "USBPRINT\\DYMOXTL_5005B75"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\DYMOXTL_3005A95",
+        "USBPRINT\\DYMOXTL_5005B75"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.0.0.202.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dymo-prin-x86-1.0.0.202.7z.0001",
+          "size_bytes": 45490,
+          "sha256": "522eb173ac5598424cab5c42af1ebecc552fba0fbc6d33baa93990f2e559977d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/dymo-prin-x86-1.0.0.202.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-47f0bf490e8a0ca8",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "Microsoft",
+      "category": "Printer",
+      "version": "08/01/2001",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/microsof-prin-x86-08012001.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-prin-x86-08012001.7z.0001",
+          "size_bytes": 937631,
+          "sha256": "863c4b3755f28591d8f306b6b34917068d7589f42ac169aed0c2ddfe86a8e568",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/microsof-prin-x86-08012001.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b1b2750684080351",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "Microsoft",
+      "category": "Printer",
+      "version": "08/09/2010",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/microsof-prin-x86-08012001.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-prin-x86-08012001.7z.0001",
+          "size_bytes": 937631,
+          "sha256": "863c4b3755f28591d8f306b6b34917068d7589f42ac169aed0c2ddfe86a8e568",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/microsof-prin-x86-08012001.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2ee43491c763fb75",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "Shandong NewBeiyang",
+      "category": "Printer",
+      "version": "3.2.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/shandong-prin-x64-3.2.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shandong-prin-x64-3.2.3.0.7z.0001",
+          "size_bytes": 435021,
+          "sha256": "5709b7dadcbb633a068ad41f66c22dc524b682084c3ae57d95524793ae69d017",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/shandong-prin-x64-3.2.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-54f21821fe5b6aa8",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Printer",
+      "provider": "Shandong NewBeiyang",
+      "category": "Printer",
+      "version": "3.2.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/shandong-prin-x64-3.2.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shandong-prin-x64-3.2.2.0.7z.0001",
+          "size_bytes": 214717,
+          "sha256": "34c6271c56e513ae9e000c3471761f86879444b48abee3368bd13b746a9d99f2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_RazerInc_HIDClass_x64/shandong-prin-x64-3.2.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}

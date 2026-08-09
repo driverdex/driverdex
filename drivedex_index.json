@@ -4,37 +4,37 @@
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
-      "size_bytes": 30794,
+      "size_bytes": 164716,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 6636650,
+      "size_bytes": 7522204,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Display.manifest.json",
-      "size_bytes": 3439,
+      "size_bytes": 754075,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 167989,
+      "size_bytes": 192489,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Imaging.manifest.json",
-      "size_bytes": 62507,
+      "size_bytes": 183840,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 809171,
+      "size_bytes": 4861963,
       "active": true,
       "note": "active"
     },
@@ -46,47 +46,54 @@
     },
     {
       "filename": "manifests/Other.manifest.json",
-      "size_bytes": 60096,
+      "size_bytes": 358108,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Ports.manifest.json",
-      "size_bytes": 140795,
+      "size_bytes": 487813,
+      "active": true,
+      "note": "active"
+    },
+    {
+      "filename": "manifests/Printer.manifest.json",
+      "size_bytes": 19509,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Security.manifest.json",
-      "size_bytes": 44510,
+      "size_bytes": 48427,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Storage.manifest.json",
-      "size_bytes": 342818,
+      "size_bytes": 3412720,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/USB.manifest.json",
-      "size_bytes": 399834,
+      "size_bytes": 1514924,
       "active": true,
       "note": "active"
     }
   ],
   "category_summary": {
-    "Audio": 22,
-    "Chipset": 2120,
-    "Display": 3,
-    "Firmware": 91,
-    "Imaging": 35,
-    "Input": 604,
-    "Net": 967,
-    "Other": 42,
-    "Ports": 94,
-    "Security": 36,
-    "Storage": 111,
-    "USB": 213
+    "Audio": 45,
+    "Chipset": 2580,
+    "Display": 15,
+    "Firmware": 106,
+    "Imaging": 52,
+    "Input": 2421,
+    "Net": 910,
+    "Other": 185,
+    "Ports": 254,
+    "Printer": 15,
+    "Security": 38,
+    "Storage": 861,
+    "USB": 551
   }
 }

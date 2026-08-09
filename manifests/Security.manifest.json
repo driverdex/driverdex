@@ -802,10 +802,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-c55cb4f212ccf546",
+      "notes": " | Superseded by drv-c55cb4f212ccf546 on 2026-08-09"
     },
     {
       "id": "drv-d21e2e58224bac99",
@@ -1302,7 +1302,122 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-c55cb4f212ccf546",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Security",
+      "provider": "HID Global",
+      "category": "SmartCard",
+      "version": "9.6.3.10472",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HID Global",
+        "HID Global Crescendo 4000",
+        "HID Global Crescendo 4000 FIPS",
+        "HID Global Crescendo Key V3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Security/DP_RazerInc_HIDClass_x64/hidgloba-smar-x64-9.6.3.1047.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hidgloba-smar-x64-9.6.3.1047.7z.0001",
+          "size_bytes": 2210148,
+          "sha256": "4ebaecc8538dfc325eb3322e6ddaad2eb3fef025e71f1639055d2c60288c7c4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Security/DP_RazerInc_HIDClass_x64/hidgloba-smar-x64-9.6.3.1047.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": "drv-8077f807f414fa11",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d6875773eb1f2c7d",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Security",
+      "provider": "HID Global",
+      "category": "SmartCard",
+      "version": "8.2.2.4474",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HID Global",
+        "HID Global Crescendo C2300",
+        "HID Global Crescendo C2300 CL",
+        "HID Global Crescendo Key",
+        "HID Global Crescendo C3000",
+        "HID Global Crescendo Key V2",
+        "%SCMDeviceName6%",
+        "HID Global Crescendo Key V3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Security/DP_RazerInc_HIDClass_x64/hidgloba-smar-x64-8.2.2.4474.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hidgloba-smar-x64-8.2.2.4474.7z.0001",
+          "size_bytes": 3371798,
+          "sha256": "c1950fedab9029905bf31df28bed2164bd5af34b27f6e07887d0f03b6df71a9c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Security/DP_RazerInc_HIDClass_x64/hidgloba-smar-x64-8.2.2.4474.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b879c133031d3f9",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Security",
+      "provider": "HID Global",
+      "category": "SmartCard",
+      "version": "1.1.0.42",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HID Global",
+        "HID Global Crescendo C2300",
+        "HID Global Crescendo C2300 iCLASS",
+        "HID Global Crescendo Key"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Security/DP_RazerInc_HIDClass_x64/hidgloba-smar-x64-1.1.0.42.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hidgloba-smar-x64-1.1.0.42.7z.0001",
+          "size_bytes": 1599303,
+          "sha256": "8b9fd21c90727c736f9701e0704976720c3350c7fc537302a0d7dd17593b92b0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Security/DP_RazerInc_HIDClass_x64/hidgloba-smar-x64-1.1.0.42.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
-  "version_history": {}
+  "version_history": {
+    "x64|smartcard|": [
+      {
+        "id": "drv-c55cb4f212ccf546",
+        "version": "9.6.3.10472",
+        "date_added": "2026-08-09",
+        "superseded_by": null
+      }
+    ]
+  }
 }

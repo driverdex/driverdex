@@ -4660,6 +4660,633 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-c91803512130014e",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "17.9.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Optane(TM) Memory and Storage Management Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-17.9.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-17.9.0.1.7z.0001",
+          "size_bytes": 346395,
+          "sha256": "bb0af2fa7c8c6d2030ea29f9b98174b23127cb6c17469367b1626c5856a3c34f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-17.9.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3fdcb169dcf0bb21",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "17.11.0.1000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Optane(TM) Pinning Shell Extensions"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-17.9.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-17.9.0.1.7z.0001",
+          "size_bytes": 346395,
+          "sha256": "bb0af2fa7c8c6d2030ea29f9b98174b23127cb6c17469367b1626c5856a3c34f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-17.9.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b99b2ab5d2989d25",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "18.8.0.1004",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Optane(TM) Memory and Storage Management Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-18.8.0.100.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-18.8.0.100.7z.0001",
+          "size_bytes": 254315,
+          "sha256": "9a168683603c82278c2f9c176a91cd78644b5d240b815634062c7769a9b3b006",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-18.8.0.100.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d42ad266ebf6e4a6",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "19.5.8.1059",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Optane(TM) Memory and Storage Management Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-19.5.8.105.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-19.5.8.105.7z.0001",
+          "size_bytes": 7967,
+          "sha256": "bcef0b9dc7aaf431cf894fd3e531ce2584b897f69e707a66bd5c02d24f3baf91",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-19.5.8.105.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-316f81846e775805",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "20.2.13.1038",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Optane(TM) Memory and Storage Management Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-20.2.13.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-20.2.13.10.7z.0001",
+          "size_bytes": 7956,
+          "sha256": "47fd35b0d70e2a787d2008c38df8f1ceddd06ea70f6cd469e958e21d2087cb4f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-20.2.13.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7738d4c14c41243",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "21.1.0.1006",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Rapid Storage Technology Application Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-21.1.0.100.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-21.1.0.100.7z.0001",
+          "size_bytes": 7972,
+          "sha256": "af19a492ab5e77833a2fa2b9fe5524525934219016d97c1991153a0fd6030637",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/intelcor-soft-x64-21.1.0.100.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bea7d54f1b5c421c",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Alienware",
+      "category": "SoftwareComponent",
+      "version": "1.1.19.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Alienware",
+        "Alienware Command Center Win32 Component Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/alienwar-soft-x64-1.1.19.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "alienwar-soft-x64-1.1.19.0.7z.0001",
+          "size_bytes": 10266457,
+          "sha256": "7745bf581f28ecc955ec09e594638c473da3d0c66c96768bdfb690460d2c2677",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/alienwar-soft-x64-1.1.19.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c879e15f4f6edd82",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Alienware",
+      "category": "SoftwareComponent",
+      "version": "1.1.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Alienware",
+        "Alienware Control Center SmartInstaller Component Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/alienwar-soft-x64-1.1.19.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "alienwar-soft-x64-1.1.19.0.7z.0001",
+          "size_bytes": 10266457,
+          "sha256": "7745bf581f28ecc955ec09e594638c473da3d0c66c96768bdfb690460d2c2677",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/alienwar-soft-x64-1.1.19.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1e25961a3ff58458",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Tobii AB",
+      "category": "SoftwareComponent",
+      "version": "1.74.0.14161",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Tobii AB",
+        "Tobii Experience"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.74.0.141.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tobiiab-soft-x64-1.74.0.141.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "477c503cdfe3021b82fe6a0ce722ab70e1007fe44cb0c2bee92c149f6fdee3b7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.74.0.141.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "tobiiab-soft-x64-1.74.0.141.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "6be3e7dbfb37104b7417b40afebdd441ca4c39443f93b4a8869c198afdbac9c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.74.0.141.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "tobiiab-soft-x64-1.74.0.141.7z.0003",
+          "size_bytes": 12265513,
+          "sha256": "92b2050982afc34eec161ce56e82b62d0a292b8c05f7e64cd36a5563b2088c5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.74.0.141.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-267d385d99f57ffa",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Tobii AB",
+      "category": "SoftwareComponent",
+      "version": "1.81.0.15769",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Tobii AB",
+        "Tobii Experience"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.81.0.157.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tobiiab-soft-x64-1.81.0.157.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "73fe78e6d5e944d18302bb4c98e75bab6eb51db265d99daf25f6046a6cf143d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.81.0.157.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "tobiiab-soft-x64-1.81.0.157.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "a05ce372b65753cf89f020af6693445e06688d148ac321084450f1568d60b1c9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.81.0.157.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "tobiiab-soft-x64-1.81.0.157.7z.0003",
+          "size_bytes": 12092890,
+          "sha256": "92984c25e412b875435c74281dcbc8c90c2f76ed98ee0eae7897fc3ba62e2e78",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.81.0.157.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e497eeefd2c9249a",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Tobii AB",
+      "category": "SoftwareComponent",
+      "version": "1.133.0.30004",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Tobii AB",
+        "Tobii Experience"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.133.0.30.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tobiiab-soft-x64-1.133.0.30.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ca62ca7908fba39945473739431d09ccba3666f79d5a921325daad616da1e3b3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.133.0.30.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "tobiiab-soft-x64-1.133.0.30.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "add2bbc69261717d247f277e3efac8419745f643cfd14290d90cbc178dfaa7c4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.133.0.30.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "tobiiab-soft-x64-1.133.0.30.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "ec62de46b2c994a3f795ff7f3b8d93d0ae0bead5e89d519d87fcef5e283acfde",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.133.0.30.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "tobiiab-soft-x64-1.133.0.30.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "5fcef4661b1e4b8860e4476bdebd233f922ed0bc90698119d6688cd690fd3ee3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.133.0.30.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "tobiiab-soft-x64-1.133.0.30.7z.0005",
+          "size_bytes": 15429980,
+          "sha256": "44f9825ccf5ca25b859f9f852095e0a8a32f017061dafe1e96a486ee17657996",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.133.0.30.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a864697bcb49b800",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Tobii AB",
+      "category": "SoftwareComponent",
+      "version": "1.132.0.29383",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Tobii AB",
+        "Tobii Experience"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tobiiab-soft-x64-1.132.0.29.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "aeff3aa8bd14127d7ede1a52a579f6e39cff87be688806d86af277a01c520199",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "tobiiab-soft-x64-1.132.0.29.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "8867a96c0553a929b248618a4f635ebbe1e9343973c96d4dc9a4c466fb26e5ba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "tobiiab-soft-x64-1.132.0.29.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "9bd683f7ab01baf08f53bf35277a5796567ab54297ffec8244b06af1b8562575",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "tobiiab-soft-x64-1.132.0.29.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e0f407a65591d501dbe133f5ac6d62ea53f0eef1c44a2905f1f23426cb615d55",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "tobiiab-soft-x64-1.132.0.29.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "f07d88d0f5b1a454e2c9629fe97069252f6bb25151dc796f848782857a578a71",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "tobiiab-soft-x64-1.132.0.29.7z.0006",
+          "size_bytes": 3785348,
+          "sha256": "3b48d3efa354d9ebc72c6a4d019ee5418b7a51d821f841b2eaf85fc10219ff69",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.132.0.29.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9e7191bf2cf60a76",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Tobii AB",
+      "category": "SoftwareComponent",
+      "version": "1.151.0.33029",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Tobii AB",
+        "Tobii Experience"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0001",
+      "zip_parts": 9,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "7f89f49f523862a22d39131156883d386a0f2ef312c30655cbf3fbadff9ba182",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "ebeff2732b1b4cba3e318e42b0b4c01084034fe52849a2ec37f884fb71f29e66",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "409db700c2834b3734c853ff04d65adcb7a02a809cf6b8a8ef70683c123e6137",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "eee7a91d8a8d94c003ec7f71885c3cb23178204dc4136c656507995a6af3528a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "7f2efbdf80169bbe8a0db249df9771ef8c4aa1c6197fafab394e728c33a3c7e2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "38e562e74867338811d397d76e3065cdb9de874c5db7215c2a7f196451420ee7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "9ea63a14c82d118b60d2d64d098a2b65d19fa2ff83678d8b9c5f2fc5603073f5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "0a0d1f1fd513a9c10ac48caf514618b74e40eb1ca27d86a9850b5450a37f0cca",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "tobiiab-soft-x64-1.151.0.33.7z.0009",
+          "size_bytes": 4435264,
+          "sha256": "75162b5d5469faa4b9168e101bc2d0c2d863f224c521d1f59310a03b8104b9f8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-1.151.0.33.7z.0009"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0af579a78ac45814",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Tobii AB",
+      "category": "SoftwareComponent",
+      "version": "2.12.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Tobii AB",
+        "Tobii Experience"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-2.12.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tobiiab-soft-x64-2.12.0.0.7z.0001",
+          "size_bytes": 6398,
+          "sha256": "c12615f9078ea31d5fd8fe77d3d834dcac5f0cd524bc513bb427895e18bbe99e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/tobiiab-soft-x64-2.12.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f5d06116e6bdb4af",
+      "pack": "RazerInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "Wacom Technology",
+      "category": "SoftwareComponent",
+      "version": "7.6.1.32",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Wacom Technology",
+        "Wacom Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/wacomtec-soft-x86-7.6.1.32.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "wacomtec-soft-x86-7.6.1.32.7z.0001",
+          "size_bytes": 1996409,
+          "sha256": "12f0b77522ffbd46bf378703a9e7c4c42c59fc0cee884b722749658ce4c703d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RazerInc_HIDClass_x64/wacomtec-soft-x86-7.6.1.32.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
