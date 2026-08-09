@@ -145254,6 +145254,135 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-74162928d16338bc",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Input",
+      "provider": "Microsoft",
+      "category": "HID",
+      "version": "10/23/2003",
+      "arch": "x64",
+      "hwids": [
+        "USB\\CLASS_03",
+        "USB\\CLASS_03%",
+        "USB\\VID_04E8&PID_7081&MI_03",
+        "USB\\VID_06F8&PID_1000&MI_03",
+        "USB\\VID_0B0E&PID_8100&MI_03",
+        "USB\\VID_0D8C&PID_0003&MI_02",
+        "USB\\VID_0D8C&PID_0006&MI_03",
+        "USB\\VID_0D8C&PID_000C&MI_03",
+        "USB\\VID_0D8C&PID_000D&MI_03",
+        "USB\\VID_0E5C&PID_6441&MI_03"
+      ],
+      "compatible_ids": [
+        "USB\\CLASS_03",
+        "USB\\CLASS_03%"
+      ],
+      "descriptions": [
+        "%USB\\Class_03%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Conexant_MEDIA_x64/microsof-hid-x64-10232003.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-hid-x64-10232003.7z.0001",
+          "size_bytes": 2922266,
+          "sha256": "7d7eb5b8c76dd285862fc96babb4e659379051534970342abbe50a07b3cc1961",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Conexant_MEDIA_x64/microsof-hid-x64-10232003.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9415989c84754635",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Input",
+      "provider": "C-Media Inc.",
+      "category": "MEDIA",
+      "version": "5.12.01.0042",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04E8&PID_7081&MI_00",
+        "USB\\VID_06F8&PID_1000&MI_00",
+        "USB\\VID_0B0E&PID_8100&MI_00",
+        "USB\\VID_0D8C&PID_0001&MI_00",
+        "USB\\VID_0D8C&PID_0002&MI_00",
+        "USB\\VID_0D8C&PID_0003&MI_00",
+        "USB\\VID_0D8C&PID_0006&MI_00",
+        "USB\\VID_0D8C&PID_000C&MI_00",
+        "USB\\VID_0D8C&PID_000D&MI_00",
+        "USB\\VID_0E5C&PID_6441&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media USB Sound Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Conexant_MEDIA_x64/microsof-hid-x64-10232003.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-hid-x64-10232003.7z.0001",
+          "size_bytes": 2922266,
+          "sha256": "7d7eb5b8c76dd285862fc96babb4e659379051534970342abbe50a07b3cc1961",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Conexant_MEDIA_x64/microsof-hid-x64-10232003.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5d928707e7ccb36b",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Input",
+      "provider": "(Standard USB Host Controller)",
+      "category": "USB",
+      "version": "04/07/2003",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04E8&PID_7081",
+        "USB\\VID_06F8&PID_1000",
+        "USB\\VID_0B0E&PID_8100",
+        "USB\\VID_0D8C&PID_0001",
+        "USB\\VID_0D8C&PID_0002",
+        "USB\\VID_0D8C&PID_0003",
+        "USB\\VID_0D8C&PID_0006",
+        "USB\\VID_0D8C&PID_000C",
+        "USB\\VID_0D8C&PID_000D",
+        "USB\\VID_0E5C&PID_6441"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "USB Composite Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Conexant_MEDIA_x64/microsof-hid-x64-10232003.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-hid-x64-10232003.7z.0001",
+          "size_bytes": 2922266,
+          "sha256": "7d7eb5b8c76dd285862fc96babb4e659379051534970342abbe50a07b3cc1961",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Conexant_MEDIA_x64/microsof-hid-x64-10232003.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

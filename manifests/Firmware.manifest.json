@@ -5287,6 +5287,1473 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-309a105ef05f8268",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "C-Media",
+      "category": "SoftwareComponent",
+      "version": "2.2.1.14",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-2.2.1.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-soft-x64-2.2.1.14.7z.0001",
+          "size_bytes": 643074,
+          "sha256": "feb085c2bc785cff4aa6d76551912213b2757d76d265e7dbba28a2c525ec86fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-2.2.1.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c4f48e7335e34ef4",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "C-Media",
+      "category": "SoftwareComponent",
+      "version": "3.2.1.11",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-3.2.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-soft-x64-3.2.1.11.7z.0001",
+          "size_bytes": 643157,
+          "sha256": "0ab87b866ac7f19542686c6f6da29796592820ae715d8e50de9833763cde5cba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-3.2.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5ebc89e4f553e6cb",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "C-Media",
+      "category": "SoftwareComponent",
+      "version": "2.3.1.14",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "C-Media Audio Control Panel"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-2.3.1.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-soft-x64-2.3.1.14.7z.0001",
+          "size_bytes": 129869,
+          "sha256": "bfd468216ce33a331234d49386a36499c314bae66e28c5a1f72d3ccf9aa8e452",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-2.3.1.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1b649c5d234a0ab1",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "C-Media",
+      "category": "SoftwareComponent",
+      "version": "11.2.1.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "C-Media Audio Effects on ZOLA"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-11.2.1.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-soft-x64-11.2.1.5.7z.0001",
+          "size_bytes": 1314469,
+          "sha256": "e02b10b774185ead707a34d9ef9b20b4f117b3cafe4a47da79b04810d44009a7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/cmedia-soft-x64-11.2.1.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9125ba05c5b8ff9c",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "MEDIA",
+      "version": "8.66.77.59",
+      "arch": "x64",
+      "hwids": [
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3846",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3847",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3848",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA384A",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA384B",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA384C",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA384D",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA384E",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA384F",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3850",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3851",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3852",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3853",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3854",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3855",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3856",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3857",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA385B",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA385C",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA385E",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA385F",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3860",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3877",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3878",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3879",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA387A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics SmartAudio HD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.77.59.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-medi-x64-8.66.77.59.7z.0001",
+          "size_bytes": 1323659,
+          "sha256": "9f1b369aa3e6e4886063cbf5120c00d2e961b3fafff4fd1d2cec099f9a00115c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.77.59.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-534b574f372b0a6d",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.1.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.77.59.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-medi-x64-8.66.77.59.7z.0001",
+          "size_bytes": 1323659,
+          "sha256": "9f1b369aa3e6e4886063cbf5120c00d2e961b3fafff4fd1d2cec099f9a00115c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.77.59.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-89751793fa7386a2",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.40",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.40.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.0.0.40.7z.0001",
+          "size_bytes": 1609432,
+          "sha256": "8c0b97bb5c13de8798aa1caec23000a44d883d7955c257f0338266f894d46b67",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.40.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a00331c52f853c7a",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.3.99.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.40.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.0.0.40.7z.0001",
+          "size_bytes": 1609432,
+          "sha256": "8c0b97bb5c13de8798aa1caec23000a44d883d7955c257f0338266f894d46b67",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.40.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c66b1a88ddfe8f4c",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.41",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.41.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.0.0.41.7z.0001",
+          "size_bytes": 1635203,
+          "sha256": "73a49bf0648d1d3960e72fdf32fafc10ec3a410d80fce31007200a697bd5bf12",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.41.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4427887fe75abf54",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.46",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.46.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.0.0.46.7z.0001",
+          "size_bytes": 2494239,
+          "sha256": "0700ba97c04458231f0f94bb356621d0227b244af9e369ef6da0a8af637d0ff8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.46.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c60a7c37b601bab7",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.53",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.53.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.0.0.53.7z.0001",
+          "size_bytes": 1737911,
+          "sha256": "fca4d564bae410c12f2510a914b803e5f5acfad41c591885c8549e48856f236a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.53.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-877d900ca3fd96c5",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.3.98.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.53.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.0.0.53.7z.0001",
+          "size_bytes": 1737911,
+          "sha256": "fca4d564bae410c12f2510a914b803e5f5acfad41c591885c8549e48856f236a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.0.0.53.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-12f0220b42315db5",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.1.51.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.1.51.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.1.51.0.7z.0001",
+          "size_bytes": 2108775,
+          "sha256": "1b3423c34f381c489a6a9cce3d7ed6450295481f0a00bcf05ea4250a1ecb9420",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.1.51.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-17ac5b571093d63b",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.3.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.1.51.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.1.51.0.7z.0001",
+          "size_bytes": 2108775,
+          "sha256": "1b3423c34f381c489a6a9cce3d7ed6450295481f0a00bcf05ea4250a1ecb9420",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.1.51.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7c1b0f8fedb0d31",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.4.0.28",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.28.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.4.0.28.7z.0001",
+          "size_bytes": 1404828,
+          "sha256": "8b02a14f868ac84bbed2ac1ebbb9085fc4bd99fef98cc648b06a0375d8873b73",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.28.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2ecd677ea72e2f04",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.2.86.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.28.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.4.0.28.7z.0001",
+          "size_bytes": 1404828,
+          "sha256": "8b02a14f868ac84bbed2ac1ebbb9085fc4bd99fef98cc648b06a0375d8873b73",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.28.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3325380982b0a168",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.4.0.80",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.80.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.4.0.80.7z.0001",
+          "size_bytes": 1884760,
+          "sha256": "b98f8418a1078026ece93b4b874b55dddf996b9cd2397e697885122b9981720a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.80.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-44066d700e01200f",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.2.85.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.80.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.4.0.80.7z.0001",
+          "size_bytes": 1884760,
+          "sha256": "b98f8418a1078026ece93b4b874b55dddf996b9cd2397e697885122b9981720a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.80.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-09003970ce56fbe4",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.4.0.8",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.4.0.8.7z.0001",
+          "size_bytes": 1638517,
+          "sha256": "2fa442014591109d198e8fc22f7a4dd099a2207a055ab122fd114adbb4b11f2d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-61a3020aeaddba09",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.2.73.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.4.0.8.7z.0001",
+          "size_bytes": 1638517,
+          "sha256": "2fa442014591109d198e8fc22f7a4dd099a2207a055ab122fd114adbb4b11f2d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.4.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3ceb3245bfa4bbfc",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.7.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.7.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.7.0.0.7z.0001",
+          "size_bytes": 1680802,
+          "sha256": "c254b5d976d1ba1de1107df84bbce2c3429c07e5e4923bbafea45cb10ed58db9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.7.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ef1c0407f532a7c0",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "SoftwareComponent",
+      "version": "1.1.50.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "SynaAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.7.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-soft-x64-1.7.0.0.7z.0001",
+          "size_bytes": 1680802,
+          "sha256": "c254b5d976d1ba1de1107df84bbce2c3429c07e5e4923bbafea45cb10ed58db9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-soft-x64-1.7.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9244bce4a468bbe",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "MEDIA",
+      "version": "8.66.77.62",
+      "arch": "x64",
+      "hwids": [
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_2008&SUBSYS_17AA224E",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_2008&SUBSYS_17AA224F",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_2008&SUBSYS_17AA5061",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_2008&SUBSYS_17AA5066",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_2008&SUBSYS_17AA506D",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_5111&SUBSYS_17AA2237",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_5111&SUBSYS_17AA2238",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_5111&SUBSYS_17AA5068",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_5111&SUBSYS_17AA5069",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_5111&SUBSYS_17AA506F",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_5111&SUBSYS_17AA5070"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics SmartAudio HD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.77.62.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-medi-x64-8.66.77.62.7z.0001",
+          "size_bytes": 1938408,
+          "sha256": "7a364b7d73e009ac364beb688772c99390b0984350cb95d7d1cb465c476bb4d1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.77.62.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b520b8095bbd4d0e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Synaptics",
+      "category": "MEDIA",
+      "version": "8.66.83.53",
+      "arch": "x64",
+      "hwids": [
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3841",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3845",
+        "HDAUDIO\\FUNC_01&VEN_14F1&DEV_510F&SUBSYS_17AA3861"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Synaptics",
+        "Synaptics SmartAudio HD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.83.53.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "synaptic-medi-x64-8.66.83.53.7z.0001",
+          "size_bytes": 1762167,
+          "sha256": "8913e12a067292c240f69e6a65858772dce39c25fabfb2a32a265264ff206cda",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/synaptic-medi-x64-8.66.83.53.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3a2c45b3bd157f7f",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Conexant",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Conexant",
+        "Conexant APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/conexant-soft-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "conexant-soft-x64-1.0.0.3.7z.0001",
+          "size_bytes": 1249446,
+          "sha256": "343062df064246182b3fc9058ca9e54c8b6d6af33f490b1cac609d0941d879cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/conexant-soft-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8d4c47d0369b55e0",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "1.0.31.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-1.0.31.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-1.0.31.2.7z.0001",
+          "size_bytes": 7578,
+          "sha256": "9ed39ecbb94fa7e3897bfae331650f473ffe7958e39d436561ed0a3424bfe63a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-1.0.31.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8e2aaabd776ead42",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "0.1.1.149",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia APO Control Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-0.1.1.149.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-0.1.1.149.7z.0001",
+          "size_bytes": 756316,
+          "sha256": "4f88e4544beeb38111dc9c33b89fc36ca9191e9cbff55a0a03430e7a730e021c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-0.1.1.149.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe50fbf890a50e29",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "0.1.1.84",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia APO Control Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-0.1.1.84.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-0.1.1.84.7z.0001",
+          "size_bytes": 260018,
+          "sha256": "44a9848670e6b6dd2d3f596b9b76c95190689813d7208b64c396efe3bcac4120",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-0.1.1.84.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-80d4bd680ea1016c",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "12.1.6003.5872",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "eedad565decc2b8ca200f75e066164b05bb6c7c26d6c6d95d1a2f90fd24e52f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "c9660f37d06ab4f9307cb43584af24c38bb8fdd713e82bf3aa7e58566dbefe6d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "c6ed6f4cc41e0ea8be57ad36763cfb1d902c7918f14e2f1085c40e103e1a4cb6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0004",
+          "size_bytes": 14960921,
+          "sha256": "4cde2fdcac9e5c5d436ae1fea25aec1de532b92e990da75bd089441e1653cd84",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-72fe7713c9c1b531",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "12.1.6003.5908",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0001",
+      "zip_parts": 9,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "45bb5fd135070fd4e3507c14c104c56f59a27e0ce1c046dbbbe9279f4b452d3c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "ece541557a3c053b1350f64345cd90a9e245a771ff0f7826e0177220ac982407",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "57e33ac88e4efad034787711b03d7695e9d4298a2e72743cecad9528efc571ea",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "5060b56799c8773c19202de249270c8194a8a242d60bac19f29f3b50fbf4ecd4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "67a4db4b5af9213e4e54f50f7edeaaf65ffa63237f81745c50cefd57c32f4271",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "cfc4966c2be1eeb26bf3c15cd83de830dbd96b50fd95564f9fd259ff0c42c87e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "9668066e051f56b56e2ae63d6b51fb6b43d834034e27f72d901731d467505ddb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "a776c426b750f4c2dd2db001d80b4d36ad964606e8090139ddd1cf55ee163ab2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0009",
+          "size_bytes": 15716723,
+          "sha256": "987fa5c99acfc05ad25b18330fc15cdfa4fe701aa761e02cd9bc5124295f7b75",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0009"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ac71ade9f019069d",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "12.1.6003.5915",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "2396d41969e8adb23cfae0d01aee896cb5231c417c8b25e61734e7c3cdac3a06",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "90c95996664cd8ed667c459b7f5d28f29fd885727ccfdf5298877c56671e9a7a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "747f1aa2733c1075a5e95ee07df2f37c843a86763d8af30fe261c7211cf05d00",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "b0845e9f0321949b80ac12c30afdcfa670dc17d453187f455d28480ba0a668f6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "49e7a71267a392741124f976c860912cf7a280c274525aa1c5ddf45fbe022e8c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "fortemed-soft-x64-12.1.6003.7z.0006",
+          "size_bytes": 5097244,
+          "sha256": "26ace87f492a316b96b45dbf289a1b999e38f3514e981529e8711a406a6c16d5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-12.1.6003.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b3bec182df210397",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Fortemedia",
+      "category": "SoftwareComponent",
+      "version": "11.0.6000.5715",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-11.0.6000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-soft-x64-11.0.6000.7z.0001",
+          "size_bytes": 737200,
+          "sha256": "ccc0c346091ba74d93360a4520f638a42ba2b87b2ba38de5bc60dc8f911aec56",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/fortemed-soft-x64-11.0.6000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-05ba2516fe9a9972",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Senary",
+      "category": "SoftwareComponent",
+      "version": "3.3.41.8",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Senary",
+        "Senary Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-3.3.41.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senary-soft-x64-3.3.41.8.7z.0001",
+          "size_bytes": 348890,
+          "sha256": "88143e4825928e199a5783ec4926a0aeda55dfb0ac4ffa751ed6b798efc9d749",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-3.3.41.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6ddfa59848456393",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Senary",
+      "category": "SoftwareComponent",
+      "version": "3.32.15.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Senary",
+        "Senary Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-3.32.15.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senary-soft-x64-3.32.15.0.7z.0001",
+          "size_bytes": 228211,
+          "sha256": "7905c0c1f69f8576ccf53cc94f77852274c2ddec9525a059ac2531c24b1e2d59",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-3.32.15.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dde1a36fa5149361",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Senary",
+      "category": "SoftwareComponent",
+      "version": "2.1.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Senary",
+        "Senary HSA"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-2.1.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senary-soft-x64-2.1.1.0.7z.0001",
+          "size_bytes": 8320,
+          "sha256": "ae0f01bd35f52e454b1680d6c4a988c15f5927be02bfd06f3c8302086543ebd7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-2.1.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5f474c9f62b52605",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Senary",
+      "category": "SoftwareComponent",
+      "version": "2.1.1.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Senary",
+        "Senary HSA"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-2.1.1.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senary-soft-x64-2.1.1.1.7z.0001",
+          "size_bytes": 9612,
+          "sha256": "c53a6863e40608ae2f3bc0e36714779f07ece1fc5146e1619e0ae09602447bba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/senary-soft-x64-2.1.1.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f281aa9697093bda",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Sound Research Corp.",
+      "category": "SoftwareComponent",
+      "version": "2.0.9.20",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-2.0.9.20.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-soft-x64-2.0.9.20.7z.0001",
+          "size_bytes": 1175703,
+          "sha256": "2660f560386d9ff1e77a6e00faed8e1ac63a8078c29898016151aff4ad60ccd4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-2.0.9.20.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-75a50fabcc9d69fb",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Sound Research Corp.",
+      "category": "SoftwareComponent",
+      "version": "2.0.7.73",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research USB Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-2.0.7.73.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-soft-x64-2.0.7.73.7z.0001",
+          "size_bytes": 883006,
+          "sha256": "bf4c2f5b0f76801aab7a01e9081277485f07cceb21d593d41183d8065a9ba32a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-2.0.7.73.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eeece6de2ac94221",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Sound Research Corp.",
+      "category": "SoftwareComponent",
+      "version": "2.0.8.40",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x86-2.0.8.40.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-soft-x86-2.0.8.40.7z.0001",
+          "size_bytes": 976844,
+          "sha256": "afc4fd5c9ef1d7689f944eaefb57313683c7e8394fe86ae0a27464c299c96821",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x86-2.0.8.40.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6abc00b1865b2511",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Sound Research Corp.",
+      "category": "SoftwareComponent",
+      "version": "19.48.26.823",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-19.48.26.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-soft-x64-19.48.26.8.7z.0001",
+          "size_bytes": 717051,
+          "sha256": "9787eeb2ae91fefedda7e16ad6ed09b376936166c92afe26e4fc89d5f599a6e6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-19.48.26.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ec2789a34164aea1",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Sound Research Corp.",
+      "category": "SoftwareDevice",
+      "version": "5.57.7.307",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research USB Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-5.57.7.307.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-soft-x64-5.57.7.307.7z.0001",
+          "size_bytes": 890395,
+          "sha256": "d8bfbe316503a822089bbad7f80b75fedd5e414477d1703df053d7d3eacdf5af",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Conexant_MEDIA_x64/soundres-soft-x64-5.57.7.307.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

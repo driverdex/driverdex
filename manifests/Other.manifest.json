@@ -9906,6 +9906,1134 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-8c34080c14ed3434",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "Extension",
+      "version": "2.1.1.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0B05&PID_6203&MI_00",
+        "USB\\VID_0B05&PID_6204&MI_00",
+        "USB\\VID_0B05&PID_6205&MI_00",
+        "USB\\VID_0B05&PID_6206&MI_00",
+        "USB\\VID_0B05&PID_6207&MI_00",
+        "USB\\VID_0B05&PID_6208&MI_00",
+        "USB\\VID_0B05&PID_6209&MI_00",
+        "USB\\VID_0B05&PID_6210&MI_00",
+        "USB\\VID_0D8C&PID_0222&MI_00",
+        "USB\\VID_0D8C&PID_0273&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "C-Media CM6549 Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-2.1.1.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-exte-x64-2.1.1.14.7z.0001",
+          "size_bytes": 10005,
+          "sha256": "a64cc3deb8a18b528369c88f2a3c972ae5ff617d1df65cd9745de0ee327fcd28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-2.1.1.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f55d32347061c1c5",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-exte-x64-1.0.0.1.7z.0001",
+          "size_bytes": 1204883,
+          "sha256": "3b3548829b4a6c6a074840486d440c2f460800801c14dd5f7ae65944e1eefd03",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c2830c8ff00f0d84",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "Extension",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_4C4A&PID_1101&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Device Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-exte-x64-1.0.0.1.7z.0001",
+          "size_bytes": 1204883,
+          "sha256": "3b3548829b4a6c6a074840486d440c2f460800801c14dd5f7ae65944e1eefd03",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7644b63538804342",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-exte-x64-1.0.0.3.7z.0001",
+          "size_bytes": 5082519,
+          "sha256": "92c348e80a03cf36e8de7c5bdd4ba301d1635ae49ee0679e7add85793f841211",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cecbc69c1ac685bc",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "Extension",
+      "version": "1.0.0.3",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_4C4A&PID_4155&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Device Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-exte-x64-1.0.0.3.7z.0001",
+          "size_bytes": 5082519,
+          "sha256": "92c348e80a03cf36e8de7c5bdd4ba301d1635ae49ee0679e7add85793f841211",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-exte-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1bcd7c5dd7423daa",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.4",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-audi-x64-2.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-audi-x64-2.0.0.4.7z.0001",
+          "size_bytes": 1192467,
+          "sha256": "feb7bdce6afd947e73a49ba512d48ce628eb382f8e7d0989dbf3d1dc79bf4ef9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-audi-x64-2.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-68eb5dad446f5784",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-audi-x64-2.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-audi-x64-2.0.0.2.7z.0001",
+          "size_bytes": 1192452,
+          "sha256": "4069b977d8176a31863e66b4ddea37fc2bc2476411d27b6ad83ad8296bf41e0a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-audi-x64-2.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bf30f2ad4d111b02",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "C-Media",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media Electronics Inc.",
+        "C-Media Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-audi-x64-2.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-audi-x64-2.0.0.7.7z.0001",
+          "size_bytes": 5125491,
+          "sha256": "ca67b96b758c128dd3f1f3143fae7052fe3b0f4a1bc44d12211ac9d8beda20de",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/cmedia-audi-x64-2.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-96d13ad93728f8e6",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Fortemedia",
+      "category": "Extension",
+      "version": "1.2023.3.24",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia SAMSoft Device Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2023.3.2.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-exte-x64-1.2023.3.2.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "250b34dddd8a95d158ee6e544b478a86094fdf91684fb41e0aaa8de012869a96",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2023.3.2.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-exte-x64-1.2023.3.2.7z.0002",
+          "size_bytes": 10963306,
+          "sha256": "84d962e470ab26d91318f7ab0394e23462046ce4340427bddc6d73d3901128ed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2023.3.2.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7d39c116216588d",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Fortemedia",
+      "category": "Extension",
+      "version": "1.2024.4.24",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia SAMSoft Device Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2024.4.2.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-exte-x64-1.2024.4.2.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "edeb9737b9a0c79495effe515e24ddf75f16134fbac74790503d0f039aa5fccf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2024.4.2.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-exte-x64-1.2024.4.2.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "aee47578637ffa542cb62c7b4135c145dd04ea17cc939cc6e2107a8d8da84732",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2024.4.2.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-exte-x64-1.2024.4.2.7z.0003",
+          "size_bytes": 6226250,
+          "sha256": "6ad367e9aa2824d86e029df51354fa8fcd2858767fe29f1d92945e0f6eee4d8f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-exte-x64-1.2024.4.2.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8400a6d943dc986b",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Fortemedia",
+      "category": "AudioProcessingObject",
+      "version": "12.1.6003.5923",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001",
+      "zip_parts": 7,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "f3c55eb021eeb45fb4c5c35f73a0d21fa78dae3639605112aebd85c94c1e8c41",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f0c83334809f0487d81e4fb9fb402ac49ca143ff7971d1bf68aef104a490e625",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "23b4444fc661b87c492a93411313241d72622d06ce58a991a05e1e5e80d72037",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "b1a49751c224227a1aacc088e0c9c1ad929bd4a0c043fbb9f948c3c8ad4a9fd1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "27e773065ca5fcc974e307e27ab38a1e144d195086bd432b2736b66760f33c7e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "10299a6d934f151ab1c4cf5515489dbd4267e30471db2db179248150b9f5d894",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0007",
+          "size_bytes": 4676205,
+          "sha256": "536ff1d44b23aab8c7eb9d47f0b10afd2d568824c8544449bfc58f23544c3149",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0007"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ede0dfde0c307a17",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Fortemedia",
+      "category": "AudioProcessingObject",
+      "version": "12.1.6003.5925",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "122adf54b352f24fb13d88493c96255d0ec927f8c8f3940dda0319e7559d0d68",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "d85421a7c9900465c2fe4a23d0671f35b512e39016c897efacd20337da96a6ba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "730cb0b56a8718fe124f26817ea9a9e39ad1dfac33bd9750bf284a9a418afb94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "4ad6b2bac6d645e9f0b885a2c4a6e3c55a51171fec46f4bbe91b9568592d7fb5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "1a3d27f79d6994ce1923cc0eeb7ebaa8a8f61dc4618d1c89de31a4d7cb977c4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0006",
+          "size_bytes": 5099447,
+          "sha256": "5b520d5fddbe3a59e49b5c24b0685bc82a24380f2b1044381f00992941a8915e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4408acf68d87aa3c",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Fortemedia",
+      "category": "AudioProcessingObject",
+      "version": "12.1.6003.6025",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "6f9874f0ff08d53c6272c1b7f456134bfbb07b2e676404295c760a7eab9aaa8f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "69d4b556ba2c41490788b7f7d53408ae1160c822a7d01adc1329d2141bfe622b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "630b9ca630a47bbda80781dc0adaac826d80a4fd1ee7227c49ff71dd4fe8f3b7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "4a95e6c24cddaed571c71bdedd5513bcf818d1516b622d663a1aef604e47bd14",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "609b350775fe70a561389bc8ed0aa673b7bb0d4d36f84765ec43163eda3ef556",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "179d622d9f38a5746e0ed88c2e157ecc210df3879383c8527e96a32407abf2e6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "374c993ba69bb975c2404f94ffe9a4b42f6ac4183587bd514f03d755981eb930",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "df8196f529bb40f1c05ce7fa9ca58a0f187390aa2bb1402820d83b23f795839c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "3491f50d2d52293aa397533609d412e02f758a328ad1b3686139cc228cb647a5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "6fb6923e01c4c63e76039d59de5964f53d78df6326c9f538061bcaeaa24055fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0011",
+          "size_bytes": 6007827,
+          "sha256": "451314e310504d8c6f096bb672cbf61fe550dd0c707495ca9f56345daa9f0528",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5a10613c056837fe",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Fortemedia",
+      "category": "AudioProcessingObject",
+      "version": "12.1.6003.6214",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fortemedia",
+        "Fortemedia Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001",
+      "zip_parts": 16,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "cc1f5020d9b69322548bec8c62cf5bcd5af314a2804c269ae4d2b8de045f79f6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "9c27f3f4dbcfb48ee8953bd09cd5a87109a31544c1399c172b4506fb7eca4091",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "8871362e8c3710c44f5bf05c94c7e57dbdc4de1d183f88a7de6e7604e2e4c2ab",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "c3a05f8a889292d9dfc5f38eae31442b1c4c234ca4263bc204a62608268e7e6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "90c445aa38a552dd39dae5887b31c1c06c0fd862945d5c7addc4c09467520df8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "686a7f19fa319afab59f555ea8174bc55acc4b8cde057cff349493f95e5df2ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "be9376529350f2d37df7d1beb8f47a1b344f0c8b3e1ece002f66fac16e1c14e6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "adac83bc338d76b3dac08fddb4bfd8e01324d778da16f1d992e879d66039a4a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "f86baa4d56e98b6e3d29a7f40630c9d03e0f6bf5676388f7b653e82a8dfa5bf5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "565187777b4b0fe2aea92cb183c4ad06d21428e62b1a9da8914ac15daa9c2fa5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "45350e31bd10dded85eba8d0c19bf40d6bec37b014e9fb3d6369adefad082519",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "c7bda88b817940d6048b89a178657d9e27e69df0157cf304f232a5450503e16d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "350bbc3c721b4885aa9161147aa5936a3c196f605234325f5dd08e8ac6e9b59c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "96581ce8f389f5253cf9da04a4e1aa1c45e90b9699511d5ca05cd6f205194a82",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0014"
+        },
+        {
+          "part_num": 15,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "010d3e372fc7374121c51505586908e8f75116a118fc7e1abb65af7d7e18214f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0015"
+        },
+        {
+          "part_num": 16,
+          "filename": "fortemed-audi-x64-12.1.6003.7z.0016",
+          "size_bytes": 9881372,
+          "sha256": "e497c021543ec11d1c2fb58ac8936131f554277560efe4e06a360a8586a20734",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/fortemed-audi-x64-12.1.6003.7z.0016"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d4f193ce31724d27",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Senary Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SenaryCaptureEffects",
+        "Senary Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/senaryte-audi-x64-2.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senaryte-audi-x64-2.0.0.0.7z.0001",
+          "size_bytes": 13970520,
+          "sha256": "cb32d31e7ef2b9e6fd0b492c9abb050799a1a55c4b1c045cbbf73e5d76857dc1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/senaryte-audi-x64-2.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-019d9183910dad0e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Senary Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.11.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SenaryAPO",
+        "Senary Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/senaryte-audi-x64-1.11.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senaryte-audi-x64-1.11.0.0.7z.0001",
+          "size_bytes": 9541389,
+          "sha256": "4c1676a6c03626b78cc9233b2a490020fac982ed12595ee697ee1819bddc02cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/senaryte-audi-x64-1.11.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-03b636765859f42a",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Senary Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.28.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SenaryAPO",
+        "Senary Audio Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/senaryte-audi-x64-1.28.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "senaryte-audi-x64-1.28.0.0.7z.0001",
+          "size_bytes": 9961025,
+          "sha256": "3f074144e8466593c1f66328c02679647167352bd453dbb7ec7cc92d82b69bc9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/senaryte-audi-x64-1.28.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e68dbbcb3f861962",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Sound Research Corp.",
+      "category": "AudioProcessingObject",
+      "version": "2.0.11.26",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/soundres-audi-x64-2.0.11.26.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-audi-x64-2.0.11.26.7z.0001",
+          "size_bytes": 10506742,
+          "sha256": "9d16564231d34cb4976d22e5573f3196dbaa031d18dcc6526d42e35f47b22568",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/soundres-audi-x64-2.0.11.26.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d686fc5c89a0385e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Sound Research Corp.",
+      "category": "AudioProcessingObject",
+      "version": "2.0.11.47",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sound Research Corp.",
+        "Sound Research Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/soundres-audi-x64-2.0.11.47.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundres-audi-x64-2.0.11.47.7z.0001",
+          "size_bytes": 10536072,
+          "sha256": "40c53d68474b1989823183e65be1eb4d673cd829962a85a73e72c4abca6c7639",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/soundres-audi-x64-2.0.11.47.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-01da82c3bce2f552",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Sonitude, Inc.",
+      "category": "AudioProcessingObject",
+      "version": "2.0.11.61",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sonitude, Inc.",
+        "Sonitude Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/sonitude-audi-x64-2.0.11.61.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonitude-audi-x64-2.0.11.61.7z.0001",
+          "size_bytes": 10591868,
+          "sha256": "05aa55fbcb85494aae02a6cfe3fa87527a3c4e0930d973225fb01683b961649c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/sonitude-audi-x64-2.0.11.61.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b53c86eab08b81e4",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Sonitude, Corp.",
+      "category": "AudioProcessingObject",
+      "version": "2.1.2.20",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sonitude, Corp.",
+        "Sonitude Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/sonitude-audi-x64-2.1.2.20.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonitude-audi-x64-2.1.2.20.7z.0001",
+          "size_bytes": 7927407,
+          "sha256": "2cc088fb770b500ecf887169bc69407a201086e39ce0bb8a3c714d4f4b0798c5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/sonitude-audi-x64-2.1.2.20.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c115be872cc98692",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Creative Technology Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "2.03.13.00",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd.",
+        "Creative Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.13.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-audi-x86-2.03.13.00.7z.0001",
+          "size_bytes": 2241064,
+          "sha256": "538125cb2392741372cbd6a31221069be51197d635ffff831663bfa17669da52",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.13.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8e429b769272c600",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Creative Technology Ltd.",
+      "category": "SoftwareComponent",
+      "version": "2.9.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd.",
+        "Sound Blaster Connect",
+        "Sound Blaster Atlas",
+        "Sound Blaster Cinema 6",
+        "SXFI App",
+        "Sound Blaster Cinema 6+"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.13.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-audi-x86-2.03.13.00.7z.0001",
+          "size_bytes": 2241064,
+          "sha256": "538125cb2392741372cbd6a31221069be51197d635ffff831663bfa17669da52",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.13.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-762b23acfaf56282",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Creative Technology Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "2.03.60.00",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd.",
+        "Creative Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.60.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-audi-x86-2.03.60.00.7z.0001",
+          "size_bytes": 2257580,
+          "sha256": "be4c7645ad8600f1437b36102d0bf170aa76fb6a1e50785dde88a21982fb171a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.60.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7ea4e9a24d6d5cf6",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Creative Technology Ltd.",
+      "category": "SoftwareComponent",
+      "version": "2.9.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd.",
+        "Sound Blaster Connect",
+        "Sound Blaster Atlas",
+        "Sound Blaster Cinema 6",
+        "SXFI App",
+        "Sound Blaster Cinema 6+"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.60.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-audi-x86-2.03.60.00.7z.0001",
+          "size_bytes": 2257580,
+          "sha256": "be4c7645ad8600f1437b36102d0bf170aa76fb6a1e50785dde88a21982fb171a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x86-2.03.60.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e0ebb317104e3440",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Other",
+      "provider": "Creative Technology Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "1.00.14.00",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd.",
+        "Creative Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x64-1.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-audi-x64-1.00.14.00.7z.0001",
+          "size_bytes": 1657006,
+          "sha256": "2bc9235a0b1b52bae299af8fbf36ba71051262a7fb26b4b832ba625f298f119e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Conexant_MEDIA_x64/creative-audi-x64-1.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

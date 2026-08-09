@@ -42505,6 +42505,1006 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-cb349d11160b8efe",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Amanero Technologies",
+      "category": "\"MEDIA\"",
+      "version": "1.0.67",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_16D0&PID_071A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Amanero Technologies",
+        "Amanero Technologies USB Driver 1.0.67"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/amanerot-medi-x86-1.0.67.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amanerot-medi-x86-1.0.67.7z.0001",
+          "size_bytes": 41909,
+          "sha256": "3e9b0ee0cea759c0ce43dba1d1100e5200ca905cb637a9526e13449d1b2dadcb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/amanerot-medi-x86-1.0.67.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f3c36a1236af5bb5",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Amanero Technologies",
+      "category": "\"LEPTON\"",
+      "version": "1.0.57",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_16D0&PID_071A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Amanero Technologies",
+        "Amanero Technologies 1.0.57 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/amanerot-lept-x86-1.0.57.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amanerot-lept-x86-1.0.57.7z.0001",
+          "size_bytes": 31442,
+          "sha256": "a09d71604c0b5fd1d3667161f20672e971a7d476ea12cf46287a849591ef8de8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/amanerot-lept-x86-1.0.57.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-488da9551dd62179",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Amanero UAC2",
+      "category": "\"MEDIA\"",
+      "version": "1.1.0.81",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_16D0&PID_0A23"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Amanero UAC2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/amanerou-medi-x86-1.1.0.81.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amanerou-medi-x86-1.1.0.81.7z.0001",
+          "size_bytes": 43657,
+          "sha256": "8f02b57c7594b6f696a4ae46f30d588cdb52d51694a4ea5526b9fcdcafaac0d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/amanerou-medi-x86-1.1.0.81.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c256139f83b406a9",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "C-Media Inc.",
+      "category": "USB",
+      "version": "5.12.20.0167",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0D8C&PID_5200",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC%",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC64",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC64%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "%USB\\VID_0D8C&PID_5200.DeviceDesc%",
+        "%USB\\VID_0D8C&PID_5200.DeviceDesc64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmediain-usb-x64-5.12.20.01.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmediain-usb-x64-5.12.20.01.7z.0001",
+          "size_bytes": 708830,
+          "sha256": "7f7d9146866e86d9a401b25d5a7a2be917c14bdfe2bf32037ddd74005d881ce8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmediain-usb-x64-5.12.20.01.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d3a9c8961329d448",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "C-Media",
+      "category": "USB",
+      "version": "5.12.0.0002",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0D8C&PID_0018",
+        "USB\\VID_0D8C&PID_5200",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "%USB\\VID_0D8C&PID_5200.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmedia-usb-x64-5.12.0.000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-usb-x64-5.12.0.000.7z.0001",
+          "size_bytes": 23847,
+          "sha256": "77b617aafb801493e188c221c99dfbf3c2ee3b02085049898d810d826441739c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmedia-usb-x64-5.12.0.000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cad17b675fab53b1",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "C-Media",
+      "category": "USB",
+      "version": "10.0.0.5",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0D8C&PID_0018",
+        "USB\\VID_0D8C&PID_0069&MI_01",
+        "USB\\VID_0D8C&PID_0078",
+        "USB\\VID_0D8C&PID_01ED",
+        "USB\\VID_0D8C&PID_5200",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "%USB\\VID_0D8C&PID_5200.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmedia-usb-x64-10.0.0.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmedia-usb-x64-10.0.0.5.7z.0001",
+          "size_bytes": 40063,
+          "sha256": "2632e5e0f49d61140668d909ee7556261012c691c75b44f7345a734a05eb16e6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmedia-usb-x64-10.0.0.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b862465be2b83eb4",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "C-Media Inc.",
+      "category": "USB",
+      "version": "5.12.20.0164",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0D8C&PID_5200",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC%",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC64",
+        "USB\\VID_0D8C&PID_5200.DEVICEDESC64%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-Media",
+        "%USB\\VID_0D8C&PID_5200.DeviceDesc%",
+        "%USB\\VID_0D8C&PID_5200.DeviceDesc64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmediain-usb-x64-5.12.20.01.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmediain-usb-x64-5.12.20.01.7z.0001",
+          "size_bytes": 692467,
+          "sha256": "047e01bed26e7d78b4d21eb131b89a6b6d847c281ad2e6f8ca2b598c530dd017",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/cmediain-usb-x64-5.12.20.01.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1e73483e2ea84502",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "FantasiaDP_SetupClass",
+      "version": "2.23.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F00B"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-fant-x64-2.23.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-fant-x64-2.23.0.0.7z.0001",
+          "size_bytes": 1281751,
+          "sha256": "471b734d46d1f817c69d1f37570538d3c766f5d756ef41c649953be3f909c197",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-fant-x64-2.23.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7d332037e82c4873",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "MEDIA",
+      "version": "2.23.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-fant-x64-2.23.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-fant-x64-2.23.0.0.7z.0001",
+          "size_bytes": 1281751,
+          "sha256": "471b734d46d1f817c69d1f37570538d3c766f5d756ef41c649953be3f909c197",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-fant-x64-2.23.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9d3eb6966e4b8eb6",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "SerenadeDA_SetupClass",
+      "version": "2.23.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F00C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sere-x64-2.23.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-sere-x64-2.23.0.0.7z.0001",
+          "size_bytes": 1275892,
+          "sha256": "da8606814fa97421e170bfe524ddbee3850c028ca62573f9fcb50983fa164b91",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sere-x64-2.23.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-be5d74e259aed04a",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "SonataIDSD_SetupClass",
+      "version": "2.23.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F006"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sona-x64-2.23.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-sona-x64-2.23.0.0.7z.0001",
+          "size_bytes": 1282221,
+          "sha256": "18e749ba7f008b388a6a03effe5946da4d6b47c8a542163acf53be2fd3cddfb4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sona-x64-2.23.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5389e75113e73b49",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "SonataIDSDPlus_SetupClass",
+      "version": "2.23.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F009"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sona-x64-2.23.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-sona-x64-2.23.0.0.7z.0001",
+          "size_bytes": 1277544,
+          "sha256": "e47b787c2280bc88d4b6cfffcc3f3109916e5a9a8cd2ffea4c3ce94e8d2700a1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sona-x64-2.23.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-048911a8230ce4cc",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "TTUSBAudio_SetupClass",
+      "version": "4.86.2.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F010",
+        "USB\\VID_22E1&PID_F011",
+        "USB\\VID_22E1&PID_F012",
+        "USB\\VID_22E1&PID_F013",
+        "USB\\VID_22E1&PID_F015",
+        "USB\\VID_22E1&PID_F016",
+        "USB\\VID_22E1&PID_F017",
+        "USB\\VID_22E1&PID_F018",
+        "USB\\VID_22E1&PID_F019",
+        "USB\\VID_22E1&PID_F01A",
+        "USB\\VID_22E1&PID_F01B",
+        "USB\\VID_22E1&PID_F01C",
+        "USB\\VID_22E1&PID_F01D",
+        "USB\\VID_22E1&PID_F01E",
+        "USB\\VID_22E1&PID_F01F",
+        "USB\\VID_C502&PID_0051"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-ttus-x64-4.86.2.0.7z.0001",
+          "size_bytes": 1392509,
+          "sha256": "6af2436b66786c3b481ccacf8dab1a92f417298abbe9631bd7c0b6a9f9f8c288",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d408645a2b9a8d1d",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "MEDIA",
+      "version": "4.86.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-ttus-x64-4.86.2.0.7z.0001",
+          "size_bytes": 1392509,
+          "sha256": "6af2436b66786c3b481ccacf8dab1a92f417298abbe9631bd7c0b6a9f9f8c288",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d6f37faec6ef874e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "TTUSBAudio_SetupClass",
+      "version": "4.86.2.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F00A",
+        "USB\\VID_22E1&PID_F00B",
+        "USB\\VID_22E1&PID_F00C",
+        "USB\\VID_22E1&PID_F00D",
+        "USB\\VID_22E1&PID_F00E",
+        "USB\\VID_22E1&PID_F00F",
+        "USB\\VID_22E1&PID_F011",
+        "USB\\VID_22E1&PID_F012",
+        "USB\\VID_22E1&PID_F013",
+        "USB\\VID_22E1&PID_F015",
+        "USB\\VID_22E1&PID_F016",
+        "USB\\VID_22E1&PID_F017",
+        "USB\\VID_22E1&PID_F018",
+        "USB\\VID_22E1&PID_F019",
+        "USB\\VID_22E1&PID_F01E",
+        "USB\\VID_22E1&PID_F01F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-ttus-x64-4.86.2.0.7z.0001",
+          "size_bytes": 1411201,
+          "sha256": "02dccd238965de664bfe3e8370cd79db0ada517ba678495352e92077f5f0fd94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4e3e3c17ec77057e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "TTUSBAudio_SetupClass",
+      "version": "4.86.2.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F00E",
+        "USB\\VID_22E1&PID_F00F",
+        "USB\\VID_22E1&PID_F011",
+        "USB\\VID_22E1&PID_F012",
+        "USB\\VID_22E1&PID_F013",
+        "USB\\VID_22E1&PID_F015",
+        "USB\\VID_22E1&PID_F016",
+        "USB\\VID_22E1&PID_F017",
+        "USB\\VID_22E1&PID_F018",
+        "USB\\VID_22E1&PID_F019",
+        "USB\\VID_22E1&PID_F01A",
+        "USB\\VID_22E1&PID_F01B",
+        "USB\\VID_22E1&PID_F01C",
+        "USB\\VID_22E1&PID_F01D",
+        "USB\\VID_22E1&PID_F01E",
+        "USB\\VID_22E1&PID_F01F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-ttus-x64-4.86.2.0.7z.0001",
+          "size_bytes": 1389568,
+          "sha256": "585d68e7b8dce3149e7a21cd6fa88c93035b5fdeca87fae8260ffca15cf6b6fd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-ttus-x64-4.86.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7b64fcd340990e31",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "SonataUSBAudio_SetupClass",
+      "version": "2.23.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_F006"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sona-x64-2.23.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-sona-x64-2.23.0.0.7z.0001",
+          "size_bytes": 1257184,
+          "sha256": "cece40a1d4031c59a0dbc4b3a3f87a39b4b186e30ccd4330f0ecf5614c8dbd86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-sona-x64-2.23.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bea3a6ff38966954",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "TempoTecUSBAudio_SetupClass",
+      "version": "3.26.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_B036",
+        "USB\\VID_22E1&PID_F001",
+        "USB\\VID_22E1&PID_F002",
+        "USB\\VID_22E1&PID_F003",
+        "USB\\VID_22E1&PID_F005",
+        "USB\\VID_22E1&PID_F006",
+        "USB\\VID_22E1&PID_F007",
+        "USB\\VID_22E1&PID_F008",
+        "USB\\VID_22E1&PID_F009",
+        "USB\\VID_22E1&PID_F00A",
+        "USB\\VID_22E1&PID_F00B",
+        "USB\\VID_22E1&PID_F00C",
+        "USB\\VID_22E1&PID_F00D",
+        "USB\\VID_22E1&PID_F00E",
+        "USB\\VID_22E1&PID_F00F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-3.26.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-temp-x64-3.26.0.0.7z.0001",
+          "size_bytes": 1380533,
+          "sha256": "7d3d0f364e7fa4c3c5b7e08a12ccf77bcb5cb0e4bcc172c89af475cffdb74ba3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-3.26.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-57cfd86ff25191b3",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "MEDIA",
+      "version": "3.26.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-3.26.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-temp-x64-3.26.0.0.7z.0001",
+          "size_bytes": 1380533,
+          "sha256": "7d3d0f364e7fa4c3c5b7e08a12ccf77bcb5cb0e4bcc172c89af475cffdb74ba3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-3.26.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-520ae422f0f25282",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "TempoTecusbaudio_SetupClass",
+      "version": "2.16.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_22E1&PID_B031",
+        "USB\\VID_22E1&PID_B032"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-2.16.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-temp-x64-2.16.0.0.7z.0001",
+          "size_bytes": 1307264,
+          "sha256": "caf9fcf1238a61f2ea4d7345a70fd973ae8cde709431ba5f7249318e9f85ff92",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-2.16.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-16d09c79051293cf",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "TempoTec Corp",
+      "category": "MEDIA",
+      "version": "2.16.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TempoTec Corp"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-2.16.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "tempotec-temp-x64-2.16.0.0.7z.0001",
+          "size_bytes": 1307264,
+          "sha256": "caf9fcf1238a61f2ea4d7345a70fd973ae8cde709431ba5f7249318e9f85ff92",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/tempotec-temp-x64-2.16.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42e6ae6d7584ed9e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Creative Technology Ltd",
+      "category": "CreativeLabsUsbAudio_sc",
+      "version": "5.61.0.18951",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_041E&PID_3294"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x64-5.61.0.189.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-crea-x64-5.61.0.189.7z.0001",
+          "size_bytes": 700572,
+          "sha256": "630becb5c085e9ea0dba6145fd53353921f80a423d2fd2dbfdf263732449d04c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x64-5.61.0.189.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d9e9d843deedae6e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Creative Technology Ltd",
+      "category": "MEDIA",
+      "version": "5.61.0.18951",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x64-5.61.0.189.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-crea-x64-5.61.0.189.7z.0001",
+          "size_bytes": 700572,
+          "sha256": "630becb5c085e9ea0dba6145fd53353921f80a423d2fd2dbfdf263732449d04c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x64-5.61.0.189.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bf2e762a3c407a27",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Creative Technology Ltd",
+      "category": "CreativeLabsUsbAudio_sc",
+      "version": "5.61.0.18951",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_041E&PID_3294"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x86-5.61.0.189.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-crea-x86-5.61.0.189.7z.0001",
+          "size_bytes": 485974,
+          "sha256": "39d241e5e466df8eb014742c933a274bf99c19788b566d1eac553dcdd33f98d3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x86-5.61.0.189.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b94effdc69bc0da0",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Creative Technology Ltd",
+      "category": "MEDIA",
+      "version": "5.61.0.18951",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x86-5.61.0.189.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-crea-x86-5.61.0.189.7z.0001",
+          "size_bytes": 485974,
+          "sha256": "39d241e5e466df8eb014742c933a274bf99c19788b566d1eac553dcdd33f98d3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-crea-x86-5.61.0.189.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6a09a0aa3caab3d0",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Creative Technology Ltd.",
+      "category": "USB",
+      "version": "03/08/2004",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_041E&PID_3000",
+        "USB\\VID_041E&PID_3000.DEVICEDESC",
+        "USB\\VID_041E&PID_3000.DEVICEDESC%",
+        "USB\\VID_041E&PID_3002",
+        "USB\\VID_041E&PID_3002.DEVICEDESC",
+        "USB\\VID_041E&PID_3002.DEVICEDESC%",
+        "USB\\VID_041E&PID_3010",
+        "USB\\VID_041E&PID_3010.DEVICEDESC",
+        "USB\\VID_041E&PID_3010.DEVICEDESC%",
+        "USB\\VID_041E&PID_3014",
+        "USB\\VID_041E&PID_3014.DEVICEDESC",
+        "USB\\VID_041E&PID_3014.DEVICEDESC%",
+        "USB\\VID_041E&PID_3015",
+        "USB\\VID_041E&PID_3015.DEVICEDESC",
+        "USB\\VID_041E&PID_3015.DEVICEDESC%",
+        "USB\\VID_041E&PID_3020",
+        "USB\\VID_041E&PID_3020.DEVICEDESC",
+        "USB\\VID_041E&PID_3020.DEVICEDESC%",
+        "USB\\VID_041E&PID_3030",
+        "USB\\VID_041E&PID_3030.DEVICEDESC",
+        "USB\\VID_041E&PID_3030.DEVICEDESC%",
+        "USB\\VID_041E&PID_3040",
+        "USB\\VID_041E&PID_3040.DEVICEDESC",
+        "USB\\VID_041E&PID_3040.DEVICEDESC%",
+        "USB\\VID_041E&PID_3060",
+        "USB\\VID_041E&PID_3060.DEVICEDESC",
+        "USB\\VID_041E&PID_3060.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_041E&PID_3000.DeviceDesc%",
+        "%USB\\VID_041E&PID_3002.DeviceDesc%",
+        "%USB\\VID_041E&PID_3010.DeviceDesc%",
+        "%USB\\VID_041E&PID_3020.DeviceDesc%",
+        "%USB\\VID_041E&PID_3030.DeviceDesc%",
+        "%USB\\VID_041E&PID_3014.DeviceDesc%",
+        "%USB\\VID_041E&PID_3015.DeviceDesc%",
+        "%USB\\VID_041E&PID_3060.DeviceDesc%",
+        "%USB\\VID_041E&PID_3040.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-usb-x64-03082004.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-usb-x64-03082004.7z.0001",
+          "size_bytes": 6434765,
+          "sha256": "671b5de5f3e794264df65b2c8006a5d5278e760836134d699c80b09d496f21b3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-usb-x64-03082004.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fac0be326c3ca01a",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "USB",
+      "provider": "Creative Technology Ltd.",
+      "category": "USB",
+      "version": "11/19/2001",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_041E&PID_3000",
+        "USB\\VID_041E&PID_3000.DEVICEDESC",
+        "USB\\VID_041E&PID_3000.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_041E&PID_3000.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-usb-x64-11192001.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-usb-x64-11192001.7z.0001",
+          "size_bytes": 34543,
+          "sha256": "ea16f282fbf95761826506f80d5d6eef226db59c46e1632ce7a4653e33fef7d8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Conexant_MEDIA_x64/creative-usb-x64-11192001.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

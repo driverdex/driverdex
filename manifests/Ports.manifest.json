@@ -13614,6 +13614,183 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-558342b851f292a4",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Ports",
+      "provider": "C-MEDIA Inc.",
+      "category": "Ports",
+      "version": "7.0.1.11",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0ECB&PID_1F63&MI_04"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-MEDIA Inc.",
+        "USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-7.0.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmediain-port-x64-7.0.1.11.7z.0001",
+          "size_bytes": 1209954,
+          "sha256": "867840223ab1c86e15d42aa498850f31c481b1cd830a5a94633099072f8463fb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-7.0.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9eb189ad7ff17a67",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Ports",
+      "provider": "Harman International Inc.",
+      "category": "Media",
+      "version": "7.0.1.11",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0ECB&PID_1F63&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HARMAN TECHNOLOGY CO., LTD.",
+        "JBL Quantum Duo"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-7.0.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmediain-port-x64-7.0.1.11.7z.0001",
+          "size_bytes": 1209954,
+          "sha256": "867840223ab1c86e15d42aa498850f31c481b1cd830a5a94633099072f8463fb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-7.0.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f79c313a591406c6",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Ports",
+      "provider": "C-MEDIA Inc.",
+      "category": "Ports",
+      "version": "8.1.1.11",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0ECB&PID_1F63&MI_04"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "C-MEDIA Inc.",
+        "USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-8.1.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmediain-port-x64-8.1.1.11.7z.0001",
+          "size_bytes": 1198169,
+          "sha256": "a4fb3d6c1fde0693975753d380922ef1a25e45628b602472cc19c5378566edb1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-8.1.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-afbf8062af64fe5e",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Ports",
+      "provider": "Harman International Inc.",
+      "category": "Media",
+      "version": "8.1.1.10",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0ECB&PID_1F63&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HARMAN TECHNOLOGY CO., LTD.",
+        "JBL Quantum Duo"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-8.1.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cmediain-port-x64-8.1.1.11.7z.0001",
+          "size_bytes": 1198169,
+          "sha256": "a4fb3d6c1fde0693975753d380922ef1a25e45628b602472cc19c5378566edb1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/cmediain-port-x64-8.1.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-10f69b5a70976d61",
+      "pack": "Conexant_MEDIA_x64",
+      "type": "Ports",
+      "provider": "CREATIVE",
+      "category": "Ports",
+      "version": "1.0.0.18",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_041E&PID_3253&MI_01",
+        "USB\\VID_041E&PID_3253&MI_07",
+        "USB\\VID_041E&PID_3258&MI_01",
+        "USB\\VID_041E&PID_3258&MI_07",
+        "USB\\VID_041E&PID_3262&MI_01",
+        "USB\\VID_041E&PID_3262&MI_06",
+        "USB\\VID_041E&PID_3264&MI_01",
+        "USB\\VID_041E&PID_6007&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Creative Technology Ltd.",
+        "USB Serial Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/creative-port-x86-1.0.0.18.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "creative-port-x86-1.0.0.18.7z.0001",
+          "size_bytes": 127702,
+          "sha256": "99bd290732293a138e9fa07f3ce5587ef793ccae78cd3d6dbba3172bd50fdc31",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Conexant_MEDIA_x64/creative-port-x86-1.0.0.18.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
