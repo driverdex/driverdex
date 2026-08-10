@@ -3,7 +3,7 @@
   "category": "Chipset",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -194510,6 +194510,111 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4978820a71ff00ac",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "13.25.51.457",
+      "arch": "arm64",
+      "hwids": [
+        "ACPI\\VEN_SAM&DEV_0602",
+        "ACPI\\VEN_SAM&DEV_0602&SUBSYS_C153144D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "ModemCtrl Device",
+        "SRil10 Device",
+        "SAR Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ViewSonic_Monitor_x64/samsunge-syst-a64-13.25.51.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-a64-13.25.51.4.7z.0001",
+          "size_bytes": 1406125,
+          "sha256": "8c699fdf2c829a37ca0381dd94ecea22e6fcc6d8c51f6d92ef953516adb19324",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ViewSonic_Monitor_x64/samsunge-syst-a64-13.25.51.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe32cfe1e40825a2",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Chipset",
+      "provider": "Qualcomm Inc.",
+      "category": "Net",
+      "version": "2499.424.0.0",
+      "arch": "arm64",
+      "hwids": [
+        "ACPI\\QCOM00F7"
+      ],
+      "compatible_ids": [
+        "ACPI\\QCOM00F7"
+      ],
+      "descriptions": [
+        "Qualcomm Inc.",
+        "Qualcomm Mobile Broadband Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ViewSonic_Monitor_x64/samsunge-syst-a64-13.25.51.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-a64-13.25.51.4.7z.0001",
+          "size_bytes": 1406125,
+          "sha256": "8c699fdf2c829a37ca0381dd94ecea22e6fcc6d8c51f6d92ef953516adb19324",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ViewSonic_Monitor_x64/samsunge-syst-a64-13.25.51.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bf42eea20a498037",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Chipset",
+      "provider": "LENOVO INC.",
+      "category": "System",
+      "version": "1.0.0.9 ; Format: MM/DD/YYYY",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "LENOVO INC.",
+        "Lenovo OLED Image Sticking Compensation Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ViewSonic_Monitor_x64/lenovoin-syst-x64-1.0.0.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoin-syst-x64-1.0.0.9.7z.0001",
+          "size_bytes": 28537,
+          "sha256": "b4dd885c859a51786dda4c41636c02195aa0c9ec4cf5e236fca1ce981c0ce0ec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ViewSonic_Monitor_x64/lenovoin-syst-x64-1.0.0.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

@@ -3,7 +3,7 @@
   "category": "Audio",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -62960,6 +62960,80 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-97035b103b385a70",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Audio",
+      "provider": "AOpen",
+      "category": "MEDIA",
+      "version": "",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AOpen Voice Modem Wave Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_ViewSonic_Monitor_x64/aopen-medi-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aopen-medi-x64.7z.0001",
+          "size_bytes": 4247,
+          "sha256": "3c379c78b46ea87effb452cc5cdb79a5673d9c7d752f050166ad2535b530577b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_ViewSonic_Monitor_x64/aopen-medi-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-693037df4a43b91b",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Audio",
+      "provider": "Motorola Inc",
+      "category": "Media",
+      "version": "2.1.2.5",
+      "arch": "x64",
+      "hwids": [
+        "HDAUDIO\\FUNC_02&VEN_1543&DEV_3155&SUBSYS_10431335&REV_1007",
+        "HDAUDIO\\FUNC_02&VEN_1543&DEV_3155&SUBSYS_10431336&REV_1007",
+        "HDAUDIO\\FUNC_02&VEN_1543&DEV_3155&SUBSYS_15433C55&REV_1007",
+        "PCI\\VEN_1039&DEV_7013",
+        "PCI\\VEN_1543&DEV_3052&SUBSYS_31001543&REV_04",
+        "PCI\\VEN_8086&DEV_2446",
+        "PCI\\VEN_8086&DEV_2486",
+        "PCI\\VEN_8086&DEV_24C6",
+        "PCI\\VEN_8086&DEV_24D6",
+        "PCI\\VEN_8086&DEV_266D",
+        "PCI\\VEN_8086&DEV_27DD"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Motorola Messenger Modem Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_ViewSonic_Monitor_x64/motorola-medi-x64-2.1.2.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "motorola-medi-x64-2.1.2.5.7z.0001",
+          "size_bytes": 77700,
+          "sha256": "4248a9af4d96097200bf8c52cc0202a08e55617d3f735895076150d1f8791079",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Audio/DP_ViewSonic_Monitor_x64/motorola-medi-x64-2.1.2.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

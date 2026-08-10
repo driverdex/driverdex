@@ -3,7 +3,7 @@
   "category": "Net",
   "shard_index": 1,
   "total_shards": 2,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -261491,6 +261491,1118 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-73758f06f0ec3640",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "AEI",
+      "category": "Net",
+      "version": "3.01.2001.0719",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_3334&PID_1701"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AEI USB To Fast Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/aei-net-x64-3.01.2001.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aei-net-x64-3.01.2001.7z.0001",
+          "size_bytes": 13693,
+          "sha256": "d0f8543a44ee05bd6f2f7f96f92ca0810825edf0d7bdfd5a0f61887bac23bec5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/aei-net-x64-3.01.2001.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8d021d4aaf0b4fe1",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Thomson",
+      "category": "USB",
+      "version": "4.1.0.2",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06B9&PID_4061"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Thomson",
+        "SpeedTouch 330 series"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/thomson-usb-x64-4.1.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "thomson-usb-x64-4.1.0.2.7z.0001",
+          "size_bytes": 85034,
+          "sha256": "d39e7aa4ec438e925eddabe7f57ccc29c513f21a3c4c2f03f178567e0a5fa673",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/thomson-usb-x64-4.1.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9125f3078964288",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Thomson",
+      "category": "Net",
+      "version": "4.1.0.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Thomson",
+        "SpeedTouch Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/thomson-usb-x64-4.1.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "thomson-usb-x64-4.1.0.2.7z.0001",
+          "size_bytes": 85034,
+          "sha256": "d39e7aa4ec438e925eddabe7f57ccc29c513f21a3c4c2f03f178567e0a5fa673",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/thomson-usb-x64-4.1.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c9c822de24c3c07b",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Thomson",
+      "category": "Net",
+      "version": "4.1.0.2",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_1229"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "SpeedTouch Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/thomson-usb-x64-4.1.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "thomson-usb-x64-4.1.0.2.7z.0001",
+          "size_bytes": 68330,
+          "sha256": "68a4a4bc4baf12aed17fab4ee2ac63bdcfd8f1e16e381b42d66eb0b2f57faf2e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/thomson-usb-x64-4.1.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b3c789182f963c7d",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "brand",
+      "category": "Net",
+      "version": "1.10.35.1000    ; Recognized by Windows 2000 only",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0BB2&PID_6098"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "USB Cable Modem 351000"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/brand-net-x64-1.10.35.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "brand-net-x64-1.10.35.10.7z.0001",
+          "size_bytes": 12746,
+          "sha256": "d298c56481b312761d027445e177b6f21a18d8b0403edc83748b6f6c612791c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/brand-net-x64-1.10.35.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c20397b1aeaa939d",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ARRIS",
+      "category": "Net",
+      "version": "5.2.3667.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_09C1&PID_1337"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ARRIS",
+        "ARRIS TOUCHSTONE DEVICE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/arris-net-x64-5.2.3667.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "arris-net-x64-5.2.3667.0.7z.0001",
+          "size_bytes": 28514,
+          "sha256": "c9b136b8d397452ea747295413b445550d8c23651e25e9ed214567b49dc248ac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/arris-net-x64-5.2.3667.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-850006884176a04e",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link",
+      "category": "Modem",
+      "version": "09/26/2000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link ISDN MLPPP",
+        "D-Link ISDN X.75",
+        "D-Link ISDN T.70",
+        "D-Link ISDN V.120",
+        "D-Link ISDN V.110",
+        "D-Link ISDN PPP",
+        "D-Link ISDN Dynamic MLPPP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-usb-x64-1.8.7z.0001",
+          "size_bytes": 963418,
+          "sha256": "51e398b42f8a838129d35255248b5d520fd762434609accc1de368060d567e0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-59398def08b4d5d5",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link",
+      "category": "Net",
+      "version": "09/26/2000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link ISDN MLPPP",
+        "D-Link ISDN X.75",
+        "D-Link ISDN T.70",
+        "D-Link ISDN V.120",
+        "D-Link ISDN V.110",
+        "D-Link ISDN PPP",
+        "D-Link ISDN Dynamic MLPPP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-usb-x64-1.8.7z.0001",
+          "size_bytes": 963418,
+          "sha256": "51e398b42f8a838129d35255248b5d520fd762434609accc1de368060d567e0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7a77ce0096df9be9",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link",
+      "category": "Net",
+      "version": "1.41",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link NDISWAN"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-usb-x64-1.8.7z.0001",
+          "size_bytes": 963418,
+          "sha256": "51e398b42f8a838129d35255248b5d520fd762434609accc1de368060d567e0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5fa2aec132e47f8f",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "",
+      "category": "USB",
+      "version": "1.8",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0675&PID_6694"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link DU-128TA+ Driver for Windows2000/XP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-usb-x64-1.8.7z.0001",
+          "size_bytes": 963418,
+          "sha256": "51e398b42f8a838129d35255248b5d520fd762434609accc1de368060d567e0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d2952853e4b14639",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "",
+      "category": "USB",
+      "version": "2.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0675&PID_1688"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link DU-128TA+ Driver for Windows2000/XP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drv-usb-x64-1.8.7z.0001",
+          "size_bytes": 963418,
+          "sha256": "51e398b42f8a838129d35255248b5d520fd762434609accc1de368060d567e0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/drv-usb-x64-1.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-beebb66bd0a75301",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link",
+      "category": "Net",
+      "version": "1.0.2.25",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2001&PID_9414"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link USB Cable Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-1.0.2.25.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlink-net-x64-1.0.2.25.7z.0001",
+          "size_bytes": 17392,
+          "sha256": "ea2b5250e09c0c2bbd4252cca86792cebf2d211de8e7fad78eecd80b78713a57",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-1.0.2.25.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-aa4250c091fca7a1",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link Corporation",
+      "category": "Net",
+      "version": "3.42.0.2700",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DCM-201 DOCSIS Cable Modem (NDIS 5)",
+        "DCM-201 DOCSIS Cable Modem (NDIS 3)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlinkcor-usb-x64-3.42.0.270.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlinkcor-usb-x64-3.42.0.270.7z.0001",
+          "size_bytes": 71512,
+          "sha256": "6ce6312381604028e3de2112ef0e6ddde73e5e3ce5de79dd7b803c836cc7f0bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlinkcor-usb-x64-3.42.0.270.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3b175b4019f27660",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link Corporation",
+      "category": "USB",
+      "version": "3.42.0.2700",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0E9D&PID_3520"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%D-Link.Ndis.Desc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlinkcor-usb-x64-3.42.0.270.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlinkcor-usb-x64-3.42.0.270.7z.0001",
+          "size_bytes": 71512,
+          "sha256": "6ce6312381604028e3de2112ef0e6ddde73e5e3ce5de79dd7b803c836cc7f0bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlinkcor-usb-x64-3.42.0.270.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9f65ffc0c2d4b95d",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link Systems, Inc.",
+      "category": "Net",
+      "version": "5.1.3538.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2001&PID_9B00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link Systems, Inc.",
+        "D-Link DCM-202 Broadband Cable Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlinksys-net-x64-5.1.3538.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlinksys-net-x64-5.1.3538.0.7z.0001",
+          "size_bytes": 35677,
+          "sha256": "f3eba45ae42c8ba396731a379a248863c2c8581536c0347c77c71528769422b7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlinksys-net-x64-5.1.3538.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0df2637b435a6f5b",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link",
+      "category": "Net",
+      "version": "2.3.1",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1471&DEV_0188",
+        "PCI\\VEN_1471&DEV_0188&SUBSYS_50001186&REV_10",
+        "PCI\\VEN_1471&DEV_0188&SUBSYS_50011186&REV_10"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link DSL-100D ADSL Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-2.3.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlink-net-x64-2.3.1.7z.0001",
+          "size_bytes": 1015884,
+          "sha256": "a16620fc4ff94190f4862edf87cbb0f0a83d3dfeb44954363d78fb0092baadb1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-2.3.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2fa307abd386fce0",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "DLINK",
+      "category": "Net",
+      "version": "08.02.00.18",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DLINK VVB Ethernet port",
+        "DLINK VVB RFC1483 encapsulated ATM port",
+        "D-LINK DSL-302G ADSL Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-08.02.00.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlink-net-x64-08.02.00.1.7z.0001",
+          "size_bytes": 40152,
+          "sha256": "63c9618866727b54c136407f269e0f2a650c1bccfabb681ab70615ff25be5026",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-08.02.00.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4009a8c1d933aac0",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "D-Link",
+      "category": "Net",
+      "version": "01.02.00.04",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07D1&PID_13F1",
+        "USB\\VID_0915&PID_8005"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "D-Link DSL-302G Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-01.02.00.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dlink-net-x64-01.02.00.0.7z.0001",
+          "size_bytes": 36861,
+          "sha256": "df781be309396e2c508ef27628bda531c8639ca603245faef95d608a99af8e96",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/dlink-net-x64-01.02.00.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9ce1c6333592cf1c",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Cisco-Linksys, LLC",
+      "category": "Net",
+      "version": "1.12.00.0000",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_077B&PID_08BE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cisco-Linksys, LLC",
+        "Linksys BEFCMU10 ver. 4 Cable Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/ciscolin-net-x64-1.12.00.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ciscolin-net-x64-1.12.00.00.7z.0001",
+          "size_bytes": 17615,
+          "sha256": "37082054005d1174ad139a70216aa439c6e3e4acd6fee6cd36eaab8576731d00",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/ciscolin-net-x64-1.12.00.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dbf1b9abcfce0afd",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Motorola",
+      "category": "Net",
+      "version": "2.4.5.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07B2&PID_0100",
+        "USB\\VID_07B2&PID_0100.DEVICEDESC",
+        "USB\\VID_07B2&PID_0100.DEVICEDESC%",
+        "USB\\VID_07B2&PID_0900",
+        "USB\\VID_07B2&PID_0900.DEVICEDESC",
+        "USB\\VID_07B2&PID_0900.DEVICEDESC%",
+        "USB\\VID_07B2&PID_0950",
+        "USB\\VID_07B2&PID_0950.DEVICEDESC",
+        "USB\\VID_07B2&PID_0950.DEVICEDESC%",
+        "USB\\VID_07B2&PID_1000",
+        "USB\\VID_07B2&PID_1000.DEVICEDESC",
+        "USB\\VID_07B2&PID_1000.DEVICEDESC%",
+        "USB\\VID_07B2&PID_4100",
+        "USB\\VID_07B2&PID_4100.DEVICEDESC",
+        "USB\\VID_07B2&PID_4100.DEVICEDESC%",
+        "USB\\VID_07B2&PID_4200",
+        "USB\\VID_07B2&PID_4200.DEVICEDESC",
+        "USB\\VID_07B2&PID_4200.DEVICEDESC%",
+        "USB\\VID_07B2&PID_4500",
+        "USB\\VID_07B2&PID_4500.DEVICEDESC",
+        "USB\\VID_07B2&PID_4500.DEVICEDESC%",
+        "USB\\VID_07B2&PID_450B",
+        "USB\\VID_07B2&PID_450B.DEVICEDESC",
+        "USB\\VID_07B2&PID_450B.DEVICEDESC%",
+        "USB\\VID_07B2&PID_450E",
+        "USB\\VID_07B2&PID_450E.DEVICEDESC",
+        "USB\\VID_07B2&PID_450E.DEVICEDESC%",
+        "USB\\VID_07B2&PID_5100",
+        "USB\\VID_07B2&PID_5100.DEVICEDESC",
+        "USB\\VID_07B2&PID_5100.DEVICEDESC%",
+        "USB\\VID_07B2&PID_5101",
+        "USB\\VID_07B2&PID_5101.DEVICEDESC",
+        "USB\\VID_07B2&PID_5101.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_07B2&PID_4100.DeviceDesc%",
+        "%USB\\VID_07B2&PID_4200.DeviceDesc%",
+        "%USB\\VID_07B2&PID_5101.DeviceDesc%",
+        "%USB\\VID_07B2&PID_5100.DeviceDesc%",
+        "%USB\\VID_07B2&PID_0900.DeviceDesc%",
+        "%USB\\VID_07B2&PID_0950.DeviceDesc%",
+        "%USB\\VID_07B2&PID_1000.DeviceDesc%",
+        "%USB\\VID_07B2&PID_0100.DeviceDesc%",
+        "%USB\\VID_07B2&PID_4500.DeviceDesc%",
+        "%USB\\VID_07B2&PID_450B.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-2.4.5.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "motorola-net-x64-2.4.5.1.7z.0001",
+          "size_bytes": 20067,
+          "sha256": "bb80a58fce49642116b149687b4c1dd299ca7469703a68af45abcd67d74efe99",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-2.4.5.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d72560f53a312233",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Motorola",
+      "category": "Net",
+      "version": "1.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07B2&PID_5120"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Motorola",
+        "Motorola SURFboard SB5120 USB Cable Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-1.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "motorola-net-x64-1.1.0.0.7z.0001",
+          "size_bytes": 32839,
+          "sha256": "fbdb0b458cf354ae7039b5dd4b90ede1c125f6b7f4fc12e1299f955ca9fdd9bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-1.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b2edee90b221022b",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Motorola",
+      "category": "Net",
+      "version": "1.01.0.1258",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1057&DEV_6800"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Motorola PCI Cable Modem SURFboard SB4000"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-1.01.0.125.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "motorola-net-x64-1.01.0.125.7z.0001",
+          "size_bytes": 14223,
+          "sha256": "f9b75dbb61bc46d5782e57c6e3554e9c2e87fa27ab0155b550985c3aa8c792d3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-1.01.0.125.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bb820658a171d9a4",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Motorola",
+      "category": "Net",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07B2&PID_4220"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Motorola",
+        "Motorola SURFboard SB4220 USB Cable Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "motorola-net-x64-1.0.0.1.7z.0001",
+          "size_bytes": 34977,
+          "sha256": "463309ae8e971e7f8d583a786047a02976b849f6ad4a3fc22ba14813462ec2f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/motorola-net-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-343891287980276e",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "NETGEAR",
+      "category": "Net",
+      "version": "5.2.3667.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0451&PID_6060"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "NETGEAR",
+        "NETGEAR DG632 USB Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/netgear-net-x64-5.2.3667.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "netgear-net-x64-5.2.3667.0.7z.0001",
+          "size_bytes": 28659,
+          "sha256": "f5fe757f3b6a427e7ff63056fdf1ea947d9aa1276424a52b37ea427fb6332146",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/netgear-net-x64-5.2.3667.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7ee205eab55d3272",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "RCA",
+      "category": "Net",
+      "version": "30.2.23.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_069B&PID_0704"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "RCA USB Cable Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/rca-net-x64-30.2.23.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "rca-net-x64-30.2.23.0.7z.0001",
+          "size_bytes": 16547,
+          "sha256": "b9ecb1ca6fb74210d8e5364ef763ead654978bb785cd6c5743ff2524dd8a78ba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/rca-net-x64-30.2.23.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe26b98b16ccc7da",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ZyXEL",
+      "category": "Net",
+      "version": "1.9.0.6",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ZyXEL",
+        "ZyXEL P-630S EE Ìèíèïîðò",
+        "ZyXEL P-630S EE Ìèíèïîðò LAN",
+        "ZyXEL P-630S EE Ìèíèïîðò WAN"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.57.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "zyxel-stad-x64-1.2.0.57.7z.0001",
+          "size_bytes": 647156,
+          "sha256": "01782bb856cbc0d87a2152290b8ad4ad1d088fbe0aef99bdf87529f43d7d0c7d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.57.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d940146b39abe57b",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ZyXEL",
+      "category": "ST-ADSL",
+      "version": "1.2.0.57",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0586&PID_330E&REV_0300"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ZyXEL",
+        "ADSL-ìîäåì ZyXEL P-630S EE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.57.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "zyxel-stad-x64-1.2.0.57.7z.0001",
+          "size_bytes": 647156,
+          "sha256": "01782bb856cbc0d87a2152290b8ad4ad1d088fbe0aef99bdf87529f43d7d0c7d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.57.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d16981cf9f218b55",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ZyXEL",
+      "category": "Net",
+      "version": "1.9.0.4",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ZyXEL P-630S EE Ìèíèïîðò",
+        "ZyXEL P-630S EE Ìèíèïîðò LAN",
+        "ZyXEL P-630S EE Ìèíèïîðò WAN"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.49.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "zyxel-stad-x64-1.2.0.49.7z.0001",
+          "size_bytes": 668975,
+          "sha256": "aa1012172b0d7803e59de2a2faffc74d807d91e8ea6e4d40c73a60d2d046fc86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.49.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8c06346c3d90612d",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ZyXEL",
+      "category": "ST-ADSL",
+      "version": "1.2.0.49",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0586&PID_330E&REV_0300"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ADSL-ìîäåì ZyXEL P-630S EE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.49.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "zyxel-stad-x64-1.2.0.49.7z.0001",
+          "size_bytes": 668975,
+          "sha256": "aa1012172b0d7803e59de2a2faffc74d807d91e8ea6e4d40c73a60d2d046fc86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-stad-x64-1.2.0.49.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-217d8fd4958328bb",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ZyXEL",
+      "category": "Net",
+      "version": "5.2.3667.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0586&PID_3309"
+      ],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-net-x64-5.2.3667.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "zyxel-net-x64-5.2.3667.0.7z.0001",
+          "size_bytes": 33102,
+          "sha256": "e4a25035368400636a14dc588649eeb02a00d634650e7a483416924decd8e490",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/zyxel-net-x64-5.2.3667.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e768d10441b3135a",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "Your Company",
+      "category": "Net",
+      "version": "141.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1064&DEV_1102",
+        "PCI\\VEN_1064&DEV_1102&SUBSYS_11031064&REV_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Your Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/yourcomp-net-x64-141.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "yourcomp-net-x64-141.1.0.0.7z.0001",
+          "size_bytes": 4715316,
+          "sha256": "dd3c26d4f28a5dd359e6df2f2b04f6b3d4477dd34bb54c88d6d8362e658a79d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/yourcomp-net-x64-141.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bc68637b3f5048a9",
+      "pack": "ViewSonic_Monitor_x64",
+      "type": "Net",
+      "provider": "ZyXEL Communications Corporation",
+      "category": "AmeClass",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_06B9&PID_A5A5"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ZyXEL ADSL USB Modem"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/yourcomp-net-x64-141.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "yourcomp-net-x64-141.1.0.0.7z.0001",
+          "size_bytes": 4715316,
+          "sha256": "dd3c26d4f28a5dd359e6df2f2b04f6b3d4477dd34bb54c88d6d8362e658a79d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ViewSonic_Monitor_x64/yourcomp-net-x64-141.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
