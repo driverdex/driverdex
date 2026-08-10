@@ -15585,6 +15585,72 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-5af672b01af03410",
+      "pack": "VIATechnologie_MEDIA_x64",
+      "type": "Other",
+      "provider": "Soundcraft",
+      "category": "61883",
+      "version": "6.14.0.0",
+      "arch": "x64",
+      "hwids": [
+        "1394\\SOUNDCRAFT&SOUNDCRAFT_DIGITAL"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Soundcraft",
+        "Soundcraft 1394"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_VIATechnologie_MEDIA_x64/soundcra-6188-x64-6.14.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundcra-6188-x64-6.14.0.0.7z.0001",
+          "size_bytes": 1395872,
+          "sha256": "854efeaf6404fcd0c245aaa0dd9be4c61c0daa2e7ab0ff221aaef7128cae3e54",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_VIATechnologie_MEDIA_x64/soundcra-6188-x64-6.14.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2629d472a827f27e",
+      "pack": "VIATechnologie_MEDIA_x64",
+      "type": "Other",
+      "provider": "Soundcraft",
+      "category": "MEDIA",
+      "version": "6.14.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Soundcraft",
+        "Soundcraft 1394 WDM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_VIATechnologie_MEDIA_x64/soundcra-6188-x64-6.14.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "soundcra-6188-x64-6.14.0.0.7z.0001",
+          "size_bytes": 1395872,
+          "sha256": "854efeaf6404fcd0c245aaa0dd9be4c61c0daa2e7ab0ff221aaef7128cae3e54",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_VIATechnologie_MEDIA_x64/soundcra-6188-x64-6.14.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

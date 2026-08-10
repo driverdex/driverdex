@@ -4,7 +4,7 @@
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
-      "size_bytes": 5180057,
+      "size_bytes": 6479044,
       "active": true,
       "note": "active"
     },
@@ -46,7 +46,7 @@
     },
     {
       "filename": "manifests/Other.manifest.json",
-      "size_bytes": 578802,
+      "size_bytes": 580991,
       "active": true,
       "note": "active"
     },
@@ -76,24 +76,24 @@
     },
     {
       "filename": "manifests/USB.manifest.json",
-      "size_bytes": 2337545,
+      "size_bytes": 2893795,
       "active": true,
       "note": "active"
     }
   ],
   "category_summary": {
-    "Audio": 2353,
+    "Audio": 2806,
     "Chipset": 2628,
     "Display": 6652,
     "Firmware": 208,
     "Imaging": 64,
     "Input": 2424,
     "Net": 869,
-    "Other": 295,
+    "Other": 297,
     "Ports": 541,
     "Printer": 179,
     "Security": 38,
     "Storage": 861,
-    "USB": 691
+    "USB": 1150
   }
 }
