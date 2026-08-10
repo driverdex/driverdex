@@ -194619,6 +194619,2417 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-9679c1ac48699117",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "03.00.00.1400",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3190",
+        "PCI\\VEN_8086&DEV_4511",
+        "PCI\\VEN_8086&DEV_464F",
+        "PCI\\VEN_8086&DEV_4C11",
+        "PCI\\VEN_8086&DEV_4E11",
+        "PCI\\VEN_8086&DEV_5A11",
+        "PCI\\VEN_8086&DEV_7E4C",
+        "PCI\\VEN_8086&DEV_8A11",
+        "PCI\\VEN_8086&DEV_9A11",
+        "PCI\\VEN_8086&DEV_A74F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) GNA Scoring Accelerator module"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelcor-syst-x64-03.00.00.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-03.00.00.1.7z.0001",
+          "size_bytes": 46138,
+          "sha256": "af1c190d8670466ddc94e52c8abc0016047e4e97a17df396c6fdc5edf7e6d7cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelcor-syst-x64-03.00.00.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bfb19d6165cbc327",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "03.05.00.1574",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3190",
+        "PCI\\VEN_8086&DEV_4511",
+        "PCI\\VEN_8086&DEV_464F",
+        "PCI\\VEN_8086&DEV_467E",
+        "PCI\\VEN_8086&DEV_4C11",
+        "PCI\\VEN_8086&DEV_4E11",
+        "PCI\\VEN_8086&DEV_5A11",
+        "PCI\\VEN_8086&DEV_774C",
+        "PCI\\VEN_8086&DEV_7E4C",
+        "PCI\\VEN_8086&DEV_8A11",
+        "PCI\\VEN_8086&DEV_9A11",
+        "PCI\\VEN_8086&DEV_A74F",
+        "PCI\\VEN_8086&DEV_AE4C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) GNA Scoring Accelerator module"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelcor-syst-x64-03.05.00.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-03.05.00.1.7z.0001",
+          "size_bytes": 47492,
+          "sha256": "0ec9192934dd77024d3088a911128471b0794b1bb202d2580bcb110b53ff7d4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelcor-syst-x64-03.05.00.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7a25732c2cfd41ec",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "03.05.00.1611",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3190",
+        "PCI\\VEN_8086&DEV_4511",
+        "PCI\\VEN_8086&DEV_464F",
+        "PCI\\VEN_8086&DEV_467E",
+        "PCI\\VEN_8086&DEV_4C11",
+        "PCI\\VEN_8086&DEV_4E11",
+        "PCI\\VEN_8086&DEV_5A11",
+        "PCI\\VEN_8086&DEV_774C",
+        "PCI\\VEN_8086&DEV_7E4C",
+        "PCI\\VEN_8086&DEV_8A11",
+        "PCI\\VEN_8086&DEV_9A11",
+        "PCI\\VEN_8086&DEV_A74F",
+        "PCI\\VEN_8086&DEV_AE4C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) GNA Scoring Accelerator module"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelcor-syst-x64-03.05.00.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-03.05.00.1.7z.0001",
+          "size_bytes": 54278,
+          "sha256": "7ed36a89d3ed5708d435a9821157301bc5ff2d2147a68cce56e10ad67ece8a4a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelcor-syst-x64-03.05.00.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9811083e7c776753",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "09.21.4594.200",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0001",
+      "zip_parts": 9,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "47eb5c3520c1f2da3f99d31f4b2f7e849c2b1a5fe61abd057e6760974db1e863",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "932f187584af7d5a22e161382f16fa805c5bcbe224510bd53728ed477b74a53c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "182c78e17fbd3172fb005cbd1d6b30b8ed0c7f013dcaa7794ca43c84285e9898",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "d81ff44d05697f367045329b2ce2e9694660a9bd0b65952cc0c6187505cca84b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "cfa9a10bac0df45aa6233be7f464d69fb4511a5c5e1f64c53be61c181a89cd83",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "d3f42e404a788aa84f9b87baffa76a1739fafc6b7fcfa904b03ab190f387fa37",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "e35626a8a5cad781e8e00089aee6303006a15cc3877406cf974d2cf2864ffe35",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "5019fb3427bcb97814c1fbcde1bb41a30e110576ee35ea69bea0b7ae174e6eb8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-09.21.4594.7z.0009",
+          "size_bytes": 6111327,
+          "sha256": "d609d66b63a12af478e9a6d68354cbbf9fd6738ac281576d09c0a9753a0329c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.4594.7z.0009"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-78f2f784f396e7c9",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.23.00.2996",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0001",
+      "zip_parts": 9,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "73dbb9a47a3f6aad070cdcea51cb22a814f41b9e4479d260d9a6174ff4d1266b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "27888fd8a4f4fddcec051e5a7e0ed4659847f88043c3ae5cb9d6f53c6c99cd4c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "356cf2b69754b5608131871a7c728fc35ce2040477c87e53459e170f294b0ff1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "aa5152e867beda38890e592623ecb249adc029ba9c857020842e227ecd9cac7f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "1bcf49ae41dede718afb633f1f3e40bc9337894c3bbb5ef936cabe8883007bb9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "b4f596f3a9ac278f1b596e7d6d5875b33f7087cfadb3e6b23a4b6a118693dbab",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "e669d62fae7d05df89fe4953a177de61b69012e3c5a514da003e12c776282aa1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "ccb9dd17bc33621722503dbbf61994fd82c6ef34612ca9b5dc09f4538d07acec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.23.00.2.7z.0009",
+          "size_bytes": 13995209,
+          "sha256": "e9b20d0db9da9a2da23f19fbee7c6f1faef210f1f6642096a80635e59b3a3307",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.2.7z.0009"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f14acf43d7dc9395",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.23.3349.219",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0001",
+      "zip_parts": 9,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "891dbd5473766198e631260aa4179bb171cbeeabac861a3249b29e4aafcc46e6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "a012390535fd888b7905f4895d3c4f49627eada290c059bfebf1dfef113db851",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "22523eac958d8db1158e19e0c416f71a8a4fc59cb6dcba3e6d05dd772912ad0f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "4a680a2a64875aff37313ca6920d776eeb19a2ec77001af36c8704a9d9ef1dc0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "bb12374847084b86d857b25ea3fa0e643b42bf8d71041fb85526a93a5c2234f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "12b3b8fb3ae883169646d7fa69e9ed8bd1145fc1b983a67502d4d2bf5a2f92e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "5f8345ede963f7c047018c35686801242bd49aaba1dfbf15bb0606707e585fd8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "4c6a12cbba7029b5e451ef53683c15cce9f85fc91029cf0caa45018f208a9bed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.23.3349.7z.0009",
+          "size_bytes": 7128327,
+          "sha256": "e96c458b0e658849cdafebd8ca160adc1c755a7a2ebe411496af1d3c72f076e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3349.7z.0009"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a811d77e7f81c969",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.23.3586.200",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "2df34879bf8c99dac7cf0b55399fce3e9e137649032cf3b5f9a284bb9a54163d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "8eed6cb43c3ccdedbf772b32cd82c527f50f4bb0b9e2cfe64e057b32d977bcec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "d3af8db1fd55fe75d4e506ea427cb913d520e72d6d0722b1b460a262c3530afa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "5c3203403b264e477a9ef461feae9e7871436c2672d3e39cd0d410b0ea4c5ed8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "5f87a9d4264fe60a2af35c6485a11a5be506e7bc8b4e7a9a6cee4318cd938f7c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "859980a01813f0ed27454e1fa897d5e9e50a55169b41d7ca6f9ba0e1bed821e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "0dbdc340e9ab87afbd03de5a52107d429ddc999df123f20633b870cc5416d8be",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "463ddece2a25b2d68d9c9b07cf68a210145670bda5a68ed54ab2d4fdd8fae8f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "3d13771d542bed26ac37c9d213e7b40f2cff1bfd08a1ab461404845e3f9b1d4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "b9ecace8e80c0c0bbbd609e60b6b80eb3e8858ef2ff683b82141bfd051edebf1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intelrco-syst-x64-10.23.3586.7z.0011",
+          "size_bytes": 7933584,
+          "sha256": "8fd63c1e037e33b6c1e233aa88bbf5c617c718ba04571e8f6a3f3ec249053132",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.3586.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4ebaa660b6792779",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.23.4880.250",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "97944d4036b50b64114243cb19001fe2af3d36b212fd4eb7aba22e1bef18cfa7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "825d30d9bc4c72127a58643016f94179fd8f705eee5bfb5991e395f84ee1f4e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "80dbd3067c333fe689af5c7e87a0305110ee8f10ad1fc859cc4106861f31ef48",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "c3fa849787fcd4461c74d6af6fabef529db713bfcc3041bab3314763f8126942",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "d74d0b23b1abf6f1455856be264ee54912b6dfc1122e32a7ec15f78f7eb48cce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "7772eb58fb587b5160d6ff2d91ceadfe51dc845574164b7cddb3bcfc91b04967",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "26a7fe495de4278fa7cf640296f0e99dd781c11a4bea8de14f728adae78e38de",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "1c41b645f17623dccc33e3674e4db5fc2422c981c6118f9b5d4b8c2ae9f926a8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "dbf754840390612ad50a2aaebd9c7981b1d160fac8a51f5dde641cd24cc4d4c2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "496cc6a5b552c79740b9b322fc889d4fcfe6b3361727f64d2c516a70b24997d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intelrco-syst-x64-10.23.4880.7z.0011",
+          "size_bytes": 7922570,
+          "sha256": "5d4b192d14e92c3204150aecf197ac9a3da3c5e81bcba15e6d815e36802f83a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.4880.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bb8b385502ce5c9f",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.24.3694.200",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "aa65d6d675c7c708454e3cf3d60335364efae4859b0e55088f337496b6c92cd1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f13e3ce243ee028432e4b9d9ad9ecccf61570e2dbca397fc620e7f6aa2bfea60",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "37876b8e3abc6bef702388c0eb9760e50c37dcd0b23e0c5f691b815f23d72752",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "195ff1f95c026549e9149d1f2ffdd5af049a18552055e7052bb4910fb829c88b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "25f9cc5ef7cc3ea49ac8ae22e0c1669d74275149ab266d5d9c04f851715710b7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "36641dbea4e72905a33c61e32e51708350fed43905f2ea3749160ea657044d32",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "f4fa5cc930b147f83ed4467ec3a26393d83e23b8caf432311d9404d5e98128d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "1b288be3e95008ef8fe4ee54778f7186d63c5374120078dbc1733e91c4a84d9d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "8a88bf2063b2bc76c26f4d4b8961dc651d5abe512456041d5c003d71d2c0145d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "68e8376920d03c60094eccdc7065c3b24f487f750ad1992adc20d8ccbbd37822",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "a79dc2415da8f6b04fe957cbe5154183a4e38b152a5358fa7d5938ddd6f7276e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "bc8b8eca56e27faae98ec5004a65c1ec5baa0ea565c09de5c4eadfdfb82de4e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "intelrco-syst-x64-10.24.3694.7z.0013",
+          "size_bytes": 7762451,
+          "sha256": "30b17080e85b212f76061bb138c31cb3ce8804a7aba7c9170df9c08fedbc6d41",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.3694.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8b21118eb43032e4",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.24.4813.245",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0001",
+      "zip_parts": 14,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "66e325328d0f602ecdf725109693e2693f8d6b69f4dec059eb34abd3c4c823e5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "5b89e993ef48f2cfab4d9ed1fbe4ed1f468d6bcca498ce30979623c8bb3105b6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "a1577a408764eceb0ef74eff1a4699431cede2907f1a8f43b819033c20dc2fa5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "c8432ee47f79c081c5ab3ecbbe0ece69d801fe87dc9e099981f9b5b24bd3e92d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "e53cca38e1d04e76a8d82810e8cd340985d02f200962d2db017ffb16d5d95112",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "7760784a4bcb5bd6a78c67b4560dffd77211d60384dd5915cfac5c50cc5c7c48",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "bcbac0e5d12e2dafa6dfe4e8f2b0eeaa99cfb22417f9d0fb6b51e8553a76fce7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "5ae496cf18600b0837b31a60e724a185078f0140f8982f4247e1612b25f1f64e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "0c3807c89b4359b7b95e6baa6ee243860f804e55570f318835f4858d7fffe034",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "82041467c7a8842ec963454fe839c15934f3d1a90060a70a34c984411476637d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "5b836b9bbcdcbef9e1405d27fbce2877a49eb6fc641cee19f0f57431418e0b80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "e156cf29b8a4f97d043dbe571ff10b3eeaae16c881f632cbf101049d156add37",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "9b6cf44711d5d867f96c75021d2f5c19a06197215885987eb01d2a3750cb7363",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "intelrco-syst-x64-10.24.4813.7z.0014",
+          "size_bytes": 10582569,
+          "sha256": "852dd493d3a699b202a1c874a8c6f3fe8188a9b1530afc704e128b7b5a20a292",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.4813.7z.0014"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c646a76b7c847bd9",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.24.5427.210",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fa9cfc4ace22f37b50f63b385c6c4c343428670fa1b235b2010bea74ef602c15",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "663d8544c97429f60ad6d748804012f217d30b3da3ce794d90db39676e0dce19",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "ef6b6a1cdc871b17e7ef9676bd283dd90b857a65a1ab486175a967544613306e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e462709e80dec5956befad0b5e357d6b198e7b4517f31317042b5c9b13e9f542",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "6db0983697f1b38de57abbf04ceee580fd38cdc22e906565d4feea62c993e278",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "4ba89fb83fe8f1555bc3dcef968494258b3c1f03fa4ab12e845c2711b88c686d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "7d78f3225d3929d39ee0f8fe9cc59e6f6eef368a886a8b94ed3ff64678299c40",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "f50a5a96907932f269287e299df40c4bcdd5b1a96cf778d4e65497c827ee1a6a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "ac5dd754cd5c9c72ab5750076c77a37abacc8b51cc6f06c5a97874ae7ced84e2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "e684ce80301773dd3f002c67fd7d836fb2ea0a7b94511128234e742abb14f628",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "0cd8725d3f001e2272000c458a45648d80e88e3b4149d1e0f44d8fb6e19c19b4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "3ea3dcd4f88ba140ebcaf0770705c8aa3a48964691e19ad60abb7d075c837607",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "intelrco-syst-x64-10.24.5427.7z.0013",
+          "size_bytes": 9513178,
+          "sha256": "f1c178be63d1a300e1c3affa9c94fe8dbfdbf3a83626a76f428c4390ead5404a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.24.5427.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7b9ce0df145a305e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.25.00.6515",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "af29fd0ffa1da4fec59d6ac74aa22e1ec20a3cf861d141df0b9d0a0c3bafd980",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "cc565b0512b13804ac5cc89b177b9eca75f6b935afc2445e242782bc80d6bb14",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "e70cb0a37cb3c6fb99504a15cab4d3c7a1b6668dec075d57fd4613d2716d26bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "c2507b0caa6ef017ef3b1fe8909cf6374b851cd89bed730cf4f700fac349c6e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "9c35bd749a6d42805677a27bf9b28f4de741d289b18a8c94e49f2ee92d2c8232",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "006786f5c017f488031b7322bfca0a2001c19535a2a320f097e5cf9a834d431e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "68a6e64434e5d522e6b3bc77e4c429c2596a670bee1c850dc474e3566d846fd6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "86e9c18b12bd0a37c2ba0a2b3ada1b07611118dec05f32f0f214b555f5582c81",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "37f512ce2f3680f72a751f9515cf523e2c2864ebbe7ce32305f2ecc4fdd56c6d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "babd0841a0b5fe48d46267ff64b484517ecc4429f76b0a54bbd02f0a5a7e3b3f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "dd2aa6fbdbe1c2ce9935937e45ae86a6c2b2645c630c6f9480e719eeb949ea3e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "05ae331d5bdf728017478017e4511eb8ddcd18577819ae9c3493e0ebe9f4100c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "intelrco-syst-x64-10.25.00.6.7z.0013",
+          "size_bytes": 9368258,
+          "sha256": "aebdc6be0fb45566fe35e5fcadc575c9f44e4d1131c1fc4ac60f225154a91d9d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.25.00.6.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-86f78675dd288779",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.28.00.3855",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.28.00.3.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.28.00.3.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0404dfba3183bf7a0eec436457d0ec270ab202dadad9d5bc1f99d1e4eac11297",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.28.00.3.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.28.00.3.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "d361f4cd5efb2db514381057b5725312918d74fe31955ecd6bf39bd268016704",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.28.00.3.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.28.00.3.7z.0003",
+          "size_bytes": 4078119,
+          "sha256": "9188fa8f79d76c79187268cf5b4f04ebfd36b53807918bbac903b2ea4c7a85a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.28.00.3.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cf3bd0eeb5fcfbac",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.29.00.7919",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel® Smart Sound Technology OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.7.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.29.00.7.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fbcba7962644dcf66700a1af97f87bdaef0fdd8cad2a2d43d1043852b9a62c20",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.7.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.29.00.7.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "79f8e15225877d110d8abffce4ddb2fe9490771acf51303a199dbaaa105a5493",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.7.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-10.29.00.7.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "092912f480a48ae22c9505c5852dd8045fa2fbe1bbc980c3ad66402beabf2469",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.7.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-10.29.00.7.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "760c91f1dad0881f01f96c57e95682b22a7bc05bf69cb48bf6a45e9ec722f4dc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.7.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-10.29.00.7.7z.0005",
+          "size_bytes": 1921223,
+          "sha256": "bf65c767eff9879b3103817a4f0f47d16cbc2e1a57af8aff7dcd375d86f53046",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.7.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9bb88b301ff5b6b9",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "09.21.00.3063",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.00.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-09.21.00.3.7z.0001",
+          "size_bytes": 14279262,
+          "sha256": "76a6a01027483ea90101d5b1bff3c8152cc472efa334d9436d546f4152bd68f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.00.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c9a49d4ac479b89f",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "09.21.00.3278",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.00.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-09.21.00.3.7z.0001",
+          "size_bytes": 14288062,
+          "sha256": "9edb00d2deb5b600c3071902f741219836a97c6381e03e0f7cbd975173946a1e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.21.00.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3b03a51eee29ee57",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "09.22.00.3430",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-09.22.00.3.7z.0001",
+          "size_bytes": 525729,
+          "sha256": "fda9dad32a320b5f6ec3b9f01c64a05e1729fd97cdeeb60b780857612283bd4f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4cd86ef5d966f454",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "09.22.00.4078",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.4.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-09.22.00.4.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "51d5ec4a7108bb4facfc2ccbd7b4ccafd5129edf93c7d82bf3f25ea3e72c1138",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.4.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-09.22.00.4.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "687e67bf52ff7d8457651ab219e741888bace546687a35ac1e19522183166bac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.4.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-09.22.00.4.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "b1b30a6d2d088f7fa4a8fc9c46c5795ea783ba12f7b511c16fd076abb11e8933",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.4.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-09.22.00.4.7z.0004",
+          "size_bytes": 15063603,
+          "sha256": "df7840e8bb68b973cadfefc92478d2a911a36d8f60ba333695fddf266ca9fd8d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-09.22.00.4.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b42ae046c378517d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.23.00.1522",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.1.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.23.00.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5bab4279b2ca656c79f5ecd8ffb9c22ebe4ba409b9b11502a6ce244b7069193e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-10.23.00.1.7z.0002",
+          "size_bytes": 13146099,
+          "sha256": "1f4f0d2d0bae6410b122e02b0f5827856e1a20a08edb83157d8d7aaa0dfb722c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.23.00.1.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4f9838e9a5197074",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "8.20.0.968",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-8.20.0.968.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-8.20.0.968.7z.0001",
+          "size_bytes": 13021104,
+          "sha256": "33a3e6eef8aa1bbdb39f88c484e9a271a8dc26c1445fc5f66cf632a3beb4d3a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-8.20.0.968.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-89bb2643308c5fae",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "01.00.1162.00",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "compatible_ids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "descriptions": [
+        "Detection Verification"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.1162.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-01.00.1162.7z.0001",
+          "size_bytes": 14530815,
+          "sha256": "a25730ea9c4e5eee1a2a769e480d1bc21c909ba679d10938803c154b83b48167",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.1162.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e6a3ea0baac9fe58",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "01.00.1965.00",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "compatible_ids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "descriptions": [
+        "Detection Verification"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.1965.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-01.00.1965.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fed01b730b506d4c84e4feb6683d035c3cfbd40f7d2289e0ad69d81ccb723f14",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.1965.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-01.00.1965.7z.0002",
+          "size_bytes": 401322,
+          "sha256": "1c76b013a79273286c90364f3d336d81bf9d1f5be3774b06bc37581c79e3fbea",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.1965.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d68117f0c6b74265",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "01.00.2983.00",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "compatible_ids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "descriptions": [
+        "Intel® Smart Sound Technology Detection Verification"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.2983.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-01.00.2983.7z.0001",
+          "size_bytes": 13703917,
+          "sha256": "e25140c5c132a20a844cc78ed8606021eb4b096933d25515682f5c5d20646c99",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.2983.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fc29ce8501403073",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "10.29.00.9947",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC10B0"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC10B0"
+      ],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "HDMI Capture/I2S Audio Bridge (LT6911UXC)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-10.29.00.9.7z.0001",
+          "size_bytes": 38334,
+          "sha256": "0a21d9e878eb67a6c20c28cb4f3d99903a33d7b66cee55d3e58dfb5af40f4837",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-10.29.00.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-68af986d67d43f4d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "01.00.184.00",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "compatible_ids": [
+        "ROOT\\DETECTIONVERIFICATION"
+      ],
+      "descriptions": [
+        "Detection Verification"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0001",
+      "zip_parts": 10,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "4ed4a2e37f8d6b4e128605233d9e95ba122039064f8754cfd8bccfd3eb280033",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f8de900348ab027e550a82d84350940936d7c27c5eea26889a8cc750b9c2b070",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "020bc00edb890636abc924649b63f1d0b0cb512bdef17322af18208118950009",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "ee67932c51f9df7ec5fb46c20e4a310c3d35789fc03a7b98063f1d058ec61356",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "880c56dc76d10401d8dc0f475a4dbfd106d4034ef747f1c021a2a6820449ab80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "aade1435fcaa8a63810365cba7b873b15b22537f36420c55598da765518643d5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "5325c40778f9ab792c3f94fdbd313af8fa1d55bc249719c972c252c96c49df54",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "49c4aa327de6d98eb2ba8cbff8b80eb73dd5edbb95f873ac50c9fe953217fd55",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "f32f12daac1f7f5190c5437b1d5a7ec4771cd44910a138057c38dd2d3971f21d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0010",
+          "size_bytes": 5185638,
+          "sha256": "c517b8368c5ba8bfaaa0f4ba36622c2fe2eb774e9157b3e0624d44e2c4e9522e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0010"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6ae8ddcf589421a4",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "MEDIA",
+      "version": "09.21.00.4561",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel® Smart Sound Technology (Intel® SST)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0001",
+      "zip_parts": 10,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "4ed4a2e37f8d6b4e128605233d9e95ba122039064f8754cfd8bccfd3eb280033",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f8de900348ab027e550a82d84350940936d7c27c5eea26889a8cc750b9c2b070",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "020bc00edb890636abc924649b63f1d0b0cb512bdef17322af18208118950009",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "ee67932c51f9df7ec5fb46c20e4a310c3d35789fc03a7b98063f1d058ec61356",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "880c56dc76d10401d8dc0f475a4dbfd106d4034ef747f1c021a2a6820449ab80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "aade1435fcaa8a63810365cba7b873b15b22537f36420c55598da765518643d5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "5325c40778f9ab792c3f94fdbd313af8fa1d55bc249719c972c252c96c49df54",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "49c4aa327de6d98eb2ba8cbff8b80eb73dd5edbb95f873ac50c9fe953217fd55",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "f32f12daac1f7f5190c5437b1d5a7ec4771cd44910a138057c38dd2d3971f21d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0010",
+          "size_bytes": 5185638,
+          "sha256": "c517b8368c5ba8bfaaa0f4ba36622c2fe2eb774e9157b3e0624d44e2c4e9522e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0010"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-0d220246bbf1b33f",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f13ab929f716e211",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel(R) Corporation",
+      "category": "System",
+      "version": "09.21.00.4561",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0001",
+      "zip_parts": 10,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "4ed4a2e37f8d6b4e128605233d9e95ba122039064f8754cfd8bccfd3eb280033",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f8de900348ab027e550a82d84350940936d7c27c5eea26889a8cc750b9c2b070",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "020bc00edb890636abc924649b63f1d0b0cb512bdef17322af18208118950009",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "ee67932c51f9df7ec5fb46c20e4a310c3d35789fc03a7b98063f1d058ec61356",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "880c56dc76d10401d8dc0f475a4dbfd106d4034ef747f1c021a2a6820449ab80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "aade1435fcaa8a63810365cba7b873b15b22537f36420c55598da765518643d5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "5325c40778f9ab792c3f94fdbd313af8fa1d55bc249719c972c252c96c49df54",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "49c4aa327de6d98eb2ba8cbff8b80eb73dd5edbb95f873ac50c9fe953217fd55",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "f32f12daac1f7f5190c5437b1d5a7ec4771cd44910a138057c38dd2d3971f21d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intelrco-syst-x64-01.00.184.7z.0010",
+          "size_bytes": 5185638,
+          "sha256": "c517b8368c5ba8bfaaa0f4ba36622c2fe2eb774e9157b3e0624d44e2c4e9522e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/intelrco-syst-x64-01.00.184.7z.0010"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fec9b8da767e32da",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "AMD",
+      "category": "System",
+      "version": "1.0.0.27",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD SoundWire Audio Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.0.27.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-syst-x64-1.0.0.27.7z.0001",
+          "size_bytes": 179377,
+          "sha256": "c9354b27798fecd31b0e1dfdbae627f611ca44ccb43b23706d60437050292537",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.0.27.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-23c9958fcddf83d6",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "AMD",
+      "category": "System",
+      "version": "1.0.0.47",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD SoundWire Audio Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.0.47.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-syst-x64-1.0.0.47.7z.0001",
+          "size_bytes": 211081,
+          "sha256": "811327aa00a0208e2216264a2c9012558568216739a2eac0e77da49947d47df1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.0.47.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2ad18ab50e2d0755",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "AMD",
+      "category": "System",
+      "version": "1.0.2.47",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD SoundWire Audio Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.2.47.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-syst-x64-1.0.2.47.7z.0001",
+          "size_bytes": 211209,
+          "sha256": "b9cc1ce9815fc8632e061e1eb6c7bcb6a56222e15c971dc02b5525d1b42a6d40",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.2.47.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-76364e5b89a1988d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "AMD",
+      "category": "System",
+      "version": "1.0.3.54",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AMD",
+        "AMD SoundWire Audio Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.3.54.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "amd-syst-x64-1.0.3.54.7z.0001",
+          "size_bytes": 351196,
+          "sha256": "63b31b2749d9e2644312c33ce8f1f29fbf8e8bc49557c36d66a43daee272f4f6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/amd-syst-x64-1.0.3.54.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1dbdda4a4ad2409d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Honor",
+      "category": "System",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\INITSERVICE_FORHONORMICAPO"
+      ],
+      "compatible_ids": [
+        "ROOT\\INITSERVICE_FORHONORMICAPO"
+      ],
+      "descriptions": [
+        "Honor",
+        "InitService_ForHonorMicApo Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/honor-syst-x64-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "honor-syst-x64-1.0.0.2.7z.0001",
+          "size_bytes": 26597,
+          "sha256": "1e4b772aae949b56e448824a282dc5d42aeb6a89fc8b7d11f6f29fd441293f2a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/honor-syst-x64-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-54f0a35506e93f63",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "System",
+      "version": "1.0.709.49429",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic SDCA XU Audio Device",
+        "Cirrus Jack Retasking Audio Module",
+        "XuCsMe Microphone(Ext)",
+        "XuCsMe Speaker(Ext)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/cirruslo-syst-x64-1.0.709.49.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-syst-x64-1.0.709.49.7z.0001",
+          "size_bytes": 7828,
+          "sha256": "b39eb39672e592af7f56fb7b4438822e351207a7950b4b2002d72a23dfb72089",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/cirruslo-syst-x64-1.0.709.49.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-217b53976a0021ae",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Focusrite Audio Engineering Ltd.",
+      "category": "FocusritePCIe",
+      "version": "4.25.0.335",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1CB5&DEV_0002",
+        "ROOT\\FOCUSRITEPCIESWROOT"
+      ],
+      "compatible_ids": [
+        "ROOT\\FOCUSRITEPCIESWROOT"
+      ],
+      "descriptions": [
+        "Focusrite Audio Engineering Ltd.",
+        "Focusrite Clarett",
+        "Software Root"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/focusrit-focu-x64-4.25.0.335.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "focusrit-focu-x64-4.25.0.335.7z.0001",
+          "size_bytes": 1749786,
+          "sha256": "7dff04a832e2aca6aae0f09970aba07f9b3978f8d73400022a2a08b929385e9f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/focusrit-focu-x64-4.25.0.335.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ee9c9cbd69a72369",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Focusrite Audio Engineering Ltd.",
+      "category": "MEDIA",
+      "version": "4.25.0.335",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Focusrite Audio Engineering Ltd.",
+        "Focusrite Thunderbolt MIDI",
+        "Focusrite Thunderbolt Audio"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/focusrit-focu-x64-4.25.0.335.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "focusrit-focu-x64-4.25.0.335.7z.0001",
+          "size_bytes": 1749786,
+          "sha256": "7dff04a832e2aca6aae0f09970aba07f9b3978f8d73400022a2a08b929385e9f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/focusrit-focu-x64-4.25.0.335.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8b5b06ac607c2c60",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "SYSTEM",
+      "version": "10.0.1200.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "ACPI Audio Compositor Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.1200.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.1200.7z.0001",
+          "size_bytes": 287356,
+          "sha256": "1290c96b65adf4655ba2c3c1b779f30014c181a7f6370a333368269a5b8788ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.1200.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eedc086c14f4746a",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "MEDIA",
+      "version": "10.0.1200.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "SoundWire Audio"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.1200.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.1200.7z.0001",
+          "size_bytes": 287356,
+          "sha256": "1290c96b65adf4655ba2c3c1b779f30014c181a7f6370a333368269a5b8788ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.1200.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-0d220246bbf1b33f",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-002fe42a6a2dfacc",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "HIDClass",
+      "version": "10.0.1200.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "SoundWire HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.1200.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.1200.7z.0001",
+          "size_bytes": 287356,
+          "sha256": "1290c96b65adf4655ba2c3c1b779f30014c181a7f6370a333368269a5b8788ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.1200.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e6dd81bc6cce86b6",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "SYSTEM",
+      "version": "10.0.2410.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "ACPI Audio Compositor Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2410.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.2410.7z.0001",
+          "size_bytes": 364681,
+          "sha256": "174d5eb1dda4cadb030a17e0e6601d0c9c4cd5a701e0b9b32a64afb8ca27f6c0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2410.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-65b7f693f234326b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "MEDIA",
+      "version": "10.0.2410.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "SoundWire Audio"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2410.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.2410.7z.0001",
+          "size_bytes": 364681,
+          "sha256": "174d5eb1dda4cadb030a17e0e6601d0c9c4cd5a701e0b9b32a64afb8ca27f6c0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2410.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-0d220246bbf1b33f",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7c2b3c9c3a154480",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "HIDClass",
+      "version": "10.0.2410.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "SoundWire HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2410.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.2410.7z.0001",
+          "size_bytes": 364681,
+          "sha256": "174d5eb1dda4cadb030a17e0e6601d0c9c4cd5a701e0b9b32a64afb8ca27f6c0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2410.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8951a36925221d23",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "SYSTEM",
+      "version": "10.0.2512.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "ACPI Audio Compositor Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2512.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.2512.7z.0001",
+          "size_bytes": 432724,
+          "sha256": "1fad23dda1d8354fba07911631913f56483f066c55b30ead90ac08cd71f787a9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2512.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6c82fa70d49c5cca",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "MEDIA",
+      "version": "10.0.2512.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "SoundWire Audio",
+        "SoundWire Speakers"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2512.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.2512.7z.0001",
+          "size_bytes": 432724,
+          "sha256": "1fad23dda1d8354fba07911631913f56483f066c55b30ead90ac08cd71f787a9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2512.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-0d220246bbf1b33f",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1bf0643a2174c29",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Microsoft",
+      "category": "HIDClass",
+      "version": "10.0.2512.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft",
+        "SoundWire HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2512.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-syst-x64-10.0.2512.7z.0001",
+          "size_bytes": 432724,
+          "sha256": "1fad23dda1d8354fba07911631913f56483f066c55b30ead90ac08cd71f787a9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/microsof-syst-x64-10.0.2512.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f1b2d2d03cdf067e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "YAMAHA",
+      "category": "System",
+      "version": "17.24.7.986",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\YAMAHAAEDRIVER"
+      ],
+      "compatible_ids": [
+        "ROOT\\YAMAHAAEDRIVER"
+      ],
+      "descriptions": [
+        "YAMAHA",
+        "YAMAHA AudioEngine Settings"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/yamaha-syst-x64-17.24.7.98.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "yamaha-syst-x64-17.24.7.98.7z.0001",
+          "size_bytes": 51706,
+          "sha256": "9f901236b605bcfd9626683e1bfbde44dfad03381a15b2879be00d2dbd2a779d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelRCorporat_MEDIA_x64/yamaha-syst-x64-17.24.7.98.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

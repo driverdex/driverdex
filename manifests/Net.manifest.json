@@ -262607,6 +262607,44 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-54236a563735a0a1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Net",
+      "provider": "Belcarra",
+      "category": "Net",
+      "version": "02.04.09.001",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2B73&PID_000F",
+        "USB\\VID_2B73&PID_000F&MI_00",
+        "USB\\VID_2B73&PID_000F&MI_01",
+        "USB\\VID_2B73&PID_000F&MI_02",
+        "USB\\VID_2B73&PID_000F&MI_03"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Pioneer DJ Corporation",
+        "DDJ-RZX"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_IntelRCorporat_MEDIA_x64/belcarra-net-x64-02.04.09.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "belcarra-net-x64-02.04.09.0.7z.0001",
+          "size_bytes": 77462,
+          "sha256": "e054b69ca755bfb695e3adc8fc9ff009cb52bddec31ed11a0cd5a030afb9f082",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_IntelRCorporat_MEDIA_x64/belcarra-net-x64-02.04.09.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {},

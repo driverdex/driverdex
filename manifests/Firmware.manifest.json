@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -6750,6 +6750,2020 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-54cfba3d66323c0d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Intel(R) Corporation",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.155",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Intel® Smart Sound Technology APO (Intel® SST APO)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intelrco-soft-x64-1.0.0.155.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-soft-x64-1.0.0.155.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "da6e18fa88d1411986d26a3164ee01b9743ee8b6902193cfe273b3900a476e9a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intelrco-soft-x64-1.0.0.155.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intelrco-soft-x64-1.0.0.155.7z.0002",
+          "size_bytes": 15034249,
+          "sha256": "e45b2f28557534fa6d02b74320aa4e2720df6e1f4138009d43e412783397a44e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intelrco-soft-x64-1.0.0.155.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e1e5b7a254ea0b92",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Nahimic",
+      "category": "SoftwareComponent",
+      "version": "2.0.6.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Nahimic",
+        "Nahimic Mirroring Component Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/nahimic-soft-x64-2.0.6.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "nahimic-soft-x64-2.0.6.0.7z.0001",
+          "size_bytes": 415446,
+          "sha256": "cf8b4098080b51bc4bea20ac99ff2d7f855ca1c2965301c7968a1c6ff0b57315",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/nahimic-soft-x64-2.0.6.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5ee38d3769d98a12",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "A-Volute",
+      "category": "SoftwareComponent",
+      "version": "1.4.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic 3 APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-1.4.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-soft-x64-1.4.2.0.7z.0001",
+          "size_bytes": 3620547,
+          "sha256": "9fad4f8c15e71ad0a6bc2cde49779b538ae56cc119dc7a60fee17a9f3b5b1446",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-1.4.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a099d22701106931",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "A-Volute",
+      "category": "SoftwareComponent",
+      "version": "3.0.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic 3 APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-3.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-soft-x64-3.0.0.0.7z.0001",
+          "size_bytes": 4445170,
+          "sha256": "86fef87345e28fef95e96bf76b2d21280516910c7e0415d46e31ef315ed91eb3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-3.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4c612e71402ad86b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "A-Volute",
+      "category": "SoftwareComponent",
+      "version": "3.5.6.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic 3 APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-3.5.6.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-soft-x64-3.5.6.0.7z.0001",
+          "size_bytes": 4700026,
+          "sha256": "b334e2f6264a3ac2575abf3a9c18556efa3de12c1677e24204755e92106e5799",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-3.5.6.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a23f304f524f73f1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "A-Volute",
+      "category": "SoftwareComponent",
+      "version": "4.3.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic APO 4"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-4.3.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-soft-x64-4.3.1.0.7z.0001",
+          "size_bytes": 4491024,
+          "sha256": "5f03996692b12e72eb13cd42bb9315f22bd8d535a4c5e2e6bd033babc61fd2c1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-4.3.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cdd5b15c54f8854a",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "A-Volute",
+      "category": "SoftwareComponent",
+      "version": "4.7.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic APO 4"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-4.7.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-soft-x64-4.7.2.0.7z.0001",
+          "size_bytes": 4619430,
+          "sha256": "b81c228df31e29c2ef1253f94d9df392acd6694bbb4af0803e16ebdee6a2a0a6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-4.7.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c745cbe875cbdbac",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "A-Volute",
+      "category": "SoftwareComponent",
+      "version": "4.9.10.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic APO 4"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-4.9.10.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-soft-x64-4.9.10.0.7z.0001",
+          "size_bytes": 4816213,
+          "sha256": "bc48a8130142adc383519e9b78a3c0b3103f83105a7540b315f0e197bc6cd0fe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/avolute-soft-x64-4.9.10.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e4d93ab579a60eea",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Awinic",
+      "category": "SoftwareComponent",
+      "version": "9.0.620.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Awinic",
+        "Awinic SKTune Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/awinic-soft-x64-9.0.620.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "awinic-soft-x64-9.0.620.5.7z.0001",
+          "size_bytes": 28342,
+          "sha256": "c1e2e6b7ca49028ce9b6fdddbae1247b1fdffa47a1af4d1fd83905c7ee89eaee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/awinic-soft-x64-9.0.620.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-aada4853667266d2",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "SoftwareComponent",
+      "version": "2026.4.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic, Inc.",
+        "CLABP service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-2026.4.0.0.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-soft-x64-2026.4.0.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a49c6b71ba4a2eccdf571723768a8826891831162e27cb864206ffc18aa4da8d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-2026.4.0.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "cirruslo-soft-x64-2026.4.0.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "168d5b13fa4bb7b3d1b277b376e060c5b890bba01ae4b3a29426e247033e7c9c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-2026.4.0.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "cirruslo-soft-x64-2026.4.0.0.7z.0003",
+          "size_bytes": 1601694,
+          "sha256": "6539e187486b92a00392bdcb60f0ee8446424a554e09224f68249bba373bd1eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-2026.4.0.0.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-96f9fb56dc3114fd",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "SoftwareComponent",
+      "version": "15.23.33.748",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic, Inc.",
+        "Cirrus Logic Legacy Logging Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-15.23.33.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-soft-x64-15.23.33.7.7z.0001",
+          "size_bytes": 331663,
+          "sha256": "21bc06d2197c97fb8fe8766f67a0211e0efcc1ed6cb0d6f3cc929b4a90e9f249",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-15.23.33.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-53eff321362fdbf8",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.16.51",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic, Inc.",
+        "Cirrus Logic Global Mic Mute Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-1.0.16.51.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-soft-x64-1.0.16.51.7z.0001",
+          "size_bytes": 340306,
+          "sha256": "065aeba0215c41fae9be4b2f3606f44eed4d54f40210ab36e4d54e6d0e141f16",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-1.0.16.51.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a971a13e7ea711bb",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.8.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic, Inc.",
+        "Cirrus Logic Global Mic Mute Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-1.0.8.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-soft-x64-1.0.8.0.7z.0001",
+          "size_bytes": 318353,
+          "sha256": "9fcb0a590e359ecc4c9e00d311b9aa5bcd33e259063385bfc6dbcffc1eae3d9f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/cirruslo-soft-x64-1.0.8.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e30d1045429ac233",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Drivewintech Co., Ltd.",
+      "category": "SoftwareComponent",
+      "version": "1.0.1.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dirac Research AB",
+        "Dirac Hardware Support App"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/drivewin-soft-x64-1.0.1.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drivewin-soft-x64-1.0.1.3.7z.0001",
+          "size_bytes": 7797,
+          "sha256": "a3bce492bb6a4a886dc5c0113923adc525ceefeb0d48fe09140b1ee02932fbf2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/drivewin-soft-x64-1.0.1.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-11c20cd9cff6588b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Drivewintech Co., Ltd.",
+      "category": "SoftwareComponent",
+      "version": "1.0.1.9",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dirac Research AB",
+        "Dirac Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/drivewin-soft-x64-1.0.1.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drivewin-soft-x64-1.0.1.9.7z.0001",
+          "size_bytes": 430761,
+          "sha256": "86a504f35f4d906205b9096360a125c0af47231e513ce8e011d06b40c2a8fb9d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/drivewin-soft-x64-1.0.1.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cab9b43f27c9727b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Dolby",
+      "category": "SoftwareComponent",
+      "version": "1.0.1.42",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "Dolby DAX3 SWC Device",
+        "Dolby Fusion SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-1.0.1.42.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-soft-x64-1.0.1.42.7z.0001",
+          "size_bytes": 6414590,
+          "sha256": "02985b82ce6ef3d0b726012d7a3cb08ffba3cc123af53fa3f51cb399b759d08c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-1.0.1.42.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-870e95f658967698",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Dolby",
+      "category": "SoftwareComponent",
+      "version": "3.30201.210.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-3.30201.21.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-soft-x64-3.30201.21.7z.0001",
+          "size_bytes": 8191,
+          "sha256": "060ffa7c928e4cffeda642ba6b20fef651b1f677eb456e38833eec800a98401c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-3.30201.21.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7b47579d373ddd3b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Dolby",
+      "category": "SoftwareComponent",
+      "version": "3.30704.740.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-3.30704.74.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-soft-x64-3.30704.74.7z.0001",
+          "size_bytes": 8615,
+          "sha256": "ed61a493efa31940d14436b8306a04a2f61352c05aedd8b2fdcce7246a2974e6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-3.30704.74.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-66c772f482ba8f87",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Dolby",
+      "category": "SoftwareComponent",
+      "version": "3.30900.900.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO Software Device (HSA)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-3.30900.90.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-soft-x64-3.30900.90.7z.0001",
+          "size_bytes": 8619,
+          "sha256": "01c1f7401ee37823d9c0879bd5f2270e6882b739e40e89c4a716514a512c5762",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dolby-soft-x64-3.30900.90.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-10c5acf806e4a1e9",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.0.12.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS HPXV2 APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.0.12.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.0.12.1.7z.0001",
+          "size_bytes": 1511822,
+          "sha256": "c99239be1efd2f4ab38d65984a6858f27108689eff303f3cb1a2ca3aa551b37a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.0.12.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-93dc474aac16d54d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.2.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO3x"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.2.0.0.7z.0001",
+          "size_bytes": 2858607,
+          "sha256": "c0f264320f1e878c9ff80bf41049fd1dbb43719f1306c18a0666a4c61c52aa3c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2396677122c4dcb1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.4.2.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO4x"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.4.2.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.4.2.1.7z.0001",
+          "size_bytes": 1486867,
+          "sha256": "9a727f3a2df5858476a0bfb233da86990504aa254e1442da513744c14b1db884",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.4.2.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7784991a6ef312d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.10.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS Audio Processing Hardware Supported App"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.10.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.10.3.0.7z.0001",
+          "size_bytes": 7560,
+          "sha256": "d961311b7cb133d2dc42b4bbf5fdb97d47bfa1c9961f886a19bbc8f1a15dc11f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.10.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1d1987f31e5a6e1b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.10.7.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS Audio Processing Hardware Supported App"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.10.7.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.10.7.0.7z.0001",
+          "size_bytes": 7704,
+          "sha256": "161e315a41b6b30da799bc63de82f3054030dd51d9488468c5c2a09813a7358c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.10.7.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-76a99ad97266acba",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.11.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTSX ULTRA Hardware Supported App"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.11.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.11.3.0.7z.0001",
+          "size_bytes": 7524,
+          "sha256": "6f8b50b4ecc99b4322a4f40310b7acecd488cfe69703342fda5e6dbb7279517b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.11.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e0d59767e809bcb0",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.11.7.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTSX ULTRA Hardware Supported App"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.11.7.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.11.7.0.7z.0001",
+          "size_bytes": 7704,
+          "sha256": "3253d0044c740d879eb5420ee3297853975381866df9b2cb00df74971c6ccdf0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.11.7.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-230c3339790d78c8",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "2.1.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS Custom HSA"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-2.1.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-2.1.2.0.7z.0001",
+          "size_bytes": 6482,
+          "sha256": "cb734b4682266d9aac7eec3f20a59cc51be511c05cbf4732a384946b125a76b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-2.1.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-71dd87455640f7aa",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.0.4.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS Proximity Sensor Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.0.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.0.4.0.7z.0001",
+          "size_bytes": 112915,
+          "sha256": "66a7c8b0c4247e3c10ab552063bfb50b86501c83c22a0f3f023b13b2d4f916dd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.0.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a3afa820e9c563c4",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.15.18.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO4x Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.15.18.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.15.18.0.7z.0001",
+          "size_bytes": 220687,
+          "sha256": "85581c85c59acfc5d135ea7f910f3dd2dc3799dc3f3e0ab9cba1ef9852494644",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.15.18.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b52f05bc35f52bc",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "2.6.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS HPXV2 Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-2.6.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-2.6.0.0.7z.0001",
+          "size_bytes": 150559,
+          "sha256": "00aaba1e5b148da657aa4adb463d3bae89c504623744f7aa45a78e67142550a9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-2.6.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b46c025054df332",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.16.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO4x Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.16.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-soft-x64-1.16.3.0.7z.0001",
+          "size_bytes": 225019,
+          "sha256": "14eb9fb28a0ca1918844d07ad4e101823846300e7371e1f33865055a8f76f9f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/dts-soft-x64-1.16.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bebed9f9fca31758",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "1.0.2.44",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.2.44.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-1.0.2.44.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "1e473ac8c8b37e63ca99d5c6d908aacca4d5d2d435780a01e43715dc3f794000",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.2.44.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-soft-x64-1.0.2.44.7z.0002",
+          "size_bytes": 4135044,
+          "sha256": "3b0380c0cfe8383b01678d69c65a49d0ce11a6a40b56efd0e77e28e6206e9fba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.2.44.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fc3005dfbee7847b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "1.2001.1.38",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.2001.1.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-1.2001.1.3.7z.0001",
+          "size_bytes": 8148483,
+          "sha256": "feaa186b505fa69dd4cbfb487cd4f983cd040cf92e6f23afc8f2b961f9f3c7b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.2001.1.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-745411afda7b6ffc",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "2.0.3.106",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.0.3.106.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-2.0.3.106.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "66275131c316e1bf2713f86c0d8af73dc114468b49fa63ada2dbbf61cef2449b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.0.3.106.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-soft-x64-2.0.3.106.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "132ffb49194fe5fd178448a7a10295dc3bb838817ca1b0f879f41f1b4a5182f4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.0.3.106.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "elevocte-soft-x64-2.0.3.106.7z.0003",
+          "size_bytes": 1351479,
+          "sha256": "ecd95e7d4c09b611e8319350803527f46dc8345fe6dd656964e8b5a7cec414fd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.0.3.106.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb3c06c3c4a4a29e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "2.1.3.87",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.1.3.87.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-2.1.3.87.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "439bc8853cd1958efbd83af9daec785236d450dfe47b13316ddf3ce521d681e0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.1.3.87.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-soft-x64-2.1.3.87.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "79224fb5886e7662daf7e995139842dd96aba4b5a450b3f55359d4a6046b3d1c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.1.3.87.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "elevocte-soft-x64-2.1.3.87.7z.0003",
+          "size_bytes": 670747,
+          "sha256": "fee16aa4286499f1e673378fe358f434fd0fd5b96e8cfad8db5ee5b46e65497c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.1.3.87.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fc6db4930327b58b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "1.0.1.32",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.1.32.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-1.0.1.32.7z.0001",
+          "size_bytes": 7582,
+          "sha256": "9297553d7d13d471826aee0eaa0964ca8297e141a8677b866bfd3b93266314ee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.1.32.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-619ffac54f890adc",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "1.1001.30.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.1001.30.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-1.1001.30.7z.0001",
+          "size_bytes": 7577,
+          "sha256": "a5179fbe290d80dad9aa9b58553953f0dabf4be323934af2317b61b7138dac66",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.1001.30.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5c048ba138f2a8f3",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "2.0.1.31",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.0.1.31.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-2.0.1.31.7z.0001",
+          "size_bytes": 7591,
+          "sha256": "45e19da3548db7c06daaa5a72e1b7fb6a5e7a0fbea5499650441a9cabedff9cd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-2.0.1.31.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ed8d775df6924358",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "SoftwareComponent",
+      "version": "1.0.1.36",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.1.36.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-soft-x64-1.0.1.36.7z.0001",
+          "size_bytes": 7828,
+          "sha256": "8f15ba0da11f963d5621ea8c9dec3a120244f543414f6caa108e428bdf5040c3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/elevocte-soft-x64-1.0.1.36.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1feb7bef57639f95",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "HonorAPOService",
+      "category": "SoftwareComponent",
+      "version": "4.1.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HonorAPOService",
+        "Honor APO Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/honorapo-soft-x64-4.1.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "honorapo-soft-x64-4.1.1.0.7z.0001",
+          "size_bytes": 4804666,
+          "sha256": "70953695fe47ddc07d64d6c4868445412f9ba67399cf305e958f2e5120392a68",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/honorapo-soft-x64-4.1.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-94a94d09eec113e5",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Honor",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Honor",
+        "InitService_ForHonorApo Software"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/honor-soft-x64-1.0.0.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "honor-soft-x64-1.0.0.5.7z.0001",
+          "size_bytes": 26552,
+          "sha256": "33096300b7cd31003eb4df098622161be11549394b37ef216330295f7ca4e120",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/honor-soft-x64-1.0.0.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a910d981e5bffb31",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Huawei Technologies Co. Ltd",
+      "category": "SoftwareComponent",
+      "version": "25.0.0.17",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Huawei Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-25.0.0.17.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-soft-x64-25.0.0.17.7z.0001",
+          "size_bytes": 573023,
+          "sha256": "94d815098842de203b96993dc02b162a0b134e822d253492186c5e581d23d4c5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-25.0.0.17.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7ae403241f6c09d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Huawei Technologies Co. Ltd",
+      "category": "SoftwareComponent",
+      "version": "27.0.4.27",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Huawei Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-27.0.4.27.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-soft-x64-27.0.4.27.7z.0001",
+          "size_bytes": 1460951,
+          "sha256": "1c6036b6780c5df7ce295fa99217a6cefc4bf18179f6e2bffd8d12e95439da93",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-27.0.4.27.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1d2427b2803c572a",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "SoftwareComponent",
+      "version": "27.0.4.44",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Huawei Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweide-soft-x64-27.0.4.44.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-soft-x64-27.0.4.44.7z.0001",
+          "size_bytes": 1505166,
+          "sha256": "c28fbc662f1cb0009d195f9d85d2267161e54a522bf2fcd5ff112d2b776f36a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweide-soft-x64-27.0.4.44.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-879be69692b143c9",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Huawei Technologies Co. Ltd",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.11",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Devialet Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-1.0.0.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-soft-x64-1.0.0.11.7z.0001",
+          "size_bytes": 174362,
+          "sha256": "a853d3326cecb7d6b9a75c9b393b2dae07cb85c236f5401e613371b4149ea8d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-1.0.0.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ab0a6c0545f9cad1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Huawei Technologies Co. Ltd",
+      "category": "SoftwareComponent",
+      "version": "25.0.0.25",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "HWVE Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-25.0.0.25.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-soft-x64-25.0.0.25.7z.0001",
+          "size_bytes": 2616581,
+          "sha256": "3fec7edb6a6dd4c369e92d5cb2ff8a06a9308feb3ee4509370761c06e80a9e44",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/huaweite-soft-x64-25.0.0.25.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42b742077a2f53b5",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "ICEpower",
+      "category": "SoftwareComponent",
+      "version": "3.0.19.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ICEpower"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/icepower-soft-x64-3.0.19.12.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "icepower-soft-x64-3.0.19.12.7z.0001",
+          "size_bytes": 1502293,
+          "sha256": "333040e6c44e08ff24c2a456ad5e5f35ecaba459cb37a834df0434256deaf9b8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/icepower-soft-x64-3.0.19.12.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-23ff2ba5744a581d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "ICEpower",
+      "category": "SoftwareComponent",
+      "version": "4.0.0.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ICEpower"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/icepower-soft-x64-4.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "icepower-soft-x64-4.0.0.2.7z.0001",
+          "size_bytes": 1362150,
+          "sha256": "9b1d35032864a4b282797ce630d5741fd97c3f7c6f46e0dc32843805205d9d31",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/icepower-soft-x64-4.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-56cb5e6e6cf335b1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "FUJITSU CLIENT COMPUTING LIMITED",
+      "category": "SoftwareComponent",
+      "version": "100.1.4.2522",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU CLIENT COMPUTING LIMITED",
+        "FCCL Audio Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/fujitsuc-soft-x64-100.1.4.25.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuc-soft-x64-100.1.4.25.7z.0001",
+          "size_bytes": 7746,
+          "sha256": "d41a7ec629e36cd6d098646c5abe9349ed0003879701e809d56654f7099823e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/fujitsuc-soft-x64-100.1.4.25.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7eb7ebd14a4d6cf3",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "FUJITSU CLIENT COMPUTING LIMITED",
+      "category": "SoftwareComponent",
+      "version": "100.1.4.1096",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU CLIENT COMPUTING LIMITED",
+        "FCCL Audio Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/fujitsuc-soft-x64-100.1.4.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuc-soft-x64-100.1.4.10.7z.0001",
+          "size_bytes": 7606,
+          "sha256": "eaa772ecfb6f2a52bd7a68ace1550b9916713d75cf99604cddab7791b7a7528a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/fujitsuc-soft-x64-100.1.4.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-753237f1b2d15ce0",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "intelliGo",
+      "category": "SoftwareComponent",
+      "version": "100.1.4.1577",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-soft-x64-100.1.4.15.7z.0001",
+          "size_bytes": 7667,
+          "sha256": "fc2eb124fac07a1c30c0962b39023416a3cf9b1d11aed57ccb96927d6de94523",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-177f0cadc36819fc",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "intelliGo",
+      "category": "SoftwareComponent",
+      "version": "100.1.4.2669",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.26.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-soft-x64-100.1.4.26.7z.0001",
+          "size_bytes": 7698,
+          "sha256": "e665d76b69b9d06a06757e93fab24b291dcc0c21fbfe1d3701590615219a6c40",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.26.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-85f48e838389da48",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "intelliGo",
+      "category": "SoftwareComponent",
+      "version": "100.1.4.2718",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Hardware Support Application"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.27.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-soft-x64-100.1.4.27.7z.0001",
+          "size_bytes": 7765,
+          "sha256": "d0ae80bb340107efd2a944458d153179440b95789334d1573ac2f84fe470fed2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.27.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d00409c576c90ce7",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "intelliGo",
+      "category": "SoftwareComponent",
+      "version": "100.1.4.2740",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Audio Service Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.27.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-soft-x64-100.1.4.27.7z.0001",
+          "size_bytes": 715323,
+          "sha256": "ba24a1f7ccea81fb74dfe0fa7a2c56d8fe7402d349f0c70ac80f88304d183b0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/intellig-soft-x64-100.1.4.27.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-22fc29eabb7336bd",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Maxim(R) Integrated",
+      "category": "SoftwareComponent",
+      "version": "1.0.3.62",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Maxim(R) Integrated",
+        "Maxim(R) Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-1.0.3.62.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "maximrin-soft-x64-1.0.3.62.7z.0001",
+          "size_bytes": 229475,
+          "sha256": "2aa9de90b4d666cf8ad89336b8411c889b93f43e766a21b536669b7693d2b691",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-1.0.3.62.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9e3bff768151f3ac",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Maxim(R) Integrated",
+      "category": "SoftwareComponent",
+      "version": "11.44.55.304",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Maxim(R) Integrated",
+        "Maxim(R) Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-11.44.55.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "maximrin-soft-x64-11.44.55.3.7z.0001",
+          "size_bytes": 181249,
+          "sha256": "1289bd93201078ebde4edfc19b601a84bf147178d968440d99cd70a5ea6597a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-11.44.55.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e781eac721d74a0d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Maxim(R) Integrated",
+      "category": "SoftwareComponent",
+      "version": "11.54.18.714",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Maxim(R) Integrated",
+        "Maxim(R) Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-11.54.18.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "maximrin-soft-x64-11.54.18.7.7z.0001",
+          "size_bytes": 203342,
+          "sha256": "60194e0ed4a065b28712791daa05285d2f9cc2eba283d1fab252773e3df300bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-11.54.18.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a6b2e8302e2564fe",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Maxim(R) Integrated",
+      "category": "SoftwareComponent",
+      "version": "18.30.13.270",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Maxim(R) Integrated",
+        "Maxim(R) Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-18.30.13.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "maximrin-soft-x64-18.30.13.2.7z.0001",
+          "size_bytes": 226513,
+          "sha256": "933defa0e784a959a807050c6e16dfcd92bf4de24a7a3cb7998b77333d8ecc71",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/maximrin-soft-x64-18.30.13.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-38e1778efedfd4bf",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "SteelSeries ApS",
+      "category": "SoftwareComponent",
+      "version": "2.11.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SteelSeries ApS",
+        "Sonar APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/steelser-soft-x64-2.11.0.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "steelser-soft-x64-2.11.0.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d9bc4f7a887b2378a2fa53141feb3b743188242298532f0bf675135ec1d45dbe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/steelser-soft-x64-2.11.0.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "steelser-soft-x64-2.11.0.0.7z.0002",
+          "size_bytes": 11316977,
+          "sha256": "f6f38e3890dfb6d9dbfaa8be704993f50a33b05cbd3cd3f99a3321cf8747de5d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/steelser-soft-x64-2.11.0.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0974d1d6c5266008",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Swap",
+      "category": "SoftwareComponent",
+      "version": "1.0.5.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Swap",
+        "Swap APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/swap-soft-x64-1.0.5.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "swap-soft-x64-1.0.5.1.7z.0001",
+          "size_bytes": 219981,
+          "sha256": "caac8b3e5ae717150f27853dc9f1bc62abb9bc103a9a3a54e6434feb70df5acf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/swap-soft-x64-1.0.5.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6fff606b67c2c9d5",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Swap",
+      "category": "SoftwareComponent",
+      "version": "1.0.5.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Swap",
+        "Swap APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/swap-soft-x86-1.0.5.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "swap-soft-x86-1.0.5.1.7z.0001",
+          "size_bytes": 198833,
+          "sha256": "3583c5d0010a5b4af100f25326d8a778b5054ec023ad2c741f8022b8da77fb9c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelRCorporat_MEDIA_x64/swap-soft-x86-1.0.5.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

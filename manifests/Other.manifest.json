@@ -10638,10 +10638,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-7e508bf0cb8bda1f",
+      "notes": " | Superseded by drv-20a0a8ee8ef3e424 on 2026-08-10 | Superseded by drv-2d150154ed8d8c55 on 2026-08-10 | Superseded by drv-2d150154ed8d8c55 on 2026-08-10 | Superseded by drv-64a52c0ca262afba on 2026-08-10 | Superseded by drv-c9070c6aea816eeb on 2026-08-10 | Superseded by drv-f120cb9674237b26 on 2026-08-10 | Superseded by drv-6d21495381b21109 on 2026-08-10 | Superseded by drv-f5d9437d6187f62f on 2026-08-10 | Superseded by drv-9861c71e58e02557 on 2026-08-10 | Superseded by drv-a0db7ab617aaf19b on 2026-08-10 | Superseded by drv-ac9729d5f7dfb320 on 2026-08-10 | Superseded by drv-28a1fd2e0fa85747 on 2026-08-10 | Superseded by drv-5d9992c34bd13844 on 2026-08-10 | Superseded by drv-7e508bf0cb8bda1f on 2026-08-10"
     },
     {
       "id": "drv-d4f193ce31724d27",
@@ -12284,6 +12284,3307 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-d4ae1f460cdad6fe",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Intel(R) Corporation",
+      "category": "Extension",
+      "version": "10.29.00.7919",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel® Smart Sound Technology MIPI SoundWire® Controller Enable ACX Aggregation Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intelrco-exte-x64-10.29.00.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-exte-x64-10.29.00.7.7z.0001",
+          "size_bytes": 8573,
+          "sha256": "4c320ad8f33dd22fa807539652bd7983f542de6591690d27949d7c799cda8fdf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intelrco-exte-x64-10.29.00.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-61d5529f823eceb7",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "A-Volute",
+      "category": "AudioProcessingObject",
+      "version": "3.7.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic 3 APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/avolute-audi-x64-3.7.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-audi-x64-3.7.2.0.7z.0001",
+          "size_bytes": 4655915,
+          "sha256": "59b86b14e246f63d34b72061e0a6f584c028f69db5d4cebaf0d69ced85bb934a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/avolute-audi-x64-3.7.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d652453f1f921732",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "A-Volute",
+      "category": "AudioProcessingObject",
+      "version": "5.0.6.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "A-Volute",
+        "Nahimic APO 4"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/avolute-audi-x64-5.0.6.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avolute-audi-x64-5.0.6.0.7z.0001",
+          "size_bytes": 4668717,
+          "sha256": "8ea2e53e1502ee8fe00268d228ae7f307391fafc0824da29c36ff2b2f0bcbf42",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/avolute-audi-x64-5.0.6.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3e0dc2590c36bdea",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "AISpeech Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.4.2.29",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AISpeech Technology Co.,Ltd",
+        "AISpeech Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0001",
+      "zip_parts": 14,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "e2ac972947d5deee918608a5cccb6a63a874792427d490106f68e5b86ba90150",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "d5ebcda0a78c82a9b35c8479a3e3122af44b25a6b4a4d0fdc92905cb6d01b409",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "bba3b7c3cf3a155527e5fdc0c6259f1bff179ba673338cd5d80b4c74a56dadb5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e1f791bc662c3962d7943199cdfa06f92b01a9eefaca092d8a0677374c0be12f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "2ee35c692e99f333dd8c0aca6dfac36697d74ac8ee5a3df482886db3850581af",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "ed08a01932777d01ca32d61edd1d650eec8cf59663ec6916582a5663b2ed6e2c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "1c0c77449668387d514301506e6b6f919e465068229b2d03625e2d2569c85ff3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "dfa0728b9cb5e2fe2b8e9f53186ea09878c9f763ddf918deae43f51331b59f7b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "aa6ac7e7a565cfcf48205462de48e50a614ea16cd521507fe0528da49839709e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "1f5d0b494d3cc8dd0d59f45ed1de5d2040326ab9ee37cbd097cea4af1155c434",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "3b95a1b438c02fe73db0c0734dea59f35a425ae2998830c81d157f62e3a9431b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "fc5cba21f3a60b998026cba0f15c6336b655681598ab0c45742eea8bd7062f37",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "ef9430f74c3223013aec926613d7308904e5c6d1934c7846f282a22eaa26851d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "aispeech-audi-x64-1.4.2.29.7z.0014",
+          "size_bytes": 11710702,
+          "sha256": "06499df550b3ae36ac2132e69802b58f9b052469818b5c1a6b0f65b9e65b73db",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.29.7z.0014"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5cc0402f1216cff1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "AISpeech Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.4.2.40",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AISpeech Technology Co.,Ltd",
+        "AISpeech Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0001",
+      "zip_parts": 9,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "264a777a856a558af7d5627d000d0542f8870f258da5b3673484f020af4ae57f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "e72c43b48ffe75701dd947946ad00a4e3834036c5dd8841a70c562eb3bc79659",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "7ee3469ad37c4c4c8ee44298de2495a829b33abefb8b1e1863a0abdfd6e5ae18",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e3d64f1967fe2c2d0bea3d31f2d6dc52a53b2f627874986616657567c78d0224",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "5c25dc334fd76c357cc9276a7b9b80ddf605e90386354bad7792eb766b4cd32c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "748bff5586dd37f044afe739251a0213a1505ac1ed3b6cdaedae3fc2f2f0bc43",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "3e704313234cc8c08f55c2653696ea716c81c037fa1b664c493d6fc30bfbb7a5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "4bd348ee405de85e5ab290115fd8adc8ed1042f3ea4445f81b7f15aa80bf43b3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "aispeech-audi-x64-1.4.2.40.7z.0009",
+          "size_bytes": 5750009,
+          "sha256": "53ee53325f15fcb7c62e761b11671efe22c12e7ac85bbb84c842f11a01ef5b99",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.4.2.40.7z.0009"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3efb9c729fe0b80d",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "AISpeech Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.5.1.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AISpeech Technology Co.,Ltd",
+        "AISpeech Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d6478ccd5b0d629fee7dc8a4c3e7cb6d3275c4a939587e5cbd3830164c312bc7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "b8eb5b84f8ccb8ac592f3c2448a16c98859b5c27b494dfd32c2ac6913cc57143",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "1ecb3887390a63768d1d46f51381a1fd1b7e84af920b256a498ea8f3e4a19071",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "c2a281e906491b22a68919460ea965baa89fabc74239d2a8bf1712e8f84c7c58",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "c073c50a60079335a3134d442cd97e873e42e71221a4fd6bc64876ed60a0102b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "521ddd930984d5174d2d053886979a91f1d0c92c5ccbf4069630c66904176852",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "60f8f17eebe5406724da07c0f12393002fd22d37731651e357649e52fbc0c5a7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "60670a735d4d8f88f8b425c7a8d55794e58c3f98c0c8b23e976f40b67446082e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "130ed6832f5f2699d30f97f120e2428c78bd33553a1a88312ec49dfdcb112a9a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "8dd954323f1280db14144ac8603718ab5b79de2b5b37a3dded07490e442ad462",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "89e284b024adf7d3cb9855b354f8a7972d249a065b035ade43a2d7c67e367d69",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "1cde745d9d21a33b826752be03ef895ba45ead03d0a4b27d08f4f477244333a6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "aispeech-audi-x64-1.5.1.12.7z.0013",
+          "size_bytes": 9126874,
+          "sha256": "9a3404e26db649b2ee5ecfa7a802f50376e5f40207d328e4b10d21b5f2f6f817",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.5.1.12.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-88a502cc002ecd24",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "AISpeech Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.7.32.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AISpeech Technology Co.,Ltd",
+        "AISpeech Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0001",
+      "zip_parts": 23,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "072404758cdf8ce08bcf6cd2c4ba4d53326aac5e6573762f34dd923e4f8a9f58",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "95bab1463bdbbd51b0bab37a4c29bfd32be6af8952b00977dc73fb440bd55ab0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "0aa2eabaf4a84d22393dd4621f95fa862a5da55c8244e5ad1ab5916fd550a2c4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "044fb9b78afadc627096e0029f0482a7831aa050b61df83d55b119c05a988e5d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "147bf1265414bfb661d25209e81340782ef1ed9632152baa9339048f929ddfad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "1ebe69f088492bcdc7f2bc03ba454a75d9baea6328fc25d69bc0d0f7865fbc45",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "60936d3142d2e63d0a279403aa319f5363ac78146497e33b0c7f4adec8226448",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "229e68549f2453a2649b074cb4f38172a39e1428a93c23bee21dd6419fdc89c7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "0fcf21eead4d703e780db9f4ed32e7c59eca2afbf2b1061cf3f2b14e34e0c2f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "98e9ededbbfc523c5ac15c5576d87668c046ce36b72c254c8f86f12977acfe41",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "30619bedcb0ca04c826c731c3b64c1a844c7c25de608f58b81945548955b1039",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "ab24a21d6a7d567d4ca3dd70d136b655e2b2c6f820aa415332b9a87645418471",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "75054e1878c0a2df94687e158bdee6567a9862204ebc7fb12b57b75e87cb0994",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "68c07905850cd8b66da64491c9fdd240effe7e4a715ca66705bfb7e72308b66f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0014"
+        },
+        {
+          "part_num": 15,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "b556aafbcae3b60000ad4d4e7a510d51d3112ed6573f95d27f31b7a82ece1765",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0015"
+        },
+        {
+          "part_num": 16,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0016",
+          "size_bytes": 15728640,
+          "sha256": "67847bcc9ff403efb1e331f4893350da6acdc60d1d7d6dd7b80b242afe27acfc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0016"
+        },
+        {
+          "part_num": 17,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0017",
+          "size_bytes": 15728640,
+          "sha256": "00586c0eeed8d7d78758e4ba51912229b6bb4d019116ee551e7a39713ba6dfd6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0017"
+        },
+        {
+          "part_num": 18,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0018",
+          "size_bytes": 15728640,
+          "sha256": "2bbfd7cd6f17527ff9e71d23c55db026cb9d994ece5d0bc9e135a3465bbddc4b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0018"
+        },
+        {
+          "part_num": 19,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0019",
+          "size_bytes": 15728640,
+          "sha256": "936403c1b3b0c74eb8fb7254473fd2a1b93df0b536d87809740902336f94da09",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0019"
+        },
+        {
+          "part_num": 20,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0020",
+          "size_bytes": 15728640,
+          "sha256": "32e7a51aadfeee2ec523e520c27619d066ec5bb6eeffcc3c08d3eef863044479",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0020"
+        },
+        {
+          "part_num": 21,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0021",
+          "size_bytes": 15728640,
+          "sha256": "7c8e7748c5fdd7772c5adab69450fb97f55bdcebada6f1cc8d8a7c392f37cf8f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0021"
+        },
+        {
+          "part_num": 22,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0022",
+          "size_bytes": 15728640,
+          "sha256": "09570b9f688b2183fe0043f5b17ba9f60230984a73dba0d27aa03f68ef09a713",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0022"
+        },
+        {
+          "part_num": 23,
+          "filename": "aispeech-audi-x64-1.7.32.0.7z.0023",
+          "size_bytes": 13704839,
+          "sha256": "300eda6478ec28b63a4f187b24c1c964a7fe625b86fd54a992e5c181c5873327",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.7.32.0.7z.0023"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b56697f6d5927aa3",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "AISpeech Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.1.0.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AISpeech Technology Co.,Ltd",
+        "AISpeech Audio BT Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.12.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aispeech-audi-x64-1.1.0.12.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "6ef61fccf042e19fe125bf2279a65ee537e27866438891cad29e8d61734da7fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.12.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "aispeech-audi-x64-1.1.0.12.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2c9f6504601059b7b90dc9257a47d11a203f1e384c0cf4e3370cb07e1ccf4819",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.12.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "aispeech-audi-x64-1.1.0.12.7z.0003",
+          "size_bytes": 8024153,
+          "sha256": "f9662529d86786429b29722818fc1192eac6c2166a7c214405137ecb4c5e2b03",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.12.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7e004af949f59c65",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "AISpeech Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.1.0.9",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AISpeech Technology Co.,Ltd",
+        "AISpeech Audio BT Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.9.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aispeech-audi-x64-1.1.0.9.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d0e7728b78128b0dd5cce2140ab9e0012f7d17d4f9a2d9407919ac86bbe10133",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.9.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "aispeech-audi-x64-1.1.0.9.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "87b676ada838a1a57e240da8f95d19a6bfa6b20a5cf741fecc02f64f561120ab",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.9.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "aispeech-audi-x64-1.1.0.9.7z.0003",
+          "size_bytes": 8177508,
+          "sha256": "1ded37702cbdaced3bec38bf9c6d7be0210f4cdfd1551583b7e261d85e0c12b0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/aispeech-audi-x64-1.1.0.9.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fdd4b0b0f7f9537b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Awinic",
+      "category": "AudioProcessingObject",
+      "version": "9.0.620.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Awinic",
+        "Awinic SKTune Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/awinic-audi-x64-9.0.620.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "awinic-audi-x64-9.0.620.5.7z.0001",
+          "size_bytes": 1026412,
+          "sha256": "cb3951d9a3848dbf01959ab6005b9785af3a4b8ea085521b8cb36f0dce1cb04c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/awinic-audi-x64-9.0.620.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fc973a9d15770d51",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "AudioProcessingObject",
+      "version": "2.36.60631.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic, Inc.",
+        "Cirrus Logic H_Enhance APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-audi-x64-2.36.60631.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-audi-x64-2.36.60631.7z.0001",
+          "size_bytes": 142837,
+          "sha256": "188dce6560ae421716d24f23b843a1b15bda1bf494b099a34adc8784f6ae2b4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-audi-x64-2.36.60631.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-67306e4b5be46962",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "SoftwareComponent",
+      "version": "2.36.60631.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic, Inc.",
+        "Cirrus Logic H_Enhance APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-audi-x64-2.36.60631.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-audi-x64-2.36.60631.7z.0001",
+          "size_bytes": 142837,
+          "sha256": "188dce6560ae421716d24f23b843a1b15bda1bf494b099a34adc8784f6ae2b4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-audi-x64-2.36.60631.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9ec56efd9c84fb50",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "Extension",
+      "version": "1.0.309.50033",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic SDCA XU Audio Device",
+        "Cirrus Logic CS42L43 AMP",
+        "Cirrus Logic CS42L43 MIC",
+        "Cirrus Logic CS42L43 UAJ",
+        "Cirrus Logic CS42L43 HID",
+        "Cirrus Logic CS35L56 Smart AMP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.309.50.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-exte-x64-1.0.309.50.7z.0001",
+          "size_bytes": 862092,
+          "sha256": "98b7c117f440c6369d5809537c4d86e715f805ed5c4d6c8ab6fafaa9a963b506",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.309.50.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-10903c83c339414b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "Extension",
+      "version": "1.0.654.52741",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic SDCA XU Audio Device",
+        "Cirrus Logic CS42L43 AMP",
+        "Cirrus Logic CS42L43 MIC",
+        "Cirrus Logic CS42L43 UAJ",
+        "Cirrus Logic CS42L43 HID",
+        "Cirrus Logic CS35L56 Smart AMP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.654.52.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-exte-x64-1.0.654.52.7z.0001",
+          "size_bytes": 254992,
+          "sha256": "d5976b998570384c228af89a37ada0aebcaeebab4e603a55aa26d0b72a525c49",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.654.52.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2e039d29a857382e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "Extension",
+      "version": "1.0.694.22315",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic SDCA XU Audio Device",
+        "Cirrus Logic CS47L47 MIC",
+        "Cirrus Logic CS47L47 UAJ",
+        "Cirrus Logic CS47L47 HID",
+        "Cirrus Logic CS42L49 MIC",
+        "Cirrus Logic CS42L49 UAJ",
+        "Cirrus Logic CS42L49 HID",
+        "Cirrus Logic CS42L49 RJA",
+        "Cirrus Logic CS42L49 RJB",
+        "Cirrus Logic CS42L45 MIC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.694.22.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-exte-x64-1.0.694.22.7z.0001",
+          "size_bytes": 675480,
+          "sha256": "6bb29aa0b32a4651f7aa7fbb7fa537a5f63c3aa8ac0092338e33bd9e4618718f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.694.22.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-de8b3f6b7f3de646",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "Extension",
+      "version": "0.90.85.64677",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic SDCA XU Audio Device",
+        "Cirrus Logic CS42L43 AMP",
+        "Cirrus Logic CS42L43 MIC",
+        "Cirrus Logic CS42L43 UAJ",
+        "Cirrus Logic CS42L43 HID",
+        "Cirrus Logic CS35L56 Smart AMP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-0.90.85.64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-exte-x64-0.90.85.64.7z.0001",
+          "size_bytes": 618595,
+          "sha256": "a9d773f29cd24bb460307132acf5105e67f43f1e957eb51db7a0bde8bb58e69e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-0.90.85.64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-05ad1b795fb3759e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Cirrus Logic, Inc.",
+      "category": "Extension",
+      "version": "1.0.670.61082",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cirrus Logic SDCA XU Audio Device",
+        "Cirrus Logic CS47L47 MIC",
+        "Cirrus Logic CS47L47 UAJ",
+        "Cirrus Logic CS47L47 HID",
+        "Cirrus Logic CS42L45 MIC",
+        "Cirrus Logic CS42L45 UAJ",
+        "Cirrus Logic CS42L45 HID",
+        "Cirrus Logic CS42L43 AMP",
+        "Cirrus Logic CS42L43 MIC",
+        "Cirrus Logic CS42L43 UAJ"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.670.61.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cirruslo-exte-x64-1.0.670.61.7z.0001",
+          "size_bytes": 758979,
+          "sha256": "ff9c889c88eab6176210aaf5bcf50fe57a318f55eedaadffecbd5e11ae651b41",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/cirruslo-exte-x64-1.0.670.61.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bc9d13afbe9e3cf9",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Drivewintech Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "1.7.1.42",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dirac Research AB",
+        "Dirac Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/drivewin-audi-x64-1.7.1.42.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "drivewin-audi-x64-1.7.1.42.7z.0001",
+          "size_bytes": 4758485,
+          "sha256": "05b020dff12e9caca772ae6ea08543093ce544cea6641df2dd4841ffcea742be",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/drivewin-audi-x64-1.7.1.42.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4a44654738b90fa6",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Dolby",
+      "category": "AudioProcessingObject",
+      "version": "3.30514.620.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30514.62.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-audi-x64-3.30514.62.7z.0001",
+          "size_bytes": 4641404,
+          "sha256": "4e99f1585d741909b48c147b8f2d57348160cb19ded0cd8b6b85758c3ac375f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30514.62.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a9d76eecaa1c2e39",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Dolby",
+      "category": "AudioProcessingObject",
+      "version": "3.30605.652.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30605.65.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-audi-x64-3.30605.65.7z.0001",
+          "size_bytes": 4724035,
+          "sha256": "8a37b693e864f783bd2d2343ec211e76c01956c8b43f9e1f2e65265f4a00ec1d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30605.65.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9260c2b1e7148d65",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Dolby",
+      "category": "AudioProcessingObject",
+      "version": "3.30810.886.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30810.88.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-audi-x64-3.30810.88.7z.0001",
+          "size_bytes": 5152166,
+          "sha256": "a96e2e52271c4e01777ef121e1945b79fdf4fc4533473dcc08793bc649470241",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30810.88.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c0ca45c306e98df5",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Dolby",
+      "category": "AudioProcessingObject",
+      "version": "3.30904.943.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "DolbyAPO SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30904.94.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-audi-x64-3.30904.94.7z.0001",
+          "size_bytes": 7360525,
+          "sha256": "afa1b1a653ec6e0c7d439d05e7722c3f46ce287674866ed871cd4dd8db6aa47c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-3.30904.94.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7602b658af2e39c",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Dolby",
+      "category": "AudioProcessingObject",
+      "version": "4.0.4.440",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "Dolby Fusion SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-4.0.4.440.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-audi-x64-4.0.4.440.7z.0001",
+          "size_bytes": 8190209,
+          "sha256": "2b5e29af321d899aacd09c21c9453f3be9ec05c61049d2877ec51f3347bd4d1e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-4.0.4.440.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d163317bb8467a3c",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Dolby",
+      "category": "AudioProcessingObject",
+      "version": "5.0.0.507",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dolby",
+        "Dolby Fusion SWC Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-5.0.0.507.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dolby-audi-x64-5.0.0.507.7z.0001",
+          "size_bytes": 13163455,
+          "sha256": "f4bafa062319171424e104b5f4a9d25d66fa33f42cae3c93bd08e6b254b6a050",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dolby-audi-x64-5.0.0.507.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2461f379a6812261",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "DTS",
+      "category": "AudioProcessingObject",
+      "version": "1.15.16.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO4x"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-1.15.16.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-audi-x64-1.15.16.0.7z.0001",
+          "size_bytes": 1705153,
+          "sha256": "b74c8f8c5965b40319da7413c5e0efe22bb5c6896bdd64b3c9962d5fc28cce2c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-1.15.16.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1febe9610c67b013",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "DTS",
+      "category": "AudioProcessingObject",
+      "version": "2.6.3.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS HPXV2 APO4x"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-2.6.3.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-audi-x64-2.6.3.1.7z.0001",
+          "size_bytes": 1477315,
+          "sha256": "59d04c4e2c6c1fcef991e07f580cdd942b3c49cc703e356a33f3bf9faf73c0fc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-2.6.3.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a7a6c6465b5b9722",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "DTS",
+      "category": "AudioProcessingObject",
+      "version": "1.16.4.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO4x"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-1.16.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-audi-x64-1.16.4.0.7z.0001",
+          "size_bytes": 1759448,
+          "sha256": "254e2e88e83ad5688bb71c80e33616e6eba6a02d0fc5df835001ed933aeb879a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-1.16.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1de68dd422982f6",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "DTS",
+      "category": "SoftwareComponent",
+      "version": "1.16.4.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DTS",
+        "DTS APO4x Controller Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-1.16.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dts-audi-x64-1.16.4.0.7z.0001",
+          "size_bytes": 1759448,
+          "sha256": "254e2e88e83ad5688bb71c80e33616e6eba6a02d0fc5df835001ed933aeb879a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/dts-audi-x64-1.16.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-02a6a7f3756ade3c",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "3.0.3.155",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-3.0.3.155.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-3.0.3.155.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "6d6423d25ef0be7df70f5ace8f0b61e6429ff54fe5dfb4129051c0167dfce188",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-3.0.3.155.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-audi-x64-3.0.3.155.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "b627ca0f3babee79db43a28bcebb1a598a8be28efd4777070e4656fe6a93e60b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-3.0.3.155.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "elevocte-audi-x64-3.0.3.155.7z.0003",
+          "size_bytes": 8062497,
+          "sha256": "9f9aa4b04115f1b154973369aa90995e0b47e447b719ed4d9ce448989e45ec38",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-3.0.3.155.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5bcb3cfe0a17aa8c",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "4.0.5.234",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-4.0.5.234.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-4.0.5.234.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "59a315e209abcce1bd6595f743327c3394184dd2bc969f34aaaad7cbbe0b90ca",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-4.0.5.234.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-audi-x64-4.0.5.234.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "c2fd81bc88a6061a189bcbab8e0cbe0754a6d7168b6ec5e4710adc62932a2d32",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-4.0.5.234.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "elevocte-audi-x64-4.0.5.234.7z.0003",
+          "size_bytes": 8882767,
+          "sha256": "e7c6ba42545f54ef679f545a5ab67169772ded780b3c1c345e9e00a9a64a2bf4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-4.0.5.234.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a2f2ab2ad4efd6cb",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "5.0.5.239",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.239.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-5.0.5.239.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "77ed71ab01dc39a0bac1c88bea50d169c3d8d865ba007984676fe95450e55534",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.239.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-audi-x64-5.0.5.239.7z.0002",
+          "size_bytes": 12102984,
+          "sha256": "d8406a4e65571589e52141b0a72c700985fff5fb1c0cebeda773c801f795171f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.239.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c39b4b2ab04cffa7",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "5.0.5.243",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.243.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-5.0.5.243.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d8d24288b987a5d40426407635bc4fc3cad6129568e1d3f7137e51c766bc81ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.243.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-audi-x64-5.0.5.243.7z.0002",
+          "size_bytes": 12043110,
+          "sha256": "eb4d037005406064a744e941b1d88cb7503e7b10a504bd0a44441979dabbe748",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.243.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-069f33f797d4b2a8",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.0.1.4",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component BT"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-1.0.1.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-1.0.1.4.7z.0001",
+          "size_bytes": 8179,
+          "sha256": "5ce79eec0759db96ec6db48f1389a0b357c74fb939214c81216ef16322bc665f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-1.0.1.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4fdeeb600f9c5ec0",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "5.0.5.234",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.234.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-5.0.5.234.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "60124d1b4f08d9c698031b267a9f4b6a79ca9879172caef116ae2f0d3e5218ca",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.234.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-audi-x64-5.0.5.234.7z.0002",
+          "size_bytes": 11983669,
+          "sha256": "54b647bbdd9ddcee472a695422078aa5b70549d5afa059c3d06e63fff69f8399",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.234.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f99712e3ab57b96b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "5.0.5.314",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.314.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-5.0.5.314.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ea206135fcfa48aa712bc13be2ad40b60f95dd76b25d72c874fb3b0268a61d58",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.314.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "elevocte-audi-x64-5.0.5.314.7z.0002",
+          "size_bytes": 15470886,
+          "sha256": "8f31b3dc43750a9f5489308ffa68f3d615a0c734649e1960b4ebe41c478ad46c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-5.0.5.314.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-60218dff496a738e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Elevoc Technology Co.,Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.0.0.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Elevoc Technology Co.,Ltd",
+        "Elevoc Audio Effects Component BT"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elevocte-audi-x64-1.0.0.3.7z.0001",
+          "size_bytes": 8164,
+          "sha256": "54ce489dca311313ab734b1cf92d42d61dc5a94c90a97568bf95ce7fa4e8aca0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/elevocte-audi-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a47ac627820f9481",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Ego Systems Inc.",
+      "category": "61883",
+      "version": "1.19.0.0",
+      "arch": "x86",
+      "hwids": [
+        "1394\\EGO_SYSTEMS_INC&QUATA_FIRE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ESI QuataFire 610"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.19.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "egosyste-6188-x86-1.19.0.0.7z.0001",
+          "size_bytes": 256892,
+          "sha256": "88750bebd5f15522435f6393313c5ba05affc527c6af20ca82d7dda86988fa2c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.19.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-271daaa7d23d0b3f",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Ego Systems Inc.",
+      "category": "MEDIA",
+      "version": "1.19.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ESI-QuataFire 610 WDM Audio"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.19.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "egosyste-6188-x86-1.19.0.0.7z.0001",
+          "size_bytes": 256892,
+          "sha256": "88750bebd5f15522435f6393313c5ba05affc527c6af20ca82d7dda86988fa2c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.19.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-79e34cf90d5ddb09",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Ego Systems Inc.",
+      "category": "61883",
+      "version": "1.1.9.3",
+      "arch": "x86",
+      "hwids": [
+        "1394\\EGO_SYSTEMS_INC&QUATA_FIRE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ego Systems Inc.",
+        "ESI QuataFire 610"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "egosyste-6188-x86-1.1.9.3.7z.0001",
+          "size_bytes": 782271,
+          "sha256": "290c245ec9ea9ac009367771f46f884025b50eadc1c7db90c53997f8e03c5b2b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-57b550c014837e1f",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Ego Systems Inc.",
+      "category": "MEDIA",
+      "version": "1.1.9.3",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ego Systems Inc.",
+        "ESI-QuataFire 610 WDM Audio"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "egosyste-6188-x86-1.1.9.3.7z.0001",
+          "size_bytes": 782271,
+          "sha256": "290c245ec9ea9ac009367771f46f884025b50eadc1c7db90c53997f8e03c5b2b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b4a3be1e4f529f9b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Ego Systems Inc.",
+      "category": "61883",
+      "version": "1.1.9.1",
+      "arch": "x86",
+      "hwids": [
+        "1394\\EGO_SYSTEMS_INC&QUATA_FIRE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ego Systems Inc.",
+        "ESI QuataFire 610"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "egosyste-6188-x86-1.1.9.1.7z.0001",
+          "size_bytes": 678722,
+          "sha256": "58b0805e9c33a019bd527dbf1141757935b5393115bffb4e009d089181afca11",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dfa965c8a9830f08",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Ego Systems Inc.",
+      "category": "MEDIA",
+      "version": "1.1.9.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ego Systems Inc.",
+        "ESI-QuataFire 610 WDM Audio"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "egosyste-6188-x86-1.1.9.1.7z.0001",
+          "size_bytes": 678722,
+          "sha256": "58b0805e9c33a019bd527dbf1141757935b5393115bffb4e009d089181afca11",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/egosyste-6188-x86-1.1.9.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d2797de4cafecff1",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Everest Semiconductor Co., Ltd",
+      "category": "AudioProcessingObject",
+      "version": "1.0.2.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Everest",
+        "Everest APO Effect"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-1.0.2.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "everests-audi-x64-1.0.2.5.7z.0001",
+          "size_bytes": 347348,
+          "sha256": "6801a9fdaf285f163c1538d05db06568c7bf6b884ac7d03fb245d5eb11715a4b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-1.0.2.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-20a0a8ee8ef3e424",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Everest Semiconductor Co., Ltd",
+      "category": "AudioProcessingObject",
+      "version": "18.33.59.169",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Everest",
+        "Everest APO Effect"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-18.33.59.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "everests-audi-x64-18.33.59.1.7z.0001",
+          "size_bytes": 669789,
+          "sha256": "312c4e6f51dc64928059b2f71ddbe140a11482819d4d7e418a2b7c3dfaece0e8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-18.33.59.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8d26b300a33f35bb",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Everest Semiconductor Co, Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "2.0.0.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Everest Semiconductor Co.",
+        "Everest APO Effect"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-2.0.0.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "everests-audi-x64-2.0.0.5.7z.0001",
+          "size_bytes": 481698,
+          "sha256": "16faeb995252eea49ad59dbf91f14cf6b69e45b9c5fe9d1a38cc5a6c0b689650",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-2.0.0.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eb5f8cb6d5bb815c",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Everest Semiconductor Co, Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "2.0.5.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Everest Semiconductor Co.",
+        "Everest General Mic APO Effect",
+        "Everest Digtal Mic APO Effect"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-2.0.5.12.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "everests-audi-x64-2.0.5.12.7z.0001",
+          "size_bytes": 465028,
+          "sha256": "7979c4e8415710486eeaa972c5d12615571b6b8715366f49391b96fc2417ff07",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-2.0.5.12.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d9b3154a21ec35cc",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Everest Semiconductor Co, Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "2.0.8.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Everest Semiconductor Co.",
+        "Everest General Mic APO Effect",
+        "Everest Digtal Mic APO Effect"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-2.0.8.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "everests-audi-x64-2.0.8.1.7z.0001",
+          "size_bytes": 455776,
+          "sha256": "62ea2cd992fa0483c0b71f8ba2dec76e8139a91f6b4ca022c223d6cd1c7ecd47",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/everests-audi-x64-2.0.8.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-00c1892e4b0d0090",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Focusrite Audio Engineering Ltd.",
+      "category": "LM1394Device",
+      "version": "2.0.4.0",
+      "arch": "x86",
+      "hwids": [
+        "1394\\130E&200",
+        "1394\\130E&700"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Focusrite Audio Engineering Ltd.",
+        "Liquid Mix"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/focusrit-lm13-x86-2.0.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "focusrit-lm13-x86-2.0.4.0.7z.0001",
+          "size_bytes": 40588,
+          "sha256": "73ed9f7b832ef60cd1e6746c868a2215e08a8709e2ae2d9ed9410a18d47af553",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/focusrit-lm13-x86-2.0.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b4d95cc138114bf",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Focusrite",
+      "category": "61883",
+      "version": "5.21.0.0",
+      "arch": "x64",
+      "hwids": [
+        "1394\\FOCUSRITE&PRO10IO",
+        "1394\\FOCUSRITE&PRO26IO"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Focusrite",
+        "Focusrite Saffire PRO 26 I/O",
+        "Focusrite Saffire PRO 10 I/O"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/focusrit-6188-x64-5.21.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "focusrit-6188-x64-5.21.0.0.7z.0001",
+          "size_bytes": 181479,
+          "sha256": "4c22b28b3dcb259ab6dc54d435f823d9c3d0ba54b6d68f04b8b28284f04818bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/focusrit-6188-x64-5.21.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-06a04be140844939",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Focusrite",
+      "category": "MEDIA",
+      "version": "5.21.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Focusrite",
+        "Focusrite Saffire PRO 26 I/O WDM",
+        "Focusrite Saffire PRO 10 I/O WDM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/focusrit-6188-x64-5.21.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "focusrit-6188-x64-5.21.0.0.7z.0001",
+          "size_bytes": 181479,
+          "sha256": "4c22b28b3dcb259ab6dc54d435f823d9c3d0ba54b6d68f04b8b28284f04818bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/focusrit-6188-x64-5.21.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ccf6dde13f88bd1e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Honor",
+      "category": "AudioProcessingObject",
+      "version": "7.5.1.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Honor",
+        "Honor MicSound Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/honor-audi-x64-7.5.1.1.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "honor-audi-x64-7.5.1.1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5579fb36f39e5899d6af3fbe7b31ef2beace627d7af3214b6cdb5a1c719eb5d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/honor-audi-x64-7.5.1.1.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "honor-audi-x64-7.5.1.1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "83a67648f932c6127244682cb63f22c8d7faed4133fdde29d3596988339ac02f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/honor-audi-x64-7.5.1.1.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "honor-audi-x64-7.5.1.1.7z.0003",
+          "size_bytes": 8803513,
+          "sha256": "dbcd6febeb1ab791e69f17919f5196f8b5f292bc55569724723b15dcb458df81",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/honor-audi-x64-7.5.1.1.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1026407f8263bf71",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Honor",
+      "category": "AudioProcessingObject",
+      "version": "7.7.1.6",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Honor",
+        "Honor Effects"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/honor-audi-x64-7.7.1.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "honor-audi-x64-7.7.1.6.7z.0001",
+          "size_bytes": 5085653,
+          "sha256": "8464a909ebd2989aed074da0bb8c806b48019cb9d41cbd8726ed3f8276f51621",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/honor-audi-x64-7.7.1.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2d150154ed8d8c55",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "27.0.1.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "HWVE POST Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.1.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-audi-x64-27.0.1.1.7z.0001",
+          "size_bytes": 971049,
+          "sha256": "50b735d2d55b16a0fb4e28737c7566b53d975cfec1ec2d50b80503d4d7575e68",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.1.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-64a52c0ca262afba",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Technologies Co. Ltd",
+      "category": "AudioProcessingObject",
+      "version": "27.0.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Huawei Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-audi-x64-27.0.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-audi-x64-27.0.5.0.7z.0001",
+          "size_bytes": 8872144,
+          "sha256": "3783ae2fa8cf09c3c770de5b909c9ab4cebf94a76212cb293bb904e7bf210f4f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-audi-x64-27.0.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c9070c6aea816eeb",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "27.0.4.33",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Histen Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.33.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-audi-x64-27.0.4.33.7z.0001",
+          "size_bytes": 3797359,
+          "sha256": "127ebc82ce73954dd6d8333becf643e428c14849da0ba71542af4dda43c0a3b0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.33.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f120cb9674237b26",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "27.0.4.20",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "SmartPA Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.20.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-audi-x64-27.0.4.20.7z.0001",
+          "size_bytes": 707471,
+          "sha256": "c57821d7d56ac4d082f24497feabaa7ca8076382263fa2b014e4f736dc873c16",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.20.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6d21495381b21109",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "27.0.4.24",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "HiVA Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.24.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-audi-x64-27.0.4.24.7z.0001",
+          "size_bytes": 2851571,
+          "sha256": "b45ad1234cb486daa0e4fd56e6a036569d05d6e2a102f14fb2eace4616a01223",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.24.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f5d9437d6187f62f",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "27.0.1.11",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "Hain Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-audi-x64-27.0.1.11.7z.0001",
+          "size_bytes": 559164,
+          "sha256": "f46f24f905ca9861867905f1eb3f43e05dfe10f006ab2b105def67997e52bfcd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9861c71e58e02557",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Device Co., Ltd.",
+      "category": "AudioProcessingObject",
+      "version": "27.0.4.48",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Huawei",
+        "HWVE Pre Audio Effects Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.48.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweide-audi-x64-27.0.4.48.7z.0001",
+          "size_bytes": 5074962,
+          "sha256": "615501b54c0e3d3eef10a329a3eb10ddcb2c43009218656126750bee490febbb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweide-audi-x64-27.0.4.48.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7e9d7a973179eebe",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei Technologies Co. Ltd",
+      "category": "Extension",
+      "version": "27.0.5.0",
+      "arch": "x64",
+      "hwids": [
+        "HDAUDIO\\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E532B5",
+        "HDAUDIO\\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E532B6"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HWAudioExt",
+        "Huawei Audio Device Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-exte-x64-27.0.5.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ac98737ff28d377dfdaee8d1cfd4bc4d033e3b391de97984bae54bf032d49a7e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "huaweite-exte-x64-27.0.5.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "34813d48f57e21829befb83d1f3d53e42971d39457a3d6b5f6bb7aabaa873bed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "huaweite-exte-x64-27.0.5.0.7z.0003",
+          "size_bytes": 9619743,
+          "sha256": "6bfb298f1497490a3f4c901712b8fec50e862c75eaadb45613d938ca6d89da1e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8bc3551502c69149",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Huawei",
+      "category": "Extension",
+      "version": "27.0.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Device Extension for Huawei"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "huaweite-exte-x64-27.0.5.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ac98737ff28d377dfdaee8d1cfd4bc4d033e3b391de97984bae54bf032d49a7e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "huaweite-exte-x64-27.0.5.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "34813d48f57e21829befb83d1f3d53e42971d39457a3d6b5f6bb7aabaa873bed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "huaweite-exte-x64-27.0.5.0.7z.0003",
+          "size_bytes": 9619743,
+          "sha256": "6bfb298f1497490a3f4c901712b8fec50e862c75eaadb45613d938ca6d89da1e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/huaweite-exte-x64-27.0.5.0.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c0cf23604c3569bb",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "INFRASONIC",
+      "category": "61883",
+      "version": "4.6.0.0",
+      "arch": "x64",
+      "hwids": [
+        "1394\\INFRASONIC&WINDY6"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "INFRASONIC",
+        "INFRASONIC Windy6"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/infrason-6188-x64-4.6.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "infrason-6188-x64-4.6.0.0.7z.0001",
+          "size_bytes": 200299,
+          "sha256": "920105885eb9da530d4905b67d26f910feff842f005b0ad4fc3c2f876fd9b886",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/infrason-6188-x64-4.6.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-80775cc2dd027a24",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "INFRASONIC",
+      "category": "MEDIA",
+      "version": "4.6.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "INFRASONIC",
+        "INFRASONIC Windy6 Audio Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/infrason-6188-x64-4.6.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "infrason-6188-x64-4.6.0.0.7z.0001",
+          "size_bytes": 200299,
+          "sha256": "920105885eb9da530d4905b67d26f910feff842f005b0ad4fc3c2f876fd9b886",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/infrason-6188-x64-4.6.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a0db7ab617aaf19b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "intelliGo",
+      "category": "AudioProcessingObject",
+      "version": "100.1.4.1577",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Audio Processing Object"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.15.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-audi-x64-100.1.4.15.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "415c4c8af36ed3de793423d7bc406085ecb0b4a15a68bac27fa87fd1354ec663",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.15.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intellig-audi-x64-100.1.4.15.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "0be3c6b53bec5d1f443c2da706c6cf4f0382a9a70a6bb9e124c6cd92afb690c0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.15.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intellig-audi-x64-100.1.4.15.7z.0003",
+          "size_bytes": 14461784,
+          "sha256": "99f72a0a9dcf754f24263a57828d984339482bc3da504f8eba995ee68711c62a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.15.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ac9729d5f7dfb320",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "intelliGo",
+      "category": "AudioProcessingObject",
+      "version": "100.1.4.2126",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Audio Processing Object"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-audi-x64-100.1.4.21.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "f91ed7f808696ebd6d7312ba74a3e3d11f90764a478f7bddace053d1647ef74d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intellig-audi-x64-100.1.4.21.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "974c85a497c6504ed5f44ad4cfcdfd2245389c47191b3f59cd6edc8c44dddfc2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intellig-audi-x64-100.1.4.21.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "cf28d2280153101419520042981659523e57d7bafb043acce975e9ec7cd9837e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intellig-audi-x64-100.1.4.21.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "daa6bc353a666d71090a59aad6ec9375e2efa9fc573b2bee64954b35a00ff7d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intellig-audi-x64-100.1.4.21.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "1910ba7ab426cbd21bb000d2c1da77498b41587c827ed09648c32747e5cb8ecb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intellig-audi-x64-100.1.4.21.7z.0006",
+          "size_bytes": 479987,
+          "sha256": "cd5437766332cd7f89593e9fb726a3fc2c5717106aac0f405007ea663d378a4a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.21.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-28a1fd2e0fa85747",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "intelliGo",
+      "category": "AudioProcessingObject",
+      "version": "100.1.4.2398",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Audio Processing Object"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0001",
+      "zip_parts": 7,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5f0b4d02f29a38e9784b9cb7917134320f41707f3404d2ef26e82f2689ecd7f4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "3e1d69605a8bb7579b0ce375430c2a0362180024848adb20ae6950dbd5bb409d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "428cb0acdf5a5e43f152432373407a2214a30215595dd0bef5b1c29f8c1e8a81",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "6b1df63d1891671b850dad3ea04ae11430a80fcb471a4e3ea7a2c335370e8ac8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "e207b788fc9d208bb71d2a5a097d179143902d25e657ebbe13417925daeb7231",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "714b4864d544dc5c7b80b4892648feed89690e9ac031ec29bf2a4de9661d809b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intellig-audi-x64-100.1.4.23.7z.0007",
+          "size_bytes": 4347257,
+          "sha256": "36df920750f892bf1ee34beaadd63e561fc47f57da3a21aebd6f5d44138f2a81",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.23.7z.0007"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5d9992c34bd13844",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "intelliGo",
+      "category": "AudioProcessingObject",
+      "version": "100.1.4.2635",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Audio Processing Object"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ec0f227b5f7b8754cce99b38621d0c9b7740aaa396c79c3d14ba503c76ec47b4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "204c7e6088ebdc5f41cbea6d1e612d26786dee579414eb741d7360b34e098793",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "0c54e6a24f815ce2c78863694feebf970e775eda3a25a68403cde0f0ca18fafa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "f918ddd5356453952eeab7f6c5d9bc3788d10dcc42f72f6b3eeef897410380ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "bea3dbae30723aee16ec0543dafd5108a2983d5fb94ab37144776baee73d830e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "67988e1aaafd4607b9075b724c62439f84af52a5f2e28f836610e88537387196",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "ec44e10ba3fce485d8511819c06ef42ced9a3f1d033a8d49836dfcbefe53092a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "b713739586986c10c6eef07c5427ffc13a4b35791f63a420f737c711ec133e82",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "e2e349859f625089ad638af4fb92866cdce115ae7db592fc04041d01ae47084a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "7050a8605e7b16ccd513ebdd6fbcf13a6366266997f5449b9ac046fd55db608c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "intellig-audi-x64-100.1.4.26.7z.0011",
+          "size_bytes": 8418874,
+          "sha256": "95d622aa73ba99a3696b86c15e68d2b6184f9095d2b4365dfd34ada9f0c9d5f4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.26.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7e508bf0cb8bda1f",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "intelliGo",
+      "category": "AudioProcessingObject",
+      "version": "100.1.4.2740",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "intelliGo",
+        "intelliGo Audio Processing Object"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0001",
+      "zip_parts": 6,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intellig-audi-x64-100.1.4.27.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "3830e32f66d034488e15bd2b34dae8a2c5175b20b67eb263cd7e9be9e698e9fe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "intellig-audi-x64-100.1.4.27.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "fae3ffff5fb97c847dc79a0211d6a23f8ee932e9efc844c1612cfcbb731aabbe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "intellig-audi-x64-100.1.4.27.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "44fb37632e2dca37708c4681985ee489cb0d3a68f27f7d8f628144ae086e04ca",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "intellig-audi-x64-100.1.4.27.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "1a7570f46759432307d0c5e2fba9144f25ac3ef04e9fff6a1ef161e7a97c6dbb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "intellig-audi-x64-100.1.4.27.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "26113589bbea107b4c6d1661c6a21cf3a753e92be7b75104545d172df6f26b49",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "intellig-audi-x64-100.1.4.27.7z.0006",
+          "size_bytes": 9686898,
+          "sha256": "a558aa5db8937338b7a3852d3176e77aba627a4e20ed99604175cd5e9a48f00a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/intellig-audi-x64-100.1.4.27.7z.0006"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": "drv-5a10613c056837fe",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-31a0c6fe1aa4bb6e",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "KORG Inc.",
+      "category": "hdc",
+      "version": "1.00.0000",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "%KGUSBSTO\\DISK.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/korginc-usb-x64-1.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "korginc-usb-x64-1.00.0000.7z.0001",
+          "size_bytes": 11736,
+          "sha256": "f1581a9989deb38513411b7a85859ac9eb7b6294ca9b112ff68344e4e235c6fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/korginc-usb-x64-1.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b21dd300acfdbf53",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "KORG Inc.",
+      "category": "USB",
+      "version": "1.00.0000",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0944&PID_0001",
+        "USB\\VID_0944&PID_0001.DEVICEDESC",
+        "USB\\VID_0944&PID_0001.DEVICEDESC%",
+        "USB\\VID_0944&PID_0002",
+        "USB\\VID_0944&PID_0002.DEVICEDESC",
+        "USB\\VID_0944&PID_0002.DEVICEDESC%",
+        "USB\\VID_0944&PID_0003",
+        "USB\\VID_0944&PID_0003.DEVICEDESC",
+        "USB\\VID_0944&PID_0003.DEVICEDESC%",
+        "USB\\VID_0944&PID_0005",
+        "USB\\VID_0944&PID_0005.DEVICEDESC",
+        "USB\\VID_0944&PID_0005.DEVICEDESC%",
+        "USB\\VID_0944&PID_0006",
+        "USB\\VID_0944&PID_0006.DEVICEDESC",
+        "USB\\VID_0944&PID_0006.DEVICEDESC%",
+        "USB\\VID_0944&PID_0007",
+        "USB\\VID_0944&PID_0007.DEVICEDESC",
+        "USB\\VID_0944&PID_0007.DEVICEDESC%",
+        "USB\\VID_0944&PID_0008",
+        "USB\\VID_0944&PID_0008.DEVICEDESC",
+        "USB\\VID_0944&PID_0008.DEVICEDESC%",
+        "USB\\VID_0944&PID_0009",
+        "USB\\VID_0944&PID_0009.DEVICEDESC",
+        "USB\\VID_0944&PID_0009.DEVICEDESC%",
+        "USB\\VID_0944&PID_000A",
+        "USB\\VID_0944&PID_000A.DEVICEDESC",
+        "USB\\VID_0944&PID_000A.DEVICEDESC%",
+        "USB\\VID_0944&PID_000B",
+        "USB\\VID_0944&PID_000B.DEVICEDESC",
+        "USB\\VID_0944&PID_000B.DEVICEDESC%",
+        "USB\\VID_0944&PID_000C",
+        "USB\\VID_0944&PID_000C.DEVICEDESC",
+        "USB\\VID_0944&PID_000C.DEVICEDESC%",
+        "USB\\VID_0944&PID_000D",
+        "USB\\VID_0944&PID_000D.DEVICEDESC",
+        "USB\\VID_0944&PID_000D.DEVICEDESC%",
+        "USB\\VID_0944&PID_000E",
+        "USB\\VID_0944&PID_000E.DEVICEDESC",
+        "USB\\VID_0944&PID_000E.DEVICEDESC%",
+        "USB\\VID_0944&PID_000F",
+        "USB\\VID_0944&PID_000F.DEVICEDESC",
+        "USB\\VID_0944&PID_000F.DEVICEDESC%",
+        "USB\\VID_0944&PID_0010",
+        "USB\\VID_0944&PID_0010.DEVICEDESC",
+        "USB\\VID_0944&PID_0010.DEVICEDESC%",
+        "USB\\VID_0944&PID_0011",
+        "USB\\VID_0944&PID_0011.DEVICEDESC",
+        "USB\\VID_0944&PID_0011.DEVICEDESC%",
+        "USB\\VID_0944&PID_0012",
+        "USB\\VID_0944&PID_0012.DEVICEDESC",
+        "USB\\VID_0944&PID_0012.DEVICEDESC%",
+        "USB\\VID_0944&PID_0013",
+        "USB\\VID_0944&PID_0013.DEVICEDESC",
+        "USB\\VID_0944&PID_0013.DEVICEDESC%",
+        "USB\\VID_0944&PID_0014",
+        "USB\\VID_0944&PID_0014.DEVICEDESC",
+        "USB\\VID_0944&PID_0014.DEVICEDESC%",
+        "USB\\VID_0944&PID_0015",
+        "USB\\VID_0944&PID_0015.DEVICEDESC",
+        "USB\\VID_0944&PID_0015.DEVICEDESC%",
+        "USB\\VID_0944&PID_0016",
+        "USB\\VID_0944&PID_0016.DEVICEDESC",
+        "USB\\VID_0944&PID_0016.DEVICEDESC%",
+        "USB\\VID_0944&PID_0017",
+        "USB\\VID_0944&PID_0017.DEVICEDESC",
+        "USB\\VID_0944&PID_0017.DEVICEDESC%",
+        "USB\\VID_0944&PID_0018",
+        "USB\\VID_0944&PID_0018.DEVICEDESC",
+        "USB\\VID_0944&PID_0018.DEVICEDESC%",
+        "USB\\VID_0944&PID_0019",
+        "USB\\VID_0944&PID_0019.DEVICEDESC",
+        "USB\\VID_0944&PID_0019.DEVICEDESC%",
+        "USB\\VID_0944&PID_001A",
+        "USB\\VID_0944&PID_001A.DEVICEDESC",
+        "USB\\VID_0944&PID_001A.DEVICEDESC%",
+        "USB\\VID_0944&PID_001B",
+        "USB\\VID_0944&PID_001B.DEVICEDESC",
+        "USB\\VID_0944&PID_001B.DEVICEDESC%",
+        "USB\\VID_0944&PID_001C",
+        "USB\\VID_0944&PID_001C.DEVICEDESC",
+        "USB\\VID_0944&PID_001C.DEVICEDESC%",
+        "USB\\VID_0944&PID_001D",
+        "USB\\VID_0944&PID_001D.DEVICEDESC",
+        "USB\\VID_0944&PID_001D.DEVICEDESC%",
+        "USB\\VID_0944&PID_001E",
+        "USB\\VID_0944&PID_001E.DEVICEDESC",
+        "USB\\VID_0944&PID_001E.DEVICEDESC%",
+        "USB\\VID_0944&PID_001F",
+        "USB\\VID_0944&PID_001F.DEVICEDESC",
+        "USB\\VID_0944&PID_001F.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_0944&PID_0001.DeviceDesc%",
+        "%USB\\VID_0944&PID_0002.DeviceDesc%",
+        "%USB\\VID_0944&PID_0003.DeviceDesc%",
+        "%USB\\VID_0944&PID_0005.DeviceDesc%",
+        "%USB\\VID_0944&PID_0006.DeviceDesc%",
+        "%USB\\VID_0944&PID_0007.DeviceDesc%",
+        "%USB\\VID_0944&PID_0008.DeviceDesc%",
+        "%USB\\VID_0944&PID_0009.DeviceDesc%",
+        "%USB\\VID_0944&PID_000a.DeviceDesc%",
+        "%USB\\VID_0944&PID_000b.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/korginc-usb-x64-1.00.0000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "korginc-usb-x64-1.00.0000.7z.0001",
+          "size_bytes": 11736,
+          "sha256": "f1581a9989deb38513411b7a85859ac9eb7b6294ca9b112ff68344e4e235c6fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/korginc-usb-x64-1.00.0000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5ad8c609f0220e6b",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Microsoft Corporation",
+      "category": "AudioProcessingObject",
+      "version": "3.0.6.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft Corporation",
+        "MSVoiceClarity APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/microsof-audi-x64-3.0.6.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-audi-x64-3.0.6.0.7z.0001",
+          "size_bytes": 9787617,
+          "sha256": "b5890b60e10dd3f9e0db6a3845b9daa6d10d39feaca1b303b11774fabef2b9c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/microsof-audi-x64-3.0.6.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-63814dbe6417eb8c",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Microsoft Corporation",
+      "category": "AudioProcessingObject",
+      "version": "10.0.26100.6700",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\*"
+      ],
+      "compatible_ids": [
+        "ROOT\\*"
+      ],
+      "descriptions": [
+        "Microsoft Corporation",
+        "Voice Clarity"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/microsof-audi-x64-10.0.26100.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-audi-x64-10.0.26100.7z.0001",
+          "size_bytes": 9719107,
+          "sha256": "b0f4cd227a105745dcefdac64898ddc16abc4cb47fc12a209694a8c50b4e12f2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/microsof-audi-x64-10.0.26100.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-85e7226afda22764",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "Microsoft Corporation",
+      "category": "AudioProcessingObject",
+      "version": "10.0.26100.6710",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\*"
+      ],
+      "compatible_ids": [
+        "ROOT\\*"
+      ],
+      "descriptions": [
+        "Microsoft Corporation",
+        "Voice Clarity"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/microsof-audi-x64-10.0.26100.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-audi-x64-10.0.26100.7z.0001",
+          "size_bytes": 9713835,
+          "sha256": "ca5cc288c58307879b5755551e0b54e7c8554dc4a5d75559c84ac46c7ab405ae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/microsof-audi-x64-10.0.26100.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-48c0196ec8efa998",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "SteelSeries ApS",
+      "category": "AudioProcessingObject",
+      "version": "3.5.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SteelSeries ApS",
+        "Sonar APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/steelser-audi-x64-3.5.1.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "steelser-audi-x64-3.5.1.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "002292fbeb2c33ec2de496738986bfa0295fa8cd8030c3f264f866a57554bd4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/steelser-audi-x64-3.5.1.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "steelser-audi-x64-3.5.1.0.7z.0002",
+          "size_bytes": 11156423,
+          "sha256": "a4e4c3a5aa01e1c005af42ec85b13fee38aa54e9abb2772aadce865d8822f56e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/steelser-audi-x64-3.5.1.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-120f07022ed28a01",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "TerraTec",
+      "category": "61883",
+      "version": "2.44.0.0",
+      "arch": "x64",
+      "hwids": [
+        "1394\\TERRATEC_ELECTRONIC_GMBH&AUREON_7.1_FIREWIRE",
+        "1394\\TERRATEC_ELECTRONIC_GMBH&AUREON_7.1_FIREWIRE_BOOTLOADER"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TerraTec",
+        "Aureon 7.1 FireWire",
+        "Aureon 7.1 FW Bootloader"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/terratec-6188-x64-2.44.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-6188-x64-2.44.0.0.7z.0001",
+          "size_bytes": 1292419,
+          "sha256": "1bb564e45e50633e1b60c3868c060022e9ad13eb3f73540de6602c50e7734861",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/terratec-6188-x64-2.44.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a744d2809eb263b2",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Other",
+      "provider": "TerraTec",
+      "category": "MEDIA",
+      "version": "2.44.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TerraTec",
+        "Aureon 7.1 FW Audio Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/terratec-6188-x64-2.44.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-6188-x64-2.44.0.0.7z.0001",
+          "size_bytes": 1292419,
+          "sha256": "1bb564e45e50633e1b60c3868c060022e9ad13eb3f73540de6602c50e7734861",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelRCorporat_MEDIA_x64/terratec-6188-x64-2.44.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
@@ -12306,6 +15607,92 @@
         "id": "drv-640cb595f3f74d3b",
         "version": "6.2.6000.2",
         "date_added": "2026-08-09",
+        "superseded_by": null
+      }
+    ],
+    "x64|audioprocessingobject|": [
+      {
+        "id": "drv-20a0a8ee8ef3e424",
+        "version": "18.33.59.169",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2d150154ed8d8c55",
+        "version": "27.0.1.1",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-2d150154ed8d8c55",
+        "version": "27.0.1.1",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-64a52c0ca262afba",
+        "version": "27.0.5.0",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-c9070c6aea816eeb",
+        "version": "27.0.4.33",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-f120cb9674237b26",
+        "version": "27.0.4.20",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-6d21495381b21109",
+        "version": "27.0.4.24",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-f5d9437d6187f62f",
+        "version": "27.0.1.11",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-9861c71e58e02557",
+        "version": "27.0.4.48",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-a0db7ab617aaf19b",
+        "version": "100.1.4.1577",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-ac9729d5f7dfb320",
+        "version": "100.1.4.2126",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-28a1fd2e0fa85747",
+        "version": "100.1.4.2398",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-5d9992c34bd13844",
+        "version": "100.1.4.2635",
+        "date_added": "2026-08-10",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-7e508bf0cb8bda1f",
+        "version": "100.1.4.2740",
+        "date_added": "2026-08-10",
         "superseded_by": null
       }
     ]

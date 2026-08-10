@@ -3,7 +3,7 @@
   "category": "Input",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -23552,10 +23552,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-8e502cd92979ef9d",
+      "notes": " | Superseded by drv-8e502cd92979ef9d on 2026-08-10"
     },
     {
       "id": "drv-bbe477f42b548e8e",
@@ -145379,6 +145379,42 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ce8382d77e432812",
+      "pack": "IntelRCorporat_MEDIA_x64",
+      "type": "Input",
+      "provider": "SHANGHAI AWINIC TECHNOLOGY CO., LTD.",
+      "category": "Sensor",
+      "version": "0.0.2.0",
+      "arch": "arm64",
+      "hwids": [
+        "ACPI\\AWDZ9610X"
+      ],
+      "compatible_ids": [
+        "ACPI\\AWDZ9610X"
+      ],
+      "descriptions": [
+        "Awinic",
+        "Aw9610x Sar Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_IntelRCorporat_MEDIA_x64/shanghai-sens-a64-0.0.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shanghai-sens-a64-0.0.2.0.7z.0001",
+          "size_bytes": 531172,
+          "sha256": "27988706631beb3f441d764e4ef0dbb62fe15e2149bb447abb47d1d414a39f5c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_IntelRCorporat_MEDIA_x64/shanghai-sens-a64-0.0.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-10",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
