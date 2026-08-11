@@ -3,7 +3,7 @@
   "category": "Other",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -15647,6 +15647,1022 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-418e4dccf0e9ab27",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Realtek",
+      "category": "Extension",
+      "version": "10.0.309.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek SDCA XU Audio Device",
+        "Realtek SDCA XU Audio Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/realtek-exte-x64-10.0.309.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-exte-x64-10.0.309.1.7z.0001",
+          "size_bytes": 708304,
+          "sha256": "a3b1aa3af58fa569b17c6753193a58a091239695bda8dbd85325b1ac5a5a55b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/realtek-exte-x64-10.0.309.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f92e73bed2214e32",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Realtek",
+      "category": "Extension",
+      "version": "10.0.320.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek SDCA XU Audio Device",
+        "Realtek SDCA XU Audio Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/realtek-exte-x64-10.0.320.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-exte-x64-10.0.320.1.7z.0001",
+          "size_bytes": 920644,
+          "sha256": "66e1ec886d4fbdb3d77bb4b0bfd0fe7764727ce444a7b49d7356f035c193863e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/realtek-exte-x64-10.0.320.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42b7caf2cc3ace35",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Realtek",
+      "category": "Extension",
+      "version": "10.0.325.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek SDCA XU Audio Device",
+        "Realtek SDCA XU Audio Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/realtek-exte-x64-10.0.325.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-exte-x64-10.0.325.1.7z.0001",
+          "size_bytes": 1285879,
+          "sha256": "a0f2aaa4a9697b471c16d15c7c7456acff5eae085dc11c38bb19f8a0684f9f6f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/realtek-exte-x64-10.0.325.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-27e16b8fd916b9bf",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "12.2.0.17456",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d61320c0266a916bab92ec87755704845053bccfc5040606a7831dfa2494c160",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "3c59f80638f7b92fe7836f500300a87f5b35737584e5e17cebd932dbefb7e09f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "a74f6924d30528db0e8959d71081f4c4531071518d29ef1f6d4d4e1d802e55c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "b218950289023b286b6b49146e3ec1852425452684829289db989d37afa30577",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "ad2b8c2840463baeb1a64e756b2b285497f8f8b73d12be297a76a710e5b4b869",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "c7192f540106efdc756476695f20834d6caaca4a89575c6eb8497448bb4ffbc0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "d2628b7dd935cd90c158b359c0bd9bfd68b7611df6f5f6b4b0dbada3bc0b16f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "c0a1d3b90d4bad1826e1a3e985797fe7eea8c41e61e3515be7d07618b6c57350",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "38c688558423a1940af3a484a644e16a8b468e0b9da941e64fc84435013e94f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "b679ea84102b61411ca30d2bdb9e15c03625a5744e38742fb8a1cb6894953772",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0011",
+          "size_bytes": 316987,
+          "sha256": "736df79d5b4a922422cc77bfcb681ab3842e7aaa6fc054545089081de3821d39",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4ed9e79707ad6f9f",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "12.2.0.17456",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "d61320c0266a916bab92ec87755704845053bccfc5040606a7831dfa2494c160",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "3c59f80638f7b92fe7836f500300a87f5b35737584e5e17cebd932dbefb7e09f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "a74f6924d30528db0e8959d71081f4c4531071518d29ef1f6d4d4e1d802e55c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "b218950289023b286b6b49146e3ec1852425452684829289db989d37afa30577",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "ad2b8c2840463baeb1a64e756b2b285497f8f8b73d12be297a76a710e5b4b869",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "c7192f540106efdc756476695f20834d6caaca4a89575c6eb8497448bb4ffbc0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "d2628b7dd935cd90c158b359c0bd9bfd68b7611df6f5f6b4b0dbada3bc0b16f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "c0a1d3b90d4bad1826e1a3e985797fe7eea8c41e61e3515be7d07618b6c57350",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "38c688558423a1940af3a484a644e16a8b468e0b9da941e64fc84435013e94f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "b679ea84102b61411ca30d2bdb9e15c03625a5744e38742fb8a1cb6894953772",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-audi-x64-12.2.0.174.7z.0011",
+          "size_bytes": 316987,
+          "sha256": "736df79d5b4a922422cc77bfcb681ab3842e7aaa6fc054545089081de3821d39",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-12.2.0.174.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0e968c3b1d75d1f0",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "13.2.0.17456",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ba906dddb4d05097c8ce8ca744a03503679f78bad6b8532c679d77b648075169",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "e285d1b826ca95eac34c9e523d05edaef9dde6f79ec69da0e75efae04f4e7f7c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "cdfa662d369756d0aff170fa80ad1592744d9e5a0648728c2ff91881bb2aba94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "d75559fa06f3783788e2b6e2de5af5551e9c339c5e73d6df197a9c9ede2ced5d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "c3666cd1cb084b7c61a90c3ab7bfc329597ae853d0ec904d4938e20ff634a042",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "0561c9acfb3db6cef8ee318b88133cb82ad3cc92cb000fb95279c23e5ba492ef",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "dd60669cff0171b2ede6b857564928f1878915bb4501503e060663a0fa1f919d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "5078c096848139edf0fe4efb9f2496cb9e22f9027c60adabbdf8d5edb91d397b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "6e38a88773ffad7c12e0a037f55f96782b5509c1cb69e527f97363066123ded3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "80ccfe60082cf00e13be8f1389424763479f85653be5834d6ffd525dceb7705d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "487d42abce55bead2ebf118c77f0417ca896c76602f0d6200e1354f502b8d343",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "9064db14513860397015dd7a2499a9aecab4c85bb2f7a02baf844dc0cfafb693",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0013",
+          "size_bytes": 788229,
+          "sha256": "dba2a101f17e20c4c4a86c11636e71570b0c3fef06685003638b337d56340faf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-01db6ca173ecda06",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "13.2.0.17456",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ba906dddb4d05097c8ce8ca744a03503679f78bad6b8532c679d77b648075169",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "e285d1b826ca95eac34c9e523d05edaef9dde6f79ec69da0e75efae04f4e7f7c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "cdfa662d369756d0aff170fa80ad1592744d9e5a0648728c2ff91881bb2aba94",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "d75559fa06f3783788e2b6e2de5af5551e9c339c5e73d6df197a9c9ede2ced5d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "c3666cd1cb084b7c61a90c3ab7bfc329597ae853d0ec904d4938e20ff634a042",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "0561c9acfb3db6cef8ee318b88133cb82ad3cc92cb000fb95279c23e5ba492ef",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "dd60669cff0171b2ede6b857564928f1878915bb4501503e060663a0fa1f919d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "5078c096848139edf0fe4efb9f2496cb9e22f9027c60adabbdf8d5edb91d397b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "6e38a88773ffad7c12e0a037f55f96782b5509c1cb69e527f97363066123ded3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "80ccfe60082cf00e13be8f1389424763479f85653be5834d6ffd525dceb7705d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "487d42abce55bead2ebf118c77f0417ca896c76602f0d6200e1354f502b8d343",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "9064db14513860397015dd7a2499a9aecab4c85bb2f7a02baf844dc0cfafb693",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "waves-audi-x64-13.2.0.174.7z.0013",
+          "size_bytes": 788229,
+          "sha256": "dba2a101f17e20c4c4a86c11636e71570b0c3fef06685003638b337d56340faf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-13.2.0.174.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2b21a422f08b6a6a",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "14.2.0.18243",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-14.2.0.182.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-14.2.0.182.7z.0001",
+          "size_bytes": 14796776,
+          "sha256": "c86377ff61434cd953ca05ee2c3526b9ff27c9046e7e87cf64919801c36e2097",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-14.2.0.182.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-779e8250b97e00e8",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "14.2.0.18243",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-14.2.0.182.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-14.2.0.182.7z.0001",
+          "size_bytes": 14796776,
+          "sha256": "c86377ff61434cd953ca05ee2c3526b9ff27c9046e7e87cf64919801c36e2097",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-14.2.0.182.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b69729705878649d",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "15.2.0.18243",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-15.2.0.182.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-15.2.0.182.7z.0001",
+          "size_bytes": 14796769,
+          "sha256": "cd107db90d76e030fc8fca4ac7750f6dd8da5b8c9bfbeed85c796ff9b1e65091",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-15.2.0.182.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-72f7e0ed1c5cf2d8",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "15.2.0.18243",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-15.2.0.182.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-15.2.0.182.7z.0001",
+          "size_bytes": 14796769,
+          "sha256": "cd107db90d76e030fc8fca4ac7750f6dd8da5b8c9bfbeed85c796ff9b1e65091",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-15.2.0.182.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42b8659107384926",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "7.2.0.16618",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "40b51126412b891cef2ec9bc94bf9f9fa110954f105d0edd042b884c3a043241",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f250e3455aed1d3a5036d342172092167111cb7f542a779e8ed58c188a384896",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "37b114970ebeac15e1b6278245af41073f40ed6d65e633cf71b4b983f7a0e398",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "0952c188babb1abee9fa83b95bced882a48f1f71da3519d845bceb0eaab8d89a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0005",
+          "size_bytes": 6789001,
+          "sha256": "fb5f0388891f8718d359aba9dfe75d045425dc20bfd5392f916d45ed53e01fb8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0d66dc857c45bbad",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "7.2.0.16618",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0001",
+      "zip_parts": 5,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "40b51126412b891cef2ec9bc94bf9f9fa110954f105d0edd042b884c3a043241",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f250e3455aed1d3a5036d342172092167111cb7f542a779e8ed58c188a384896",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "37b114970ebeac15e1b6278245af41073f40ed6d65e633cf71b4b983f7a0e398",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "0952c188babb1abee9fa83b95bced882a48f1f71da3519d845bceb0eaab8d89a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-7.2.0.1661.7z.0005",
+          "size_bytes": 6789001,
+          "sha256": "fb5f0388891f8718d359aba9dfe75d045425dc20bfd5392f916d45ed53e01fb8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.2.0.1661.7z.0005"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-69c01d43d64168ea",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "7.4.0.15760",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-7.4.0.1576.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0cc64e7daf19c30f0e8b30dca2c0003e3c23bff5a6daee8ede9a54f3249a089e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-7.4.0.1576.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "10875f9dcc1d5174247862314e28e8dafc2c2355fd7b83b63114ff4db5165b5b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-7.4.0.1576.7z.0003",
+          "size_bytes": 968506,
+          "sha256": "a7310553b2dd5eb085302223601d1b08a6390da954200f3a59d457b494503624",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-89bdc3b6898254f1",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "7.4.0.15760",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-7.4.0.1576.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0cc64e7daf19c30f0e8b30dca2c0003e3c23bff5a6daee8ede9a54f3249a089e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-7.4.0.1576.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "10875f9dcc1d5174247862314e28e8dafc2c2355fd7b83b63114ff4db5165b5b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-7.4.0.1576.7z.0003",
+          "size_bytes": 968506,
+          "sha256": "a7310553b2dd5eb085302223601d1b08a6390da954200f3a59d457b494503624",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-7.4.0.1576.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dac1e4036d2140df",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Other",
+      "provider": "Waves",
+      "category": "AudioProcessingObject",
+      "version": "8.7.0.17859",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0001",
+      "zip_parts": 17,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5cc0f307716ebdf9412f97daba22382a59ded9a65fce92bcdc894d6fbcb13d1b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2c27e56ece1738cda3f16277bef65d93de8a629bbdf51296cbe11feef02f9a39",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "26f884c1c45a05a59430b53754e8ca110176f47608759b344c1591a3646fcb34",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "940f6f99f60dda045a152269b8de894bdcb7be854316773609f466fa737cfb85",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "5cde38311acd304399f5b2ad7a0028315c1ae8ac38b9961f1f578cfcb857197e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "3047eedc47fcc3da86a9a001a11475800ff2c5f3ab012dcd826e824179ce57cf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "5d33e18b5b4fd90b8192396d3e31c3455c5c0ac24b9cb8e0700cb9facef4e515",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "b3c614d6046f8272a622d1cfbf34b9959fcea1a3f118f64f5b02e1f4e6962a85",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "db6d6ed33c92984c549a44729a0f21b708ba44ce87545e31a1619acda0709db5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "9e4917aedcd2c70f0f084e3f9b47be1d6a3137008502c960c15fb2f2c8b0fa85",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "875c53a2db734e65e127f9545fd028d518e907549b6e27189e7e0e8d2459aa47",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "c6cd518ef11afdd50a7c28d9e05f551b28365b22a32e6f95744094b7f94d3afc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "953fa53ced4cde06b5aabb21098eca109b39229517267aa23e0de44cd81c0b02",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "a1043b1e95a170fc6b1be1563b12876ee3f448121cba0cf26e59d3215e7813d1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0014"
+        },
+        {
+          "part_num": 15,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "d0d154f13d82cba0af0c7824a51eed28eec05e661ac2f1cf864cf9038478ec13",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0015"
+        },
+        {
+          "part_num": 16,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0016",
+          "size_bytes": 15728640,
+          "sha256": "40a8943f2590abefc7d81e3400ca94b27d91ed619db33f8fa534381630b716e1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0016"
+        },
+        {
+          "part_num": 17,
+          "filename": "waves-audi-x64-8.7.0.1785.7z.0017",
+          "size_bytes": 7558457,
+          "sha256": "85b4663c2bc8e19a9c4e703de06260e18c4b3081b2cd302e8abcbbd675f945c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_RealtekSemicon_MEDIA_x64/waves-audi-x64-8.7.0.1785.7z.0017"
+        }
+      ],
+      "date_added": "2026-08-11",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

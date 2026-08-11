@@ -3,7 +3,7 @@
   "category": "Input",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -145415,6 +145415,48 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-59c526ba87cdc460",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Realtek Semiconductor Corp.",
+      "category": "HIDClass",
+      "version": "6.3.9600.3",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ACPI5514",
+        "ACPI\\PNP0600",
+        "ACPI\\RTKWOVHID",
+        "ACPI\\WOV0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\ACPI5514",
+        "ACPI\\PNP0600",
+        "ACPI\\RTKWOVHID",
+        "ACPI\\WOV0001"
+      ],
+      "descriptions": [
+        "Realtek Semiconductor Corp.",
+        "Realtek Input Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/realteks-hidc-x64-6.3.9600.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realteks-hidc-x64-6.3.9600.3.7z.0001",
+          "size_bytes": 1563886,
+          "sha256": "d0ec13e07041c3dd21e04f209ccda3aba0d2a1ef88136bad0e79cef876257b0f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/realteks-hidc-x64-6.3.9600.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

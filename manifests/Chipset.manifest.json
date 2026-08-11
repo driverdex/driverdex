@@ -3,7 +3,7 @@
   "category": "Chipset",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -197026,6 +197026,42 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d66c1aa2df34c3c2",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "6.2.9200.34712",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\INTCFFD"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTCFFD"
+      ],
+      "descriptions": [
+        "(Standard system devices)",
+        "I2C CODEC Device Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RealtekSemicon_MEDIA_x64/intelcor-syst-x86-6.2.9200.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x86-6.2.9200.3.7z.0001",
+          "size_bytes": 9966,
+          "sha256": "6a36946aa4f6815080cc1a30f900bcfe2ae3d8d379ef646bf3e0d8e5b054f595",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RealtekSemicon_MEDIA_x64/intelcor-syst-x86-6.2.9200.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

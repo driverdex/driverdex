@@ -2,7 +2,7 @@
   "schema": "3.0",
   "category": "Audio",
   "shard_index": 1,
-  "total_shards": 1,
+  "total_shards": 3,
   "updated": "2026-08-10",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
@@ -156805,5 +156805,7 @@
         "superseded_by": null
       }
     ]
-  }
+  },
+  "note": "Sealed — continued in manifests/Audio.manifest.2.json",
+  "next_shard": "manifests/Audio.manifest.2.json"
 }

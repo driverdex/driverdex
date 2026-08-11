@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -8764,6 +8764,1138 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42506057667b94b2",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "11.0.6000.25",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek OVWrap2 Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/realtek-soft-x64-11.0.6000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-11.0.6000.7z.0001",
+          "size_bytes": 4430892,
+          "sha256": "dd877ec78c18fbf159ca2f408a1c0449d9432e9547c0d8055f80c2782d1e0920",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/realtek-soft-x64-11.0.6000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2e0e855615050751",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "11.0.6000.50",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek OVWrap2 Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/realtek-soft-x64-11.0.6000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-11.0.6000.7z.0001",
+          "size_bytes": 12165056,
+          "sha256": "3149791d700d0bcd8849c870beb2d154d32d2cb22e2974ab164435e76bb33aa8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/realtek-soft-x64-11.0.6000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b5bd51d94a212fb1",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "11.0.6000.53",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek OVWrapN Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/realtek-soft-x64-11.0.6000.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-11.0.6000.7z.0001",
+          "size_bytes": 12677902,
+          "sha256": "24b3e5ff3c20488dd8b11f76120e388a663eccfe524c00413270df8c145544ab",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/realtek-soft-x64-11.0.6000.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e3cec577f7f86f70",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "4.3.0.28",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.3.0.28.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-4.3.0.28.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fc7e8eaa7e256a0224444f2e07e4cbc90330f10fe26699ab2e25a67c0d95aab3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.3.0.28.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-4.3.0.28.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "c53ded1b0180e4ffcb2cda195258147782fe2af443e7250b1be49502bfae290e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.3.0.28.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-4.3.0.28.7z.0003",
+          "size_bytes": 71953,
+          "sha256": "2a1287fdb8dcf48fb8f010ca5b871470ea9f9278423095aa5b18d5876f3e4439",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.3.0.28.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fb66ed56ef90817f",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "12.2.0.588",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0001",
+      "zip_parts": 17,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0475b083b77625d5441831aa0e0b4bc45d8b70cb43e067e47de918ec774ba189",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "f28332f06c04eddc379a0c006481146eacdcce048cf62864753fa02b0ef2a13d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "127e8ccc2680e2d9fa8b5246fc2e0385c4380d718dd9f48d0dc8dc9a024cbcd2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "b5e3326831e08369a60fbd30b9029054785656da5c07031ec860badd9d6c607a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "a38f020e6bf27aba920df12af5f072dac643c78d4fffddc53c0a1f8df4fc49f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "c0b16e63bd5d9da29e753d9d62a7dd5ec020d1ceb8999b54a174bec02dedb745",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "644c0963157991c79f228534f0d2d72cce9b2e230a2cd47684d025366b3802f4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "e6bf9ed06d2d052dcfb571745fff12d8513278fdfb5a9169697a40720cafdb52",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "ec01d9bc4e682cd0cbddc6f97dbce788b7ee33b0306ad99b30e937739ef4c0e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "da09316409326fe28120bb54ba939d0cf7410255f3f102e3a804e8bf93f7dd12",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "16eba55e765851bffc9bbe4e635582292efb7401f3ae978d9c6645ec184657bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "800110670956a119f75241381e498e1119de2ebb2bcad0e60dfb5e099acdcacb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "fac79c1ec0fe1352ff8fcbafa543b34bd2ba37b164d5c988372e67b9b9a71ecc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "1f8a3416899b80c746d775b7a2659689c955e6c6e2d60b873c7d409697d6b63f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0014"
+        },
+        {
+          "part_num": 15,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "77d2977de22bf5b497065269ad75e552b3211bae70e365de8eb872dfc011ad97",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0015"
+        },
+        {
+          "part_num": 16,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0016",
+          "size_bytes": 15728640,
+          "sha256": "60192aafaa8928dfad535b8b46cad3f4527d2cd754226cff1d9404c45efe0a10",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0016"
+        },
+        {
+          "part_num": 17,
+          "filename": "waves-soft-x64-12.2.0.588.7z.0017",
+          "size_bytes": 692133,
+          "sha256": "d37e90fa80bf877ff805689a1b91fa3bc38544e0645500e171a79b9d44f11418",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-12.2.0.588.7z.0017"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-59c0ab006727b9aa",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "3.2.0.81",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-3.2.0.81.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-3.2.0.81.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5d59f82710da1022155a7bd86bcc4eb05d2334ff87eab97a4ca342864babf096",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-3.2.0.81.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-3.2.0.81.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "e9f6636f3c827212f63d82f498f0222fa718ef30a95a6564dff3a9ef96835429",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-3.2.0.81.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-3.2.0.81.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "d1ac4067b55c6df29c0a7e6c46290af0ee48d2538b06f43d2be0db7cd154efcc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-3.2.0.81.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-3.2.0.81.7z.0004",
+          "size_bytes": 6815763,
+          "sha256": "b6236613b6ddac8b82218f6a6492060625e59f61b6a9080266e8c0ad61d393a5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-3.2.0.81.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fc7c6d6803709206",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "4.2.0.47",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.2.0.47.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-4.2.0.47.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "4d891b3d798c19ff62dacc69ae06c59509c371181666f231543b8c0d51e503cd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.2.0.47.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-4.2.0.47.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "fcd933df0623b8c2c44966a7db2eebd8d2d45dc9200c50e3b4d347f8c14bfe86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.2.0.47.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-4.2.0.47.7z.0003",
+          "size_bytes": 2099893,
+          "sha256": "8107e7c21d85508d285db70494fa9c668c0031ca4d4aa3a1b93e57c7fcc2c105",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.2.0.47.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-346fc62e544c2179",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "5.2.0.1078",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1078.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-5.2.0.1078.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fba90ff5b98e827f5109dbfccc266c2fd90c5be3f0adc2bad5f953160d65e704",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1078.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-5.2.0.1078.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2a6dde39fe8beaf6c3ed671bd6471a1fa529de767771cc7a094d12577286dd86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1078.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-5.2.0.1078.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "bccbe6aeb2d1817e8524ba4bdfbcdbb6b9e985f8b043490717d693717a256729",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1078.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-5.2.0.1078.7z.0004",
+          "size_bytes": 4961016,
+          "sha256": "787a2c94258d9b507b3866190fa5a522b4f6f3b89d0a73228364057dd3540ab6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1078.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a9c6dcbbbef49e0b",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "5.2.0.1836",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1836.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-5.2.0.1836.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a6ff8cba7140a2af8ca80319fdff80821c87d33549a1ec286c4856f063aa37dc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1836.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-5.2.0.1836.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "ddc904025836e72cbfaabd70c35cb2f38d4f105c9aeca0a69dea2729cf8b3d36",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1836.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-5.2.0.1836.7z.0003",
+          "size_bytes": 10919015,
+          "sha256": "4df9c00672a7e74be19af80b2a351b17e7ccc9ae63ca4d8ada353cc4359f89fe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.2.0.1836.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3c81d5f1a86af80c",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "6.2.0.1125",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0001",
+      "zip_parts": 13,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "84f303793787632893ecc21166cc0a5cbf293350a1950efd10cf3e01f22e6b5b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "0596dfc8ca164381f8e5b53bf3a828186e67aac6415dee4ba8d2e7ad23b9656f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "4991441263feafc46381624c1c38be3bdd935f665b9bf046b76bda793a9c4667",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e31fa5f1d73ac3c55c9f17a2fd9deb0ea7a135183fa6882b54a4cd0f704cc11d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "f1f17c2e236316e14d2ec3ca79cfb0de9b89ba648441e8a570a923697c3f1326",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "f2aa6dbd38c1193a5ac74bd890145aecc823b5a2cfdb628f373a9f49a24ec737",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "b913b3654189a125c1fbc626d26e8b5d96c682ed8a94bb0ce61815e46a76589d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "e965e2363bb48f13ae1167ade2907786e1817d7e97af2b9d5f739b59d2565ccb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "774e4a982129960a5ede80b21700d6c6ed8bc3918058d5680ba971a58490420d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "b1b04b3d9457711b4b9c14ed2c3a1861f89d4bf88efdbb4db63a1ba41297265a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "e9188bd82cb600325adbc98230e499712262cd9529b2c4aeacaf77cceca359b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "d073cf404759cc478761a6642cf34f05a6188266f2c8ea1bd933a04771778465",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "waves-soft-x64-6.2.0.1125.7z.0013",
+          "size_bytes": 5676984,
+          "sha256": "2667e92155047c14c1a6845789481dd46ccc0032b52f18b59dbcc00278cb4f0c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1125.7z.0013"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a5973e9b9c4f0ca4",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "6.2.0.1865",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1865.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-6.2.0.1865.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5328cca467d92f119ede157a69c22d31b7a9563d000494275ea909a431514ad4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1865.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-6.2.0.1865.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "de05c6b9a879bcb8ac83086c50a6d1710aca660a67c673a157ac0fd0207eecfb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1865.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-6.2.0.1865.7z.0003",
+          "size_bytes": 5465597,
+          "sha256": "c34f3de0fdeca22645c34380d1367afc21361971b6b45ca88ef01b8631605589",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.1865.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-79137327e881132f",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "6.2.0.768",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.768.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-6.2.0.768.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "4847956f62aa198f12ba6379db91b48a8b77823ca1ccaa0622715a63363a3868",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.768.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-6.2.0.768.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "66d32dfd03fe83971a3c5bfc1ec6f31a2b04ce780cc5a106607c27a74bc06b72",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.768.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-6.2.0.768.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "67a9b1041fc915fe9a082f036f3f031d8b0c2b324c0c29686b51fc93fe5681f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.768.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-6.2.0.768.7z.0004",
+          "size_bytes": 5100599,
+          "sha256": "edf75fe608fda94cbb1095e315465cd3b4a42188160831b98048829283ab92c5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-6.2.0.768.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8746c84a95162ce9",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "8.2.0.624",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0001",
+      "zip_parts": 14,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "b9cc12e95edc0c99631db112685bcb2d261019b7c63ccfb9308770d5bc83b302",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "5520969ee5f9dd509442c9bd39127329fdbf5f9a9870c300fb40eb8cee674157",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "0f88b2c54e9911cc024df1081fcfe8e42eb3ce101478b6965dc39553e93ff5fd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "1c6e55b46746af3cf45be1a47b4ab1b6352e710e4d1bb3da066fff827049403b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "f25fcfc5dbc29a57070f82b776d65bfc7dfdaf08e2ac0fd403f19ed1e61152ce",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "cd9d3cb3985d5cea2ab1adca9527d8bdfd1b02ea8e760c9c564154ffc8fbf14c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "cbffc0313d7a22c1f19f4bdb2f47472a75f46f4c8a53c8b3ee018a132fd67d84",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "ca5c34b671f05f1a60749750a8f83473faf8c2e40475cbf30c93efe5908077a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "2402acf323148c2d3d02e00cf2a49728ead4e698c0be3d1909b219ae141f5748",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "9926eff31e8cae5df53552f6197d77027b4755088b308beb66dde5b8c7d5dca5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "c883b1c2a27f453c9725024ef8c021e090e4a4be2a5ee3d25711da030b455641",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "fd30d4f3b61ffbc07cd1ecb4dfe0c6779290a4027874952eddecbd90bc35aa3d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "83d3065ce9b004a16bfc099ead607466e4bd157aea8d7700339f49cd6b3ad253",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "waves-soft-x64-8.2.0.624.7z.0014",
+          "size_bytes": 13649063,
+          "sha256": "8b3df3bfdf96da8b39bbb9e36a8c2ae48a854cd7843117b912697cf879fdeb66",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-8.2.0.624.7z.0014"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a58636473c169b34",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "4.4.0.1228",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0001",
+      "zip_parts": 11,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "cc781d51e258fdabce24c460c36f72e2cf43b705a849fd8f928530b8b3d23434",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "63edd36270d61288a8d4857948b22985992cc7161310cd4386cad3b975662239",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "f9dc6d0005b17606bbe18a4b2c5f947a5429aa95fe7440728cf74b8b037cb884",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "d10bad2f5b550ae84bca3026e037740bbe2e20662156fc14783b36389347bc65",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "0fe5ae855ce245da1eb780331ab37c48fcf012e56ba37e25c9024f4262b79619",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "f90df271225fdeed28169dbf2aa77b52f264495851cc862031524fd9d2a9629d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "f2a840c0c992208541a5e8434741de41a47c39c752c5a49dbf0454c70bef334c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "cc96b2463c0a5a054faefc149ba577a8d69cce1aa3026fe73f88fa77597db70d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "9550ad0458a20b7edadb33a79750e9983d0752500d1b1dbfbc285d3f1af7604a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "5221d0502c5fbd287e4ce2dd2a5c25a513c0b1fbf3e7b3a561e813c0f9710d97",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-soft-x64-4.4.0.1228.7z.0011",
+          "size_bytes": 9054579,
+          "sha256": "484d92a10104a7d3ff03981b96181ebff07f344e4dde475d0e76c91e3c5f28ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-4.4.0.1228.7z.0011"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e8cea9e54e09322d",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "7.4.0.553",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.4.0.553.7z.0001",
+      "zip_parts": 3,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-7.4.0.553.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5c610855532a75a46df0558bb619c5070942fbec513fa57f64b36259223c7a37",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.4.0.553.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-7.4.0.553.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "24d730cf5d451c7baf56d0dc87a5faf45ce6545763f953c4a287aa48d7bfa03a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.4.0.553.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-7.4.0.553.7z.0003",
+          "size_bytes": 130965,
+          "sha256": "22470be418b2cdaa9c3ab650c2e02510540100d55c120e744312078428806427",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.4.0.553.7z.0003"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6118d59063e66a1d",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "7.6.0.549",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0001",
+      "zip_parts": 12,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "354e12b297311d850c4477feffaf2f6303b0ee13537f2e6621cba762d301704e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "259d2dca4a8ffab95cf97e9778ac02d123e253f31f57dc39a22075b7781d17b2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "59ac1768ae065883259f24c1e46b1d9f84676b9096f6e88acc558d90972397d2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "57ec6158e4d5265cdea802bb66d54c4524f1795bd63930aa4795c1510828e4c7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "19a39a101206d951ee9bb00a29c168d11fa4a3644173f5e6c2093c8276f40e79",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "cd302337164a0f7d9b23396c2d2128a5e9152eb98d85b4dd6fae6fe5a86010da",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "98e436ca794562f04451d9ba55405ea424e3b4c0933fe6a09ac49e159c5aa81a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "466c13c293711536ec894e6708103189accefd2dbc22ef65cf4ddddf1180b8d7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "d778f4103fae96e0252b1b35364c22c165fde9e7a9f35a4658325e4a77c03908",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "08ceecaacb2c0efb0d5f8549be020686261dc616788812d5a1e0be4b002e535a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "571cd6650800a6911b62d30380042cb434de81e502350c1262afb3f45c0fb9b5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "waves-soft-x64-7.6.0.549.7z.0012",
+          "size_bytes": 678263,
+          "sha256": "aab9a33a01f53af7fd1fd2b4ae53b1b8c8021ea51cfdba9a1f594796a153f521",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-7.6.0.549.7z.0012"
+        }
+      ],
+      "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cc8e3b971be4a265",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Firmware",
+      "provider": "Waves",
+      "category": "SoftwareComponent",
+      "version": "5.5.0.25",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Waves",
+        "Waves APO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.5.0.25.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "waves-soft-x64-5.5.0.25.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a3c47a2c13b52072c842492ad199f5ca7ac1529e41515e2a1bc8267d8f163e9f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.5.0.25.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "waves-soft-x64-5.5.0.25.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "bdd8e995975b91a28bf7d95253e62b4d1e9b0163932b9f4a2f247144e6b256f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.5.0.25.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "waves-soft-x64-5.5.0.25.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "09fe6304aa6316630c84f331a65947a9325391601d9fdc126e796b6e8329adea",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.5.0.25.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "waves-soft-x64-5.5.0.25.7z.0004",
+          "size_bytes": 3970050,
+          "sha256": "650d1a01f11da54da6d3c60950dfc287b1b17e895900aa5b5a8bacc007e051be",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_RealtekSemicon_MEDIA_x64/waves-soft-x64-5.5.0.25.7z.0004"
+        }
+      ],
+      "date_added": "2026-08-11",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

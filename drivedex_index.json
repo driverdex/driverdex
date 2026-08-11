@@ -4,13 +4,13 @@
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
-      "size_bytes": 6479044,
+      "size_bytes": 6479164,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 7626891,
+      "size_bytes": 7628065,
       "active": true,
       "note": "active"
     },
@@ -22,7 +22,7 @@
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 315738,
+      "size_bytes": 365299,
       "active": true,
       "note": "active"
     },
@@ -34,7 +34,7 @@
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 4867482,
+      "size_bytes": 4868816,
       "active": true,
       "note": "active"
     },
@@ -46,7 +46,7 @@
     },
     {
       "filename": "manifests/Other.manifest.json",
-      "size_bytes": 580991,
+      "size_bytes": 624875,
       "active": true,
       "note": "active"
     },
@@ -82,14 +82,14 @@
     }
   ],
   "category_summary": {
-    "Audio": 2806,
-    "Chipset": 2628,
+    "Audio": 5034,
+    "Chipset": 2629,
     "Display": 6652,
-    "Firmware": 208,
+    "Firmware": 225,
     "Imaging": 64,
-    "Input": 2424,
+    "Input": 2425,
     "Net": 869,
-    "Other": 297,
+    "Other": 313,
     "Ports": 541,
     "Printer": 179,
     "Security": 38,
