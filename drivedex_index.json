@@ -1,10 +1,10 @@
 {
   "schema": "3.0",
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
-      "size_bytes": 6479164,
+      "size_bytes": 11407733,
       "active": true,
       "note": "active"
     },
@@ -82,7 +82,7 @@
     }
   ],
   "category_summary": {
-    "Audio": 5034,
+    "Audio": 3827,
     "Chipset": 2629,
     "Display": 6652,
     "Firmware": 225,
