@@ -3,7 +3,7 @@
   "category": "USB",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-12",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -79164,6 +79164,1406 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-39e663195f5b649e",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Cypress Semiconductor",
+      "category": "USB",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0547&PID_2131",
+        "USB\\VID_0547&PID_2131.DEVICEDESC",
+        "USB\\VID_0547&PID_2131.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_0547&PID_2131.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/cypresss-usb-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-usb-x64.7z.0001",
+          "size_bytes": 452975,
+          "sha256": "9aa512063b640779271d187c3d3c3f95da2dcc3a7c739a376c17444f6e6a8ead",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/cypresss-usb-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-437d532a8c0be3d0",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Cypress Semiconductor",
+      "category": "USB",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0D04&PID_2600",
+        "USB\\VID_0D04&PID_2600.DEVICEDESC",
+        "USB\\VID_0D04&PID_2600.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_0d04&PID_2600.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/cypresss-usb-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-usb-x64.7z.0001",
+          "size_bytes": 452975,
+          "sha256": "9aa512063b640779271d187c3d3c3f95da2dcc3a7c739a376c17444f6e6a8ead",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/cypresss-usb-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4e66bbcbd3f34065",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Cypress",
+      "category": "USB",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0D04&PID_2601"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%VID_0d04&PID_2601.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/cypresss-usb-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-usb-x64.7z.0001",
+          "size_bytes": 263318,
+          "sha256": "45246f89574d69925bfb1b0636befb776c57aabf2f35de85207df89c7527b333",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/cypresss-usb-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8e06c8e49a9cedba",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "USB",
+      "version": "1.0.0.356",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_2346&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-usb-x64-1.0.0.356.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ac5d7eb285c1d0c069aa10564c0ec4f1a05ca82e9dffe2f10b313198612307bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-usb-x64-1.0.0.356.7z.0002",
+          "size_bytes": 462302,
+          "sha256": "bdbecb0767bd32bc3fa5da0fe8de199e89b2e672ce3b0f593b6fdf7159c7ac47",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b68bb125caa62439",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "USB",
+      "version": "1.1.0.356",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_2346&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-usb-x64-1.0.0.356.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ac5d7eb285c1d0c069aa10564c0ec4f1a05ca82e9dffe2f10b313198612307bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-usb-x64-1.0.0.356.7z.0002",
+          "size_bytes": 462302,
+          "sha256": "bdbecb0767bd32bc3fa5da0fe8de199e89b2e672ce3b0f593b6fdf7159c7ac47",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ad97c7995233d036",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "Printer",
+      "version": "1.1.0.356",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\AFINIA_LABEL502_LABE77B4"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\AFINIA_LABEL502_LABE77B4"
+      ],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-usb-x64-1.0.0.356.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ac5d7eb285c1d0c069aa10564c0ec4f1a05ca82e9dffe2f10b313198612307bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-usb-x64-1.0.0.356.7z.0002",
+          "size_bytes": 462302,
+          "sha256": "bdbecb0767bd32bc3fa5da0fe8de199e89b2e672ce3b0f593b6fdf7159c7ac47",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-usb-x64-1.0.0.356.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-44dd8e48dbd48d0f",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "Printer",
+      "version": "1.1.0.63",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\AFINIA_LABELL301_LAB6E5E"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\AFINIA_LABELL301_LAB6E5E"
+      ],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-prin-x86-1.1.0.63.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ec38196103b1cb2eeef1d8399d9989d759fa8a655574492642f92836e72f5377",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-prin-x86-1.1.0.63.7z.0002",
+          "size_bytes": 419291,
+          "sha256": "f337793cdcd84ec36d29de343fffa476e162d036011e7038d64c7c31a4b4e47e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-179f10e3b1181204",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "USB",
+      "version": "1.1.0.63",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_072C&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-prin-x86-1.1.0.63.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ec38196103b1cb2eeef1d8399d9989d759fa8a655574492642f92836e72f5377",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-prin-x86-1.1.0.63.7z.0002",
+          "size_bytes": 419291,
+          "sha256": "f337793cdcd84ec36d29de343fffa476e162d036011e7038d64c7c31a4b4e47e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c7efd190b451570",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "USB",
+      "version": "1.1.0.63",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_072C&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-prin-x86-1.1.0.63.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ec38196103b1cb2eeef1d8399d9989d759fa8a655574492642f92836e72f5377",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-prin-x86-1.1.0.63.7z.0002",
+          "size_bytes": 419291,
+          "sha256": "f337793cdcd84ec36d29de343fffa476e162d036011e7038d64c7c31a4b4e47e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.1.0.63.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-685786a2531b9ac9",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "Printer",
+      "version": "1.0.0.349",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\AFINIA_LABELL501_LABCFBD"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\AFINIA_LABELL501_LABCFBD"
+      ],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-prin-x86-1.0.0.349.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c4650370ac6728db353f69faa229d90b78d8bca4537d4f794059a702be332af0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-prin-x86-1.0.0.349.7z.0002",
+          "size_bytes": 410816,
+          "sha256": "31aeeef0e17f6edc4d1f57651411f45d5c6d03e065da890dba8c0a09514f36d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e86a5d435d4fc6f0",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "USB",
+      "version": "1.1.0.349",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_092C&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-prin-x86-1.0.0.349.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c4650370ac6728db353f69faa229d90b78d8bca4537d4f794059a702be332af0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-prin-x86-1.0.0.349.7z.0002",
+          "size_bytes": 410816,
+          "sha256": "31aeeef0e17f6edc4d1f57651411f45d5c6d03e065da890dba8c0a09514f36d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7e98379b5c8612a",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Afinia Label",
+      "category": "USB",
+      "version": "1.1.0.349",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_092C&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Afinia Label"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "afiniala-prin-x86-1.0.0.349.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c4650370ac6728db353f69faa229d90b78d8bca4537d4f794059a702be332af0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "afiniala-prin-x86-1.0.0.349.7z.0002",
+          "size_bytes": 410816,
+          "sha256": "31aeeef0e17f6edc4d1f57651411f45d5c6d03e065da890dba8c0a09514f36d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/afiniala-prin-x86-1.0.0.349.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1b0417a1e2d4812",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Brady",
+      "category": "USBDevice",
+      "version": "13.54.20.543",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0E2E&PID_010D&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Brady",
+        "Brady WinUSB Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/brady-usbd-x64-13.54.20.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "brady-usbd-x64-13.54.20.5.7z.0001",
+          "size_bytes": 8501182,
+          "sha256": "df54df88fd9499f14beaac19fdc6cde28eb9219dd6dc511de67b81ba1a6479b3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/brady-usbd-x64-13.54.20.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5af4250019103b4a",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Brady WinUSB Driver",
+      "category": "MyDeviceClass",
+      "version": "3.7.1.3244",
+      "arch": "x86",
+      "hwids": [
+        "USB\\MYDEVICE.DEVICEDESC",
+        "USB\\MYDEVICE.DEVICEDESC%",
+        "USB\\VID_0E2E&PID_0001"
+      ],
+      "compatible_ids": [
+        "USB\\MYDEVICE.DEVICEDESC",
+        "USB\\MYDEVICE.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "Brady WinUSB Driver",
+        "%USB\\MyDevice.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/bradywin-myde-x86-3.7.1.3244.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bradywin-myde-x86-3.7.1.3244.7z.0001",
+          "size_bytes": 8413153,
+          "sha256": "f89bc34311c3a5545b756d5772532cd234bc7bcdae61da8db28e68bbad49b967",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/bradywin-myde-x86-3.7.1.3244.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4161712d6a2b9241",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Brady WinUSB PowerMark",
+      "category": "MyPowerMarkClass",
+      "version": "3.7.1.3244",
+      "arch": "x86",
+      "hwids": [
+        "USB\\MYPOWERMARK.DEVICEDESC",
+        "USB\\MYPOWERMARK.DEVICEDESC%",
+        "USB\\VID_0E2E&PID_0002"
+      ],
+      "compatible_ids": [
+        "USB\\MYPOWERMARK.DEVICEDESC",
+        "USB\\MYPOWERMARK.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "Brady WinUSB PowerMark",
+        "%USB\\MyPowerMark.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/bradywin-myde-x86-3.7.1.3244.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bradywin-myde-x86-3.7.1.3244.7z.0001",
+          "size_bytes": 8413153,
+          "sha256": "f89bc34311c3a5545b756d5772532cd234bc7bcdae61da8db28e68bbad49b967",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/bradywin-myde-x86-3.7.1.3244.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e6790a4107543384",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Brady Wraptor",
+      "category": "MyDeviceClass",
+      "version": "3.7.1.3244",
+      "arch": "x86",
+      "hwids": [
+        "USB\\MYDEVICE.DEVICEDESC",
+        "USB\\MYDEVICE.DEVICEDESC%",
+        "USB\\VID_0E2E&PID_0100"
+      ],
+      "compatible_ids": [
+        "USB\\MYDEVICE.DEVICEDESC",
+        "USB\\MYDEVICE.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "Brady Wraptor",
+        "%USB\\MyDevice.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/bradywin-myde-x86-3.7.1.3244.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bradywin-myde-x86-3.7.1.3244.7z.0001",
+          "size_bytes": 8413153,
+          "sha256": "f89bc34311c3a5545b756d5772532cd234bc7bcdae61da8db28e68bbad49b967",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/bradywin-myde-x86-3.7.1.3244.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b675b66f43619aec",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Primera",
+      "category": "USB",
+      "version": "1.0.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\MYDEVICE.DEVICEDESC",
+        "USB\\MYDEVICE.DEVICEDESC%",
+        "USB\\VID_0F25&PID_0024"
+      ],
+      "compatible_ids": [
+        "USB\\MYDEVICE.DEVICEDESC",
+        "USB\\MYDEVICE.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "Primera",
+        "%USB\\MyDevice.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/primera-usb-x86-1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "primera-usb-x86-1.0.0.7z.0001",
+          "size_bytes": 8490566,
+          "sha256": "e5789ab00f1bb548645540861cfe2d89e538c6dc921b71963a77afa177122363",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/primera-usb-x86-1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-498a1735a5513362",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Hewlett-Packard",
+      "category": "USB",
+      "version": "29.0.27.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\PRIMERACOLOR_LABEL_1331A",
+        "USBPRINT\\PRIMERACOLOR_LABEL_1331AP"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\PRIMERACOLOR_LABEL_1331A",
+        "USBPRINT\\PRIMERACOLOR_LABEL_1331AP"
+      ],
+      "descriptions": [
+        "Hewlett-Packard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/hewlettp-usb-x86-29.0.27.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-usb-x86-29.0.27.0.7z.0001",
+          "size_bytes": 5820,
+          "sha256": "2091711eaad7738ede0b6d42397d12a1a0e02e8096c1a195e1f2b9d31ea16c01",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/hewlettp-usb-x86-29.0.27.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-435e1f9fb5f62af1",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "Hewlett-Packard",
+      "category": "USB",
+      "version": "28.0.227.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\PRIMERACOLOR_LABEL_2771A",
+        "USBPRINT\\PRIMERACOLOR_LABEL_2771AP"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\PRIMERACOLOR_LABEL_2771A",
+        "USBPRINT\\PRIMERACOLOR_LABEL_2771AP"
+      ],
+      "descriptions": [
+        "Hewlett-Packard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/hewlettp-usb-x86-28.0.227.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-usb-x86-28.0.227.0.7z.0001",
+          "size_bytes": 5829,
+          "sha256": "2224226fdc888d1d17e96a7b92692c271b4f2c3f877ee8fc8b30f4ec161d6a1a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/hewlettp-usb-x86-28.0.227.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3fd77de874b67dd1",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "SNBC",
+      "category": "USB",
+      "version": "3.2.0.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\SNBC.LABELPRINTERDESC",
+        "USB\\SNBC.LABELPRINTERDESC%",
+        "USB\\SNBC.POSPRINTERDESC",
+        "USB\\SNBC.POSPRINTERDESC%",
+        "USB\\SNBC.PRINTERDESC",
+        "USB\\SNBC.PRINTERDESC%",
+        "USB\\VID_04CE&PID_04CE",
+        "USB\\VID_154F&PID_1000",
+        "USB\\VID_154F&PID_1001",
+        "USB\\VID_154F&PID_1002",
+        "USB\\VID_154F&PID_154F"
+      ],
+      "compatible_ids": [
+        "USB\\SNBC.LABELPRINTERDESC",
+        "USB\\SNBC.LABELPRINTERDESC%",
+        "USB\\SNBC.POSPRINTERDESC",
+        "USB\\SNBC.POSPRINTERDESC%",
+        "USB\\SNBC.PRINTERDESC",
+        "USB\\SNBC.PRINTERDESC%"
+      ],
+      "descriptions": [
+        "Shandong New Beiyang Information Technology Co., Ltd",
+        "%USB\\SNBC.POSPrinterDesc%",
+        "%USB\\SNBC.LabelPrinterDesc%",
+        "%USB\\SNBC.PrinterDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/snbc-usb-x86-3.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "snbc-usb-x86-3.2.0.0.7z.0001",
+          "size_bytes": 194998,
+          "sha256": "7e6b872153ee11d6a51304398bee4605537f8f791c9c51a6ded27eb3e7d34df4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/snbc-usb-x86-3.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c08b21ce8dccd878",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_120B&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c44f3475636d8cd86272df5cbddfb36840cd1afe7ca3fee9708be1107cd0fe85",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14626202,
+          "sha256": "d1ad5957c8c7718a536904d832351ef930918c9cf91ee6ad954750001b7d3b32",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-457a9aba86b4a1fb",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP5507203"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP5507203"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "c44f3475636d8cd86272df5cbddfb36840cd1afe7ca3fee9708be1107cd0fe85",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14626202,
+          "sha256": "d1ad5957c8c7718a536904d832351ef930918c9cf91ee6ad954750001b7d3b32",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b9f344336198a71",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_1203&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "edfe7a243eedd64dfaa534431897ca0dd6c28e95392b3e05702fa52ef5ee0b53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 15580464,
+          "sha256": "c8ee0fe88e4b6addb313deb657d7e5d8df259c0751facea26197de82d445028a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-18627cb72021a433",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP60022F0"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP60022F0"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "edfe7a243eedd64dfaa534431897ca0dd6c28e95392b3e05702fa52ef5ee0b53",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 15580464,
+          "sha256": "c8ee0fe88e4b6addb313deb657d7e5d8df259c0751facea26197de82d445028a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-586b52e289a1f2ed",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_120A&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "cefcc19056158da14b0cfdd3bbeb707060d0c0f5a91f5da7cf8f1db8d5ed3da4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 15575213,
+          "sha256": "86f0f5106e3458c5b8417fa2e2080cb79222413fdb5b0bf5b2d1587582fbbfcb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-db7b93698ed9ad8c",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP610B2F1"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP610B2F1"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "cefcc19056158da14b0cfdd3bbeb707060d0c0f5a91f5da7cf8f1db8d5ed3da4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 15575213,
+          "sha256": "86f0f5106e3458c5b8417fa2e2080cb79222413fdb5b0bf5b2d1587582fbbfcb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9e0e594673b33430",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_1208&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "bb7b01fdc8cb730c41ff0402b49074a68ddbef770d9c2a27de69fd07cffa0d05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14628612,
+          "sha256": "e2799f39df8838c2cf824f3aac97bf74fb579ecd60b0a0fef350335acfb162c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cd4e7cb02eb94a5a",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP65072F3"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP65072F3"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "bb7b01fdc8cb730c41ff0402b49074a68ddbef770d9c2a27de69fd07cffa0d05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14628612,
+          "sha256": "e2799f39df8838c2cf824f3aac97bf74fb579ecd60b0a0fef350335acfb162c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9469f5a678887ae6",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_1209&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "2ed0d8ff97d08032f9ac6b40dc0234d85ab5459c16fd60fb4b45076b8b0d77f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14626336,
+          "sha256": "58dc8ddecf887126b8c7ae5439db309b8b06a983f261f5dde59563d2ef37f7eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3cf22716ba1bf0fe",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP66080F3"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP66080F3"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "2ed0d8ff97d08032f9ac6b40dc0234d85ab5459c16fd60fb4b45076b8b0d77f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14626336,
+          "sha256": "58dc8ddecf887126b8c7ae5439db309b8b06a983f261f5dde59563d2ef37f7eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bdcd38fdaaa45673",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_1201&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "601f3f80b26d123129b6483bef3908282a5128b0b5d8d1a3d8f6e85045cc7094",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 15574239,
+          "sha256": "d8a5aed1d2c21dd91e0772cdb01afe5f95b2f867109bd580b90d1fcb25854099",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-afe23db8cac3bbd1",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP700E2A1"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP700E2A1"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "601f3f80b26d123129b6483bef3908282a5128b0b5d8d1a3d8f6e85045cc7094",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 15574239,
+          "sha256": "d8a5aed1d2c21dd91e0772cdb01afe5f95b2f867109bd580b90d1fcb25854099",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-69d6ac75cd8affbb",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "USB",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_239D&PID_1206&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VIPColor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "41c8b56e28f4d27fe81af7922cf5cb175daf61a9093044d651099d99f599921e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14630175,
+          "sha256": "f4f1b102c13914ae694c1876f17b59bf6cde1c61438eb483abaeb1559afb3d0a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eb964e6e1b4ba21a",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "VIPColor",
+      "category": "Printer",
+      "version": "18.7.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USBPRINT\\VIPCOLORVP750B2A2"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\VIPCOLORVP750B2A2"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "41c8b56e28f4d27fe81af7922cf5cb175daf61a9093044d651099d99f599921e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "vipcolor-usb-x86-18.7.13.0.7z.0002",
+          "size_bytes": 14630175,
+          "sha256": "f4f1b102c13914ae694c1876f17b59bf6cde1c61438eb483abaeb1559afb3d0a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/vipcolor-usb-x86-18.7.13.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b26dbe53c9440493",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "USB",
+      "provider": "XYZ Corporation",
+      "category": "USB",
+      "version": "20.53.22.856",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\XYZPRINTING_-_CASTPR2914",
+        "USBPRINT\\XYZPRINTING_-_DENTPR0C00",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_2D64",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_642D",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_BDD0",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_D9B5",
+        "USBPRINT\\XYZPRINTING_-_PARTPR842B"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\XYZPRINTING_-_CASTPR2914",
+        "USBPRINT\\XYZPRINTING_-_DENTPR0C00",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_2D64",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_642D",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_BDD0",
+        "USBPRINT\\XYZPRINTING_-_NOBEL_D9B5",
+        "USBPRINT\\XYZPRINTING_-_PARTPR842B"
+      ],
+      "descriptions": [
+        "XYZ Corporation",
+        "XYZprinting, 3D printer Nobel 1.0",
+        "XYZprinting, 3D printer Nobel 1.0A",
+        "XYZprinting, 3D printer Nobel Superfine",
+        "XYZprinting, 3D printer CastPro100 xP",
+        "XYZprinting, 3D printer DentPro100 xP",
+        "XYZprinting, 3D printer PartPro100 xP",
+        "XYZprinting, 3D printer Nobel Super 1.0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/xyzcorpo-usb-x64-20.53.22.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "xyzcorpo-usb-x64-20.53.22.8.7z.0001",
+          "size_bytes": 6449,
+          "sha256": "7b5fd90f22ae468060dbfafc21b003248cd7edfd80ae8a774a0eb6b1cee141a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_NiceLabel_Printer_x64/xyzcorpo-usb-x64-20.53.22.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

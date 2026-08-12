@@ -3,7 +3,7 @@
   "category": "Ports",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-12",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -27651,6 +27651,1094 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-782b0a85d73fdd7e",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "BIXOLON",
+      "category": "Ports",
+      "version": "1.1.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "BIXOLON",
+        "BIXOLON Virtual Serial Port For Ethernet"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/bixolon-port-x64-1.1.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bixolon-port-x64-1.1.1.0.7z.0001",
+          "size_bytes": 34882,
+          "sha256": "b7b56b9ffa4f24b2b06c2602a4f2a0012c4a19b7a451d674f67de7ba9b24bdf5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/bixolon-port-x64-1.1.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5d2f457b05dcfa21",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "BIXOLON",
+      "category": "Ports",
+      "version": "1.2.2.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "BIXOLON",
+        "BIXOLON Virtual Serial Port For USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/bixolon-port-x64-1.2.2.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bixolon-port-x64-1.2.2.3.7z.0001",
+          "size_bytes": 41464,
+          "sha256": "57f015766c7bf1267f71613c6efa9f80b4d566aaafa4257e3cbaa3434a7e84a6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/bixolon-port-x64-1.2.2.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-87aaca49786cf1d2",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "BIXOLON",
+      "category": "Ports",
+      "version": "1.0.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "BIXOLON",
+        "BIXOLON Virtual Parallel Port For USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/bixolon-port-x64-1.0.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bixolon-port-x64-1.0.2.0.7z.0001",
+          "size_bytes": 38878,
+          "sha256": "b83be7f4479de70bd157b142abf1a4772fdaa3d5901ce2bacd931ce90503edcf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/bixolon-port-x64-1.0.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e0a195913a9cac0a",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Ernst Reiner",
+      "category": "Ports",
+      "version": "1.33.0.33728",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0F83&PID_0101",
+        "USB\\VID_0F83&PID_0102",
+        "USB\\VID_0F83&PID_0103"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ernst Reiner"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/ernstrei-port-x86-1.33.0.337.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ernstrei-port-x86-1.33.0.337.7z.0001",
+          "size_bytes": 6461261,
+          "sha256": "f1dff355a6fded71b69a48e4a9fa7b46f0946d811d34e25d615156f7fab564e8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/ernstrei-port-x86-1.33.0.337.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fcc3937aed6f776b",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Ernst Reiner",
+      "category": "Ports",
+      "version": "1.33.0.33728",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0F83&PID_0101",
+        "USB\\VID_0F83&PID_0102",
+        "USB\\VID_0F83&PID_0103"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ernst Reiner"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/ernstrei-port-x64-1.33.0.337.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ernstrei-port-x64-1.33.0.337.7z.0001",
+          "size_bytes": 7242985,
+          "sha256": "7583348a58d939315afc0f876f93c2c18b022fae73c67d3c0f939d9e64de5c5b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/ernstrei-port-x64-1.33.0.337.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-78acdafb60ca097f",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Shin Heung",
+      "category": "System",
+      "version": "1.0.0.0",
+      "arch": "x86",
+      "hwids": [
+        "LPTENUM\\SAM4SELLIX102AAE",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC%"
+      ],
+      "compatible_ids": [
+        "LPTENUM\\SAM4SELLIX102AAE",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "%LPTENUM\\SAM4sPrinterPort.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-af48a31db7022b9f",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Shin Heung",
+      "category": "System",
+      "version": "1.0.0.0",
+      "arch": "x86",
+      "hwids": [
+        "LPTENUM\\SAM4SELLIX20II9D0B",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC%"
+      ],
+      "compatible_ids": [
+        "LPTENUM\\SAM4SELLIX20II9D0B",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "%LPTENUM\\SAM4sPrinterPort.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-95df306d97cbd998",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "System",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "LPTENUM\\SAM4SELLIX20II9D0B",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC%"
+      ],
+      "compatible_ids": [
+        "LPTENUM\\SAM4SELLIX20II9D0B",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC",
+        "LPTENUM\\SAM4SPRINTERPORT.DEVICEDESC%"
+      ],
+      "descriptions": [
+        "%LPTENUM\\SAM4sPrinterPort.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-38abed0f77de0ec0",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX30 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9b389c370f2447f",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX30 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f5922536708f5f1c",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A15"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX30III USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2a26f27fd05319fe",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A15"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX30III USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-59d5ebcd2d0e32a3",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A26"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX32III USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-71f8f8de2d292a3b",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A26"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX32III USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4284b82860e3692d",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3501"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX35 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1bece911786f5115",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3501"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX35 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4d851e0f71d2a857",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A1B"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX35III USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a89217c258d5d7c2",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "http://sam4s.com",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3303"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "http://sam4s.com",
+        "Communications Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-441a43843ccd9ee7",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3011"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX40 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0a632f7f99d914de",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3011"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX40 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3265c834b4db535b",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3003"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX40 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-10af78cb73968837",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3003"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX40 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a3ac5373c10ebab0",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3311"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX42 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-74f54be8f8850433",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3311"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX42 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-216bd51cbd1abda9",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3511"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELLIX45 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-28545821aa3e2aac",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3511"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "ELLIX45 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-03855e8045467b17",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A0D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GIANT-100 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-efadbe20f2996b68",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A0D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "GIANT-100 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eeae231eeb1a923b",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A22"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GIANT-150 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c3dd41816065f314",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A22"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "GIANT-150 USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c3bf8dd770f93a73",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "SAM4s",
+      "category": "Ports",
+      "version": "1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A11"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GIANTPRO USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b391d394e80ea3d3",
+      "pack": "NiceLabel_Printer_x64",
+      "type": "Ports",
+      "provider": "Sam4s",
+      "category": "Ports",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1C8A&PID_3A11"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sam4s",
+        "GIANTPRO USB Serial Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "shinheun-syst-x86-1.0.0.0.7z.0001",
+          "size_bytes": 24811,
+          "sha256": "74a07fa64e915614851eb05eb04a4a9fb989f42bbb936faa72f4eb9c05707393",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_NiceLabel_Printer_x64/shinheun-syst-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-12",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
