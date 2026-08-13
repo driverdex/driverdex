@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -9964,6 +9964,75 @@
         }
       ],
       "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a09c6d6c85161c7f",
+      "pack": "Synaptics_Mouse_x64",
+      "type": "Firmware",
+      "provider": "Goodix Input Device",
+      "category": "SoftwareComponent",
+      "version": "2.4.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Goodix",
+        "Goodix Accessibility Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Synaptics_Mouse_x64/goodixto-exte-x64-2.4.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "goodixto-exte-x64-2.4.3.0.7z.0001",
+          "size_bytes": 302386,
+          "sha256": "24cca1382f340fd7bd6ae36864e4f60701051aa18f4ac7a1fb32d2e61b21f05f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Synaptics_Mouse_x64/goodixto-exte-x64-2.4.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-14",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9c0fbe463f9a3e4c",
+      "pack": "Synaptics_Mouse_x64",
+      "type": "Firmware",
+      "provider": "Goodix Touchpad Device",
+      "category": "Extension",
+      "version": "2.4.3.0",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_GXTP&DEV_5400&COL05",
+        "HID\\VEN_GXTP&DEV_5410&COL05",
+        "HID\\VEN_GXTP&DEV_5440&COL05",
+        "HID\\VEN_GXTP&DEV_5450&COL05"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Goodix",
+        "Goodix Accessibility Tool Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Synaptics_Mouse_x64/goodixto-exte-x64-2.4.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "goodixto-exte-x64-2.4.3.0.7z.0001",
+          "size_bytes": 302386,
+          "sha256": "24cca1382f340fd7bd6ae36864e4f60701051aa18f4ac7a1fb32d2e61b21f05f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Synaptics_Mouse_x64/goodixto-exte-x64-2.4.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-14",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
