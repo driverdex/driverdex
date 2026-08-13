@@ -3,7 +3,7 @@
   "category": "Input",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -154470,6 +154470,682 @@
         }
       ],
       "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-775014e7a834110a",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc.",
+      "category": "HIDClass",
+      "version": "2.5.1.72",
+      "arch": "x64",
+      "hwids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "compatible_ids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "descriptions": [
+        "Cypress Semiconductor, Inc.",
+        "Cypress Input Device",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.72.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x86-2.5.1.72.7z.0001",
+          "size_bytes": 6318768,
+          "sha256": "62d61d018df01fba7a737750ef9bd4e8acfffcb97955bb88cf4c955c445dd391",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.72.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7bc877865dc2d2ac",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Keyboard",
+      "version": "2.5.1.72",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\VEN_DLLK&DEV_0589",
+        "ACPI\\VEN_MSFT&DEV_0001",
+        "ACPI\\VEN_PNP&DEV_0303"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Integrated PS/2 Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.72.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x86-2.5.1.72.7z.0001",
+          "size_bytes": 6318768,
+          "sha256": "62d61d018df01fba7a737750ef9bd4e8acfffcb97955bb88cf4c955c445dd391",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.72.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-83c2012285f0a5e8",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.5.1.72",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\VEN_DLL&DEV_052E",
+        "ACPI\\VEN_DLL&DEV_0589",
+        "ACPI\\VEN_DLL&DEV_058B",
+        "ACPI\\VEN_PNP&DEV_0F13"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.72.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x86-2.5.1.72.7z.0001",
+          "size_bytes": 6318768,
+          "sha256": "62d61d018df01fba7a737750ef9bd4e8acfffcb97955bb88cf4c955c445dd391",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.72.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-633b0363e9423bed",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Keyboard",
+      "version": "2.5.3.59",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Integrated PS/2 Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.5.3.59.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-keyb-x86-2.5.3.59.7z.0001",
+          "size_bytes": 4639027,
+          "sha256": "654e94b7d94604ee1818b856af9738dddb7eb8b0d1921f80ce1a49ed969eefa3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.5.3.59.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bf5debc18fdf516f",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.5.3.59",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.5.3.59.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-keyb-x86-2.5.3.59.7z.0001",
+          "size_bytes": 4639027,
+          "sha256": "654e94b7d94604ee1818b856af9738dddb7eb8b0d1921f80ce1a49ed969eefa3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.5.3.59.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6467e166340871ec",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc.",
+      "category": "HIDClass",
+      "version": "2.5.1.65",
+      "arch": "x64",
+      "hwids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "compatible_ids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "descriptions": [
+        "Cypress Semiconductor, Inc.",
+        "Cypress Input Device",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.65.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x86-2.5.1.65.7z.0001",
+          "size_bytes": 6318460,
+          "sha256": "0a0a5bf3eebdf7d58270097788abbf2efc626f04c4bc0242a8d3eef3ca7d3529",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.65.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-33f086d93dc829dd",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Keyboard",
+      "version": "2.5.1.65",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\VEN_DLLK&DEV_0589",
+        "ACPI\\VEN_PNP&DEV_0303"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Integrated PS/2 Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.65.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x86-2.5.1.65.7z.0001",
+          "size_bytes": 6318460,
+          "sha256": "0a0a5bf3eebdf7d58270097788abbf2efc626f04c4bc0242a8d3eef3ca7d3529",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.65.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bcee43763845e465",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.5.1.65",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\VEN_DLL&DEV_052E",
+        "ACPI\\VEN_DLL&DEV_0589",
+        "ACPI\\VEN_PNP&DEV_0F13"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.65.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x86-2.5.1.65.7z.0001",
+          "size_bytes": 6318460,
+          "sha256": "0a0a5bf3eebdf7d58270097788abbf2efc626f04c4bc0242a8d3eef3ca7d3529",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x86-2.5.1.65.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-31cba9ffeeea6292",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.03.0006.09",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Cypress TrackPad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x64-2.03.0006.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-mous-x64-2.03.0006.7z.0001",
+          "size_bytes": 653642,
+          "sha256": "8bf3b06b9a69bbab43438482fa6e1f76e4d651824ba589207cf0788455478863",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-mous-x64-2.03.0006.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ee21986d1975defe",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc.",
+      "category": "HIDClass",
+      "version": "2.3.7.104",
+      "arch": "x64",
+      "hwids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "compatible_ids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "descriptions": [
+        "Cypress Semiconductor, Inc.",
+        "Cypress Input Device",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.104.7z.0001",
+          "size_bytes": 3609621,
+          "sha256": "9f9f728ab56a55e6d566c89736f516e11018a5d8ca1c0ba8d4ed94e5eade69ae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5da5e6e06e4c2167",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Keyboard",
+      "version": "2.3.7.104",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Integrated PS/2 Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.104.7z.0001",
+          "size_bytes": 3609621,
+          "sha256": "9f9f728ab56a55e6d566c89736f516e11018a5d8ca1c0ba8d4ed94e5eade69ae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-126765b9ad9bc5ab",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.3.7.104",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Lenovo pointing device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.104.7z.0001",
+          "size_bytes": 3609621,
+          "sha256": "9f9f728ab56a55e6d566c89736f516e11018a5d8ca1c0ba8d4ed94e5eade69ae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7d580a2a7a0bc934",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.3.7.104",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Lenovo pointing device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.104.7z.0001",
+          "size_bytes": 3218861,
+          "sha256": "f39549016c30e0f66850d1df7e69d37c939945b92a1c24d98b4ecb384649821c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6fc566b3b182bb2d",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Keyboard",
+      "version": "2.3.7.43",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Integrated PS/2 Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.3.7.43.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-keyb-x86-2.3.7.43.7z.0001",
+          "size_bytes": 3457142,
+          "sha256": "6565928200b5ad83f8ae0e7e109d574d03db877efca8d472b253e3c327d7e0ed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.3.7.43.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a8f61bc88f473084",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.3.7.43",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Lenovo pointing device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.3.7.43.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-keyb-x86-2.3.7.43.7z.0001",
+          "size_bytes": 3457142,
+          "sha256": "6565928200b5ad83f8ae0e7e109d574d03db877efca8d472b253e3c327d7e0ed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.3.7.43.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6fe00fc7f795a799",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.3.7.43",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Lenovo pointing device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.3.7.43.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-keyb-x86-2.3.7.43.7z.0001",
+          "size_bytes": 3108806,
+          "sha256": "bce2d6929995ab422b8bec6e2df2eed88f381a5cfc1b08aea7afe5574f048ca3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-keyb-x86-2.3.7.43.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dfd6e6b6b4f79721",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc.",
+      "category": "HIDClass",
+      "version": "2.3.7.92",
+      "arch": "x64",
+      "hwids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "compatible_ids": [
+        "HID\\CYPRESSVIRTUALHIDDEVICE"
+      ],
+      "descriptions": [
+        "Cypress Semiconductor, Inc.",
+        "Cypress Input Device",
+        "Cypress Trackpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.92.7z.0001",
+          "size_bytes": 3609852,
+          "sha256": "b037de8b7608804c4ca1110bb7bfb247760e8037a736ac149ec29d3b0b34dbf8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe9bbb264d631a1d",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Keyboard",
+      "version": "2.3.7.92",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Integrated PS/2 Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.92.7z.0001",
+          "size_bytes": 3609852,
+          "sha256": "b037de8b7608804c4ca1110bb7bfb247760e8037a736ac149ec29d3b0b34dbf8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9c4196f386bb00e7",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.3.7.92",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Lenovo pointing device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.92.7z.0001",
+          "size_bytes": 3609852,
+          "sha256": "b037de8b7608804c4ca1110bb7bfb247760e8037a736ac149ec29d3b0b34dbf8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4fd0a865fca75422",
+      "pack": "RealtekSemicon_MEDIA_x64",
+      "type": "Input",
+      "provider": "Cypress Semiconductor, Inc",
+      "category": "Mouse",
+      "version": "2.3.7.92",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Cypress Semiconductor, Inc",
+        "Lenovo pointing device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cypresss-hidc-x64-2.3.7.92.7z.0001",
+          "size_bytes": 3218661,
+          "sha256": "d08095054e49a174ff3a82eec5452978f9fa30bb29b5dc5e7b45c9204cafad16",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_RealtekSemicon_MEDIA_x64/cypresss-hidc-x64-2.3.7.92.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

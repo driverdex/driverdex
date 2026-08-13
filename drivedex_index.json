@@ -34,7 +34,7 @@
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 5144872,
+      "size_bytes": 5167927,
       "active": true,
       "note": "active"
     },
@@ -82,12 +82,12 @@
     }
   ],
   "category_summary": {
-    "Audio": 3923,
+    "Audio": 6053,
     "Chipset": 2630,
     "Display": 6652,
     "Firmware": 225,
     "Imaging": 64,
-    "Input": 2578,
+    "Input": 2598,
     "Net": 869,
     "Other": 313,
     "Ports": 573,
