@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-11",
+  "updated": "2026-08-13",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -9896,6 +9896,74 @@
         }
       ],
       "date_added": "2026-08-11",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-12cac25385339abd",
+      "pack": "ELAN_Mouse_x64",
+      "type": "Firmware",
+      "provider": "ELAN Input Device",
+      "category": "SoftwareComponent",
+      "version": "42.21.22.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ELAN",
+        "ELAN Accessibility Tool Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ELAN_Mouse_x64/elaninpu-soft-x64-42.21.22.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elaninpu-soft-x64-42.21.22.0.7z.0001",
+          "size_bytes": 8143,
+          "sha256": "c6c4c59b55faf850e9875ba8801c5ea237584e57617ccb0cca6721b770be553a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ELAN_Mouse_x64/elaninpu-soft-x64-42.21.22.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1e68c92c2b59104",
+      "pack": "ELAN_Mouse_x64",
+      "type": "Firmware",
+      "provider": "Elantech Ltd.",
+      "category": "Firmware",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [
+        "UEFI\\RES_{234124E9-40B7-43EF-9B5E-97470808D440}"
+      ],
+      "compatible_ids": [
+        "UEFI\\RES_{234124E9-40B7-43EF-9B5E-97470808D440}"
+      ],
+      "descriptions": [
+        "Elantech Ltd.",
+        "Elantech Touch Pad Firmware 1.0.0.2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ELAN_Mouse_x64/elantech-firm-x64-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "elantech-firm-x64-1.0.0.2.7z.0001",
+          "size_bytes": 36239,
+          "sha256": "44cc4f476aa7d408d74a4b18b92bcc8c54d55072ec736d10911a8cd047ccb747",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ELAN_Mouse_x64/elantech-firm-x64-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-13",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
