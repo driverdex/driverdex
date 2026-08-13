@@ -2,7 +2,7 @@
   "schema": "3.0",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "installers": [
     {
