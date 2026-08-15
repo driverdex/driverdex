@@ -4,7 +4,7 @@
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
-      "size_bytes": 11779027,
+      "size_bytes": 12770141,
       "active": true,
       "note": "active"
     },
@@ -82,7 +82,7 @@
     }
   ],
   "category_summary": {
-    "Audio": 5520,
+    "Audio": 4712,
     "Chipset": 2736,
     "Display": 6653,
     "Firmware": 229,
@@ -94,6 +94,6 @@
     "Printer": 434,
     "Security": 38,
     "Storage": 861,
-    "USB": 1221
+    "USB": 1205
   }
 }
