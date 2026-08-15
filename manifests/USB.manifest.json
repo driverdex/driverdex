@@ -3,7 +3,7 @@
   "category": "USB",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-13",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -81796,6 +81796,961 @@
         }
       ],
       "date_added": "2026-08-13",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8453fcc392f34039",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0333&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ba3c1172a290f46c",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0334&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b0b03c4910b0b044",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_1333&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dbbc795ebcdbf9ac",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_1334&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-32166b5e49c30a29",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0333&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid ATSC/QAM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bd8b0013ad764af1",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0334&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid DVB-T"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-10aa41061c5eb644",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_1333&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid ATSC/QAM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f192405ca319b274",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.64.70",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_1334&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid DVB-T"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x64-10.2.64.70.7z.0001",
+          "size_bytes": 1895692,
+          "sha256": "8a38dc9bc7fd998c66a490239c09dec2e82ced57063cd6e6a9ca7bb4b1f3db5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x64-10.2.64.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2ee9ee9e1b3f23a0",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_0333&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1af046cf218842d6",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_0334&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-39d8209a1bab48d4",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_1333&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6ec8774227a7746d",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "USB",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_1334&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard HID"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b433060462115031",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_0333&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid ATSC/QAM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-66c9218128fd9971",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_0334&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid DVB-T"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7bba8796e010ef5f",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_1333&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid ATSC/QAM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-764bcc291d30b3eb",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "10.2.0.70",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_07CA&PID_1334&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia H334 MiniCard Hybrid DVB-T"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-usb-x86-10.2.0.70.7z.0001",
+          "size_bytes": 1621932,
+          "sha256": "b30462278b30fcfaa28cef8b45deb756775c4bc188ebcce833d7fe406af42054",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/avermedi-usb-x86-10.2.0.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bd0fed3d9cc74c25",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "DVB Technology Co. LTD",
+      "category": "USB",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B4&PID_2101"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "DVB Technology Co. LTD",
+        "DVB-S2101 USB Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/dvbtechn-usb-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dvbtechn-usb-x64.7z.0001",
+          "size_bytes": 20072,
+          "sha256": "bddc4345d34e679ac22aff7772af4b7538febd3b3a88c7e773f932205836b07c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/dvbtechn-usb-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-af530212e6f95460",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "DVB Technology Co. LTD",
+      "category": "USB",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B4&PID_2101"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "DVB-S2101 USB Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/dvbtechn-usb-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dvbtechn-usb-x64-1.0.0.0.7z.0001",
+          "size_bytes": 18331,
+          "sha256": "c10eba4719214390a12f9089f85934f5db6064a1a40d14384869a45ba7aca1ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/dvbtechn-usb-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-39bfa3512945fd26",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "1.2.1.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B4&PID_2000",
+        "USB\\VID_04B4&PID_2007"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GeoVision USB Dongle Master",
+        "GV-Series USB Protector"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.2.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.2.1.0.7z.0001",
+          "size_bytes": 33871,
+          "sha256": "af9a3ad521503324715a01313162f576bcbc200c70fef691b3f95d4975484466",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.2.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6221a343e159b963",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "Exar Corporation",
+      "category": "USB",
+      "version": "5.0.2153.1",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04E2&PID_1410",
+        "USB\\VID_04E2&PID_1411",
+        "USB\\VID_04E2&PID_1412",
+        "USB\\VID_04E2&PID_1414"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "XR21vb141x CC GP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/exarcorp-port-x64-1.9.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "exarcorp-port-x64-1.9.0.0.7z.0001",
+          "size_bytes": 51649,
+          "sha256": "32be7042133cc340c1b03f8fc2691be0c2069494c2c4074372eb978b3dab2b82",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/exarcorp-port-x64-1.9.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e390ada7833b5fee",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "ATI Technologies Inc.",
+      "category": "USB",
+      "version": "2.0.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0471&PID_0602&MI_00",
+        "USB\\VID_0471&PID_0602&MI_01",
+        "USB\\VID_0471&PID_0602&MI_02",
+        "USB\\VID_0471&PID_0603"
+      ],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/x10wirel-usb-x64-3.0.0.187.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x10wirel-usb-x64-3.0.0.187.7z.0001",
+          "size_bytes": 207115,
+          "sha256": "a6e3a029d3d7c9b472c7f92d16aa02f9ec707e164f52abc43bee8eeef13214fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/x10wirel-usb-x64-3.0.0.187.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-77890142c8589ce1",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "X10 Wireless Technology, Inc.",
+      "category": "USB",
+      "version": "3.0.0.187",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0BC7&PID_0001&REV_0100",
+        "USB\\VID_0BC7&PID_0001&REV_0200",
+        "USB\\VID_0BC7&PID_0002&REV_0100",
+        "USB\\VID_0BC7&PID_0002&REV_0200",
+        "USB\\VID_0BC7&PID_0003&REV_0100",
+        "USB\\VID_0BC7&PID_0003&REV_0200",
+        "USB\\VID_0BC7&PID_0004&REV_0100",
+        "USB\\VID_0BC7&PID_0004&REV_0200",
+        "USB\\VID_0BC7&PID_0005&REV_0100",
+        "USB\\VID_0BC7&PID_0005&REV_0200",
+        "USB\\VID_0BC7&PID_0006&REV_0100",
+        "USB\\VID_0BC7&PID_0006&REV_0200",
+        "USB\\VID_0BC7&PID_0007&REV_0100",
+        "USB\\VID_0BC7&PID_0007&REV_0200",
+        "USB\\VID_0BC7&PID_0008&REV_0100",
+        "USB\\VID_0BC7&PID_0008&REV_0200",
+        "USB\\VID_0BC7&PID_0009&REV_0100",
+        "USB\\VID_0BC7&PID_0009&REV_0200",
+        "USB\\VID_0BC7&PID_000A&REV_0100",
+        "USB\\VID_0BC7&PID_000A&REV_0200",
+        "USB\\VID_0BC7&PID_000B&REV_0100",
+        "USB\\VID_0BC7&PID_000B&REV_0200",
+        "USB\\VID_0BC7&PID_000C&REV_0100",
+        "USB\\VID_0BC7&PID_000C&REV_0200",
+        "USB\\VID_0BC7&PID_000D&REV_0100",
+        "USB\\VID_0BC7&PID_000D&REV_0200",
+        "USB\\VID_0BC7&PID_000E&REV_0100",
+        "USB\\VID_0BC7&PID_000E&REV_0200",
+        "USB\\VID_0BC7&PID_000F&REV_0100",
+        "USB\\VID_0BC7&PID_000F&REV_0200"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "X10 USB ActiveHome (ACPI-compliant)",
+        "X10 USB Firecracker Interface (ACPI-compliant)",
+        "X10 VGA Video Sender (ACPI-compliant)",
+        "X10 USB Wireless Transceiver (ACPI-compliant)",
+        "X10 USB Transceiver (ACPI-compliant)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/x10wirel-usb-x64-3.0.0.187.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x10wirel-usb-x64-3.0.0.187.7z.0001",
+          "size_bytes": 207115,
+          "sha256": "a6e3a029d3d7c9b472c7f92d16aa02f9ec707e164f52abc43bee8eeef13214fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/x10wirel-usb-x64-3.0.0.187.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2e13020f04b7a1e6",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "libusb-win32",
+      "category": "\"libusb-win32 devices\"",
+      "version": "1.2.6.38258",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_29DF&PID_0280&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "WinTV-UnoHD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/libusbwi-libu-x64-1.2.6.3825.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "libusbwi-libu-x64-1.2.6.3825.7z.0001",
+          "size_bytes": 61032,
+          "sha256": "3a2ef368d0702d2fdb149ecc2a495ecac4c9e8b9f3003a3952b98c95273bc1e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/libusbwi-libu-x64-1.2.6.3825.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6eef3ffde53c97ec",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "Hauppauge Computer Works, Inc",
+      "category": "USB",
+      "version": "1.3607.26059",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2040&PID_1100",
+        "USB\\VID_2040&PID_1100.DEVICEDESC",
+        "USB\\VID_2040&PID_1100.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_2040&PID_1100.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x64-1.3607.260.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-usb-x64-1.3607.260.7z.0001",
+          "size_bytes": 133996,
+          "sha256": "8af2cfce85cd80e0e9ef050683901c19c62dc145caa7c70036f7daa95febd98b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x64-1.3607.260.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f100eb9d6e75e5a2",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "Hauppauge Computer Works, Inc.",
+      "category": "Media",
+      "version": "1.3607.26059",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge WinTV-CI BDA (11xxx)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x64-1.3607.260.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-usb-x64-1.3607.260.7z.0001",
+          "size_bytes": 133996,
+          "sha256": "8af2cfce85cd80e0e9ef050683901c19c62dc145caa7c70036f7daa95febd98b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x64-1.3607.260.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-14dfb597a7040a7a",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "Hauppauge",
+      "category": "USB",
+      "version": "1.0.31064",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_05A6&PID_0008",
+        "USB\\VID_07B2&PID_6002"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "Hauppauge Tuning Adapter Driver (Cisco STA-1520)",
+        "Hauppauge Tuning Adapter Driver (Motorola MTR-700)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x86-1.0.31064.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-usb-x86-1.0.31064.7z.0001",
+          "size_bytes": 28017,
+          "sha256": "783ffa97f875b43ab5fd5f9b9a6847536e6185b19350b970448dc20eb9982a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x86-1.0.31064.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1e831b6851be6475",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "USB",
+      "provider": "Hauppauge",
+      "category": "USB",
+      "version": "1.0.31064",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_05A6&PID_0008",
+        "USB\\VID_07B2&PID_6002"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "Hauppauge Tuning Adapter Driver (Cisco STA-1520)",
+        "Hauppauge Tuning Adapter Driver (Motorola MTR-700)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x86-1.0.31064.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-usb-x86-1.0.31064.7z.0001",
+          "size_bytes": 28017,
+          "sha256": "783ffa97f875b43ab5fd5f9b9a6847536e6185b19350b970448dc20eb9982a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_AVerMediaTECHN_Media_x64/hauppaug-usb-x86-1.0.31064.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

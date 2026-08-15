@@ -2,7 +2,7 @@
   "schema": "3.0",
   "category": "Audio",
   "shard_index": 1,
-  "total_shards": 3,
+  "total_shards": 2,
   "updated": "2026-08-13",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",

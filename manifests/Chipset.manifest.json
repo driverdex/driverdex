@@ -3,7 +3,7 @@
   "category": "Chipset",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -205027,6 +205027,1171 @@
         }
       ],
       "date_added": "2026-08-14",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe8eb9ad83c9ab20",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "DVR",
+      "category": "ShareBit",
+      "version": "2.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_0316&DEV_9200",
+        "PCI\\VEN_14F1&DEV_8200",
+        "PCI\\VEN_14F1&DEV_8210",
+        "PCI\\VEN_1B07&DEV_1204"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "DVR-9200 Capture",
+        "DVR-8210 Capture",
+        "DVR-8200 Capture",
+        "DVR-1204 Capture"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/dvr-shar-x64-2.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dvr-shar-x64-2.0.0.0.7z.0001",
+          "size_bytes": 29607,
+          "sha256": "e3b379bb170381cbca658e65ac3eba09928f08c2fe53e114d4e5d3699eef7be3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/dvr-shar-x64-2.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b58d156ca251054b",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "DSSL",
+      "category": "DHVECWDM",
+      "version": "2.9.3.10",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1044&DEV_9065",
+        "PCI\\VEN_104C&DEV_9065",
+        "PCI\\VEN_104C&DEV_B003",
+        "PCI\\VEN_19E5&DEV_3511"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "DSSL",
+        "DSSL DVS2 series card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/dssl-dhve-x64-2.9.3.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dssl-dhve-x64-2.9.3.10.7z.0001",
+          "size_bytes": 66136,
+          "sha256": "496d60db191d890141558a6df2d4670da5d6d3af3095762cd2bdad9538b4f449",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/dssl-dhve-x64-2.9.3.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7d61d71545ec33c",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_197D&DEV_0ECB&SUBSYS_00000000",
+        "PCI\\VEN_197D&DEV_0ECB&SUBSYS_04800000"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GV1480/GV1240/GV1248/GV1120 Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64.7z.0001",
+          "size_bytes": 436806,
+          "sha256": "a52e9bbeae2ec23b99e4ec6328117b541bd8e50008b8ec261602355d9f68faf1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2438ea434ed7597f",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_197D&DEV_0ECB&SUBSYS_00000000"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GV2004-MP4 (CAP)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64.7z.0001",
+          "size_bytes": 950878,
+          "sha256": "de800f30d7978e631f3c92aecc82ebd097cf5e89a782367938e28592ffe1cb4b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9ea2694552e06cac",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_197D&DEV_0ECB&SUBSYS_01200000",
+        "PCI\\VEN_197D&DEV_0ECB&SUBSYS_02400000"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GV2008-MP4 (CAP)",
+        "GV2004-MP4 (CAP)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64.7z.0001",
+          "size_bytes": 950878,
+          "sha256": "de800f30d7978e631f3c92aecc82ebd097cf5e89a782367938e28592ffe1cb4b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-741a2265a73a85b1",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1745&DEV_2010&SUBSYS_2010197D",
+        "PCI\\VEN_1745&DEV_2010&SUBSYS_2020197D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GV2004-MP4 (ENC)",
+        "GV2008-MP4 (ENC)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64.7z.0001",
+          "size_bytes": 950878,
+          "sha256": "de800f30d7978e631f3c92aecc82ebd097cf5e89a782367938e28592ffe1cb4b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f8f92e6587de318c",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_14F1&DEV_8800&SUBSYS_2BEA2040"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GVMP2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64.7z.0001",
+          "size_bytes": 77302,
+          "sha256": "e5ddec4bc666e7b00493e97de2a49ad1c2bac90a32a60f73443be0aa65ba25c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8f3b7efd2a741a9d",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_14F1&DEV_8801&SUBSYS_2BEA2040",
+        "PCI\\VEN_14F1&DEV_8802&SUBSYS_2BEA2040",
+        "PCI\\VEN_14F1&DEV_8803&SUBSYS_2BEA2040",
+        "PCI\\VEN_14F1&DEV_8804&SUBSYS_2BEA2040",
+        "PCI\\VEN_14F1&DEV_8811&SUBSYS_2BEA2040"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GVMP2 NULL"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64.7z.0001",
+          "size_bytes": 77302,
+          "sha256": "e5ddec4bc666e7b00493e97de2a49ad1c2bac90a32a60f73443be0aa65ba25c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-93ecc3576c500b15",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "1.11.0.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\PARAMETERS",
+        "PCI\\VEN_1172&DEV_0054&SUBSYS_88880001",
+        "PCI\\VEN_1172&DEV_0054&SUBSYS_88880010"
+      ],
+      "compatible_ids": [
+        "PCI\\PARAMETERS"
+      ],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV1480A/GV1240A/GV1248A/GV1120A/GV1008",
+        "GV1960"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.11.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.11.0.0.7z.0001",
+          "size_bytes": 483061,
+          "sha256": "d4aaa85bd196d3f01d3a7f5acb5bfb72d76651c96fe387a0e42638cd9e0d24d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.11.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-db819e408c8b874f",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "1.4.6.1",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00010001",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00010002",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00020001",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00020002",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00030001",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00030002",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00040001",
+        "PCI\\VEN_1999&DEV_A04C&SUBSYS_00040002"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV3008 Encode #1",
+        "GV3008 Encode #2",
+        "GV3008 Encode #3",
+        "GV3008 Encode #4",
+        "GV3116 Encode #1",
+        "GV3116 Encode #2",
+        "GV3116 Encode #3",
+        "GV3116 Encode #4"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.4.6.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.4.6.1.7z.0001",
+          "size_bytes": 420709,
+          "sha256": "799d43afddda1c9ad738b2cbee116fcba294f36ee8cc12cc92d7d05d2b7bd512",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.4.6.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9ef482a4c75605b",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "2.1.6.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\PARAMETERS",
+        "PCI\\VEN_1172&DEV_0054&SUBSYS_88880002"
+      ],
+      "compatible_ids": [
+        "PCI\\PARAMETERS"
+      ],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV3008 Capture"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.4.6.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.4.6.1.7z.0001",
+          "size_bytes": 420709,
+          "sha256": "799d43afddda1c9ad738b2cbee116fcba294f36ee8cc12cc92d7d05d2b7bd512",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.4.6.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-97eee09df4ed0342",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "2.1.14.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07050F10",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07050F11",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07050F12",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07050F13",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051010",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051011",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051012",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051013",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051110",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051111",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051112",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051113",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051210",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051211",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051212",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_07051213",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F14",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F15",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F16",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F17",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F20",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F21",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F22",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47656F23",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657014",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657015",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657016",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657017",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657114",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657115",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657116",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657117",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657214",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657215",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657216",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_47657217"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV800(V4) Audio #1",
+        "GV800(V4) Audio #2",
+        "GV800(V4) Audio #3",
+        "GV800(V4) Audio #4",
+        "GV800(V4) Audio #5",
+        "GV800(V4) Audio #6",
+        "GV800(V4) Audio #7",
+        "GV800(V4) Audio #8",
+        "GV800(V4) Audio #9"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.2.14.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-2.2.14.0.7z.0001",
+          "size_bytes": 42644,
+          "sha256": "a00f7012e9fb053eca45e5314aff98e64199c16c3c69ea98e97f1666dbce14fe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.2.14.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d4593c559d1ebd85",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "2.2.14.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\PARAMETERS",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F10",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F11",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F12",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F13",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051010",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051011",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051012",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051013",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051110",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051111",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051112",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051113",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051210",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051211",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051212",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051213",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F14",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F15",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F16",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F17",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F20",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F21",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F22",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F23",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657014",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657015",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657016",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657017",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657114",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657115",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657116",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657117",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657214",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657215",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657216",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657217"
+      ],
+      "compatible_ids": [
+        "PCI\\PARAMETERS"
+      ],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV800(V4) Video Capture #1",
+        "GV800(V4) Video Capture #2",
+        "GV800(V4) Video Capture #3",
+        "GV800(V4) Video Capture #4",
+        "GV800(V4) Video Capture #5",
+        "GV800(V4) Video Capture #6",
+        "GV800(V4) Video Capture #7",
+        "GV800(V4) Video Capture #8",
+        "GV800(V4) Video Capture #9"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.2.14.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-2.2.14.0.7z.0001",
+          "size_bytes": 42644,
+          "sha256": "a00f7012e9fb053eca45e5314aff98e64199c16c3c69ea98e97f1666dbce14fe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.2.14.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-29efda4682c93cec",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "1.4.5.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_18A2&DEV_0002&SUBSYS_000018A2",
+        "PCI\\VEN_18A2&DEV_0002&SUBSYS_00004008",
+        "PCI\\VEN_18A2&DEV_0005&SUBSYS_000018A2"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV4008",
+        "GV4008(A)",
+        "GV2480"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.4.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.4.5.0.7z.0001",
+          "size_bytes": 97930,
+          "sha256": "7eaaf3cb07068c7e952b64d9ee5e19dd01be13e2817a3a7c4726a8e49d1df0de",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.4.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f2e6db03da067271",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "1.5.5.1",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_18A2&DEV_0020&SUBSYS_000018A2",
+        "PCI\\VEN_18A2&DEV_0024&SUBSYS_000018A2"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV5016",
+        "GV-SDI-204"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.5.5.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.5.5.1.7z.0001",
+          "size_bytes": 109304,
+          "sha256": "9ee0d1e14fe93ea1046c6f2f636d7cd136e65606205c093c95c0c3447dd82abf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.5.5.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f38706c9c82f4ad6",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "1.1.3.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100001",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100002",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100003",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100004",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100005",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100006",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100007",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100008",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100009",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_6810000A",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_6810000B",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_6810000C",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_6810000D",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_6810000E",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_6810000F",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100010",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100011",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100012",
+        "PCI\\VEN_1797&DEV_6810&SUBSYS_68100013",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110001",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110002",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110003",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110004",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110005",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110006",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110007",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110008",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110009",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_6811000A",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_6811000B",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_6811000C",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_6811000D",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_6811000E",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_6811000F",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110010",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110011",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110012",
+        "PCI\\VEN_1797&DEV_6811&SUBSYS_68110013",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120001",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120002",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120003",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120004",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120005",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120006",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120007",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120008",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120009",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_6812000A",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_6812000B",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_6812000C",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_6812000D",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_6812000E",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_6812000F",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120010",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120011",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120012",
+        "PCI\\VEN_1797&DEV_6812&SUBSYS_68120013",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130001",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130002",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130003",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130004",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130005",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130006",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130007",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130008",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130009",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_6813000A",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_6813000B",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_6813000C",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_6813000D",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_6813000E",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_6813000F",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130010",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130011",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130012",
+        "PCI\\VEN_1797&DEV_6813&SUBSYS_68130013",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140001",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140002",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140003",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140004",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140005",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140006",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140007",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140008",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140009",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_6814000A",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_6814000B",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_6814000C",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_6814000D",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_6814000E",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_6814000F",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140010",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140011",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140012",
+        "PCI\\VEN_1797&DEV_6814&SUBSYS_68140013",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150001",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150002",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150003",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150004",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150005",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150006",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150007",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150008",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150009",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_6815000A",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_6815000B",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_6815000C",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_6815000D",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_6815000E",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_6815000F",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150010",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150011",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150012",
+        "PCI\\VEN_1797&DEV_6815&SUBSYS_68150013",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160001",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160002",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160003",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160004",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160005",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160006",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160007",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160008",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160009",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_6816000A",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_6816000B",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_6816000C",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_6816000D",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_6816000E",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_6816000F",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160010",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160011",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160012",
+        "PCI\\VEN_1797&DEV_6816&SUBSYS_68160013",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170001",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170002",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170003",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170004",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170005",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170006",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170007",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170008",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170009",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_6817000A",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_6817000B",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_6817000C",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_6817000D",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_6817000E",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_6817000F",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170010",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170011",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170012",
+        "PCI\\VEN_1797&DEV_6817&SUBSYS_68170013"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GeoVision Inc.",
+        "GV800(B) Video #1",
+        "GV800(B) Video #2",
+        "GV800(B) Video #3",
+        "GV800(B) Video #4",
+        "GV800(B) Audio #1",
+        "GV800(B) Audio #2",
+        "GV800(B) Audio #3",
+        "GV800(B) Audio #4",
+        "GV900(A) Video #1"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.1.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.1.3.0.7z.0001",
+          "size_bytes": 49982,
+          "sha256": "3e8acc1f46d545cfd42e9aaff9d7c67d6867c0c70036e70ff123cd90ffdc5d4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.1.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8fa78d1fa564638f",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "2.2.14.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F20",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F21",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F22",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F23"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GV800_4A Video Capture #1",
+        "GV800_4A Video Capture #2",
+        "GV800_4A Video Capture #3",
+        "GV800_4A Video Capture #4"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.1.14.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-2.1.14.0.7z.0001",
+          "size_bytes": 35699,
+          "sha256": "f6f26c06291ec09eb7b0a0ebc7301c0d634658d9ff4597311dba3b99d4e8706a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.1.14.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6c2005fed3f9a46d",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "DVR-Devices",
+      "version": "2.2.14.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\PARAMETERS",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F10",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F11",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F12",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07050F13",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051010",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051011",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051012",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051013",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051110",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051111",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051112",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051113",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051210",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051211",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051212",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_07051213",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F14",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F15",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F16",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47656F17",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657014",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657015",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657016",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657017",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657114",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657115",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657116",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657117",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657214",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657215",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657216",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_47657217"
+      ],
+      "compatible_ids": [
+        "PCI\\PARAMETERS"
+      ],
+      "descriptions": [
+        "GV800(V4) Video Capture #1",
+        "GV800(V4) Video Capture #2",
+        "GV800(V4) Video Capture #3",
+        "GV800(V4) Video Capture #4",
+        "GV800(V4) Video Capture #5",
+        "GV800(V4) Video Capture #6",
+        "GV800(V4) Video Capture #7",
+        "GV800(V4) Video Capture #8",
+        "GV800(V4) Video Capture #9",
+        "GV800(V4) Video Capture #10"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.1.14.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-2.1.14.0.7z.0001",
+          "size_bytes": 35699,
+          "sha256": "f6f26c06291ec09eb7b0a0ebc7301c0d634658d9ff4597311dba3b99d4e8706a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-2.1.14.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8a17e93f3fd75c51",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "GeoVision Inc.",
+      "category": "System",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B4&PID_1BEC"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "GV-Series Protector"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.2.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "geovisio-dvrd-x64-1.2.1.0.7z.0001",
+          "size_bytes": 35890,
+          "sha256": "fac2e34cfc01c53b38120f3a7d2765d37657c413542803d1a32c6d13678a6d20",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/geovisio-dvrd-x64-1.2.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9dc7b48267bc175e",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "Goldvision Inc.",
+      "category": "iDVR",
+      "version": "5.11.0504",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1797&DEV_6801",
+        "PCI\\VEN_1797&DEV_6802",
+        "PCI\\VEN_1797&DEV_6804",
+        "PCI\\VEN_1797&DEV_6805",
+        "PCI\\VEN_1797&DEV_6810",
+        "PCI\\VEN_1797&DEV_6811",
+        "PCI\\VEN_1797&DEV_6812",
+        "PCI\\VEN_1797&DEV_6813",
+        "PCI\\VEN_1797&DEV_6814",
+        "PCI\\VEN_1797&DEV_6815",
+        "PCI\\VEN_1797&DEV_6816",
+        "PCI\\VEN_1797&DEV_6817",
+        "PCI\\VEN_1797&DEV_6864",
+        "PCI\\VEN_1797&DEV_6867",
+        "PCI\\VEN_1797&DEV_6868",
+        "PCI\\VEN_1797&DEV_6869"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Goldvision Inc.",
+        "HV4000 series DVR card",
+        "HV4000 series DVR card(PCIe)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/goldvisi-idvr-x64-5.11.0504.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "goldvisi-idvr-x64-5.11.0504.7z.0001",
+          "size_bytes": 59545,
+          "sha256": "e8b227c3d770272507218250514d0be6fbb807d796ddaa200e3c57f970a668c1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/goldvisi-idvr-x64-5.11.0504.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0bde3fd3ef011120",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "Pinnacle Systems",
+      "category": "System",
+      "version": "2.1.29.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\MARVINBUS"
+      ],
+      "compatible_ids": [
+        "ROOT\\MARVINBUS"
+      ],
+      "descriptions": [
+        "Pinnacle Systems",
+        "Pinnacle Marvin Bus 64"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/pinnacle-syst-x64-2.1.29.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pinnacle-syst-x64-2.1.29.0.7z.0001",
+          "size_bytes": 78341,
+          "sha256": "f006cc4ee30b35216adcc2f64aa926a839a9122aecca5aafb0fc8ac303cfab98",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/pinnacle-syst-x64-2.1.29.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-46d720a50b803842",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "AzureWave",
+      "category": "System",
+      "version": "1.0.0.12",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AzureWave",
+        "Virtual USB Hub"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/terratec-medi-x64-1.00.07.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-medi-x64-1.00.07.70.7z.0001",
+          "size_bytes": 316132,
+          "sha256": "a11896d23fae387130bb15884dc9e6e428f545c2edb0a28c0c255d86584ceb72",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/terratec-medi-x64-1.00.07.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7903e2eed97b526a",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "TERRATEC",
+      "category": "Media",
+      "version": "1.00.07.701",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0CCD&PID_10B5"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TERRATEC",
+        "CONNECT N3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/terratec-medi-x64-1.00.07.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-medi-x64-1.00.07.70.7z.0001",
+          "size_bytes": 316132,
+          "sha256": "a11896d23fae387130bb15884dc9e6e428f545c2edb0a28c0c255d86584ceb72",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/terratec-medi-x64-1.00.07.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4faa9c06c118f8cd",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Chipset",
+      "provider": "TERRATEC",
+      "category": "Media",
+      "version": "1.00.07.701",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0CCD&PID_10B5"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TERRATEC",
+        "CONNECT N3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/terratec-medi-x86-1.00.07.70.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-medi-x86-1.00.07.70.7z.0001",
+          "size_bytes": 288767,
+          "sha256": "0768f2b23c93f98a60acb63b4d89af5116578da7b65df1923f8ad31eb808576d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_AVerMediaTECHN_Media_x64/terratec-medi-x86-1.00.07.70.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

@@ -1,6 +1,6 @@
 {
   "schema": "3.0",
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
@@ -10,13 +10,13 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 7934388,
+      "size_bytes": 7977367,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Display.manifest.json",
-      "size_bytes": 9522709,
+      "size_bytes": 9523789,
       "active": true,
       "note": "active"
     },
@@ -28,31 +28,31 @@
     },
     {
       "filename": "manifests/Imaging.manifest.json",
-      "size_bytes": 207642,
+      "size_bytes": 253042,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 8506391,
+      "size_bytes": 8564108,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Net.manifest.json",
-      "size_bytes": 13535692,
+      "size_bytes": 13568873,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Other.manifest.json",
-      "size_bytes": 664434,
+      "size_bytes": 668170,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Ports.manifest.json",
-      "size_bytes": 1080443,
+      "size_bytes": 1082084,
       "active": true,
       "note": "active"
     },
@@ -76,24 +76,24 @@
     },
     {
       "filename": "manifests/USB.manifest.json",
-      "size_bytes": 2990367,
+      "size_bytes": 3023110,
       "active": true,
       "note": "active"
     }
   ],
   "category_summary": {
-    "Audio": 3923,
-    "Chipset": 2712,
-    "Display": 6652,
+    "Audio": 5520,
+    "Chipset": 2736,
+    "Display": 6653,
     "Firmware": 229,
-    "Imaging": 64,
-    "Input": 3266,
-    "Net": 869,
-    "Other": 320,
-    "Ports": 573,
+    "Imaging": 97,
+    "Input": 3290,
+    "Net": 896,
+    "Other": 322,
+    "Ports": 574,
     "Printer": 434,
     "Security": 38,
     "Storage": 861,
-    "USB": 1194
+    "USB": 1221
   }
 }

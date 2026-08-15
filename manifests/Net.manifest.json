@@ -3,7 +3,7 @@
   "category": "Net",
   "shard_index": 1,
   "total_shards": 2,
-  "updated": "2026-08-10",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -262641,6 +262641,975 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1400956244f1181",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Net",
+      "version": "2.1.64.150",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia Ethernet Adapter for MPE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.150.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.64.150.7z.0001",
+          "size_bytes": 248901,
+          "sha256": "e2c7a5e977315704e9f1c623003f598424655f822ede40092c2a7948acfd93cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.150.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ced48b0ae76dda11",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "2.1.64.150",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_A816"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia A816 USB Hybrid DVB-S"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.150.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.64.150.7z.0001",
+          "size_bytes": 248901,
+          "sha256": "e2c7a5e977315704e9f1c623003f598424655f822ede40092c2a7948acfd93cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.150.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e44e61de2cb7e926",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Net",
+      "version": "2.1.64.159",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia Ethernet Adapter for MPE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.159.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.64.159.7z.0001",
+          "size_bytes": 242243,
+          "sha256": "949069f0d0386a6418f3f04e7f5d73fc389b26074e01e52158067533c62fc946",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.159.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-743e19308dd5b994",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "2.1.64.159",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0889"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia R889 USB DVB-S2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.159.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.64.159.7z.0001",
+          "size_bytes": 242243,
+          "sha256": "949069f0d0386a6418f3f04e7f5d73fc389b26074e01e52158067533c62fc946",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.64.159.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d54c2c2f14354bbc",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Net",
+      "version": "2.1.0.150",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia Ethernet Adapter for MPE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.150.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.0.150.7z.0001",
+          "size_bytes": 289197,
+          "sha256": "362b42c290b3770307a16bb9fdabe9e4dd895e0eabb9e3371f48e3c07c1d6101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.150.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9586a04b4fc0cd84",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "2.1.0.150",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_A816"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia A816 USB Hybrid DVB-S"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.150.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.0.150.7z.0001",
+          "size_bytes": 289197,
+          "sha256": "362b42c290b3770307a16bb9fdabe9e4dd895e0eabb9e3371f48e3c07c1d6101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.150.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6f7d92c8b7e5415c",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Net",
+      "version": "2.1.0.159",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia Ethernet Adapter for MPE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.159.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.0.159.7z.0001",
+          "size_bytes": 215534,
+          "sha256": "01a903b1ea65225cc12df8738744abf9bd1bce55a2d8ef594c55999d55317935",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.159.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-33d394987d221d4f",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "AVerMedia TECHNOLOGIES, Inc.",
+      "category": "Media",
+      "version": "2.1.0.159",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0889"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerMedia TECHNOLOGIES, Inc.",
+        "AVerMedia R889 USB DVB-S2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.159.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-medi-x64-2.1.0.159.7z.0001",
+          "size_bytes": 215534,
+          "sha256": "01a903b1ea65225cc12df8738744abf9bd1bce55a2d8ef594c55999d55317935",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/avermedi-medi-x64-2.1.0.159.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fd860ec8328bbdfe",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "DVB ETCorp",
+      "category": "Net",
+      "version": "6.3.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "DVB ETCorp",
+        "DVB Net ETAdapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/dvbetcor-net-x86-6.3.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dvbetcor-net-x86-6.3.0.1.7z.0001",
+          "size_bytes": 21294,
+          "sha256": "3c6ebd89370e9ddc3b43908b46e5b0dccc8b4b59e3f2ecc9b32603054045a498",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/dvbetcor-net-x86-6.3.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7613f35ec79e21a8",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "DVB Corp.",
+      "category": "Net",
+      "version": "6.3.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "%*DVBNet.devicedesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/dvbcorp-net-x64-6.3.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dvbcorp-net-x64-6.3.0.1.7z.0001",
+          "size_bytes": 20210,
+          "sha256": "1dff3b1001f07f15734755634434edff13dcb76fb8aa0233a6080c2498bfcbd5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/dvbcorp-net-x64-6.3.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5476821dcac19570",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "B2C2",
+      "category": "Net",
+      "version": "4.3.2.9999",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_13D0&DEV_2103",
+        "PCI\\VEN_13D0&DEV_2200"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "B2C2, Inc.",
+        "TechniSat DVB-PC TV Star PCI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/b2c2-net-x64-4.3.2.9999.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "b2c2-net-x64-4.3.2.9999.7z.0001",
+          "size_bytes": 282241,
+          "sha256": "43272f2de7d274c38da5ccb2c4c8cfa5b990ceaaf69465817d32a7d657313d27",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/b2c2-net-x64-4.3.2.9999.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4638a90fd9da54d3",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "TechniSat Digital",
+      "category": "Net",
+      "version": "4.6.0.9999",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_13D0&DEV_2103",
+        "PCI\\VEN_13D0&DEV_2200"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TechniSat Digital",
+        "TechniSat DVB-PC TV Star PCI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technisa-net-x64-4.6.0.9999.7z.0001",
+          "size_bytes": 423575,
+          "sha256": "c27b7237f9067109dbd095d19bed2557c89531967456ba41b4a1eec3b93ca01c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c88f8705da1005dc",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "TechniSat Digital",
+      "category": "Net",
+      "version": "4.6.0.9999",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0AF7&PID_0101"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TechniSat Digital",
+        "TechniSat DVB-PC TV Star USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technisa-net-x64-4.6.0.9999.7z.0001",
+          "size_bytes": 992048,
+          "sha256": "8300be0d085db10fd01c9a0db06251ffbf10d22dbebcad287510b711fe7a8350",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0102ed4a4d22aa20",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Technisat",
+      "category": "Net",
+      "version": "4.6.0.9999",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_13D0&PID_2282"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Technisat",
+        "TechniSat DVB-PC TV Star USB 2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technisa-net-x64-4.6.0.9999.7z.0001",
+          "size_bytes": 992048,
+          "sha256": "8300be0d085db10fd01c9a0db06251ffbf10d22dbebcad287510b711fe7a8350",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dc765f4fe56e0a33",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Technisat",
+      "category": "Net",
+      "version": "4.6.0.9999",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B4&PID_8613",
+        "USB\\VID_13D0&PID_2282",
+        "USB\\VID_14F7&PID_0500"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Technisat",
+        "Cypress Bridge",
+        "TechniSat DVB-PC TV Star USB HD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technisa-net-x64-4.6.0.9999.7z.0001",
+          "size_bytes": 992048,
+          "sha256": "8300be0d085db10fd01c9a0db06251ffbf10d22dbebcad287510b711fe7a8350",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-4.6.0.9999.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe174d2feb97be56",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "TechnoTrend",
+      "category": "Net",
+      "version": "2.5.1.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100313C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100413C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100513C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100913C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100A13C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100B13C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100C13C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100D13C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100E13C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_100F13C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101013C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101113C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101213C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101613C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101713C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101813C2",
+        "PCI\\VEN_1131&DEV_7146&SUBSYS_101913C2"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TechnoTrend DVBsat PCI budget Adapter",
+        "TechnoTrend DVB-C PCI budget Adapter",
+        "TechnoTrend DVB-T PCI budget Adapter",
+        "TechnoTrend DVB-S2 PCI budget Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-net-x64-2.5.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technotr-net-x64-2.5.1.0.7z.0001",
+          "size_bytes": 44516,
+          "sha256": "41c348fbda5fa46facef3f240ae96e92b4b6fda3879cb6ce7a7c07904fd5f69d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-net-x64-2.5.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-306ebe95c297095e",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "TechnoTrend",
+      "category": "Media",
+      "version": "1.5.4.2",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B4&PID_8613",
+        "USB\\VID_04B4&PID_8613.DEVICEDESC",
+        "USB\\VID_04B4&PID_8613.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3001&REV_0000",
+        "USB\\VID_0B48&PID_3001&REV_0001",
+        "USB\\VID_0B48&PID_3001&REV_0100",
+        "USB\\VID_0B48&PID_3001&REV_0101",
+        "USB\\VID_0B48&PID_3001.DEVICEDESC",
+        "USB\\VID_0B48&PID_3001.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3002&REV_0001",
+        "USB\\VID_0B48&PID_3002&REV_0101",
+        "USB\\VID_0B48&PID_3002.DEVICEDESC",
+        "USB\\VID_0B48&PID_3002.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3003&REV_0001",
+        "USB\\VID_0B48&PID_3003&REV_0101",
+        "USB\\VID_0B48&PID_3003.DEVICEDESC",
+        "USB\\VID_0B48&PID_3003.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3004&REV_0000",
+        "USB\\VID_0B48&PID_3004&REV_0001",
+        "USB\\VID_0B48&PID_3004&REV_0100",
+        "USB\\VID_0B48&PID_3004&REV_0101",
+        "USB\\VID_0B48&PID_3004.DEVICEDESC",
+        "USB\\VID_0B48&PID_3004.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3005",
+        "USB\\VID_0B48&PID_3005.DEVICEDESC",
+        "USB\\VID_0B48&PID_3005.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3006&REV_0000",
+        "USB\\VID_0B48&PID_3006&REV_0100",
+        "USB\\VID_0B48&PID_3006.DEVICEDESC",
+        "USB\\VID_0B48&PID_3006.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3007&REV_0001",
+        "USB\\VID_0B48&PID_3007&REV_0101",
+        "USB\\VID_0B48&PID_3007.DEVICEDESC",
+        "USB\\VID_0B48&PID_3007.DEVICEDESC%",
+        "USB\\VID_0B48&PID_3009",
+        "USB\\VID_0B48&PID_3009.DEVICEDESC",
+        "USB\\VID_0B48&PID_3009.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_0B48&PID_3001.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3002.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3003.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3004.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3005.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3006.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3009.DeviceDesc%",
+        "%USB\\VID_0B48&PID_3007.DeviceDesc%",
+        "%USB\\VID_04B4&PID_8613.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-medi-x64-1.5.4.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technotr-medi-x64-1.5.4.2.7z.0001",
+          "size_bytes": 141378,
+          "sha256": "e023e293502213e875ee5cb12e81872e9ce33dd9ec64cfc26379435e4a5f24a3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-medi-x64-1.5.4.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3a8ac72acc242d32",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "TechnoTrend",
+      "category": "Net",
+      "version": "1.9.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0B48&PID_1003&MI_00",
+        "USB\\VID_0B48&PID_1004&MI_00",
+        "USB\\VID_0B48&PID_1005&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Virtual USB Network Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-net-x64-1.9.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technotr-net-x64-1.9.0.1.7z.0001",
+          "size_bytes": 38752,
+          "sha256": "f748df89053533076c6af558d752c327aa32ec3b2538b744dae9b26b06cf3bf8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-net-x64-1.9.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3ec50bcb553b9afe",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Technotrend AG",
+      "category": "Media",
+      "version": "1.8.6.9",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0B48&PID_1003&MI_01",
+        "USB\\VID_0B48&PID_1004&MI_01",
+        "USB\\VID_0B48&PID_1005&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TechnoTrend TT-PCline USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-net-x64-1.9.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technotr-net-x64-1.9.0.1.7z.0001",
+          "size_bytes": 38752,
+          "sha256": "f748df89053533076c6af558d752c327aa32ec3b2538b744dae9b26b06cf3bf8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technotr-net-x64-1.9.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1016d5a5f4c544c3",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "TechniSat",
+      "category": "Net",
+      "version": "1.7.2.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TechniSat",
+        "%*VPNET.devicedesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-1.7.2.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "technisa-net-x64-1.7.2.7.7z.0001",
+          "size_bytes": 41845,
+          "sha256": "f6a338dde2912a293c4152b016ee8ec35663f3dee4ea5ded521882dfa2bdd00a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/technisa-net-x64-1.7.2.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0f7fa6e6b7dd9c87",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Ceton",
+      "category": "Net",
+      "version": "1.0.2.4",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1B7C&DEV_0004"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ceton",
+        "Ceton InfiniTV Network Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/ceton-net-x86-1.0.2.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ceton-net-x86-1.0.2.4.7z.0001",
+          "size_bytes": 3112217,
+          "sha256": "28a82e6a6a063b424705484d1c0028dda0e3dc9d3a5cdd41fcccc3c4b980c835",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/ceton-net-x86-1.0.2.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-71fd18feec0450cb",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Ceton",
+      "category": "Net",
+      "version": "1.0.4.1",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_1781&PID_0AA2",
+        "USB\\VID_2432&PID_0AA0",
+        "USB\\VID_2432&PID_0AA1",
+        "USB\\VID_2432&PID_0AA2",
+        "USB\\VID_2432&PID_0AA3"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Ceton",
+        "Ceton USB InfiniTV Network Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/ceton-net-x86-1.0.4.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ceton-net-x86-1.0.4.1.7z.0001",
+          "size_bytes": 3113447,
+          "sha256": "260c392cc7bdd1170c4eece993e9bbb1126d9af422de06473a1fc159cdcc5a9b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/ceton-net-x86-1.0.4.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9ba8630ab4d1d7e0",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Hauppauge",
+      "category": "Net",
+      "version": "1.0.31064",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_2040&PID_E300"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "Hauppauge WinTV-DCR-2650 (Model 143xxx)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-net-x86-1.0.31064.7z.0001",
+          "size_bytes": 9505,
+          "sha256": "8e93648e95cb713ddc63ad2e41f5994be3b867ba54ca94e0baa209101bbb4f80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-188db1e9a954fb07",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Hauppauge",
+      "category": "Net",
+      "version": "1.0.31064",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2040&PID_E300"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "Hauppauge WinTV-DCR-2650 (Model 143xxx)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-net-x86-1.0.31064.7z.0001",
+          "size_bytes": 9505,
+          "sha256": "8e93648e95cb713ddc63ad2e41f5994be3b867ba54ca94e0baa209101bbb4f80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-715d809e356f928f",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Hauppauge",
+      "category": "system",
+      "version": "1.0.31064",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "Hauppauge OpenCable Receiver (PNP-X)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-net-x86-1.0.31064.7z.0001",
+          "size_bytes": 9505,
+          "sha256": "8e93648e95cb713ddc63ad2e41f5994be3b867ba54ca94e0baa209101bbb4f80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-264c31229ebebda7",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Hauppauge",
+      "category": "system",
+      "version": "1.0.31064",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge",
+        "Hauppauge OpenCable Receiver (PNP-X)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-net-x86-1.0.31064.7z.0001",
+          "size_bytes": 9505,
+          "sha256": "8e93648e95cb713ddc63ad2e41f5994be3b867ba54ca94e0baa209101bbb4f80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/hauppaug-net-x86-1.0.31064.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ebee5e39728d0844",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Net",
+      "provider": "Siano Mobile Silicon",
+      "category": "Net",
+      "version": "4.3.3.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Siano Mobile Silicon",
+        "SMS Digital Video IP Sink"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/sianomob-net-x86-4.3.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sianomob-net-x86-4.3.3.0.7z.0001",
+          "size_bytes": 202393,
+          "sha256": "39da506ada34d364d681416040d072add66699d0a8da0ac9effb80e72bf3e540",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_AVerMediaTECHN_Media_x64/sianomob-net-x86-4.3.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

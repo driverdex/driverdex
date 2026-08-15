@@ -3,7 +3,7 @@
   "category": "Other",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -17765,6 +17765,107 @@
         }
       ],
       "date_added": "2026-08-14",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8e6fe5b494db6b4e",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Other",
+      "provider": "",
+      "category": "",
+      "version": "",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\CCDECODE\\0000",
+        "ROOT\\NABTSFEC\\0000",
+        "ROOT\\NABTSIP\\0000",
+        "ROOT\\VBIDEC\\0000"
+      ],
+      "compatible_ids": [
+        "ROOT\\CCDECODE\\0000",
+        "ROOT\\NABTSFEC\\0000",
+        "ROOT\\NABTSIP\\0000",
+        "ROOT\\VBIDEC\\0000"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_AVerMediaTECHN_Media_x64/hauppaug-medi-x86-3.49.24025.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-medi-x86-3.49.24025.7z.0001",
+          "size_bytes": 990547,
+          "sha256": "413ac4f4ac04734ecc781cb77b3a32d18d6b2b4ee2cd0b17e8b039286e067cbd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_AVerMediaTECHN_Media_x64/hauppaug-medi-x86-3.49.24025.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d9d210841456cb26",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Other",
+      "provider": "Hauppauge",
+      "category": "Media",
+      "version": "3.49.24025",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_109E&DEV_0350",
+        "PCI\\VEN_109E&DEV_0351",
+        "PCI\\VEN_109E&DEV_036E",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_13EB0070",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_39000070",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_45000070",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_FF000070",
+        "PCI\\VEN_109E&DEV_036E&SUBSYS_FF010070",
+        "PCI\\VEN_109E&DEV_036F",
+        "PCI\\VEN_109E&DEV_036F&SUBSYS_13EB0070",
+        "PCI\\VEN_109E&DEV_036F&SUBSYS_39000070",
+        "PCI\\VEN_109E&DEV_036F&SUBSYS_45000070",
+        "PCI\\VEN_109E&DEV_036F&SUBSYS_FF000070",
+        "PCI\\VEN_109E&DEV_036F&SUBSYS_FF010070",
+        "PCI\\VEN_109E&DEV_0370&SUBSYS_13EB0070",
+        "PCI\\VEN_109E&DEV_0878",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_13EB0070",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_39000070",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_45000070",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_FF000070",
+        "PCI\\VEN_109E&DEV_0878&SUBSYS_FF010070",
+        "PCI\\VEN_109E&DEV_0879",
+        "PCI\\VEN_109E&DEV_0879&SUBSYS_13EB0070",
+        "PCI\\VEN_109E&DEV_0879&SUBSYS_39000070",
+        "PCI\\VEN_109E&DEV_0879&SUBSYS_45000070",
+        "PCI\\VEN_109E&DEV_0879&SUBSYS_FF000070",
+        "PCI\\VEN_109E&DEV_0879&SUBSYS_FF010070",
+        "PCI\\VEN_109E&DEV_0880&SUBSYS_13EB0070"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hauppauge WinTV 848/9 WDM Video Driver",
+        "Hauppauge WinTV 878/9 WDM Video Driver",
+        "Hauppauge WinTV 878/9 WDM Aux Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_AVerMediaTECHN_Media_x64/hauppaug-medi-x86-3.49.24025.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hauppaug-medi-x86-3.49.24025.7z.0001",
+          "size_bytes": 990547,
+          "sha256": "413ac4f4ac04734ecc781cb77b3a32d18d6b2b4ee2cd0b17e8b039286e067cbd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_AVerMediaTECHN_Media_x64/hauppaug-medi-x86-3.49.24025.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

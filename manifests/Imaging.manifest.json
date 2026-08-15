@@ -3,7 +3,7 @@
   "category": "Imaging",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -5315,6 +5315,1311 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-922a8106efbdb017",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "AVer",
+      "category": "Image",
+      "version": "6.1.1.13",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_FF03",
+        "USB\\VID_07CA&PID_FF03&MI_00",
+        "USB\\VID_2574&PID_0003",
+        "USB\\VID_2574&PID_0003&MI_00",
+        "USB\\VID_2574&PID_0007&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVer Information Inc.",
+        "USB Video Camera for AverVision Digital Presenter 2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.1.13.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aver-imag-x64-6.1.1.13.7z.0001",
+          "size_bytes": 79651,
+          "sha256": "c876ac1080b3fc44489895141380f1a6282554a220c21bccd51f2a600035e5c3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.1.13.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3822cd239217d15e",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "AVer",
+      "category": "Image",
+      "version": "6.1.1.9",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_FF01&MI_00",
+        "USB\\VID_07CA&PID_FF01.DEVICEDESC%",
+        "USB\\VID_07CA&PID_FF03",
+        "USB\\VID_07CA&PID_FF03&MI_00",
+        "USB\\VID_07CA&PID_FF03.DEVICEDESC",
+        "USB\\VID_07CA&PID_FF03.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVer Information Inc.",
+        "%USB\\VID_07CA&PID_FF03.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.1.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aver-imag-x64-6.1.1.9.7z.0001",
+          "size_bytes": 79495,
+          "sha256": "ffbee7d4efaa66698233bf08fc6047cce22b23b80337627f740a3b0edc7634f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.1.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b382c354f31db001",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "AVer",
+      "category": "Image",
+      "version": "6.1.0.13  ; See DDK for detail",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_FF03",
+        "USB\\VID_07CA&PID_FF03&MI_00",
+        "USB\\VID_2574&PID_0003",
+        "USB\\VID_2574&PID_0003&MI_00",
+        "USB\\VID_2574&PID_0007&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "USB Video Camera for AverVision Digital Presenter 2"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.0.13.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aver-imag-x64-6.1.0.13.7z.0001",
+          "size_bytes": 74376,
+          "sha256": "7b51aab526642f5ed30bff96f4e9d051bd3a3046b9177548b69d7b46504b53e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.0.13.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-524744927a9be61a",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "AVer",
+      "category": "Image",
+      "version": "6.1.0.9  ; See DDK for detail",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_FF01&MI_00",
+        "USB\\VID_07CA&PID_FF01.DEVICEDESC%",
+        "USB\\VID_07CA&PID_FF03",
+        "USB\\VID_07CA&PID_FF03&MI_00",
+        "USB\\VID_07CA&PID_FF03.DEVICEDESC",
+        "USB\\VID_07CA&PID_FF03.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_07CA&PID_FF03.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.0.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "aver-imag-x64-6.1.0.9.7z.0001",
+          "size_bytes": 74239,
+          "sha256": "311af4d3590246215c52895a09f9dc2fb5d8e8bdcfc9c40ba48f59ff4d5431c7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/aver-imag-x64-6.1.0.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8810d38e468249af",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "AVerMedia",
+      "category": "Image",
+      "version": "2.1.0.7",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_07CA&PID_0036",
+        "USB\\VID_07CA&PID_0036&MI_00",
+        "USB\\VID_07CA&PID_0036&MI_01",
+        "USB\\VID_07CA&PID_E508",
+        "USB\\VID_07CA&PID_E508&MI_00",
+        "USB\\VID_07CA&PID_E508&MI_01",
+        "USB\\VID_0932&PID_0300",
+        "USB\\VID_0932&PID_0300&MI_00",
+        "USB\\VID_0932&PID_0300&MI_01",
+        "USB\\VID_0932&PID_0320",
+        "USB\\VID_0932&PID_0320&MI_00",
+        "USB\\VID_0932&PID_0320&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "AVerTV USB 2.0 Plus Video Capture",
+        "AVerTV ExpressCard Video Capture"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/avermedi-imag-x64-2.1.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "avermedi-imag-x64-2.1.0.7.7z.0001",
+          "size_bytes": 775234,
+          "sha256": "570421be5ea56d90eb91618942f785303a455b48f3357669dd4927440e522b75",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/avermedi-imag-x64-2.1.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8f8dcae94091e2cf",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Compro",
+      "category": "IMAGE",
+      "version": "08/05/2003",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_185B&PID_1000",
+        "USB\\VID_185B&PID_1001",
+        "USB\\VID_185B&PID_1040",
+        "USB\\VID_185B&PID_1041"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Compro VideoMate for You"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/compro-imag-x64-08052003.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "compro-imag-x64-08052003.7z.0001",
+          "size_bytes": 12229,
+          "sha256": "73fee2caceb87ee0aaceaea955ccce3254afc5a864334bd54c562fc8d311c721",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/compro-imag-x64-08052003.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2a029e013563461c",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1311&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - NTSC + MTS + FM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c9ea103e2a1ec82",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1321&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - NTSC + MTS"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3f90c87a9fbe5db2",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "MEDIA",
+      "version": "4.00.14.0095",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1310&MI_01",
+        "USB\\VID_0413&PID_1311&MI_01",
+        "USB\\VID_0413&PID_1312&MI_01",
+        "USB\\VID_0413&PID_1313&MI_01",
+        "USB\\VID_0413&PID_1314&MI_01",
+        "USB\\VID_0413&PID_1315&MI_01",
+        "USB\\VID_0413&PID_1316&MI_01",
+        "USB\\VID_0413&PID_1317&MI_01",
+        "USB\\VID_0413&PID_1318&MI_01",
+        "USB\\VID_0413&PID_1319&MI_01",
+        "USB\\VID_0413&PID_131A&MI_01",
+        "USB\\VID_0413&PID_131B&MI_01",
+        "USB\\VID_0413&PID_131C&MI_01",
+        "USB\\VID_0413&PID_131D&MI_01",
+        "USB\\VID_0413&PID_131E&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB Audio - PHP NTSC",
+        "Leadtek WinFast TV USB Audio - PHP NTSC+MTS",
+        "Leadtek WinFast TV USB Audio - PHP PAL BG",
+        "Leadtek WinFast TV USB Audio - PHP PAL BG+TXT",
+        "Leadtek WinFast TV USB Audio - PHP PAL I",
+        "Leadtek WinFast TV USB Audio - PHP PAL I+TXT",
+        "Leadtek WinFast TV USB Audio - PHP PAL DK",
+        "Leadtek WinFast TV USB Audio - PHP PAL DK+TXT",
+        "Leadtek WinFast TV USB Audio - PHP PAL I/DK",
+        "Leadtek WinFast TV USB Audio - PHP PAL N"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3c515ccc82521fb9",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "MEDIA",
+      "version": "4.00.14.0095",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1320&MI_01",
+        "USB\\VID_0413&PID_1321&MI_01",
+        "USB\\VID_0413&PID_1322&MI_01",
+        "USB\\VID_0413&PID_1323&MI_01",
+        "USB\\VID_0413&PID_1324&MI_01",
+        "USB\\VID_0413&PID_1325&MI_01",
+        "USB\\VID_0413&PID_1326&MI_01",
+        "USB\\VID_0413&PID_1327&MI_01",
+        "USB\\VID_0413&PID_1328&MI_01",
+        "USB\\VID_0413&PID_1329&MI_01",
+        "USB\\VID_0413&PID_132A&MI_01",
+        "USB\\VID_0413&PID_132B&MI_01",
+        "USB\\VID_0413&PID_132C&MI_01",
+        "USB\\VID_0413&PID_132D&MI_01",
+        "USB\\VID_0413&PID_132E&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB Audio - PHP NTSC",
+        "Leadtek WinFast TV USB Audio - PHP NTSC+MTS",
+        "Leadtek WinFast TV USB Audio - PHP PAL BG",
+        "Leadtek WinFast TV USB Audio - PHP PAL BG+TXT",
+        "Leadtek WinFast TV USB Audio - PHP PAL I",
+        "Leadtek WinFast TV USB Audio - PHP PAL I+TXT",
+        "Leadtek WinFast TV USB Audio - PHP PAL DK",
+        "Leadtek WinFast TV USB Audio - PHP PAL DK+TXT",
+        "Leadtek WinFast TV USB Audio - PHP PAL I/DK",
+        "Leadtek WinFast TV USB Audio - PHP PAL N"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-314b6c5cedd726bd",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0573&PID_0400",
+        "USB\\VID_0573&PID_1300&MI_00",
+        "USB\\VID_0573&PID_2000",
+        "USB\\VID_0573&PID_2101&MI_00",
+        "USB\\VID_0573&PID_3000",
+        "USB\\VID_0573&PID_3001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "leadtek USBVision (1004)",
+        "leadtek USBVision (1006)",
+        "leadtek USB Live!",
+        "leadtek USB Live! Pro",
+        "leadtek USB MicroCam (NTSC)",
+        "leadtek USB MicroCam (PAL)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2061981dc08e01fe",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1313&MI_00",
+        "USB\\VID_0413&PID_1315&MI_00",
+        "USB\\VID_0413&PID_1317&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - PAL BG+TXT + FM",
+        "Leadtek WinFast TV USB - PAL I + TXT + FM",
+        "Leadtek WinFast TV USB - PAL DK+TXT + FM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b1139ef5d6612226",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1323&MI_00",
+        "USB\\VID_0413&PID_1325&MI_00",
+        "USB\\VID_0413&PID_1327&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - PAL BG+TXT",
+        "Leadtek WinFast TV USB - PAL I + TXT",
+        "Leadtek WinFast TV USB - PAL DK+TXT"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6e687d5dd497bec0",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_131B&MI_00",
+        "USB\\VID_0413&PID_131D&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - SECAM LL + TXT + FM",
+        "Leadtek WinFast TV USB - SECAM DK + TXT + FM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8ef4454d70219ab6",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_132B&MI_00",
+        "USB\\VID_0413&PID_132D&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - SECAM LL + TXT",
+        "Leadtek WinFast TV USB - SECAM DK + TXT"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d495461591da2bc4",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1310&MI_00",
+        "USB\\VID_0413&PID_131E&MI_00",
+        "USB\\VID_0573&PID_0400&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - NTSC + FM.",
+        "Leadtek WinFast TV USB - NTSC + FM",
+        "Leadtek WinFast TV USB - NTSC Japan + FM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ca46a6fc8133bf53",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1320&MI_00",
+        "USB\\VID_0413&PID_132E&MI_00",
+        "USB\\VID_0573&PID_0400&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - NTSC.",
+        "Leadtek WinFast TV USB - NTSC",
+        "Leadtek WinFast TV USB - NTSC Japan"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7e20eeb570b8f35",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1312&MI_00",
+        "USB\\VID_0413&PID_1314&MI_00",
+        "USB\\VID_0413&PID_1316&MI_00",
+        "USB\\VID_0413&PID_1318&MI_00",
+        "USB\\VID_0413&PID_1319&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - PAL BG + FM",
+        "Leadtek WinFast TV USB - PAL I + FM",
+        "Leadtek WinFast TV USB - PAL DK + FM",
+        "Leadtek WinFast TV USB - PAL I/DK + FM",
+        "Leadtek WinFast TV USB - PAL N + FM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3b6829a1d633d294",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_1322&MI_00",
+        "USB\\VID_0413&PID_1324&MI_00",
+        "USB\\VID_0413&PID_1326&MI_00",
+        "USB\\VID_0413&PID_1328&MI_00",
+        "USB\\VID_0413&PID_1329&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - PAL BG",
+        "Leadtek WinFast TV USB - PAL I",
+        "Leadtek WinFast TV USB - PAL DK",
+        "Leadtek WinFast TV USB - PAL I/DK",
+        "Leadtek WinFast TV USB - PAL N"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a8151db794ddc19b",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_131A&MI_00",
+        "USB\\VID_0413&PID_131C&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - SECAM LL + FM",
+        "Leadtek WinFast TV USB - SECAM DK + FM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ab842c6bb8f789c3",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_132A&MI_00",
+        "USB\\VID_0413&PID_132C&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Leadtek WinFast TV USB - SECAM LL",
+        "Leadtek WinFast TV USB - SECAM DK"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtek-medi-x64-4.00.14.00.7z.0001",
+          "size_bytes": 540550,
+          "sha256": "350259f3c49fa81f955f5d34770b3a36f9a18ec626084603eb2c99d17aa258e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtek-medi-x64-4.00.14.00.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1d673197c880952d",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Leadtek Research Inc.",
+      "category": "Image",
+      "version": "1.1.0922.2",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0413&PID_6023",
+        "USB\\VID_0413&PID_6023&MI_00",
+        "USB\\VID_EB1A&PID_2710",
+        "USB\\VID_EB1A&PID_2711&MI_00",
+        "USB\\VID_EB1A&PID_2800",
+        "USB\\VID_EB1A&PID_2801&MI_00",
+        "USB\\VID_EB1A&PID_2820",
+        "USB\\VID_EB1A&PID_2821&MI_00",
+        "USB\\VID_EB1A&PID_2840",
+        "USB\\VID_EB1A&PID_2841&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "WinFast TV USB II Deluxe"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtekr-imag-x64-1.1.0922.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "leadtekr-imag-x64-1.1.0922.2.7z.0001",
+          "size_bytes": 167536,
+          "sha256": "9cbf826e48f5db97d6f5f09324f701289addf1822f3a36ba47dcebb283b6f9ac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/leadtekr-imag-x64-1.1.0922.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-da3f0d690fd41dbb",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "USB A/V",
+      "category": "MEDIA",
+      "version": "4.00.14.0095",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0573&PID_0600&MI_01",
+        "USB\\VID_0573&PID_2101&MI_01",
+        "USB\\VID_0573&PID_4500&MI_01",
+        "USB\\VID_0573&PID_4501&MI_01",
+        "USB\\VID_0573&PID_4550&MI_01",
+        "USB\\VID_0573&PID_4551&MI_01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Nogatech USBVision Audio (1006)",
+        "USB A/V Audio",
+        "Nogatech USB TV! Pro Audio (N)",
+        "Nogatech USB TV! Pro Audio (P)",
+        "Nogatech USB TV! Pro Audio (N+)",
+        "Nogatech USB TV! Pro Audio (P+)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/nogatech-imag-x64-2.0.2.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "nogatech-imag-x64-2.0.2.14.7z.0001",
+          "size_bytes": 192023,
+          "sha256": "b96a072bb7cb0f22a6eb85d1d44944ed9290e5920dac8a7826fe817f2c8c61cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/nogatech-imag-x64-2.0.2.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8ff9f3a4e677df6c",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "USB Video",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0573&PID_0003",
+        "USB\\VID_0573&PID_0400",
+        "USB\\VID_0573&PID_0600&MI_00",
+        "USB\\VID_0573&PID_2101&MI_00",
+        "USB\\VID_0573&PID_3000",
+        "USB\\VID_0573&PID_3001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "USB Video Capture Device (1004)",
+        "Nogatech USBVision (1006)",
+        "USB Video Capture Device (1003)",
+        "USB A/V Capture Device",
+        "Nogatech USB MicroCam (NTSC)",
+        "Nogatech USB MicroCam (PAL)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/nogatech-imag-x64-2.0.2.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "nogatech-imag-x64-2.0.2.14.7z.0001",
+          "size_bytes": 192023,
+          "sha256": "b96a072bb7cb0f22a6eb85d1d44944ed9290e5920dac8a7826fe817f2c8c61cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/nogatech-imag-x64-2.0.2.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c5202f9f73c2a3e3",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Nogatech",
+      "category": "Image",
+      "version": "2.0.2.14",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0573&PID_4000",
+        "USB\\VID_0573&PID_4001",
+        "USB\\VID_0573&PID_4002",
+        "USB\\VID_0573&PID_4003",
+        "USB\\VID_0573&PID_4008",
+        "USB\\VID_0573&PID_4009",
+        "USB\\VID_0573&PID_4010",
+        "USB\\VID_0573&PID_4500&MI_00",
+        "USB\\VID_0573&PID_4501&MI_00",
+        "USB\\VID_0573&PID_4550&MI_00",
+        "USB\\VID_0573&PID_4551&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Nogatech USB TV! (NTSC)",
+        "Nogatech USB TV! (PAL)",
+        "Nogatech USB TV! (PAL-I-)",
+        "Nogatech USB TV! (MF-)",
+        "Nogatech USB TV! (NTSC) (T)",
+        "Nogatech USB TV! (PAL) (T)",
+        "Nogatech USB TV! (NTSC) (A)",
+        "Nogatech USB TV! Pro (NTSC)",
+        "Nogatech USB TV! Pro (PAL)",
+        "Nogatech USB TV! Pro (NTSC+)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/nogatech-imag-x64-2.0.2.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "nogatech-imag-x64-2.0.2.14.7z.0001",
+          "size_bytes": 192023,
+          "sha256": "b96a072bb7cb0f22a6eb85d1d44944ed9290e5920dac8a7826fe817f2c8c61cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/nogatech-imag-x64-2.0.2.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b24657287ba22e1",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Philips I&C",
+      "category": "Image",
+      "version": "5.1.2600.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0458&PID_1003&MI_00",
+        "USB\\VID_0471&PID_0303&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Genius USB Digital Camera - Video"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/philipsi-imag-x86-5.1.2600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "philipsi-imag-x86-5.1.2600.0.7z.0001",
+          "size_bytes": 11911,
+          "sha256": "5a960e601dac41dba87283e89b6bd665cdd458cb7be8c2f37f89ecc792b88944",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/philipsi-imag-x86-5.1.2600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-26d8d31b54d1b0e7",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "SONY PVC",
+      "category": "Image",
+      "version": "3.0.0.4",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_0008&",
+        "USB\\VID_054C&PID_0008&.DEVICEDESC",
+        "USB\\VID_054C&PID_0008&.DEVICEDESC%",
+        "USB\\VID_054C&PID_000C&",
+        "USB\\VID_054C&PID_000C&.DEVICEDESC",
+        "USB\\VID_054C&PID_000C&.DEVICEDESC%",
+        "USB\\VID_054C&PID_004C&",
+        "USB\\VID_054C&PID_004C&.DEVICEDESC",
+        "USB\\VID_054C&PID_004C&.DEVICEDESC%",
+        "USB\\VID_054C&PID_0067&",
+        "USB\\VID_054C&PID_0067&.DEVICEDESC",
+        "USB\\VID_054C&PID_0067&.DEVICEDESC%",
+        "USB\\VID_054C&PID_0068&",
+        "USB\\VID_054C&PID_0068&.DEVICEDESC",
+        "USB\\VID_054C&PID_0068&.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_054c&PID_0008&.DeviceDesc%",
+        "%USB\\VID_054c&PID_0067&.DeviceDesc%",
+        "%USB\\VID_054c&PID_0068&.DeviceDesc%",
+        "%USB\\VID_054c&PID_000c&.DeviceDesc%",
+        "%USB\\VID_054c&PID_004c&.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/sonypvc-imag-x64-3.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonypvc-imag-x64-3.0.0.4.7z.0001",
+          "size_bytes": 114697,
+          "sha256": "00c0a17e8e412538ba5bed9aeb836b77df880bea9a1a857db9de31d2dd945610",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/sonypvc-imag-x64-3.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-81548ee9b305ca94",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Syntek Semiconductor Co., Ltd.",
+      "category": "Image",
+      "version": "1.0.0.5",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1071&PID_0408"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Syntek Semiconductor Co., Ltd.",
+        "Syntek ATV"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/syntekse-imag-x64-1.0.0.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "syntekse-imag-x64-1.0.0.5.7z.0001",
+          "size_bytes": 928803,
+          "sha256": "ee09cf6ae5feb6e190d926898295049b9f09ffd51612444003827faa357b0344",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/syntekse-imag-x64-1.0.0.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-32ccb490c587c6ba",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "TerraTec",
+      "category": "Image",
+      "version": "2.07.0621.00",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0CCD&PID_0084&MI_00",
+        "USB\\VID_EB1A&PID_2861&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TerraTec",
+        "Grabster AV 350"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x64-2.07.0621.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-imag-x64-2.07.0621.7z.0001",
+          "size_bytes": 162217,
+          "sha256": "4ef70c627356f7c266f1e43c5646d069a1651501ba73b7516e897fd97986816f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x64-2.07.0621.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-acd4683bdaec36e7",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "TerraTec",
+      "category": "Image",
+      "version": "2.07.0621.00",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0CCD&PID_10A7&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TerraTec",
+        "TerraTec G3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x64-2.07.0621.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-imag-x64-2.07.0621.7z.0001",
+          "size_bytes": 162198,
+          "sha256": "86047a9341d626bfe571defbac779095006cc42a47ea60663861546e0be20975",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x64-2.07.0621.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1dd089914f92d02a",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "TerraTec",
+      "category": "Image",
+      "version": "2.07.0621.00",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0CCD&PID_0084&MI_00",
+        "USB\\VID_EB1A&PID_2861&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TerraTec",
+        "Grabster AV 350"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x86-2.07.0621.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-imag-x86-2.07.0621.7z.0001",
+          "size_bytes": 152731,
+          "sha256": "cd26863b9adbe4368c2bdbd66771b91c2d7a601a48a1bedf1680a775840669e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x86-2.07.0621.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-be7ca69acc4d4bcf",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "TerraTec",
+      "category": "Image",
+      "version": "2.07.0621.00",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_0CCD&PID_10A7&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "TerraTec",
+        "TerraTec G3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x86-2.07.0621.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "terratec-imag-x86-2.07.0621.7z.0001",
+          "size_bytes": 152696,
+          "sha256": "68e64227da75dedc5dfdb5cf72e83121fe2eaf71106eced2d0f39d79d900429c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/terratec-imag-x86-2.07.0621.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5d6a976bfc96cfca",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Imaging",
+      "provider": "Provider",
+      "category": "IMAGE",
+      "version": "1.1.0.189\t; INF VERSION",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_1164&PID_D5A0",
+        "USB\\VID_1164&PID_D5A1",
+        "USB\\VID_1164&PID_D5AB",
+        "USB\\VID_1164&PID_D5AD",
+        "USB\\VID_1164&PID_F5A0",
+        "USB\\VID_1164&PID_F5A1",
+        "USB\\VID_1164&PID_F5A7",
+        "USB\\VID_1164&PID_F5AB",
+        "USB\\VID_1164&PID_F5AD",
+        "USB\\VID_1164&PID_F5AE",
+        "USB\\VID_1164&PID_F5AF"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Manufacturer",
+        "QP0204 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/provider-imag-x64-1.1.0.189.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "provider-imag-x64-1.1.0.189.7z.0001",
+          "size_bytes": 2034657,
+          "sha256": "914bd1f33a501c8dd014ae3993ed87191c9d85aa8fcfa2c21c3b69bf13f69b55",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_AVerMediaTECHN_Media_x64/provider-imag-x64-1.1.0.189.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

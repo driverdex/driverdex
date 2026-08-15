@@ -3,7 +3,7 @@
   "category": "Ports",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-12",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -28739,6 +28739,54 @@
         }
       ],
       "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-95b55d27a688d0a7",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Ports",
+      "provider": "Exar Corporation",
+      "category": "Ports",
+      "version": "1.9.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04E2&PID_1410&MI_00",
+        "USB\\VID_04E2&PID_1411&MI_00",
+        "USB\\VID_04E2&PID_1412&MI_00",
+        "USB\\VID_04E2&PID_1412&MI_02",
+        "USB\\VID_04E2&PID_1414&MI_00",
+        "USB\\VID_04E2&PID_1414&MI_02",
+        "USB\\VID_04E2&PID_1414&MI_04",
+        "USB\\VID_04E2&PID_1414&MI_06"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Exar Corporation",
+        "XR21V1414 USB UART Ch A",
+        "XR21V1414 USB UART Ch B",
+        "XR21V1414 USB UART Ch C",
+        "XR21V1414 USB UART Ch D",
+        "XR21V1412 USB UART Ch A",
+        "XR21V1412 USB UART Ch B",
+        "XR21V1410 USB UART",
+        "XR21B1411 USB UART"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_AVerMediaTECHN_Media_x64/exarcorp-port-x64-1.9.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "exarcorp-port-x64-1.9.0.0.7z.0001",
+          "size_bytes": 40848,
+          "sha256": "f13a56e95bce057cc021c3e43aeb70af553bf24ee19abc1a6a3ee496ec9fe7fe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_AVerMediaTECHN_Media_x64/exarcorp-port-x64-1.9.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

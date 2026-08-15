@@ -3,7 +3,7 @@
   "category": "Display",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-10",
+  "updated": "2026-08-15",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -306990,6 +306990,38 @@
         }
       ],
       "date_added": "2026-08-10",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d88356338f44508e",
+      "pack": "AVerMediaTECHN_Media_x64",
+      "type": "Display",
+      "provider": "Blueberry Consultants",
+      "category": "Display",
+      "version": "3.40",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Blueberry Consultants",
+        "BB Capture Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_AVerMediaTECHN_Media_x64/blueberr-disp-x64-3.40.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "blueberr-disp-x64-3.40.7z.0001",
+          "size_bytes": 22276,
+          "sha256": "a36c413c2c7646c5a93e99a1cb93fe5198dbd49111b94a20ef497518141bd95b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_AVerMediaTECHN_Media_x64/blueberr-disp-x64-3.40.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-15",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
