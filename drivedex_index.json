@@ -4,25 +4,25 @@
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
-      "size_bytes": 12774513,
+      "size_bytes": 12799843,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 7977367,
+      "size_bytes": 8000531,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Display.manifest.json",
-      "size_bytes": 9523789,
+      "size_bytes": 9584920,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 369920,
+      "size_bytes": 382116,
       "active": true,
       "note": "active"
     },
@@ -34,7 +34,7 @@
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 8564108,
+      "size_bytes": 8565734,
       "active": true,
       "note": "active"
     },
@@ -46,19 +46,19 @@
     },
     {
       "filename": "manifests/Other.manifest.json",
-      "size_bytes": 668170,
+      "size_bytes": 1065934,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Ports.manifest.json",
-      "size_bytes": 1082084,
+      "size_bytes": 1088260,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Printer.manifest.json",
-      "size_bytes": 2982396,
+      "size_bytes": 2984501,
       "active": true,
       "note": "active"
     },
@@ -76,24 +76,24 @@
     },
     {
       "filename": "manifests/USB.manifest.json",
-      "size_bytes": 3023110,
+      "size_bytes": 3037769,
       "active": true,
       "note": "active"
     }
   ],
   "category_summary": {
-    "Audio": 4713,
-    "Chipset": 2736,
-    "Display": 6653,
-    "Firmware": 229,
+    "Audio": 4715,
+    "Chipset": 2742,
+    "Display": 6655,
+    "Firmware": 239,
     "Imaging": 97,
-    "Input": 3290,
+    "Input": 3291,
     "Net": 896,
-    "Other": 322,
-    "Ports": 574,
-    "Printer": 434,
+    "Other": 346,
+    "Ports": 578,
+    "Printer": 436,
     "Security": 38,
     "Storage": 861,
-    "USB": 1221
+    "USB": 1222
   }
 }

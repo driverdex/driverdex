@@ -3,7 +3,7 @@
   "category": "Printer",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-12",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -73449,6 +73449,66 @@
         }
       ],
       "date_added": "2026-08-12",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fd21b7189592f3fb",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Printer",
+      "provider": "Microsoft",
+      "category": "Printer",
+      "version": "10.0.26100.4484",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Microsoft Print To PDF"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_IntelCorporati_System_x64/microsof-prin-x64-10.0.26100.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsof-prin-x64-10.0.26100.7z.0001",
+          "size_bytes": 15195,
+          "sha256": "c8bc0d844ddf44299339d8bd6e76c927acec47505773e0651c4acba56a225b3a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_IntelCorporati_System_x64/microsof-prin-x64-10.0.26100.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bdd4c1eb30d26ca1",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Printer",
+      "provider": "TeamViewer",
+      "category": "Printer",
+      "version": "1.2025.710.498",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_IntelCorporati_System_x64/teamview-prin-x64-1.2025.710.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "teamview-prin-x64-1.2025.710.7z.0001",
+          "size_bytes": 598258,
+          "sha256": "2e74fc60ef0ff2873d57d037ad31baf04c939f2892e9e9717801da9306096616",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_IntelCorporati_System_x64/teamview-prin-x64-1.2025.710.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

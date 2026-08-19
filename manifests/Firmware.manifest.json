@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-14",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -10033,6 +10033,354 @@
         }
       ],
       "date_added": "2026-08-14",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-21c0504389a90811",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Intel Corporation",
+      "category": "SoftwareComponent",
+      "version": "32.0.101.7085",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Graphics Control Panel"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/intelcor-soft-x64-32.0.101.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-soft-x64-32.0.101.7.7z.0001",
+          "size_bytes": 14191092,
+          "sha256": "ce9c18092752a67759e526ec082c7d3cc2b07fd417e0e8d5418b8a079980b1f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/intelcor-soft-x64-32.0.101.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8cd4bbab185f2386",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Dell, Inc.",
+      "category": "Firmware",
+      "version": "00.1.24.0",
+      "arch": "x64",
+      "hwids": [
+        "UEFI\\RES_{B7D33140-0D50-47BD-AFB5-2EA8B4857470}"
+      ],
+      "compatible_ids": [
+        "UEFI\\RES_{B7D33140-0D50-47BD-AFB5-2EA8B4857470}"
+      ],
+      "descriptions": [
+        "Dell, Inc.",
+        "System Firmware 1.24.0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-00.1.24.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dellinc-firm-x64-00.1.24.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "fe5e04df166c28ca7ab4bd62ee4124194bee3081a6ea4d26b0f400143ec7074b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-00.1.24.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "dellinc-firm-x64-00.1.24.0.7z.0002",
+          "size_bytes": 9664965,
+          "sha256": "863a06872d183ff841f3cb112450122684d9d0836570b3384c42e96d84f23401",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-00.1.24.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ee8889fda2a31f8f",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Dell, Inc.",
+      "category": "Firmware",
+      "version": "00.1.27.0",
+      "arch": "x64",
+      "hwids": [
+        "UEFI\\RES_{B7D33140-0D50-47BD-AFB5-2EA8B4857470}"
+      ],
+      "compatible_ids": [
+        "UEFI\\RES_{B7D33140-0D50-47BD-AFB5-2EA8B4857470}"
+      ],
+      "descriptions": [
+        "Dell, Inc.",
+        "System Firmware 1.27.0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-00.1.27.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dellinc-firm-x64-00.1.27.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ea24d6a65610cf72cb9326c2b69bc04e21ed9e9922b641fe132090fe5c271f85",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-00.1.27.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "dellinc-firm-x64-00.1.27.0.7z.0002",
+          "size_bytes": 9633865,
+          "sha256": "c62712f2314d702316d61297ddb1df698579a8d2ae8e6f085ee3e3cf490fe981",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-00.1.27.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b2410340035981e6",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Dell, Inc.",
+      "category": "Firmware",
+      "version": "25.00.01.02",
+      "arch": "x64",
+      "hwids": [
+        "UEFI\\RES_{06538050-6404-4BAE-AD44-4ED2AE7AB44F}"
+      ],
+      "compatible_ids": [
+        "UEFI\\RES_{06538050-6404-4BAE-AD44-4ED2AE7AB44F}"
+      ],
+      "descriptions": [
+        "Dell, Inc.",
+        "NVMe Firmware 25.00.01.02"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-25.00.01.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dellinc-firm-x64-25.00.01.0.7z.0001",
+          "size_bytes": 4578779,
+          "sha256": "4dfd8edc3bab50ffc8dffd7c59f40bc25bacc08f2b2f73ce6b693e9366f38a55",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/dellinc-firm-x64-25.00.01.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-43013a8d9562886f",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "2522.8.2.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Management Engine WMI Provider"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/intel-soft-x86-2522.8.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x86-2522.8.2.0.7z.0001",
+          "size_bytes": 742204,
+          "sha256": "0b647fa5188782e966121ce2e4766619b80db0a81eb549ffa24fc4b62424edc6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/intel-soft-x86-2522.8.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6cb652c9dfc2a110",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Intel",
+      "category": "SoftwareComponent",
+      "version": "03.04.1007.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Modern Standby IPF Extension Provider"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/intel-soft-x64-03.04.1007.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-soft-x64-03.04.1007.7z.0001",
+          "size_bytes": 775893,
+          "sha256": "530a2d3bac44e5785d01a88cf940028201de8432eaffad90284999cd185422af",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/intel-soft-x64-03.04.1007.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2af4040b9b928058",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "1.0.13.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek Asio Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.13.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-1.0.13.1.7z.0001",
+          "size_bytes": 245190,
+          "sha256": "d87de5b23f908940be1bf0f8e9e2f1e8ff5898a187a155e76227c5edfdcaa1d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.13.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7e8adf319266d9ec",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "1.0.11.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek Asio Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.11.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-1.0.11.2.7z.0001",
+          "size_bytes": 236572,
+          "sha256": "1496f67d2e77e245a56fd3973698f2a646e36e37de8ccf8f73f09a12372a01e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.11.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b5beff0e5d07b046",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "1.0.732.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek Audio Universal Service",
+        "Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.732.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-1.0.732.0.7z.0001",
+          "size_bytes": 3497496,
+          "sha256": "d7bd52206e0aca00186536e4fd533070fb9446db1fb02f72932a3f3a106fd942",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.732.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-760045f78a7d3ee6",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Firmware",
+      "provider": "Realtek",
+      "category": "SoftwareComponent",
+      "version": "1.0.853.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Realtek",
+        "Realtek Audio Universal Service",
+        "Audio Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.853.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtek-soft-x64-1.0.853.0.7z.0001",
+          "size_bytes": 3836155,
+          "sha256": "dc81aca39caf6cec14edbe6ce8a4af6bb404aa2bdda912646d924a70c26a4305",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_IntelCorporati_System_x64/realtek-soft-x64-1.0.853.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

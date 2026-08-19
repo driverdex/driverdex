@@ -134181,6 +134181,632 @@
       ],
       "date_added": "2026-08-15",
       "enabled": true
+    },
+    {
+      "id": "inst-b4f9f8f667da",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "cui_dch.inf_amd64_fc1b619200a17491",
+      "exe_filename": "igfxSDK.exe",
+      "sha256": "5d8c27ba4ca72f43e0f0942e376eafaf63b475ed6c0ac3481624973f3116d289",
+      "size_bytes": 21421173,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/cui_dch.inf_amd64_fc1b619200a17491.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "cui_dch.inf_amd64_fc1b619200a17491.7z.0001",
+          "size_bytes": 14191143,
+          "sha256": "313d801ca4faa0ac8fd06ffbb1126e2e92e1abdf58e60615c9a374d94415cf93",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/cui_dch.inf_amd64_fc1b619200a17491.7z.0001",
+          "lfs_oid": "313d801ca4faa0ac8fd06ffbb1126e2e92e1abdf58e60615c9a374d94415cf93",
+          "lfs_size": 14191143
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-f7a8ddd74980",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "dal.inf_amd64_8a3f88e34f6b8385",
+      "exe_filename": "jhi_service.exe",
+      "sha256": "3a927d6b43121450a05c2a107e74ca797fac04ef7d62482770d1b101ee29c117",
+      "size_bytes": 1913296,
+      "file_version": "1.46.2024.221",
+      "product_version": "1.46.2024.221",
+      "company": "Intel Corporation",
+      "description": "Intel(R) Dynamic Application Loader Host Interface",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/dal.inf_amd64_8a3f88e34f6b8385.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dal.inf_amd64_8a3f88e34f6b8385.7z.0001",
+          "size_bytes": 507149,
+          "sha256": "5a01d174a8ba221ecb10924fb4a98c7a94f8c8941774f2ff550185afdc198f59",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/dal.inf_amd64_8a3f88e34f6b8385.7z.0001",
+          "lfs_oid": "5a01d174a8ba221ecb10924fb4a98c7a94f8c8941774f2ff550185afdc198f59",
+          "lfs_size": 507149
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-5ed5a8b2829c",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726",
+      "exe_filename": "vulkaninfo-64.exe",
+      "sha256": "306956254483e56d29109c03cbcf12c61d7df3cd5c4ddc5871dfa6e9ea03f32c",
+      "size_bytes": 2069668840,
+      "file_version": "1.4.313.0",
+      "product_version": "1.4.313.0",
+      "company": "",
+      "description": "vulkaninfo",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0001",
+      "split_parts": 34,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "03ce72b8658922ea629e9e99cdd07ec522808835e74c68c00f41a7ddb0604324",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0001",
+          "lfs_oid": "03ce72b8658922ea629e9e99cdd07ec522808835e74c68c00f41a7ddb0604324",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "3ae42f73e2914095ed2111870fbdd00e2e34f1aa9b2c63a54b96fd3fc59f8b15",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0002",
+          "lfs_oid": "3ae42f73e2914095ed2111870fbdd00e2e34f1aa9b2c63a54b96fd3fc59f8b15",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 3,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "cbb34bea9188d07462b7b516ff73413e2f282a9d7ebb7877a88f1a04a136ca87",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0003",
+          "lfs_oid": "cbb34bea9188d07462b7b516ff73413e2f282a9d7ebb7877a88f1a04a136ca87",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 4,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "8d611c69c100ea047cd70a8869e13cb9fa813814cafc34816b91386c9758cefe",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0004",
+          "lfs_oid": "8d611c69c100ea047cd70a8869e13cb9fa813814cafc34816b91386c9758cefe",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 5,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "52fbce9e33597e6bac54e6a8273d79db879155cba27257f74a81eb57de83b1e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0005",
+          "lfs_oid": "52fbce9e33597e6bac54e6a8273d79db879155cba27257f74a81eb57de83b1e4",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 6,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "fe241ab40b5b841f3d154e277c42ba0940879e0a0a0233c87dcf2156589ad3b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0006",
+          "lfs_oid": "fe241ab40b5b841f3d154e277c42ba0940879e0a0a0233c87dcf2156589ad3b1",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 7,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "1921bd353091ab62ab8a97d982d00457bda1b62d9a87de04d4f2ce430528b5d0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0007",
+          "lfs_oid": "1921bd353091ab62ab8a97d982d00457bda1b62d9a87de04d4f2ce430528b5d0",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 8,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "cc28d928359c3f4dfad9d357e2d56774b0cb8bcdfc7fbd68729c8317d921f487",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0008",
+          "lfs_oid": "cc28d928359c3f4dfad9d357e2d56774b0cb8bcdfc7fbd68729c8317d921f487",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 9,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "fb1be7493c009eb95165f49f25aa8a234120e42f5f6564ec56132e292b07a2a7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0009",
+          "lfs_oid": "fb1be7493c009eb95165f49f25aa8a234120e42f5f6564ec56132e292b07a2a7",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 10,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "ed27e4d6dabfe720aed2faa1a5decc5f45cb50ef9b4a19fbbae474635a8fd813",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0010",
+          "lfs_oid": "ed27e4d6dabfe720aed2faa1a5decc5f45cb50ef9b4a19fbbae474635a8fd813",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 11,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "38e88e6f9ae67f2f43f55381034ffbe786130fbec59d37dbdd75dddf6e82b6c1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0011",
+          "lfs_oid": "38e88e6f9ae67f2f43f55381034ffbe786130fbec59d37dbdd75dddf6e82b6c1",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 12,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "868784041c3ef843ae244d13b94b59bc73bfeff425e30b6d4bf7a2bbf91cc7f8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0012",
+          "lfs_oid": "868784041c3ef843ae244d13b94b59bc73bfeff425e30b6d4bf7a2bbf91cc7f8",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 13,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "40225cf3c8892eee3f08cb0e503f897cd14ec10f618364ce72764278295e151c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0013",
+          "lfs_oid": "40225cf3c8892eee3f08cb0e503f897cd14ec10f618364ce72764278295e151c",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 14,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "5d28d35aa658ba1b5381b743cf2140b98c6a388435a37cff7c7831ce7d192f0d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0014",
+          "lfs_oid": "5d28d35aa658ba1b5381b743cf2140b98c6a388435a37cff7c7831ce7d192f0d",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 15,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "44ba0fe536ded327c0c316c010ad7711223f93c4ba0884ebacf142204e29d960",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0015",
+          "lfs_oid": "44ba0fe536ded327c0c316c010ad7711223f93c4ba0884ebacf142204e29d960",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 16,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0016",
+          "size_bytes": 15728640,
+          "sha256": "f73956c79fa6a6d2adc67f31d4055fdc673e511e5f8f3a402e3abe11584b33f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0016",
+          "lfs_oid": "f73956c79fa6a6d2adc67f31d4055fdc673e511e5f8f3a402e3abe11584b33f1",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 17,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0017",
+          "size_bytes": 15728640,
+          "sha256": "740de175908d44e0a21c8edfa642b4516d5c77c6b69a75ef8deeb3c0d2ad2afc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0017",
+          "lfs_oid": "740de175908d44e0a21c8edfa642b4516d5c77c6b69a75ef8deeb3c0d2ad2afc",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 18,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0018",
+          "size_bytes": 15728640,
+          "sha256": "122b2f547000a7f5e753d2ed2392ac9a08869df149fb6be4c4850783c96e693a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0018",
+          "lfs_oid": "122b2f547000a7f5e753d2ed2392ac9a08869df149fb6be4c4850783c96e693a",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 19,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0019",
+          "size_bytes": 15728640,
+          "sha256": "98293bc89fba78562bff6cdcdda8a18c06bb238f864db10556cd7a7d88c646ef",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0019",
+          "lfs_oid": "98293bc89fba78562bff6cdcdda8a18c06bb238f864db10556cd7a7d88c646ef",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 20,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0020",
+          "size_bytes": 15728640,
+          "sha256": "2c28f6c90358a8db1f87754c4d845e297afe27fcf3c80852874ac87083af65b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0020",
+          "lfs_oid": "2c28f6c90358a8db1f87754c4d845e297afe27fcf3c80852874ac87083af65b9",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 21,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0021",
+          "size_bytes": 15728640,
+          "sha256": "0d573edde3f2627e9804d663a6067ea62e82bc02f6a9bd08ec981b690ab00e12",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0021",
+          "lfs_oid": "0d573edde3f2627e9804d663a6067ea62e82bc02f6a9bd08ec981b690ab00e12",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 22,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0022",
+          "size_bytes": 15728640,
+          "sha256": "a889e2055b87126c07801415557665b41956caad9235a770f37002ada4a9071c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0022",
+          "lfs_oid": "a889e2055b87126c07801415557665b41956caad9235a770f37002ada4a9071c",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 23,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0023",
+          "size_bytes": 15728640,
+          "sha256": "00d00ef1bb948d7d9b66c45e72ac1307ad056f9d7baf4f4a9d7f419e98307850",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0023",
+          "lfs_oid": "00d00ef1bb948d7d9b66c45e72ac1307ad056f9d7baf4f4a9d7f419e98307850",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 24,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0024",
+          "size_bytes": 15728640,
+          "sha256": "0400861665634400b5517694a227f50c0a202e2cfbe197b434f5f3ab74470d76",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0024",
+          "lfs_oid": "0400861665634400b5517694a227f50c0a202e2cfbe197b434f5f3ab74470d76",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 25,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0025",
+          "size_bytes": 15728640,
+          "sha256": "83ae41e4fe54d4bc00891ca0d7057d463620d336c71bdb9e9f7f3cc98307f273",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0025",
+          "lfs_oid": "83ae41e4fe54d4bc00891ca0d7057d463620d336c71bdb9e9f7f3cc98307f273",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 26,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0026",
+          "size_bytes": 15728640,
+          "sha256": "01901c98f0fbdec2ad4d2098fc39fa45acd5adf0f09aa7285ca3e5010a0c5098",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0026",
+          "lfs_oid": "01901c98f0fbdec2ad4d2098fc39fa45acd5adf0f09aa7285ca3e5010a0c5098",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 27,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0027",
+          "size_bytes": 15728640,
+          "sha256": "19ef69eac26e6a6c70512fe60caa4f121044e4312d0fbdf780c48be7903d5d6a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0027",
+          "lfs_oid": "19ef69eac26e6a6c70512fe60caa4f121044e4312d0fbdf780c48be7903d5d6a",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 28,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0028",
+          "size_bytes": 15728640,
+          "sha256": "861c0a41b7ed3c3a0a379c209f56970b14d46f9b4f766b72abe7f639e3ecb077",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0028",
+          "lfs_oid": "861c0a41b7ed3c3a0a379c209f56970b14d46f9b4f766b72abe7f639e3ecb077",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 29,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0029",
+          "size_bytes": 15728640,
+          "sha256": "7410b8bff537cd31c56d3660878ff65d77dc5b44f22d52440180c68ce3839043",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0029",
+          "lfs_oid": "7410b8bff537cd31c56d3660878ff65d77dc5b44f22d52440180c68ce3839043",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 30,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0030",
+          "size_bytes": 15728640,
+          "sha256": "df030707c2f03440b10d7aebbdbb494e2aedca06159d1c53782a7a9bf89c8e05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0030",
+          "lfs_oid": "df030707c2f03440b10d7aebbdbb494e2aedca06159d1c53782a7a9bf89c8e05",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 31,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0031",
+          "size_bytes": 15728640,
+          "sha256": "f34188f58d3aeccf4bcca4ca1516cb577ccfaad885bf28dc67e84cfc45271659",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0031",
+          "lfs_oid": "f34188f58d3aeccf4bcca4ca1516cb577ccfaad885bf28dc67e84cfc45271659",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 32,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0032",
+          "size_bytes": 15728640,
+          "sha256": "6c455ab6f1b4888bdc03bf9bd0eddf88284b73fc9a970c33001da60ab3b4a432",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0032",
+          "lfs_oid": "6c455ab6f1b4888bdc03bf9bd0eddf88284b73fc9a970c33001da60ab3b4a432",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 33,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0033",
+          "size_bytes": 15728640,
+          "sha256": "3354b302a9f7093aaf20b0cf3cfab4ea8a3e72dced9720d84c4140d8c34a95d7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0033",
+          "lfs_oid": "3354b302a9f7093aaf20b0cf3cfab4ea8a3e72dced9720d84c4140d8c34a95d7",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 34,
+          "filename": "iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0034",
+          "size_bytes": 15664513,
+          "sha256": "f318f66ccd6578cb8f6cb946b025fde92d9b50b39d31902fca3cb10413991f0b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/iigd_dch.inf_amd64_207b51d1bcb6e726.7z.0034",
+          "lfs_oid": "f318f66ccd6578cb8f6cb946b025fde92d9b50b39d31902fca3cb10413991f0b",
+          "lfs_size": 15664513
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-a4467c425486",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "ipf_cpu.inf_amd64_67eebeb56ed505a2",
+      "exe_filename": "ipf_uf.exe",
+      "sha256": "6c79cae38f2dd773f819de6e517b7eb7581a624b9840d4b14c3142206fce3275",
+      "size_bytes": 16028912,
+      "file_version": "2.3.20304.7",
+      "product_version": "2.3.20304.7",
+      "company": "Intel Corporation",
+      "description": "Intel(R) Innovation Platform Framework Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/ipf_cpu.inf_amd64_67eebeb56ed505a2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ipf_cpu.inf_amd64_67eebeb56ed505a2.7z.0001",
+          "size_bytes": 3298164,
+          "sha256": "6f3dc52a69656763f49511aabb70dd949517609ff10592513f84cc876bf8af72",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/ipf_cpu.inf_amd64_67eebeb56ed505a2.7z.0001",
+          "lfs_oid": "6f3dc52a69656763f49511aabb70dd949517609ff10592513f84cc876bf8af72",
+          "lfs_size": 3298164
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-ac6d4326caf1",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "mewmiprov.inf_amd64_d7a222f6ce13d429",
+      "exe_filename": "WMIRegistrationService.exe",
+      "sha256": "91f5f616cfaab01ccff7458427db5a2bab4d80d7085efe460656aecefb27f9c3",
+      "size_bytes": 2554007,
+      "file_version": "2522.8.2.0",
+      "product_version": "2522.8.2.0",
+      "company": "Intel Corporation",
+      "description": "Intel(R) Management Engine WMI Provider Registration",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/mewmiprov.inf_amd64_d7a222f6ce13d429.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "mewmiprov.inf_amd64_d7a222f6ce13d429.7z.0001",
+          "size_bytes": 742253,
+          "sha256": "e80adcedce3018c809f2ecfc9aafb6eb6c629f67e4b00433ef380b9a114f459a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/mewmiprov.inf_amd64_d7a222f6ce13d429.7z.0001",
+          "lfs_oid": "e80adcedce3018c809f2ecfc9aafb6eb6c629f67e4b00433ef380b9a114f459a",
+          "lfs_size": 742253
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-5c539adf4401",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "realtekservice.inf_amd64_5519372748ff6ca5",
+      "exe_filename": "RtkAudUService64.exe",
+      "sha256": "080d1237a2af5995765340397ab8b615f02ff413d61cb7d50d95972189a42d27",
+      "size_bytes": 9717902,
+      "file_version": "1.1.620.1",
+      "product_version": "1.1.620.1",
+      "company": "Realtek Semiconductor",
+      "description": "Realtek HD Audio Universal Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/realtekservice.inf_amd64_5519372748ff6ca.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtekservice.inf_amd64_5519372748ff6ca.7z.0001",
+          "size_bytes": 3497544,
+          "sha256": "c374127eb9ca3c00f1394feebf009a0aca6cbbc912083d240775032765c74f80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/realtekservice.inf_amd64_5519372748ff6ca.7z.0001",
+          "lfs_oid": "c374127eb9ca3c00f1394feebf009a0aca6cbbc912083d240775032765c74f80",
+          "lfs_size": 3497544
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-a184adc3cab3",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "realtekservice.inf_amd64_e54441f6cc56b0cb",
+      "exe_filename": "RtkAudUService64.exe",
+      "sha256": "9c06f9ed7663d63bf394bf0531bc958e0f7e44ddea9ab448e244ce6450a89446",
+      "size_bytes": 11044011,
+      "file_version": "1.1.718.1",
+      "product_version": "1.1.718.1",
+      "company": "Realtek Semiconductor",
+      "description": "Realtek HD Audio Universal Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/realtekservice.inf_amd64_e54441f6cc56b0c.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "realtekservice.inf_amd64_e54441f6cc56b0c.7z.0001",
+          "size_bytes": 3836200,
+          "sha256": "791c22aac24b646646324faa771c29ff494cc704341ca29a9ae2568289fa0a46",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/realtekservice.inf_amd64_e54441f6cc56b0c.7z.0001",
+          "lfs_oid": "791c22aac24b646646324faa771c29ff494cc704341ca29a9ae2568289fa0a46",
+          "lfs_size": 3836200
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
+    },
+    {
+      "id": "inst-a88506e22c61",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Other",
+      "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1",
+      "exe_filename": "WavesSvc64.exe",
+      "sha256": "d1c82e6c3db2d672dca3c979748350a23388f894d9439709bc67b130e09706eb",
+      "size_bytes": 243113873,
+      "file_version": "1.123.0.0",
+      "product_version": "1.123.0.0",
+      "company": "Waves Audio Ltd.",
+      "description": "Waves MaxAudio Service Application",
+      "installer_type": "PE-installer",
+      "icon_sha256": "e3533d0a2937517a",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0001",
+      "split_parts": 10,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "dc3525fa9a10ff1e2eaa515db8d6703bd0ca887c187a7e7fb74ee60d2f81f7bb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0001",
+          "lfs_oid": "dc3525fa9a10ff1e2eaa515db8d6703bd0ca887c187a7e7fb74ee60d2f81f7bb",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "645da4dc0c73a2d0d4d25fbd617fd224835d174b74efe6b04bb5621c6f6234c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0002",
+          "lfs_oid": "645da4dc0c73a2d0d4d25fbd617fd224835d174b74efe6b04bb5621c6f6234c8",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 3,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "9580283c808f96a98c7035d7251d9a5a9b93dd8605002e563990596ac70fbe5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0003",
+          "lfs_oid": "9580283c808f96a98c7035d7251d9a5a9b93dd8605002e563990596ac70fbe5e",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 4,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "7631bdecca1cdf8c9beb177ed4b6427e9972c037543a5b1e8ea08e65b55d7c05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0004",
+          "lfs_oid": "7631bdecca1cdf8c9beb177ed4b6427e9972c037543a5b1e8ea08e65b55d7c05",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 5,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "ff851072104a027e443ce277cf9268ab60cbd091baaf3aa0e4b9147f0b411af0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0005",
+          "lfs_oid": "ff851072104a027e443ce277cf9268ab60cbd091baaf3aa0e4b9147f0b411af0",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 6,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "f010f0c402456e6927f784679d02ffd603989b673efb79ed32b67a6487e94c35",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0006",
+          "lfs_oid": "f010f0c402456e6927f784679d02ffd603989b673efb79ed32b67a6487e94c35",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 7,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "e68f594ff5f0ae34f0a67bff815fb3d7cb6dd3a5fc59e6509bf6bbbdafe29795",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0007",
+          "lfs_oid": "e68f594ff5f0ae34f0a67bff815fb3d7cb6dd3a5fc59e6509bf6bbbdafe29795",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 8,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "5d10efe19b36b2dbc30ec2c506f91165b8d28acaba994dac43a870002a2783f3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0008",
+          "lfs_oid": "5d10efe19b36b2dbc30ec2c506f91165b8d28acaba994dac43a870002a2783f3",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 9,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "e81047e32ff2139ab0e75b2c1f051cc3a7eb7f7178d5c212476982cc2e365628",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0009",
+          "lfs_oid": "e81047e32ff2139ab0e75b2c1f051cc3a7eb7f7178d5c212476982cc2e365628",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 10,
+          "filename": "wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0010",
+          "size_bytes": 15613164,
+          "sha256": "1b4741d3382771bf29ed01b351fbff76b628b3c53cd4e3e7e82d4554a1e2380b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_IntelCorporati_System_x64/wavesapo13de.inf_amd64_69ea1dc0433137a1.7z.0010",
+          "lfs_oid": "1b4741d3382771bf29ed01b351fbff76b628b3c53cd4e3e7e82d4554a1e2380b",
+          "lfs_size": 15613164
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true
     }
   ]
 }

@@ -3,7 +3,7 @@
   "category": "Chipset",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-15",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -85503,10 +85503,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-ce66b88b4646eb19",
+      "notes": " | Superseded by drv-ce66b88b4646eb19 on 2026-08-19"
     },
     {
       "id": "drv-f0a849c0931adb72",
@@ -85545,10 +85545,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-411d5a88fdeacbe5",
+      "notes": " | Superseded by drv-411d5a88fdeacbe5 on 2026-08-19"
     },
     {
       "id": "drv-e866235a88fe434e",
@@ -94973,10 +94973,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-04ed0588b7f13933",
+      "notes": " | Superseded by drv-04ed0588b7f13933 on 2026-08-19"
     },
     {
       "id": "drv-defff3758bc1ba4c",
@@ -95082,10 +95082,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-1837a32ff2d61f6f",
+      "notes": " | Superseded by drv-1837a32ff2d61f6f on 2026-08-19"
     },
     {
       "id": "drv-be2b369d87eeacce",
@@ -95184,10 +95184,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-3c4267e1787c3259",
+      "notes": " | Superseded by drv-3c4267e1787c3259 on 2026-08-19"
     },
     {
       "id": "drv-97f47cdf7e4de07c",
@@ -95286,10 +95286,10 @@
         }
       ],
       "date_added": "2026-08-09",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-373b6cc92951e3dd",
+      "notes": " | Superseded by drv-373b6cc92951e3dd on 2026-08-19"
     },
     {
       "id": "drv-199111f2188ba550",
@@ -206196,6 +206196,604 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-8aeb9a82f7d2cf5f",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "1.20.2.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/asix-syst-x64-1.20.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-syst-x64-1.20.2.0.7z.0001",
+          "size_bytes": 8159,
+          "sha256": "6d5c23bf01ed521b118ca40b0df53ee1701d7058150ca429354f7d70c2d6c581",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/asix-syst-x64-1.20.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe27ef8319b52818",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "ASIX",
+      "category": "System",
+      "version": "1.22.2.0",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_125B&DEV_9105&SUBSYS_1000A000&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to IO-Bridge"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/asix-syst-x64-1.22.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-syst-x64-1.22.2.0.7z.0001",
+          "size_bytes": 7010,
+          "sha256": "2bd9243909a9bf3458f0470737ce6e3993db9f1e7245cf2ec14236cf4ab1ad56",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/asix-syst-x64-1.22.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8ad25e5f0457cd6a",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "03.00.00.1457",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3190",
+        "PCI\\VEN_8086&DEV_4511",
+        "PCI\\VEN_8086&DEV_464F",
+        "PCI\\VEN_8086&DEV_467E",
+        "PCI\\VEN_8086&DEV_4C11",
+        "PCI\\VEN_8086&DEV_4E11",
+        "PCI\\VEN_8086&DEV_5A11",
+        "PCI\\VEN_8086&DEV_8A11",
+        "PCI\\VEN_8086&DEV_9A11",
+        "PCI\\VEN_8086&DEV_A74F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) GNA Scoring Accelerator module"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-03.00.00.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-03.00.00.1.7z.0001",
+          "size_bytes": 47724,
+          "sha256": "28220981c2890cffa9e827f9da889a74c0e189271ba08e33b9d7bfb75fa5982f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-03.00.00.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-70d03c09e9623db8",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "03.05.00.1578",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3190",
+        "PCI\\VEN_8086&DEV_4511",
+        "PCI\\VEN_8086&DEV_464F",
+        "PCI\\VEN_8086&DEV_467E",
+        "PCI\\VEN_8086&DEV_4C11",
+        "PCI\\VEN_8086&DEV_4E11",
+        "PCI\\VEN_8086&DEV_5A11",
+        "PCI\\VEN_8086&DEV_774C",
+        "PCI\\VEN_8086&DEV_7E4C",
+        "PCI\\VEN_8086&DEV_8A11",
+        "PCI\\VEN_8086&DEV_9A11",
+        "PCI\\VEN_8086&DEV_A74F",
+        "PCI\\VEN_8086&DEV_AE4C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) GNA Scoring Accelerator module"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-03.05.00.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-03.05.00.1.7z.0001",
+          "size_bytes": 47421,
+          "sha256": "77c2ca344197145c00405ee3d485864a6e60adb8a8a9f1e1aa53cfe2c5a379e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-03.05.00.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ffdb5f2b73bb2bc9",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel",
+      "category": "System",
+      "version": "2540.8.7.0",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_02E0",
+        "PCI\\VEN_8086&DEV_06E0",
+        "PCI\\VEN_8086&DEV_18D3",
+        "PCI\\VEN_8086&DEV_1BE0",
+        "PCI\\VEN_8086&DEV_34E0",
+        "PCI\\VEN_8086&DEV_38E0",
+        "PCI\\VEN_8086&DEV_3DE0",
+        "PCI\\VEN_8086&DEV_43E0",
+        "PCI\\VEN_8086&DEV_4B70",
+        "PCI\\VEN_8086&DEV_4D70",
+        "PCI\\VEN_8086&DEV_4DE0",
+        "PCI\\VEN_8086&DEV_51E0",
+        "PCI\\VEN_8086&DEV_54E0",
+        "PCI\\VEN_8086&DEV_6E68",
+        "PCI\\VEN_8086&DEV_7770",
+        "PCI\\VEN_8086&DEV_7A68",
+        "PCI\\VEN_8086&DEV_7AE8",
+        "PCI\\VEN_8086&DEV_7E70",
+        "PCI\\VEN_8086&DEV_7E70&REV_00",
+        "PCI\\VEN_8086&DEV_7F68",
+        "PCI\\VEN_8086&DEV_98E0",
+        "PCI\\VEN_8086&DEV_9CBA",
+        "PCI\\VEN_8086&DEV_9D3A",
+        "PCI\\VEN_8086&DEV_9DE0",
+        "PCI\\VEN_8086&DEV_A0E0",
+        "PCI\\VEN_8086&DEV_A13A",
+        "PCI\\VEN_8086&DEV_A1BA",
+        "PCI\\VEN_8086&DEV_A23A",
+        "PCI\\VEN_8086&DEV_A2BA",
+        "PCI\\VEN_8086&DEV_A360",
+        "PCI\\VEN_8086&DEV_A3BA",
+        "PCI\\VEN_8086&DEV_A870",
+        "PCI\\VEN_8086&DEV_D370",
+        "PCI\\VEN_8086&DEV_E370",
+        "PCI\\VEN_8086&DEV_E470"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Management Engine Interface #1"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intel-syst-x86-2540.8.7.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x86-2540.8.7.0.7z.0001",
+          "size_bytes": 150558,
+          "sha256": "7d8443b0f6d07e9da20c7125bdeffdb25fc18d47379788005db4a752ff9fb1a1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intel-syst-x86-2540.8.7.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ee311a0f9157371b",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "30.100.2328.32",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1055",
+        "ACPI\\INTC1056",
+        "ACPI\\INTC1085"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1055",
+        "ACPI\\INTC1056",
+        "ACPI\\INTC1085"
+      ],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Serial IO GPIO Host Controller - INTC1056",
+        "Intel(R) Serial IO GPIO Host Controller - INTC1055",
+        "Intel(R) Serial IO GPIO Host Controller - INTC1085"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.232.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-30.100.232.7z.0001",
+          "size_bytes": 52535,
+          "sha256": "7e0037073bb0413ad5777b4b5aa81d3bde81ff19ff40f6362016bad7f8580504",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.232.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-04ed0588b7f13933",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "30.100.2531.33",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1057"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1057"
+      ],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Serial IO GPIO Host Controller - INTC1057"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-30.100.253.7z.0001",
+          "size_bytes": 65067,
+          "sha256": "da6c449796c94f29dabe26de65b74bf27fa54c9914a59f812ddc0988373500ae",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": "drv-490d5bc160b1c3f2",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1837a32ff2d61f6f",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "30.100.2531.33",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_54C5",
+        "PCI\\VEN_8086&DEV_54C6",
+        "PCI\\VEN_8086&DEV_54D8",
+        "PCI\\VEN_8086&DEV_54D9",
+        "PCI\\VEN_8086&DEV_54E8",
+        "PCI\\VEN_8086&DEV_54E9",
+        "PCI\\VEN_8086&DEV_54EA",
+        "PCI\\VEN_8086&DEV_54EB"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Serial IO I2C Host Controller - 54E8",
+        "Intel(R) Serial IO I2C Host Controller - 54E9",
+        "Intel(R) Serial IO I2C Host Controller - 54EA",
+        "Intel(R) Serial IO I2C Host Controller - 54EB",
+        "Intel(R) Serial IO I2C Host Controller - 54C5",
+        "Intel(R) Serial IO I2C Host Controller - 54C6",
+        "Intel(R) Serial IO I2C Host Controller - 54D8",
+        "Intel(R) Serial IO I2C Host Controller - 54D9"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-30.100.253.7z.0001",
+          "size_bytes": 72193,
+          "sha256": "55d2a445e01b2c22e428d160649b9659d7337ec0780dacbb4502af4a8fb8f28b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": "drv-5299676cda87fe40",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3c4267e1787c3259",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "30.100.2531.33",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_54AA",
+        "PCI\\VEN_8086&DEV_54AB",
+        "PCI\\VEN_8086&DEV_54DE",
+        "PCI\\VEN_8086&DEV_54DF",
+        "PCI\\VEN_8086&DEV_54FB",
+        "PCI\\VEN_8086&DEV_54FD",
+        "PCI\\VEN_8086&DEV_54FE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Serial IO SPI Host Controller - 54AA",
+        "Intel(R) Serial IO SPI Host Controller - 54AB",
+        "Intel(R) Serial IO SPI Host Controller - 54FB",
+        "Intel(R) Serial IO SPI Host Controller - 54FD",
+        "Intel(R) Serial IO SPI Host Controller - 54FE",
+        "Intel(R) Serial IO SPI Host Controller - 54DE",
+        "Intel(R) Serial IO SPI Host Controller - 54DF"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-30.100.253.7z.0001",
+          "size_bytes": 62464,
+          "sha256": "541e070e0c7de19ef89cda9b0a740d1f9079e9a1a4356cc0a77b0319d9930aa9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": "drv-f13a06c444e4891a",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-373b6cc92951e3dd",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel Corporation",
+      "category": "System",
+      "version": "30.100.2531.33",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_54A8",
+        "PCI\\VEN_8086&DEV_54A9",
+        "PCI\\VEN_8086&DEV_54C7",
+        "PCI\\VEN_8086&DEV_54DA",
+        "PCI\\VEN_8086&DEV_54DB",
+        "PCI\\VEN_8086&DEV_54DC",
+        "PCI\\VEN_8086&DEV_54DD"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel Corporation",
+        "Intel(R) Serial IO UART Host Controller - 54A8",
+        "Intel(R) Serial IO UART Host Controller - 54A9",
+        "Intel(R) Serial IO UART Host Controller - 54C7",
+        "Intel(R) Serial IO UART Host Controller - 54DA",
+        "Intel(R) Serial IO UART Host Controller - 54DB",
+        "Intel(R) Serial IO UART Host Controller - 54DC",
+        "Intel(R) Serial IO UART Host Controller - 54DD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelcor-syst-x64-30.100.253.7z.0001",
+          "size_bytes": 103453,
+          "sha256": "fd25d7da7d0ebbbf795fbe7a6e14599234bc6601cc8aca5697b472dec9c9b1d5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intelcor-syst-x64-30.100.253.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": "drv-f26a5879b470e67c",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ce66b88b4646eb19",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel",
+      "category": "System",
+      "version": "2.3.20304.7",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1041",
+        "ACPI\\INTC1042",
+        "ACPI\\INTC1046",
+        "ACPI\\INTC1048",
+        "ACPI\\INTC1049",
+        "ACPI\\INTC1060",
+        "ACPI\\INTC1061",
+        "ACPI\\INTC1062",
+        "ACPI\\INTC1063",
+        "ACPI\\INTC1064",
+        "ACPI\\INTC1065",
+        "ACPI\\INTC1066",
+        "ACPI\\INTC1067",
+        "ACPI\\INTC1068",
+        "ACPI\\INTC1069",
+        "ACPI\\INTC106A",
+        "ACPI\\INTC106B",
+        "ACPI\\INTC106C",
+        "ACPI\\INTC106D",
+        "ACPI\\INTC10A0",
+        "ACPI\\INTC10A1",
+        "ACPI\\INTC10A2",
+        "ACPI\\INTC10A3",
+        "ACPI\\INTC10A4",
+        "ACPI\\INTC10A5",
+        "ACPI\\INTC10D4",
+        "ACPI\\INTC10D5",
+        "ACPI\\INTC10D6",
+        "ACPI\\INTC10D7",
+        "ACPI\\INTC10D8",
+        "ACPI\\INTC10D9",
+        "ACPI\\INTC10FC",
+        "ACPI\\INTC10FD",
+        "ACPI\\INTC10FE",
+        "ACPI\\INTC10FF",
+        "ACPI\\INTC1100",
+        "ACPI\\INTC1101"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1041",
+        "ACPI\\INTC1042",
+        "ACPI\\INTC1046",
+        "ACPI\\INTC1048",
+        "ACPI\\INTC1049",
+        "ACPI\\INTC1060",
+        "ACPI\\INTC1061",
+        "ACPI\\INTC1062",
+        "ACPI\\INTC1063",
+        "ACPI\\INTC1064",
+        "ACPI\\INTC1065",
+        "ACPI\\INTC1066",
+        "ACPI\\INTC1067",
+        "ACPI\\INTC1068",
+        "ACPI\\INTC1069",
+        "ACPI\\INTC106A",
+        "ACPI\\INTC106B",
+        "ACPI\\INTC106C",
+        "ACPI\\INTC106D",
+        "ACPI\\INTC10A0",
+        "ACPI\\INTC10A1",
+        "ACPI\\INTC10A2",
+        "ACPI\\INTC10A3",
+        "ACPI\\INTC10A4",
+        "ACPI\\INTC10A5",
+        "ACPI\\INTC10D4",
+        "ACPI\\INTC10D5",
+        "ACPI\\INTC10D6",
+        "ACPI\\INTC10D7",
+        "ACPI\\INTC10D8",
+        "ACPI\\INTC10D9",
+        "ACPI\\INTC10FC",
+        "ACPI\\INTC10FD",
+        "ACPI\\INTC10FE",
+        "ACPI\\INTC10FF",
+        "ACPI\\INTC1100",
+        "ACPI\\INTC1101"
+      ],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Manager",
+        "Intel(R) Innovation Platform Framework Generic Participant",
+        "Intel(R) Innovation Platform Framework Fan Participant",
+        "Intel(R) Innovation Platform Framework PCH ACPI Participant",
+        "Intel(R) Innovation Platform Framework Power Participant",
+        "Intel(R) Innovation Platform Framework Battery Participant"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intel-syst-x64-2.3.20304.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-2.3.20304.7z.0001",
+          "size_bytes": 44718,
+          "sha256": "7b8c4dcc065d0eb50dcb66b83ede95262ef90e83863257f041115efe0b037beb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intel-syst-x64-2.3.20304.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": "drv-783ddcb79aebb64b",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-411d5a88fdeacbe5",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Chipset",
+      "provider": "Intel",
+      "category": "System",
+      "version": "2.3.20304.7",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_3258",
+        "PCI\\VEN_8086&DEV_461D",
+        "PCI\\VEN_8086&DEV_641D",
+        "PCI\\VEN_8086&DEV_7D03",
+        "PCI\\VEN_8086&DEV_A71D",
+        "PCI\\VEN_8086&DEV_AD03",
+        "PCI\\VEN_8086&DEV_B01D",
+        "PCI\\VEN_8086&DEV_FD1D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "Intel(R) Innovation Platform Framework Processor Participant",
+        "Intel(R) Innovation Platform Framework Extensible Framework"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intel-syst-x64-2.3.20304.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x64-2.3.20304.7z.0001",
+          "size_bytes": 3298124,
+          "sha256": "4da1dc731d510c498202f0f3ecb2441e91e378adeef9a4bf07c523138d0ba09f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_IntelCorporati_System_x64/intel-syst-x64-2.3.20304.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": "drv-f0a849c0931adb72",
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
@@ -206262,6 +206860,54 @@
         "id": "drv-4e010e6944604372",
         "version": "1001.100.122.5989",
         "date_added": "2026-08-09",
+        "superseded_by": null
+      }
+    ],
+    "x64|system|ACPI\\INTC1057": [
+      {
+        "id": "drv-04ed0588b7f13933",
+        "version": "30.100.2531.33",
+        "date_added": "2026-08-19",
+        "superseded_by": null
+      }
+    ],
+    "x64|system|PCI\\VEN_8086&DEV_54C5|PCI\\VEN_8086&DEV_54C6|PCI\\VEN_8086&DEV_54D8|PCI\\VEN_8086&DEV_54D9|PCI\\VEN_8086&DEV_54E8|PCI\\VEN_8086&DEV_54E9|PCI\\VEN_8086&DEV_54EA|PCI\\VEN_8086&DEV_54EB": [
+      {
+        "id": "drv-1837a32ff2d61f6f",
+        "version": "30.100.2531.33",
+        "date_added": "2026-08-19",
+        "superseded_by": null
+      }
+    ],
+    "x64|system|PCI\\VEN_8086&DEV_54AA|PCI\\VEN_8086&DEV_54AB|PCI\\VEN_8086&DEV_54DE|PCI\\VEN_8086&DEV_54DF|PCI\\VEN_8086&DEV_54FB|PCI\\VEN_8086&DEV_54FD|PCI\\VEN_8086&DEV_54FE": [
+      {
+        "id": "drv-3c4267e1787c3259",
+        "version": "30.100.2531.33",
+        "date_added": "2026-08-19",
+        "superseded_by": null
+      }
+    ],
+    "x64|system|PCI\\VEN_8086&DEV_54A8|PCI\\VEN_8086&DEV_54A9|PCI\\VEN_8086&DEV_54C7|PCI\\VEN_8086&DEV_54DA|PCI\\VEN_8086&DEV_54DB|PCI\\VEN_8086&DEV_54DC|PCI\\VEN_8086&DEV_54DD": [
+      {
+        "id": "drv-373b6cc92951e3dd",
+        "version": "30.100.2531.33",
+        "date_added": "2026-08-19",
+        "superseded_by": null
+      }
+    ],
+    "x64|system|ACPI\\INTC1041|ACPI\\INTC1042|ACPI\\INTC1046|ACPI\\INTC1048|ACPI\\INTC1049|ACPI\\INTC1060|ACPI\\INTC1061|ACPI\\INTC1062|ACPI\\INTC1063|ACPI\\INTC1064|ACPI\\INTC1065|ACPI\\INTC1066|ACPI\\INTC1067|ACPI\\INTC1068|ACPI\\INTC1069|ACPI\\INTC106A|ACPI\\INTC106B|ACPI\\INTC106C|ACPI\\INTC106D|ACPI\\INTC10A0|ACPI\\INTC10A1|ACPI\\INTC10A2|ACPI\\INTC10A3|ACPI\\INTC10A4|ACPI\\INTC10A5|ACPI\\INTC10D4|ACPI\\INTC10D5|ACPI\\INTC10D6|ACPI\\INTC10D7|ACPI\\INTC10D8|ACPI\\INTC10D9|ACPI\\INTC10FC|ACPI\\INTC10FD|ACPI\\INTC10FE|ACPI\\INTC10FF|ACPI\\INTC1100|ACPI\\INTC1101": [
+      {
+        "id": "drv-ce66b88b4646eb19",
+        "version": "2.3.20304.7",
+        "date_added": "2026-08-19",
+        "superseded_by": null
+      }
+    ],
+    "x64|system|PCI\\VEN_8086&DEV_3258|PCI\\VEN_8086&DEV_461D|PCI\\VEN_8086&DEV_641D|PCI\\VEN_8086&DEV_7D03|PCI\\VEN_8086&DEV_A71D|PCI\\VEN_8086&DEV_AD03|PCI\\VEN_8086&DEV_B01D|PCI\\VEN_8086&DEV_FD1D": [
+      {
+        "id": "drv-411d5a88fdeacbe5",
+        "version": "2.3.20304.7",
+        "date_added": "2026-08-19",
         "superseded_by": null
       }
     ]

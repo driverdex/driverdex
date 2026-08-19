@@ -1,3 +1,7 @@
+<!-- DRIVERDEX_DRIVER_BADGE_START -->
+![Drivers](https://img.shields.io/badge/drivers-22116-brightgreen?style=flat-square)
+<!-- DRIVERDEX_DRIVER_BADGE_END -->
+
 <div align="center">
 
 # DriverDex

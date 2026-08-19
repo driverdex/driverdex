@@ -3,7 +3,7 @@
   "category": "Input",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-15",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -255995,6 +255995,60 @@
         }
       ],
       "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5983d63861660a7f",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Input",
+      "provider": "Intel(R) Corporation",
+      "category": "HIDClass",
+      "version": "2.2.2.5",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INT33D5",
+        "ACPI\\INTC1051",
+        "ACPI\\INTC1054",
+        "ACPI\\INTC1070",
+        "ACPI\\INTC1076",
+        "ACPI\\INTC1077",
+        "ACPI\\INTC1078",
+        "ACPI\\INTC107B",
+        "ACPI\\INTC10CB",
+        "ACPI\\INTC10CC"
+      ],
+      "compatible_ids": [
+        "ACPI\\INT33D5",
+        "ACPI\\INTC1051",
+        "ACPI\\INTC1054",
+        "ACPI\\INTC1070",
+        "ACPI\\INTC1076",
+        "ACPI\\INTC1077",
+        "ACPI\\INTC1078",
+        "ACPI\\INTC107B",
+        "ACPI\\INTC10CB",
+        "ACPI\\INTC10CC"
+      ],
+      "descriptions": [
+        "Intel(R) Corporation",
+        "Intel(R) HID Event Filter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_IntelCorporati_System_x64/intelrco-hidc-x64-2.2.2.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intelrco-hidc-x64-2.2.2.5.7z.0001",
+          "size_bytes": 41140,
+          "sha256": "89090791d2d730f0aa20d5c5c8014ef249b2726f9c19de3dab6bf0528093048b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_IntelCorporati_System_x64/intelrco-hidc-x64-2.2.2.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

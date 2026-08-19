@@ -3,7 +3,7 @@
   "category": "Ports",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-15",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -28787,6 +28787,177 @@
         }
       ],
       "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2644bda65b2a8b93",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Ports",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "1.22.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to High Speed Serial Port",
+        "AX99100 PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/asix-port-x64-1.22.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-port-x64-1.22.2.0.7z.0001",
+          "size_bytes": 151369,
+          "sha256": "9059d94e1d526206102b7a81508ee87117e82d37ae859c8aa4b8df85892129a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/asix-port-x64-1.22.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-72decbe7d791ca99",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Ports",
+      "provider": "ASIX",
+      "category": "Ports",
+      "version": "1.20.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASIX",
+        "AX99100 PCIe to High Speed Serial Port",
+        "AX99100 PCIe to Multi Mode Parallel Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/asix-port-x64-1.20.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asix-port-x64-1.20.2.0.7z.0001",
+          "size_bytes": 165788,
+          "sha256": "d99bfddf9f5479957752f843099708f80d4b875fa104ae082cd67266dfb32283",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/asix-port-x64-1.20.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1e4419e22583eba7",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Ports",
+      "provider": "FTDI",
+      "category": "Ports",
+      "version": "2.12.36.20",
+      "arch": "x64",
+      "hwids": [
+        "FTDIBUS\\COMPORT&VID_0403&PID_0000",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6001",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6010",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6011",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6014",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6015",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6031",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6032",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6033",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6034",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6035",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6036",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6037",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6038",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6039",
+        "FTDIBUS\\COMPORT&VID_0403&PID_603A",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6040",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6041",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6042",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6043",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6044",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6045",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6047",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6048",
+        "FTDIBUS\\COMPORT&VID_0403&PID_6049",
+        "FTDIBUS\\COMPORT&VID_0403&PID_604A",
+        "FTDIBUS\\COMPORT&VID_0403&PID_604B",
+        "FTDIBUS\\COMPORT&VID_0403&PID_604C",
+        "FTDIBUS\\COMPORT&VID_0403&PID_604D",
+        "FTDIBUS\\COMPORT&VID_0403&PID_604E",
+        "FTDIBUS\\COMPORT&VID_0403&PID_604F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FTDI",
+        "%VID_0403&PID_6001.DeviceDesc%",
+        "%VID_0403&PID_6010.DeviceDesc%",
+        "%VID_0403&PID_6011.DeviceDesc%",
+        "%VID_0403&PID_6014.DeviceDesc%",
+        "%VID_0403&PID_6015.DeviceDesc%",
+        "%VID_0403&PID_6031.DeviceDesc%",
+        "%VID_0403&PID_6032.DeviceDesc%",
+        "%VID_0403&PID_6033.DeviceDesc%",
+        "%VID_0403&PID_6034.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/ftdi-port-x64-2.12.36.20.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ftdi-port-x64-2.12.36.20.7z.0001",
+          "size_bytes": 115106,
+          "sha256": "8a907650a334a34347d2178d21de4f8613214695800bdf17c7733cf37ee1cc80",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/ftdi-port-x64-2.12.36.20.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bb9fcbdb6fc5cb52",
+      "pack": "IntelCorporati_System_x64",
+      "type": "Ports",
+      "provider": "SUNIX Co., Ltd.",
+      "category": "Ports",
+      "version": "10.2.4.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "SUNIX Co., Ltd.",
+        "SUNIX COM Port",
+        "SUNIX LPT Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/sunixcol-port-x86-10.2.4.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sunixcol-port-x86-10.2.4.0.7z.0001",
+          "size_bytes": 353076,
+          "sha256": "2c540cffc48d5e06b5edf94bdf9f60414093aef7a0a7ba7f04d6e98938576a1c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_IntelCorporati_System_x64/sunixcol-port-x86-10.2.4.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-08-19",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
