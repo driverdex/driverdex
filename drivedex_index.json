@@ -1,6 +1,6 @@
 {
   "schema": "3.0",
-  "updated": "2026-08-15",
+  "updated": "2026-08-19",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
@@ -94,6 +94,6 @@
     "Printer": 434,
     "Security": 38,
     "Storage": 861,
-    "USB": 1205
+    "USB": 1221
   }
 }
