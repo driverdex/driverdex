@@ -1,20 +1,22 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: ✨ Feature Request
+about: Suggest an improvement, new packaging mode, or CLI enhancement.
+title: '[FEAT]: '
+labels: 'enhancement'
 assignees: ''
-
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 💡 Feature Summary
+A clear and concise description of the feature or enhancement you would like to see.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## 🎯 Problem / Use Case
+What problem does this feature solve? (e.g., *"When packaging large installer folders, DriverDex Builder currently..."*)
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## 🛠️ Proposed Solution / Workflow
+Describe how you think this feature should work or how the CLI interface/manifests should adapt.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## 🎨 Alternatives Considered
+A clear description of any alternative solutions or features you've considered.
+
+## ➕ Additional Context
+Add any other context, CLI flag suggestions, or architectural thoughts here.
