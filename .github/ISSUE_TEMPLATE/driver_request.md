@@ -1,9 +1,11 @@
 ---
-name: 📦 Driver Submission / Update Request
-about: Report a missing driver, broken INF parsing, or request an outdated driver update.
-title: '[DRIVER]: '
-labels: 'driver-request'
+name: "\U0001F4E6 Driver Submission / Update Request"
+about: Report a missing driver, broken INF parsing, or request an outdated driver
+  update.
+title: "[DRIVER]: "
+labels: ''
 assignees: ''
+
 ---
 
 ## 🎧 Driver Information

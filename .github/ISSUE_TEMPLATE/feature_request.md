@@ -1,9 +1,10 @@
 ---
-name: ✨ Feature Request
+name: "✨ Feature Request"
 about: Suggest an improvement, new packaging mode, or CLI enhancement.
-title: '[FEAT]: '
-labels: 'enhancement'
+title: "[FEAT]: "
+labels: enhancement
 assignees: ''
+
 ---
 
 ## 💡 Feature Summary
