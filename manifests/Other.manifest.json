@@ -25978,26 +25978,29 @@
       "notes": ""
     },
     {
-      "id": "drv-0ddc18b20812d20f",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-f58c059e5b06fd05",
+      "pack": "ASUS_System_x64",
       "type": "Other",
-      "provider": "FUJITSU LIMITED",
-      "category": "\"ActivityMonitor\"",
-      "version": "7.1.826.2014",
+      "provider": "Egis Vision Inc.",
+      "category": "EgisVisionDevice",
+      "version": "1.1.23.29",
       "arch": "x64",
       "hwids": [],
       "compatible_ids": [],
-      "descriptions": [],
+      "descriptions": [
+        "Egis Vision Inc.",
+        "Acer AI Vision Sensor"
+      ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-7.1.826.20.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/egisvisi-egis-x64-1.1.23.29.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-acti-x64-7.1.826.20.7z.0001",
-          "size_bytes": 14945,
-          "sha256": "46037b11ea0ecf19f4ff85ceed669dc69a895ba4f705451a6c6d059168a4d820",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-7.1.826.20.7z.0001"
+          "filename": "egisvisi-egis-x64-1.1.23.29.7z.0001",
+          "size_bytes": 136643,
+          "sha256": "6e1e4c7bcb5abf6b71b259282926002e743ad19706c0a42b2e2ae7bc927c0106",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/egisvisi-egis-x64-1.1.23.29.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -26007,26 +26010,33 @@
       "notes": ""
     },
     {
-      "id": "drv-398b8edb86a36940",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-db34825dcfcadf12",
+      "pack": "ASUS_System_x64",
       "type": "Other",
-      "provider": "FUJITSU LIMITED",
-      "category": "\"ActivityMonitor\"",
-      "version": "2.0.0.2",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "Extension",
+      "version": "3.0.10.0",
       "arch": "x64",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [],
+      "hwids": [
+        "ACPI\\ASUS2018"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS2018"
+      ],
+      "descriptions": [
+        "ASUSTeK COMPUTER INC.",
+        "ASUS Business Manager Service Pack"
+      ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.2.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/asustekc-exte-x64-3.0.10.0.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-acti-x64-2.0.0.2.7z.0001",
-          "size_bytes": 23299,
-          "sha256": "7decb271d9a49ba3008d7f90c936b2efc34fb7734cb4ee6f76d7cbdaac027306",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.2.7z.0001"
+          "filename": "asustekc-exte-x64-3.0.10.0.7z.0001",
+          "size_bytes": 897785,
+          "sha256": "8cd2f743947a37ef47e5bbb4fda1bb488a8ee11ef3bc80fc4ee4d9cf765c2837",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/asustekc-exte-x64-3.0.10.0.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -26036,26 +26046,65 @@
       "notes": ""
     },
     {
-      "id": "drv-c3065f6e9026b61f",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-e6f92f55ba19ed67",
+      "pack": "ASUS_System_x64",
       "type": "Other",
-      "provider": "FUJITSU LIMITED",
-      "category": "\"ActivityMonitor\"",
-      "version": "2.0.0.3",
+      "provider": "ASUSTeK",
+      "category": "AsusOtherDevices",
+      "version": "6.14.10.200",
       "arch": "x64",
       "hwids": [],
       "compatible_ids": [],
-      "descriptions": [],
+      "descriptions": [
+        "ASUSTeK",
+        "Asus Video3D Device"
+      ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.3.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/asustek-asus-x64-6.14.10.20.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-acti-x64-2.0.0.3.7z.0001",
-          "size_bytes": 14365,
-          "sha256": "b231c8a2bbcfb800fa14dda78f220d4530e736195907ba7ac3d35a5a504332ac",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.3.7z.0001"
+          "filename": "asustek-asus-x64-6.14.10.20.7z.0001",
+          "size_bytes": 5401,
+          "sha256": "bff225b6f215e72aff4c042377e0405dee7766ec4042119a45565acd4cfa3e6e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/asustek-asus-x64-6.14.10.20.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e1706f156ff1b07b",
+      "pack": "ASUS_System_x64",
+      "type": "Other",
+      "provider": "Dell Technologies",
+      "category": "DellInstrumentation",
+      "version": "2.8.5.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\DELLINSDRV"
+      ],
+      "compatible_ids": [
+        "ROOT\\DELLINSDRV"
+      ],
+      "descriptions": [
+        "Dell Technologies",
+        "DellInstrumentation Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/delltech-dell-x64-2.8.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "delltech-dell-x64-2.8.5.0.7z.0001",
+          "size_bytes": 21427,
+          "sha256": "0f9b405eeee719a925fb0eb50a1ba21d760450e8567a62768f883901f798abb3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_ASUS_System_x64/delltech-dell-x64-2.8.5.0.7z.0001"
         }
       ],
       "date_added": "2026-09-05",

@@ -3,7 +3,7 @@
   "category": "Net",
   "shard_index": 1,
   "total_shards": 2,
-  "updated": "2026-08-15",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -263610,6 +263610,130 @@
         }
       ],
       "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-284242dc19205fda",
+      "pack": "ASUS_System_x64",
+      "type": "Net",
+      "provider": "BlackBerry Inc.",
+      "category": "Net",
+      "version": "1.0.0.26",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0FCA&PID_8015",
+        "USB\\VID_0FCA&PID_8016&MI_00",
+        "USB\\VID_0FCA&PID_8017&MI_00",
+        "USB\\VID_0FCA&PID_8017&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "BlackBerry Inc.",
+        "BlackBerry Device",
+        "BlackBerry Tethering Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ASUS_System_x64/blackber-net-x64-1.0.0.26.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "blackber-net-x64-1.0.0.26.7z.0001",
+          "size_bytes": 2525484,
+          "sha256": "c3dfaeaac4c31aca0cefc15862514d75aa9f5eba5b34c668e79f4e4bcca3b973",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ASUS_System_x64/blackber-net-x64-1.0.0.26.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-14a59dda00a77756",
+      "pack": "ASUS_System_x64",
+      "type": "Net",
+      "provider": "Research In Motion",
+      "category": "Net",
+      "version": "2.0.0.33",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0FCA&PID_8010&MI_00",
+        "USB\\VID_0FCA&PID_8012&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Research In Motion",
+        "BlackBerry Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ASUS_System_x64/blackber-rimu-x64-4.2.0.32.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "blackber-rimu-x64-4.2.0.32.7z.0001",
+          "size_bytes": 1485593,
+          "sha256": "ee119389136c6988e7f7fd87d8e3b39abca62e7057f29e550e5830e197510b52",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ASUS_System_x64/blackber-rimu-x64-4.2.0.32.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-42286d060eda46ae",
+      "pack": "ASUS_System_x64",
+      "type": "Net",
+      "provider": "BlackBerry",
+      "category": "RIMUSBBB",
+      "version": "4.2.0.32",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_0FCA&PID_0001",
+        "USB\\VID_0FCA&PID_0004&MI_00",
+        "USB\\VID_0FCA&PID_0006",
+        "USB\\VID_0FCA&PID_0007&MI_00",
+        "USB\\VID_0FCA&PID_0008&MI_00",
+        "USB\\VID_0FCA&PID_000A&MI_00",
+        "USB\\VID_0FCA&PID_8001",
+        "USB\\VID_0FCA&PID_8004&MI_00",
+        "USB\\VID_0FCA&PID_8006",
+        "USB\\VID_0FCA&PID_8007&MI_00",
+        "USB\\VID_0FCA&PID_8008&MI_00",
+        "USB\\VID_0FCA&PID_800A&MI_00",
+        "USB\\VID_0FCA&PID_800B&MI_02",
+        "USB\\VID_0FCA&PID_8012&MI_02",
+        "USB\\VID_0FCA&PID_8016&MI_02",
+        "USB\\VID_0FCA&PID_8017&MI_04",
+        "USB\\VID_0FCA&PID_8020"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "BlackBerry",
+        "BlackBerry Smartphone",
+        "BlackBerry Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ASUS_System_x64/blackber-rimu-x64-4.2.0.32.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "blackber-rimu-x64-4.2.0.32.7z.0001",
+          "size_bytes": 1485593,
+          "sha256": "ee119389136c6988e7f7fd87d8e3b39abca62e7057f29e550e5830e197510b52",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_ASUS_System_x64/blackber-rimu-x64-4.2.0.32.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

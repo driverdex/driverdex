@@ -3,7 +3,7 @@
   "category": "Ports",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -28958,42 +28958,6 @@
         }
       ],
       "date_added": "2026-08-19",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-fc5021d8c75d337d",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Ports",
-      "provider": "Fujitsu",
-      "category": "Ports",
-      "version": "6.6.6.14",
-      "arch": "x64",
-      "hwids": [
-        "USB\\VID_04C5&PID_142E",
-        "USB\\VID_04C5&PID_142E.DEVICEDESC",
-        "USB\\VID_04C5&PID_142E.DEVICEDESC%"
-      ],
-      "compatible_ids": [],
-      "descriptions": [
-        "Fujitsu",
-        "%USB\\VID_04C5&PID_142E.DeviceDesc%"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_FUJITSULIMITED_System_x64/fujitsu-port-x64-6.6.6.14.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-port-x64-6.6.6.14.7z.0001",
-          "size_bytes": 3166052,
-          "sha256": "42da4c2568ad1c6643c2a31d3b598e873307e147f735dbac72ed58b07e453e62",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_FUJITSULIMITED_System_x64/fujitsu-port-x64-6.6.6.14.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

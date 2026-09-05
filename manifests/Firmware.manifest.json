@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -10381,6 +10381,212 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-67078e2c4276c113",
+      "pack": "ASUS_System_x64",
+      "type": "Firmware",
+      "provider": "Acer Incorporated",
+      "category": "SoftwareComponent",
+      "version": "2.0.1.3032",
+      "arch": "arm64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Acer Incorporated",
+        "Acer Pixy Service Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-a64-2.0.1.3032.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acerinco-soft-a64-2.0.1.3032.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5982cbc2cb83f2d5ea696ce170af5a89b2eb86fec6902373d1742a70289d6a35",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-a64-2.0.1.3032.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "acerinco-soft-a64-2.0.1.3032.7z.0002",
+          "size_bytes": 747865,
+          "sha256": "b44958db68b82d6a3412c0a3bc5c5a1fbc72f5d1fa11d6bcd3af281efb88287e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-a64-2.0.1.3032.7z.0002"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-07d3678078815c0b",
+      "pack": "ASUS_System_x64",
+      "type": "Firmware",
+      "provider": "Acer Incorporated",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.3004",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Acer Incorporated",
+        "Acer ORD Service Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-x64-1.0.0.3004.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acerinco-soft-x64-1.0.0.3004.7z.0001",
+          "size_bytes": 200548,
+          "sha256": "a50a038ea6e3e1e41fdb69fa87d7a0be3d0d3fe2c3bbb2e340e0b3deae90c5f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-x64-1.0.0.3004.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-48241cc010ec1c7b",
+      "pack": "ASUS_System_x64",
+      "type": "Firmware",
+      "provider": "Acer Incorporated",
+      "category": "SoftwareComponent",
+      "version": "1.2.108.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Acer Incorporated",
+        "Acer Agent Service Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-x64-1.2.108.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acerinco-soft-x64-1.2.108.3.7z.0001",
+          "size_bytes": 9936040,
+          "sha256": "2cf92321a15e69bf78f6fcec11e83e3f3d76b55cffe2500e720139cab5a853c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-x64-1.2.108.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8a6b387467285b51",
+      "pack": "ASUS_System_x64",
+      "type": "Firmware",
+      "provider": "Acer Incorporated",
+      "category": "SoftwareComponent",
+      "version": "1.4.37.1035",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Acer Incorporated",
+        "Acer Quick Access Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-x64-1.4.37.103.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acerinco-soft-x64-1.4.37.103.7z.0001",
+          "size_bytes": 13310191,
+          "sha256": "41800dd14bac7370c13a0e2a5482c3f8cb1a013d841c91b74b5406dd668fb958",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-x64-1.4.37.103.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-27517ee8589b4119",
+      "pack": "ASUS_System_x64",
+      "type": "Firmware",
+      "provider": "Acer Incorporated",
+      "category": "SoftwareComponent",
+      "version": "2.0.1.3026",
+      "arch": "arm64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Acer Incorporated",
+        "Acer Pixy Service Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-a64-2.0.1.3026.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acerinco-soft-a64-2.0.1.3026.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "e8e4c10cb06c17fc3ed566c8ce3cd3457ab05a8eafa70ecd8aa1b5187f93f798",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-a64-2.0.1.3026.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "acerinco-soft-a64-2.0.1.3026.7z.0002",
+          "size_bytes": 739647,
+          "sha256": "72f832c744e3d2846d2fcc61e3e9be6113cfd58ae08801b516de8f7907e1586a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/acerinco-soft-a64-2.0.1.3026.7z.0002"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c41e339f8eb01fd0",
+      "pack": "ASUS_System_x64",
+      "type": "Firmware",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "SoftwareComponent",
+      "version": "1.0.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "ASUSTeK COMPUTER INC.",
+        "ASUS App Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/asustekc-soft-x64-1.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-soft-x64-1.0.1.0.7z.0001",
+          "size_bytes": 6535,
+          "sha256": "124b93b3cb4956fcf6c98577729607267470dfbb3374e0fe9ade85f4aa6431d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_ASUS_System_x64/asustekc-soft-x64-1.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

@@ -206796,768 +206796,32 @@
       "notes": ""
     },
     {
-      "id": "drv-c26411a9df16dd62",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-2285d4ef7e8b3a54",
+      "pack": "ASUS_System_x64",
       "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.29",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu FUJ02B1 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.29.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.29.7z.0001",
-          "size_bytes": 399152,
-          "sha256": "7efcb49391b8c2a63abcb1ca61f08e1393467a8104b1a2009cccc30fc5a1e3a2",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.29.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-ee3d85e2ad278029",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu Client Computing Limited",
-      "category": "System",
-      "version": "4.6.1.0",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02E3",
-        "ACPI\\VEN_FUJ&DEV_02E3&REV_0001"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "Fujitsu Client Computing Limited",
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-4.6.1.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsuc-syst-x64-4.6.1.0.7z.0001",
-          "size_bytes": 176298,
-          "sha256": "79f7af4c37a59b1c44dd70d35adee368575ce5c5fdcafacc1331af6eaaabb90b",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-4.6.1.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-8e5abf8209b90a0d",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu Client Computing Limited",
-      "category": "System",
-      "version": "3.0.0.5",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ0420",
-        "ACPI\\VEN_FUJ&DEV_0430&REV_0001"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ0420"
-      ],
-      "descriptions": [
-        "Fujitsu Client Computing Limited",
-        "Fujitsu FUJ0420 Device",
-        "Fujitsu FUJ0430 Device"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-3.0.0.5.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsuc-syst-x64-3.0.0.5.7z.0001",
-          "size_bytes": 31180,
-          "sha256": "aa5dccacbe23ba59df641f4cb6b39f6c43ed1fa5b5d948c6b4e15b9673ab4983",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-3.0.0.5.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-cba29d059ab63139",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu Client Computing Limited",
-      "category": "System",
-      "version": "2.0.0.8",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ0435"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ0435"
-      ],
-      "descriptions": [
-        "Fujitsu Client Computing Limited",
-        "Fujitsu FUJ0435 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-2.0.0.8.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsuc-syst-x64-2.0.0.8.7z.0001",
-          "size_bytes": 9419,
-          "sha256": "12f75ac191d25fe551dc20657a8a845f084be0dd4179d1137752af90ff3115ac",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-2.0.0.8.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-eaa1b85fe8e1a3b2",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu",
-      "category": "System",
-      "version": "1.0.0.1",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ0420"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ0420"
-      ],
-      "descriptions": [
-        "Fujitsu",
-        "Fujitsu FUJ0420 Device"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x86-1.0.0.1.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x86-1.0.0.1.7z.0001",
-          "size_bytes": 1435728,
-          "sha256": "88b404dc86b8d99f4d160d49740b0447f7e288256806cf161b5a06a3108e3baf",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x86-1.0.0.1.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-50c98c5cf709e065",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.23",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "descriptions": [
-        "Fujitsu FUJ02B1 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.23.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.23.7z.0001",
-          "size_bytes": 15850,
-          "sha256": "b3c6f8dd06b46e45c7f43b6adb0af0b6bb8f129be02b2b2ffc6d43898477e83f",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.23.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-5a0b621bbdc3abf8",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.28",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu FUJ02B1 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.28.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x86-1.28.7z.0001",
-          "size_bytes": 382767,
-          "sha256": "40e9ea0235498a621280b6fa7b8c2aba3f402043ea745abd7d0c439b40d653f4",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.28.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-63c1af1e1a5a1d90",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU",
-      "category": "System",
-      "version": "1.58.81.0",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "FUJITSU CLIENT COMPUTING LIMITED",
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x86-1.58.81.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x86-1.58.81.0.7z.0001",
-          "size_bytes": 250864,
-          "sha256": "1820fe287ad4ae5035490564a94261a5f9704a076e205eb551b52a76922ec6fe",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x86-1.58.81.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-770bf7a8bf96fa80",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "2.0.1.0",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-2.0.1.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x86-2.0.1.0.7z.0001",
-          "size_bytes": 23985,
-          "sha256": "6f493ef5ca768fed70b8fc5f1ab1e31800520c8617c0e828e009085f409011ba",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-2.0.1.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-fa6fe85be3f83ccd",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU",
-      "category": "System",
-      "version": "1.21",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02B1"
-      ],
-      "descriptions": [
-        "Fujitsu FUJ02B1 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.21.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x64-1.21.7z.0001",
-          "size_bytes": 15617,
-          "sha256": "5123b6320776659561dc33df2c17e492e4d9efe24fa045671b2d25fd2a8a1102",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.21.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-d5c6c06b300b1f26",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU",
-      "category": "System",
-      "version": "1.0.0.3",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ02E1"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E1"
-      ],
-      "descriptions": [
-        "Fujitsu FUJ02E1 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.21.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x64-1.21.7z.0001",
-          "size_bytes": 15617,
-          "sha256": "5123b6320776659561dc33df2c17e492e4d9efe24fa045671b2d25fd2a8a1102",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.21.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-d7e7fa67614f236c",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU",
-      "category": "System",
-      "version": "1.00",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.21.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x64-1.21.7z.0001",
-          "size_bytes": 15617,
-          "sha256": "5123b6320776659561dc33df2c17e492e4d9efe24fa045671b2d25fd2a8a1102",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.21.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-663182c957fac36e",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU",
-      "category": "System",
-      "version": "1.20",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "Fujitsu Limited",
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.23.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x64-1.23.7z.0001",
-          "size_bytes": 13629,
-          "sha256": "56660efa639ca089d2918c566f4fcdbcb2769484b09ee69ba20c88d30aca4b87",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.23.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-d5caa8a7b0e46b04",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.30.1.0",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.23.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.23.7z.0001",
-          "size_bytes": 21637,
-          "sha256": "b84a5da973c1bf52829fc8cbff693f698c2756310b00cf53338c83e3760ac3ec",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.23.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-c7eeb7ef2594da03",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.30.1.0",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ02E3"
-      ],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu FUJ02E3 Device Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.23.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.23.7z.0001",
-          "size_bytes": 20296,
-          "sha256": "e664d9029f5b40e6f66364af5fecd39e93bf1721b4da55ba3662db7fad06e971",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.23.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-ff5781615fcf75ad",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu",
-      "category": "System",
-      "version": "1.0.0.1",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\FUJ0420"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ0420"
-      ],
-      "descriptions": [
-        "Fujitsu",
-        "Fujitsu FUJ0420 Device"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.0.0.1.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x64-1.0.0.1.7z.0001",
-          "size_bytes": 1697642,
-          "sha256": "72444b61db1099aaa6ff46c2986a7f50896d19197f712392f1de5d239bc55afd",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x64-1.0.0.1.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-ccad017fb62b9af2",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu",
-      "category": "System",
-      "version": "1.0.0.0",
-      "arch": "x86",
-      "hwids": [
-        "ACPI\\FUJ0420"
-      ],
-      "compatible_ids": [
-        "ACPI\\FUJ0420"
-      ],
-      "descriptions": [
-        "Fujitsu",
-        "FUJ0420 Device"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x86-1.0.0.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsu-syst-x86-1.0.0.0.7z.0001",
-          "size_bytes": 1436366,
-          "sha256": "0bfffdc86acb7c328a4d127c72c0afd1337b53b71bb76206fc5eff296cb4647c",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsu-syst-x86-1.0.0.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-57466fa245a084b0",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.2.2.0",
-      "arch": "x64",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu BIOS Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.2.2.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.2.2.0.7z.0001",
-          "size_bytes": 29898,
-          "sha256": "7eddeab0d2440f74f941de4e4f5ad7f22b36746fae939957f506f327a1c54258",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.2.2.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-149f76f5630f6fa2",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu Client Computing Limited",
-      "category": "System",
-      "version": "2.5.0.0",
-      "arch": "x64",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "Fujitsu Client Computing Limited",
-        "Fujitsu BIOS Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-2.5.0.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsuc-syst-x64-2.5.0.0.7z.0001",
-          "size_bytes": 126162,
-          "sha256": "b6090d399d31f2c8610abb6c5d42001daae2262f23712d0a860ee2d3e2886cfb",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-2.5.0.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-1433be9da6079711",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.2.2.0",
-      "arch": "x86",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu BIOS Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.2.2.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x86-1.2.2.0.7z.0001",
-          "size_bytes": 29618,
-          "sha256": "3ead124c9a96e9a1fd573c1a4bf68d51c24024766020d88eb522e2dd617472c9",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.2.2.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-3fc319abd2c0c14a",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "2.1.22.0",
-      "arch": "x86",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu BIOS Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-2.1.22.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x86-2.1.22.0.7z.0001",
-          "size_bytes": 19903,
-          "sha256": "d3ae3c731ddfcb577e1d74042e57081c11c1f7314cd0366ca71d9f997acec2b7",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-2.1.22.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-4dfa74fc8cacfd65",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "Fujitsu Limited",
+      "provider": "Acer Incorporated",
       "category": "System",
       "version": "1.0.0.2",
       "arch": "x64",
-      "hwids": [],
+      "hwids": [
+        "ACPI\\VEN_1025&DEV_165F",
+        "ACPI\\VEN_1025&DEV_1783"
+      ],
       "compatible_ids": [],
       "descriptions": [
-        "Fujitsu Limited",
-        "Fujitsu BIOS Driver"
+        "Acer Incorporated",
+        "Acer Application Base Software Component"
       ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.0.0.2.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/acerinco-syst-x64-1.0.0.2.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.0.0.2.7z.0001",
-          "size_bytes": 14170,
-          "sha256": "8e1efb3907bf609a56e205ef7a785cc98a37e497123647047088ef713f9298e6",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.0.0.2.7z.0001"
+          "filename": "acerinco-syst-x64-1.0.0.2.7z.0001",
+          "size_bytes": 17717,
+          "sha256": "f125581d76457b03205cecfa1141685624b371200245333474112774f39a0706",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/acerinco-syst-x64-1.0.0.2.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -207567,29 +206831,1399 @@
       "notes": ""
     },
     {
-      "id": "drv-1e2cc91458e4e7ed",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-0c10893527eba835",
+      "pack": "ASUS_System_x64",
       "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
+      "provider": "Acer Incorporated",
       "category": "System",
-      "version": "1.1.1.0",
+      "version": "1.0.0.6",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_1025&DEV_165F",
+        "ACPI\\VEN_1025&DEV_1783"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Acer Incorporated",
+        "Acer Application Base Software Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/acerinco-syst-x64-1.0.0.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "acerinco-syst-x64-1.0.0.6.7z.0001",
+          "size_bytes": 20499,
+          "sha256": "acbc36ffb03464d7ebb060642b41535d622745d35825cad5b893ea7aa4a8ed2b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/acerinco-syst-x64-1.0.0.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d9fa256802da80a5",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK Computer Inc.",
+      "category": "System",
+      "version": "1.0.1.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PNP0A0A",
+        "ACPI\\VEN_PNP&DEV_0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "compatible_ids": [
+        "ACPI\\PNP0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "descriptions": [
+        "ASUSTeK Computer Inc.",
+        "AMDA00 Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-1.0.1.0.7z.0001",
+          "size_bytes": 2762526,
+          "sha256": "dc5b519dafeaffd9985e3aae735ad9d79b6b719354f5e2c141a02d93b424549e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a257e3836a7dbb8a",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK Computer Inc.",
+      "category": "System",
+      "version": "1.0.1.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\PNP0A0A",
+        "ACPI\\VEN_PNP&DEV_0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "compatible_ids": [
+        "ACPI\\PNP0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "descriptions": [
+        "ASUSTeK Computer Inc.",
+        "AMDA00 Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x86-1.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x86-1.0.1.0.7z.0001",
+          "size_bytes": 2616678,
+          "sha256": "a7cf082ed37f87ddec08814c1e73bfd55c6a5eefdeaf483f3900217fa41e14d9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x86-1.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-30366620415e2a25",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK Computer Inc.",
+      "category": "System",
+      "version": "12.14.17.909",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PNP0A0A",
+        "ACPI\\VEN_PNP&DEV_0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "compatible_ids": [
+        "ACPI\\PNP0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "descriptions": [
+        "ASUSTeK Computer Inc.",
+        "AMDA00 Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-12.14.17.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-12.14.17.9.7z.0001",
+          "size_bytes": 2825583,
+          "sha256": "29de355271d82ab70f74e7fdf338b73b0844f9a97e5a8ec9b43eaeb164fc8bd1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-12.14.17.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2bcc575581e7eaf1",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK Computer Inc.",
+      "category": "System",
+      "version": "12.12.47.550",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\PNP0A0A",
+        "ACPI\\VEN_PNP&DEV_0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "compatible_ids": [
+        "ACPI\\PNP0A0A",
+        "ROOT\\AMDA00"
+      ],
+      "descriptions": [
+        "ASUSTeK Computer Inc.",
+        "AMDA00 Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x86-12.12.47.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x86-12.12.47.5.7z.0001",
+          "size_bytes": 2681683,
+          "sha256": "7b99689bc0a048eb100060228f54cdd472ed93bb242fb1d06bfceefd2f047f92",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x86-12.12.47.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1eb9633884edc692",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "System",
+      "version": "1.0.0.14",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK4001",
+        "ACPI\\ATK4002"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK4001",
+        "ACPI\\ATK4002"
+      ],
+      "descriptions": [
+        "ASUSTeK COMPUTER INC.",
+        "ASUS Wireless Radio Control"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.0.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-1.0.0.14.7z.0001",
+          "size_bytes": 19139,
+          "sha256": "a8b0181cfb5c88dbaa4143ef59358954c300821892fe0c0973ca8c513d81f844",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.0.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-64cc6d7b631c9fb7",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUS",
+      "category": "System",
+      "version": "1.0.0.5",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK4001",
+        "ACPI\\ATK4002"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK4001",
+        "ACPI\\ATK4002"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS Wireless Radio Control"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1.0.0.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asus-syst-x64-1.0.0.5.7z.0001",
+          "size_bytes": 16010,
+          "sha256": "17c52ab017ff729e13a2f9b7e4ba14367ce7cc11d98179ff0df289346e2583c0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1.0.0.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7cd79bfcdae50ad7",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTek Computer Inc.",
+      "category": "System",
+      "version": "2.0.8.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\ASUS7000"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS7000"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ATK Package (ASUS Keyboard Hotkeys) Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x86-2.0.8.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x86-2.0.8.0.7z.0001",
+          "size_bytes": 309739,
+          "sha256": "52a519927294d79bcdfb46fdb80bd4e93cdd0d4dc0c19c94f48849d864606dc4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x86-2.0.8.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-aa6a1cac781b37e4",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTek Computer Inc.",
+      "category": "System",
+      "version": "1.2.0.2",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS9001"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS9001"
+      ],
+      "descriptions": [
+        "ASUS",
+        "Armoury Crate Control Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.2.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-1.2.0.2.7z.0001",
+          "size_bytes": 338752,
+          "sha256": "ddc5485a87abab3205889bbe9612e694f415c2a5ed62fac7467cc9498bcc792f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.2.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f9e081c1604792e2",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTek Computer Inc.",
+      "category": "System",
+      "version": "1.0.21.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS1000"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS1000"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS System Control Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.21.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-1.0.21.0.7z.0001",
+          "size_bytes": 1223172,
+          "sha256": "8e19041d00a2ccf1b65f8ef30e5da433abce9167e845a22431718cb956a02e6b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.21.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a0e0d52da1ed73ee",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.5.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0110"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0110"
+      ],
+      "descriptions": [
+        "ATK",
+        "ATK0110 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.5.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.5.0.0.7z.0001",
+          "size_bytes": 9084,
+          "sha256": "236a9242ecdc97500584040e339839f5e5a20ee2b9ceb35526bd397647c1a8ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.5.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-405251b71615e08f",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.2.15.101",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.2.15.7z.0001",
+          "size_bytes": 115623,
+          "sha256": "51bfb4a6b1537e6cc9b347ba3ab5f2f3af4230035d5df02ae0adbe2e1987287e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a563826a5cd25176",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUS",
+      "category": "System",
+      "version": "1043.2.15.22",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1043.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asus-syst-x64-1043.2.15.7z.0001",
+          "size_bytes": 244580,
+          "sha256": "e68887b7e13550e31a409bd1df9cad8fe2a11742a4d6a3698b7530dbb8915076",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1043.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e97a98bc76184db6",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.2.15.58",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.2.15.7z.0001",
+          "size_bytes": 573276,
+          "sha256": "75511d94e942278a429fcbaa941d64fcb3dd3bc268f9839f4bba8799085b19b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-de8d60e59e390c1d",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.2.31.100",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.31.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.2.31.7z.0001",
+          "size_bytes": 84027,
+          "sha256": "ec583f012f43804f4fba9e4c9aa763a929f0fd8c9d12d279b8a79a07ac7d9d9c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.31.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-65ee4fddc66650f9",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK Computer Inc.",
+      "category": "System",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS010"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS010"
+      ],
+      "descriptions": [
+        "ASUS ACPI Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-1.0.0.1.7z.0001",
+          "size_bytes": 10551,
+          "sha256": "53f4e9b98c07ea027ef4027f257d3d0e51263b0c900199414ea289e019b90665",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9e9b88409bbea764",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.2.15.37",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0110"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0110"
+      ],
+      "descriptions": [
+        "ATK0110 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.2.15.7z.0001",
+          "size_bytes": 8730,
+          "sha256": "b88096a46588bc63c14b3b22d91325bec2c5d25f05378942d9cb15e1900a8b08",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4cc756fa1027073d",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.2.15.73",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ATK",
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.2.15.7z.0001",
+          "size_bytes": 133514,
+          "sha256": "5324fb12079fd763a21a40f15a5482b5085b5d7a997f39eb8f7264ecb9e455e9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c1f1dc6e16ced1b2",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.4.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0110"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0110"
+      ],
+      "descriptions": [
+        "ATK",
+        "ATK0110 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.4.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.4.0.0.7z.0001",
+          "size_bytes": 12404,
+          "sha256": "ed8f6e2ba2db715b2caf6af88a9d2e44074fc7c638d9ee39c8c0aa0f73de9a24",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.4.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-538ac98d674afe38",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.2.31.102",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.31.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.2.31.7z.0001",
+          "size_bytes": 116055,
+          "sha256": "f9c5739a797888ce80d904416b70e23770ae0b8c2ff27c1291391b4abb315165",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.2.31.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ede911fe95217e45",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0110"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0110"
+      ],
+      "descriptions": [
+        "ATK0110 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.1.0.0.7z.0001",
+          "size_bytes": 8724,
+          "sha256": "71d5f835cf9f607f41633fca8b30a4c51da02be995dfa34c5bccb74e81a69670",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f74693b5d56b4b43",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ATK",
+      "category": "System",
+      "version": "1043.6.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0110"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0110"
+      ],
+      "descriptions": [
+        "ATK",
+        "ATK0110 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.6.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "atk-syst-x64-1043.6.0.0.7z.0001",
+          "size_bytes": 12825,
+          "sha256": "93a8236e67e1c87932c055f3a30d648693369ee2515726703769402a7e49ae79",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/atk-syst-x64-1043.6.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6758da839ba14388",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUS",
+      "category": "System",
+      "version": "1.0.0.3",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK4001",
+        "ACPI\\ATK4002"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK4001",
+        "ACPI\\ATK4002"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS Wireless Radio Control"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asus-syst-x64-1.0.0.3.7z.0001",
+          "size_bytes": 16751,
+          "sha256": "622a7745963d1ee38be172a49395ad2bba2ff5d405433b3b40acc8aea778f0eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c3da9d8f55fbe5f1",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUS",
+      "category": "System",
+      "version": "1043.2.15.75",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ATK0100"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ATK0100 ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1043.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asus-syst-x64-1043.2.15.7z.0001",
+          "size_bytes": 136989,
+          "sha256": "1f35105b1ed0d36325833350ef6dfe12da17bd1f714d168504db202469cf0099",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asus-syst-x64-1043.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb7406c5ff7d2794",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "PU",
+      "category": "System",
+      "version": "1043.2.31.102",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\ATK0100",
+        "ACPI\\ATK0101",
+        "ACPI\\PU_0001",
+        "ACPI\\PU_0002",
+        "ACPI\\PU_0003",
+        "ACPI\\PU_0004",
+        "ACPI\\PU_0005",
+        "ACPI\\PU_0006",
+        "ACPI\\PU_0007",
+        "ACPI\\PU_0008",
+        "ACPI\\PU_0009",
+        "ACPI\\PU_0010"
+      ],
+      "compatible_ids": [
+        "ACPI\\ATK0100",
+        "ACPI\\ATK0101",
+        "ACPI\\PU_0001",
+        "ACPI\\PU_0002",
+        "ACPI\\PU_0003",
+        "ACPI\\PU_0004",
+        "ACPI\\PU_0005",
+        "ACPI\\PU_0006",
+        "ACPI\\PU_0007",
+        "ACPI\\PU_0008",
+        "ACPI\\PU_0009",
+        "ACPI\\PU_0010"
+      ],
+      "descriptions": [
+        "PU",
+        "ATK0100 ACPI UTILITY",
+        "PU ACPI UTILITY"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/pu-syst-x86-1043.2.31.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pu-syst-x86-1043.2.31.7z.0001",
+          "size_bytes": 156572,
+          "sha256": "17081ad251bdeb912ed58663eb628cc0d02b8dde690fbb0476a17ad4964cd188",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/pu-syst-x86-1043.2.31.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0ae61c6a6bed9bf8",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK Computer Inc.",
+      "category": "System",
+      "version": "6.0.1.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS010"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS010"
+      ],
+      "descriptions": [
+        "ASUS ACPI Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-6.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-6.0.1.0.7z.0001",
+          "size_bytes": 10541,
+          "sha256": "d839045804b997dd34bf11740928cfa3ed21a95bb9483788d08f439840445c2a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-6.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c6ce2db57814ee50",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "System",
+      "version": "0.5.11.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\CSCI2022"
+      ],
+      "compatible_ids": [
+        "ACPI\\CSCI2022"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS Business System Control Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-0.5.11.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-0.5.11.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "265ec59b3688b6fab99dbb301ea8c52718d1bc10e41aeb6ed01a74442004928f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-0.5.11.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "asustekc-syst-x64-0.5.11.0.7z.0002",
+          "size_bytes": 5482978,
+          "sha256": "97606a9c0b8800a37fd5ef2eb94744fc06bac5093898904200360ea7c0094fb2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-0.5.11.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c04bd86a8ba2526b",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "System",
+      "version": "1.1.38.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS1000"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS1000"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS System Control Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.1.38.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-1.1.38.0.7z.0001",
+          "size_bytes": 10790803,
+          "sha256": "19b226388b97cb3154a9e439979e80a6c17259fccd983e3670d47b04a1b5423e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-1.1.38.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b6e6a2d2a311c42a",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "System",
+      "version": "3.1.10.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS2018"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS2018"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS System Control Interface v3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.1.10.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-3.1.10.0.7z.0001",
+          "size_bytes": 12488419,
+          "sha256": "efa0d9d546d23e13dde31d36199968eb659aa6d0955af95577c93031f42be70f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.1.10.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0770143026f9b3d1",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "System",
+      "version": "3.1.25.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS2018"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS2018"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS System Control Interface v3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.1.25.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-3.1.25.0.7z.0001",
+          "size_bytes": 10479815,
+          "sha256": "edcc4c82e99d9c3f8afa99a3a48873f7fb7bfd0b5c2f9f5f5714aabe28af4ef4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.1.25.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-74e7dbcce3a34624",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTeK COMPUTER INC.",
+      "category": "System",
+      "version": "3.1.56.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS2018",
+        "ACPI\\ASUS2025"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS2018",
+        "ACPI\\ASUS2025"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS System Control Interface v3"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.1.56.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-3.1.56.0.7z.0001",
+          "size_bytes": 13222192,
+          "sha256": "8ad438b1c7cd5ddde0ec2762c65c81824200aa085e81716d347575a2951c8fb6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.1.56.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a403f49e3c0f3f22",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTek Computer Inc.",
+      "category": "System",
+      "version": "2.0.27.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS2019"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS2019"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS ScreenXpert Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-2.0.27.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-2.0.27.0.7z.0001",
+          "size_bytes": 1489113,
+          "sha256": "6c0644ebbc6a25a517d137308372240f615aa3b0324458626f4cef6794ccf5a1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-2.0.27.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c6fbcfa42942ec2f",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "ASUSTek Computer Inc.",
+      "category": "System",
+      "version": "3.0.13.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\ASUS2019"
+      ],
+      "compatible_ids": [
+        "ACPI\\ASUS2019"
+      ],
+      "descriptions": [
+        "ASUS",
+        "ASUS ScreenXpert Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.0.13.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "asustekc-syst-x64-3.0.13.0.7z.0001",
+          "size_bytes": 2426545,
+          "sha256": "86726a99a5b246fe076324d09bcc8bd3f6b0a1700dd3d5bb3351d53b9af01bf4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/asustekc-syst-x64-3.0.13.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ffd1fbb6a40c9025",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Bitland",
+      "category": "System",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAR0123"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAR0123"
+      ],
+      "descriptions": [
+        "Bitland",
+        "DPR Virtual Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/bitland-syst-x64-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "bitland-syst-x64-1.0.0.2.7z.0001",
+          "size_bytes": 456024,
+          "sha256": "1a2285251d4bc282a4018e53a366700be8a95f6e489a5f27edc43b577a6ff73f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/bitland-syst-x64-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-712c1b79bb09f312",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell Inc.",
+      "category": "System",
+      "version": "1.0.1.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\AWCC"
+      ],
+      "compatible_ids": [
+        "ROOT\\AWCC"
+      ],
+      "descriptions": [
+        "Dell Inc.",
+        "AWCC Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellinc-syst-x64-1.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dellinc-syst-x64-1.0.1.0.7z.0001",
+          "size_bytes": 1694568,
+          "sha256": "a7a5e96ad0aadbb3103f3c8431985c135fa639d392099073bb36d68db227edcc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellinc-syst-x64-1.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-20f4c312744e5d2c",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "STMicroelectronics",
+      "category": "System",
+      "version": "2.0.0.81",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_104A&DEV_7007",
+        "PCI\\VEN_104A&DEV_7007&SUBSYS_10280001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "STMicroelectronics",
+        "Dell Data Protection | Hardware Crypto Accelerator"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/stmicroe-syst-x86-2.0.0.81.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "stmicroe-syst-x86-2.0.0.81.7z.0001",
+          "size_bytes": 3130996,
+          "sha256": "2b88173d17e0630f19862048638f10ecb890693e2be2b36c25056388520823d1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/stmicroe-syst-x86-2.0.0.81.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-93a160bdb33403d7",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "STMicroelectronics",
+      "category": "System",
+      "version": "2.0.0.40",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_104A&DEV_7007",
+        "PCI\\VEN_104A&DEV_7007&SUBSYS_10280001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "STMicroelectronics",
+        "Dell Data Protection | Hardware Crypto Accelerator"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/stmicroe-syst-x86-2.0.0.40.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "stmicroe-syst-x86-2.0.0.40.7z.0001",
+          "size_bytes": 3130915,
+          "sha256": "46ecdbcca7acf2cd7dc2b7263d3b9d9ecd01bcc5ea876b35a25e9f6d83ce3111",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/stmicroe-syst-x86-2.0.0.40.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f08fae5806fc0f7f",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell Technologies",
+      "category": "System",
+      "version": "2.0.5.0",
       "arch": "x64",
       "hwids": [],
       "compatible_ids": [],
       "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu BIOS Driver"
+        "Dell Technologies",
+        "Dell Data Vault Control Device"
       ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.1.1.0.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/delltech-syst-x64-2.0.5.0.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.1.1.0.7z.0001",
-          "size_bytes": 17010,
-          "sha256": "7b7cc6bb50ece47c2eb2bcecf9a194091b79d71f0ed95a0cb9a5eb79a583daa6",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.1.1.0.7z.0001"
+          "filename": "delltech-syst-x64-2.0.5.0.7z.0001",
+          "size_bytes": 20457,
+          "sha256": "cf731996e24f74702932fb6eeecf493b5f65504422471e1b56a35862d7499e6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/delltech-syst-x64-2.0.5.0.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -207599,61 +208233,29 @@
       "notes": ""
     },
     {
-      "id": "drv-51192a69bb8e8f56",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-1a9c6ca6e3ce87ee",
+      "pack": "ASUS_System_x64",
       "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
+      "provider": "Dell Computer Corporation",
       "category": "System",
-      "version": "1.1.1.0",
-      "arch": "x86",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu BIOS Driver"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.1.1.0.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "fujitsul-syst-x86-1.1.1.0.7z.0001",
-          "size_bytes": 15834,
-          "sha256": "63701f176b223268757d4baeb73d13713a60a051a046d38899b85bbf8b50255b",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.1.1.0.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-f5633c2180142cce",
-      "pack": "FUJITSULIMITED_System_x64",
-      "type": "Chipset",
-      "provider": "FUJITSU CLIENT COMPUTING LIMITED",
-      "category": "System",
-      "version": "2.2.14.0",
+      "version": "1.4.2.0",
       "arch": "x64",
       "hwids": [],
       "compatible_ids": [],
       "descriptions": [
-        "FUJITSU CLIENT COMPUTING LIMITED",
-        "Fujitsu Wireless Radio Switch Driver"
+        "Dell Computer Corporation",
+        "Dell Diag Control Device"
       ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-2.2.14.0.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellcomp-syst-x64-1.4.2.0.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsuc-syst-x64-2.2.14.0.7z.0001",
-          "size_bytes": 44108,
-          "sha256": "47b169997931824cec32acd85d483253559decfb03eb0cde222525bc2baa5bec",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsuc-syst-x64-2.2.14.0.7z.0001"
+          "filename": "dellcomp-syst-x64-1.4.2.0.7z.0001",
+          "size_bytes": 26015,
+          "sha256": "0b0e00169f26db0276c7d23c30f578a391f02c9c832a272e7ff1bbe5c127bbaa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellcomp-syst-x64-1.4.2.0.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -207663,29 +208265,26 @@
       "notes": ""
     },
     {
-      "id": "drv-44b4543d72a625d0",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-a57111b8a1eb7a93",
+      "pack": "ASUS_System_x64",
       "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
+      "provider": "Dell Inc.",
       "category": "System",
-      "version": "2.1.2.0",
-      "arch": "x86",
+      "version": "1.0.1.6",
+      "arch": "x64",
       "hwids": [],
       "compatible_ids": [],
-      "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu Wireless Radio Switch Driver"
-      ],
+      "descriptions": [],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-2.1.2.0.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellinc-syst-x64-1.0.1.6.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-syst-x86-2.1.2.0.7z.0001",
-          "size_bytes": 71516,
-          "sha256": "e5702cefae5c1497b3503860a1d088a76a68a120e4195f584a0e497dd3294c39",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-2.1.2.0.7z.0001"
+          "filename": "dellinc-syst-x64-1.0.1.6.7z.0001",
+          "size_bytes": 87187,
+          "sha256": "23f99eedd88f06606f26a2e7a0cda31d5bcc771c10f511fb375379a9d492fc19",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellinc-syst-x64-1.0.1.6.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -207695,29 +208294,29 @@
       "notes": ""
     },
     {
-      "id": "drv-e7c094eb2c35b0c8",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-d210011759c95870",
+      "pack": "ASUS_System_x64",
       "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
+      "provider": "Dell Computer Corporation",
       "category": "System",
-      "version": "1.1.0.0",
+      "version": "3.0.1.4",
       "arch": "x64",
       "hwids": [],
       "compatible_ids": [],
       "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu Wireless Radio Switch Driver"
+        "Dell Computer Corporation",
+        "Dell System Analyzer Control Device"
       ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.1.0.0.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellcomp-syst-x64-3.0.1.4.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-syst-x64-1.1.0.0.7z.0001",
-          "size_bytes": 59961,
-          "sha256": "44acee5bfb6752f38534e3546a630a5a8ca05ee30b839b9532c9e5c1d9d041fb",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x64-1.1.0.0.7z.0001"
+          "filename": "dellcomp-syst-x64-3.0.1.4.7z.0001",
+          "size_bytes": 25698,
+          "sha256": "fd82aa5a8b5f503dad660ea11f671047d1d6e3b17db847cc29ec483e95b65ef9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dellcomp-syst-x64-3.0.1.4.7z.0001"
         }
       ],
       "date_added": "2026-09-05",
@@ -207727,29 +208326,356 @@
       "notes": ""
     },
     {
-      "id": "drv-7e275322571bd683",
-      "pack": "FUJITSULIMITED_System_x64",
+      "id": "drv-05468fb76be7412a",
+      "pack": "ASUS_System_x64",
       "type": "Chipset",
-      "provider": "FUJITSU LIMITED",
-      "category": "System",
-      "version": "1.1.0.0",
-      "arch": "x86",
-      "hwids": [],
-      "compatible_ids": [],
+      "provider": "DELL",
+      "category": "system",
+      "version": "3.7.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DELL0030",
+        "ACPI\\DELL0031"
+      ],
+      "compatible_ids": [
+        "ACPI\\DELL0030",
+        "ACPI\\DELL0031"
+      ],
       "descriptions": [
-        "FUJITSU LIMITED",
-        "Fujitsu Wireless Radio Switch Driver"
+        "DELL",
+        "Dell SupportAssist Install Manager"
       ],
       "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.1.0.0.7z.0001",
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0001",
+      "zip_parts": 16,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0ee4c95055c5b7c915584d9d135903840ea38dbcadf7093dbbca994f675ac2a3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "a64f55be08ae668fc968c3d50fe2f26a1651fa950599871286eea47f89430e57",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "6dcbecb7549355a50ef4f59d218ee22e1f56ab1e29ba46af9ae1d84c282deef5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "5215385639d0d08633e61ab2b5fedaa3d2264fd6fc4d92ad083b0cd05f08fd3a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "946a3ed2885cd1023bbf13523dd45307847b1b8ce9bfb96af2c633056dc3fd11",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "d9b0ba344f29a56eaec460a921dc123b5c3e6764a5402583bceae3bc78874b56",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "f6e4f742f8d10fbfcb6bab91417fb1d7dedc11dffe380c5ffd350fb2c432fd4c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "fc35beaf07088c04211d8fcae36c3565bc8cd195b9fbedcfba1da8ca71817541",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "37acab25486a1d8bc27e52d4115683ec758838d363912f7ea5289bc22fc766d1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "136d841ce547a6cfb6fd80043ca552568d12268eef46769aba2edb94756ee738",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "cabe89a8220336fb25cf426320cca5b4f5694b97003309f4a521f7d8f1e2b9da",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "dcc7643ff01d9395fc0070f5601f7a756a8b08f7c7f479fee34beeaf852f901e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "05de2541eed2fe9bdc56c9410d15e873b4887244318e82877c4087ca1a89e103",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "2ebd450c8a84b5ceb4f3087a4a3e848fcac7666d2ef82082d15bb4e376c93b8f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0014"
+        },
+        {
+          "part_num": 15,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "02db7982b6f90c9dab8a7a16575118863743d37227791c67b0ba90010fa63baa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0015"
+        },
+        {
+          "part_num": 16,
+          "filename": "dell-syst-x64-3.7.0.0.7z.0016",
+          "size_bytes": 60921,
+          "sha256": "7d3e9ef7afb71dfd22db076eb60bde714ffd1fc0c67bf1d0b971006d5011b200",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-3.7.0.0.7z.0016"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d522c48a78689e48",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell Technologies",
+      "category": "System",
+      "version": "5.5.18.1120",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DELL0030"
+      ],
+      "compatible_ids": [
+        "ACPI\\DELL0030"
+      ],
+      "descriptions": [
+        "Dell Technologies",
+        "Dell Data Vault Package"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/delltech-syst-x64-5.5.18.112.7z.0001",
       "zip_parts": 1,
       "parts": [
         {
           "part_num": 1,
-          "filename": "fujitsul-syst-x86-1.1.0.0.7z.0001",
-          "size_bytes": 54719,
-          "sha256": "c76846a62e7d1fb62064d86b2ab078d3c59313f9ae273b8634a65cdebcb55f15",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/fujitsul-syst-x86-1.1.0.0.7z.0001"
+          "filename": "delltech-syst-x64-5.5.18.112.7z.0001",
+          "size_bytes": 5519420,
+          "sha256": "c8933570706252ce62aa66cf87c99e98095b8d6ea75d7e325a1594ef9315d3ec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/delltech-syst-x64-5.5.18.112.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8b1733292d4044eb",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell",
+      "category": "System",
+      "version": "6.1.7600.16385",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\WDT"
+      ],
+      "compatible_ids": [
+        "ROOT\\WDT"
+      ],
+      "descriptions": [
+        "Dell",
+        "Dell Watchdog Timer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-6.1.7600.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dell-syst-x64-6.1.7600.1.7z.0001",
+          "size_bytes": 1688129,
+          "sha256": "52bc7aea15b762ec10df2dfde1adcc4cf9a5b1b493951c39297892a4cb3fef09",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-6.1.7600.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-13dff1409980691a",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell",
+      "category": "System",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\WDT"
+      ],
+      "compatible_ids": [
+        "ROOT\\WDT"
+      ],
+      "descriptions": [
+        "Dell",
+        "Dell Watchdog Timer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dell-syst-x64-1.0.0.2.7z.0001",
+          "size_bytes": 1701797,
+          "sha256": "1124a00b43fe18378dd5cec8460f4d7f4765e9bb666e49d75fc6173cbbf55f8b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x64-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-780d7bd2e99b3ef9",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell",
+      "category": "System",
+      "version": "6.1.7600.16387",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\WDT"
+      ],
+      "compatible_ids": [
+        "ROOT\\WDT"
+      ],
+      "descriptions": [
+        "Dell",
+        "Dell OptiPlex XE Watchdog Timer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x86-6.1.7600.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dell-syst-x86-6.1.7600.1.7z.0001",
+          "size_bytes": 1431232,
+          "sha256": "bd7a6d7b8259f5e4deda74d18d98ff7ced549e607811093e0ee4187c3dd3fb58",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x86-6.1.7600.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-07975f24ef8e39d3",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Dell",
+      "category": "System",
+      "version": "6.1.7600.16385",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\WDT"
+      ],
+      "compatible_ids": [
+        "ROOT\\WDT"
+      ],
+      "descriptions": [
+        "Dell",
+        "Dell Watchdog Timer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x86-6.1.7600.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dell-syst-x86-6.1.7600.1.7z.0001",
+          "size_bytes": 1433910,
+          "sha256": "e5540a82a79ffbcfa4bd4fa1b2ec9b26d8c7903be3ba0d9eea521a115fda7029",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/dell-syst-x86-6.1.7600.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a50dbc4b33338225",
+      "pack": "ASUS_System_x64",
+      "type": "Chipset",
+      "provider": "Framework Computer",
+      "category": "System",
+      "version": "0.0.0.6",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FRMWC004"
+      ],
+      "compatible_ids": [
+        "ACPI\\FRMWC004"
+      ],
+      "descriptions": [
+        "Framework",
+        "Framework EC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/framewor-syst-x64-0.0.0.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "framewor-syst-x64-0.0.0.6.7z.0001",
+          "size_bytes": 26264,
+          "sha256": "0da81365b326400c9194d63917c2008e46ac33d4887f2ac6857bf3ea7431efec",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ASUS_System_x64/framewor-syst-x64-0.0.0.6.7z.0001"
         }
       ],
       "date_added": "2026-09-05",

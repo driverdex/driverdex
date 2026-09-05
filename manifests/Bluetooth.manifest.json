@@ -1,0 +1,82 @@
+{
+  "schema": "3.0",
+  "category": "Bluetooth",
+  "shard_index": 1,
+  "total_shards": 1,
+  "updated": "2026-09-05",
+  "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
+  "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
+  "drivers": [
+    {
+      "id": "drv-ce2571a58743c1b3",
+      "pack": "ASUS_System_x64",
+      "type": "Bluetooth",
+      "provider": "BlackBerry Ltd",
+      "category": "BlackBerryBT",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "BTHENUM\\{00001132-0000-1000-8000-00805F9B34FB}_VID&0001003C_PID&000A",
+        "BTHENUM\\{00001800-0000-1000-8000-00805F9B34FB}_VID&0001003C_PID&000A",
+        "BTHENUM\\{00001801-0000-1000-8000-00805F9B34FB}_VID&0001003C_PID&000A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "BlackBerry Ltd",
+        "BlackBerry Bluetooth Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Bluetooth/DP_ASUS_System_x64/blackber-blac-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "blackber-blac-x64-1.0.0.0.7z.0001",
+          "size_bytes": 10321,
+          "sha256": "fd9b1cafcc96cfa89ac48c1c048e52936224f10672aeb04f68402ac9e6bb7659",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Bluetooth/DP_ASUS_System_x64/blackber-blac-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2e2889b42fc52190",
+      "pack": "ASUS_System_x64",
+      "type": "Bluetooth",
+      "provider": "Bluegiga",
+      "category": "Ports",
+      "version": "5.1.2600.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_2458&PID_0001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Bluegiga",
+        "Bluegiga Bluetooth Low Energy"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Bluetooth/DP_ASUS_System_x64/blackber-blac-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "blackber-blac-x64-1.0.0.0.7z.0001",
+          "size_bytes": 10321,
+          "sha256": "fd9b1cafcc96cfa89ac48c1c048e52936224f10672aeb04f68402ac9e6bb7659",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Bluetooth/DP_ASUS_System_x64/blackber-blac-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    }
+  ],
+  "version_history": {}
+}
