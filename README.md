@@ -1,5 +1,5 @@
 <!-- DRIVERDEX_DRIVER_BADGE_START -->
-![Drivers](https://img.shields.io/badge/drivers-22922-brightgreen?style=flat-square)
+![Drivers](https://img.shields.io/badge/drivers-22168-brightgreen?style=flat-square)
 <!-- DRIVERDEX_DRIVER_BADGE_END -->
 
 <div align="center">

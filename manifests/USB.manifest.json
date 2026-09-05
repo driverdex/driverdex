@@ -3,7 +3,7 @@
   "category": "USB",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -83072,6 +83072,184 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0f4de90e44036e86",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "USB",
+      "provider": "FUJITSU FRONTECH LIMITED",
+      "category": "PalmSecure",
+      "version": "1.0.13.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04C5&PID_15BE"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU FRONTECH LIMITED",
+        "FUJITSU PalmSecure FT Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-1.0.13.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuf-palm-x86-1.0.13.0.7z.0001",
+          "size_bytes": 63734,
+          "sha256": "32b6a7138cdc30b1cb4cab44b1ab0b1f55a6f77b72bffe819928626ae06511a3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-1.0.13.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-44ac23eec0d5c66d",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "USB",
+      "provider": "FUJITSU FRONTECH LIMITED",
+      "category": "PalmSecure",
+      "version": "3.1.6.12",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04C5&PID_1084&REV_0200",
+        "USB\\VID_04C5&PID_125A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU FRONTECH LIMITED",
+        "FUJITSU PalmSecure Sensor Device",
+        "FUJITSU PalmSecure Sensor Device - MP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-3.1.6.12.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuf-palm-x86-3.1.6.12.7z.0001",
+          "size_bytes": 64752,
+          "sha256": "fa6fe3eaa3c6e5063bf75bbdf7fd2bead59ce235cf9cb0264d10eac0013cf38f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-3.1.6.12.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-270b68c2aa5bc43f",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "USB",
+      "provider": "FUJITSU FRONTECH LIMITED",
+      "category": "PalmSecure",
+      "version": "3.1.6.3",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04C5&PID_1084&REV_0200",
+        "USB\\VID_04C5&PID_125A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU FRONTECH LIMITED",
+        "FUJITSU PalmSecure Sensor Device",
+        "FUJITSU PalmSecure Sensor Device - MP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-3.1.6.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuf-palm-x86-3.1.6.3.7z.0001",
+          "size_bytes": 8539490,
+          "sha256": "d323504f44effeb9bdd3cabb2b76cc401dacb399b575f07ce6ecbe0210b7bf9a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-3.1.6.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6646514d4b7ac687",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "USB",
+      "provider": "FUJITSU FRONTECH LIMITED",
+      "category": "PalmSecure",
+      "version": "1.0.1.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04C5&PID_1526",
+        "USB\\VID_04C5&PID_1527"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU FRONTECH LIMITED",
+        "FUJITSU PalmSecure-F Pro",
+        "FUJITSU PalmSecure-F Light"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-1.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuf-palm-x86-1.0.1.0.7z.0001",
+          "size_bytes": 8610758,
+          "sha256": "bf2e5d9f8df89b349701c2676bcf805c5c15e87f257a04d6959770dd725dedeb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-1.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8b2ff22bb8060eaa",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "USB",
+      "provider": "FUJITSU FRONTECH LIMITED",
+      "category": "PalmSecure",
+      "version": "3.1.7.4",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04C5&PID_1084&REV_0200",
+        "USB\\VID_04C5&PID_125A"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FUJITSU FRONTECH LIMITED",
+        "FUJITSU PalmSecure Sensor Device",
+        "FUJITSU PalmSecure Sensor Device - MP"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-3.1.7.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuf-palm-x86-3.1.7.4.7z.0001",
+          "size_bytes": 8608060,
+          "sha256": "62f67525dc1668bcea1c268c7f3f5c6a7ca14210f3f95688a3f6aa25506ab2a4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_FUJITSULIMITED_System_x64/fujitsuf-palm-x86-3.1.7.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

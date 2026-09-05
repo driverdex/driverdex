@@ -3,7 +3,7 @@
   "category": "Input",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -256049,6 +256049,352 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b595aa9483f5d7fc",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "7.2.2017.1106 ; Date must be in mm/dd/yyyy format.  Month and date must each be in two digit format.",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ0421"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ0421"
+      ],
+      "descriptions": [
+        "Fujitsu America, Inc.",
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-7.2.2017.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-7.2.2017.1.7z.0001",
+          "size_bytes": 150423,
+          "sha256": "6c13e975d22368ac19b5dcad855505e6dce809974ca4c15ec97e526d3bf513a7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-7.2.2017.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-61ff04ef5010b0c5",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "7.2.2017.1106 ; Date must be in mm/dd/yyyy format.  Month and date must each be in two digit format.",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ0425"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ0425"
+      ],
+      "descriptions": [
+        "Fujitsu America, Inc.",
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-7.2.2017.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-7.2.2017.1.7z.0001",
+          "size_bytes": 153994,
+          "sha256": "5231bc583649e4a23ae1a2febebf73c3564fba01cd0ca88a46d0465cf28cac49",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-7.2.2017.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b8f00a87eaa4a0d",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "4.2.0827.2009 ; Date must be in mm/dd/yyyy format.  Month and date must each be in two digit format.",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "descriptions": [
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-4.2.0827.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-4.2.0827.2.7z.0001",
+          "size_bytes": 24458,
+          "sha256": "ac1ef6581d2c7bea1f9508ef09982b26430f01e881d4c68f64e6172c5ef0b029",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-4.2.0827.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9d286d38af51cadd",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "6.1.0624.2015",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "descriptions": [
+        "Fujitsu America, Inc.",
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-6.1.0624.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-6.1.0624.2.7z.0001",
+          "size_bytes": 32920,
+          "sha256": "baf69821ad38da4492fc44b642bf489223b1a4adcfff9103dc499e1e07468fd5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-6.1.0624.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-88e1212575e886df",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "6.1.0625.2015",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "descriptions": [
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-6.1.0625.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-6.1.0625.2.7z.0001",
+          "size_bytes": 33014,
+          "sha256": "4787f41793b533df69c1ffffcb4804658e367bf1b387722230f6ca1060bc91b6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-6.1.0625.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8ecdc245e164d01f",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "6.3.2016.0908",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_FUJ&DEV_02BF&REV_1000"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fujitsu America, Inc.",
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-6.3.2016.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-6.3.2016.0.7z.0001",
+          "size_bytes": 35249,
+          "sha256": "67bc09b943f88e81bcbb8a69f4128e9ec5fa7a964807e76488d9e4e9a34db65e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-6.3.2016.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1f9d831f2fa528c",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "5.1.0710.2013 ; Date must be in mm/dd/yyyy format.  Month and date must each be in two digit format.",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "descriptions": [
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-5.1.0710.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-5.1.0710.2.7z.0001",
+          "size_bytes": 26260,
+          "sha256": "bd1094b748edebfdf73a4d326e1ad1dbbfdd54a850f2bea9683303cefa497105",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-5.1.0710.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f698b91c9d911d79",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu America, Inc.",
+      "category": "HIDClass",
+      "version": "5.0.0801.2012 ; Date must be in mm/dd/yyyy format.  Month and date must each be in two digit format.",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "compatible_ids": [
+        "ACPI\\FUJ02BF"
+      ],
+      "descriptions": [
+        "Fujitsu America, Inc.",
+        "Fujitsu Button Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-5.0.0801.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsua-hidc-x64-5.0.0801.2.7z.0001",
+          "size_bytes": 27425,
+          "sha256": "dec985f7b35279c38483670c66d6cdd9d6d0f04c9e70e50b2f74f5415b7c8094",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsua-hidc-x64-5.0.0801.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b762127d0fa6a507",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu Component Ltd.",
+      "category": "Mouse",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fujitsu Component Ltd.",
+        "Fujitsu Touch Panel driver (Windows Vista)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsuc-mous-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuc-mous-x64-1.0.0.1.7z.0001",
+          "size_bytes": 846388,
+          "sha256": "40a279c64920db12e49c1482b8f65e9a4dfe60d595a22200bdad1e9f848a3011",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsuc-mous-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-22acd2b702cb7250",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Input",
+      "provider": "Fujitsu Component Ltd.",
+      "category": "Mouse",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Fujitsu Touch Panel driver (Windows Vista)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsuc-mous-x64-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsuc-mous-x64-1.0.0.2.7z.0001",
+          "size_bytes": 430030,
+          "sha256": "2c5041f791d72014b8037e6617513a895373bdf127fc0c606c6b741419df5827",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_FUJITSULIMITED_System_x64/fujitsuc-mous-x64-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

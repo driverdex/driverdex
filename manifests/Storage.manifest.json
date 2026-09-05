@@ -3,7 +3,7 @@
   "category": "Storage",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -75504,6 +75504,190 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9ee9a7026e372262",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Storage",
+      "provider": "Fujitsu",
+      "category": "MediumChanger",
+      "version": "8.2.0.5",
+      "arch": "x86",
+      "hwids": [
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT260___",
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT_S2___"
+      ],
+      "compatible_ids": [
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT260___",
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT_S2___"
+      ],
+      "descriptions": [
+        "Fujitsu",
+        "Fujitsu ETERNUS media changer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsu-medi-x86-8.2.0.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsu-medi-x86-8.2.0.5.7z.0001",
+          "size_bytes": 19856,
+          "sha256": "04cd964fce20da5b6a6a8205a2e841e1cc385fea0a3de2c58dc1ac91d7fe1ae9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsu-medi-x86-8.2.0.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0e2984c5c04c5d04",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Storage",
+      "provider": "Fujitsu",
+      "category": "MediumChanger",
+      "version": "8.2.0.1",
+      "arch": "x86",
+      "hwids": [
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT260___",
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT_S2___"
+      ],
+      "compatible_ids": [
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT260___",
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT_S2___"
+      ],
+      "descriptions": [
+        "Fujitsu",
+        "Fujitsu ETERNUS media changer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsu-medi-x86-8.2.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsu-medi-x86-8.2.0.1.7z.0001",
+          "size_bytes": 17975,
+          "sha256": "ab3d6b9a63e536747d57e72e0dc3534b1f0fd36e30f6868f246945f82c684680",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsu-medi-x86-8.2.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ae33dcaf5823ce6b",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Storage",
+      "provider": "Fujitsu",
+      "category": "MediumChanger",
+      "version": "8.0.0.1",
+      "arch": "x86",
+      "hwids": [
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT_S2___"
+      ],
+      "compatible_ids": [
+        "SCSI\\CHANGERFUJITSU_ETERNUS_LT_S2___"
+      ],
+      "descriptions": [
+        "Fujitsu",
+        "Fujitsu ETERNUS media changer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsu-medi-x86-8.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsu-medi-x86-8.0.0.1.7z.0001",
+          "size_bytes": 12926,
+          "sha256": "a514e09f1b929a5bccd13abfaa1b498db949fcea86510ab0cfc74dfd24eba6e9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsu-medi-x86-8.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9a8da0194d822ba4",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Storage",
+      "provider": "Fujitsu Siemens",
+      "category": "MediumChanger",
+      "version": "5.2.3790.6",
+      "arch": "x86",
+      "hwids": [
+        "SCSI\\CHANGERFSC_____FIBRECAT-TX24",
+        "SCSI\\CHANGERFSC_____FIBRECAT-TX48",
+        "SCSI\\CHANGERFSC_____FIBRECAT-TX96",
+        "SCSI\\CHANGERFSC_____FIBRECAT_TX08___"
+      ],
+      "compatible_ids": [
+        "SCSI\\CHANGERFSC_____FIBRECAT-TX24",
+        "SCSI\\CHANGERFSC_____FIBRECAT-TX48",
+        "SCSI\\CHANGERFSC_____FIBRECAT-TX96",
+        "SCSI\\CHANGERFSC_____FIBRECAT_TX08___"
+      ],
+      "descriptions": [
+        "Fujitsu Siemens",
+        "Fujitsu Siemens FibreCAT TX autoloader  (x86 based XP/2003)",
+        "Fujitsu Siemens FibreCAT TX autoloader  (x64 based XP/2003)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsus-medi-x86-5.2.3790.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsus-medi-x86-5.2.3790.6.7z.0001",
+          "size_bytes": 16545,
+          "sha256": "a219f48543f05fad96e913de3a4e045747f6968e2de827b7c69117497973ada7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsus-medi-x86-5.2.3790.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-be97a7737865f99e",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Storage",
+      "provider": "FUJITSU LIMITED",
+      "category": "DiskDrive",
+      "version": "4.0.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsul-disk-x64-4.0.3.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsul-disk-x64-4.0.3.0.7z.0001",
+          "size_bytes": 12492,
+          "sha256": "df8238cde05697e47f9e11cfde4416bda8c337bcf7cfb7d408f573e16c5b568b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_FUJITSULIMITED_System_x64/fujitsul-disk-x64-4.0.3.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

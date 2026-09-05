@@ -134807,6 +134807,285 @@
       ],
       "date_added": "2026-08-19",
       "enabled": true
+    },
+    {
+      "id": "inst-1789b01d71ae",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "FUJ02B1_1.29",
+      "exe_filename": "CheckBatteryPack.exe",
+      "sha256": "b25782a9305c4f028c325be342d2266b72026f8904f301afa8f5ed6bff90eaed",
+      "size_bytes": 10597022,
+      "file_version": "1.0.2.5",
+      "product_version": "1.0.2.5",
+      "company": "FUJITSU CLIENT COMPUTING LIMITED",
+      "description": "FUJITSU Battery Check Tool",
+      "installer_type": "PE-installer",
+      "icon_sha256": "e06dd8686e38f009",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/FUJ02B1_1.29.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "FUJ02B1_1.29.7z.0001",
+          "size_bytes": 399173,
+          "sha256": "fb04bafd8ed1379f85d678b0d5bf7bba6911e5c18b3a03278470bc6ef596bdb1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/FUJ02B1_1.29.7z.0001",
+          "lfs_oid": "fb04bafd8ed1379f85d678b0d5bf7bba6911e5c18b3a03278470bc6ef596bdb1",
+          "lfs_size": 399173
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-7c664208e04f",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "FUJ02E3_4.6.1.0",
+      "exe_filename": "fuj02e3-utility.exe",
+      "sha256": "eb3b796839c4c16f6e385c563e89c0cb64cd111ca4f7eb90538918dffd6dd6ae",
+      "size_bytes": 615709,
+      "file_version": "4.6.0.0",
+      "product_version": "4.6.0.0",
+      "company": "Fujitsu Client Computing Limited",
+      "description": "FUJ02E3 Device Driver - service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/FUJ02E3_4.6.1.0.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "FUJ02E3_4.6.1.0.7z.0001",
+          "size_bytes": 176321,
+          "sha256": "faafec9236a0ad77c051ad612abb2c3e31eb87e5c86d01dc88e5224974fc812b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/FUJ02E3_4.6.1.0.7z.0001",
+          "lfs_oid": "faafec9236a0ad77c051ad612abb2c3e31eb87e5c86d01dc88e5224974fc812b",
+          "lfs_size": 176321
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-b87f262d9104",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "1.28",
+      "exe_filename": "CheckBatteryPack.exe",
+      "sha256": "4689297762ed4cf2e52a496ade21f08266cdc9f7197fe0ac5ae430d6954c7fbf",
+      "size_bytes": 10523888,
+      "file_version": "1.0.2.4",
+      "product_version": "1.0.2.4",
+      "company": "FUJITSU CLIENT COMPUTING LIMITED",
+      "description": "FUJITSU Battery Check Tool",
+      "installer_type": "PE-installer",
+      "icon_sha256": "e06dd8686e38f009",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/1.28.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.28.7z.0001",
+          "size_bytes": 382779,
+          "sha256": "7cf4cdf032d77fcaf3aedd35b57d40a58f91c37faba7c3de494075edc437f155",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/1.28.7z.0001",
+          "lfs_oid": "7cf4cdf032d77fcaf3aedd35b57d40a58f91c37faba7c3de494075edc437f155",
+          "lfs_size": 382779
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-b46a39a7f7b2",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "1.58.81.0",
+      "exe_filename": "CheckBatteryFW.exe",
+      "sha256": "ad34031dac30e64f89f81025497a890eeb1a0a874c1924cbcbee558182500924",
+      "size_bytes": 3852981,
+      "file_version": "2.0.6.0",
+      "product_version": "2.0.6.0",
+      "company": "FUJITSU LIMITED",
+      "description": "FUJITSU Battery Charging Control Update Tool",
+      "installer_type": "PE-installer",
+      "icon_sha256": "e06dd8686e38f009",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/1.58.81.0.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.58.81.0.7z.0001",
+          "size_bytes": 250879,
+          "sha256": "583b43b1fd2393a1073c85589deb1d7c7f69562de6f12b00e7e1d1c198bdffe7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/1.58.81.0.7z.0001",
+          "lfs_oid": "583b43b1fd2393a1073c85589deb1d7c7f69562de6f12b00e7e1d1c198bdffe7",
+          "lfs_size": 250879
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-6338b173619d",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "2.5.0.0",
+      "exe_filename": "fbiosdrv-service.exe",
+      "sha256": "5d0abc5c4f8bf5df6c9946ae83342e7e6b094b87fa6cce2f6b738fc49dfba539",
+      "size_bytes": 369762,
+      "file_version": "2.5.0.0",
+      "product_version": "2.5.0.0",
+      "company": "Fujitsu Client Computing Limited",
+      "description": "Fujitsu BIOS Driver - assistant service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/2.5.0.0.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "2.5.0.0.7z.0001",
+          "size_bytes": 126166,
+          "sha256": "95b94c323001ca26e3b8722ee59f07db286f3cc690da772e34a7ac7daead8e10",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/2.5.0.0.7z.0001",
+          "lfs_oid": "95b94c323001ca26e3b8722ee59f07db286f3cc690da772e34a7ac7daead8e10",
+          "lfs_size": 126166
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-59bb6b726756",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "21_7.2.2017.1106",
+      "exe_filename": "FjHwStaUpd.exe",
+      "sha256": "e45a3cd573974d08ab6d985209c0287ccf9f8382d7700c8044933d465a23d22d",
+      "size_bytes": 381893,
+      "file_version": "1.6.2017.1031",
+      "product_version": "1.6.2017.1031",
+      "company": "Fujitsu America, Inc.",
+      "description": "Service to update GPIO data",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/21_7.2.2017.1106.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "21_7.2.2017.1106.7z.0001",
+          "size_bytes": 150443,
+          "sha256": "5969bad5350ddda5976549e054015d3bae609d49f0d698ae74a474f97fb12ff3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/21_7.2.2017.1106.7z.0001",
+          "lfs_oid": "5969bad5350ddda5976549e054015d3bae609d49f0d698ae74a474f97fb12ff3",
+          "lfs_size": 150443
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-c9740459b100",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "25_7.2.2017.1106",
+      "exe_filename": "FjHwStaUpd.exe",
+      "sha256": "52c722e0553b6c6136bf65e1d1eac370ba663238302a25bbda9daec1a3b10672",
+      "size_bytes": 369285,
+      "file_version": "1.6.2017.1031",
+      "product_version": "1.6.2017.1031",
+      "company": "Fujitsu America, Inc.",
+      "description": "Service to update GPIO data",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/25_7.2.2017.1106.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "25_7.2.2017.1106.7z.0001",
+          "size_bytes": 154011,
+          "sha256": "675e0086f371c8440e9224fcc1532af925138d63a3699d5100e6934bedc51c95",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/25_7.2.2017.1106.7z.0001",
+          "lfs_oid": "675e0086f371c8440e9224fcc1532af925138d63a3699d5100e6934bedc51c95",
+          "lfs_size": 154011
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-1f46c722f01f",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "Allx64",
+      "exe_filename": "Fidset.exe",
+      "sha256": "71f18bc66064032747f8235e709661f4f8cedb97b026bd2f2e19baa33f26f175",
+      "size_bytes": 4521426,
+      "file_version": "1.0.0.1",
+      "product_version": "1.0.0.1",
+      "company": "Fujitsu Component Ltd.",
+      "description": "Touch Panel Setting",
+      "installer_type": "PE-installer",
+      "icon_sha256": "a99df4e20158bf0d",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/Allx64.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "Allx64.7z.0001",
+          "size_bytes": 846402,
+          "sha256": "914c3f90f5453f9794193f921e6a5395a54d65b429abde4aad657b7359e18ee5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/Allx64.7z.0001",
+          "lfs_oid": "914c3f90f5453f9794193f921e6a5395a54d65b429abde4aad657b7359e18ee5",
+          "lfs_size": 846402
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-7d3c8605dcdc",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Chipset",
+      "filename": "Allx86",
+      "exe_filename": "Fidset.exe",
+      "sha256": "71689f0b3161a14450a42f38fc365809348874ad0469210d0eb2dc3592dc2809",
+      "size_bytes": 1792440,
+      "file_version": "1.0.0.1",
+      "product_version": "1.0.0.1",
+      "company": "Fujitsu Component Ltd.",
+      "description": "Touch Panel Setting",
+      "installer_type": "PE-installer",
+      "icon_sha256": "a99df4e20158bf0d",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/Allx86.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "Allx86.7z.0001",
+          "size_bytes": 430042,
+          "sha256": "f90bae23395ec91579bd56b2d72feeca9c094e4957f2ad3d08d47d497e7cebb8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_FUJITSULIMITED_System_x64/Allx86.7z.0001",
+          "lfs_oid": "f90bae23395ec91579bd56b2d72feeca9c094e4957f2ad3d08d47d497e7cebb8",
+          "lfs_size": 430042
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true
     }
   ]
 }

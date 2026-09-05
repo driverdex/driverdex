@@ -3,7 +3,7 @@
   "category": "Other",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -25972,6 +25972,93 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0ddc18b20812d20f",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Other",
+      "provider": "FUJITSU LIMITED",
+      "category": "\"ActivityMonitor\"",
+      "version": "7.1.826.2014",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-7.1.826.20.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsul-acti-x64-7.1.826.20.7z.0001",
+          "size_bytes": 14945,
+          "sha256": "46037b11ea0ecf19f4ff85ceed669dc69a895ba4f705451a6c6d059168a4d820",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-7.1.826.20.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-398b8edb86a36940",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Other",
+      "provider": "FUJITSU LIMITED",
+      "category": "\"ActivityMonitor\"",
+      "version": "2.0.0.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsul-acti-x64-2.0.0.2.7z.0001",
+          "size_bytes": 23299,
+          "sha256": "7decb271d9a49ba3008d7f90c936b2efc34fb7734cb4ee6f76d7cbdaac027306",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c3065f6e9026b61f",
+      "pack": "FUJITSULIMITED_System_x64",
+      "type": "Other",
+      "provider": "FUJITSU LIMITED",
+      "category": "\"ActivityMonitor\"",
+      "version": "2.0.0.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "fujitsul-acti-x64-2.0.0.3.7z.0001",
+          "size_bytes": 14365,
+          "sha256": "b231c8a2bbcfb800fa14dda78f220d4530e736195907ba7ac3d35a5a504332ac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_FUJITSULIMITED_System_x64/fujitsul-acti-x64-2.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
