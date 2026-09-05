@@ -208754,6 +208754,438 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-cc5f5c153603178f",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "Hewlett-Packard Development Company, L.P.",
+      "category": "System",
+      "version": "1.20.5.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPQ0004"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ0004"
+      ],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x64-1.20.5.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-syst-x64-1.20.5.1.7z.0001",
+          "size_bytes": 77645,
+          "sha256": "43ffde80657b762a3d665bc15b13cdda89446da46b929c99d7c2107eae67241a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x64-1.20.5.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fce963ad9c87cbff",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "Hewlett-Packard Development Company, L.P.",
+      "category": "System",
+      "version": "4.2.9.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPQ0004"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ0004"
+      ],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x64-4.2.9.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-syst-x64-4.2.9.1.7z.0001",
+          "size_bytes": 86936,
+          "sha256": "f465c1c1bf942d579aeb08f1665fa4e398dd110ec3bebba37cc12846fd535521",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x64-4.2.9.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fdde2524385c5ba8",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "Hewlett-Packard Development Company, L.P.",
+      "category": "System",
+      "version": "5.2.1.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6000"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6000"
+      ],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x86-5.2.1.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-syst-x86-5.2.1.1.7z.0001",
+          "size_bytes": 156835,
+          "sha256": "08e2c99998b8246d6b3d82ffb29f905c9eeab33b6cd9a48ba79cca063b699548",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x86-5.2.1.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-28f202fc4f921dad",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "6.0.20.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.20.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-6.0.20.1.7z.0001",
+          "size_bytes": 195341,
+          "sha256": "4f9f569e0159ca8d4284df23dc2ac20f40b4d1fee961bc7e32d563561e4d207c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.20.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-35452ac8bffcef7c",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "6.0.21.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.21.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-6.0.21.1.7z.0001",
+          "size_bytes": 168079,
+          "sha256": "c4d1fa95e2b9f358e35c829f44a4c6480511c40f846708b9bf0de1549a99dcaa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.21.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-180127fde0f5d223",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "7.0.22.3",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP Inc.",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x64-7.0.22.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x64-7.0.22.3.7z.0001",
+          "size_bytes": 57794,
+          "sha256": "07cb77695bc678210de32c24e09b18b7b9fb1537d8c5fac425a0d77401a37efa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x64-7.0.22.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8943b63092ed7c2d",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "7.0.4.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP Inc.",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-7.0.4.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-7.0.4.1.7z.0001",
+          "size_bytes": 41594,
+          "sha256": "282bd762ebae2c8f439229cf9b3eb020dc6038040aacaac784557bfd5416d338",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-7.0.4.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-851fe6427400f985",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "7.0.18.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP Inc.",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-7.0.18.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-7.0.18.1.7z.0001",
+          "size_bytes": 77454,
+          "sha256": "a50999a40859a2df211ac56e1772a8f9b94c3ff9c715158955a9749f8aa9428d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-7.0.18.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4681f225a6001662",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "7.0.20.25030",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP Inc.",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-7.0.20.250.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-7.0.20.250.7z.0001",
+          "size_bytes": 84096,
+          "sha256": "8c2a7a4608496f37b4c9d64f9f6d70c535a45688b9c28d15bb670df924453ef2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-7.0.20.250.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a4e4d7733db7fee2",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "6.0.13.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.13.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-6.0.13.1.7z.0001",
+          "size_bytes": 148917,
+          "sha256": "9a89782270eed6bc5a8807322dcb8d61a6e41fd5df46b96dc240737bf249685a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.13.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f532559440460c9a",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "HP Development Company, L.P.",
+      "category": "System",
+      "version": "6.0.12.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.12.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpdevelo-syst-x86-6.0.12.1.7z.0001",
+          "size_bytes": 145625,
+          "sha256": "34f0f93fba0e697bb87fe6e21cab2136e51dc30262bf1d9f4c2d64504f479151",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hpdevelo-syst-x86-6.0.12.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c54b17d3a7fa4da7",
+      "pack": "HewlettPackard_System_x86",
+      "type": "Chipset",
+      "provider": "Hewlett-Packard Development Company, L.P.",
+      "category": "System",
+      "version": "6.0.9.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPQ6007"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6007"
+      ],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP Mobile Data Protection Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x64-6.0.9.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-syst-x64-6.0.9.1.7z.0001",
+          "size_bytes": 147459,
+          "sha256": "2d2efe920e08875d6908cf67e762e4efc979af7095de00bfc5eedce8f3ef1cba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HewlettPackard_System_x86/hewlettp-syst-x64-6.0.9.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
