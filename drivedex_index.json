@@ -1,6 +1,6 @@
 {
   "schema": "3.0",
-  "updated": "2026-08-19",
+  "updated": "2026-09-05",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
@@ -82,7 +82,7 @@
     }
   ],
   "category_summary": {
-    "Audio": 4715,
+    "Audio": 5522,
     "Chipset": 2742,
     "Display": 6655,
     "Firmware": 239,
@@ -94,6 +94,6 @@
     "Printer": 436,
     "Security": 38,
     "Storage": 861,
-    "USB": 1222
+    "USB": 1221
   }
 }
