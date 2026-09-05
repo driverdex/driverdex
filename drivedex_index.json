@@ -16,19 +16,19 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8077958,
+      "size_bytes": 8067255,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Display.manifest.json",
-      "size_bytes": 9584920,
+      "size_bytes": 9589396,
       "active": true,
       "note": "active"
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 389450,
+      "size_bytes": 395576,
       "active": true,
       "note": "active"
     },
@@ -40,7 +40,7 @@
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 8680825,
+      "size_bytes": 8679640,
       "active": true,
       "note": "active"
     },
@@ -90,11 +90,11 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2805,
-    "Display": 6655,
-    "Firmware": 245,
+    "Chipset": 2796,
+    "Display": 6659,
+    "Firmware": 250,
     "Imaging": 97,
-    "Input": 3356,
+    "Input": 3355,
     "Net": 899,
     "Other": 350,
     "Ports": 578,

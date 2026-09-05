@@ -3,7 +3,7 @@
   "category": "Display",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -308253,6 +308253,146 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7e0746fe3726f2c6",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Display",
+      "provider": "HP Inc.",
+      "category": "Display",
+      "version": "1.4.2101.0908",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0688",
+        "USB\\VID_03F0&PID_0D82"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP Inc.",
+        "HP Engage 6.6 Display"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x64-1.4.2101.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-disp-x64-1.4.2101.0.7z.0001",
+          "size_bytes": 403476,
+          "sha256": "ca94701edbbf9ffad66f72d673d4c865211350f37b48c46856587a4ef1d14dc6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x64-1.4.2101.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-554b68f040e3838f",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Display",
+      "provider": "HP Inc.",
+      "category": "USB",
+      "version": "1.0.2101.1013",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0182",
+        "USB\\VID_03F0&PID_0788"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP Inc.",
+        "HP Engage 6.6"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x64-1.4.2101.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-disp-x64-1.4.2101.0.7z.0001",
+          "size_bytes": 403476,
+          "sha256": "ca94701edbbf9ffad66f72d673d4c865211350f37b48c46856587a4ef1d14dc6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x64-1.4.2101.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-59ac071605fa193d",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Display",
+      "provider": "HP Inc.",
+      "category": "Display",
+      "version": "1.4.2101.0908",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_03F0&PID_0688",
+        "USB\\VID_03F0&PID_0D82"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP Inc.",
+        "HP Engage 6.6 Display"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x86-1.4.2101.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-disp-x86-1.4.2101.0.7z.0001",
+          "size_bytes": 338569,
+          "sha256": "28fb80d11fff104491afe881453ce240125390fac80f0feb21be009d0f314fa3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x86-1.4.2101.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8f6f6491b3b954ef",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Display",
+      "provider": "HP Inc.",
+      "category": "USB",
+      "version": "1.0.2101.1013",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_03F0&PID_0182",
+        "USB\\VID_03F0&PID_0788"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP Inc.",
+        "HP Engage 6.6"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x86-1.4.2101.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-disp-x86-1.4.2101.0.7z.0001",
+          "size_bytes": 338569,
+          "sha256": "28fb80d11fff104491afe881453ce240125390fac80f0feb21be009d0f314fa3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Display/DP_HPInc_SYSTEM_x86/hpinc-disp-x86-1.4.2101.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

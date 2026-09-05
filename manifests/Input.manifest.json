@@ -259550,42 +259550,6 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
-    },
-    {
-      "id": "drv-8b262b41ff4cd1bd",
-      "pack": "HewlettPackard_System_x86",
-      "type": "Input",
-      "provider": "Hewlett-Packard Development Company, L.P.",
-      "category": "Sensor",
-      "version": "5.0.2.24",
-      "arch": "x64",
-      "hwids": [
-        "ACPI\\HPQ6000"
-      ],
-      "compatible_ids": [
-        "ACPI\\HPQ6000"
-      ],
-      "descriptions": [
-        "Hewlett-Packard",
-        "HP Mobile Data Protection Sensor"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_System_x86/hewlettp-sens-x64-5.0.2.24.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "hewlettp-sens-x64-5.0.2.24.7z.0001",
-          "size_bytes": 3925989,
-          "sha256": "b9664b577d887719c6794a6e67c6fa92563ba406ade2c7e473089311e8094d48",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_System_x86/hewlettp-sens-x64-5.0.2.24.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
     }
   ],
   "version_history": {

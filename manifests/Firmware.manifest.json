@@ -10591,6 +10591,188 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-f57617c11bac454e",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "4.2.629.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Analytics"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x86-4.2.629.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x86-4.2.629.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5b62db09cd61439e3607ffd04e110b2db5d568157d4bb57d95e6116769539f6b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x86-4.2.629.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "hpinc-soft-x86-4.2.629.0.7z.0002",
+          "size_bytes": 2158123,
+          "sha256": "69e18030fbae3c27b55fb00881978d00f24e82769cf6707482b5896d890f0ed0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x86-4.2.629.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d49409bb914b3648",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "4.2.545.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Analytics"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x86-4.2.545.0.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x86-4.2.545.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "ec195a6129097a57644f41ebf49c12d6531d04dd099e7ed48d809d09f205a6ff",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x86-4.2.545.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "hpinc-soft-x86-4.2.545.0.7z.0002",
+          "size_bytes": 2116227,
+          "sha256": "d57aaceee58407954ad49f78d5f001533a54a545dd0647430de9a047c5d18b7a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x86-4.2.545.0.7z.0002"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-73b6aa5c1604bef8",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.50.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Command Center"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x64-1.0.50.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x64-1.0.50.0.7z.0001",
+          "size_bytes": 7193,
+          "sha256": "fdf198fab8b11b503e0c8ac10c3e668640fca275c8f7d58842b3e0580f90320d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-soft-x64-1.0.50.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-248269f4d1e734c0",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "4.2.2494.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Insights Analytics"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-syst-x64-1.66.3710.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0001",
+          "size_bytes": 14026052,
+          "sha256": "d040dea0a40647eff81d41a9e26f0d3dd214e975e1648866ea9447022d6e7328",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-syst-x64-1.66.3710.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3dfd1450c05a736a",
+      "pack": "HPInc_SYSTEM_x86",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "System",
+      "version": "1.66.3710.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPIC0003",
+        "ACPI\\HPIC000C",
+        "ACPI\\HPIC0016"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPIC0003",
+        "ACPI\\HPIC000C",
+        "ACPI\\HPIC0016"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Application Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-syst-x64-1.66.3710.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0001",
+          "size_bytes": 14026052,
+          "sha256": "d040dea0a40647eff81d41a9e26f0d3dd214e975e1648866ea9447022d6e7328",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SYSTEM_x86/hpinc-syst-x64-1.66.3710.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
