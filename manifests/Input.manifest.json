@@ -259516,6 +259516,40 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-d37db22d5572cde7",
+      "pack": "Gigabyte_System_x64",
+      "type": "Input",
+      "provider": "Gigabyte",
+      "category": "HIDClass",
+      "version": "13.13.35.831",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_GBT&DEV_0005"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Gigabyte",
+        "Airplane HID minidriver Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Gigabyte_System_x64/gigabyte-hidc-x64-13.13.35.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "gigabyte-hidc-x64-13.13.35.8.7z.0001",
+          "size_bytes": 21067,
+          "sha256": "6aea282ac7f5708f39f2e5a4577065d8fec5cd8cb3b94ac3baf9797e5eac3865",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Gigabyte_System_x64/gigabyte-hidc-x64-13.13.35.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

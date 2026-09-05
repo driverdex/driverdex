@@ -208683,6 +208683,77 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-34743c3a7aba8482",
+      "pack": "Gigabyte_System_x64",
+      "type": "Chipset",
+      "provider": "Gigabyte",
+      "category": "System",
+      "version": "1.00.0302",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\GBTD0004"
+      ],
+      "compatible_ids": [
+        "ACPI\\GBTD0004"
+      ],
+      "descriptions": [
+        "Gigabyte",
+        "Gigabyte ACPI-Compliant Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Gigabyte_System_x64/gigabyte-syst-x64-1.00.0302.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "gigabyte-syst-x64-1.00.0302.7z.0001",
+          "size_bytes": 13523,
+          "sha256": "d89010523503dead5ea26bf8132cf601aa3508b38dc2433072d652198583072c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Gigabyte_System_x64/gigabyte-syst-x64-1.00.0302.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9479098853507592",
+      "pack": "Gigabyte_System_x64",
+      "type": "Chipset",
+      "provider": "Gigabyte",
+      "category": "System",
+      "version": "1.00.0302",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\GBTD0004"
+      ],
+      "compatible_ids": [
+        "ACPI\\GBTD0004"
+      ],
+      "descriptions": [
+        "Gigabyte ACPI-Compliant Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Gigabyte_System_x64/gigabyte-syst-x86-1.00.0302.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "gigabyte-syst-x86-1.00.0302.7z.0001",
+          "size_bytes": 12384,
+          "sha256": "f7c2aee8d4a5db7d7951ad3f6be425de22f4bbde4fc2f3b9c8e7d20e360f3253",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Gigabyte_System_x64/gigabyte-syst-x86-1.00.0302.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
