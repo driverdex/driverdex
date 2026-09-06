@@ -3,7 +3,7 @@
   "category": "Ports",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -28958,6 +28958,302 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b30004261cd6ea9a",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "Hewlett-Packard",
+      "category": "Ports",
+      "version": "2.1.51.239",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0B39",
+        "USB\\VID_03F0&PID_3524"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP USB-to-Serial Comm Port",
+        "HP VFD Display"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hewlettp-port-x64-2.1.51.239.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-port-x64-2.1.51.239.7z.0001",
+          "size_bytes": 88298,
+          "sha256": "11bb1f577b5949dd6ac529adb43ded9cc5c06206362655ccffbff4597d069863",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hewlettp-port-x64-2.1.51.239.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b12d35c741575be2",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "Hewlett-Packard",
+      "category": "Ports",
+      "version": "2.1.21.178",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0B39",
+        "USB\\VID_03F0&PID_3524"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP VFD Display",
+        "HP USB-to-Serial Comm Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hewlettp-port-x64-2.1.21.178.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-port-x64-2.1.21.178.7z.0001",
+          "size_bytes": 61862,
+          "sha256": "449cd99aa05a8099aa01918ebabaf8efc7220d2a6bc855a745356ed1205bb4c1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hewlettp-port-x64-2.1.21.178.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-64157ececbcf74cf",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "HP",
+      "category": "Ports",
+      "version": "3.6.81.359",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_3139",
+        "USB\\VID_03F0&PID_3239",
+        "USB\\VID_03F0&PID_3739",
+        "USB\\VID_03F0&PID_4349",
+        "USB\\VID_03F0&PID_4439",
+        "USB\\VID_03F0&PID_5039"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP LD220 Display",
+        "HP LD960 Display",
+        "HP LCM220 Display",
+        "HP LCM960 Display",
+        "HP LDM350 Pole Display",
+        "HP LM940 Display"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.6.81.359.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-port-x64-3.6.81.359.7z.0001",
+          "size_bytes": 3180721,
+          "sha256": "e74146539a331a63bb42627cf27103417c125d382ddedb05ac24e8be2f8d5871",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.6.81.359.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3f1b7830b4c1519d",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "Hewlett-Packard",
+      "category": "Ports",
+      "version": "3.4.22.214",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0B39",
+        "USB\\VID_03F0&PID_3524"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP VFD Display",
+        "HP USB-to-Serial Comm Port"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hewlettp-port-x64-3.4.22.214.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-port-x64-3.4.22.214.7z.0001",
+          "size_bytes": 87517,
+          "sha256": "36543cfa9d1f782222c555fa6fc14c1045e397b8af0c9679337d6d53a9b9fe0f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hewlettp-port-x64-3.4.22.214.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a4e613f503254c44",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "HP",
+      "category": "Ports",
+      "version": "3.8.28.2",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_026B",
+        "USB\\VID_03F0&PID_0956",
+        "USB\\VID_03F0&PID_3139",
+        "USB\\VID_03F0&PID_3239",
+        "USB\\VID_03F0&PID_3739",
+        "USB\\VID_03F0&PID_4349",
+        "USB\\VID_03F0&PID_4439",
+        "USB\\VID_03F0&PID_5039"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP LD220 Display",
+        "HP LD960 Display",
+        "HP LCM220 Display",
+        "HP LCM960 Display",
+        "HP LDM350 Pole Display",
+        "HP LM940 Display",
+        "HP 2x20 CFD Display - TD620",
+        "HP LM920 Display"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.8.28.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-port-x64-3.8.28.2.7z.0001",
+          "size_bytes": 3333171,
+          "sha256": "c16980f3d6ca4d803ad4d8b167176e37632c5d98167d44a4b752d6f00dad0a8d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.8.28.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9c1e07bc20e59bae",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "HP",
+      "category": "Ports",
+      "version": "3.8.31.4",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_026B",
+        "USB\\VID_03F0&PID_0956",
+        "USB\\VID_03F0&PID_0F7F",
+        "USB\\VID_03F0&PID_3139",
+        "USB\\VID_03F0&PID_3239",
+        "USB\\VID_03F0&PID_3739",
+        "USB\\VID_03F0&PID_4349",
+        "USB\\VID_03F0&PID_4439",
+        "USB\\VID_03F0&PID_5039"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP LD220 Display",
+        "HP LD960 Display",
+        "HP LCM220 Display",
+        "HP LCM960 Display",
+        "HP LDM350 Pole Display",
+        "HP LM940 Display",
+        "HP 2x20 CFD Display - TD620",
+        "HP LM920 Display",
+        "HP LD381 Display"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.8.31.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-port-x64-3.8.31.4.7z.0001",
+          "size_bytes": 3340799,
+          "sha256": "f4614f14094dc7ec21bbde8be621a6f740b622f464a0432dbe039ded3fb3a813",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.8.31.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-71233b6f0428af7c",
+      "pack": "HewlettPackard_Ports_x64",
+      "type": "Ports",
+      "provider": "HP",
+      "category": "Ports",
+      "version": "3.8.1.4",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0956",
+        "USB\\VID_03F0&PID_3139",
+        "USB\\VID_03F0&PID_3239",
+        "USB\\VID_03F0&PID_3739",
+        "USB\\VID_03F0&PID_4349",
+        "USB\\VID_03F0&PID_4439",
+        "USB\\VID_03F0&PID_5039"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP LD220 Display",
+        "HP LD960 Display",
+        "HP LCM220 Display",
+        "HP LCM960 Display",
+        "HP LDM350 Pole Display",
+        "HP LM940 Display",
+        "HP 2x20 CFD Display - TD620"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.8.1.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-port-x64-3.8.1.4.7z.0001",
+          "size_bytes": 3191124,
+          "sha256": "5da404e788c0b5373e62d3df9859bf34be4183a84a1bb24f6e83cca128e9352e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_HewlettPackard_Ports_x64/hp-port-x64-3.8.1.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

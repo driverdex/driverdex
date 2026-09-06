@@ -58,7 +58,7 @@
     },
     {
       "filename": "manifests/Ports.manifest.json",
-      "size_bytes": 1088260,
+      "size_bytes": 1097812,
       "active": true,
       "note": "active"
     },
@@ -97,7 +97,7 @@
     "Input": 3358,
     "Net": 899,
     "Other": 350,
-    "Ports": 578,
+    "Ports": 585,
     "Printer": 438,
     "Security": 38,
     "Storage": 861,
