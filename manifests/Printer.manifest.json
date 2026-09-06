@@ -3,7 +3,7 @@
   "category": "Printer",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -73509,6 +73509,76 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a8ce8955fa6d6559",
+      "pack": "HPInc_Printer_x64",
+      "type": "Printer",
+      "provider": "HP Inc.",
+      "category": "Printer",
+      "version": "1.8.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\COGNITIVETPGA795BA04",
+        "USBPRINT\\HPA77650FC",
+        "USBPRINT\\HPH3003F3C"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\COGNITIVETPGA795BA04",
+        "USBPRINT\\HPA77650FC",
+        "USBPRINT\\HPH3003F3C"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_HPInc_Printer_x64/hpinc-prin-x64-1.8.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-prin-x64-1.8.0.0.7z.0001",
+          "size_bytes": 85596,
+          "sha256": "0e62a49903ca2a02069026bd43cd11cd3bb04ed2beb7e14076ed6f196bd303b4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_HPInc_Printer_x64/hpinc-prin-x64-1.8.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1c32972213bb3034",
+      "pack": "HPInc_Printer_x64",
+      "type": "Printer",
+      "provider": "HP Inc.",
+      "category": "Printer",
+      "version": "1.8.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USBPRINT\\HPA77650FC"
+      ],
+      "compatible_ids": [
+        "USBPRINT\\HPA77650FC"
+      ],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_HPInc_Printer_x64/hpinc-prin-x64-1.8.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-prin-x64-1.8.0.0.7z.0001",
+          "size_bytes": 78062,
+          "sha256": "d6738703abae921fa84deec2f8356827365d023a2e54e217115d7ead31b5b6c5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Printer/DP_HPInc_Printer_x64/hpinc-prin-x64-1.8.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
