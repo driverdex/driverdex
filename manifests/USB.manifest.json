@@ -3,7 +3,7 @@
   "category": "USB",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-08-19",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -83072,41 +83072,6 @@
         }
       ],
       "date_added": "2026-08-19",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-85cec94c688fb238",
-      "pack": "HP_USBDevice_x64",
-      "type": "USB",
-      "provider": "HP",
-      "category": "USBDevice",
-      "version": "1.0.0.11",
-      "arch": "x64",
-      "hwids": [
-        "USB\\VID_03F0&PID_0651&MI_00",
-        "USB\\VID_0451&PID_2000&MI_00"
-      ],
-      "compatible_ids": [],
-      "descriptions": [
-        "HP",
-        "HP Horizontal Display"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HP_USBDevice_x64/hp-usbd-x64-1.0.0.11.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "hp-usbd-x64-1.0.0.11.7z.0001",
-          "size_bytes": 6643,
-          "sha256": "41b33c8e64de9c1ffa5b35a406d41272f0b1584f30c628aa5b4eef4f3405bb26",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HP_USBDevice_x64/hp-usbd-x64-1.0.0.11.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

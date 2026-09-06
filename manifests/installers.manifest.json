@@ -2,7 +2,7 @@
   "schema": "3.0",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "installers": [
     {
@@ -137975,6 +137975,130 @@
         }
       ],
       "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-6ae1020f12f9",
+      "pack": "HewlettPackard_Keyboard_x86",
+      "type": "Input",
+      "filename": "8.10.2.1",
+      "exe_filename": "HotkeyServiceDSU.exe",
+      "sha256": "8f4c4431b3d13297ad8daa33fbb5ef11a48a3d99a5a2e1f109e670afc4d9d5fa",
+      "size_bytes": 3615715,
+      "file_version": "8.10.2.1",
+      "product_version": "8.10.2.1",
+      "company": "HP Inc.",
+      "description": "HP Hotkey Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.2.1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "8.10.2.1.7z.0001",
+          "size_bytes": 934863,
+          "sha256": "a1002caf03a111b9a53ae634ce83c190ac3951495454ef8f0d2bdfcc5885ecc5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.2.1.7z.0001",
+          "lfs_oid": "a1002caf03a111b9a53ae634ce83c190ac3951495454ef8f0d2bdfcc5885ecc5",
+          "lfs_size": 934863
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-ebac69920c52",
+      "pack": "HewlettPackard_Keyboard_x86",
+      "type": "Input",
+      "filename": "8.10.23.1",
+      "exe_filename": "HotkeyServiceUWP.exe",
+      "sha256": "031c719165b17bbb22aa6b80cd3753fe9440602bbcd6455cb95acb3c792717d3",
+      "size_bytes": 7054443,
+      "file_version": "8.10.23.1",
+      "product_version": "8.10.23.1",
+      "company": "HP Inc.",
+      "description": "HP Hotkey UWP Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.23.1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "8.10.23.1.7z.0001",
+          "size_bytes": 1591761,
+          "sha256": "51dd36c2df6295fd4e05e1927b0e43075f6e49fed7dcd5efa9b17da1adc98bd7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.23.1.7z.0001",
+          "lfs_oid": "51dd36c2df6295fd4e05e1927b0e43075f6e49fed7dcd5efa9b17da1adc98bd7",
+          "lfs_size": 1591761
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-96ae2309be0a",
+      "pack": "HewlettPackard_Keyboard_x86",
+      "type": "Input",
+      "filename": "8.10.29.1",
+      "exe_filename": "HotkeyServiceUWP.exe",
+      "sha256": "b6135562591a787bb350e9c290a8f271a80e7435721eb22efcfb261624df0c79",
+      "size_bytes": 9016108,
+      "file_version": "8.10.44.214",
+      "product_version": "8.10.44.214",
+      "company": "HP Inc.",
+      "description": "HP Hotkey UWP Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.29.1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "8.10.29.1.7z.0001",
+          "size_bytes": 1917692,
+          "sha256": "d31ed15cd7c4627483d3776abacb46beab9c02a8ca0600e7e424dc8e6ecf4482",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.29.1.7z.0001",
+          "lfs_oid": "d31ed15cd7c4627483d3776abacb46beab9c02a8ca0600e7e424dc8e6ecf4482",
+          "lfs_size": 1917692
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-74ced2e64c17",
+      "pack": "HewlettPackard_Keyboard_x86",
+      "type": "Input",
+      "filename": "8.10.5.1",
+      "exe_filename": "HPHotkeyNotification.exe",
+      "sha256": "0d69853fb4ef6e3bc5fba898f3d3aa19bee57483d89e0fdea50bbeb6b81aec94",
+      "size_bytes": 6536849,
+      "file_version": "8.10.5.1",
+      "product_version": "8.10.5.1",
+      "company": "HP Inc.",
+      "description": "HP Hotkey Notification Display",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.5.1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "8.10.5.1.7z.0001",
+          "size_bytes": 1494882,
+          "sha256": "f4a8f3fd2bb76cea152d49ac627403369414b2e2502ede0a07c7445e0a09b85b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HewlettPackard_Keyboard_x86/8.10.5.1.7z.0001",
+          "lfs_oid": "f4a8f3fd2bb76cea152d49ac627403369414b2e2502ede0a07c7445e0a09b85b",
+          "lfs_size": 1494882
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true
     }
   ]
