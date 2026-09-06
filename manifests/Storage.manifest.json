@@ -3,7 +3,7 @@
   "category": "Storage",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -75504,6 +75504,35 @@
         }
       ],
       "date_added": "2026-08-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4d181b555503f274",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Storage",
+      "provider": "Advanced Micro Devices",
+      "category": "DiskDrive",
+      "version": "5.1.0000.00",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_HPInc_HIDClass_x64/advanced-disk-x64-5.1.0000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "advanced-disk-x64-5.1.0000.0.7z.0001",
+          "size_bytes": 18479,
+          "sha256": "135f1ca90effd43d826572aaad33954276fdc919c5ceb9217038b45022780636",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_HPInc_HIDClass_x64/advanced-disk-x64-5.1.0000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

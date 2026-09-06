@@ -3,7 +3,7 @@
   "category": "USB",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-19",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -83072,6 +83072,195 @@
         }
       ],
       "date_added": "2026-08-19",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b96433b794c18702",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "provider": "HP Inc",
+      "category": "USBDevice",
+      "version": "1.0.0.3",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_0751"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP Inc",
+        "HP System Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hpinc-usbd-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-usbd-x64-1.0.0.3.7z.0001",
+          "size_bytes": 6932,
+          "sha256": "819b652d01d94b044bd40724bd705260d0caccf52f492f22bea1f8df554cbc78",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hpinc-usbd-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9f52a2b2d9bd7bef",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "provider": "Hewlett-Packard",
+      "category": "USB",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_FF01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP Remote Physical USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-usb-x64-1.0.0.0.7z.0001",
+          "size_bytes": 13470,
+          "sha256": "13f5f4c0c3e111ca5cd132c329775ae6ba96903b009f98cd6274e14cc03c5069",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-96e58060c553c271",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "provider": "Hewlett-Packard",
+      "category": "USB",
+      "version": "6.0.0.2550",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_FF01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hewlett-Packard",
+        "HP Remote Physical USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-6.0.0.2550.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-usb-x64-6.0.0.2550.7z.0001",
+          "size_bytes": 14318,
+          "sha256": "51a67952ccb889ee167e0d4f7f45b22015b644286a24c4f38c6eb3edaeb4bb05",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-6.0.0.2550.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f09f1771b8a17a25",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "provider": "Hewlett-Packard Company",
+      "category": "USB",
+      "version": "1.0.1.11",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_03F0&PID_1E24",
+        "USB\\VID_03F0&PID_1E24_DEVICEDESC",
+        "USB\\VID_03F0&PID_1E24_DEVICEDESC%",
+        "USB\\VID_03F0&PID_3024",
+        "USB\\VID_03F0&PID_3024_DEVICEDESC",
+        "USB\\VID_03F0&PID_3024_DEVICEDESC%",
+        "USB\\VID_03F0&PID_3624",
+        "USB\\VID_03F0&PID_3624_DEVICEDESC",
+        "USB\\VID_03F0&PID_3624_DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "%USB\\VID_03f0&PID_1e24_DeviceDesc%",
+        "%USB\\VID_03f0&PID_3024_DeviceDesc%",
+        "%USB\\VID_03f0&PID_3624_DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-1.0.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-usb-x64-1.0.1.11.7z.0001",
+          "size_bytes": 90909,
+          "sha256": "2eeefcef03a03f8d01a3dac6d90856a2531d4968929bc23852d9ea32d0df4b6a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-1.0.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c96b131d4cd3a9e",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "provider": "Walter Oney Software",
+      "category": "Ports",
+      "version": "1.1.0.5",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_05D9&PID_C760",
+        "USB\\VID_05D9&PID_C776",
+        "USB\\VID_05D9&PID_C794",
+        "USB\\VID_05D9&PID_C795",
+        "USB\\VID_05D9&PID_C798",
+        "USB\\VID_05D9&PID_C799"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Transaction Printer Group",
+        "USB Serial Port A760",
+        "USB Serial Port A776",
+        "USB Serial Port A794",
+        "USB Serial Port A795",
+        "USB Serial Port A798",
+        "USB Serial Port A799"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-1.0.1.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-usb-x64-1.0.1.11.7z.0001",
+          "size_bytes": 90909,
+          "sha256": "2eeefcef03a03f8d01a3dac6d90856a2531d4968929bc23852d9ea32d0df4b6a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/hewlettp-usb-x64-1.0.1.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

@@ -11121,6 +11121,159 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-368cbe3a7963bfba",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "4.8.125.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Services Scan"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-4.8.125.0.7z.0001",
+      "zip_parts": 4,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x64-4.8.125.0.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "1bbab2833ce1952afec6e6bd00c735874f56cc5473695419fc58d2d25ec9a3cb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-4.8.125.0.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "hpinc-soft-x64-4.8.125.0.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "77bb50f7f01aab4cafb3aaec24d896564632336e8be01c59a50b1bfac66b21b7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-4.8.125.0.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "hpinc-soft-x64-4.8.125.0.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "1f87b8bfa49bb518409bb07290fcfcb28e1b709b2fa7e3c6253d28ece6d195db",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-4.8.125.0.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "hpinc-soft-x64-4.8.125.0.7z.0004",
+          "size_bytes": 9137556,
+          "sha256": "b16cb0da8798e4261a6d040d410ce1eded8c903d1bda2f86733a62ce534702cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-4.8.125.0.7z.0004"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7cf3a84a36107751",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.0.4",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP System Event Utility"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-1.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x64-1.0.0.4.7z.0001",
+          "size_bytes": 46732,
+          "sha256": "349046247d567fbc39ab51948791beb1561aa373a01c5f926a1cebf2ee9a03ee",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-soft-x64-1.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0be952174b072871",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "2.1.17.45138",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP Inc.",
+        "HP Radio Manager Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-hidc-x86-2.1.17.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-hidc-x86-2.1.17.3.7z.0001",
+          "size_bytes": 108916,
+          "sha256": "b7043247c759092586bd8e5bc7c6e24b9a747f041fab84d30909ed327d60a40c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-hidc-x86-2.1.17.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e71a537dca586c04",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "HIDClass",
+      "version": "2.1.17.3",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6001"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6001"
+      ],
+      "descriptions": [
+        "HP Inc.",
+        "HP Wireless Button Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-hidc-x86-2.1.17.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-hidc-x86-2.1.17.3.7z.0001",
+          "size_bytes": 108916,
+          "sha256": "b7043247c759092586bd8e5bc7c6e24b9a747f041fab84d30909ed327d60a40c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_HIDClass_x64/hpinc-hidc-x86-2.1.17.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

@@ -3,7 +3,7 @@
   "category": "Other",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -26108,6 +26108,35 @@
         }
       ],
       "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-af6245f8df2480ca",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Other",
+      "provider": "Hewlett-Packard Development Company L.P.",
+      "category": "\"DAMDrv\"",
+      "version": "6.0.0.11",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_HPInc_HIDClass_x64/hewlettp-damd-x86-6.0.0.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-damd-x86-6.0.0.11.7z.0001",
+          "size_bytes": 55516,
+          "sha256": "2fb5d20e501f7f059b7a7e70c3a79bd14e25e4812fcae7d5ad2b2f2f8e3d9726",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_HPInc_HIDClass_x64/hewlettp-damd-x86-6.0.0.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

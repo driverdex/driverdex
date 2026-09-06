@@ -138399,6 +138399,281 @@
       ],
       "date_added": "2026-09-06",
       "enabled": true
+    },
+    {
+      "id": "inst-87ddc593ad2d",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "ARM64",
+      "exe_filename": "hpsvcsscan.exe",
+      "sha256": "21b8e86f1bc749ee2e30f7d5c01208cf4f1aeb4d072bedf12f8de99d25a2ab04",
+      "size_bytes": 30166164,
+      "file_version": "4.8.125.0",
+      "product_version": "4.8.125.0",
+      "company": "HP Inc.",
+      "description": "HP Services Scan",
+      "installer_type": "PE-installer",
+      "icon_sha256": "1a49ff0015251d9a",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/ARM64.7z.0001",
+      "split_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ARM64.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "053aa261286849b9777ef2b725400bfb99c7a366c180a45d4ce9f48a687338b6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/ARM64.7z.0001",
+          "lfs_oid": "053aa261286849b9777ef2b725400bfb99c7a366c180a45d4ce9f48a687338b6",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "ARM64.7z.0002",
+          "size_bytes": 4017428,
+          "sha256": "6af8c502835b78104899eb578b07ce917589744c4ca6f2208b2a9751b5aca9f4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/ARM64.7z.0002",
+          "lfs_oid": "6af8c502835b78104899eb578b07ce917589744c4ca6f2208b2a9751b5aca9f4",
+          "lfs_size": 4017428
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-2871cfdd421d",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "x64",
+      "exe_filename": "hpsvcsscan.exe",
+      "sha256": "d3cf9bf1b6300cfce5cf72f5474f73b59d85e5238ad7f3d10da3c7a69de0b226",
+      "size_bytes": 30166172,
+      "file_version": "4.8.125.0",
+      "product_version": "4.8.125.0",
+      "company": "HP Inc.",
+      "description": "HP Services Scan",
+      "installer_type": "PE-installer",
+      "icon_sha256": "1a49ff0015251d9a",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x64_1.7z.0001",
+      "split_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x64_1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "213839e0b3696f4a9beac20a5f90e9a357277c35106802d69d6f015ec701b623",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x64_1.7z.0001",
+          "lfs_oid": "213839e0b3696f4a9beac20a5f90e9a357277c35106802d69d6f015ec701b623",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "x64_1.7z.0002",
+          "size_bytes": 4017527,
+          "sha256": "d298e3bc0c468b82ee1cc8aee6300043d8c9f5dcc0efcfd6572cf14fa6d75dc9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x64_1.7z.0002",
+          "lfs_oid": "d298e3bc0c468b82ee1cc8aee6300043d8c9f5dcc0efcfd6572cf14fa6d75dc9",
+          "lfs_size": 4017527
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-f42c9fdcd945",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "x86",
+      "exe_filename": "hpsvcsscan.exe",
+      "sha256": "5f634b82022d6b6d1996c147c24db9b12f38058ec779ba85ed1b6396f5a2f58b",
+      "size_bytes": 30166180,
+      "file_version": "4.8.125.0",
+      "product_version": "4.8.125.0",
+      "company": "HP Inc.",
+      "description": "HP Services Scan",
+      "installer_type": "PE-installer",
+      "icon_sha256": "1a49ff0015251d9a",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x86_1.7z.0001",
+      "split_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x86_1.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "728d841f843497aa5d3e7d5d2eba293b70e3b196417588365affc61347ac7b7d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x86_1.7z.0001",
+          "lfs_oid": "728d841f843497aa5d3e7d5d2eba293b70e3b196417588365affc61347ac7b7d",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "x86_1.7z.0002",
+          "size_bytes": 4017462,
+          "sha256": "8f6e896b0f12571a0c918befb9375ebad60a1718fbfb13bc2bb78b29236accb4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x86_1.7z.0002",
+          "lfs_oid": "8f6e896b0f12571a0c918befb9375ebad60a1718fbfb13bc2bb78b29236accb4",
+          "lfs_size": 4017462
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-e6871532af04",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "x64",
+      "exe_filename": "HpseuHostLauncher.exe",
+      "sha256": "dfc7381e6ae531878677ad06bbe4eb9ce5b1def8dff654ac44b12ad7c45f4d3c",
+      "size_bytes": 483336,
+      "file_version": "1.0.11.0",
+      "product_version": "1.0.11.0",
+      "company": "L\u0012\u0001FileDescription",
+      "description": "HpseuHostLauncher",
+      "installer_type": "PE-installer",
+      "icon_sha256": "265c1a93e49621d4",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x64_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x64_2.7z.0001",
+          "size_bytes": 39893,
+          "sha256": "69c9aae521692cbc7425258b177271f64bc298ba754d33c9c75cdfcdc0cbe721",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x64_2.7z.0001",
+          "lfs_oid": "69c9aae521692cbc7425258b177271f64bc298ba754d33c9c75cdfcdc0cbe721",
+          "lfs_size": 39893
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-395b2cb99a15",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "x86",
+      "exe_filename": "HpseuHostLauncher.exe",
+      "sha256": "8b423b6f35aef9294a69a2c5db4efd9ff80db4706cd1bc8cd20083c999312052",
+      "size_bytes": 483328,
+      "file_version": "1.0.11.0",
+      "product_version": "1.0.11.0",
+      "company": "L\u0012\u0001FileDescription",
+      "description": "HpseuHostLauncher",
+      "installer_type": "PE-installer",
+      "icon_sha256": "265c1a93e49621d4",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x86_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x86_2.7z.0001",
+          "size_bytes": 39913,
+          "sha256": "dd4f11496e48209ce1ca9d0d90f0e2e3e89703947a756b53c123a70493ad0f32",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/x86_2.7z.0001",
+          "lfs_oid": "dd4f11496e48209ce1ca9d0d90f0e2e3e89703947a756b53c123a70493ad0f32",
+          "lfs_size": 39913
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-d2d31c70b723",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "1.1.17.1",
+      "exe_filename": "HPRadioMgr64.exe",
+      "sha256": "b55ae657ef8e6fa3fb70fca42c28e65cc65b75049b0534c2a142f5b5acd0a8a7",
+      "size_bytes": 601279,
+      "file_version": "1.1.17.1",
+      "product_version": "1.1.17.1",
+      "company": "HP",
+      "description": "HP Radio Manager",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/1.1.17.1_1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.1.17.1_1.7z.0001",
+          "size_bytes": 183669,
+          "sha256": "33b7251c93757435df0d996d4b66a3a042a556f27516c00c8db72a3cde788b28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/1.1.17.1_1.7z.0001",
+          "lfs_oid": "33b7251c93757435df0d996d4b66a3a042a556f27516c00c8db72a3cde788b28",
+          "lfs_size": 183669
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-d2d31c70b723",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "1.1.17.1",
+      "exe_filename": "HPRadioMgr64.exe",
+      "sha256": "b55ae657ef8e6fa3fb70fca42c28e65cc65b75049b0534c2a142f5b5acd0a8a7",
+      "size_bytes": 601279,
+      "file_version": "1.1.17.1",
+      "product_version": "1.1.17.1",
+      "company": "HP",
+      "description": "HP Radio Manager",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/1.1.17.1_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.1.17.1_2.7z.0001",
+          "size_bytes": 183669,
+          "sha256": "33b7251c93757435df0d996d4b66a3a042a556f27516c00c8db72a3cde788b28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/1.1.17.1_2.7z.0001",
+          "lfs_oid": "33b7251c93757435df0d996d4b66a3a042a556f27516c00c8db72a3cde788b28",
+          "lfs_size": 183669
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-bc5c3b61bf10",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "USB",
+      "filename": "1.1.18.1",
+      "exe_filename": "HPRadioMgr64.exe",
+      "sha256": "b2fd334e5c96dbf66d60304fc1d444b78b241db7915b29f1ee1a36cae937f922",
+      "size_bytes": 698177,
+      "file_version": "1.1.18.1",
+      "product_version": "1.1.18.1",
+      "company": "HP",
+      "description": "HP Radio Manager",
+      "installer_type": "PE-installer",
+      "icon_sha256": "65179576638ecdd2",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/1.1.18.1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.1.18.1.7z.0001",
+          "size_bytes": 235180,
+          "sha256": "4753763a15f355a325ff2f94c1e3f2e5db2960704be7476d6bcaabe9e275d404",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_HPInc_HIDClass_x64/1.1.18.1.7z.0001",
+          "lfs_oid": "4753763a15f355a325ff2f94c1e3f2e5db2960704be7476d6bcaabe9e275d404",
+          "lfs_size": 235180
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
     }
   ]
 }

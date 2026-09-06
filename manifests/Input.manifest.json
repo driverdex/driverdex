@@ -259658,6 +259658,220 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-5b5c4ba8bd628b85",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Input",
+      "provider": "Hewlett Packard Company",
+      "category": "HIDClass",
+      "version": "1.0.2",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hewlett Packard",
+        "HP Bluetooth PC Card Mouse"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hewlettp-hidc-x64-1.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-hidc-x64-1.0.2.7z.0001",
+          "size_bytes": 111410,
+          "sha256": "e4467e6fdbe201a6a632aaabd401154abf6444ac06f15071f2ccd481f2d89eef",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hewlettp-hidc-x64-1.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fa7ab75fc1d53d81",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Input",
+      "provider": "Hewlett-Packard Development Company, L.P.",
+      "category": "HIDClass",
+      "version": "1.0.0.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ0007",
+        "HID\\HPQREMHIDDEVICE"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ0007",
+        "HID\\HPQREMHIDDEVICE"
+      ],
+      "descriptions": [
+        "Hewlett-Packard Development Company, L.P.",
+        "HP Remote Control HID Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hewlettp-hidc-x86-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hewlettp-hidc-x86-1.0.0.0.7z.0001",
+          "size_bytes": 13658,
+          "sha256": "21c2178f657031eff5284d3663e3cfa60214828e641dd75e4d6a77d90dd7bc88",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hewlettp-hidc-x86-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b63a88224b502229",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Input",
+      "provider": "HP",
+      "category": "HIDClass",
+      "version": "1.1.17.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6001"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6001"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Wireless Button Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hp-hidc-x86-1.1.17.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-hidc-x86-1.1.17.1.7z.0001",
+          "size_bytes": 183669,
+          "sha256": "886f48dcf0af6c15cf8c91c544ec026868c52a557de1706975b3eee777700126",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hp-hidc-x86-1.1.17.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4113e276fd19b077",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Input",
+      "provider": "HP",
+      "category": "HIDClass",
+      "version": "1.1.18.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6001"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6001"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Wireless Button Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hp-hidc-x86-1.1.18.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-hidc-x86-1.1.18.1.7z.0001",
+          "size_bytes": 235181,
+          "sha256": "f641fb13b9fffd6c03f23d898303296f6da07909910efda5874af81c9d7cf845",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hp-hidc-x86-1.1.18.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e1ef5f88c99ce7aa",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Input",
+      "provider": "HP Inc.",
+      "category": "HIDClass",
+      "version": "1.1.3.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPQ6001"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6001"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Wireless Button Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hpinc-hidc-x64-1.1.3.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-hidc-x64-1.1.3.1.7z.0001",
+          "size_bytes": 27896,
+          "sha256": "fd57f125b8383e869768730f558d48821f6826ddf4630cd2d31a6a432d9d625f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hpinc-hidc-x64-1.1.3.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-13866f1c39f0bfb2",
+      "pack": "HPInc_HIDClass_x64",
+      "type": "Input",
+      "provider": "HP",
+      "category": "HIDClass",
+      "version": "1.1.7.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\HPQ6001"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPQ6001"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Wireless Button Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hp-hidc-x86-1.1.7.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hp-hidc-x86-1.1.7.1.7z.0001",
+          "size_bytes": 29770,
+          "sha256": "e01e488f30f432f028f9a29e9e87016eba56b5032f4330dfcdf1debbfc97ea64",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_HPInc_HIDClass_x64/hp-hidc-x86-1.1.7.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
