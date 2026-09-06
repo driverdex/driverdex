@@ -2,7 +2,7 @@
   "schema": "3.0",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "installers": [
     {
@@ -137975,6 +137975,429 @@
         }
       ],
       "date_added": "2026-09-05",
+      "enabled": true
+    },
+    {
+      "id": "inst-f3527d6e964b",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "x64",
+      "exe_filename": "AppHelperCap.exe",
+      "sha256": "6280fb843bb72a5c77f269b01a6c86cc592082280e069eca787490c1040df367",
+      "size_bytes": 16862467,
+      "file_version": "1.32.2332.0",
+      "product_version": "1.32.2332.0",
+      "company": "HP Inc.",
+      "description": "8\f\u0001FileVersion",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x64_1.7z.0001",
+          "size_bytes": 4330843,
+          "sha256": "2f80e21e355f9ce36698d4e897682511b025e606806955e6d7f3f51fb70c367b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_1.7z.0001",
+          "lfs_oid": "2f80e21e355f9ce36698d4e897682511b025e606806955e6d7f3f51fb70c367b",
+          "lfs_size": 4330843
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-18a350de5613",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "x86",
+      "exe_filename": "AppHelperCap.exe",
+      "sha256": "f209e9d174e6230290ad9dc417d69eb2f89b8a81e3d1dd2cb33700fa9f39f1b7",
+      "size_bytes": 14023572,
+      "file_version": "1.32.2332.0",
+      "product_version": "1.32.2332.0",
+      "company": "HP Inc.",
+      "description": "8\f\u0001FileVersion",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x86_1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x86_1.7z.0001",
+          "size_bytes": 3694855,
+          "sha256": "3fc1ea9599fe8e3f6e0cc9a2dc43c94b906baa1dc83ee6feb44a08df321fb2f0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x86_1.7z.0001",
+          "lfs_oid": "3fc1ea9599fe8e3f6e0cc9a2dc43c94b906baa1dc83ee6feb44a08df321fb2f0",
+          "lfs_size": 3694855
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-d018a00dd35b",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "OmenCap",
+      "exe_filename": "OmenCap.exe",
+      "sha256": "946dbc46d12596f7c3c641ee7cf2dc677bfda3339418c5dd4c8d29a72eba3c78",
+      "size_bytes": 7142160,
+      "file_version": "1.0.822.0",
+      "product_version": "1.0.822.0",
+      "company": "HP Inc.",
+      "description": "OmenCap.exe",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/OmenCap_1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "OmenCap_1.7z.0001",
+          "size_bytes": 2049914,
+          "sha256": "65c8aed3feb2b4aff1d8041d4cc4c972dbcd640974ce2ee2f7d410f5732b5cea",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/OmenCap_1.7z.0001",
+          "lfs_oid": "65c8aed3feb2b4aff1d8041d4cc4c972dbcd640974ce2ee2f7d410f5732b5cea",
+          "lfs_size": 2049914
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-844524c4faa8",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "OmenCap",
+      "exe_filename": "OmenCap.exe",
+      "sha256": "53e058a0154469d2b23f5fce24c6fb873dd2f529b3b78e1798d8af59259a7110",
+      "size_bytes": 6209328,
+      "file_version": "1.0.832.0",
+      "product_version": "1.0.832.0",
+      "company": "HP Inc.",
+      "description": "OmenCap.exe",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/OmenCap_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "OmenCap_2.7z.0001",
+          "size_bytes": 1497240,
+          "sha256": "30c90a56fc3201583b4e6ff107f9039867b028c698738a71803ed648a9affd01",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/OmenCap_2.7z.0001",
+          "lfs_oid": "30c90a56fc3201583b4e6ff107f9039867b028c698738a71803ed648a9affd01",
+          "lfs_size": 1497240
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-7e75faade21b",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "x64",
+      "exe_filename": "AppHelperCap.exe",
+      "sha256": "60f10963f6cdd686f9729dea43db7bb0d99a53191657fa004ac3ed654aac424f",
+      "size_bytes": 18174703,
+      "file_version": "1.41.2741.0",
+      "product_version": "1.41.2741.0",
+      "company": "HP Inc.",
+      "description": "8\f\u0001FileVersion",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x64_2.7z.0001",
+          "size_bytes": 4714540,
+          "sha256": "27e83887ea943abad568fb83c20a179c5a21adacde89f475281b05130798a88c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_2.7z.0001",
+          "lfs_oid": "27e83887ea943abad568fb83c20a179c5a21adacde89f475281b05130798a88c",
+          "lfs_size": 4714540
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-93eac4b5919b",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "x86",
+      "exe_filename": "AppHelperCap.exe",
+      "sha256": "dfa55b4af897901f0770b2bdd6edf835bfb94205f6a0c55687d8e170d0ac80a7",
+      "size_bytes": 14038362,
+      "file_version": "1.33.2361.0",
+      "product_version": "1.33.2361.0",
+      "company": "HP Inc.",
+      "description": "8\f\u0001FileVersion",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x86_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x86_2.7z.0001",
+          "size_bytes": 3702930,
+          "sha256": "308785fd07f85803f04e771863a868e162a9c1f8c68614426e4fb1006cdc7b57",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x86_2.7z.0001",
+          "lfs_oid": "308785fd07f85803f04e771863a868e162a9c1f8c68614426e4fb1006cdc7b57",
+          "lfs_size": 3702930
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-d4aaab0ad7e1",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "ARM64",
+      "exe_filename": "HPOneAgent.exe",
+      "sha256": "340e818546b31e91d4fc129e07b291010965ab50b094dafa012b13d12fb395b1",
+      "size_bytes": 182715055,
+      "file_version": "1.2.7.1708",
+      "product_version": "1.2.7.1708",
+      "company": "HP Inc; HP Development Company, L.P.",
+      "description": "Bundle installer (v. 1.2.0.10071708) for the HP One Cloud Agent platform component responsible for next generation HP hardware experiences.",
+      "installer_type": "PE-installer",
+      "icon_sha256": "9ea8e6493c0c17ff",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0001",
+      "split_parts": 8,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "ARM64.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "5e98b6233849183ee8a2a8ef315bdc7eef922f94e36c55fa12473a29301a5bd6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0001",
+          "lfs_oid": "5e98b6233849183ee8a2a8ef315bdc7eef922f94e36c55fa12473a29301a5bd6",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "ARM64.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "ced74f8c727893c01d1fed408568dd0e622ef09b3a8db3c042aaca2e2ba5a0eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0002",
+          "lfs_oid": "ced74f8c727893c01d1fed408568dd0e622ef09b3a8db3c042aaca2e2ba5a0eb",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 3,
+          "filename": "ARM64.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "9609b2e0071c3d7bb72063c31e6b74acda90b6e18e22268e8a6ba5f0ae18f436",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0003",
+          "lfs_oid": "9609b2e0071c3d7bb72063c31e6b74acda90b6e18e22268e8a6ba5f0ae18f436",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 4,
+          "filename": "ARM64.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e022736c0099139609110d2aaa7441edd73c81873693b995a4140addd2513401",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0004",
+          "lfs_oid": "e022736c0099139609110d2aaa7441edd73c81873693b995a4140addd2513401",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 5,
+          "filename": "ARM64.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "8bd68a0828eb3e193fe207df5af44e53088d09a26149d41ba1260853c6b8e89e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0005",
+          "lfs_oid": "8bd68a0828eb3e193fe207df5af44e53088d09a26149d41ba1260853c6b8e89e",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 6,
+          "filename": "ARM64.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "5a5feba1ebd237c4a7b5c2836fef6c9177ef1aa17f9e8397bc345d96a2446112",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0006",
+          "lfs_oid": "5a5feba1ebd237c4a7b5c2836fef6c9177ef1aa17f9e8397bc345d96a2446112",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 7,
+          "filename": "ARM64.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "e7334bd797cd580a561769c04405de5d6a19790624e705f3fcf11c15d269dfeb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0007",
+          "lfs_oid": "e7334bd797cd580a561769c04405de5d6a19790624e705f3fcf11c15d269dfeb",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 8,
+          "filename": "ARM64.7z.0008",
+          "size_bytes": 7030337,
+          "sha256": "af2935d6b323913da4c35157c71708a6a48f3c6d4ca1c2c77af1ad4992ddb557",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/ARM64.7z.0008",
+          "lfs_oid": "af2935d6b323913da4c35157c71708a6a48f3c6d4ca1c2c77af1ad4992ddb557",
+          "lfs_size": 7030337
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-f215ba65d8d1",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "x64",
+      "exe_filename": "HPOneAgent.exe",
+      "sha256": "4fd7bc068973e7510ba91dfb26df8007cd63ac93d8b24732792476ea3b58d211",
+      "size_bytes": 280141774,
+      "file_version": "1.2.55.3578",
+      "product_version": "1.2.55.3578",
+      "company": "HP Inc; HP Development Company, L.P.",
+      "description": "Bundle installer (v. 1.2.0.10553578) for the HP One Cloud Agent platform component responsible for next generation HP hardware experiences.",
+      "installer_type": "PE-installer",
+      "icon_sha256": "9ea8e6493c0c17ff",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0001",
+      "split_parts": 10,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x64_3.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "98077ee952ad6bf11697724ed0d4a017e7a63e8cfc1719f0384ec06eac509d70",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0001",
+          "lfs_oid": "98077ee952ad6bf11697724ed0d4a017e7a63e8cfc1719f0384ec06eac509d70",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 2,
+          "filename": "x64_3.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "2d3218760bdf5dcf5a19d7847012cecb6726455e01fa94f96ddee22c6a392c9d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0002",
+          "lfs_oid": "2d3218760bdf5dcf5a19d7847012cecb6726455e01fa94f96ddee22c6a392c9d",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 3,
+          "filename": "x64_3.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "2b24c09a84663d80bf57a8c71dcf2e5dfa6f57388aaeee9a4f1c7e5dbae8e1d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0003",
+          "lfs_oid": "2b24c09a84663d80bf57a8c71dcf2e5dfa6f57388aaeee9a4f1c7e5dbae8e1d6",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 4,
+          "filename": "x64_3.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "88d42c3f5b6062dcb25ffe07f27c7a7292bb3af635b7b91cde7b5ffbb9244402",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0004",
+          "lfs_oid": "88d42c3f5b6062dcb25ffe07f27c7a7292bb3af635b7b91cde7b5ffbb9244402",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 5,
+          "filename": "x64_3.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "5a2131e264d8ddecfba627f8f2d32b7bcb702bb5fd3785991ebc67ec70998be6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0005",
+          "lfs_oid": "5a2131e264d8ddecfba627f8f2d32b7bcb702bb5fd3785991ebc67ec70998be6",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 6,
+          "filename": "x64_3.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "cd36a18c5796f537268dd55dc78e8be0da36df721297a9cf96952b256aa53ac6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0006",
+          "lfs_oid": "cd36a18c5796f537268dd55dc78e8be0da36df721297a9cf96952b256aa53ac6",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 7,
+          "filename": "x64_3.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "433db044c879d8f58416dea4228a00b99ff0121c60cb80f61fb891f77e321d8f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0007",
+          "lfs_oid": "433db044c879d8f58416dea4228a00b99ff0121c60cb80f61fb891f77e321d8f",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 8,
+          "filename": "x64_3.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "aec82227c13ea5356d335c2d948a7fc53aac76bb8ed7eae8698737ee64ca3808",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0008",
+          "lfs_oid": "aec82227c13ea5356d335c2d948a7fc53aac76bb8ed7eae8698737ee64ca3808",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 9,
+          "filename": "x64_3.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "149a0e8d4587ecbe57c2997c248f643ec6ef23c1ec45e659d584d9040193dab1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0009",
+          "lfs_oid": "149a0e8d4587ecbe57c2997c248f643ec6ef23c1ec45e659d584d9040193dab1",
+          "lfs_size": 15728640
+        },
+        {
+          "part_num": 10,
+          "filename": "x64_3.7z.0010",
+          "size_bytes": 3994171,
+          "sha256": "a27df0e43c6b6e98e48c76afc1fe19651c394e47360b6088e2270399ed509cd2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x64_3.7z.0010",
+          "lfs_oid": "a27df0e43c6b6e98e48c76afc1fe19651c394e47360b6088e2270399ed509cd2",
+          "lfs_size": 3994171
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-93eac4b5919b",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "filename": "x86",
+      "exe_filename": "AppHelperCap.exe",
+      "sha256": "dfa55b4af897901f0770b2bdd6edf835bfb94205f6a0c55687d8e170d0ac80a7",
+      "size_bytes": 8666274,
+      "file_version": "1.33.2361.0",
+      "product_version": "1.33.2361.0",
+      "company": "HP Inc.",
+      "description": "8\f\u0001FileVersion",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x86_3.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "x86_3.7z.0001",
+          "size_bytes": 1348613,
+          "sha256": "a5a7bf8248163f05afd70ec655a8235eb9a5ba8b30a75415655b9d86f8f4d550",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/x86_3.7z.0001",
+          "lfs_oid": "a5a7bf8248163f05afd70ec655a8235eb9a5ba8b30a75415655b9d86f8f4d550",
+          "lfs_size": 1348613
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true
     }
   ]

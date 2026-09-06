@@ -3,7 +3,7 @@
   "category": "Chipset",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -208860,6 +208860,42 @@
         }
       ],
       "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ee2ecfb78b9b7ef9",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Chipset",
+      "provider": "HP Inc.",
+      "category": "System",
+      "version": "1.0.704.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPIC0004"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPIC0004"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Omen Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.0.704.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.0.704.0.7z.0001",
+          "size_bytes": 28737,
+          "sha256": "982bba2f283dcbec9dc9777ce0b305bb3f811d03bcfaed85916178809f99eafd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.0.704.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

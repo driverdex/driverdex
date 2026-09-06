@@ -16,7 +16,7 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8067255,
+      "size_bytes": 8068361,
       "active": true,
       "note": "active"
     },
@@ -28,7 +28,7 @@
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 395576,
+      "size_bytes": 409176,
       "active": true,
       "note": "active"
     },
@@ -90,9 +90,9 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2796,
+    "Chipset": 2797,
     "Display": 6659,
-    "Firmware": 250,
+    "Firmware": 257,
     "Imaging": 97,
     "Input": 3358,
     "Net": 899,

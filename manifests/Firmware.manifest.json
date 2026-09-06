@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -10769,6 +10769,354 @@
         }
       ],
       "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7660c352572fc594",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.32.2332.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Application Driver Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-soft-x64-1.32.2332.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x64-1.32.2332.7z.0001",
+          "size_bytes": 7965392,
+          "sha256": "ca32a57758e1f4349bf13a98dcc1a3359370874db683221e07ed0dbe8bc64ef3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-soft-x64-1.32.2332.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-00cbd35982ed0e47",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.822.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Omen Driver Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.0.220.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.0.220.0.7z.0001",
+          "size_bytes": 2081106,
+          "sha256": "467190d396dbc2d65f795d7968c0dae8e6289825e8fc5e27205cccfad1d6e245",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.0.220.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ac713506bb0e4131",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "System",
+      "version": "1.0.220.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPIC0004"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPIC0004"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Omen Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.0.220.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.0.220.0.7z.0001",
+          "size_bytes": 2081106,
+          "sha256": "467190d396dbc2d65f795d7968c0dae8e6289825e8fc5e27205cccfad1d6e245",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.0.220.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3e2982cbc2f068d0",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.0.832.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Omen Driver Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-soft-x64-1.0.832.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-soft-x64-1.0.832.0.7z.0001",
+          "size_bytes": 1503786,
+          "sha256": "1819517c304690ab644d3919d63b1696bdfa5f0ce352e33c8f9c99e5ef4f3a90",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-soft-x64-1.0.832.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9aac144103df9239",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.41.2741.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Application Driver Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.46.3061.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.46.3061.7z.0001",
+          "size_bytes": 8382343,
+          "sha256": "082088d0c8e0e1f0cb1a720ac4699f89c8f229d04bab9d78ebeabfb2adace6e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.46.3061.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a6dcb12f5adbd2ed",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "System",
+      "version": "1.46.3061.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\HPIC0003",
+        "ACPI\\HPIC000C",
+        "ACPI\\HPIC0016"
+      ],
+      "compatible_ids": [
+        "ACPI\\HPIC0003",
+        "ACPI\\HPIC000C",
+        "ACPI\\HPIC0016"
+      ],
+      "descriptions": [
+        "HP",
+        "HP Application Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.46.3061.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.46.3061.7z.0001",
+          "size_bytes": 8382343,
+          "sha256": "082088d0c8e0e1f0cb1a720ac4699f89c8f229d04bab9d78ebeabfb2adace6e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.46.3061.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fceee6b63bd78cd8",
+      "pack": "HPInc_SoftwareCo_x64",
+      "type": "Firmware",
+      "provider": "HP Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.85.4394.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "HP",
+        "HP Application Driver Component"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0001",
+      "zip_parts": 17,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "0202ecc80b2d4abf202146a129dbaff5ae0ba230094b6177ea7ec3e13de6ff54",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0002",
+          "size_bytes": 15728640,
+          "sha256": "ced74f8c727893c01d1fed408568dd0e622ef09b3a8db3c042aaca2e2ba5a0eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0002"
+        },
+        {
+          "part_num": 3,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0003",
+          "size_bytes": 15728640,
+          "sha256": "9609b2e0071c3d7bb72063c31e6b74acda90b6e18e22268e8a6ba5f0ae18f436",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0003"
+        },
+        {
+          "part_num": 4,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0004",
+          "size_bytes": 15728640,
+          "sha256": "e022736c0099139609110d2aaa7441edd73c81873693b995a4140addd2513401",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0004"
+        },
+        {
+          "part_num": 5,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0005",
+          "size_bytes": 15728640,
+          "sha256": "8bd68a0828eb3e193fe207df5af44e53088d09a26149d41ba1260853c6b8e89e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0005"
+        },
+        {
+          "part_num": 6,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0006",
+          "size_bytes": 15728640,
+          "sha256": "5a5feba1ebd237c4a7b5c2836fef6c9177ef1aa17f9e8397bc345d96a2446112",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0006"
+        },
+        {
+          "part_num": 7,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0007",
+          "size_bytes": 15728640,
+          "sha256": "e7334bd797cd580a561769c04405de5d6a19790624e705f3fcf11c15d269dfeb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0007"
+        },
+        {
+          "part_num": 8,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0008",
+          "size_bytes": 15728640,
+          "sha256": "8d7b9fba2d74b3817e5316b7b7718cff9e1322f321f5ef8b157bb9d83e5e2dac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0008"
+        },
+        {
+          "part_num": 9,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0009",
+          "size_bytes": 15728640,
+          "sha256": "fc0a76115d6a0aa0715734ce132dd60968759d7b13d478fa627cb85c1b943c22",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0009"
+        },
+        {
+          "part_num": 10,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0010",
+          "size_bytes": 15728640,
+          "sha256": "b2d31c6caa3cb4eed8a724418928cbb254a3aab078a21f4a8aa72c4d2a956107",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0010"
+        },
+        {
+          "part_num": 11,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0011",
+          "size_bytes": 15728640,
+          "sha256": "89f8d89e1ff2c3d7e2d49c89f8ab863e542d7433e031dd017ce6d5a8b76d440b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0011"
+        },
+        {
+          "part_num": 12,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0012",
+          "size_bytes": 15728640,
+          "sha256": "e5db3184dd1863745b01134e365fb72e4ae6c2ac1df303db8c40a647e0e77204",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0012"
+        },
+        {
+          "part_num": 13,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0013",
+          "size_bytes": 15728640,
+          "sha256": "8142d166c12d1e3330596251d9e53340fa75e0fd11d118f7b157bc266874f9a6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0013"
+        },
+        {
+          "part_num": 14,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0014",
+          "size_bytes": 15728640,
+          "sha256": "e8fa69847e35281a32d421a7d7c8cccbebf044656f3a8bdb51bbc4fd29593098",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0014"
+        },
+        {
+          "part_num": 15,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0015",
+          "size_bytes": 15728640,
+          "sha256": "260c5a00aff4c975851d6199b295eec382a84f2f13c8b7333cf254966d2671e3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0015"
+        },
+        {
+          "part_num": 16,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0016",
+          "size_bytes": 15728640,
+          "sha256": "1d6656a9ebf02cd4e308972c7fe13889026c7d8e673436e9340e93ffce2a5e4e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0016"
+        },
+        {
+          "part_num": 17,
+          "filename": "hpinc-syst-x64-1.66.3710.7z.0017",
+          "size_bytes": 10184186,
+          "sha256": "161443a14e01d91c0ed78d328347d50e54b59a224f5a61bed33f92fdfbbb75f0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HPInc_SoftwareCo_x64/hpinc-syst-x64-1.66.3710.7z.0017"
+        }
+      ],
+      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
