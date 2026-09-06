@@ -28,7 +28,7 @@
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 400139,
+      "size_bytes": 395576,
       "active": true,
       "note": "active"
     },
@@ -40,7 +40,7 @@
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 8693159,
+      "size_bytes": 8683540,
       "active": true,
       "note": "active"
     },
@@ -92,9 +92,9 @@
     "Bluetooth": 2,
     "Chipset": 2796,
     "Display": 6659,
-    "Firmware": 254,
+    "Firmware": 250,
     "Imaging": 97,
-    "Input": 3366,
+    "Input": 3358,
     "Net": 899,
     "Other": 350,
     "Ports": 578,

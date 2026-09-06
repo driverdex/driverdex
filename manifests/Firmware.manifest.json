@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-05",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -10769,134 +10769,6 @@
         }
       ],
       "date_added": "2026-09-05",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-18661b8b7df06961",
-      "pack": "HewlettPackard_Keyboard_x86",
-      "type": "Firmware",
-      "provider": "HP Development Company, L.P.",
-      "category": "SoftwareComponent",
-      "version": "8.10.2.1",
-      "arch": "x64",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "HP Inc.",
-        "HP Desktop Support Utilities Services"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x64-8.10.2.1.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "hpdevelo-soft-x64-8.10.2.1.7z.0001",
-          "size_bytes": 934614,
-          "sha256": "06a3b15135e02a7601daa1c517a8450a2f0e22b88bc13eb06b4be0802bddffd2",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x64-8.10.2.1.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-06",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-22bfa13fac8ad8c1",
-      "pack": "HewlettPackard_Keyboard_x86",
-      "type": "Firmware",
-      "provider": "HP Development Company, L.P.",
-      "category": "SoftwareComponent",
-      "version": "8.10.23.1",
-      "arch": "x64",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "HP Inc.",
-        "HP LAN/WLAN/WWAN Switching and Hotkey Service"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x64-8.10.23.1.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "hpdevelo-soft-x64-8.10.23.1.7z.0001",
-          "size_bytes": 1591542,
-          "sha256": "3b7ee437aae80ba1e5664d6a97624effb013874a72498f682f83fb0f41a276df",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x64-8.10.23.1.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-06",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-c6a9ac231761f406",
-      "pack": "HewlettPackard_Keyboard_x86",
-      "type": "Firmware",
-      "provider": "HP Development Company, L.P.",
-      "category": "SoftwareComponent",
-      "version": "8.10.29.1",
-      "arch": "x64",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "HP Inc.",
-        "HP LAN/WLAN/WWAN Switching and Hotkey Service"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x64-8.10.29.1.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "hpdevelo-soft-x64-8.10.29.1.7z.0001",
-          "size_bytes": 1917207,
-          "sha256": "4ad47e71bb442506819ef6098aff59fb9911bfabc65a7a114274e456dcc1fa56",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x64-8.10.29.1.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-06",
-      "enabled": true,
-      "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
-    },
-    {
-      "id": "drv-e4e43ceaf7e2590b",
-      "pack": "HewlettPackard_Keyboard_x86",
-      "type": "Firmware",
-      "provider": "HP Development Company, L.P.",
-      "category": "SoftwareComponent",
-      "version": "8.10.5.1",
-      "arch": "x86",
-      "hwids": [],
-      "compatible_ids": [],
-      "descriptions": [
-        "HP Inc.",
-        "HP LAN/WLAN/WWAN Switching and Hotkey Service"
-      ],
-      "os_targets": [],
-      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x86-8.10.5.1.7z.0001",
-      "zip_parts": 1,
-      "parts": [
-        {
-          "part_num": 1,
-          "filename": "hpdevelo-soft-x86-8.10.5.1.7z.0001",
-          "size_bytes": 1495465,
-          "sha256": "f0ab9f880607bcd235e9a6344e632f87bb7e103000cdd82aafcebf8a4fb0b61f",
-          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_HewlettPackard_Keyboard_x86/hpdevelo-soft-x86-8.10.5.1.7z.0001"
-        }
-      ],
-      "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
