@@ -138399,6 +138399,37 @@
       ],
       "date_added": "2026-09-06",
       "enabled": true
+    },
+    {
+      "id": "inst-fe085dcd4f14",
+      "pack": "ACPI_System_x64",
+      "type": "Chipset",
+      "filename": "Allx86",
+      "exe_filename": "OSDSetup.exe",
+      "sha256": "5b92a6bb7ed3249bab5ab050b0f06296af0ad2fd962673d535deb420c466dd7e",
+      "size_bytes": 140494,
+      "file_version": "1.0.0.4",
+      "product_version": "1.0.0.4",
+      "company": "HP",
+      "description": "Buttons and OSDs ACPI driver gen2",
+      "installer_type": "PE-installer",
+      "icon_sha256": "34549d5ad60f0729",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ACPI_System_x64/Allx86.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "Allx86.7z.0001",
+          "size_bytes": 60430,
+          "sha256": "ea489a1df05691ae5d3e1e98716de83e9dec33f77bfe6f63e61b72af342c6fd0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_ACPI_System_x64/Allx86.7z.0001",
+          "lfs_oid": "ea489a1df05691ae5d3e1e98716de83e9dec33f77bfe6f63e61b72af342c6fd0",
+          "lfs_size": 60430
+        }
+      ],
+      "date_added": "2026-09-06",
+      "enabled": true
     }
   ]
 }
