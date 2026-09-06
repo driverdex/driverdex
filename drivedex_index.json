@@ -1,6 +1,6 @@
 {
   "schema": "3.0",
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
@@ -82,7 +82,7 @@
     },
     {
       "filename": "manifests/USB.manifest.json",
-      "size_bytes": 3037769,
+      "size_bytes": 3038864,
       "active": true,
       "note": "active"
     }
@@ -101,6 +101,6 @@
     "Printer": 436,
     "Security": 38,
     "Storage": 861,
-    "USB": 1222
+    "USB": 1223
   }
 }
