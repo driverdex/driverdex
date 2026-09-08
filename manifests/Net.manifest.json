@@ -3,7 +3,7 @@
   "category": "Net",
   "shard_index": 1,
   "total_shards": 2,
-  "updated": "2026-09-05",
+  "updated": "2026-09-08",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -263734,6 +263734,108 @@
         }
       ],
       "date_added": "2026-09-05",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c472181665a88784",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "52.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/redhatin-net-x64-52.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-net-x64-52.70.104.7z.0001",
+          "size_bytes": 42720,
+          "sha256": "a67510b5b5e4dd10e457eb1bfab11db181dab97a2a91f54d10060d62ba9e2516",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/redhatin-net-x64-52.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0e0e8b41d2e1b1d1",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "60.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/redhatin-net-x64-60.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-net-x64-60.70.104.7z.0001",
+          "size_bytes": 278411,
+          "sha256": "073e31f10b9adbc62f4e790cfb584467bea26004a71627371317821f00f9c1d3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/redhatin-net-x64-60.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1b714c4364a9b313",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "60.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/redhatin-net-x86-60.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-net-x86-60.70.104.7z.0001",
+          "size_bytes": 244711,
+          "sha256": "a4ddf9f68df5995ed2e38e94389f9e6761fd64d4738c7e8591f349f6d119f836",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/redhatin-net-x86-60.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

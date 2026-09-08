@@ -138705,6 +138705,161 @@
       ],
       "date_added": "2026-09-08",
       "enabled": true
+    },
+    {
+      "id": "inst-6a74005f7c0e",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "filename": "5x86",
+      "exe_filename": "BLNSVR.EXE",
+      "sha256": "f157274f86e37926ed72490aaddef86abc2af6aa509a601ad7ceecce53289696",
+      "size_bytes": 1745845,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/5x86.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "5x86.7z.0001",
+          "size_bytes": 1501869,
+          "sha256": "ff5f690ec4ddb14ea3568fe154a20584e573db1f1e60e863c34b1fd346f8bb89",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/5x86.7z.0001",
+          "lfs_oid": "ff5f690ec4ddb14ea3568fe154a20584e573db1f1e60e863c34b1fd346f8bb89",
+          "lfs_size": 1501869
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-0d8f45e4fc8e",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "filename": "7x64",
+      "exe_filename": "BLNSVR.EXE",
+      "sha256": "cb400a907a264e14b0156267347a12413535ec436bfbdf2986a8dc09ad7c26bf",
+      "size_bytes": 4703237,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/7x64.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "7x64.7z.0001",
+          "size_bytes": 3552638,
+          "sha256": "e8ca3c76767ad792301140e4cd54c8dae531c92f64482b0cd57d109258548d22",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/7x64.7z.0001",
+          "lfs_oid": "e8ca3c76767ad792301140e4cd54c8dae531c92f64482b0cd57d109258548d22",
+          "lfs_size": 3552638
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-8e7075d56a89",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "filename": "7x86",
+      "exe_filename": "BLNSVR.EXE",
+      "sha256": "f3f81593cfa33f4e34f942bf9df85396422272398ed2340437c72962118f58cf",
+      "size_bytes": 4074349,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/7x86.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "7x86.7z.0001",
+          "size_bytes": 3167691,
+          "sha256": "de66ac6b312a5bbce900554fda794b78aae7f9bb8a9cffffa1ea437da5e4b9bd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/7x86.7z.0001",
+          "lfs_oid": "de66ac6b312a5bbce900554fda794b78aae7f9bb8a9cffffa1ea437da5e4b9bd",
+          "lfs_size": 3167691
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-da04cc29bcc3",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "filename": "881x64",
+      "exe_filename": "BLNSVR.EXE",
+      "sha256": "e6c25ec3f9437aaa02c11b3d6535073cdde4ebaa01992583a27f2dfaf4042da5",
+      "size_bytes": 2985794,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/881x64.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "881x64.7z.0001",
+          "size_bytes": 1890432,
+          "sha256": "9f0c4fa0461286585bda0333b31a2a4aa2cfba5877e3a897a6d3800fe1bbec56",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/881x64.7z.0001",
+          "lfs_oid": "9f0c4fa0461286585bda0333b31a2a4aa2cfba5877e3a897a6d3800fe1bbec56",
+          "lfs_size": 1890432
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-6e6779565261",
+      "pack": "RedHatInc_System_x86",
+      "type": "Net",
+      "filename": "881x86",
+      "exe_filename": "BLNSVR.EXE",
+      "sha256": "a76f3f6f34c3112c005bc0f2621222acdec38d1505ada80d3d772c635c352c15",
+      "size_bytes": 2601202,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/881x86.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "881x86.7z.0001",
+          "size_bytes": 1756400,
+          "sha256": "f6a4a16f28596c60bff3a387188f14ff42926dee7fee36c421f4f666b24bf3c3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Net/DP_RedHatInc_System_x86/881x86.7z.0001",
+          "lfs_oid": "f6a4a16f28596c60bff3a387188f14ff42926dee7fee36c421f4f666b24bf3c3",
+          "lfs_size": 1756400
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
     }
   ]
 }

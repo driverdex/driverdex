@@ -209132,6 +209132,968 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-01aee9ee2d83e0ca",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "51.65.104.7400",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1002",
+        "PCI\\VEN_1AF4&DEV_1002&SUBSYS_00051AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO ballooning devices",
+        "VirtIO Balloon Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-51.65.104.7z.0001",
+          "size_bytes": 1501854,
+          "sha256": "1e5ae3c64d0f23ef1d6cb750eb1f19b942f7155f2c06c07c383bf1feeea90f74",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1913d6f9d15e463",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "51.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-51.65.104.7z.0001",
+          "size_bytes": 1501854,
+          "sha256": "1e5ae3c64d0f23ef1d6cb750eb1f19b942f7155f2c06c07c383bf1feeea90f74",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0d3f3355c49f6541",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "51.65.104.7400",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4",
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO-Serial communication device",
+        "VirtIO-Serial Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-51.65.104.7z.0001",
+          "size_bytes": 1501854,
+          "sha256": "1e5ae3c64d0f23ef1d6cb750eb1f19b942f7155f2c06c07c383bf1feeea90f74",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d251ace65c861406",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "51.65.104.7400",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1001&SUBSYS_00021AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-51.65.104.7z.0001",
+          "size_bytes": 1501854,
+          "sha256": "1e5ae3c64d0f23ef1d6cb750eb1f19b942f7155f2c06c07c383bf1feeea90f74",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-51.65.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a5489f8e989971d8",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "61.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1002",
+        "PCI\\VEN_1AF4&DEV_1002&SUBSYS_00051AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO ballooning devices",
+        "VirtIO Balloon Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-61.70.104.7z.0001",
+          "size_bytes": 3552623,
+          "sha256": "c074a9a702c50a30a1e2f11c0feffda9e1f4a3292c0d1cfb099174c3214a7a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3630257c75ed342a",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "61.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-61.70.104.7z.0001",
+          "size_bytes": 3552623,
+          "sha256": "c074a9a702c50a30a1e2f11c0feffda9e1f4a3292c0d1cfb099174c3214a7a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-954b457c5fc374b3",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "61.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1005"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "VirtIO RNG Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-61.70.104.7z.0001",
+          "size_bytes": 3552623,
+          "sha256": "c074a9a702c50a30a1e2f11c0feffda9e1f4a3292c0d1cfb099174c3214a7a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-48f05cc6d874fbd8",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "61.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1004&SUBSYS_00081AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI pass-through controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-61.70.104.7z.0001",
+          "size_bytes": 3552623,
+          "sha256": "c074a9a702c50a30a1e2f11c0feffda9e1f4a3292c0d1cfb099174c3214a7a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-752718115d4695a8",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "61.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4",
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO-Serial communication device",
+        "VirtIO-Serial Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-61.70.104.7z.0001",
+          "size_bytes": 3552623,
+          "sha256": "c074a9a702c50a30a1e2f11c0feffda9e1f4a3292c0d1cfb099174c3214a7a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a1108d148e57a038",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "61.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1001&SUBSYS_00021AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-61.70.104.7z.0001",
+          "size_bytes": 3552623,
+          "sha256": "c074a9a702c50a30a1e2f11c0feffda9e1f4a3292c0d1cfb099174c3214a7a6c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-18c13f50c5d0f414",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "61.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1002",
+        "PCI\\VEN_1AF4&DEV_1002&SUBSYS_00051AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO ballooning devices",
+        "VirtIO Balloon Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-61.70.104.7z.0001",
+          "size_bytes": 3167678,
+          "sha256": "3bf911c410058fddb85812df80bcf60486f5e0336cc04e7acedb20424399697e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f26a2a5a71631304",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "61.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-61.70.104.7z.0001",
+          "size_bytes": 3167678,
+          "sha256": "3bf911c410058fddb85812df80bcf60486f5e0336cc04e7acedb20424399697e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0e18477279f0094c",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "61.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1005"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "VirtIO RNG Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-61.70.104.7z.0001",
+          "size_bytes": 3167678,
+          "sha256": "3bf911c410058fddb85812df80bcf60486f5e0336cc04e7acedb20424399697e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-34a08bcd211e0824",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "61.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1004&SUBSYS_00081AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI pass-through controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-61.70.104.7z.0001",
+          "size_bytes": 3167678,
+          "sha256": "3bf911c410058fddb85812df80bcf60486f5e0336cc04e7acedb20424399697e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7f23edc0bf95a678",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "61.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4",
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO-Serial communication device",
+        "VirtIO-Serial Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-61.70.104.7z.0001",
+          "size_bytes": 3167678,
+          "sha256": "3bf911c410058fddb85812df80bcf60486f5e0336cc04e7acedb20424399697e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0bdc7ff2086b2689",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "61.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1001&SUBSYS_00021AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-61.70.104.7z.0001",
+          "size_bytes": 3167678,
+          "sha256": "3bf911c410058fddb85812df80bcf60486f5e0336cc04e7acedb20424399697e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-61.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e89fb38b68c38b88",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "62.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1002",
+        "PCI\\VEN_1AF4&DEV_1002&SUBSYS_00051AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO ballooning devices",
+        "VirtIO Balloon Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-62.70.104.7z.0001",
+          "size_bytes": 1890416,
+          "sha256": "9ffc49362ac7c2b5945dfc3552fe8449150f44e87f1775d2430063e43f7bd2cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6bf9bb9c95b38295",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "62.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-62.70.104.7z.0001",
+          "size_bytes": 1890416,
+          "sha256": "9ffc49362ac7c2b5945dfc3552fe8449150f44e87f1775d2430063e43f7bd2cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6a8955f08b69b9bf",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "62.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1005"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "VirtIO RNG Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-62.70.104.7z.0001",
+          "size_bytes": 1890416,
+          "sha256": "9ffc49362ac7c2b5945dfc3552fe8449150f44e87f1775d2430063e43f7bd2cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-28139a51fba02e53",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "62.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1004&SUBSYS_00081AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI pass-through controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-62.70.104.7z.0001",
+          "size_bytes": 1890416,
+          "sha256": "9ffc49362ac7c2b5945dfc3552fe8449150f44e87f1775d2430063e43f7bd2cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cbb24efa7d6eabdc",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "62.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4",
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO-Serial communication device",
+        "VirtIO-Serial Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-62.70.104.7z.0001",
+          "size_bytes": 1890416,
+          "sha256": "9ffc49362ac7c2b5945dfc3552fe8449150f44e87f1775d2430063e43f7bd2cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8e3d00146244f4a8",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "62.70.104.8100",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1001&SUBSYS_00021AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x64-62.70.104.7z.0001",
+          "size_bytes": 1890416,
+          "sha256": "9ffc49362ac7c2b5945dfc3552fe8449150f44e87f1775d2430063e43f7bd2cc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x64-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fb3c63b73a63b544",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "62.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1002",
+        "PCI\\VEN_1AF4&DEV_1002&SUBSYS_00051AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO ballooning devices",
+        "VirtIO Balloon Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-62.70.104.7z.0001",
+          "size_bytes": 1756382,
+          "sha256": "7a3b43db0f3ff3aa97e656b96636e03f635f2105b5959263217c215cf36b41ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4abc3b05f35a5e80",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "Net",
+      "version": "62.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "Red Hat VirtIO Ethernet Adapter"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-62.70.104.7z.0001",
+          "size_bytes": 1756382,
+          "sha256": "7a3b43db0f3ff3aa97e656b96636e03f635f2105b5959263217c215cf36b41ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c548886757bb2418",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "62.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1005"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat Inc.",
+        "VirtIO RNG Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-62.70.104.7z.0001",
+          "size_bytes": 1756382,
+          "sha256": "7a3b43db0f3ff3aa97e656b96636e03f635f2105b5959263217c215cf36b41ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a7418468d80a3ba2",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "62.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1004&SUBSYS_00081AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI pass-through controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-62.70.104.7z.0001",
+          "size_bytes": 1756382,
+          "sha256": "7a3b43db0f3ff3aa97e656b96636e03f635f2105b5959263217c215cf36b41ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-737f6ef5f7d2ecab",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat Inc.",
+      "category": "System",
+      "version": "62.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4",
+        "PCI\\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "VirtIO-Serial communication device",
+        "VirtIO-Serial Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-62.70.104.7z.0001",
+          "size_bytes": 1756382,
+          "sha256": "7a3b43db0f3ff3aa97e656b96636e03f635f2105b5959263217c215cf36b41ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b0450a8ed432ce85",
+      "pack": "RedHatInc_System_x86",
+      "type": "Chipset",
+      "provider": "Red Hat, Inc.",
+      "category": "SCSIAdapter",
+      "version": "62.70.104.8100",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_1AF4&DEV_1001&SUBSYS_00021AF4&REV_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Red Hat, Inc.",
+        "Red Hat VirtIO SCSI controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "redhatin-syst-x86-62.70.104.7z.0001",
+          "size_bytes": 1756382,
+          "sha256": "7a3b43db0f3ff3aa97e656b96636e03f635f2105b5959263217c215cf36b41ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_RedHatInc_System_x86/redhatin-syst-x86-62.70.104.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

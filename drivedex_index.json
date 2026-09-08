@@ -16,7 +16,7 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8076306,
+      "size_bytes": 8109023,
       "active": true,
       "note": "active"
     },
@@ -46,7 +46,7 @@
     },
     {
       "filename": "manifests/Net.manifest.json",
-      "size_bytes": 13572974,
+      "size_bytes": 13576375,
       "active": true,
       "note": "active"
     },
@@ -90,12 +90,12 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2802,
+    "Chipset": 2830,
     "Display": 6659,
     "Firmware": 261,
     "Imaging": 97,
     "Input": 3364,
-    "Net": 899,
+    "Net": 902,
     "Other": 351,
     "Ports": 585,
     "Printer": 438,
