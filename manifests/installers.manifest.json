@@ -138860,6 +138860,161 @@
       ],
       "date_added": "2026-09-08",
       "enabled": true
+    },
+    {
+      "id": "inst-80a27aadc358",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "TrackPoint",
+      "exe_filename": "tp4serv.exe",
+      "sha256": "b80a911c058ecb31769672cb9911549debf26ef8b72449a9ae2b361cf2acda3e",
+      "size_bytes": 4061959,
+      "file_version": "4.73.1.0",
+      "product_version": "4.73.1.0",
+      "company": "Lenovo Group Limited",
+      "description": "PS/2 TrackPoint Daemon",
+      "installer_type": "PE-installer",
+      "icon_sha256": "56b200f17f56d69c",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/TrackPoint_1.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "TrackPoint_1.7z.0001",
+          "size_bytes": 2222709,
+          "sha256": "69190b7ee555eadf6fe24e36486c78c8112f310e6803447a020ff16a4ae9afdf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/TrackPoint_1.7z.0001",
+          "lfs_oid": "69190b7ee555eadf6fe24e36486c78c8112f310e6803447a020ff16a4ae9afdf",
+          "lfs_size": 2222709
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-40c0d69f7eea",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "TrackPoint",
+      "exe_filename": "tp4serv.exe",
+      "sha256": "a3f563ea5f38d4ed926cb63f6f177261cb89371de26a01c44c39ef330f91eae0",
+      "size_bytes": 3719944,
+      "file_version": "4.73.1.0",
+      "product_version": "4.73.1.0",
+      "company": "Lenovo Group Limited",
+      "description": "PS/2 TrackPoint Daemon",
+      "installer_type": "PE-installer",
+      "icon_sha256": "56b200f17f56d69c",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/TrackPoint_2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "TrackPoint_2.7z.0001",
+          "size_bytes": 1941918,
+          "sha256": "6389668ec4949c44af5b73c3526bc65cb3ef56238a71b3e0dfa82d40c873db42",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/TrackPoint_2.7z.0001",
+          "lfs_oid": "6389668ec4949c44af5b73c3526bc65cb3ef56238a71b3e0dfa82d40c873db42",
+          "lfs_size": 1941918
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-47f47d67eac9",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "_amd64",
+      "exe_filename": "lvvsst.exe",
+      "sha256": "8a39e77b4fc780bb9c6c8a892603248d87ed70255bf9bed0218be2420b5e8c53",
+      "size_bytes": 788776,
+      "file_version": "1.2.0.0",
+      "product_version": "1.2.0.0",
+      "company": "Lenovo Group Limited",
+      "description": "Auto Scroll Start Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/_amd64.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "_amd64.7z.0001",
+          "size_bytes": 201928,
+          "sha256": "416fa9fb91f2f97cb309292fa7d592b84c7f92ee0f205eadaa2fb8914da79a69",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/_amd64.7z.0001",
+          "lfs_oid": "416fa9fb91f2f97cb309292fa7d592b84c7f92ee0f205eadaa2fb8914da79a69",
+          "lfs_size": 201928
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-7be3afca5d75",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "_i386",
+      "exe_filename": "lvvsst.exe",
+      "sha256": "40c554d35ccbc27797088ba5fcd8cb217398bbb2c7f95eb07b5e1cbf07e84f54",
+      "size_bytes": 722728,
+      "file_version": "1.2.0.0",
+      "product_version": "1.2.0.0",
+      "company": "Lenovo Group Limited",
+      "description": "Auto Scroll Start Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/_i386.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "_i386.7z.0001",
+          "size_bytes": 196162,
+          "sha256": "d9b4dd1f3d5e1274fe8fd07b1010357396e62875e3de676a5bd5f97d394483a8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/_i386.7z.0001",
+          "lfs_oid": "d9b4dd1f3d5e1274fe8fd07b1010357396e62875e3de676a5bd5f97d394483a8",
+          "lfs_size": 196162
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-f44e39d5838d",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "1.67.16.42",
+      "exe_filename": "ibmpmctl.exe",
+      "sha256": "f10e6bb9d867d49d1de7eeb5913719852e06c584f5d6c46a3bd144b44ac3fd57",
+      "size_bytes": 3816285,
+      "file_version": "1.67.16.42",
+      "product_version": "1.67.16.42",
+      "company": "Lenovo.",
+      "description": "Twist Screen Auto Rotation",
+      "installer_type": "PE-installer",
+      "icon_sha256": "3cb429bfff28ad8d",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/1.67.16.42.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.67.16.42.7z.0001",
+          "size_bytes": 603605,
+          "sha256": "227348a3610e4637dae5a55d055f3caa51eac9fbc23951221485a87a32fcb9c4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/1.67.16.42.7z.0001",
+          "lfs_oid": "227348a3610e4637dae5a55d055f3caa51eac9fbc23951221485a87a32fcb9c4",
+          "lfs_size": 603605
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
     }
   ]
 }

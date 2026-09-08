@@ -210094,6 +210094,150 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-adcbb532d1f3265a",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo Corporation",
+      "category": "System",
+      "version": "17.2.5.163",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo Corporation",
+        "Lenovo Settings Power"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x64-17.2.5.163.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoco-syst-x64-17.2.5.163.7z.0001",
+          "size_bytes": 3190321,
+          "sha256": "366dddf704def56be3aec29973c9cf2a6c7d1dc6a26534ec8a2cb17682b4f776",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x64-17.2.5.163.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-82c1d6129cbbf9df",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo Corporation",
+      "category": "System",
+      "version": "17.0.43.879",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo Corporation",
+        "Lenovo Settings Power"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x86-17.0.43.87.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoco-syst-x86-17.0.43.87.7z.0001",
+          "size_bytes": 2827569,
+          "sha256": "e038a361e8530f1305d57cd6e1ab96edf19c1a2d482eec6cdad62365d08474a3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x86-17.0.43.87.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-46aec85b3600f350",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "1.67.16.42",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\IBM0055",
+        "ACPI\\IBM0068",
+        "ACPI\\LEN0068",
+        "ACPI\\LEN0168",
+        "ACPI\\LEN0268"
+      ],
+      "compatible_ids": [
+        "ACPI\\IBM0055",
+        "ACPI\\IBM0068",
+        "ACPI\\LEN0068",
+        "ACPI\\LEN0168",
+        "ACPI\\LEN0268"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo PM Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x86-1.67.16.42.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x86-1.67.16.42.7z.0001",
+          "size_bytes": 603591,
+          "sha256": "03bbf68a9ae0e9c42da5776b207e687679bb8ca755144f620da807b9730c707f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x86-1.67.16.42.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0e51caf5f37cde30",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Intel",
+      "category": "SYSTEM",
+      "version": "1.0.0.2",
+      "arch": "x86",
+      "hwids": [
+        "PCI\\VEN_8086&DEV_444E",
+        "PCI\\VEN_8086&DEV_444E.DEVICEDESC",
+        "PCI\\VEN_8086&DEV_444E.DEVICEDESC%"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Intel",
+        "%PCI\\VEN_8086&DEV_444E.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/intel-syst-x86-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "intel-syst-x86-1.0.0.2.7z.0001",
+          "size_bytes": 5717,
+          "sha256": "8c9a6e7bdb0cd322b334ce28c16beb3b6d2de17611c34fb999f608d618db7837",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/intel-syst-x86-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

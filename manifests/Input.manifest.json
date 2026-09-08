@@ -3,7 +3,7 @@
   "category": "Input",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -259868,6 +259868,38 @@
         }
       ],
       "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7336e172f84bcf9",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Lenovo",
+      "category": "Mouse",
+      "version": "4.73.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "PS/2 TrackPoint"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-mous-x64-4.73.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-mous-x64-4.73.1.7z.0001",
+          "size_bytes": 2222680,
+          "sha256": "91cd39d77f1e43ca5c04a8f9a5ec4b3e1e1b97d522ca764da4f8394de7a426eb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-mous-x64-4.73.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

@@ -16,7 +16,7 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8109023,
+      "size_bytes": 8113673,
       "active": true,
       "note": "active"
     },
@@ -40,7 +40,7 @@
     },
     {
       "filename": "manifests/Input.manifest.json",
-      "size_bytes": 8690209,
+      "size_bytes": 8691232,
       "active": true,
       "note": "active"
     },
@@ -90,11 +90,11 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2830,
+    "Chipset": 2834,
     "Display": 6659,
     "Firmware": 261,
     "Imaging": 97,
-    "Input": 3364,
+    "Input": 3365,
     "Net": 902,
     "Other": 351,
     "Ports": 585,
