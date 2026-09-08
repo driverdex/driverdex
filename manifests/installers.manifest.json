@@ -2,7 +2,7 @@
   "schema": "3.0",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "installers": [
     {
@@ -138673,6 +138673,37 @@
         }
       ],
       "date_added": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "id": "inst-3cb1e97aba51",
+      "pack": "Huawei_SoftwareDe_x64",
+      "type": "Chipset",
+      "filename": "RPC",
+      "exe_filename": "osdservice.exe",
+      "sha256": "3d474ff0ed5270af57652e50db3ddcfe3d819da31788f68fb8ee9177ee7f3a3e",
+      "size_bytes": 7778385,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Huawei_SoftwareDe_x64/RPC.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "RPC.7z.0001",
+          "size_bytes": 2372121,
+          "sha256": "aa21e0304be8702bdf49e91e84f4a7e273ac5396a50ff2d7ddd1d0db6d49fc40",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Huawei_SoftwareDe_x64/RPC.7z.0001",
+          "lfs_oid": "aa21e0304be8702bdf49e91e84f4a7e273ac5396a50ff2d7ddd1d0db6d49fc40",
+          "lfs_size": 2372121
+        }
+      ],
+      "date_added": "2026-09-08",
       "enabled": true
     }
   ]

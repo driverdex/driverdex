@@ -3,7 +3,7 @@
   "category": "Chipset",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -209094,6 +209094,42 @@
       "date_added": "2026-09-06",
       "enabled": true,
       "supersedes": "drv-cacaa1c99f654c2b",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b87ad3101564130e",
+      "pack": "Huawei_SoftwareDe_x64",
+      "type": "Chipset",
+      "provider": "Honor",
+      "category": "System",
+      "version": "1.0.24.39",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\WDT0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\WDT0001"
+      ],
+      "descriptions": [
+        "Honor Device",
+        "WDTDevice"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Huawei_SoftwareDe_x64/honor-syst-x64-1.0.24.39.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "honor-syst-x64-1.0.24.39.7z.0001",
+          "size_bytes": 39884,
+          "sha256": "bd9d895bb2f1dd57da9cd9c153e74a31334585cbb8904415b8830d850bdf4ea8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Huawei_SoftwareDe_x64/honor-syst-x64-1.0.24.39.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
       "superseded_by": null,
       "notes": ""
     }

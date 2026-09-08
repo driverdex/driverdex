@@ -1,6 +1,6 @@
 {
   "schema": "3.0",
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
@@ -16,7 +16,7 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8075196,
+      "size_bytes": 8076306,
       "active": true,
       "note": "active"
     },
@@ -28,7 +28,7 @@
     },
     {
       "filename": "manifests/Firmware.manifest.json",
-      "size_bytes": 414560,
+      "size_bytes": 415845,
       "active": true,
       "note": "active"
     },
@@ -90,7 +90,7 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2801,
+    "Chipset": 2802,
     "Display": 6659,
     "Firmware": 261,
     "Imaging": 97,
