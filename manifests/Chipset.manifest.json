@@ -210238,6 +210238,895 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-f10744b73ac84914",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "13.52.34.549",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-13.52.34.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-13.52.34.5.7z.0001",
+          "size_bytes": 23120,
+          "sha256": "1e353b0b65f2682f3fd611a425b6950c0c0978bcecebf0e450e71de682209025",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-13.52.34.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3b45940f716c33ed",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "15.10.28.170",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.10.28.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-15.10.28.1.7z.0001",
+          "size_bytes": 23721,
+          "sha256": "2758752d8bacf997fb680adf8a5934286d3202b3a5c26c7959f20cb472a0271d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.10.28.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-29b4456c158a1c3b",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "15.11.28.173",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_VPC&DEV_2004",
+        "ACPI\\VEN_VPC&DEV_2004&REV_0001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%",
+        "%*vpc2004noymc.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.28.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-15.11.28.1.7z.0001",
+          "size_bytes": 118973,
+          "sha256": "e72aeaba444d73df5b2606917fde9d7ffec4cfe924068cebe63f84b13ae0587f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.28.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1170d6128306e612",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "15.11.29.7",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_VPC&DEV_2004&REV_0001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.29.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-15.11.29.7.7z.0001",
+          "size_bytes": 199251,
+          "sha256": "78edec5cc3c464292e006f51a6178eb56ef002e1db0d18a5988981f5a11d5c5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.29.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ef982d76126178c3",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "15.11.30.6",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_VPC&DEV_2004"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.30.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-15.11.30.6.7z.0001",
+          "size_bytes": 28968,
+          "sha256": "3093e2eccf228df95df6594838280ed8602c0bea5b8434940d4880fd98e83d68",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.30.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e79933a2c9d0b666",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "3.0.0.6",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\YMC2017"
+      ],
+      "compatible_ids": [
+        "ACPI\\YMC2017"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo Yoga Mode Control Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-3.0.0.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-3.0.0.6.7z.0001",
+          "size_bytes": 107579,
+          "sha256": "97d31846606ba72533016a7ada219328c74797a622d42f9fc17e3e9ebd438de1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-3.0.0.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5af63f9d9f96b353",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "3.0.1.3",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\YMC2017"
+      ],
+      "compatible_ids": [
+        "ACPI\\YMC2017"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo Yoga Mode Control Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-3.0.1.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-3.0.1.3.7z.0001",
+          "size_bytes": 323905,
+          "sha256": "82e965a2abfbff076b65dbf8a2dc7a20354c67161166bcce7e35f265f6274b15",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-3.0.1.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c81eaa7854da8cbb",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "15.11.28.191",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_VPC&DEV_2004&REV_0001"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.28.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-15.11.28.1.7z.0001",
+          "size_bytes": 188245,
+          "sha256": "8da5772cc3adec86c34d976fe32d57243b787db18080dfe36cce330360e292bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-15.11.28.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1cfdfb38e7364c98",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "13.50.52.467",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-13.50.52.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-13.50.52.4.7z.0001",
+          "size_bytes": 20203,
+          "sha256": "8cd50f15a156de30820e43fe83a8509d1b88742deb4dc2c5e35ce09c042d4da3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-13.50.52.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6d38826a0899d05b",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "6.1.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-6.1.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-6.1.0.1.7z.0001",
+          "size_bytes": 17939,
+          "sha256": "6dd9a2832e924450448a9e85a56e8de0c92c5525c17f50fa5488dd2b09cb2122",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-6.1.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7b23e78efeecfba",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "3.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-3.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-3.0.0.1.7z.0001",
+          "size_bytes": 11356,
+          "sha256": "d26c9d0e95751d12fd108324f1539ed658a7d6247cd6239322a227ebec619f41",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-3.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6d2c72cb3c525b70",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "11.19.0.845",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-11.19.0.84.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-11.19.0.84.7z.0001",
+          "size_bytes": 20987,
+          "sha256": "9c90ee6934118ede624ae7b92225d0f3a150f69742fd449bed4b4c7ac5795977",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-11.19.0.84.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ad40ff2cb456e4aa",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "11.17.41.554",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-11.17.41.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-11.17.41.5.7z.0001",
+          "size_bytes": 19111,
+          "sha256": "49976cb92dac4a82d739ba6fbd1b6433f542a35f91e003a96322895d7c7e84b2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-11.17.41.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9a64eff19d4caae5",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "19.29.2.34",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-19.29.2.34.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-19.29.2.34.7z.0001",
+          "size_bytes": 21890,
+          "sha256": "81942c565f651a1002496d5ca256bd48a00043be6fe584e2dfe9f9fb69a48d7c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-19.29.2.34.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-11ab92a22e3c6923",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "19.30.3.828",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-19.30.3.82.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-19.30.3.82.7z.0001",
+          "size_bytes": 19970,
+          "sha256": "7f6e511ac78a20edd6e22ab27701c2d663cab62bc2f9ed61e955f9c8ae4708a9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-19.30.3.82.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f9863e9c172cfd6b",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "8.1.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-8.1.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-8.1.0.1.7z.0001",
+          "size_bytes": 20903,
+          "sha256": "d505e1441909f4dd04ee655aaee58ae50515bad324cd8b39783f20e6f622f43f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-8.1.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-13fcea6dfdf71ebd",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "9.53.37.516",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VPC2004"
+      ],
+      "compatible_ids": [
+        "ACPI\\VPC2004"
+      ],
+      "descriptions": [
+        "%*vpc2004.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-9.53.37.51.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-9.53.37.51.7z.0001",
+          "size_bytes": 19788,
+          "sha256": "d05dd7fa0501729c5a673c60c0db2bc3a2fd40b4fdeeed298612bd0a4934d2e1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-9.53.37.51.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cd2653a2625fc1ee",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo Corporation",
+      "category": "System",
+      "version": "0.5.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\IDEA2012"
+      ],
+      "compatible_ids": [
+        "ACPI\\IDEA2012"
+      ],
+      "descriptions": [
+        "Lenovo Corporation",
+        "Lenovo AI Turbo"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x64-0.5.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoco-syst-x64-0.5.0.1.7z.0001",
+          "size_bytes": 250567,
+          "sha256": "980936ff0fcdc1e016bfd287c247af1e83f92554dc9a0bf668e302b6379a1239",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x64-0.5.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1cf7ded6b233641",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo Corporation",
+      "category": "System",
+      "version": "1.0.0.12311",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\IDEA2012"
+      ],
+      "compatible_ids": [
+        "ACPI\\IDEA2012"
+      ],
+      "descriptions": [
+        "Lenovo Corporation",
+        "Lenovo AI Turbo"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x64-1.0.0.1231.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoco-syst-x64-1.0.0.1231.7z.0001",
+          "size_bytes": 2039821,
+          "sha256": "7219b2362717ddfefdbd5cd85a7dcc24b37e3e9aa42091d5860ff7dfa1f7184d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x64-1.0.0.1231.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2cf6e72e459438ac",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo Corporation",
+      "category": "System",
+      "version": "1.0.0.4",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo Corporation",
+        "Lenovo AOAC driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x86-1.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoco-syst-x86-1.0.0.4.7z.0001",
+          "size_bytes": 18309,
+          "sha256": "6f7d6a01ec9fdaf65dce9ea0ea071f7087c0d88d6398b7e89a4e170dc3064eda",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoco-syst-x86-1.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-777d03f787fd5d05",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo Japan, Ltd.",
+      "category": "System",
+      "version": "1.82.5.7",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LEN0095"
+      ],
+      "compatible_ids": [
+        "ACPI\\LEN0095"
+      ],
+      "descriptions": [
+        "Lenovo, Ltd.",
+        "Lenovo Active Protection System Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoja-syst-x86-1.82.5.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovoja-syst-x86-1.82.5.7.7z.0001",
+          "size_bytes": 194106,
+          "sha256": "543eae4f3c11dd1f30b08ffdb119e84e757a5c0a8f07c91cf4317b7bb71f7f36",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovoja-syst-x86-1.82.5.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b16fe7632089e720",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "1.0.111.6",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_17EF&PID_4833&MI_05",
+        "USB\\VID_17EF&PID_4834&MI_05"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo ThinkSmart Cam Firmware Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-1.0.111.6.7z.0001",
+      "zip_parts": 2,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-1.0.111.6.7z.0001",
+          "size_bytes": 15728640,
+          "sha256": "a53f8f2854d10bc827bfae1d4a052975bd648a1b2f86c973604d3c56958c2a77",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-1.0.111.6.7z.0001"
+        },
+        {
+          "part_num": 2,
+          "filename": "lenovo-syst-x64-1.0.111.6.7z.0002",
+          "size_bytes": 15717470,
+          "sha256": "90c4a3c96cf1abc4ec9dfc4c7095356971efd0592a150b4d19f23bb1cc9a5a65",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-1.0.111.6.7z.0002"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1444c2d73ae007dd",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "VHIDDock",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LEN009E",
+        "ROOT\\VHIDDOCK",
+        "ROOT\\VHIDDOCK\\0"
+      ],
+      "compatible_ids": [
+        "ACPI\\LEN009E",
+        "ROOT\\VHIDDOCK",
+        "ROOT\\VHIDDOCK\\0"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo Device Dock"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-vhid-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-vhid-x64-1.0.0.1.7z.0001",
+          "size_bytes": 24989,
+          "sha256": "189c1664278ceb9e876d923a6893fbc9e03129e10a48cb96be3b3c665cc362b1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-vhid-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b47a90a24e49167c",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "Lenovo",
+      "category": "System",
+      "version": "4.0.0.17",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo DPR"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-4.0.0.17.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-syst-x64-4.0.0.17.7z.0001",
+          "size_bytes": 1605352,
+          "sha256": "0da70c3aecb9915806efa85e5240018f32735b471af831a6d90210e4e2613ec9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lenovo-syst-x64-4.0.0.17.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-12534728aa90fa39",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "provider": "LCFC",
+      "category": "System",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_LDPR&DEV_2017"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LCFC",
+        "DPR Virtual Device Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lcfc-syst-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lcfc-syst-x64-1.0.0.1.7z.0001",
+          "size_bytes": 454381,
+          "sha256": "151df99617b4298d435ff853f149057009e52fb68330618a74199e973c5a03e4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/lcfc-syst-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

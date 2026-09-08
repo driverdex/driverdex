@@ -139015,6 +139015,285 @@
       ],
       "date_added": "2026-09-08",
       "enabled": true
+    },
+    {
+      "id": "inst-d427f478caff",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "15.11.28.173",
+      "exe_filename": "ymc.exe",
+      "sha256": "3ac73ac4a403a7024eae7c661b0485fd2a040970322bd6928d50157ad40cab2b",
+      "size_bytes": 370535,
+      "file_version": "2.0.0.9",
+      "product_version": "2.0.0.9",
+      "company": "Lenovo",
+      "description": "Lenovo Yoga Mode Control",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/15.11.28.173.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "15.11.28.173.7z.0001",
+          "size_bytes": 118991,
+          "sha256": "4442b4a0efa7f26d20efaa5b196297fd8f2c8a356279659ccf39a2d1fe2f8b26",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/15.11.28.173.7z.0001",
+          "lfs_oid": "4442b4a0efa7f26d20efaa5b196297fd8f2c8a356279659ccf39a2d1fe2f8b26",
+          "lfs_size": 118991
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-6d05dc38f6ec",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "15.11.29.7",
+      "exe_filename": "ymc.exe",
+      "sha256": "87e56bf60dbdec3f14949cc8115469b2b6906ac381942fa21569e8e2148afd5d",
+      "size_bytes": 707280,
+      "file_version": "2.0.1.4",
+      "product_version": "2.0.1.4",
+      "company": "Lenovo",
+      "description": "Lenovo Yoga Mode Control",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/15.11.29.7.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "15.11.29.7.7z.0001",
+          "size_bytes": 199267,
+          "sha256": "50a856b4d8bb813e2126afe8f102ec0d1ba19dd1bcdbc6c2b39947a46eb89bed",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/15.11.29.7.7z.0001",
+          "lfs_oid": "50a856b4d8bb813e2126afe8f102ec0d1ba19dd1bcdbc6c2b39947a46eb89bed",
+          "lfs_size": 199267
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-f6d58bfbe5e3",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "3.0.0.6",
+      "exe_filename": "YMC.exe",
+      "sha256": "9a6ba3b7330a2bb5608a29003719237a8d28b9bea3fc527589fb548e118e641e",
+      "size_bytes": 248435,
+      "file_version": "3.0.0.6",
+      "product_version": "3.0.0.6",
+      "company": "Lenovo Group Ltd.",
+      "description": "Lenovo Yoga Mode Control",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/3.0.0.6.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "3.0.0.6.7z.0001",
+          "size_bytes": 107587,
+          "sha256": "d909e99c26416a62d30e761311c95bb79c7ccd97ddd22c898adf8a558380fe02",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/3.0.0.6.7z.0001",
+          "lfs_oid": "d909e99c26416a62d30e761311c95bb79c7ccd97ddd22c898adf8a558380fe02",
+          "lfs_size": 107587
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-ef4141bbe407",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "3.0.1.3",
+      "exe_filename": "ymc.exe",
+      "sha256": "09867a64d7250ea4da9b6491f72ae5b401bb2dded63e74c8875595ee929cdd4e",
+      "size_bytes": 869409,
+      "file_version": "3.0.1.3",
+      "product_version": "3.0.1.3",
+      "company": "Lenovo Group Ltd.",
+      "description": "Lenovo Yoga Mode Control",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/3.0.1.3.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "3.0.1.3.7z.0001",
+          "size_bytes": 323915,
+          "sha256": "48f00d918821aada17727a2ba05be22f3547d85ac1530680b57ccc5a8517cccf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/3.0.1.3.7z.0001",
+          "lfs_oid": "48f00d918821aada17727a2ba05be22f3547d85ac1530680b57ccc5a8517cccf",
+          "lfs_size": 323915
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-aebf578f97f3",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "YMC_15.11.28.191",
+      "exe_filename": "ymc.exe",
+      "sha256": "10c12d9a9f0b7eccc58c4ac212c1c91f97adb4fc73412b6aec0ac87e8c06993a",
+      "size_bytes": 620858,
+      "file_version": "2.0.1.4",
+      "product_version": "2.0.1.4",
+      "company": "Lenovo",
+      "description": "Lenovo Yoga Mode Control",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/YMC_15.11.28.191.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "YMC_15.11.28.191.7z.0001",
+          "size_bytes": 188272,
+          "sha256": "7096b10618bcf79ca9b3f7876deedf52e729c280b240f312942c48d5d428068d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/YMC_15.11.28.191.7z.0001",
+          "lfs_oid": "7096b10618bcf79ca9b3f7876deedf52e729c280b240f312942c48d5d428068d",
+          "lfs_size": 188272
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-3b2ae523cd08",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "10x64",
+      "exe_filename": "ApsInsSvc.exe",
+      "sha256": "5ddfbb8e3c118705b3b111e4bb1b48d9c9cfef13993757819f1e95600e918e70",
+      "size_bytes": 640647,
+      "file_version": "1.82.5.7",
+      "product_version": "1.82.5.7",
+      "company": "Lenovo.",
+      "description": "Lenovo Active Protection System - Install Service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/10x64.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "10x64.7z.0001",
+          "size_bytes": 194122,
+          "sha256": "c16dbab3a003f17960cf3205a86537030d85508b770172e0b1fceec8ef3070c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/10x64.7z.0001",
+          "lfs_oid": "c16dbab3a003f17960cf3205a86537030d85508b770172e0b1fceec8ef3070c8",
+          "lfs_size": 194122
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-2a052114898d",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "1.0.0.12021_25952",
+      "exe_filename": "Performance.exe",
+      "sha256": "b9b7b4cf9876bf7e30198c75c408a1db65581909fc1aa23c514b27afa0eeca11",
+      "size_bytes": 8095971,
+      "file_version": "1.0.0.11121",
+      "product_version": "1.0.0.11121",
+      "company": "Lenovo Corporation",
+      "description": "Performance",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/1.0.0.12021_25952.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.0.0.12021_25952.7z.0001",
+          "size_bytes": 2039845,
+          "sha256": "47a9fccf67ac1f95fcac7d0c9b895de0a0715e13d9745ef3c047203854ba04ad",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/1.0.0.12021_25952.7z.0001",
+          "lfs_oid": "47a9fccf67ac1f95fcac7d0c9b895de0a0715e13d9745ef3c047203854ba04ad",
+          "lfs_size": 2039845
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-75a5bb685d3a",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "4.0.0.17",
+      "exe_filename": "LENOVO.DPRSVC.exe",
+      "sha256": "e6b8fc9d523266f5a4784f86a5ef102c0c24cc8a3078586e2606869eb2a0cdab",
+      "size_bytes": 6146431,
+      "file_version": "4.0.0.17",
+      "product_version": "4.0.0.17",
+      "company": "Lenovo Group Limited",
+      "description": "Lenovo Dynamic Power Reduction Utility",
+      "installer_type": "PE-installer",
+      "icon_sha256": "51a0837768f3c6dc",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/4.0.0.17.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "4.0.0.17.7z.0001",
+          "size_bytes": 1605364,
+          "sha256": "0a1106d3d699d0ae673deee4838f09c628c71f27d2fa767a41b65b124e3b30f7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/4.0.0.17.7z.0001",
+          "lfs_oid": "0a1106d3d699d0ae673deee4838f09c628c71f27d2fa767a41b65b124e3b30f7",
+          "lfs_size": 1605364
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-2f50b19fce33",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "LCFC",
+      "exe_filename": "LcfcWwanDprService.exe",
+      "sha256": "e9699508487a0b302358543c4a909e722e7dc0c00885b49f60d0eea6bb368f54",
+      "size_bytes": 1719487,
+      "file_version": "",
+      "product_version": "",
+      "company": "",
+      "description": "",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/LCFC.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "LCFC.7z.0001",
+          "size_bytes": 454384,
+          "sha256": "da1a1069dab7d1ca364c93e1573a163d3daaccf9e924405870440c60f7ce255b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/LCFC.7z.0001",
+          "lfs_oid": "da1a1069dab7d1ca364c93e1573a163d3daaccf9e924405870440c60f7ce255b",
+          "lfs_size": 454384
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true
     }
   ]
 }

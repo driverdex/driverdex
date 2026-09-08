@@ -3,7 +3,7 @@
   "category": "Other",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -26137,6 +26137,38 @@
         }
       ],
       "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-14af939e4744b675",
+      "pack": "Lenovo_System_x64",
+      "type": "Other",
+      "provider": "Lenovo",
+      "category": "AudioProcessingObject",
+      "version": "1.1.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "LenovoClearVoice"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-audi-x64-1.1.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-audi-x64-1.1.2.0.7z.0001",
+          "size_bytes": 3992938,
+          "sha256": "39b4b6d87d3d8c0e287996a860e8041e68764383592e5116b2fe2b01ed5052e1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-audi-x64-1.1.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

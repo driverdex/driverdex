@@ -259904,6 +259904,110 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-518c66f024c82acf",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "LCFC",
+      "category": "HIDClass",
+      "version": "1.1.20.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_17EF&PID_F007",
+        "USB\\VID_17EF&PID_F009&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LCFC",
+        "HID-compliant vendor-defined device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lcfc-hidc-x64-1.1.20.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lcfc-hidc-x64-1.1.20.0.7z.0001",
+          "size_bytes": 58565,
+          "sha256": "a218da8e3d501b2d8963850110c134f099907b1fee73809b1689ed514530721b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lcfc-hidc-x64-1.1.20.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9dc8b6cdf9d0b149",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Lenovo",
+      "category": "HIDClass",
+      "version": "1.30.10.32",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_17EF&PID_A045&MI_04",
+        "USB\\VID_17EF&PID_A060&MI_03"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo USB Intput Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-hidc-x64-1.30.10.32.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-hidc-x64-1.30.10.32.7z.0001",
+          "size_bytes": 744326,
+          "sha256": "932b0c7e7c0b4df3db79dcc8c8df171f011bd7b85585456a4420957438973324",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-hidc-x64-1.30.10.32.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b073dc6248295f5",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Luxshare",
+      "category": "HIDClass",
+      "version": "2.34.11.17",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_17EF&PID_A0A9&MI_04"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Luxshare",
+        "Lenovo USB Intput Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/luxshare-hidc-x64-2.34.11.17.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "luxshare-hidc-x64-2.34.11.17.7z.0001",
+          "size_bytes": 6943851,
+          "sha256": "3258cca09c105446e52d9ac3744159a68f4179954dc627945735063bfe5a78d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/luxshare-hidc-x64-2.34.11.17.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
