@@ -88,7 +88,7 @@
     }
   ],
   "category_summary": {
-    "Audio": 4715,
+    "Audio": 5522,
     "Bluetooth": 2,
     "Chipset": 3012,
     "Display": 6659,
@@ -101,6 +101,6 @@
     "Printer": 438,
     "Security": 38,
     "Storage": 872,
-    "USB": 1258
+    "USB": 1257
   }
 }
