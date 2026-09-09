@@ -83299,6 +83299,1166 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-3fc25d6782021c58",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Panasonic",
+      "category": "USB",
+      "version": "2.2.9.0427",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04DA&PID_2801",
+        "USB\\VID_04DA&PID_2802",
+        "USB\\VID_04DA&PID_2803",
+        "USB\\VID_04DA&PID_2804",
+        "USB\\VID_04DA&PID_2805",
+        "USB\\VID_04DA&PID_2806",
+        "USB\\VID_04DA&PID_2807",
+        "USB\\VID_04DA&PID_2808",
+        "USB\\VID_04DA&PID_2809",
+        "USB\\VID_04DA&PID_280A",
+        "USB\\VID_04DA&PID_280B",
+        "USB\\VID_04DA&PID_280C",
+        "USB\\VID_04DA&PID_280D",
+        "USB\\VID_04DA&PID_280E",
+        "USB\\VID_04DA&PID_280F",
+        "USB\\VID_04DA&PID_2810",
+        "USB\\VID_04DA&PID_2811",
+        "USB\\VID_04DA&PID_2812",
+        "USB\\VID_04DA&PID_2813",
+        "USB\\VID_04DA&PID_2814",
+        "USB\\VID_04DA&PID_2815",
+        "USB\\VID_04DA&PID_2816",
+        "USB\\VID_04DA&PID_2817",
+        "USB\\VID_04DA&PID_2818",
+        "USB\\VID_04DA&PID_281A",
+        "USB\\VID_04DA&PID_281B",
+        "USB\\VID_04DA&PID_281D",
+        "USB\\VID_04DA&PID_281E",
+        "USB\\VID_04DA&PID_281F",
+        "USB\\VID_04DA&PID_2820",
+        "USB\\VID_04DA&PID_2823",
+        "USB\\VID_04DA&PID_2824",
+        "USB\\VID_04DA&PID_2825",
+        "USB\\VID_04DA&PID_2826",
+        "USB\\VID_04DA&PID_2827",
+        "USB\\VID_04DA&PID_2828",
+        "USB\\VID_04DA&PID_2829",
+        "USB\\VID_04DA&PID_282A",
+        "USB\\VID_04DA&PID_282C",
+        "USB\\VID_04DA&PID_282D",
+        "USB\\VID_04DA&PID_282E",
+        "USB\\VID_04DA&PID_282F",
+        "USB\\VID_04DA&PID_2831",
+        "USB\\VID_04DA&PID_2835"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic P2 Series USB Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/panasoni-usb-x64-2.2.9.0427.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-usb-x64-2.2.9.0427.7z.0001",
+          "size_bytes": 189405,
+          "sha256": "1e5462ba3c1f7d4777ba9e4658597bcd571c80efca02a05cc3a30be5fab61c56",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/panasoni-usb-x64-2.2.9.0427.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-58d84b4a84411cf7",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "3.1.10.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_006C",
+        "USB\\VID_054C&PID_01BB",
+        "USB\\VID_054C&PID_024B&MI_02",
+        "USB\\VID_054C&PID_0374&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.5.2.0.7z.0001",
+          "size_bytes": 2539429,
+          "sha256": "0580fe35b076913254137158e9fb295840e1074bf5e98872fecf34da548423fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-78807878bde50dd8",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "Proximity",
+      "version": "1.5.2.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_05A0",
+        "USB\\VID_054C&PID_05A0&MI_00",
+        "USB\\VID_054C&PID_06C1",
+        "USB\\VID_054C&PID_06C1&MI_00",
+        "USB\\VID_054C&PID_06C2",
+        "USB\\VID_054C&PID_06C2&MI_00",
+        "USB\\VID_054C&PID_06C3",
+        "USB\\VID_054C&PID_06C3&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 100 USB",
+        "NFC Port/PaSoRi 100 USB - MI:0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.5.2.0.7z.0001",
+          "size_bytes": 2539429,
+          "sha256": "0580fe35b076913254137158e9fb295840e1074bf5e98872fecf34da548423fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dceda906b9f50217",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.0.3.2",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\SONYNFCPORT110F"
+      ],
+      "compatible_ids": [
+        "ROOT\\SONYNFCPORT110F"
+      ],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 110 BLE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.5.2.0.7z.0001",
+          "size_bytes": 2539429,
+          "sha256": "0580fe35b076913254137158e9fb295840e1074bf5e98872fecf34da548423fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f089b0b9aff66537",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.2.3.1",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0",
+        "USB\\VID_054C&PID_098F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.5.2.0.7z.0001",
+          "size_bytes": 2539429,
+          "sha256": "0580fe35b076913254137158e9fb295840e1074bf5e98872fecf34da548423fa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.5.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-70f37b20338ea0d2",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.23.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0",
+        "USB\\VID_054C&PID_098F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.23.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.1.23.0.7z.0001",
+          "size_bytes": 200484,
+          "sha256": "93b9ea3b85030b3e88ccb0ad0f92f65bf9715422dc650a6922448985b4746d88",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.23.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-99526f9bb6be4762",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "Proximity",
+      "version": "1.4.5.1",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_05A0",
+        "USB\\VID_054C&PID_05A0&MI_00",
+        "USB\\VID_054C&PID_06C1",
+        "USB\\VID_054C&PID_06C1&MI_00",
+        "USB\\VID_054C&PID_06C2",
+        "USB\\VID_054C&PID_06C2&MI_00",
+        "USB\\VID_054C&PID_06C3",
+        "USB\\VID_054C&PID_06C3&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 100 USB",
+        "NFC Port/PaSoRi 100 USB - MI:0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.4.5.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.4.5.1.7z.0001",
+          "size_bytes": 297423,
+          "sha256": "045067dd488aed118372d1489a20d2cbb8d989d2915035b3498143d66f72a469",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.4.5.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8a55d2a871bf19df",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.15.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0",
+        "USB\\VID_054C&PID_098F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.15.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-1.1.15.0.7z.0001",
+          "size_bytes": 1871145,
+          "sha256": "4710d68d6659fc49518c5dc5d5fcdf580d15a96ee5310358c29998f809139523",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.15.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d5899d6954d465d3",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.4.2.3",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_05A0",
+        "USB\\VID_054C&PID_05A0&MI_00",
+        "USB\\VID_054C&PID_06C1",
+        "USB\\VID_054C&PID_06C1&MI_00",
+        "USB\\VID_054C&PID_06C2",
+        "USB\\VID_054C&PID_06C2&MI_00",
+        "USB\\VID_054C&PID_06C3",
+        "USB\\VID_054C&PID_06C3&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 100 USB",
+        "NFC Port/PaSoRi 100 USB - MI:0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.4.2.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.4.2.3.7z.0001",
+          "size_bytes": 1973941,
+          "sha256": "b3a32dfe56a20fe1bbc825b5f353dc7a223d3578c52eedc3b19a1158ca9575f1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.4.2.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-58ca5e9917377469",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "3.1.7.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_006C",
+        "USB\\VID_054C&PID_01BB",
+        "USB\\VID_054C&PID_024B&MI_02",
+        "USB\\VID_054C&PID_0374&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FeliCa Port/PaSoRi"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-3.1.7.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-3.1.7.0.7z.0001",
+          "size_bytes": 1468484,
+          "sha256": "b87a1ea278bcd2985004b7f76e986c09066b81c1807d7b727500f55f0a5a1f63",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-3.1.7.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-52ba3d4b02f7755f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.20.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0",
+        "USB\\VID_054C&PID_098F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.20.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-1.1.20.0.7z.0001",
+          "size_bytes": 1589288,
+          "sha256": "6b3d892eaf2fe63df8010ba23ac97e1dcf456af70de39b38dbdc36d3d5abfe19",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.20.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c1cc31200d861e8d",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.4.3.2",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_05A0",
+        "USB\\VID_054C&PID_05A0&MI_00",
+        "USB\\VID_054C&PID_06C1",
+        "USB\\VID_054C&PID_06C1&MI_00",
+        "USB\\VID_054C&PID_06C2",
+        "USB\\VID_054C&PID_06C2&MI_00",
+        "USB\\VID_054C&PID_06C3",
+        "USB\\VID_054C&PID_06C3&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 100 USB",
+        "NFC Port/PaSoRi 100 USB - MI:0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.4.3.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.4.3.2.7z.0001",
+          "size_bytes": 1972883,
+          "sha256": "846625353fdb2db920af374ca930ebaf626525947825a6e032736bd0db5b9aba",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.4.3.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ad446a400afc36f0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "3.1.9.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_006C",
+        "USB\\VID_054C&PID_01BB",
+        "USB\\VID_054C&PID_024B&MI_02",
+        "USB\\VID_054C&PID_0374&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-3.1.9.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-3.1.9.0.7z.0001",
+          "size_bytes": 62751,
+          "sha256": "275d32df0aa1db6d1e900588d17ece6a96cb5f03a7493b1b95bca4207003a41b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-3.1.9.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-82d7097bb41be278",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.22.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0",
+        "USB\\VID_054C&PID_098F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.22.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.1.22.0.7z.0001",
+          "size_bytes": 186098,
+          "sha256": "87f46c3ca0e28ebeb6a05945bd820153da6eb0afdad0d4a7c3773b92fcd5faa7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.22.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b7dc0c9b291244c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "Proximity",
+      "version": "1.4.4.1",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_05A0",
+        "USB\\VID_054C&PID_05A0&MI_00",
+        "USB\\VID_054C&PID_06C1",
+        "USB\\VID_054C&PID_06C1&MI_00",
+        "USB\\VID_054C&PID_06C2",
+        "USB\\VID_054C&PID_06C2&MI_00",
+        "USB\\VID_054C&PID_06C3",
+        "USB\\VID_054C&PID_06C3&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 100 USB",
+        "NFC Port/PaSoRi 100 USB - MI:0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.4.4.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.4.4.1.7z.0001",
+          "size_bytes": 293524,
+          "sha256": "d0cd2a9792db51f992ee4d809f79fb9e896650bb7749a030c90b38cd7f632422",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.4.4.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-45816ae3bc10e99a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "Proximity",
+      "version": "1.4.2.3",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_05A0",
+        "USB\\VID_054C&PID_05A0&MI_00",
+        "USB\\VID_054C&PID_06C1",
+        "USB\\VID_054C&PID_06C1&MI_00",
+        "USB\\VID_054C&PID_06C2",
+        "USB\\VID_054C&PID_06C2&MI_00",
+        "USB\\VID_054C&PID_06C3",
+        "USB\\VID_054C&PID_06C3&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 100 USB",
+        "NFC Port/PaSoRi 100 USB - MI:0"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.4.2.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-prox-x86-1.4.2.3.7z.0001",
+          "size_bytes": 288306,
+          "sha256": "8ba25ee588e8108e7e13c2f7374b9c7c5df6e4252b2da2caf717bf74915c79b6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-prox-x86-1.4.2.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-97db0d740071fdcf",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "3.1.8.3",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_006C",
+        "USB\\VID_054C&PID_01BB",
+        "USB\\VID_054C&PID_024B&MI_02",
+        "USB\\VID_054C&PID_0374&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-3.1.8.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-3.1.8.3.7z.0001",
+          "size_bytes": 60145,
+          "sha256": "043f3ca32c934eec6875b4fceedda235aa6be1bb19de79abb90e5475b0ee3979",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-3.1.8.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-53d2ef2676e41670",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.15.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0",
+        "USB\\VID_054C&PID_098F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.15.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.1.15.0.7z.0001",
+          "size_bytes": 183025,
+          "sha256": "dcd40766a98dc67ab026a6d2b66c6a25e96d40b8e754c4bc19bd4cacb5a0a427",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.15.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a3eaab80981bdcc3",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.14.0",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.14.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.1.14.0.7z.0001",
+          "size_bytes": 182888,
+          "sha256": "db67e008034b2f87262f303b35204b7af7ac9649feee9cd66908628f74514137",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.1.14.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-183614a92a1a9304",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USBDevice",
+      "version": "1.1.0.08210",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_06D9",
+        "USB\\VID_054C&PID_0883"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony IR Remote Control"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usbd-x64-1.1.0.0821.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usbd-x64-1.1.0.0821.7z.0001",
+          "size_bytes": 2469037,
+          "sha256": "0399eae522ad97b12603fba557cee0b3c89d72171c1a048c4e8348d7f0ef1564",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usbd-x64-1.1.0.0821.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2dab20c5ee4d9d14",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USBDevice",
+      "version": "1.1.0.08210",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_054C&PID_06D9",
+        "USB\\VID_054C&PID_0883"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony IR Remote Control"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usbd-x86-1.1.0.0821.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usbd-x86-1.1.0.0821.7z.0001",
+          "size_bytes": 2225861,
+          "sha256": "8c354da81eb0fa52aff50466761807e5aee5fb459791a1752d2c0d6cfc8acd31",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usbd-x86-1.1.0.0821.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f71ec9195194de16",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.2.10.08080",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_0080"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Net MD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.3.30.111.7z.0001",
+          "size_bytes": 44784,
+          "sha256": "2824a4de89fb450ec03771be7bea7ea293552e252532e91bf25ff28cbaaa1784",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a93ee6903e3f4b35",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.3.11.04010",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_00EB",
+        "USB\\VID_054C&PID_014C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Net MD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.3.30.111.7z.0001",
+          "size_bytes": 44784,
+          "sha256": "2824a4de89fb450ec03771be7bea7ea293552e252532e91bf25ff28cbaaa1784",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-efda98c9e1b99c51",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.3.30.11110",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_017E",
+        "USB\\VID_054C&PID_0180",
+        "USB\\VID_054C&PID_0182",
+        "USB\\VID_054C&PID_0184",
+        "USB\\VID_054C&PID_0186",
+        "USB\\VID_054C&PID_0188",
+        "USB\\VID_054C&PID_018A",
+        "USB\\VID_054C&PID_01E9",
+        "USB\\VID_054C&PID_0219",
+        "USB\\VID_054C&PID_021B",
+        "USB\\VID_054C&PID_021D",
+        "USB\\VID_054C&PID_022C",
+        "USB\\VID_054C&PID_023C"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Net MD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.3.30.111.7z.0001",
+          "size_bytes": 44784,
+          "sha256": "2824a4de89fb450ec03771be7bea7ea293552e252532e91bf25ff28cbaaa1784",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-df0e4303ea841cc6",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.3.32.10310",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_0286"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Net MD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.3.30.111.7z.0001",
+          "size_bytes": 44784,
+          "sha256": "2824a4de89fb450ec03771be7bea7ea293552e252532e91bf25ff28cbaaa1784",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cd971305e5a8ab3a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.2.10.08080",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_0075",
+        "USB\\VID_054C&PID_0084",
+        "USB\\VID_054C&PID_0085",
+        "USB\\VID_054C&PID_0086",
+        "USB\\VID_054C&PID_00C6",
+        "USB\\VID_054C&PID_00C7",
+        "USB\\VID_054C&PID_00C8",
+        "USB\\VID_054C&PID_00C9",
+        "USB\\VID_054C&PID_00CA",
+        "USB\\VID_054C&PID_00EB",
+        "USB\\VID_054C&PID_0101",
+        "USB\\VID_054C&PID_0113"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Net MD"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.3.30.111.7z.0001",
+          "size_bytes": 44784,
+          "sha256": "2824a4de89fb450ec03771be7bea7ea293552e252532e91bf25ff28cbaaa1784",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.3.30.111.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6ed4a8b321a5a0e6",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.00.0818.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_01C6"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "SONY MEMORY P-AUDIO"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.00.0818.7z.0001",
+          "size_bytes": 34674,
+          "sha256": "f8bbd8204b8f2e1cc0f7b99d08d64af904d935ba98a22559f67a7d61aaa9efc7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e820c4a5adfd7d97",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.00.0818.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_00E8"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Network Walkman (MS)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.00.0818.7z.0001",
+          "size_bytes": 34674,
+          "sha256": "f8bbd8204b8f2e1cc0f7b99d08d64af904d935ba98a22559f67a7d61aaa9efc7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-36e7368ff62dd009",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.00.0818.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_007F"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony IC Recorder (MS)"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.00.0818.7z.0001",
+          "size_bytes": 34674,
+          "sha256": "f8bbd8204b8f2e1cc0f7b99d08d64af904d935ba98a22559f67a7d61aaa9efc7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-40354b7643d75d8b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "USB",
+      "provider": "Sony Corporation",
+      "category": "USB",
+      "version": "1.00.0818.0",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_01C3"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Network Walkman"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-usb-x64-1.00.0818.7z.0001",
+          "size_bytes": 34674,
+          "sha256": "f8bbd8204b8f2e1cc0f7b99d08d64af904d935ba98a22559f67a7d61aaa9efc7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_SonyCorporatio_System_x64/sonycorp-usb-x64-1.00.0818.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

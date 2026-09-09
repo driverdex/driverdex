@@ -3,7 +3,7 @@
   "category": "Imaging",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-08-15",
+  "updated": "2026-09-09",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -6620,6 +6620,35 @@
         }
       ],
       "date_added": "2026-08-15",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4b427edf358441fe",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Imaging",
+      "provider": "Sony Corporation",
+      "category": "Image",
+      "version": "1.1.06.09061",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SonyCorporatio_System_x64/sonycorp-imag-x64-1.1.06.090.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-imag-x64-1.1.06.090.7z.0001",
+          "size_bytes": 20059,
+          "sha256": "ce731f9e86a66e2f2a00639a855eaa4e93ed93ac2b69b69da3c070966a6a4a6b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Imaging/DP_SonyCorporatio_System_x64/sonycorp-imag-x64-1.1.06.090.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

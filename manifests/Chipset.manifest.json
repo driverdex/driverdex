@@ -213178,6 +213178,3730 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-87f2818512f09db6",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "LG Electronics Inc.",
+      "category": "System",
+      "version": "1.0.2004.2101",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0821",
+        "ROOT\\LGEX0821"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0821",
+        "ROOT\\LGEX0821"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "Platform Pep"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.0.2004.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-syst-x64-1.0.2004.2.7z.0001",
+          "size_bytes": 29736,
+          "sha256": "0ff0d01804f43e41698da20db49a998305549034762502dd2ddc3c3bca136eab",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.0.2004.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ab717ecbd00ab9a7",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Micro-Star INT'L CO., LTD.",
+      "category": "System",
+      "version": "1.0.0.12",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DTAD0001",
+        "ACPI\\DTAD0002",
+        "ACPI\\DTAD0003",
+        "ACPI\\DTAD0004",
+        "ACPI\\DTAD0005",
+        "ACPI\\DTAD0006",
+        "ACPI\\DTAD0007",
+        "ACPI\\DTAD0008",
+        "ACPI\\DTAD0009",
+        "ACPI\\DTAD000A",
+        "ACPI\\DTID0001",
+        "ACPI\\DTID0002",
+        "ACPI\\DTID0003",
+        "ACPI\\DTID0004",
+        "ACPI\\DTID0005",
+        "ACPI\\DTID0006",
+        "ACPI\\DTID0007",
+        "ACPI\\DTID0008",
+        "ACPI\\DTID0009",
+        "ACPI\\DTID000A",
+        "ACPI\\MBAD0001",
+        "ACPI\\MBAD0002",
+        "ACPI\\MBAD0003",
+        "ACPI\\MBAD0004",
+        "ACPI\\MBAD0005",
+        "ACPI\\MBAD0006",
+        "ACPI\\MBAD0007",
+        "ACPI\\MBAD0008",
+        "ACPI\\MBAD0009",
+        "ACPI\\MBAD000A",
+        "ACPI\\MBID0001",
+        "ACPI\\MBID0002",
+        "ACPI\\MBID0003",
+        "ACPI\\MBID0004",
+        "ACPI\\MBID0005",
+        "ACPI\\MBID0006",
+        "ACPI\\MBID0007",
+        "ACPI\\MBID0008",
+        "ACPI\\MBID0009",
+        "ACPI\\MBID000A",
+        "ACPI\\NBAD0001",
+        "ACPI\\NBAD0002",
+        "ACPI\\NBAD0003",
+        "ACPI\\NBAD0004",
+        "ACPI\\NBAD0005",
+        "ACPI\\NBID0001",
+        "ACPI\\NBID0002",
+        "ACPI\\NBID0003",
+        "ACPI\\NBID0004",
+        "ACPI\\NBID0005"
+      ],
+      "compatible_ids": [
+        "ACPI\\DTAD0001",
+        "ACPI\\DTAD0002",
+        "ACPI\\DTAD0003",
+        "ACPI\\DTAD0004",
+        "ACPI\\DTAD0005",
+        "ACPI\\DTAD0006",
+        "ACPI\\DTAD0007",
+        "ACPI\\DTAD0008",
+        "ACPI\\DTAD0009",
+        "ACPI\\DTAD000A",
+        "ACPI\\DTID0001",
+        "ACPI\\DTID0002",
+        "ACPI\\DTID0003",
+        "ACPI\\DTID0004",
+        "ACPI\\DTID0005",
+        "ACPI\\DTID0006",
+        "ACPI\\DTID0007",
+        "ACPI\\DTID0008",
+        "ACPI\\DTID0009",
+        "ACPI\\DTID000A",
+        "ACPI\\MBAD0001",
+        "ACPI\\MBAD0002",
+        "ACPI\\MBAD0003",
+        "ACPI\\MBAD0004",
+        "ACPI\\MBAD0005",
+        "ACPI\\MBAD0006",
+        "ACPI\\MBAD0007",
+        "ACPI\\MBAD0008",
+        "ACPI\\MBAD0009",
+        "ACPI\\MBAD000A",
+        "ACPI\\MBID0001",
+        "ACPI\\MBID0002",
+        "ACPI\\MBID0003",
+        "ACPI\\MBID0004",
+        "ACPI\\MBID0005",
+        "ACPI\\MBID0006",
+        "ACPI\\MBID0007",
+        "ACPI\\MBID0008",
+        "ACPI\\MBID0009",
+        "ACPI\\MBID000A",
+        "ACPI\\NBAD0001",
+        "ACPI\\NBAD0002",
+        "ACPI\\NBAD0003",
+        "ACPI\\NBAD0004",
+        "ACPI\\NBAD0005",
+        "ACPI\\NBID0001",
+        "ACPI\\NBID0002",
+        "ACPI\\NBID0003",
+        "ACPI\\NBID0004",
+        "ACPI\\NBID0005"
+      ],
+      "descriptions": [
+        "Micro-Star INT'L CO., LTD.",
+        "MSI Software Component Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/microsta-syst-x64-1.0.0.12.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsta-syst-x64-1.0.0.12.7z.0001",
+          "size_bytes": 83990,
+          "sha256": "775a3e782e941ee10a92cb3873f97bdf4cc55e013c19fdb7dcdde22460c0cedd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/microsta-syst-x64-1.0.0.12.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-aa6dca4f479c1d1f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Micro-Star INT'L CO., LTD.",
+      "category": "System",
+      "version": "1.0.0.14",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DTAD0001",
+        "ACPI\\DTAD0002",
+        "ACPI\\DTAD0003",
+        "ACPI\\DTAD0004",
+        "ACPI\\DTAD0005",
+        "ACPI\\DTAD0006",
+        "ACPI\\DTAD0007",
+        "ACPI\\DTAD0008",
+        "ACPI\\DTAD0009",
+        "ACPI\\DTAD000A",
+        "ACPI\\DTID0001",
+        "ACPI\\DTID0002",
+        "ACPI\\DTID0003",
+        "ACPI\\DTID0004",
+        "ACPI\\DTID0005",
+        "ACPI\\DTID0006",
+        "ACPI\\DTID0007",
+        "ACPI\\DTID0008",
+        "ACPI\\DTID0009",
+        "ACPI\\DTID000A",
+        "ACPI\\MBAD0001",
+        "ACPI\\MBAD0002",
+        "ACPI\\MBAD0003",
+        "ACPI\\MBAD0004",
+        "ACPI\\MBAD0005",
+        "ACPI\\MBAD0006",
+        "ACPI\\MBAD0007",
+        "ACPI\\MBAD0008",
+        "ACPI\\MBAD0009",
+        "ACPI\\MBAD000A",
+        "ACPI\\MBID0001",
+        "ACPI\\MBID0002",
+        "ACPI\\MBID0003",
+        "ACPI\\MBID0004",
+        "ACPI\\MBID0005",
+        "ACPI\\MBID0006",
+        "ACPI\\MBID0007",
+        "ACPI\\MBID0008",
+        "ACPI\\MBID0009",
+        "ACPI\\MBID000A",
+        "ACPI\\NBAD0001",
+        "ACPI\\NBAD0002",
+        "ACPI\\NBAD0003",
+        "ACPI\\NBAD0004",
+        "ACPI\\NBAD0005",
+        "ACPI\\NBID0001",
+        "ACPI\\NBID0002",
+        "ACPI\\NBID0003",
+        "ACPI\\NBID0004",
+        "ACPI\\NBID0005"
+      ],
+      "compatible_ids": [
+        "ACPI\\DTAD0001",
+        "ACPI\\DTAD0002",
+        "ACPI\\DTAD0003",
+        "ACPI\\DTAD0004",
+        "ACPI\\DTAD0005",
+        "ACPI\\DTAD0006",
+        "ACPI\\DTAD0007",
+        "ACPI\\DTAD0008",
+        "ACPI\\DTAD0009",
+        "ACPI\\DTAD000A",
+        "ACPI\\DTID0001",
+        "ACPI\\DTID0002",
+        "ACPI\\DTID0003",
+        "ACPI\\DTID0004",
+        "ACPI\\DTID0005",
+        "ACPI\\DTID0006",
+        "ACPI\\DTID0007",
+        "ACPI\\DTID0008",
+        "ACPI\\DTID0009",
+        "ACPI\\DTID000A",
+        "ACPI\\MBAD0001",
+        "ACPI\\MBAD0002",
+        "ACPI\\MBAD0003",
+        "ACPI\\MBAD0004",
+        "ACPI\\MBAD0005",
+        "ACPI\\MBAD0006",
+        "ACPI\\MBAD0007",
+        "ACPI\\MBAD0008",
+        "ACPI\\MBAD0009",
+        "ACPI\\MBAD000A",
+        "ACPI\\MBID0001",
+        "ACPI\\MBID0002",
+        "ACPI\\MBID0003",
+        "ACPI\\MBID0004",
+        "ACPI\\MBID0005",
+        "ACPI\\MBID0006",
+        "ACPI\\MBID0007",
+        "ACPI\\MBID0008",
+        "ACPI\\MBID0009",
+        "ACPI\\MBID000A",
+        "ACPI\\NBAD0001",
+        "ACPI\\NBAD0002",
+        "ACPI\\NBAD0003",
+        "ACPI\\NBAD0004",
+        "ACPI\\NBAD0005",
+        "ACPI\\NBID0001",
+        "ACPI\\NBID0002",
+        "ACPI\\NBID0003",
+        "ACPI\\NBID0004",
+        "ACPI\\NBID0005"
+      ],
+      "descriptions": [
+        "Micro-Star INT'L CO., LTD.",
+        "MSI Software Component Interface"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/microsta-syst-x64-1.0.0.14.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "microsta-syst-x64-1.0.0.14.7z.0001",
+          "size_bytes": 85722,
+          "sha256": "80e2a5419de7e9e993a855df5e50d4fb8ecd02a3ffea86c8424f210f07b2058f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/microsta-syst-x64-1.0.0.14.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fac03e1d2d1a753b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "NOKIA",
+      "category": "DiskDrive",
+      "version": "5.1.2600.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/nokia-syst-x86-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "nokia-syst-x86-1.0.0.1.7z.0001",
+          "size_bytes": 93555,
+          "sha256": "00b0f5c5fc71a8387abad430b159b7cd076a960706b6435c6c308f37a50a1cb8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/nokia-syst-x86-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-528923e72045fae4",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.0.900.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0021"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0021"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.900.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.900.0.7z.0001",
+          "size_bytes": 173880,
+          "sha256": "ecf1d643ae0a757a4a6e0c483e830006fd7b376319dadca8c1e9872864462f39",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.900.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fa93dc9f22cf24ef",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "3.1.1003.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0019",
+        "ACPI\\MAT0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0019",
+        "ACPI\\MAT0021"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021 C"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-3.1.1003.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-3.1.1003.0.7z.0001",
+          "size_bytes": 3273489,
+          "sha256": "a17198d722b5d583e8f1decd330df7b5b696bee7f96b851fb238177e6b55bc09",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-3.1.1003.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-eb9274f53d953912",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.0.1000.103",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0021"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0021 C"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1000.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.1000.1.7z.0001",
+          "size_bytes": 153693,
+          "sha256": "b1e7311597861cc8601e78638033ba189821660bab0f28f84766320dc35449c5",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1000.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-39c4566a00c5b8cf",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.1.1610.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0019",
+        "ACPI\\MAT0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0019",
+        "ACPI\\MAT0021"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.1.1610.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.1.1610.0.7z.0001",
+          "size_bytes": 3739944,
+          "sha256": "aec7986fb5ffd25a2e00d333200a548630bda789624fd3f42c9c8604dde6430f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.1.1610.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-344d1ad98ff515b0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "10.0.10.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "Hotkey Driver for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-10.0.10.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-10.0.10.1.7z.0001",
+          "size_bytes": 3260931,
+          "sha256": "2ad7d0fea4f25049c62e4424676a4e8e529e6e9123b54897a77358379d19744c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-10.0.10.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-328cd85482e01abf",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "5.0.6.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hotkey Driver for Panasonic Notebook"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-5.0.6.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-5.0.6.0.7z.0001",
+          "size_bytes": 48507,
+          "sha256": "73f6cff60119bdc569e986eecd25e9cd1594619d6565557d0b884c99405d4147",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-5.0.6.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a2f7a9a1aa8e5166",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "1.1.1116.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Hotkey PLUS Driver for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.1.1116.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-1.1.1116.0.7z.0001",
+          "size_bytes": 13615,
+          "sha256": "2f00bd8a7f2e4c3d8d1ace1d3696b144689cb654a63cc381e2474e6461e8db26",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.1.1116.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5742fab0437e8f85",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.0.1303.100",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0019",
+        "ACPI\\MAT0021"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0019",
+        "ACPI\\MAT0021"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021 C"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1303.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.1303.1.7z.0001",
+          "size_bytes": 3251115,
+          "sha256": "56186d66f76946927f543c8046aec50af8e964b9f0994f2688aa95d8046e89f6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1303.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a7bd2168770e122a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "2.0.1003.200",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021 C"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1003.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.1003.2.7z.0001",
+          "size_bytes": 3257592,
+          "sha256": "d719531ccf7311b395b3f875c2d8d894f5c067ed57fdf00dcc2c7bff9fc41a9d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1003.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8f85f2bcced97e7c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "2.0.1103.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021 C"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1103.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.1103.0.7z.0001",
+          "size_bytes": 3243903,
+          "sha256": "927c38b375649147d4b0343c7e1d47934e941369f22c7284033fe81b0d756cf0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1103.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-22ff269572fff59e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "2.0.1000.100",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1000.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.1000.1.7z.0001",
+          "size_bytes": 3262369,
+          "sha256": "9baf41c1b8b3e4e463c38bcddc6b6e15d5882bb27e81db28bd53f2940512f833",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1000.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-94a3ca4c11beee6e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "2.0.1003.100",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019",
+        "System Interface Device - 0021 C"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1003.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.0.1003.1.7z.0001",
+          "size_bytes": 3242407,
+          "sha256": "8dba6d275bb00cf120981cceef2eb5aa5e00f789228b5201d772ec79315633fb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.0.1003.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c173d5043cbe481d",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "4.0.1000.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DOCKDEVICE&_SB.KBDU",
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT0038",
+        "ACPI\\MAT0039",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "ACPI\\VEN_MAT&DEV_0038",
+        "ACPI\\VEN_MAT&DEV_0039",
+        "ACPI\\VEN_MAT&DEV_0052",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT0038",
+        "ACPI\\MAT0039",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Keyboard Base Device",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-4.0.1000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-4.0.1000.0.7z.0001",
+          "size_bytes": 1799721,
+          "sha256": "666d5ba3002577b1cb78ed15fb3287147ee0bd99afc93d5de81ad4d5d7a0b43b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-4.0.1000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9fac36f1b3318ce5",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.5.2000.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.5.2000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.5.2000.0.7z.0001",
+          "size_bytes": 1779508,
+          "sha256": "598dcd73993337c444944da685a233f171c572a35f0738f233533715ebc732c3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.5.2000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5818d07d89a3a2d3",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.5.1700.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\MAT0028",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0028",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x86-2.5.1700.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x86-2.5.1700.0.7z.0001",
+          "size_bytes": 1657031,
+          "sha256": "2518a800af78b2b93711c9b08c4373084d192f86cd5a427cba1f4b07eebc681c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x86-2.5.1700.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4ff6ff735b78fb68",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "4.2.1000.100",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DOCKDEVICE&_SB.CRDU",
+        "ACPI\\DOCKDEVICE&_SB.KBDU",
+        "ACPI\\DOCKDEVICE&_SB.VDDU",
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT003C",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "ACPI\\VEN_MAT&DEV_0052",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT003C",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Keyboard Base Device",
+        "Docking Device",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-4.2.1000.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-4.2.1000.1.7z.0001",
+          "size_bytes": 1804341,
+          "sha256": "72dcb3fa33bdfdc3814d9fa1cad098123138706ef4cbba5addbd2373e8f20de1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-4.2.1000.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-95c654100e4ec34f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "4.2.1000.100",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\DOCKDEVICE&_SB.CRDU",
+        "ACPI\\DOCKDEVICE&_SB.KBDU",
+        "ACPI\\DOCKDEVICE&_SB.VDDU",
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT003C",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "ACPI\\VEN_MAT&DEV_0052",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT003C",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Keyboard Base Device",
+        "Docking Device",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x86-4.2.1000.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x86-4.2.1000.1.7z.0001",
+          "size_bytes": 1705036,
+          "sha256": "55dd1d6f89b5d76eb4d295b10150620b7a8b270e4de1b16ab02c2cfbbcc0f765",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x86-4.2.1000.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f1599b3c7cc1100f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System Devices for Panasonic PC",
+      "version": "2.5.2500.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DOCKDEVICE&_SB.KBDU",
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "ACPI\\VEN_MAT&DEV_0052",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Keyboard Base Device",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.5.2500.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-2.5.2500.0.7z.0001",
+          "size_bytes": 1796854,
+          "sha256": "92c9e8b7a27bcf40962a6314bdfa085857284ab2e69f9495b7b2c477e2b1e819",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-2.5.2500.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1140eda7d8442710",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "1.0.1200.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\NEWMISC"
+      ],
+      "compatible_ids": [
+        "ROOT\\NEWMISC"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic Misc Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.0.1200.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-1.0.1200.0.7z.0001",
+          "size_bytes": 50840,
+          "sha256": "03da345577ba86864e5d0de14eb22978acfb8a59618d459be43c657e9e65ff50",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.0.1200.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-987c51527a804a41",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "1.0.1300.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\NEWMISC"
+      ],
+      "compatible_ids": [
+        "ROOT\\NEWMISC"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic Misc Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.0.1300.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-1.0.1300.0.7z.0001",
+          "size_bytes": 50864,
+          "sha256": "92f21d354aae948db576ee626a15370e44236c02ce6b2a628171c8a407db1723",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.0.1300.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1d93bb23007d80c9",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "System",
+      "version": "1.3.1100.100",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\NEWMISC"
+      ],
+      "compatible_ids": [
+        "ROOT\\NEWMISC"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic Misc Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.3.1100.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-syst-x64-1.3.1100.1.7z.0001",
+          "size_bytes": 137623,
+          "sha256": "76e49a42f0e966410505d1cffc7fdcecc3cea412e6a4c0ac89406b5b1f56e16a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-syst-x64-1.3.1100.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-02bd004d51175d5f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "HDC",
+      "version": "1.4.5.0702",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_10F7&DEV_820D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic AJ-PCD35"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-hdc-x64-1.4.5.0702.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-hdc-x64-1.4.5.0702.7z.0001",
+          "size_bytes": 179875,
+          "sha256": "2fd2665ca53f72f2abfed84b5903618e62f44cf3f05d51d3856576b9a16d797b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-hdc-x64-1.4.5.0702.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-39a52dc395759c2d",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Panasonic",
+      "category": "HDC",
+      "version": "1.4.5.0607",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_10F7&DEV_820D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic AJ-PCD35"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-hdc-x64-1.4.5.0607.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-hdc-x64-1.4.5.0607.7z.0001",
+          "size_bytes": 175098,
+          "sha256": "2c26e6aa53e0e7f0d94845ba1117c33cec65a4e6fd5d697eaba30a03537a9610",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/panasoni-hdc-x64-1.4.5.0607.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-db435f2b65fb7532",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "1.0.48.0; TODO: set DriverVer in stampinf property pages",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_SAM&DEV_0603&SUBSYS_C14F144D",
+        "ACPI\\VEN_SAM&DEV_0603&SUBSYS_C150144D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "AppNodeEnum Device",
+        "Samsung System Agent Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.0.48.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-x64-1.0.48.0.7z.0001",
+          "size_bytes": 3223843,
+          "sha256": "10160aa3c340efc4b1db3b842e8fa6f06753f5253bc58d690c9b72f0ff366d65",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.0.48.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c4d5689ab0c1648b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "16.3.2.11",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_SAM&DEV_0101&SUBSYS_C135144D",
+        "ACPI\\VEN_SAM&DEV_0101&SUBSYS_C14F144D"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "Samsung AMOLED Panel"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-16.3.2.11.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-x64-16.3.2.11.7z.0001",
+          "size_bytes": 618065,
+          "sha256": "81333b960c56a87104161b7f232b57c900af9d2792c40a6aa8cdd157f19f69f2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-16.3.2.11.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-89398ee008055567",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung",
+      "category": "System",
+      "version": "1.0.0.8",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAM0426",
+        "ACPI\\SAM0427",
+        "ACPI\\SAM0428"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0426",
+        "ACPI\\SAM0427",
+        "ACPI\\SAM0428"
+      ],
+      "descriptions": [
+        "Samsung",
+        "Samsung System Event Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x64-1.0.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsung-syst-x64-1.0.0.8.7z.0001",
+          "size_bytes": 32201,
+          "sha256": "1174969f10e1ac5d20340cd0d6603e87cb78b44765afa59420b2f63a8bbd366e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x64-1.0.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6f9bc0891d1f7344",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung",
+      "category": "System",
+      "version": "1.0.0.8",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAM0429"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0429"
+      ],
+      "descriptions": [
+        "Samsung",
+        "Samsung System Event Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x64-1.0.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsung-syst-x64-1.0.0.8.7z.0001",
+          "size_bytes": 32201,
+          "sha256": "1174969f10e1ac5d20340cd0d6603e87cb78b44765afa59420b2f63a8bbd366e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x64-1.0.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a5edfd9c93d57083",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung",
+      "category": "System",
+      "version": "1.1.0.6",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAM0430",
+        "ACPI\\SAMB430"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0430",
+        "ACPI\\SAMB430"
+      ],
+      "descriptions": [
+        "Samsung",
+        "Samsung System Event Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x64-1.1.0.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsung-syst-x64-1.1.0.6.7z.0001",
+          "size_bytes": 103635,
+          "sha256": "7c7608af76c5e40e26e63cd260d8917c95be5aac19757c5d85d15f07f952e6d6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x64-1.1.0.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8779041c10cd54c7",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "1.0.0.7",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAM0701",
+        "ACPI\\VEN_SAM&DEV_0701&SUBSYS_C14F144D",
+        "ACPI\\VEN_SAM&DEV_0701&SUBSYS_C150144D"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0701"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "Samsung Firmware Interface Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.0.0.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-x64-1.0.0.7.7z.0001",
+          "size_bytes": 186697,
+          "sha256": "b82c40abbc634334c5e09301099a1ba49c7e47e75b720fbd4a9cc17d3b682017",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.0.0.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-96bd1bb3c14bdbef",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "9.37.2.236",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "Samsung OSD Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-9.37.2.236.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-x64-9.37.2.236.7z.0001",
+          "size_bytes": 1302091,
+          "sha256": "f59f977c7326418b24d90588407d3c999258cf943201532db4f6dd86bd966f13",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-9.37.2.236.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5bbd619b9042628c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "1.10.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\SHCI"
+      ],
+      "compatible_ids": [
+        "ROOT\\SHCI"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "SHCI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.10.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-x64-1.10.0.0.7z.0001",
+          "size_bytes": 38349,
+          "sha256": "949e02889249175015b0b22fff5db56ea5f69a8fb00191a7ac33e107f5ce0c00",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.10.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a7f68b656d867272",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "System",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\SNSCR"
+      ],
+      "compatible_ids": [
+        "ROOT\\SNSCR"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "Snscr"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-syst-x64-1.0.0.0.7z.0001",
+          "size_bytes": 31035,
+          "sha256": "9178ddefbe7f69a0d79e35acfb7e82ee8d53ff70ddb15921b89b0f53a8fce90b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsunge-syst-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a11fe79b26253f0e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Samsung",
+      "category": "System",
+      "version": "1.0.0.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\SAM0426"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0426"
+      ],
+      "descriptions": [
+        "Samsung",
+        "Samsung System Event Controller"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x86-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsung-syst-x86-1.0.0.1.7z.0001",
+          "size_bytes": 1437898,
+          "sha256": "84b86165c549f1dc9fb2bcd2e7b8ceaa2246d306c99f51cc822d50b6525f6328",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/samsung-syst-x86-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-adf74b9da72bd41b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "HIDClass",
+      "version": "9.8.3.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-1.0.0.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-1.0.0.2.7z.0001",
+          "size_bytes": 2115055,
+          "sha256": "7711a737632f6d9b6516f6fa5853a50b30a623d2f0d7ea0558a8f719e5769e51",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-1.0.0.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-601d9e6fc7392c85",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "1.0.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook ACPI General Purpose Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x64-1.0.1.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x64-1.0.1.0.7z.0001",
+          "size_bytes": 101585,
+          "sha256": "2b21222d744eb321fef85fec62f2b09d49a41013cb8aa75eae2e149aadcb26cd",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x64-1.0.1.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5654212e2843253e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "1.0.0.10",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "TOSHIBA Firmware Linkage Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e4bf4507ba48be70",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "5.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\QCI0701"
+      ],
+      "compatible_ids": [
+        "ACPI\\QCI0701"
+      ],
+      "descriptions": [
+        "TOSHIBA",
+        "Generic IO & Memory Access"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ef264746ee7e4c65",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "HIDClass",
+      "version": "9.3.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b810025ce654d727",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "DiskDrive",
+      "version": "2.1.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "TOSHIBA HDD Protection Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-56ebae8b58724bdf",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "System",
+      "version": "2.1.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "%*TOS620A.DeviceDescNTx86%",
+        "%*TOS620A.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b1077d64f2147334",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "System",
+      "version": "10.16.0813.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d86439c355da3c9c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "System",
+      "version": "3.2.0.2",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTia64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x64-10.16.0813.7z.0001",
+          "size_bytes": 1632064,
+          "sha256": "cd5635f707f5f3e9578c4ffb224899c623c0ae3ac0abdcc08b546141c21f174e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x64-10.16.0813.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-160b73c404267412",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "HIDClass",
+      "version": "9.4.0.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x86-10.17.1010.7z.0001",
+          "size_bytes": 2188340,
+          "sha256": "a6829dc3a4dac802a6cd0fb755fd3462063e25660059a7ad4f51f0e3e4b16635",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1c4ae6777a0780fa",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "DiskDrive",
+      "version": "2.4.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "TOSHIBA HDD Protection Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x86-10.17.1010.7z.0001",
+          "size_bytes": 2188340,
+          "sha256": "a6829dc3a4dac802a6cd0fb755fd3462063e25660059a7ad4f51f0e3e4b16635",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4387727614454bd2",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "System",
+      "version": "10.17.1010.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x86-10.17.1010.7z.0001",
+          "size_bytes": 2188340,
+          "sha256": "a6829dc3a4dac802a6cd0fb755fd3462063e25660059a7ad4f51f0e3e4b16635",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c9be02f24499499",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA Client Solutions Co., Ltd. All rights reserved.",
+      "category": "System",
+      "version": "1.0.0.4",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Standard system devices)",
+        "TOSHIBA Service Control Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x86-10.17.1010.7z.0001",
+          "size_bytes": 2188340,
+          "sha256": "a6829dc3a4dac802a6cd0fb755fd3462063e25660059a7ad4f51f0e3e4b16635",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1c0d0817bb7f9fd0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "System",
+      "version": "4.0.0.2",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTia64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-syst-x86-10.17.1010.7z.0001",
+          "size_bytes": 2188340,
+          "sha256": "a6829dc3a4dac802a6cd0fb755fd3462063e25660059a7ad4f51f0e3e4b16635",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshibac-syst-x86-10.17.1010.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3a6b40bd101c2329",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "HIDClass",
+      "version": "9.8.1.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4c9ed70e298d6847",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "DiskDrive",
+      "version": "2.8.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e533157415e5ceec",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "2.8.1.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "%*TOS620A.DeviceDescNTx86%",
+        "%*TOS620A.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d26920978c3c17a5",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "10.20.0708.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Dynabook Inc.",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-16c0d45e711e9086",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "1.5.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "(Standard system devices)",
+        "dynabook Service Control Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f4bd6695c8100b96",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "4.3.4.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTia64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6b3e7d09faff1131",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "4.3.2.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "%*TOS1900.DeviceDescNTx86%",
+        "%*TOS1900.DeviceDescNTia64%",
+        "%*TOS1900.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0708.7z.0001",
+          "size_bytes": 3347603,
+          "sha256": "ade96ad9a383e6f7dfe2abac315bf474139a4936c8feee6ed3a0f58deb6e918e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0708.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c287803732c169fc",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "4.3.5.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook x86 ACPI-Compliant Value Added Logical and General Purpose Device",
+        "dynabook ia64 ACPI-Compliant Value Added Logical and General Purpose Device",
+        "dynabook x64 ACPI-Compliant Value Added Logical and General Purpose Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c71f8c337acf6e2a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "HIDClass",
+      "version": "9.8.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-252d1d482897baf3",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "DiskDrive",
+      "version": "2.8.2.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-721e88cb2b188a38",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "2.8.2.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook HDD Protection - Shock Sensor Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8ddb59a19ff022ad",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "10.20.0709.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Dynabook Inc.",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5c35239fd0cc42ee",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "1.5.6.3",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Service Control Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-251ead0c96f403a7",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "4.3.3.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "%*TOS1900.DeviceDescNTx86%",
+        "%*TOS1900.DeviceDescNTia64%",
+        "%*TOS1900.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0709.7z.0001",
+          "size_bytes": 3372844,
+          "sha256": "3bef6cbf309c3ee955bed01824d71215df599499e9a7ac4b60a0bda28f87b101",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0709.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-660b27b83f50e344",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "1.6.2.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Service Control Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x64-1.6.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x64-1.6.2.0.7z.0001",
+          "size_bytes": 1619542,
+          "sha256": "2f15e18771bdd77e2456b2a56e58d7f7de3f56207d33ebafd07249004cc3e25d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x64-1.6.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-dd7c7b836191216a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "10.20.0711.2",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Bluetooth ACPI Control Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0711.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-10.20.0711.7z.0001",
+          "size_bytes": 25696,
+          "sha256": "0bac3046a01edd47aef18579c430ef0d553c33635814d34275ebdcbfd9580b7b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-10.20.0711.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-90e60c669a9d0c5f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "11.0.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Bluetooth ACPI Control Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-11.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-11.0.0.0.7z.0001",
+          "size_bytes": 25206,
+          "sha256": "6b6454b3e00f95f0790c1c9bd3b24ae012eb26fd2fbca529de56d8fddffcbfcb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-11.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-decf3c9249ec9258",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "2.8.3.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook HDD Protection - Shock Sensor Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-2.8.3.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-2.8.3.1.7z.0001",
+          "size_bytes": 104269,
+          "sha256": "777e2e6a542ae8f28c3077037478b4271deced68bf2fc80b20b5b3f75c10b40a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-2.8.3.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7c103c640d3479e1",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Dynabook Inc.",
+      "category": "System",
+      "version": "4.6.4.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook x86 ACPI-Compliant Value Added Logical and General Purpose Device",
+        "dynabook ia64 ACPI-Compliant Value Added Logical and General Purpose Device",
+        "dynabook x64 ACPI-Compliant Value Added Logical and General Purpose Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-4.6.4.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-syst-x86-4.6.4.1.7z.0001",
+          "size_bytes": 1839728,
+          "sha256": "4c419a84fbbe45a9500474152bebca10f42f6e4ba407b5543bf4532c52491738",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/dynabook-syst-x86-4.6.4.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-10c837dcefc75540",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba",
+      "category": "HIDClass",
+      "version": "9.1.0.3",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.00.1031.7z.0001",
+          "size_bytes": 1521324,
+          "sha256": "01cc61ce1e2ee81e89384cac4b1110dad4bf34520448855e2323a8771c7d4acc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6b5f8797477baee0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA Corporation",
+      "category": "DiskDrive",
+      "version": "2.0.3.4",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA Corporation",
+        "TOSHIBA HDD Protection Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.00.1031.7z.0001",
+          "size_bytes": 1521324,
+          "sha256": "01cc61ce1e2ee81e89384cac4b1110dad4bf34520448855e2323a8771c7d4acc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9cea6530b944e2b5",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2.0.0.9",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS620A.DeviceDescNTx86%",
+        "%*TOS620A.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.00.1031.7z.0001",
+          "size_bytes": 1521324,
+          "sha256": "01cc61ce1e2ee81e89384cac4b1110dad4bf34520448855e2323a8771c7d4acc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-25b0b3578fedf291",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "10.00.1031.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Toshiba",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.00.1031.7z.0001",
+          "size_bytes": 1521324,
+          "sha256": "01cc61ce1e2ee81e89384cac4b1110dad4bf34520448855e2323a8771c7d4acc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1b1f64636d213d5e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "3.1.1.2",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTai64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.00.1031.7z.0001",
+          "size_bytes": 1521324,
+          "sha256": "01cc61ce1e2ee81e89384cac4b1110dad4bf34520448855e2323a8771c7d4acc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.00.1031.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b0455e2b9eea655f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "7.00.1912.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Toshiba",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 15509,
+          "sha256": "1fd82c96d5699ff087cfbee1af6ee1565ba4b7fee677e15901677f633bc879af",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b69b60254544911",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Quanta Computer Corp.",
+      "category": "System",
+      "version": "1.1.5.25",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba HwSetup driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 67373,
+          "sha256": "68ded3b14b4b12200b30f6f57c0b5191751b5ca6477edfcf6c6679d0ad637dbf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5003bed7165cb46b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "1.0.0.5",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "TOSHIBA Firmware Linkage Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 67373,
+          "sha256": "68ded3b14b4b12200b30f6f57c0b5191751b5ca6477edfcf6c6679d0ad637dbf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f19b2e64a54630db",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "1,0,0,0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "Generic IO & Memory Access"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 67373,
+          "sha256": "68ded3b14b4b12200b30f6f57c0b5191751b5ca6477edfcf6c6679d0ad637dbf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-220d5a093d38c13c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA Corporation",
+      "category": "DiskDrive",
+      "version": "2.0.2.4",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA Corporation",
+        "TOSHIBA HDD Protection Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 67373,
+          "sha256": "68ded3b14b4b12200b30f6f57c0b5191751b5ca6477edfcf6c6679d0ad637dbf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-23e2d34f0b6e316f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2.0.0.4",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS620A.DeviceDescNTx86%",
+        "%*TOS620A.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 67373,
+          "sha256": "68ded3b14b4b12200b30f6f57c0b5191751b5ca6477edfcf6c6679d0ad637dbf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-16d3f83da23a8979",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2.0.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTai64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-1.0.0.3.7z.0001",
+          "size_bytes": 43791,
+          "sha256": "3417c5292a870e371af7f25e3cdf744d161f342b4f5b31e4e5daf7884661cc6f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7f694088b8d21a91",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "1.0.0.6",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "TOSHIBA Firmware Linkage Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 69952,
+          "sha256": "71678dd1ee611c3bc7a8946226678c11bec45f2ec021e3fddec5877ca6ddf435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fde8be255e7b8605",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba",
+      "category": "Image",
+      "version": "1.0.17.64",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba",
+        "PanGu"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 69952,
+          "sha256": "71678dd1ee611c3bc7a8946226678c11bec45f2ec021e3fddec5877ca6ddf435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4cf18e888ac818bb",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2,1,0,0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "Generic IO & Memory Access"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 69952,
+          "sha256": "71678dd1ee611c3bc7a8946226678c11bec45f2ec021e3fddec5877ca6ddf435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-139e6265a951df34",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA Corporation",
+      "category": "DiskDrive",
+      "version": "2.0.2.8",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA Corporation",
+        "TOSHIBA HDD Protection Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 69952,
+          "sha256": "71678dd1ee611c3bc7a8946226678c11bec45f2ec021e3fddec5877ca6ddf435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4e6a6c4da01983f4",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2.0.0.3",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTai64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-7.00.1912.7z.0001",
+          "size_bytes": 69952,
+          "sha256": "71678dd1ee611c3bc7a8946226678c11bec45f2ec021e3fddec5877ca6ddf435",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-7.00.1912.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b6fab48895fee141",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "1.0.0.7",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "TOSHIBA Firmware Linkage Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-4.0.0.0.7z.0001",
+          "size_bytes": 1617224,
+          "sha256": "bd0e025cbf2d795ff510e354c32792c7efbb4b8a2fbad5d8b01d0cdc149cdf28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fd291cb99c9ce7b3",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "4.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\QCI0701"
+      ],
+      "compatible_ids": [
+        "ACPI\\QCI0701"
+      ],
+      "descriptions": [
+        "TOSHIBA",
+        "Generic IO & Memory Access"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-4.0.0.0.7z.0001",
+          "size_bytes": 1617224,
+          "sha256": "bd0e025cbf2d795ff510e354c32792c7efbb4b8a2fbad5d8b01d0cdc149cdf28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-6cf193087f35d618",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Toshiba",
+      "category": "HIDClass",
+      "version": "9.0.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-4.0.0.0.7z.0001",
+          "size_bytes": 1617224,
+          "sha256": "bd0e025cbf2d795ff510e354c32792c7efbb4b8a2fbad5d8b01d0cdc149cdf28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fef0b173250c2891",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA Corporation",
+      "category": "DiskDrive",
+      "version": "2.0.3.2",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA Corporation",
+        "TOSHIBA HDD Protection Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-4.0.0.0.7z.0001",
+          "size_bytes": 1617224,
+          "sha256": "bd0e025cbf2d795ff510e354c32792c7efbb4b8a2fbad5d8b01d0cdc149cdf28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-abc3aa757707de71",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2.0.0.7",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS620A.DeviceDescNTx86%",
+        "%*TOS620A.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-4.0.0.0.7z.0001",
+          "size_bytes": 1617224,
+          "sha256": "bd0e025cbf2d795ff510e354c32792c7efbb4b8a2fbad5d8b01d0cdc149cdf28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-f06f11c3c9614a27",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "3.1.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS1900.DeviceDescNTx86%",
+        "%*TOS1900.DeviceDescNTai64%",
+        "%*TOS1900.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-4.0.0.0.7z.0001",
+          "size_bytes": 1617224,
+          "sha256": "bd0e025cbf2d795ff510e354c32792c7efbb4b8a2fbad5d8b01d0cdc149cdf28",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-4.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb89ccc11deb2af2",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "3.1.0.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\QCI0701"
+      ],
+      "compatible_ids": [
+        "ACPI\\QCI0701"
+      ],
+      "descriptions": [
+        "TOSHIBA",
+        "Generic IO & Memory Access"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-3.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-3.1.0.0.7z.0001",
+          "size_bytes": 52638,
+          "sha256": "7de2a53b39bf78c099abd9b52ee638d0afc9e0bd67a66e3862104a639bc08a43",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-3.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d12876f3b39eac06",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "2.0.0.8",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "%*TOS620A.DeviceDescNTx86%",
+        "%*TOS620A.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-3.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-3.1.0.0.7z.0001",
+          "size_bytes": 52638,
+          "sha256": "7de2a53b39bf78c099abd9b52ee638d0afc9e0bd67a66e3862104a639bc08a43",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/toshiba-syst-x64-3.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-351689e56ef94f79",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Wistron Corporation",
+      "category": "System",
+      "version": "15.52.714.1640",
+      "arch": "arm64",
+      "hwids": [
+        "ACPI\\WIS0A00"
+      ],
+      "compatible_ids": [
+        "ACPI\\WIS0A00"
+      ],
+      "descriptions": [
+        "Wistron Corporation",
+        "WMI for ACPI Bridge Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/wistronc-syst-a64-15.52.714.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "wistronc-syst-a64-15.52.714.7z.0001",
+          "size_bytes": 199743,
+          "sha256": "57174644671f4daec692df73d186e922907a145344da30d9c53207c1a9db2cef",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/wistronc-syst-a64-15.52.714.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-db5a043cdacf8e89",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Chipset",
+      "provider": "Wistron Corporation",
+      "category": "System",
+      "version": "18.17.64.226",
+      "arch": "arm64",
+      "hwids": [
+        "ACPI\\WIS0A00"
+      ],
+      "compatible_ids": [
+        "ACPI\\WIS0A00"
+      ],
+      "descriptions": [
+        "Wistron Corporation",
+        "WMI for ACPI Bridge Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/wistronc-syst-a64-18.17.64.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "wistronc-syst-a64-18.17.64.2.7z.0001",
+          "size_bytes": 709537,
+          "sha256": "6b0900edefb81b0d5965e8cfb40f46749714be5ae0ec1ac3c39acf15c0d8233f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_SonyCorporatio_System_x64/wistronc-syst-a64-18.17.64.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

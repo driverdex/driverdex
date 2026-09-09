@@ -26317,6 +26317,254 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-042343e3adfec862",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.0.2.0",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\SONYNFCPORT110F"
+      ],
+      "compatible_ids": [
+        "ROOT\\SONYNFCPORT110F"
+      ],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 110 BLE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.0.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-1.0.2.0.7z.0001",
+          "size_bytes": 2381797,
+          "sha256": "e1d2187ae3e21adde8a74379122b5e247939e50e3ca7d14ec335a2deaab1e02b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.0.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8a0e1b5a7fc093de",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.0.2.0",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\SONYNFCPORT110F"
+      ],
+      "compatible_ids": [
+        "ROOT\\SONYNFCPORT110F"
+      ],
+      "descriptions": [
+        "Sony Corporation",
+        "NFC Port/PaSoRi 110 BLE"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.0.2.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x86-1.0.2.0.7z.0001",
+          "size_bytes": 2218070,
+          "sha256": "4b96cce5a20c26bcdcac9f42c0b6480e2a42600573dc09386df10af4ea0cd525",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x86-1.0.2.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1ae10ee18aae5164",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "Sony Corporation",
+      "category": "PCMCIA",
+      "version": "3.0.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "FeliCa Port/PaSoRi RCS920 PC Card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.13.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-1.1.13.2.7z.0001",
+          "size_bytes": 1608484,
+          "sha256": "f8320cf5a08fbdeb665c9fbedde6fa66fd803938996398584c83ecaaac231c6a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.13.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-71dead1dd234b3d5",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "1.1.13.2",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_054C&PID_02E1",
+        "USB\\VID_054C&PID_059F",
+        "USB\\VID_054C&PID_05D0"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "FeliCa Port/PaSoRi RCS956 USB"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.13.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-1.1.13.2.7z.0001",
+          "size_bytes": 1608484,
+          "sha256": "f8320cf5a08fbdeb665c9fbedde6fa66fd803938996398584c83ecaaac231c6a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.13.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-76fc4b89ee814dde",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "Sony Corporation",
+      "category": "FeliCa",
+      "version": "3.0.1.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "FeliCa Port/PaSoRi RCS920 PC Card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.13.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-feli-x64-1.1.13.2.7z.0001",
+          "size_bytes": 1872770,
+          "sha256": "6a9299b13494f39f80f71f0b52f35df8eeb125bf80dbdbeb01ecda3b63f4f57d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/sonycorp-feli-x64-1.1.13.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a350a8fa6d1cb028",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "TOSHIBA Corp.",
+      "category": "TosSec",
+      "version": "4.00.2007.1115",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\TOS_SPS32",
+        "ROOT\\TOS_SPS64"
+      ],
+      "compatible_ids": [
+        "ROOT\\TOS_SPS32",
+        "ROOT\\TOS_SPS64"
+      ],
+      "descriptions": [
+        "TOSHIBA Corp.",
+        "TOSHIBA tos_sps32 Driver",
+        "TOSHIBA tos_sps64 Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/toshibac-toss-x86-4.00.2007.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-toss-x86-4.00.2007.7z.0001",
+          "size_bytes": 513402,
+          "sha256": "b722e5429cd8e5a70df91626d669bc0dd936ad33a3de4486c9228910270393bf",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/toshibac-toss-x86-4.00.2007.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5adcee765d2e4aed",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Other",
+      "provider": "TOSHIBA Corporation",
+      "category": "TosSec",
+      "version": "4.2.0.0",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\TOS_SPS32",
+        "ROOT\\TOS_SPS64"
+      ],
+      "compatible_ids": [
+        "ROOT\\TOS_SPS32",
+        "ROOT\\TOS_SPS64"
+      ],
+      "descriptions": [
+        "TOSHIBA Corporation",
+        "TOSHIBA tos_sps32 Driver",
+        "TOSHIBA tos_sps64 Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/toshibac-toss-x86-4.2.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-toss-x86-4.2.0.0.7z.0001",
+          "size_bytes": 534528,
+          "sha256": "2eab27d81d6d2b614b3059bd0fce6a5faf140b56323ce8b818d6091fb688f0d8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_SonyCorporatio_System_x64/toshibac-toss-x86-4.2.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

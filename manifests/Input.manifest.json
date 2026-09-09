@@ -256314,10 +256314,10 @@
         }
       ],
       "date_added": "2026-09-05",
-      "enabled": true,
+      "enabled": false,
       "supersedes": null,
-      "superseded_by": null,
-      "notes": ""
+      "superseded_by": "drv-fbbe69b7ef10e595",
+      "notes": " | Superseded by drv-fe995054da5eef8d on 2026-09-09 | Superseded by drv-fe995054da5eef8d on 2026-09-09 | Superseded by drv-fbbe69b7ef10e595 on 2026-09-09 | Superseded by drv-fbbe69b7ef10e595 on 2026-09-09"
     },
     {
       "id": "drv-7960ced8ab228b47",
@@ -261494,6 +261494,1897 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-916e2cccad77743c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.3.2206.2001",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0815"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0815"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Airplane Mode Button"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.3.2206.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.3.2206.2.7z.0001",
+          "size_bytes": 33284,
+          "sha256": "8dcc0729f77641c20b03ab6939c418b3373339013e1cfe3a606a90a931d65e0e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.3.2206.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7dd148c47c892f4c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electroncis Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1507.601",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LGEX0815"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0815"
+      ],
+      "descriptions": [
+        "LG Electroncis Inc.",
+        "LG HID Airmode Mini-driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1507.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1507.6.7z.0001",
+          "size_bytes": 22405,
+          "sha256": "83da35379ce200bc7b3c246b9a5d86ef4fc55ef0ed52e3af2f9a76362a681798",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1507.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb815be362237bcb",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1508.1201",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LGEX0815"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0815"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Airplane Mode Button"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1508.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1508.1.7z.0001",
+          "size_bytes": 21184,
+          "sha256": "ec4decbcade81cb3821f378595420f202c53163e6403f41135f54a5b3c99b7bb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1508.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1ff4bc4ec1b0df4a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1304.1701",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_ATML&DEV_1000&COL01",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_2118&MI_00",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC%",
+        "HID\\VID_03EB&PID_212C&MI_00&COL01",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_8419&MI_00&COL01",
+        "HID\\VID_03EB&PID_8424&MI_00&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "%HID\\VID_03EB&PID_2118&MI_00.DeviceDesc%",
+        "%HID\\VID_03EB&PID_212C&MI_01.DeviceDesc%",
+        "%HID\\VEN_ATML&DEV_1000&Col01.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1304.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1304.1.7z.0001",
+          "size_bytes": 1702580,
+          "sha256": "6240274450422d9cf3cdf2834f6e5fc951d8a15353918cafb5488ba57c393a2e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1304.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-13c75ee31148ed47",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1304.1701",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0816"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0816"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Virtual Touchpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1304.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1304.1.7z.0001",
+          "size_bytes": 1702580,
+          "sha256": "6240274450422d9cf3cdf2834f6e5fc951d8a15353918cafb5488ba57c393a2e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1304.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-77c061ca115190b5",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1304.1701",
+      "arch": "x86",
+      "hwids": [
+        "HID\\VEN_ATML&DEV_1000&COL01",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_2118&MI_00",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC%",
+        "HID\\VID_03EB&PID_212C&MI_00&COL01",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_8419&MI_00&COL01",
+        "HID\\VID_03EB&PID_8424&MI_00&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "%HID\\VID_03EB&PID_2118&MI_00.DeviceDesc%",
+        "%HID\\VID_03EB&PID_212C&MI_01.DeviceDesc%",
+        "%HID\\VEN_ATML&DEV_1000&Col01.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1304.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1304.1.7z.0001",
+          "size_bytes": 1444243,
+          "sha256": "928b90b2b0c533ced4e3c7bee53b180414fa003a35634c4a431fb494159d7d86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1304.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bceaa37461d49994",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1304.1701",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LGEX0816"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0816"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Virtual Touchpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1304.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1304.1.7z.0001",
+          "size_bytes": 1444243,
+          "sha256": "928b90b2b0c533ced4e3c7bee53b180414fa003a35634c4a431fb494159d7d86",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1304.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9cf3698eee6465c0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1212.1701",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0815"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0815"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Airplane Mode Button"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1212.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1212.1.7z.0001",
+          "size_bytes": 1565853,
+          "sha256": "f8b7ff4acdc4b53e5ccf3b7bb8d4548e74ecfa4215aaca7e26b013a62443bade",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1212.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-aa7b7a1153079def",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1309.901",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_ATML&DEV_1000&COL01",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_2118&MI_00",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC%",
+        "HID\\VID_03EB&PID_212C&MI_00&COL01",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_8419&MI_00&COL01",
+        "HID\\VID_03EB&PID_8424&MI_00&COL01",
+        "HID\\VID_03EB&PID_8446&MI_00&COL01",
+        "HID\\VID_03EB&PID_8447&MI_00&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "%HID\\VID_03EB&PID_2118&MI_00.DeviceDesc%",
+        "%HID\\VID_03EB&PID_212C&MI_01.DeviceDesc%",
+        "%HID\\VEN_ATML&DEV_1000&Col01.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1309.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1309.9.7z.0001",
+          "size_bytes": 3087373,
+          "sha256": "da10df9f7991ddff8aab88b1df0d9aca7c0270144ff015ec8e6782cb6c8f8c0f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1309.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-81085cf2bd49dae6",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1309.901",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0816"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0816"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Virtual Touchpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1309.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1309.9.7z.0001",
+          "size_bytes": 3087373,
+          "sha256": "da10df9f7991ddff8aab88b1df0d9aca7c0270144ff015ec8e6782cb6c8f8c0f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1309.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fe995054da5eef8d",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "Keyboard",
+      "version": "1.0.1309.901",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1309.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1309.9.7z.0001",
+          "size_bytes": 3087373,
+          "sha256": "da10df9f7991ddff8aab88b1df0d9aca7c0270144ff015ec8e6782cb6c8f8c0f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1309.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": "drv-047940c4c3f8a22a",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-876b6004497ce54c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1412.101",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LGEX0816"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0816"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG vMouse"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1412.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1412.1.7z.0001",
+          "size_bytes": 1472046,
+          "sha256": "4dc68e38bccd1e385d28533f2418747e52642c00949557454e8e4db4f164f21b",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1412.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-3ec9bdc4559b918b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1309.901",
+      "arch": "x86",
+      "hwids": [
+        "HID\\VEN_ATML&DEV_1000&COL01",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_2118&MI_00",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC%",
+        "HID\\VID_03EB&PID_212C&MI_00&COL01",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_8419&MI_00&COL01",
+        "HID\\VID_03EB&PID_8424&MI_00&COL01",
+        "HID\\VID_03EB&PID_8446&MI_00&COL01",
+        "HID\\VID_03EB&PID_8447&MI_00&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "%HID\\VID_03EB&PID_2118&MI_00.DeviceDesc%",
+        "%HID\\VID_03EB&PID_212C&MI_01.DeviceDesc%",
+        "%HID\\VEN_ATML&DEV_1000&Col01.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1309.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1309.9.7z.0001",
+          "size_bytes": 1500353,
+          "sha256": "3ba6371d1f55312691fa111ac2d86f02cae0238950cbe0a305b5b4afa796a7e8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1309.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e7bb3567e99b3c96",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1309.901",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LGEX0816"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0816"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Virtual Touchpad"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1309.9.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1309.9.7z.0001",
+          "size_bytes": 1500353,
+          "sha256": "3ba6371d1f55312691fa111ac2d86f02cae0238950cbe0a305b5b4afa796a7e8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1309.9.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2222b096fc21ce6f",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1310.1401",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_ATML&DEV_1000&COL01",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC",
+        "HID\\VEN_ATML&DEV_1000&COL01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_2118&MI_00",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC",
+        "HID\\VID_03EB&PID_2118&MI_00.DEVICEDESC%",
+        "HID\\VID_03EB&PID_212C&MI_00&COL01",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC",
+        "HID\\VID_03EB&PID_212C&MI_01.DEVICEDESC%",
+        "HID\\VID_03EB&PID_8419&MI_00&COL01",
+        "HID\\VID_03EB&PID_8424&MI_00&COL01",
+        "HID\\VID_03EB&PID_8446&MI_00&COL01",
+        "HID\\VID_03EB&PID_8447&MI_00&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "%HID\\VID_03EB&PID_2118&MI_00.DeviceDesc%",
+        "%HID\\VID_03EB&PID_212C&MI_01.DeviceDesc%",
+        "%HID\\VEN_ATML&DEV_1000&Col01.DeviceDesc%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1310.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1310.1.7z.0001",
+          "size_bytes": 2899401,
+          "sha256": "587c7e757a1f01e113ac3c116004de300dd8ecc64bc1fa8b8a870dc1e4c260de",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1310.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fbbe69b7ef10e595",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "Keyboard",
+      "version": "1.0.1304.1701",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1310.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x64-1.0.1310.1.7z.0001",
+          "size_bytes": 2899401,
+          "sha256": "587c7e757a1f01e113ac3c116004de300dd8ecc64bc1fa8b8a870dc1e4c260de",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x64-1.0.1310.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": "drv-047940c4c3f8a22a",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-73dcdcb2aab1a6af",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "LG Electronics Inc.",
+      "category": "HIDClass",
+      "version": "1.0.1212.1701",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\LGEX0815"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0815"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Airplane Mode Button"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1212.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-hidc-x86-1.0.1212.1.7z.0001",
+          "size_bytes": 1457989,
+          "sha256": "4a6650f3a67d04daf0e51ae2f56e12d672b92e70a77805f5778bb078b00f7c67",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/lgelectr-hidc-x86-1.0.1212.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-37662f4b3cfdd130",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "NEC Personal Computers, Ltd.",
+      "category": "HIDClass",
+      "version": "15.34.59.651",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "NEC Personal Computers, Ltd.",
+        "NEC HID Mini-driver for Hardware Radio Switch"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/necperso-hidc-x64-15.34.59.6.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "necperso-hidc-x64-15.34.59.6.7z.0001",
+          "size_bytes": 15819,
+          "sha256": "1af0386de9ce94bbbdc1dabbd89bf8422a5e3edcdf2758b6c35f51908915f15d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/necperso-hidc-x64-15.34.59.6.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2266a1bf10e5b22e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Panasonic",
+      "category": "HIDClass",
+      "version": "2.5.1200.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0028",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0028",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/panasoni-hidc-x64-2.5.1200.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-hidc-x64-2.5.1200.0.7z.0001",
+          "size_bytes": 1704388,
+          "sha256": "789a606779c9225e295b6b44a4566600f44a0470eb396b33f4ac568637a31664",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/panasoni-hidc-x64-2.5.1200.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9b6f217a08d25672",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Panasonic",
+      "category": "HIDClass",
+      "version": "2.5.1200.0",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\MAT0028",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0028",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/panasoni-hidc-x86-2.5.1200.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-hidc-x86-2.5.1200.0.7z.0001",
+          "size_bytes": 1605095,
+          "sha256": "d613e47827066691702c3149b8ef046970377dde1382a1debfeef4bd9e785526",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/panasoni-hidc-x86-2.5.1200.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-30857edf85e4a0a4",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Panasonic Corporation",
+      "category": "HIDClass",
+      "version": "1.0.2.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/panasoni-hidc-x64-1.0.2.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-hidc-x64-1.0.2.1.7z.0001",
+          "size_bytes": 24170,
+          "sha256": "b7b357bd09f8476e5b31d52a101ba8f3a1abec0fb392916027119f4b4f568f91",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/panasoni-hidc-x64-1.0.2.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-306304e28e0ddce5",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "OEM",
+      "category": "HIDClass",
+      "version": "10.1.40.184",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "OEM",
+        "Pega Radio Switch Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x64-10.1.40.18.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oem-hidc-x64-10.1.40.18.7z.0001",
+          "size_bytes": 20748,
+          "sha256": "c03eb1e03f7a9bf8e6c2092490570b02c0e782ce35cf20380d8b17af1eabd5df",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x64-10.1.40.18.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5019c2ec226da042",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "OEM",
+      "category": "HIDClass",
+      "version": "8.44.49.460",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "OEM",
+        "%OEM-Geneic-RadioSwitch%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x64-8.44.49.46.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oem-hidc-x64-8.44.49.46.7z.0001",
+          "size_bytes": 20226,
+          "sha256": "9c7876e5f16699c560f5858dbba9fa13b0023ea55bc497a501b6a822e3cbf652",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x64-8.44.49.46.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4e9cdad188587e75",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "OEM",
+      "category": "HIDClass",
+      "version": "10.2.52.15",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "OEM",
+        "Pega Radio Switch Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x86-10.2.52.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oem-hidc-x86-10.2.52.15.7z.0001",
+          "size_bytes": 17680,
+          "sha256": "ef9ae7f5c801b35a704be4a2095c619767a75c899bf789fd788d7b04d90f89b6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x86-10.2.52.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-84d40169a499631e",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "OEM",
+      "category": "HIDClass",
+      "version": "8.45.28.561",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "OEM",
+        "%OEM-Geneic-RadioSwitch%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x86-8.45.28.56.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "oem-hidc-x86-8.45.28.56.7z.0001",
+          "size_bytes": 18071,
+          "sha256": "a3817a8d499cb11b9ecbce3dadb20d139103e8b448afc3d5342158274b9622dc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/oem-hidc-x86-8.45.28.56.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b9bc25f8ddf86510",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "PEGATRON",
+      "category": "HIDClass",
+      "version": "10.23.18.416",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "PEGATRON",
+        "Pega Radio Switch Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x64-10.23.18.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pegatron-hidc-x64-10.23.18.4.7z.0001",
+          "size_bytes": 1548324,
+          "sha256": "a03efa724c3d5dfb8d610a00144d533db7d76b3a4404ee32e113876d5dfe8cf6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x64-10.23.18.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-19016e4bc713e657",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "PEGATRON",
+      "category": "HIDClass",
+      "version": "18.58.4.566",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "PEGATRON",
+        "Pega Radio Switch Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x86-18.58.4.56.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pegatron-hidc-x86-18.58.4.56.7z.0001",
+          "size_bytes": 1452824,
+          "sha256": "a740c897da0adecb3749aced65af39b0dcbaf6e20437b382f9560d466909efa4",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x86-18.58.4.56.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c7094a5cf54bf4d0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "PEGATRON",
+      "category": "HIDClass",
+      "version": "19.36.56.201",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "PEGATRON",
+        "Pega Radio Switch Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x64-19.36.56.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pegatron-hidc-x64-19.36.56.2.7z.0001",
+          "size_bytes": 1551133,
+          "sha256": "8d49893f8fb159900127b2dd8b32960922c8b9508696f9d324a41203c2e5a440",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x64-19.36.56.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a4efcd0b236299a0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "PEGATRON",
+      "category": "HIDClass",
+      "version": "17.37.34.193",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\PTK0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\PTK0001"
+      ],
+      "descriptions": [
+        "PEGATRON",
+        "Pega Radio Switch Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x86-17.37.34.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "pegatron-hidc-x86-17.37.34.1.7z.0001",
+          "size_bytes": 1455753,
+          "sha256": "0f2b404378122fed7687076777318fed76750fbd4226d4a463ecf498106c8cd2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/pegatron-hidc-x86-17.37.34.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-37723b7560a44d44",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co.,Ltd.",
+      "category": "HIDClass",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_SYNP&DEV_1234&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co.,Ltd.",
+        "TchS2Helper Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x64-1.0.0.1.7z.0001",
+          "size_bytes": 1721098,
+          "sha256": "30c38d887b0789993845956d8e2bc9b9cc55fb114b942138995bd56c0ac951bc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a0f2d343e4c05e02",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co.,Ltd.",
+      "category": "HIDClass",
+      "version": "1.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_STMD&DEV_1234&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co.,Ltd.",
+        "TchLiteHelper Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-1.0.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x64-1.0.0.1.7z.0001",
+          "size_bytes": 1736311,
+          "sha256": "722a9ca587e1b78e039cd16a392a67c46ec8ef867a745edd4de837a06d7649d1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-1.0.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a0a8d41f1a7dd333",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co. Ltd.",
+      "category": "HIDClass",
+      "version": "6.2.8400.4218",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAM0714"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0714"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co. Ltd.",
+        "Radio HID Mini-driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-6.2.8400.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x64-6.2.8400.4.7z.0001",
+          "size_bytes": 1563761,
+          "sha256": "bd66efb46775fdf2bf0c327905b767d795b2c1d2a3cc465c0f7dee08438c8f30",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-6.2.8400.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2a0747bc01418f42",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "HIDClass",
+      "version": "18.14.48.296",
+      "arch": "x86",
+      "hwids": [
+        "USB\\VID_04E8&PID_A00A&MI_00",
+        "USB\\VID_04E8&PID_A00A&MI_01",
+        "USB\\VID_04E8&PID_A00A&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "Samsung Keyboard Cover"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x86-18.14.48.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x86-18.14.48.2.7z.0001",
+          "size_bytes": 6473,
+          "sha256": "12a8259ef94893eabef67e89db680d6fac4178168382f02286a8fcb2f1cbeb21",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x86-18.14.48.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0112fc0d05593156",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co.,Ltd.",
+      "category": "HIDClass",
+      "version": "1.0.0.8",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VEN_WCOM&DEV_0027&COL02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co.,Ltd.",
+        "PenS2Helper Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-1.0.0.8.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x64-1.0.0.8.7z.0001",
+          "size_bytes": 1749823,
+          "sha256": "a8266976110e7343480137c0afbf9c9dbec6399a0c7484db1a412558e5d37b4d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-1.0.0.8.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-319c9b2b98e063df",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "Sensor",
+      "version": "1.0.0.3",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_SAM&DEV_0202",
+        "ACPI\\VEN_SAM&DEV_0204"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "BH1733 Ambient Light Sensor"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-sens-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-sens-x64-1.0.0.3.7z.0001",
+          "size_bytes": 73060,
+          "sha256": "2e33ca82e933ac202edd2ba734a5d0f7072b2548a589c9ad7fe0261b100e6b21",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-sens-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7ff4867eeff40adf",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "Sensor",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_SAM&DEV_0201"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "K2HH Accelerometer"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-sens-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-sens-x64-1.0.0.3.7z.0001",
+          "size_bytes": 73060,
+          "sha256": "2e33ca82e933ac202edd2ba734a5d0f7072b2548a589c9ad7fe0261b100e6b21",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-sens-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b426f10b8f7edb0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "Sensor",
+      "version": "1.0.0.2",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\VEN_SAM&DEV_0203"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "SX9310 Proximity"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-sens-x64-1.0.0.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-sens-x64-1.0.0.3.7z.0001",
+          "size_bytes": 73060,
+          "sha256": "2e33ca82e933ac202edd2ba734a5d0f7072b2548a589c9ad7fe0261b100e6b21",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-sens-x64-1.0.0.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cb11f77d118268aa",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co. Ltd.",
+      "category": "HIDClass",
+      "version": "6.2.8400.4218",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\SAM0714"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0714"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co. Ltd.",
+        "Radio HID Mini-driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x86-6.2.8400.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x86-6.2.8400.4.7z.0001",
+          "size_bytes": 1461276,
+          "sha256": "87ac15b5cb0d9a626d27788eb2985355afa3c2620b9153bbfdf525494e9eb96d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x86-6.2.8400.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e02c7235ad591909",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co. Ltd.",
+      "category": "HIDClass",
+      "version": "20.57.1.735",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\SAM0714"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0714"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co. Ltd.",
+        "Radio HID Mini-driver",
+        "SS Radio Collection"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-20.57.1.73.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x64-20.57.1.73.7z.0001",
+          "size_bytes": 1539070,
+          "sha256": "d118d998704648186da3f16b3b4267518f12202425e017c9a67cd83796ab469a",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x64-20.57.1.73.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a7d10e85045bb306",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Samsung Electronics Co. Ltd.",
+      "category": "HIDClass",
+      "version": "21.1.2.735",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\SAM0714"
+      ],
+      "compatible_ids": [
+        "ACPI\\SAM0714"
+      ],
+      "descriptions": [
+        "Samsung Electronics Co. Ltd.",
+        "Radio HID Mini-driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x86-21.1.2.735.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-hidc-x86-21.1.2.735.7z.0001",
+          "size_bytes": 1472455,
+          "sha256": "cde01ab0a4a141cc4a309fdc6ef3af3018265aee890364e67c05abcc813b764e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/samsunge-hidc-x86-21.1.2.735.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e58a275d91fcc518",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Sony Corporation",
+      "category": "HIDClass",
+      "version": "8.0.2.4",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony Firmware Extension Parser Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/vaiocorp-hidc-x86-1.3.1.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vaiocorp-hidc-x86-1.3.1.1.7z.0001",
+          "size_bytes": 29785,
+          "sha256": "8d552fbbd37744e59276b74c5c997673b905f1cfe0fb41d467c7b7037f074cb9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/vaiocorp-hidc-x86-1.3.1.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-9674ad6bf9902dcb",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "VAIO Corporation",
+      "category": "HIDClass",
+      "version": "1.3.1.1",
+      "arch": "x86",
+      "hwids": [
+        "ACPI\\VAI0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\VAI0001"
+      ],
+      "descriptions": [
+        "VAIO Corporation",
+        "VAIO Firmware Extension Parser Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/vaiocorp-hidc-x86-1.3.1.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "vaiocorp-hidc-x86-1.3.1.1.7z.0001",
+          "size_bytes": 29785,
+          "sha256": "8d552fbbd37744e59276b74c5c997673b905f1cfe0fb41d467c7b7037f074cb9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/vaiocorp-hidc-x86-1.3.1.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-81c03fa5b01755fa",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Sony Corporation",
+      "category": "HIDClass",
+      "version": "8.0.1.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony Firmware Extension Parser Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.1.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-hidc-x86-8.0.1.1.7z.0001",
+          "size_bytes": 15785,
+          "sha256": "858586ee86b3c67de51e4268cc8af459c3a31760fe500de65a5a45f7697414d7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.1.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b805e0187b7ab9cd",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Sony Corporation",
+      "category": "HIDClass",
+      "version": "8.0.2.3",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony Firmware Extension Parser Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.2.3.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-hidc-x86-8.0.2.3.7z.0001",
+          "size_bytes": 15765,
+          "sha256": "05894427a39ebeac7279e3397a894764c7aab7ff4c3ac8cda0d8df862a2cf005",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.2.3.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-074d065cedc0e36c",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Sony Corporation",
+      "category": "HIDClass",
+      "version": "8.0.2.5",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony Firmware Extension Parser Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.2.5.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-hidc-x86-8.0.2.5.7z.0001",
+          "size_bytes": 18164,
+          "sha256": "26eaa9a4cafe76046dc98672bd683a99c7565211be65759334b2a6eb87f64e8f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.2.5.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-c08d64b11030d583",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Sony Croporation",
+      "category": "HIDClass",
+      "version": "1.0.0.06110",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Croporation",
+        "Sony Wireless State Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycrop-hidc-x64-1.0.0.0611.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycrop-hidc-x64-1.0.0.0611.7z.0001",
+          "size_bytes": 1689787,
+          "sha256": "7f8bfe4d55e18e0b52e1132d4e36cda0c248770eeea6baaab282cdfe062af8c9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycrop-hidc-x64-1.0.0.0611.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1e14f29ceb2b60c9",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Sony Corporation",
+      "category": "HIDCLASS",
+      "version": "8.0.1.2",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Sony Corporation",
+        "Sony Programmable I/O Control Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.1.2.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-hidc-x86-8.0.1.2.7z.0001",
+          "size_bytes": 21436,
+          "sha256": "2d91937dbfcb7a433878ca0ce25082c279543e7f5db6eb348c7b0748c2f4d537",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/sonycorp-hidc-x86-8.0.1.2.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-83544beaf180d733",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Dynabook Inc.",
+      "category": "HIDClass",
+      "version": "9.8.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/dynabook-hidc-x64-9.8.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-hidc-x64-9.8.5.0.7z.0001",
+          "size_bytes": 1566549,
+          "sha256": "6e6669cb6aa321f4358d507a3b8b99fbef6b76c731b64778739304c914408991",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/dynabook-hidc-x64-9.8.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-491550903b441f26",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Dynabook Inc.",
+      "category": "HIDClass",
+      "version": "9.8.7.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Dynabook Inc.",
+        "dynabook Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/dynabook-hidc-x64-9.8.7.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "dynabook-hidc-x64-9.8.7.0.7z.0001",
+          "size_bytes": 1567601,
+          "sha256": "d87883ca6af00335c5622c94574bda2164614bb429a12c2ff2ecd6ede431251d",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/dynabook-hidc-x64-9.8.7.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-074e81e31b5f6063",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "HIDClass",
+      "version": "9.2.0.1",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshibac-hidc-x64-9.2.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-hidc-x64-9.2.0.1.7z.0001",
+          "size_bytes": 1579162,
+          "sha256": "e0170bc8ed595d642fd10cb69730c40b93b6396fe78c3f7f2d0acfacb54dbd45",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshibac-hidc-x64-9.2.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-8955ff7bca0539b0",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Toshiba Client Solutions Co., Ltd.",
+      "category": "System",
+      "version": "3.1.0.1",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba Client Solutions Co., Ltd.",
+        "%*TOS6208.DeviceDescNTx86%",
+        "%*TOS6208.DeviceDescNTai64%",
+        "%*TOS6208.DeviceDescNTamd64%"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshibac-hidc-x64-9.2.0.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshibac-hidc-x64-9.2.0.1.7z.0001",
+          "size_bytes": 1579162,
+          "sha256": "e0170bc8ed595d642fd10cb69730c40b93b6396fe78c3f7f2d0acfacb54dbd45",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshibac-hidc-x64-9.2.0.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-945fbf25f00fb8b2",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Toshiba",
+      "category": "HIDClass",
+      "version": "9.1.0.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshiba-hidc-x64-9.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-hidc-x64-9.1.0.0.7z.0001",
+          "size_bytes": 1556752,
+          "sha256": "09e2f66bfee2f95d0294898d7d11a01e95a0b09af807d712220023ccc3d4d00f",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshiba-hidc-x64-9.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-0b955ebd38a748d6",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Input",
+      "provider": "Toshiba",
+      "category": "HIDClass",
+      "version": "9.1.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Toshiba",
+        "Toshiba Hotkey Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshiba-hidc-x86-9.1.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-hidc-x86-9.1.0.0.7z.0001",
+          "size_bytes": 1461026,
+          "sha256": "57dfe642f6f812d935cb7d2623c7781645023541fb605fefcb026b549674ae0c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_SonyCorporatio_System_x64/toshiba-hidc-x86-9.1.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {
@@ -262252,6 +264143,32 @@
         "id": "drv-dc1f964db264773e",
         "version": "11.13.11.4",
         "date_added": "2026-08-13",
+        "superseded_by": null
+      }
+    ],
+    "x64|keyboard|": [
+      {
+        "id": "drv-fe995054da5eef8d",
+        "version": "1.0.1309.901",
+        "date_added": "2026-09-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-fe995054da5eef8d",
+        "version": "1.0.1309.901",
+        "date_added": "2026-09-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-fbbe69b7ef10e595",
+        "version": "1.0.1304.1701",
+        "date_added": "2026-09-09",
+        "superseded_by": null
+      },
+      {
+        "id": "drv-fbbe69b7ef10e595",
+        "version": "1.0.1304.1701",
+        "date_added": "2026-09-09",
         "superseded_by": null
       }
     ]

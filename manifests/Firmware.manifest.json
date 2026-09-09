@@ -11381,6 +11381,536 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-c736fe149aeb4d1d",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "LG Electronics Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.1.2305.1901",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Platform Manager Service Plus"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-syst-x64-1.3.2511.0.7z.0001",
+          "size_bytes": 3163156,
+          "sha256": "ffdb817e0b3bcfe19c22b339e666f7e95dfba9f795c28b89619e529c026c09b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e5a4738235acfdbc",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "LG Electronics Inc.",
+      "category": "System",
+      "version": "1.3.2511.0501",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0820",
+        "ROOT\\LGEX0820"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0820",
+        "ROOT\\LGEX0820"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "Platform Manager"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-syst-x64-1.3.2511.0.7z.0001",
+          "size_bytes": 3163156,
+          "sha256": "ffdb817e0b3bcfe19c22b339e666f7e95dfba9f795c28b89619e529c026c09b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-209935d2ee3de9fa",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "LG Electronics Inc.",
+      "category": "Extension",
+      "version": "1.3.2511.0501",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\LGEX0820",
+        "ROOT\\LGEX0820"
+      ],
+      "compatible_ids": [
+        "ACPI\\LGEX0820",
+        "ROOT\\LGEX0820"
+      ],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "PlatMgr Extension"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-syst-x64-1.3.2511.0.7z.0001",
+          "size_bytes": 3163156,
+          "sha256": "ffdb817e0b3bcfe19c22b339e666f7e95dfba9f795c28b89619e529c026c09b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-78bff40f4d547933",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "LG Electronics Inc.",
+      "category": "SoftwareComponent",
+      "version": "1.3.2511.0501",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "LG Electronics Inc.",
+        "LG Platform Manager Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lgelectr-syst-x64-1.3.2511.0.7z.0001",
+          "size_bytes": 3163156,
+          "sha256": "ffdb817e0b3bcfe19c22b339e666f7e95dfba9f795c28b89619e529c026c09b9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/lgelectr-syst-x64-1.3.2511.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-34a06f897809e887",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic",
+      "category": "SoftwareDevice",
+      "version": "3.3.1000.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0019"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0019"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-3.3.1000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-3.3.1000.0.7z.0001",
+          "size_bytes": 26947,
+          "sha256": "565f36ae8e0cea58a304411d5f3be09533d962ba1ead0c917a8ab7ae4e9ee903",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-3.3.1000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-44e8e2e11c430145",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic Corporation",
+      "category": "SoftwareDevice",
+      "version": "5.1.1200.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0021",
+        "ACPI\\MAT0040"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0021",
+        "ACPI\\MAT0040"
+      ],
+      "descriptions": [
+        "Panasonic Corporation",
+        "System Interface Device - 0040",
+        "System Interface Device - 0021"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-5.1.1200.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-5.1.1200.0.7z.0001",
+          "size_bytes": 75659,
+          "sha256": "d3d4bf2c74ac4148e89de4691059fe37a01762eefd6bcef511173d759a7c32e7",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-5.1.1200.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5f5a1dcad821ec0a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic Connect Co., Ltd.",
+      "category": "SoftwareDevice",
+      "version": "7.1.1300.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0040"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0040"
+      ],
+      "descriptions": [
+        "Panasonic Connect Co., Ltd.",
+        "System Interface Device - 0040"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-7.1.1300.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-7.1.1300.0.7z.0001",
+          "size_bytes": 1655565,
+          "sha256": "f6adbcf1e5f7b9b66b0e8091ad934ba543979faf1fa711cfe4557bdb2538612e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-7.1.1300.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4381ec57cc3a882b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic Connect Co., Ltd.",
+      "category": "SoftwareComponent",
+      "version": "7.1.1300.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic Connect Co., Ltd.",
+        "ExUniInf Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-7.1.1300.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-7.1.1300.0.7z.0001",
+          "size_bytes": 1655565,
+          "sha256": "f6adbcf1e5f7b9b66b0e8091ad934ba543979faf1fa711cfe4557bdb2538612e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-7.1.1300.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-d1f8b69356ee0b84",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic Connect Co., Ltd.",
+      "category": "Extension",
+      "version": "7.1.1300.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0040"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0040"
+      ],
+      "descriptions": [
+        "Panasonic Connect Co., Ltd.",
+        "System Interface Device - 0040"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-7.1.1300.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-7.1.1300.0.7z.0001",
+          "size_bytes": 1655565,
+          "sha256": "f6adbcf1e5f7b9b66b0e8091ad934ba543979faf1fa711cfe4557bdb2538612e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-7.1.1300.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-e159d38f661dad8d",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic",
+      "category": "SoftwareDevice",
+      "version": "3.2.1600.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\MAT0019"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT0019"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "System Interface Device - 0019"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-3.2.1600.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-3.2.1600.0.7z.0001",
+          "size_bytes": 35932,
+          "sha256": "729a2a1f6a51c5a3c6257be2db2a43f4042c6997a523fbcfeb39dbfb9dfa15b3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-3.2.1600.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a56d7e0a5baa7501",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Panasonic",
+      "category": "SoftwareDevice",
+      "version": "5.2.1000.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\DOCKDEVICE&_SB.KBDU",
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT003C",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "ACPI\\VEN_MAT&DEV_0052",
+        "HID\\MAT0028"
+      ],
+      "compatible_ids": [
+        "ACPI\\MAT001F",
+        "ACPI\\MAT0026",
+        "ACPI\\MAT0027",
+        "ACPI\\MAT0028",
+        "ACPI\\MAT002A",
+        "ACPI\\MAT002B",
+        "ACPI\\MAT002C",
+        "ACPI\\MAT002D",
+        "ACPI\\MAT002E",
+        "ACPI\\MAT0030",
+        "ACPI\\MAT0031",
+        "ACPI\\MAT0033",
+        "ACPI\\MAT0034",
+        "ACPI\\MAT0035",
+        "ACPI\\MAT0036",
+        "ACPI\\MAT0037",
+        "ACPI\\MAT003C",
+        "ACPI\\MAT0052",
+        "ACPI\\MATFFFF",
+        "HID\\MAT0028"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Tablet Buttons for Panasonic PC",
+        "Wireless Switch for Panasonic PC",
+        "Wireless Switch Collection for Panasonic PC",
+        "Keyboard Base Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-5.2.1000.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-soft-x64-5.2.1000.0.7z.0001",
+          "size_bytes": 216870,
+          "sha256": "e04ccd862e1bc0d9e151f005f6f32ed170cee274be824a46b948ea56d2033228",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/panasoni-soft-x64-5.2.1000.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-5601e76aa27a3f3b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Samsung Electronics Co., Ltd.",
+      "category": "SoftwareComponent",
+      "version": "1.0.6.10",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung Electronics Co., Ltd.",
+        "SamsungSARMode"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/samsunge-soft-x64-1.0.6.10.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsunge-soft-x64-1.0.6.10.7z.0001",
+          "size_bytes": 1993358,
+          "sha256": "a0f58aeaf1c95c05bf20f54811a661a3c321cdc5166bb8bf3509538f30853212",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/samsunge-soft-x64-1.0.6.10.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-efa6d0b9be0627b6",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Samsung",
+      "category": "SoftwareComponent",
+      "version": "1.1.32.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung",
+        "Samsung System Support Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/samsung-soft-x64-1.1.32.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsung-soft-x64-1.1.32.0.7z.0001",
+          "size_bytes": 15307830,
+          "sha256": "29593c9be6054af2f64f75676c5260e51a91b0757751ad104a5502eb7eacd1aa",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/samsung-soft-x64-1.1.32.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-74253852896f293b",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Firmware",
+      "provider": "Samsung",
+      "category": "SoftwareComponent",
+      "version": "8.0.5.0",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Samsung",
+        "Samsung System Support Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/samsung-soft-x64-8.0.5.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "samsung-soft-x64-8.0.5.0.7z.0001",
+          "size_bytes": 14603877,
+          "sha256": "ae2842ec1f5ba2548d6e8f21f59801cbbfe5e8f882bb2f620ce9083b2ce87fa3",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_SonyCorporatio_System_x64/samsung-soft-x64-8.0.5.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

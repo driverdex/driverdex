@@ -3,7 +3,7 @@
   "category": "Storage",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-09",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -75533,6 +75533,347 @@
         }
       ],
       "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2ba854b3d6511857",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Panasonic",
+      "category": "DiskDrive",
+      "version": "1.6.5.0607",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic P2 Series SBP2 Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-1.6.5.0607.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-disk-x64-1.6.5.0607.7z.0001",
+          "size_bytes": 185453,
+          "sha256": "32abc16bb2d5d9670fa8ec5e9ca108f7ac7036358492d18ad446199ea1c90437",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-1.6.5.0607.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-ea918c411c17c1d7",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Panasonic",
+      "category": "DiskDrive",
+      "version": "2.3.10.0201",
+      "arch": "x64",
+      "hwids": [
+        "SCSI\\DISKP2CARD_SERIES___________REV."
+      ],
+      "compatible_ids": [
+        "SCSI\\DISKP2CARD_SERIES___________REV."
+      ],
+      "descriptions": [
+        "Panasonic",
+        "P2Card Series Cached Disk"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-2.3.10.020.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-disk-x64-2.3.10.020.7z.0001",
+          "size_bytes": 286776,
+          "sha256": "10c5bac0202a41990a53e49d9014169c551b0ca3aa4e96796eeac0203f7b3216",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-2.3.10.020.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-feb3aa43a70f92a4",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Panasonic",
+      "category": "HDC",
+      "version": "1.0.11.0222",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_10F7&DEV_8206"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic P2 Card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-2.3.10.020.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-disk-x64-2.3.10.020.7z.0001",
+          "size_bytes": 286776,
+          "sha256": "10c5bac0202a41990a53e49d9014169c551b0ca3aa4e96796eeac0203f7b3216",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-2.3.10.020.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-51aa05002c004b11",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Panasonic",
+      "category": "DiskDrive",
+      "version": "1.1.8.730",
+      "arch": "x64",
+      "hwids": [
+        "SCSI\\DISKP2CARD_SERIES___________REV."
+      ],
+      "compatible_ids": [
+        "SCSI\\DISKP2CARD_SERIES___________REV."
+      ],
+      "descriptions": [
+        "P2Card Series Cached Disk"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-1.1.8.730.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-disk-x64-1.1.8.730.7z.0001",
+          "size_bytes": 70032,
+          "sha256": "79185f3014ac7eee24c68494bd1734e4c96eded2d217755dce79ab11322256c9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-1.1.8.730.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-19af1252c7768ab3",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Panasonic",
+      "category": "HDC",
+      "version": "1.0.8.729",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\VEN_10F7&DEV_8206"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Panasonic P2 Card"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-1.1.8.730.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-disk-x64-1.1.8.730.7z.0001",
+          "size_bytes": 70032,
+          "sha256": "79185f3014ac7eee24c68494bd1734e4c96eded2d217755dce79ab11322256c9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-disk-x64-1.1.8.730.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-bef8d2e21eec8e96",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Panasonic",
+      "category": "SCSIAdapter",
+      "version": "1.0.0.48",
+      "arch": "x64",
+      "hwids": [
+        "PCI\\CC_010802",
+        "PCI\\VEN_10F7&DEV_8218",
+        "PCI\\VEN_1179&DEV_010F"
+      ],
+      "compatible_ids": [
+        "PCI\\CC_010802"
+      ],
+      "descriptions": [
+        "Panasonic",
+        "Panasonic XPD3 Drive"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-scsi-x64-1.0.0.48.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "panasoni-scsi-x64-1.0.0.48.7z.0001",
+          "size_bytes": 862926,
+          "sha256": "21beecc3e033e47cc79a9f9c1dd928a6a88f93eb261c5a44f0f209c8c1a7c7fc",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/panasoni-scsi-x64-1.0.0.48.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2057c953d6910cb9",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "Sony Corporation",
+      "category": "DiskDrive",
+      "version": "1.3.08.08220",
+      "arch": "x64",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/sonycorp-disk-x64-1.3.08.082.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "sonycorp-disk-x64-1.3.08.082.7z.0001",
+          "size_bytes": 23850,
+          "sha256": "6c9877c199af5b417eb75f115a543a2d896f898c420f5164605ca8e754fa6e98",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/sonycorp-disk-x64-1.3.08.082.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-74aeb81a42a65f4a",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "TOSHIBA Corporation",
+      "category": "CDROM",
+      "version": "2.1.0.0",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "TOSHIBA x86 Writing Engine Filter Driver",
+        "TOSHIBA amd64 Writing Engine Filter Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.16.0307.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.16.0307.7z.0001",
+          "size_bytes": 43431,
+          "sha256": "b87c22154c9bcfb5795930d78f8585aa6524141fbde4a53a446dead0aa73426c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.16.0307.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-a095579cf97ef284",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "TOSHIBA",
+      "category": "System",
+      "version": "10.16.0307.0",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "compatible_ids": [
+        "ACPI\\INTC1234",
+        "ACPI\\TOS6205"
+      ],
+      "descriptions": [
+        "Toshiba",
+        "Bluetooth ACPI"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.16.0307.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.16.0307.7z.0001",
+          "size_bytes": 43431,
+          "sha256": "b87c22154c9bcfb5795930d78f8585aa6524141fbde4a53a446dead0aa73426c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.16.0307.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-53be01c93ea63dc8",
+      "pack": "SonyCorporatio_System_x64",
+      "type": "Storage",
+      "provider": "TOSHIBA Corporation",
+      "category": "CDROM",
+      "version": "2.0.0.3",
+      "arch": "x86",
+      "hwids": [],
+      "compatible_ids": [],
+      "descriptions": [
+        "TOSHIBA",
+        "TOSHIBA x86 Writing Engine Filter Driver",
+        "TOSHIBA amd64 Writing Engine Filter Driver"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.16.0307.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "toshiba-syst-x64-10.16.0307.7z.0001",
+          "size_bytes": 40376,
+          "sha256": "4fae91b6f9f28dab6fe38b3adb6857be031d1bc4eb510beaecc6153f821114c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Storage/DP_SonyCorporatio_System_x64/toshiba-syst-x64-10.16.0307.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
