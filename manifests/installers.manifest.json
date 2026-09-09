@@ -2,7 +2,7 @@
   "schema": "3.0",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "installers": [
     {
@@ -139293,6 +139293,192 @@
         }
       ],
       "date_added": "2026-09-08",
+      "enabled": true
+    },
+    {
+      "id": "inst-c0ee7edfbe36",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "1.0.4.6",
+      "exe_filename": "UserProcessAgent.exe",
+      "sha256": "27aa5e3fb09dcfea8c98190232bd6788e4ed4e0b2205599b315408046b473035",
+      "size_bytes": 30032881,
+      "file_version": "1.0.4.6",
+      "product_version": "1.0.4.6",
+      "company": "Lenovo(beijing) Limited",
+      "description": "Lenovo Fn and function keys service",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/1.0.4.6.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "1.0.4.6.7z.0001",
+          "size_bytes": 4796707,
+          "sha256": "7e011f1192194bd996a362db204d77715dc367cceb60b6ab5cee49d19afa2e88",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/1.0.4.6.7z.0001",
+          "lfs_oid": "7e011f1192194bd996a362db204d77715dc367cceb60b6ab5cee49d19afa2e88",
+          "lfs_size": 4796707
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true
+    },
+    {
+      "id": "inst-45114c3c6c4a",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "10.15.2511.2",
+      "exe_filename": "setup.exe",
+      "sha256": "c979eae35509a8788cef95e585f9a6a969a935ad2eb95f644e012d1872f54be9",
+      "size_bytes": 8162725,
+      "file_version": "10.15.2511.2",
+      "product_version": "10.15.2511.2",
+      "company": "Lenovo",
+      "description": "Hotkey Installer",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/10.15.2511.2.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "10.15.2511.2.7z.0001",
+          "size_bytes": 1648373,
+          "sha256": "e5fd160e46081d27b3df6753aa3244788e3e7d17e65f79ec602209a9343ec298",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/10.15.2511.2.7z.0001",
+          "lfs_oid": "e5fd160e46081d27b3df6753aa3244788e3e7d17e65f79ec602209a9343ec298",
+          "lfs_size": 1648373
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true
+    },
+    {
+      "id": "inst-2d5c098049d5",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "10.17.2603.3",
+      "exe_filename": "setup.exe",
+      "sha256": "c4dc6c024e4444d61e468a8dfd716b64c49f78b978ba1aa43da6141700a136e9",
+      "size_bytes": 13197658,
+      "file_version": "10.17.2603.3",
+      "product_version": "10.17.2603.3",
+      "company": "Lenovo",
+      "description": "Hotkey Installer",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/10.17.2603.3.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "10.17.2603.3.7z.0001",
+          "size_bytes": 4810468,
+          "sha256": "e99c0815d90c4d9888e37cb8231e3649fa3c583ee7c2fa265771d8334df9df5e",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/10.17.2603.3.7z.0001",
+          "lfs_oid": "e99c0815d90c4d9888e37cb8231e3649fa3c583ee7c2fa265771d8334df9df5e",
+          "lfs_size": 4810468
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true
+    },
+    {
+      "id": "inst-983231a31f08",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "2.0.16.17",
+      "exe_filename": "FnHotkeyUtility.exe",
+      "sha256": "2728e26af764a64dd31f6df20bad9ce68f27a1c54628abf7353a62f5e67a9dff",
+      "size_bytes": 9548732,
+      "file_version": "2.0.16.17",
+      "product_version": "2.0.16.17",
+      "company": "Lenovo",
+      "description": "This utility controls special keyboard functions like hotkeys and function keys, on your Lenovo notebook.",
+      "installer_type": "PE-installer",
+      "icon_sha256": "d27c8853c6112222",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/2.0.16.17.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "2.0.16.17.7z.0001",
+          "size_bytes": 2984068,
+          "sha256": "b64b69730e5ca683c95a280865d63660db016ce767cf3efa207b72ab94dd82c6",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/2.0.16.17.7z.0001",
+          "lfs_oid": "b64b69730e5ca683c95a280865d63660db016ce767cf3efa207b72ab94dd82c6",
+          "lfs_size": 2984068
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true
+    },
+    {
+      "id": "inst-4a01627acd76",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "2.0.9.30",
+      "exe_filename": "FnHotkeyUtility.exe",
+      "sha256": "d475c511a0dd91d214bcc4a9f99467ef67d3b7fbec76492152986030cd779b3e",
+      "size_bytes": 9251618,
+      "file_version": "2.0.9.30",
+      "product_version": "2.0.9.30",
+      "company": "Lenovo",
+      "description": "This utility controls special keyboard functions like hotkeys and function keys, on your Lenovo notebook.",
+      "installer_type": "PE-installer",
+      "icon_sha256": "d27c8853c6112222",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/2.0.9.30.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "2.0.9.30.7z.0001",
+          "size_bytes": 2858056,
+          "sha256": "b85d04e81e83ffb1b115213bfba8d3a9f3f365b8c39f884faa344bf8291de9ac",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/2.0.9.30.7z.0001",
+          "lfs_oid": "b85d04e81e83ffb1b115213bfba8d3a9f3f365b8c39f884faa344bf8291de9ac",
+          "lfs_size": 2858056
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true
+    },
+    {
+      "id": "inst-f19c9db43372",
+      "pack": "Lenovo_System_x64",
+      "type": "Chipset",
+      "filename": "9.2.0.4",
+      "exe_filename": "setup.exe",
+      "sha256": "1d921bc3a8bb04c36ad6fe60f203a9d849e07b0678b9dee9ab619b049018b7ff",
+      "size_bytes": 49948306,
+      "file_version": "2.0.8.0",
+      "product_version": "2.0.8.0",
+      "company": "Lenovo Group Limited",
+      "description": "Hotkey Installer",
+      "installer_type": "PE-installer",
+      "icon_sha256": "",
+      "is_dir_package": true,
+      "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/9.2.0.4.7z.0001",
+      "split_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "9.2.0.4.7z.0001",
+          "size_bytes": 14282920,
+          "sha256": "4cae3f25475b22f0de191f1ba9977d5f134cd74f046b220cfb1e448d675cc1c1",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Chipset/DP_Lenovo_System_x64/9.2.0.4.7z.0001",
+          "lfs_oid": "4cae3f25475b22f0de191f1ba9977d5f134cd74f046b220cfb1e448d675cc1c1",
+          "lfs_size": 14282920
+        }
+      ],
+      "date_added": "2026-09-09",
       "enabled": true
     }
   ]

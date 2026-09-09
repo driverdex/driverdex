@@ -1,6 +1,6 @@
 {
   "schema": "3.0",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "manifest_shards": [
     {
       "filename": "manifests/Audio.manifest.json",
@@ -16,7 +16,7 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8141794,
+      "size_bytes": 8148370,
       "active": true,
       "note": "active"
     },
@@ -90,7 +90,7 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2859,
+    "Chipset": 2865,
     "Display": 6659,
     "Firmware": 261,
     "Imaging": 97,
