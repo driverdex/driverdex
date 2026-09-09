@@ -3,7 +3,7 @@
   "category": "Firmware",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -11301,6 +11301,42 @@
       "date_added": "2026-09-08",
       "enabled": true,
       "supersedes": "drv-ec2789a34164aea1",
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-b5814cb1fe7f076a",
+      "pack": "Lenovo_System_x86",
+      "type": "Firmware",
+      "provider": "Luxshare",
+      "category": "SoftwareDevice",
+      "version": "1.0.0.4",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\PHYMEMDEVDRV"
+      ],
+      "compatible_ids": [
+        "ROOT\\PHYMEMDEVDRV"
+      ],
+      "descriptions": [
+        "Luxshare",
+        "PhyMemDevDrv Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Lenovo_System_x86/luxshare-soft-x64-1.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "luxshare-soft-x64-1.0.0.4.7z.0001",
+          "size_bytes": 25198,
+          "sha256": "72a4a35f560c1ce6644dc25d52ce2f7439bda91ea905bc1759390653497c39a9",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Lenovo_System_x86/luxshare-soft-x64-1.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
       "superseded_by": null,
       "notes": ""
     }

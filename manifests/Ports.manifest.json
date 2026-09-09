@@ -3,7 +3,7 @@
   "category": "Ports",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-09",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -29254,6 +29254,114 @@
         }
       ],
       "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-7c5e9d7d45115b35",
+      "pack": "Lenovo_System_x86",
+      "type": "Ports",
+      "provider": "Quectel Incorporated",
+      "category": "Ports",
+      "version": "20.0.0.4",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_05C6&PID_9008",
+        "USB\\VID_2C7C&PID_0127&MI_03",
+        "USB\\VID_2C7C&PID_0127&MI_04",
+        "USB\\VID_2C7C&PID_0127&MI_05"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Quectel Incorporated",
+        "Quectel USB DM Port",
+        "Quectel USB NMEA Port",
+        "Quectel USB AT Port",
+        "Quectel QDLoader 9008"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Lenovo_System_x86/quecteli-port-x64-20.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "quecteli-port-x64-20.0.0.4.7z.0001",
+          "size_bytes": 186583,
+          "sha256": "1b92e16f91e952603471aeca3841c9cb4641a444e175f0348f9d1dbaadddd2c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Lenovo_System_x86/quecteli-port-x64-20.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4dda869ae0512ef1",
+      "pack": "Lenovo_System_x86",
+      "type": "Ports",
+      "provider": "Quectel Incorporated",
+      "category": "Sensor",
+      "version": "1.0.1.9",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2C7C&PID_0127&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Quectel Incorporated",
+        "Quectel GNSS Sensor Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Lenovo_System_x86/quecteli-port-x64-20.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "quecteli-port-x64-20.0.0.4.7z.0001",
+          "size_bytes": 186583,
+          "sha256": "1b92e16f91e952603471aeca3841c9cb4641a444e175f0348f9d1dbaadddd2c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Lenovo_System_x86/quecteli-port-x64-20.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-274d10887ad37fbe",
+      "pack": "Lenovo_System_x86",
+      "type": "Ports",
+      "provider": "Quectel Incorporated",
+      "category": "USB",
+      "version": "30.0.0.1",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_2C7C&PID_0127"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Quectel Incorporated",
+        "Quectel USB Composition device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Lenovo_System_x86/quecteli-port-x64-20.0.0.4.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "quecteli-port-x64-20.0.0.4.7z.0001",
+          "size_bytes": 186583,
+          "sha256": "1b92e16f91e952603471aeca3841c9cb4641a444e175f0348f9d1dbaadddd2c8",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Ports/DP_Lenovo_System_x86/quecteli-port-x64-20.0.0.4.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
