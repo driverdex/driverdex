@@ -16,7 +16,7 @@
     },
     {
       "filename": "manifests/Chipset.manifest.json",
-      "size_bytes": 8148370,
+      "size_bytes": 8145486,
       "active": true,
       "note": "active"
     },
@@ -90,7 +90,7 @@
   "category_summary": {
     "Audio": 4715,
     "Bluetooth": 2,
-    "Chipset": 2865,
+    "Chipset": 2862,
     "Display": 6659,
     "Firmware": 261,
     "Imaging": 97,
