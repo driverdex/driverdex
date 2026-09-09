@@ -11339,6 +11339,48 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-b1d2b9f8b6bd25a2",
+      "pack": "Lenovo_System_x64",
+      "type": "Firmware",
+      "provider": "Lenovo",
+      "category": "SoftwareComponent",
+      "version": "1.0.2.15",
+      "arch": "x64",
+      "hwids": [
+        "ACPI\\IDEA2013",
+        "ACPI\\LEN0150",
+        "ACPI\\VEN_IDEA&DEV_2013",
+        "ACPI\\VEN_IDEA&DEV_2013&REV_0001",
+        "ACPI\\VEN_LEN&DEV_0150",
+        "ACPI\\VEN_LEN&DEV_0150&REV_0001"
+      ],
+      "compatible_ids": [
+        "ACPI\\IDEA2013",
+        "ACPI\\LEN0150"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "Lenovo Tap-to-X Service"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Lenovo_System_x64/lenovo-soft-x64-1.0.2.15.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-soft-x64-1.0.2.15.7z.0001",
+          "size_bytes": 755896,
+          "sha256": "8f5ae68dbc2f53dc1d4f8cac9febda666ad08b1572962a7c97336f560b10bf9c",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Firmware/DP_Lenovo_System_x64/lenovo-soft-x64-1.0.2.15.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

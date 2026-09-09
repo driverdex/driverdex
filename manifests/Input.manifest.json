@@ -261354,6 +261354,146 @@
       "supersedes": null,
       "superseded_by": null,
       "notes": ""
+    },
+    {
+      "id": "drv-7b0b4b48d92b3c65",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Lenovo",
+      "category": "Mouse",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VID_17EF&PID_6009&MI_01&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "ThinkPad USB TrackPoint"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-mous-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-mous-x64-1.0.0.0.7z.0001",
+          "size_bytes": 24198,
+          "sha256": "776173a76c71fe58dfe0ebdb439d8e9f145de766e206cbb2bc74decf4a1267a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-mous-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-1935545251b8dc2b",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Lenovo",
+      "category": "Keyboard",
+      "version": "1.0.0.0",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VID_17EF&PID_6009&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "ThinkPad USB Keyboard with TrackPoint"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-mous-x64-1.0.0.0.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-mous-x64-1.0.0.0.7z.0001",
+          "size_bytes": 24198,
+          "sha256": "776173a76c71fe58dfe0ebdb439d8e9f145de766e206cbb2bc74decf4a1267a0",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-mous-x64-1.0.0.0.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2c9926bf428b2cbf",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Lenovo",
+      "category": "Keyboard",
+      "version": "2.0.1.7",
+      "arch": "x64",
+      "hwids": [
+        "HID\\VID_04B3&PID_301B&MI_00",
+        "HID\\VID_04B3&PID_301C&MI_00",
+        "HID\\VID_04B3&PID_3020&MI_00&COL01"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "USB Enhanced Performance Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-keyb-x64-2.0.1.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-keyb-x64-2.0.1.7.7z.0001",
+          "size_bytes": 6363,
+          "sha256": "22b2454b6b36b2bb8f22d389fe922a32a8c14ff89748746fea0227d011b87fa2",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-keyb-x64-2.0.1.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-cce991387c9549a5",
+      "pack": "Lenovo_System_x64",
+      "type": "Input",
+      "provider": "Lenovo",
+      "category": "HIDClass",
+      "version": "2.0.1.7",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_04B3&PID_301B&MI_01",
+        "USB\\VID_04B3&PID_301C&MI_01",
+        "USB\\VID_04B3&PID_3020&MI_00"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "USB Enhanced Performance Keyboard"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-hidc-x64-2.0.1.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-hidc-x64-2.0.1.7.7z.0001",
+          "size_bytes": 21121,
+          "sha256": "59bc0d773886b619993763f2c839d3cd3a5889cd0d75c33079827da40a8c9cbb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Input/DP_Lenovo_System_x64/lenovo-hidc-x64-2.0.1.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
     }
   ],
   "version_history": {

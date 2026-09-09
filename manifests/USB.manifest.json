@@ -3,7 +3,7 @@
   "category": "USB",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-09",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -83261,6 +83261,40 @@
         }
       ],
       "date_added": "2026-09-06",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-97b83d1401c20d2e",
+      "pack": "Lenovo_System_x64",
+      "type": "USB",
+      "provider": "Lenovo",
+      "category": "USBDevice",
+      "version": "22.11.15.111",
+      "arch": "x64",
+      "hwids": [
+        "USB\\VID_17EF&PID_B813&MI_02"
+      ],
+      "compatible_ids": [],
+      "descriptions": [
+        "Lenovo",
+        "ThinkReality A3 SLAM"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Lenovo_System_x64/lenovo-usbd-x64-22.11.15.1.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-usbd-x64-22.11.15.1.7z.0001",
+          "size_bytes": 7610,
+          "sha256": "3a8d56cef13305b3b9cb8179c656736b52524525b86a74867f5976b893151744",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/USB/DP_Lenovo_System_x64/lenovo-usbd-x64-22.11.15.1.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,

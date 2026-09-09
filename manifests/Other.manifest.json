@@ -3,7 +3,7 @@
   "category": "Other",
   "shard_index": 1,
   "total_shards": 1,
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "base_url": "https://raw.githubusercontent.com/driverdex/drivers/main",
   "lfs_batch_url": "https://github.com/driverdex/drivers.git/info/lfs/objects/batch",
   "drivers": [
@@ -26169,6 +26169,150 @@
         }
       ],
       "date_added": "2026-09-08",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-2a008ac63d3d3f81",
+      "pack": "Lenovo_System_x64",
+      "type": "Other",
+      "provider": "Lenovo",
+      "category": "LenovoVhid",
+      "version": "10.30.0.288",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "compatible_ids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "UMDF HID minidriver Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x64-10.30.0.28.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-leno-x64-10.30.0.28.7z.0001",
+          "size_bytes": 2217496,
+          "sha256": "74c98ecc5b5473f55105e46aeaed7a5ada5c3e5a2c65fd28993e9c37058f8adb",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x64-10.30.0.28.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-39c3f59aaf6d231f",
+      "pack": "Lenovo_System_x64",
+      "type": "Other",
+      "provider": "Lenovo",
+      "category": "LenovoVhid",
+      "version": "10.30.8.726",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "compatible_ids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "UMDF HID minidriver Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x86-10.30.8.72.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-leno-x86-10.30.8.72.7z.0001",
+          "size_bytes": 2073260,
+          "sha256": "c31c8d2739fc0c31cc20716d5dbd746fa1315c8952f8c511735c4d429b4a6410",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x86-10.30.8.72.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-4298dba688215ae9",
+      "pack": "Lenovo_System_x64",
+      "type": "Other",
+      "provider": "Lenovo",
+      "category": "LenovoVhid",
+      "version": "10.13.29.733",
+      "arch": "x64",
+      "hwids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "compatible_ids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "UMDF HID minidriver Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x64-10.13.29.7.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-leno-x64-10.13.29.7.7z.0001",
+          "size_bytes": 1499296,
+          "sha256": "88a6574dc3c862e9297c810d795fd9878e9e25868002e640bb160b690962bf34",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x64-10.13.29.7.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
+      "enabled": true,
+      "supersedes": null,
+      "superseded_by": null,
+      "notes": ""
+    },
+    {
+      "id": "drv-fb2cb817d43f5e74",
+      "pack": "Lenovo_System_x64",
+      "type": "Other",
+      "provider": "Lenovo",
+      "category": "LenovoVhid",
+      "version": "10.12.7.315",
+      "arch": "x86",
+      "hwids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "compatible_ids": [
+        "ROOT\\LENOVOVHID"
+      ],
+      "descriptions": [
+        "Lenovo",
+        "UMDF HID minidriver Device"
+      ],
+      "os_targets": [],
+      "zip": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x86-10.12.7.31.7z.0001",
+      "zip_parts": 1,
+      "parts": [
+        {
+          "part_num": 1,
+          "filename": "lenovo-leno-x86-10.12.7.31.7z.0001",
+          "size_bytes": 1267680,
+          "sha256": "04d891a2ca911f98984a78582ea524496fcbca124b3bcdbe5e1f8705dafb3e36",
+          "url": "https://raw.githubusercontent.com/driverdex/drivers/main/Other/DP_Lenovo_System_x64/lenovo-leno-x86-10.12.7.31.7z.0001"
+        }
+      ],
+      "date_added": "2026-09-09",
       "enabled": true,
       "supersedes": null,
       "superseded_by": null,
